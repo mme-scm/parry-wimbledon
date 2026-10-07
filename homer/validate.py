@@ -115,7 +115,16 @@ def text_block(counts):
         out.append(f"| {wk} | {len(rows)} | {total} | {missing or '-'} |")
     lines = S.read_lines()
     br = [f"{l['work']}. {l['book']}.{l['line']}" for l in lines if l.get("bracketed") == "1"]
+    sub = [f"{l['work']}. {l['book']}.{l['line']}" for l in lines if not l["line"].isdigit()]
     out.append("")
+    with_absent = []
+    for wk in ("Il", "Od"):
+        rows = [r for r in counts if r["work"] == wk and r["book"] != "ALL"]
+        total = int(next(r["lines"] for r in counts if r["work"] == wk and r["book"] == "ALL"))
+        absent = sum(len([x for x in r["missing_numbers"].split(",") if x]) for r in rows)
+        with_absent.append(f"{wk} {total} + {absent} = {total + absent}")
+    out.append(f"Sub-numbered lines (e.g. 12a): {', '.join(sub) or 'none'}.  Lines present plus absent "
+               f"numbers: {'; '.join(with_absent)}.")
     out.append(f"Lines marked `<del>` (bracketed) in the TEI: {', '.join(br) or 'none'}.")
     return out
 
@@ -300,9 +309,11 @@ def main():
     w("")
     w("## Manual checks\n")
     w("homer/manual_checks.tsv records scansions made by hand (by reasoning, not from the scanner's "
-      "output) for seeded random samples of lines.  Sample A (50 lines, seed 20261007) was checked against "
-      "an earlier state of the rules and led to one rule change (cost of `analogy_contra`), so it is "
-      "in-sample; sample B (if present) was drawn after the rules were frozen.\n")
+      "output) by the homer-tools agent for seeded random samples of lines; they are not an independent "
+      "human check.  Sample A (50 lines, seed 20261007) was checked against an earlier state of the rules; "
+      "its one disagreement (Od. 6.79, see the note in the file) led to a rule change (cost of "
+      "`analogy_contra`), so sample A is in-sample.  Sample B (30 lines, seed 777) was drawn and checked "
+      "after the rules were frozen and is held out.\n")
     w("| sample | lines | agree | disagreements |\n|---|---|---|---|")
     for smp, (n, ok, dis) in sorted(man_by_sample.items()):
         d = "; ".join(f"{c}: manual {m} vs scanner {s} ({note})" for c, m, s, note in dis) or "-"

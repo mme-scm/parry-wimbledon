@@ -61,6 +61,7 @@ lines per book and the line numbers absent from each book.
 | Il | 24 | 15687 | 9.458, 459, 460, 461; 11.543; 14.269 |
 | Od | 24 | 12107 | 10.456; 16.101; 23.49 |
 
+Sub-numbered lines (e.g. 12a): none.  Lines present plus absent numbers: Il 15687 + 6 = 15693; Od 12107 + 3 = 12110.
 Lines marked `<del>` (bracketed) in the TEI: Il. 8.548, Il. 8.550, Il. 8.551, Il. 8.552.
 <!-- END GENERATED: text -->
 
@@ -285,7 +286,7 @@ Lines: Iliad 15687, Odyssey 12107, total 27794.
 | pass 1 | 27257 (98.07%) | 532 (1.91%) | 5 (0.02%) |
 | final | 27142 (97.65%) | 647 (2.33%) | 5 (0.02%) |
 
-Final: tied best scansions 33 (0.12%). Manual checks: sample A: 50/50 agree.
+Final: tied best scansions 33 (0.12%). Manual checks: sample A: 50/50 agree; sample B: 30/30 agree.
 <!-- END GENERATED: validate.py -->
 
 Details, ablations, the failure taxonomy (50 sampled failures of the tier-0

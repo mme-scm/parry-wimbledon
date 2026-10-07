@@ -151,11 +151,12 @@ Lines that still fail with tiers 0-1 (107), by the tier-2 licence they need:
 
 ## Manual checks
 
-homer/manual_checks.tsv records scansions made by hand (by reasoning, not from the scanner's output) for seeded random samples of lines.  Sample A (50 lines, seed 20261007) was checked against an earlier state of the rules and led to one rule change (cost of `analogy_contra`), so it is in-sample; sample B (if present) was drawn after the rules were frozen.
+homer/manual_checks.tsv records scansions made by hand (by reasoning, not from the scanner's output) by the homer-tools agent for seeded random samples of lines; they are not an independent human check.  Sample A (50 lines, seed 20261007) was checked against an earlier state of the rules; its one disagreement (Od. 6.79, see the note in the file) led to a rule change (cost of `analogy_contra`), so sample A is in-sample.  Sample B (30 lines, seed 777) was drawn and checked after the rules were frozen and is held out.
 
 | sample | lines | agree | disagreements |
 |---|---|---|---|
 | A | 50 | 50 | - |
+| B | 30 | 30 | - |
 
 ## Internal consistency of α/ι/υ
 
