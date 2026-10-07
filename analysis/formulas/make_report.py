@@ -189,7 +189,7 @@ def main():
       "Held-out (I and M disjoint) it is the share of M that reuses phrases already established as repeated in I.")
     A("")
     A("**(b) System.** A frame is an n-gram (2 <= n <= 6) with exactly one slot. Slot types: `<NAME>` (a first name or surname of any of the "
-      "40 players of the 20 TennisVL matches, possessive stripped), `<NUM>` (a digit string or `love fifteen thirty forty deuce`), `<_>` "
+      f"players of the 20 TennisVL matches, {len(C.player_name_lexicon())} name tokens, possessive stripped), `<NUM>` (a digit string or `love fifteen thirty forty deuce`), `<_>` "
       "(any token). A frame is a system of I if it occurs >= 3 times in >= 3 utterances of I with >= 2 distinct fillers, has >= 1 non-STOP "
       "fixed token, and, if the slot is `<_>`, the slot is internal (fixed tokens on both sides). (a)+(b) density = share of tokens covered "
       "by a formula or by an occurrence of a system of I (any filler of the right type).")
@@ -614,11 +614,20 @@ def main():
     A("")
     A("## 10. Files")
     A("")
-    A("`plan.md` (pre-specification), `common.py` (tokeniser, STOP, identification, coverage, contexts), `refexpr.py`, scripts `f01`-`f08`, "
+    A("`plan.md` (pre-specification), `common.py` (tokeniser, STOP, identification, coverage, contexts), `refexpr.py`, scripts `f01`-`f08` (with `f04b`, post hoc), "
       "`make_report.py`, `run_all.sh`; hand inputs in `hand/`; all tables in `results/` (`formulas_2019.tsv`, `systems_2019.tsv`, "
       "`top10_for_brief.csv`, `density_*.csv`, `confirmatory.csv`, `refexpr_*.csv`, `thrift_*.csv`). Transcript excerpts in committed "
       f"files are at most 12 words (formulas {fsum['excerpt_words_written']} words in total, systems {ssum['excerpt_words_written']}) or 15 words "
       "(hand files, epithet candidates).")
+    C.write_json(R / "deviations.json", {
+        "replicate_reductions": [],
+        "excerpts": "plan section 9 allowed excerpts for the 100 most frequent formulas and 50 most frequent systems; 80 and 40 were "
+                    "written, each at most 12 words and never overlapping an already written window, to keep committed transcript text small",
+        "post_hoc_additions": ["f04b_asr_noise.py (plan.md addendum, written after C1/C2 were seen); exploratory only",
+                               "formulas_top_by_medium.csv (exploratory list, added for the report)"],
+        "inventory_fix_before_hand_labels": "refexpr.word_seq strips a trailing period so that 'Mr.' matches the title_surname pattern; "
+                                            "made before the 40-item slot sample was hand-labelled",
+    })
     # guard: committed transcript excerpts must be at most 15 words
     for name, col in (("formulas_2019.tsv", "example_excerpt_max12w"), ("systems_2019.tsv", "example_excerpt_max12w"),
                       ("epithet_candidates.tsv", "excerpt_max15w"), ("../hand/epithet_referents.tsv", "excerpt_max15w")):

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Phase 2 formula analysis: reruns every number in analysis/formulas/report.md (about 30-60 min on 4 CPUs).
+# Phase 2 formula analysis: reruns every number in analysis/formulas/report.md (about 20 min on 4 idle CPUs; longer under load).
 # Needs corpus/transcripts/*.jsonl (gitignored; rebuilt by corpus/scripts/build_corpus.sh) and, for the press baseline,
 # corpus/raw/cornell_tennis/extracted/transcripts_matchinfo.json.
 set -euo pipefail

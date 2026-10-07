@@ -1,0 +1,9 @@
+{
+ "replicate_reductions": [],
+ "excerpts": "plan section 9 allowed excerpts for the 100 most frequent formulas and 50 most frequent systems; 80 and 40 were written, each at most 12 words and never overlapping an already written window, to keep committed transcript text small",
+ "post_hoc_additions": [
+  "f04b_asr_noise.py (plan.md addendum, written after C1/C2 were seen); exploratory only",
+  "formulas_top_by_medium.csv (exploratory list, added for the report)"
+ ],
+ "inventory_fix_before_hand_labels": "refexpr.word_seq strips a trailing period so that 'Mr.' matches the title_surname pattern; made before the 40-item slot sample was hand-labelled"
+}

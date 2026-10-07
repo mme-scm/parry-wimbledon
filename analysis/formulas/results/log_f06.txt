@@ -1,0 +1,24 @@
+tv_2019wimF dtb_terc both token_within_player_slot 91 89.64 0.8403
+tv_2019wimF dtb_terc both utterance 91 88.76 0.9038
+tv_2019wimF dtb_terc djokovic token_within_player_slot 52 50.88 0.8592
+tv_2019wimF dtb_terc federer token_within_player_slot 39 38.73 0.7429
+tv_2019wimF ta_terc both token_within_player_slot 85 88.58 0.0747
+tv_2019wimF phase both token_within_player_slot 52 52.24 0.633
+tv_2019wimF score both token_within_player_slot 88 87.88 0.6031
+tv_2019wimF role both token_within_player_slot 66 67.34 0.3355
+tv_2023wimF dtb_terc both token_within_player_slot 59 60.3 0.3052
+tv_2023wimF dtb_terc both utterance 59 60.2 0.35
+tv_2023wimF dtb_terc alcaraz token_within_player_slot 27 26.73 0.798
+tv_2023wimF dtb_terc djokovic token_within_player_slot 32 33.52 0.2269
+tv_2023wimF ta_terc both token_within_player_slot 61 61.69 0.4388
+tv_2023wimF phase both token_within_player_slot 41 40.23 1.0
+tv_2023wimF score both token_within_player_slot 56 56.02 0.6116
+tv_2023wimF role both token_within_player_slot 44 45.29 0.2929
+tv_2019wimF dead_time_before_s token_within_player 0.087 0.1173
+tv_2019wimF dead_time_before_s utterance 0.087 0.1897
+tv_2019wimF time_after_s token_within_player 0.085 0.1219
+tv_2019wimF time_after_s utterance 0.085 0.1817
+tv_2023wimF dead_time_before_s token_within_player 0.024 0.7564
+tv_2023wimF dead_time_before_s utterance 0.024 0.7615
+tv_2023wimF time_after_s token_within_player 0.086 0.2305
+tv_2023wimF time_after_s utterance 0.086 0.2565
