@@ -1,0 +1,6 @@
+citation	cause	explanation	evidence
+Il. 16.857	short vowel before three consonants (ἀνδρ-)	ἀνδροτῆτα must scan ∪ ∪ – ∪, i.e. ἀν- short before νδρ; no rule of position allows this. Monro, Homeric Grammar §370 (end) suggests reading ἀδροτῆτα. Not fixed: a rule that lets a vowel stay short before νδρ would be ad hoc and would only serve these three lines.	concordance --loose ανδροτητ: 3 lines, all fail the same way
+Il. 22.363	short vowel before three consonants (ἀνδρ-)	same verse as Il. 16.857	same
+Il. 24.6	short vowel before three consonants (ἀνδρ-)	same word, ἀνδροτῆτά τε	same
+Od. 8.267	spelling of the edition	The text has εὐστεφάνου (diphthong, 3 syllables); the metre needs ἐϋστεφάνου (4 syllables), the spelling the same edition uses in the same phrase at Od. 8.288 (φιλότητος ἐυστεφάνου Κυθερείης). The Greek is not edited.	concordance --loose στεφαν: Od. 8.288, Od. 18.193, Il. 19.99 have ἐϋ-/ἐυ-
+Od. 13.364	reading of the edition	The text has θείμεν (2 syllables) at verse start, where the metre needs a dactyl; Homer elsewhere has θείομεν in this place (Il. 1.143, 23.244). The Greek is not edited.	concordance --regex "θεί(ο)?μεν": θείομεν 4x, θείμεν only here

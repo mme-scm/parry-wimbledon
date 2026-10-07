@@ -71,10 +71,12 @@ LICENCES = {
     "synizesis_cross_rare": (2, 2.0, 2, 2.0, "synizesis across a word boundary after another word (Πηλείδη ἔθελʼ)"),
     "lengthening_liquid_internal": (2, 2.0, 2, 2.5, "short vowel lengthened before a single λ μ ν ρ σ inside a word (augment/compound: ἐλίσσετο)"),
     "dichronon_contra": (1, 1.5, 1, 1.5, "α/ι/υ given the quantity contrary to its unambiguous attestations elsewhere"),
-    "analogy_contra": (1, 1.0, 1, 1.0, "α/ι/υ given a quantity contrary to other word forms sharing the same beginning (homer/dichrona_analogy.tsv)"),
+    "analogy_contra": (1, 1.5, 1, 1.5, "α/ι/υ given a quantity contrary to other word forms sharing the same beginning (homer/dichrona_analogy.tsv)"),
     "accent_contra": (1, 1.2, 1, 1.2, "α/ι/υ given a quantity contrary to the accentuation (σωτῆρα / antepenult rules)"),
 }
 MAX_TIER = 2
+# switches used only by homer/validate.py for ablation runs
+RULES = {"digamma": True, "accent_rules": True, "accent_hard": False, "disabled": frozenset()}
 
 
 SYNIZESIS_CROSS_FIRST = {"δή", "ἤ", "ἦ", "ἠ", "ἐπεί", "μή", "ἐγώ", "ἠέ", "ἤτοι"}
@@ -82,8 +84,11 @@ SYNIZESIS_CROSS_FIRST = {"δή", "ἤ", "ἦ", "ἠ", "ἐπεί", "μή", "ἐ�
 # appositives (for lexical word end; see README)
 PREPOSITIVE = set("""ὁ ἡ αἱ ἐν ἐς εἰς ἐκ ἐξ εἰ αἰ ὡς οὐ οὐκ οὐχ εἰν
 ἐνί ἀνά ἀπό ἐπί κατά μετά παρά περί πρό πρός προτί ποτί σύν ξύν ὑπό ὑπέρ ὑπείρ διά ἀμφί ἀντί
-ἀνʼ ἀπʼ ἀφʼ ἐπʼ ἐφʼ κατʼ καθʼ μετʼ μεθʼ παρʼ ὑπʼ ὑφʼ διʼ ἀμφʼ ἀντʼ ἀνθʼ κάτ πάρ ἄπο ἔπι
+ἀνʼ ἀπʼ ἀφʼ ἐπʼ ἐφʼ κατʼ καθʼ μετʼ μεθʼ παρʼ ὑπʼ ὑφʼ διʼ ἀμφʼ ἀντʼ ἀνθʼ κάτ πάρ ἄμ
 καί ἀλλά ἀλλʼ ἠδέ ἠδʼ ἰδέ ἰδʼ οὐδέ οὐδʼ μηδέ μηδʼ ἤ ἠέ μή""".split())
+# The Homeric article forms are mostly demonstrative pronouns and are NOT treated as
+# prepositives (only the unaccented proclitic ὁ ἡ αἱ are); anastrophic prepositions
+# (ἄπο, ἔπι, πάρα ...) follow their noun and are not prepositives either.
 POSTPOSITIVE = set("""δέ δʼ τε τʼ θʼ γε γʼ κε κεν κʼ ῥα ῥʼ ἄρ ἄρα ἄρʼ ἂρ περ τοι μοι σοι οἱ μιν νιν
 σφι σφιν σφε σφεας σφωε σφωιν σφισι σφισιν μευ σευ ἑο εὑ ἑ ἕθεν που πω πως ποτε ποτʼ ποθι ποθεν πη τις τι τινα τινʼ τινες τινας
 τινος τινι τευ τεο τῳ τεῳ νυ νυν θην γάρ μέν δή οὖν μʼ σʼ με σε""".split())
@@ -118,9 +123,15 @@ def loose_diaer(w):
     return G.strip_marks(w, keep_isub=True, keep_diaer=True).lower().replace("ς", "σ")
 
 
-@functools.lru_cache(maxsize=200000)
 def digamma_info(word):
     """Return (id, type) if `word` (a token core) is in the digamma list."""
+    if not RULES["digamma"]:
+        return None
+    return _digamma_info(word)
+
+
+@functools.lru_cache(maxsize=200000)
+def _digamma_info(word):
     fk = G.form_key(word)
     lo = G.loose(word)
     ld = loose_diaer(word)
@@ -310,6 +321,7 @@ def syl_options(line, span):
     merged = i != j
     cls = "L" if merged else last_n.cls
     extra_variants = []
+    weak = False   # quantity only predicted by analogy: no internal correption
     if not merged and cls == "D" and i in line.force:
         cls = line.force[i]
     elif not merged and cls == "D":
@@ -317,13 +329,15 @@ def syl_options(line, span):
             q = line.learned[i]
             cls = q
             extra_variants.append(("S" if q == "L" else "L", (("dichronon_contra", last_n.tok),)))
-        elif i in line.fixed:
+        elif i in line.fixed and RULES["accent_rules"]:
             q = line.fixed[i]
             cls = q
-            extra_variants.append(("S" if q == "L" else "L", (("accent_contra", last_n.tok),)))
+            if not RULES["accent_hard"]:
+                extra_variants.append(("S" if q == "L" else "L", (("accent_contra", last_n.tok),)))
         elif i in line.analogy:
             q = line.analogy[i]
             cls = q
+            weak = True
             extra_variants.append(("S" if q == "L" else "L", (("analogy_contra", last_n.tok),)))
     cl = line.after[j]
     final = last_n.last
@@ -346,6 +360,8 @@ def syl_options(line, span):
     for c2, extra in [(cls, ())] + extra_variants:
         for cluster, dlic in variants:
             for q, lic in _options_for_cluster(line, c2, merged, last_n, cluster, final, elided, tok, nxt_tok, j):
+                if weak and any(nm == "internal_correption" for nm, _ in lic):
+                    continue
                 opts.append((q, tuple(lic) + tuple(dlic) + tuple(extra)))
     return opts
 
@@ -522,6 +538,7 @@ def solve(line, max_tier=MAX_TIER, max_solutions=64):
     if N < 12 or N > 26:
         return []
     opt_cache = {}
+    disabled = RULES["disabled"]
 
     def options(span):
         """[(q, (cost_p, lic_p), (cost_b, lic_b))]: cheapest admissible option
@@ -529,6 +546,8 @@ def solve(line, max_tier=MAX_TIER, max_solutions=64):
         if span not in opt_cache:
             best = {}
             for q, lic in syl_options(line, span):
+                if disabled and any(nm in disabled for nm, _ in lic):
+                    continue
                 bp, bb = best.get(q, ((INF, ()), (INF, ())))
                 if _lic_tier(lic, True) <= max_tier:
                     cp = _lic_cost(lic, True)
@@ -551,7 +570,7 @@ def solve(line, max_tier=MAX_TIER, max_solutions=64):
         res = {}
         spans = [((k, k), ())]
         syn = synizesis_options(line, k)
-        if syn is not None:
+        if syn is not None and syn[0] not in disabled:
             spans.append(((k, k + 1), (syn,)))
         for span, slic in spans:
             nk = span[1] + 1
@@ -814,7 +833,8 @@ def scan(text, max_solutions=64, learned=None, max_tier=MAX_TIER, analogy=None):
             for k, i in enumerate(idxs):
                 if line.nuclei[i].cls != "D" or i in line.learned or k == len(idxs) - 1:
                     continue
-                q = analogy.get(analogy_key(line.tokens[ti].core, k + 1))
+                key = analogy_key(line.tokens[ti].core, k + 1)
+                q = analogy.get(key) if key and len(key) >= ANALOGY_MIN_KEY else None
                 if q:
                     line.analogy[i] = q
     sols, tier = [], None
@@ -1036,6 +1056,7 @@ def load_learned(path=HERE / "dichrona.tsv"):
 
 ANALOGY_MIN_FORMS = 3
 ANALOGY_MIN_SHARE = 0.9
+ANALOGY_MIN_KEY = 3   # keys shorter than 3 letters (e.g. word-initial ἀε-) are not used
 
 
 def load_analogy(path=HERE / "dichrona_analogy.tsv"):

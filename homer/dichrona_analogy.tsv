@@ -1,5 +1,4 @@
 key	quantity	forms_long	forms_short	examples
-αα	L	5	0	ἄασʼ:1L, ἀασάμην:1L, ἄασαν:1L, ἀάσατο:1L, ἄασεν:1L
 ααα	undetermined	2	0	ἀάατον:2L, ἀάατος:2L
 ααατο	undetermined	0	1	ἀάατος:3S
 ααγε	undetermined	1	0	ἀαγές:2L
@@ -96,14 +95,12 @@ key	quantity	forms_long	forms_short	examples
 αδρηστινη	undetermined	1	0	ἀδρηστίνη:3L
 αδυ	undetermined	0	1	ἀδύτοιο:1S
 αδυτο	undetermined	0	1	ἀδύτοιο:2S
-αε	L	4	0	ἀείδει:1L, ἀενάοντα:1L, ἄεσα:1L, ἀέσαμεν:1L
 αειραμε	undetermined	0	2	ἀειραμένη:3S, ἀειράμενος:3S
 αεργιη	undetermined	1	0	ἀεργίης:3L
 αερσιπο	undetermined	0	2	ἀερσίποδες:3S, ἀερσιπόδων:3S
 αεσαμε	undetermined	0	1	ἀέσαμεν:3S
 αεσιφροσυνη	undetermined	0	1	ἀεσιφροσύνῃσι:5S
 αζειδαο	undetermined	1	0	ἀζεΐδαο:4L
-αη	undetermined	1	0	ἀήρ:1L
 αησυλα	undetermined	0	1	ἀήσυλα:3S
 αθα	undetermined	14	2	ἀθανάτη:1L, ἀθανάτην:1L, ἀθανάτῃς:1L, ἀθανάτῃσι:1L, ἀθάνατοι:1L, ἀθανάτοιο:1L, ἀθανάτοις:1L, ἀθανάτοισι:1L
 αθανα	S	0	14	ἀθανάτη:2S, ἀθανάτην:2S, ἀθανάτῃς:2S, ἀθανάτῃσι:2S, ἀθάνατοι:2S, ἀθανάτοιο:2S, ἀθανάτοις:2S, ἀθανάτοισι:2S
@@ -118,7 +115,6 @@ key	quantity	forms_long	forms_short	examples
 αθυμο	undetermined	1	0	ἄθυμοι:2L
 αθυρματα	undetermined	0	1	ἀθύρματα:3S
 αθυρω	undetermined	1	0	ἀθύρων:2L
-αι	L	25	0	ἄϊδος:1L, ἄϊε:1L, ἀϊκάς:1L, ἀΐξαντα:1L, ἀΐξαντε:1L, ἀίξαντε:1L, ἀΐξας:1L, ἀΐξασα:1L
 αιακι	S	0	4	αἰακίδαο:2S, αἰακίδῃ:2S, αἰακίδην:2S, αἰακίδης:2S
 αιακιδα	undetermined	0	1	αἰακίδαο:3S
 αιακιδαο	undetermined	1	0	αἰακίδαο:4L
@@ -529,7 +525,6 @@ key	quantity	forms_long	forms_short	examples
 αξινη	undetermined	2	0	ἀξίνην:2L, ἀξίνῃσι:2L
 αξυλο	undetermined	1	0	ἄξυλον:2L
 αξυλω	undetermined	0	1	ἀξύλῳ:2S
-αο	undetermined	2	0	ἄορας:1L, ἄορι:1L
 αοιδιμο	undetermined	0	1	ἀοίδιμοι:3S
 αολλισσασα	undetermined	1	0	ἀολλίσσασα:4L
 απα	S	0	66	ἀπαγγεῖλαι:1S, ἀπαγγείλας:1S, ἀπαγγείλειε:1S, ἀπαγγείλῃσι:1S, ἀπαγγέλλεσκε:1S, ἀπαγγέλλων:1S, ἀπάγουσι:1S, ἀπαειρόμενον:1S
@@ -2369,7 +2364,6 @@ key	quantity	forms_long	forms_short	examples
 θυσσανο	undetermined	0	1	θυσσανόεσσαν:2S
 θυω	undetermined	1	0	θύων:1L
 θωρηκταω	undetermined	1	0	θωρηκτάων:3L
-ια	L	15	0	ἰά:1L, ἰαίνετο:1L, ἰαμενόν:1L, ἰάνθη:1L, ἰανθῇ:1L, ἰάπετος:1L, ἰασίδαο:1L, ἰασίδῃ:1L
 ιαμε	undetermined	0	1	ἰαμενόν:2S
 ιανα	undetermined	0	1	ἰάνασσα:2S
 ιανε	undetermined	0	1	ἰάνειρα:2S
@@ -2394,12 +2388,10 @@ key	quantity	forms_long	forms_short	examples
 ιδρυσε	undetermined	1	0	ἵδρυσε:2L
 ιδυ	S	0	5	ἰδυῖα:1S, ἰδυῖαν:1S, ἰδυίας:1S, ἰδυίῃ:1S, ἰδυίῃσι:1S
 ιδω	S	0	8	ἴδω:1S, ἴδωμʼ:1S, ἴδωμαι:1S, ἰδώμεθα:1S, ἴδωμεν:1S, ἴδωμι:1S, ἰδών:1S, ἴδωσι:1S
-ιε	L	22	0	ἵει:1L, ἱεῖσαι:1L, ἱέμεναι:1L, ἱεμένη:1L, ἱεμένην:1L, ἱέμενοι:1L, ἱεμένοιο:1L, ἱέμενον:1L
 ιεραω	undetermined	1	0	ἱεράων:3L
 ιερευσατε	undetermined	0	1	ἱερεύσατε:4S
 ιζανε	undetermined	0	2	ἱζάνει:2S, ἵζανεν:2S
 ιζανο	undetermined	0	1	ἵζανον:2S
-ιη	L	10	0	ἰησάμενοι:1L, ἰήσασθαι:1L, ἰήσατο:1L, ἰήσεται:1L, ἰητήρ:1L, ἰητῆρʼ:1L, ἰητῆρος:1L, ἰητροί:1L
 ιηλυσο	undetermined	1	0	ἰηλυσόν:3L
 ιηνατε	undetermined	0	1	ἰήνατε:3S
 ιησαμε	undetermined	0	1	ἰησάμενοι:3S
@@ -2456,7 +2448,6 @@ key	quantity	forms_long	forms_short	examples
 ινω	undetermined	1	0	ἰνώ:1L
 ιξαλο	undetermined	0	1	ἰξάλου:2S
 ιξιο	undetermined	1	0	ἰξιονίης:2L
-ιο	L	10	0	ἰοδόκον:1L, ἰοδόκος:1L, ἰοί:1L, ἰοῖσιν:1L, ἴομεν:1L, ἰόν:1L, ἰός:1L, ἰούς:1L
 ιονθαδο	undetermined	0	1	ἰονθάδος:3S
 ιππασι	undetermined	0	2	ἱππασίδην:2S, ἱππασίδῃσι:2S
 ιππασιδη	undetermined	0	2	ἱππασίδην:3S, ἱππασίδῃσι:3S
@@ -2504,7 +2495,6 @@ key	quantity	forms_long	forms_short	examples
 ιτυλο	undetermined	0	1	ἴτυλον:2S
 ιτυμο	undetermined	0	1	ἰτυμονῆα:2S
 ιτω	undetermined	1	1	ἴτω:1S, ἴτωνα:1L
-ιυ	L	3	0	ἰυγμῷ:1L, ἰΰζοντες:1L, ἰύζουσιν:1L
 ιφε	undetermined	1	0	ἰφέα:1L
 ιφθιμα	undetermined	1	0	ἴφθιμα:2L
 ιφθιμη	L	3	0	ἰφθίμη:2L, ἰφθίμῃ:2L, ἰφθίμην:2L
@@ -2519,7 +2509,6 @@ key	quantity	forms_long	forms_short	examples
 ιφιτο	undetermined	1	2	ἴφιτον:2S, ἴφιτος:2S, ἰφίτου:2L
 ιχθυσι	undetermined	0	2	ἰχθύσι:2S, ἰχθύσιν:2S
 ιχω	undetermined	2	0	ἰχῶ:1L, ἰχώρ:1L
-ιω	L	3	0	ἰῷ:1L, ἰῶν:1L, ἰωχμόν:1L
 καββαλε	undetermined	0	2	κάββαλε:2S, κάββαλεν:2S
 καβη	undetermined	0	1	καβησόθεν:1S
 καγκανα	undetermined	0	1	κάγκανα:2S
@@ -4672,7 +4661,6 @@ key	quantity	forms_long	forms_short	examples
 υδατο	undetermined	0	1	ὕδατος:2S
 υδη	undetermined	0	1	ὕδης:1S
 υδρηναμε	undetermined	0	1	ὑδρηναμένη:3S
-υε	undetermined	1	0	ὑετόν:1L
 υιασι	undetermined	0	2	υἱάσι:2S, υἱάσιν:2S
 υλα	undetermined	2	6	ὑλαγμόν:1S, ὑλακίδης:1L, ὑλακόμωροι:1L, ὑλάκτει:1S, ὑλάκτεον:1S, ὕλαον:1S, ὑλάοντο:1S, ὑλάουσιν:1S
 υλακι	undetermined	0	1	ὑλακίδης:2S
@@ -4684,7 +4672,6 @@ key	quantity	forms_long	forms_short	examples
 υμε	L	15	0	ὑμέας:1L, ὑμεῖς:1L, ὑμείων:1L, ὑμετέρῃ:1L, ὑμετέρης:1L, ὑμετέρῃσιν:1L, ὑμετέροισι:1L, ὑμετέροισιν:1L
 υμη	L	3	0	ὑμή:1L, ὑμήν:1L, ὑμῆς:1L
 υμι	undetermined	2	0	ὑμῖν:1L, ὕμιν:1L
-υο	undetermined	1	0	ὑόμενος:1L
 υπα	S	0	22	ὕπαγε:1S, ὕπαγον:1S, ὑπαί:1S, ὕπαιθα:1S, ὑπαΐξας:1S, ὑπαΐξει:1S, ὑπακούει:1S, ὑπακοῦσαι:1S
 υπαγε	undetermined	0	1	ὕπαγε:2S
 υπαγο	undetermined	0	1	ὕπαγον:2S

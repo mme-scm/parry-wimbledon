@@ -5,6 +5,7 @@ Orchestrator log. Phase table at the bottom is printed at the end of every turn.
 ## Decisions
 - 2026-10-07: Project started. Python venv in .venv; requirements.txt committed.
 - 2026-10-07: homer-tools (Phase 1 tool build) started during Phase 0 because it has no dependency on the corpus choice; corpus-builder waits for Phase 0.
+- 2026-10-07: Phase 2 analysts (formula-analyst, metre-analyst) started as soon as the corpus half of Phase 1 was verified; they do not use homer/. The Homer-tools verification of Phase 1 continues in parallel.
 
 ## Phase 0: corpus choice (DONE 2026-10-07)
 Orchestrator verified every USE source by opening the downloaded files (scratch script verify_phase0.py; results below).
@@ -22,7 +23,16 @@ Reasons, in the order PHASES.md prescribes: (1) no acceptable source has any mat
 Licence notes: TennisVL terms "strictly for academic research in sports video understanding"; MCP and slam PBP CC BY-NC-SA 4.0; Cornell data released with a paper, no licence stated. Full transcripts are never committed (corpus/transcripts/*.jsonl gitignored); only derived tables and excerpts of at most 15 words.
 
 ## Validation figures
-(filled per phase)
+
+### Phase 1, corpus half (orchestrator checks, 2026-10-07)
+- Corpus built by `bash corpus/scripts/build_corpus.sh` (deterministic, ~40 s). Streams: tv_2019wimF 481 clips / 373 with text / 9,702 words after de-duplication; tv_2023wimF 368 / 271 / 7,168; 18 pool streams 103,074 words; text_cornell 175,569 words. Full texts gitignored; manifest with sha256 committed.
+- Builder's figures: clip-to-point alignment 473/481 (98.3%) for 2019, 348/368 for 2023; MCP and PBP keys agree on 100% of points; video-to-match-clock offset 26.72 s constant, residual SD 0.28 s (2019); TennisVL shot count = MCP in 82.1% of 358 points (96.9% within one); hand sample of 20 score calls: 14/20 exact, 2 within two points, 4 unconfirmed; ASR proxy 22 errors per 1,000 words (Wilson 95% CI 12-39), a lower bound.
+- Check (3), orchestrator: read three stretches of consecutive clips, 579 words in total (seed 7). Counted 13-15 ASR errors (garbles such as "Bedclothes service", "50 no", "Van Dijk", "net caught"; impossible score calls; one "Seven women in finals"), i.e. about 22-26 per 1,000 words, consistent with the builder's lower bound. Verdict: claimed rate acceptable; true WER is higher because plausible-word substitutions are invisible without audio. Errors cluster in short score-call clips, names and idioms.
+- Check (4), orchestrator: 20 random points (seed 7) re-derived from the raw TennisVL JSON and the raw MCP codes. Hit times in corpus/timing/shots_2019wimF.csv equal the raw `hit_timestamp_second` values in 20/20 (my first pass showed 4 mismatches that were my own filter on fault/ace clips). My own parse of MCP shot codes equals the builder's mcp_n_shots in 20/20. TennisVL n_shots equals MCP in 15/20, matching the builder's 82%. Conclusion: the derived tables faithfully reproduce their sources; TennisVL's automatic shot parse itself disagrees with human charting in about one point in five, so rally-duration figures carry that noise, while per-point match clock (PBP ElapsedTime, 1 s resolution) is independent of it.
+- Not applicable: no audio, so no faster-whisper run, no spectrograms, no librosa onsets.
+
+### Phase 1, Homer tools half
+(pending homer-tools)
 
 ## Open issues
 (see FOR_HUMAN.md for items needing human judgment)
@@ -31,8 +41,8 @@ Licence notes: TennisVL terms "strictly for academic research in sports video un
 | Phase | Name | Status | Notes |
 |---|---|---|---|
 | 0 | Find the corpus | DONE | 2019 Wimbledon F; held-out 2023 Wimbledon F; see Phase 0 section |
-| 1 | Tools and corpus | IN PROGRESS | homer-tools running; corpus-builder starting |
-| 2 | Analyses | NOT STARTED | |
+| 1 | Tools and corpus | IN PROGRESS | corpus verified; homer-tools running |
+| 2 | Analyses | IN PROGRESS | formula-analyst, metre-analyst running |
 | 3 | Brief | NOT STARTED | |
 | 4 | Composition | NOT STARTED | |
 | 5 | Translation | NOT STARTED | |

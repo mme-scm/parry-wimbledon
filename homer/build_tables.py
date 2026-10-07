@@ -101,7 +101,7 @@ def build_analogy(dichrona_rows_path=HERE / "dichrona.tsv"):
     examples = collections.defaultdict(list)
     for (form, vn), q in learned.items():
         key = S.analogy_key(form, vn)
-        if key is None:
+        if key is None or len(key) < S.ANALOGY_MIN_KEY:
             continue
         cnt[key][q] += 1
         if len(examples[key]) < 8:
@@ -126,7 +126,7 @@ def evaluate_analogy(dichrona_path=HERE / "dichrona.tsv"):
         items = []
         for (form, vn), q in learned.items():
             k = S.analogy_key(form, vn, extra)
-            if k is None:
+            if k is None or len(k) < S.ANALOGY_MIN_KEY:
                 continue
             cnt[k][q] += 1
             items.append((k, q))
