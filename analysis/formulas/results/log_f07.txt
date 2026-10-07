@@ -1,6 +1,6 @@
 C1 0.5503 0.6612 -0.1109 0.00019998000199980003 0.0011998800119988001 indeterminate pending a WER estimate
 R1 0.5945 0.6612 -0.0667 0.00019998000199980003 0.000999900009999 indeterminate pending a WER estimate
-C2 0.1618 0.353 -0.1912 0.001998001998001998 0.00999000999000999 corpus difference: 95% interval of differences excludes 0 (not a medium effect)
+C2 0.1618 0.353 -0.1912 0.001998001998001998 0.00999000999000999 corpus difference: 95% interval of differences excludes 0 (not attributable to medium)
 C3a 0.5541 0.5505 0.0036 0.8770245950809838 1.0 not rejected; MDE (80% power, alpha 0.05) = 6.4 pp
 C3b 0.5255 0.5509 -0.0254 0.30293941211757647 0.9088182363527294 not rejected; MDE (80% power, alpha 0.05) = 7.0 pp
 R3a 0.606 0.5911 0.0149 0.5198960207958409 0.694732 not rejected; MDE (80% power, alpha 0.05) = 6.5 pp

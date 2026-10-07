@@ -150,7 +150,7 @@ def main():
             t = next(r for r in th if r["token_set"] == tset and r["stream"] == stream and r["context"] == "dtb_terc"
                      and r["players"] == "both" and r["permutation"] == "token_within_player_slot")
             rows.append({"id": cid + suffix, "family": fam + ("" if not suffix else "_sensitivity"),
-                         "status": "confirmatory" if not suffix else "sensitivity (pre-registered token set, incl. umpire patterns)",
+                         "status": "confirmatory (revised post hoc: umpire-pattern tokens excluded, plan addendum 2)" if not suffix else "sensitivity (pre-registered token set, incl. umpire patterns)",
                          "hypothesis": f"thrift: distinct expressions per player x slot x dead-time tercile below permutation null ({tset})",
                          "estimate_x": float(t["D_observed"]), "estimate_y": float(t["null_mean"]),
                          "difference": float(t["D_observed"]) - float(t["null_mean"]),
@@ -164,7 +164,7 @@ def main():
             t = next(r for r in lt if r["token_set"] == tset and r["stream"] == stream and r["time"] == "dead_time_before_s"
                      and r["permutation"] == "token_within_player")
             rows.append({"id": cid + suffix, "family": fam + ("" if not suffix else "_sensitivity"),
-                         "status": "confirmatory" if not suffix else "sensitivity (pre-registered token set, incl. umpire patterns)",
+                         "status": "confirmatory (revised post hoc: umpire-pattern tokens excluded, plan addendum 2)" if not suffix else "sensitivity (pre-registered token set, incl. umpire patterns)",
                          "hypothesis": f"extension: Spearman rho of expression length (syllables) with dead_time_before_s ({tset})",
                          "estimate_x": float(t["rho"]), "estimate_y": float(t["null_mean"]), "difference": float(t["rho"]),
                          "diff_lo": float(t["null_lo"]), "diff_hi": float(t["null_hi"]), "p": float(t["p_two_sided"]),
@@ -190,12 +190,13 @@ def main():
         cid = r["id"].split("_")[0]
         r["reject_at_0.05"] = bool(r["p_holm"] < 0.05)
         if cid in ("C1", "R1"):
+            r["reject_at_0.05"] = False  # not a decision: the contrast is uninterpretable without a WER estimate
             r["verdict"] = "indeterminate pending a WER estimate"
             r["inferential_statistic"] = "95% interval of differences; p is a replicate-overlap share" + \
                                          (" at its floor" if r.get("p_at_floor") else "")
         elif cid == "C2":
             excl = r["diff_lo"] > 0 or r["diff_hi"] < 0
-            r["verdict"] = ("corpus difference: 95% interval of differences excludes 0 (not a medium effect)" if excl else
+            r["verdict"] = ("corpus difference: 95% interval of differences excludes 0 (not attributable to medium)" if excl else
                             "no corpus difference detected: 95% interval of differences includes 0")
             r["inferential_statistic"] = "95% interval of differences; p is a replicate-overlap share" + \
                                          (" at its floor 2/(R+1), not a calibrated test" if r.get("p_at_floor") else "")
