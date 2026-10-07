@@ -1,0 +1,76 @@
+corpus,rank,formula,n,utterances,utterances_per_1000_tokens
+tv_2019wimF,1,a little bit,3,14,1.43
+tv_2019wimF,2,the first set,3,8,0.82
+tv_2019wimF,3,of the match,3,7,0.71
+tv_2019wimF,4,the fifth set,3,7,0.71
+tv_2019wimF,5,at the moment,3,6,0.61
+tv_2019wimF,6,down the line,3,6,0.61
+tv_2019wimF,7,going to be,3,6,0.61
+tv_2019wimF,8,in the fifth,3,6,0.61
+tv_2019wimF,9,the second set,3,6,0.61
+tv_2019wimF,10,and a half,3,5,0.51
+tv_2019wimF,11,at the end,3,5,0.51
+tv_2019wimF,12,at this point,3,5,0.51
+tv_2019wimF,13,is going to,3,5,0.51
+tv_2019wimF,14,the first point,3,5,0.51
+tv_2019wimF,15,the semi final,3,5,0.51
+tv_2019wimF,16,time in the,3,5,0.51
+tv_2019wimF,17,has two challenges remaining,4,4,0.41
+tv_2019wimF,18,in the fifth set,4,4,0.41
+tv_2019wimF,19,line ball was called,4,4,0.41
+tv_2019wimF,20,a lot of,3,4,0.41
+tv_2019wimF,21,djokovic has won,3,4,0.41
+tv_2019wimF,22,djokovic leads by,3,4,0.41
+tv_2019wimF,23,games to one,3,4,0.41
+tv_2019wimF,24,going to have,3,4,0.41
+tv_2019wimF,25,i think he,3,4,0.41
+tv_pool_18_matches,1,a little bit,3,139,1.34
+tv_pool_18_matches,2,a lot of,3,93,0.90
+tv_pool_18_matches,3,of the court,3,68,0.66
+tv_pool_18_matches,4,a couple of,3,66,0.64
+tv_pool_18_matches,5,going to be,3,62,0.60
+tv_pool_18_matches,6,down the line,3,54,0.52
+tv_pool_18_matches,7,at the moment,3,51,0.49
+tv_pool_18_matches,8,one of the,3,51,0.49
+tv_pool_18_matches,9,the second set,3,43,0.41
+tv_pool_18_matches,10,in the second,3,37,0.36
+tv_pool_18_matches,11,the first serve,3,37,0.36
+tv_pool_18_matches,12,is going to,3,36,0.35
+tv_pool_18_matches,13,a bit of,3,35,0.34
+tv_pool_18_matches,14,little bit of,3,34,0.33
+tv_pool_18_matches,15,in this match,3,33,0.32
+tv_pool_18_matches,16,in the first,3,32,0.31
+tv_pool_18_matches,17,the first set,3,32,0.31
+tv_pool_18_matches,18,a little bit of,4,30,0.29
+tv_pool_18_matches,19,he's going to,3,30,0.29
+tv_pool_18_matches,20,two sets to,3,30,0.29
+tv_pool_18_matches,21,you can see,3,30,0.29
+tv_pool_18_matches,22,to try and,3,29,0.28
+tv_pool_18_matches,23,in this set,3,28,0.27
+tv_pool_18_matches,24,bit of a,3,27,0.26
+tv_pool_18_matches,25,the drop shot,3,27,0.26
+text_cornell,1,into the net,3,366,2.05
+text_cornell,2,a couple of,3,231,1.29
+text_cornell,3,of the match,3,229,1.28
+text_cornell,4,down the line,3,223,1.25
+text_cornell,5,the world number,3,221,1.24
+text_cornell,6,the next point,3,206,1.15
+text_cornell,7,the game with,3,202,1.13
+text_cornell,8,at the net,3,200,1.12
+text_cornell,9,a double fault,3,198,1.11
+text_cornell,10,with a forehand,3,191,1.07
+text_cornell,11,with an ace,3,166,0.93
+text_cornell,12,a forehand winner,3,153,0.86
+text_cornell,13,of the court,3,149,0.83
+text_cornell,14,two break points,3,148,0.83
+text_cornell,15,the second set,3,145,0.81
+text_cornell,16,game with a,3,141,0.79
+text_cornell,17,a break point,3,140,0.78
+text_cornell,18,to take the,3,137,0.77
+text_cornell,19,world number one,3,137,0.77
+text_cornell,20,on the next,3,134,0.75
+text_cornell,21,of the game,3,133,0.74
+text_cornell,22,the net to,3,131,0.73
+text_cornell,23,the world number one,4,123,0.69
+text_cornell,24,serve for the,3,122,0.68
+text_cornell,25,from the baseline,3,120,0.67

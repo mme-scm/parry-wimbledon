@@ -139,6 +139,31 @@ def main():
       f"The press answers (Cornell release, {mmeta['press_interviewees']} interviewees, 2007-2015) are human transcripts of a non-live genre; "
       f"`corpus/SOURCES.md` lists them as DON'T USE *as commentary*; they are used only as a baseline (FOR_HUMAN.md).")
     A("")
+    A("## Key results")
+    A("")
+    c1k, c2k = cf("C1"), cf("C2")
+    tvsp = medv("D5i_matched_2019_size", "tv_pool_all", "splithalf", "a")
+    txsp = medv("D5i_matched_2019_size", C.TEXT, "splithalf", "a")
+    prsp = medv("D5i_matched_2019_size", "press_answers", "splithalf", "a")
+    nrej = sum(1 for r in conf if r["family"] == "2019" and r["reject_at_0.05"] == "True")
+    nrej23 = sum(1 for r in conf if r["family"] == "2023_replication" and r["reject_at_0.05"] == "True")
+    A(f"* (a) exact formulas cover {pc(d1['density'])}% {ci(d1['ci_lo'], d1['ci_hi'])} of the 2019 final in-sample, {pc(d2['density'])}% "
+      f"{ci(d2['ci_lo'], d2['ci_hi'])} split-half, and {pc(d3['density'])}% {ci(d3['ci_lo'], d3['ci_hi'])} when identified on 18 other matches; "
+      f"(a)+(b) {pc(d1b['density'])}%, {pc(d2b['density'])}%, {pc(d3b['density'])}%. Formulas of the 2019 final cover {pc(d3x['density'])}% "
+      f"{ci(d3x['ci_lo'], d3x['ci_hi'])} of the held-out 2023 final ((a)+(b) {pc(d3xb['density'])}%).")
+    A(f"* Baselines with the same procedure: shuffled words {pc(sh_in['density'])}% in-sample, {pc(sh_sp['density'])}% split-half. "
+      f"At matched size (split-half, {T19:,} tokens) TV commentary {pc(tvsp['mean'])}%, written live text {pc(txsp['mean'])}%, "
+      f"press answers {pc(prsp['mean'])}%.")
+    A(f"* Confirmatory family (Holm): {nrej} of 6 null hypotheses rejected for 2019; {nrej23} of 5 in the 2023 replication (section 4).")
+    timing = [cf(x) for x in ("C3a", "C3b", "C4", "C5")]
+    sur = [float(r["share_surname"]) for r in ext]
+    epi = [float(r["share_epithet"]) for r in ext]
+    A(f"* Naming: the bare surname is {pc(min(sur), 0)}-{pc(max(sur), 0)}% of each player's references and descriptive epithets "
+      f"{pc(min(epi), 0)}-{pc(max(epi), 0)}% (section 5). " +
+      ("No timing test was significant: neither formulaic density (C3a, C3b) nor the choice (C4) or length (C5) of names tracks the time "
+       "available around the point." if not any(r["reject_at_0.05"] == "True" for r in timing) else
+       "Timing tests rejected: " + ", ".join(r["id"] for r in timing if r["reject_at_0.05"] == "True") + "."))
+    A("")
     A("## 1. Definitions (exact)")
     A("")
     A("**Tokens.** NFKC; curly quotes to `'`; hyphens, dashes and `/` to space; lower-case; token = `[a-z0-9]+(?:'[a-z0-9]+)*` "
@@ -218,6 +243,20 @@ def main():
             [[r["rank"], f"`{r['frame']}`", r["slot_type"], r["occurrences"], r["utterances"],
               "; ".join(r["top_fillers"].split("; ")[:5]), pc(r["coverage_share"], 2), pc(r["coverage_beyond_a_share"], 2),
               r["pool_streams_attested"]] for r in s19[:25]]))
+    A("")
+    tbm = rcsv("formulas_top_by_medium.csv")
+    A("**Table 2.6. Most widespread formulas of n >= 3 in each corpus** (exploratory; each corpus identified on itself, whole corpus; "
+      "utterance counts and rate per 1,000 tokens; n-grams contained in a longer listed one with the same count dropped).")
+    A("")
+    cn = ["tv_2019wimF", "tv_pool_18_matches", "text_cornell"]
+    rows = []
+    for k in range(1, 16):
+        row = [k]
+        for c_ in cn:
+            r = next((x for x in tbm if x["corpus"] == c_ and int(x["rank"]) == k), None)
+            row.append(f"`{r['formula']}` {r['utterances']} ({r['utterances_per_1000_tokens']})" if r else "")
+        rows.append(row)
+    A(table(["rank", "2019 final", "TV pool (18 matches)", "Cornell live text"], rows))
     A("")
     A(f"ASR in score calls: of {ssum['score_call_frame_filler_occurrences']} filler occurrences in two-token score-call frames, "
       f"{ssum['score_call_fillers_not_score_words']} are not possible score words (" +
@@ -509,6 +548,11 @@ def main():
       "`top10_for_brief.csv`, `density_*.csv`, `confirmatory.csv`, `refexpr_*.csv`, `thrift_*.csv`). Transcript excerpts in committed "
       f"files are at most 12 words (formulas {fsum['excerpt_words_written']} words in total, systems {ssum['excerpt_words_written']}) or 15 words "
       "(hand files, epithet candidates).")
+    # guard: committed transcript excerpts must be at most 15 words
+    for name, col in (("formulas_2019.tsv", "example_excerpt_max12w"), ("systems_2019.tsv", "example_excerpt_max12w"),
+                      ("epithet_candidates.tsv", "excerpt_max15w"), ("../hand/epithet_referents.tsv", "excerpt_max15w")):
+        for r in rcsv(name, "\t"):
+            assert len(r[col].split()) <= 15, (name, r[col])
     (C.HERE / "report.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("report.md written:", len(L), "lines")
 

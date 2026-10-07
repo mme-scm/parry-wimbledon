@@ -141,6 +141,30 @@ def main():
         for k in range(0, 19):
             w.writerow([k, cs.get(k, 0)])
 
+    # exploratory: most widespread n >= 3 formulas in each medium, identified on the whole corpus (no excerpts)
+    tops = []
+    cornell = [r["toks"] for r in C.load_stream(C.TEXT)]
+    pool_utts = [r["toks"] for s in pool for r in C.load_stream(s)]
+    for cname, cu in (("tv_2019wimF", utts), ("tv_pool_18_matches", pool_utts), ("text_cornell", cornell)):
+        uc, _ = C.ngram_utt_counts(cu, nmax=7, nmin=3)
+        tok = sum(map(len, cu))
+        cand = [(g, c) for g, c in uc.items() if c >= 2 and not all(t in C.STOP for t in g)]
+        cand.sort(key=lambda x: (-x[1], -len(x[0]), " ".join(x[0])))
+        # drop n-grams contained in a longer listed one with the same count
+        kept = []
+        for g, c in cand:
+            if any(c == c2 and len(g2) > len(g) and f" {' '.join(g)} " in f" {' '.join(g2)} " for g2, c2 in cand[:200]):
+                continue
+            kept.append((g, c))
+            if len(kept) == 25:
+                break
+        for k, (g, c) in enumerate(kept, 1):
+            tops.append([cname, k, " ".join(g), len(g), c, f"{1000 * c / tok:.2f}"])
+    with open(C.RESULTS / "formulas_top_by_medium.csv", "w", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(["corpus", "rank", "formula", "n", "utterances", "utterances_per_1000_tokens"])
+        w.writerows(tops)
+
     covered = sum(int((C.cover_a(t, F) > 0).sum()) for t in utts)
     C.write_json(C.RESULTS / "formulas_summary.json", {
         "stream": C.MAIN, "utterances": len(utts), "tokens": T, "pool_tokens": pool_tokens,
