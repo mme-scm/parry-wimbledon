@@ -66,9 +66,12 @@ LICENCES = {
     "synizesis_cross": (1, 0.8, 1, 0.8, "synizesis across a word boundary (δή, ἤ, ἐπεί, μή, ἐγώ + vowel)"),
     "digamma": (0, 0.05, 0, 0.05, "initial ϝ (lost digamma) counted as a consonant"),
     "digamma_double": (1, 0.5, 1, 1.0, "initial σϝ/δϝ counted as two consonants"),
+    "synizesis_rare": (2, 2.0, 2, 2.0, "synizesis of other vowel pairs inside a word (ἤιομεν)"),
+    "digamma_internal": (0, 0.05, 0, 0.05, "δϝ after the augment counts as two consonants (ἔδεισα = ἔδδεισα)"),
     "synizesis_cross_rare": (2, 2.0, 2, 2.0, "synizesis across a word boundary after another word (Πηλείδη ἔθελʼ)"),
     "lengthening_liquid_internal": (2, 2.0, 2, 2.5, "short vowel lengthened before a single λ μ ν ρ σ inside a word (augment/compound: ἐλίσσετο)"),
     "dichronon_contra": (1, 1.5, 1, 1.5, "α/ι/υ given the quantity contrary to its unambiguous attestations elsewhere"),
+    "analogy_contra": (1, 1.0, 1, 1.0, "α/ι/υ given a quantity contrary to other word forms sharing the same beginning (homer/dichrona_analogy.tsv)"),
     "accent_contra": (1, 1.2, 1, 1.2, "α/ι/υ given a quantity contrary to the accentuation (σωτῆρα / antepenult rules)"),
 }
 MAX_TIER = 2
@@ -255,6 +258,8 @@ class Line:
         # accent-based fixing of dichrona
         self.fixed = {}
         self.learned = {}
+        self.force = {}
+        self.analogy = {}
         for ti, idxs in enumerate(self.tok_nuclei):
             if not idxs:
                 continue
@@ -305,7 +310,9 @@ def syl_options(line, span):
     merged = i != j
     cls = "L" if merged else last_n.cls
     extra_variants = []
-    if not merged and cls == "D":
+    if not merged and cls == "D" and i in line.force:
+        cls = line.force[i]
+    elif not merged and cls == "D":
         if i in line.learned:
             q = line.learned[i]
             cls = q
@@ -314,6 +321,10 @@ def syl_options(line, span):
             q = line.fixed[i]
             cls = q
             extra_variants.append(("S" if q == "L" else "L", (("accent_contra", last_n.tok),)))
+        elif i in line.analogy:
+            q = line.analogy[i]
+            cls = q
+            extra_variants.append(("S" if q == "L" else "L", (("analogy_contra", last_n.tok),)))
     cl = line.after[j]
     final = last_n.last
     tok = last_n.tok
@@ -328,6 +339,9 @@ def syl_options(line, span):
             variants.append((cl + "ϝϝ", (("digamma_double", nxt_tok),)))
     if nxt_tok is not None and line.digamma[nxt_tok] and line.digamma[nxt_tok][1] == "dw":
         variants.append((cl + "ϝ", (("digamma_double", nxt_tok),)))
+    if (not final and last_n.widx == 0 and line.digamma[tok] and line.digamma[tok][1] == "dw_aug"
+            and cl == "δ"):
+        variants.append(("δϝ", (("digamma_internal", tok),)))
     opts = []
     for c2, extra in [(cls, ())] + extra_variants:
         for cluster, dlic in variants:
@@ -444,7 +458,7 @@ def synizesis_options(line, i):
             return ("synizesis_i", a.tok)
         if ab == "ο" and "".join(l.base for l in b.lets)[0] in "οω":
             return ("synizesis", a.tok)
-        return None
+        return ("synizesis_rare", a.tok)
     # across words: a is last of its word, b first of next, nothing between
     if a.last and b.first and cl == "|" and not line.tokens[a.tok].elided:
         if G.form_key(line.tokens[a.tok].core) in SYNIZESIS_CROSS_FIRST:
@@ -766,7 +780,24 @@ def signature(sc):
     return tuple((span, q) for span, q, _, _ in sc.syls)
 
 
-def scan(text, max_solutions=64, learned=None, max_tier=MAX_TIER):
+ANALOGY_EXTRA = 0  # letters beyond the next vowel included in the key (chosen by
+                   # leave-one-out evaluation in build_tables.py)
+
+
+def analogy_key(word, vowel_no, extra=None):
+    """Loose letters of `word` from its start through the first letter of the
+    nucleus after nucleus number `vowel_no` (1-based), plus `extra` letters;
+    None for the last nucleus."""
+    extra = ANALOGY_EXTRA if extra is None else extra
+    ls = [l for l in letters_of(word) if l.is_vowel or l.is_cons]
+    nr = word_nuclei(ls)
+    if vowel_no >= len(nr):
+        return None
+    end = nr[vowel_no][0] + 1 + extra
+    return "".join(l.base for l in ls[:end])
+
+
+def scan(text, max_solutions=64, learned=None, max_tier=MAX_TIER, analogy=None):
     """Scan a verse.  `learned` maps (form_key, nucleus_index_in_word) -> 'L'/'S'
     (dichrona fixed by unambiguous attestations; see build_tables.py).
     Tries tiers 0..max_tier and keeps the first tier with any scansion."""
@@ -778,6 +809,14 @@ def scan(text, max_solutions=64, learned=None, max_tier=MAX_TIER):
                 q = learned.get((fk, k + 1))
                 if q and line.nuclei[i].cls == "D":
                     line.learned[i] = q
+    if analogy:
+        for ti, idxs in enumerate(line.tok_nuclei):
+            for k, i in enumerate(idxs):
+                if line.nuclei[i].cls != "D" or i in line.learned or k == len(idxs) - 1:
+                    continue
+                q = analogy.get(analogy_key(line.tokens[ti].core, k + 1))
+                if q:
+                    line.analogy[i] = q
     sols, tier = [], None
     for t in range(0, max_tier + 1):
         sols = solve(line, max_tier=t, max_solutions=max_solutions)
@@ -832,33 +871,115 @@ def describe(res, all_solutions=False):
 # ---------------------------------------------------------------------------
 # corpus mode
 # ---------------------------------------------------------------------------
-COLUMNS = ["work", "book", "line", "status", "n_scansions", "n_best", "pattern", "alt_patterns",
+COLUMNS = ["work", "book", "line", "status", "tier", "n_scansions", "n_best", "pattern", "alt_patterns",
            "quantities", "syllables", "word_meter", "word_positions", "wordend_orth", "wordend_lex",
-           "caesurae", "bucolic", "licences", "anomalies", "cost"]
+           "caesurae", "bucolic", "licences", "features", "anomalies", "cost"]
+FEATURES = {"spondeiazon", "naeke_bridge"}
+QUANTITY_LICENCES = {"correption", "hiatus_long", "internal_correption", "lengthening_liquid",
+                     "lengthening_closed", "lengthening_hiatus", "metrical_lengthening",
+                     "lengthening_liquid_internal", "dichronon_contra"}
 
 
-def _scan_row(args):
-    work, book, ln, text = args
+def dichronon_attestations(line, sc, tier):
+    """Dichrona whose quantity this (unique) scansion fixes.  A vowel counts
+    only if (a) its syllable is open or prevocalic so that the syllable
+    quantity shows the vowel quantity, (b) no licence that changes quantity
+    could apply in that context, and (c) forcing the opposite quantity leaves
+    no scansion even when the tier-1 licences are allowed."""
+    out = []
+    nucs = line.nuclei
+    for k, (span, q, state, lic) in enumerate(sc.syls):
+        if span[0] != span[1] or q == "X":
+            continue
+        i = span[0]
+        n = nucs[i]
+        if n.cls != "D":
+            continue
+        names = {nm for nm, _ in lic}
+        if names & (QUANTITY_LICENCES - {"dichronon_contra"}):
+            continue
+        cl = line.after[i]
+        if "digamma" in names:
+            cl += "ϝ"
+        if "digamma_double" in names or "digamma_internal" in names:
+            cl += "ϝϝ"
+        nn = ccount(cl)
+        cons = cl.replace("|", "").replace("ϝ", "")
+        princeps = state[1] == 0
+        final = n.last
+        if q == "S":
+            if nn == 0 and final:
+                continue
+            env = "prevocalic" if nn == 0 else ("mcl" if nn >= 2 else ("final" if final else "internal"))
+        else:
+            if nn >= 2:
+                continue
+            if nn == 0:
+                if final:
+                    continue
+                env = "prevocalic"
+            else:
+                if final and princeps:
+                    continue
+                if final and cl.startswith("|") and cons in ("λ", "μ", "ν", "ρ", "σ"):
+                    continue
+                env = "final" if final else "internal"
+        # (c) forcing the other quantity must leave no scansion, even with the
+        # common (tier-1) licences
+        line.force = {i: "S" if q == "L" else "L"}
+        alt = solve(line, max_tier=max(tier, 1), max_solutions=2)
+        line.force = {}
+        if alt:
+            continue
+        out.append((G.form_key(line.tokens[n.tok].core), n.widx + 1, n.text, q, env,
+                    "princeps" if princeps else "biceps"))
+    return out
+
+
+def corpus_record(args):
+    """Scan one corpus line; return everything the tables need."""
+    work, book, ln, text, learned, analogy = args
+    rec = {"work": work, "book": book, "line": ln}
     try:
-        res = scan(text)
+        res = scan(text, learned=learned, analogy=analogy)
     except Exception as e:  # pragma: no cover
-        return [work, book, ln, "error", 0, 0, "", "", "", "", "", "", "", "", "", "", "", f"error:{e!r}", ""]
+        rec.update(status="error", row=[work, book, ln, "error"] + [""] * (len(COLUMNS) - 4))
+        rec["error"] = repr(e)
+        return rec
+    rec["status"] = res["status"]
+    rec["tier"] = res["tier"]
+    rec["n"] = res["n_solutions"]
     if res["status"] == "fail":
-        line = res["line"]
-        return [work, book, ln, "fail", 0, 0, "", "", "", "", "", "", "", "", "", "", "",
-                "fail", ""]
+        rec["row"] = [work, book, ln, "fail", "", 0, 0] + [""] * (len(COLUMNS) - 8) + [""]
+        rec["row"][COLUMNS.index("anomalies")] = "fail"
+        return rec
     a = res["analyses"][0]
+    sc = res["solutions"][0]
+    line = res["line"]
     alts = []
     for b in res["analyses"][1:]:
         if b["pattern"] not in alts and b["pattern"] != a["pattern"]:
             alts.append(b["pattern"])
-    anomalies = list(a["anomalies"])
+    feats = [x for x in a["anomalies"] if x in FEATURES]
+    anomalies = [x for x in a["anomalies"] if x not in FEATURES]
     if res["n_best"] > 1:
         anomalies.append("tied_best")
-    return [work, book, ln, res["status"], res["n_solutions"], res["n_best"], a["pattern"],
-            ",".join(alts), a["quantities"], " ".join(a["syllables"]), " ".join(a["word_meter"]),
-            " ".join(a["word_positions"]), ",".join(a["wordend_orth"]), ",".join(a["wordend_lex"]),
-            ",".join(a["caesurae"]), a["bucolic"], fmt_lic(a["licences"]), ",".join(anomalies), a["cost"]]
+    if res["tier"] == 2:
+        anomalies.append("rare_licence")
+    rec["row"] = [work, book, ln, res["status"], res["tier"], res["n_solutions"], res["n_best"], a["pattern"],
+                  ",".join(alts), a["quantities"], " ".join(a["syllables"]), " ".join(a["word_meter"]),
+                  " ".join(a["word_positions"]), ",".join(a["wordend_orth"]), ",".join(a["wordend_lex"]),
+                  ",".join(a["caesurae"]), a["bucolic"], fmt_lic(a["licences"]), ",".join(feats),
+                  ",".join(anomalies), a["cost"]]
+    rec["positions"] = a["positions"]
+    rec["wordend_orth"] = a["wordend_orth"]
+    rec["wordend_lex"] = a["wordend_lex"]
+    rec["pattern"] = a["pattern"]
+    rec["licences"] = [(nm, G.form_key(w) if w else "", pos) for nm, pos, ti, w in a["licences"]]
+    rec["word_positions"] = a["word_positions"]
+    if res["status"] == "unique":
+        rec["attest"] = dichronon_attestations(line, sc, res["tier"])
+    return rec
 
 
 def read_lines(path=HERE / "lines.tsv"):
@@ -872,39 +993,79 @@ def read_lines(path=HERE / "lines.tsv"):
     return rows
 
 
-def scan_corpus(out_path=HERE / "scansion.tsv", workers=None):
+def scan_corpus_records(learned=None, analogy=None, workers=None):
     from multiprocessing import Pool
     rows = read_lines()
-    args = [(r["work"], r["book"], r["line"], r["text"]) for r in rows]
+    args = [(r["work"], r["book"], r["line"], r["text"], learned, analogy) for r in rows]
     workers = workers or os.cpu_count() or 1
     with Pool(workers) as p:
-        results = p.map(_scan_row, args, chunksize=200)
+        return p.map(corpus_record, args, chunksize=100)
+
+
+def write_scansion(records, out_path=HERE / "scansion.tsv"):
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n", quoting=csv.QUOTE_NONE, escapechar="\\")
         w.writerow(COLUMNS)
-        for r in results:
-            w.writerow(r)
-    import collections
-    c = collections.Counter(r[3] for r in results)
-    n = len(results)
-    print(f"lines {n}: " + ", ".join(f"{k} {v} ({100 * v / n:.2f}%)" for k, v in sorted(c.items())))
-    return results
+        for r in records:
+            w.writerow(r["row"])
+
+
+LEARN_MIN_SHARE = 0.9   # a dichronon is "learned" if >= 90% of its fixed attestations agree
+LEARN_MIN_N_CONFLICT = 5  # ... and, when there is any disagreement, at least 5 attestations
+
+
+def load_learned(path=HERE / "dichrona.tsv"):
+    """(form, vowel_no) -> quantity for dichrona fixed by unambiguous
+    attestations: all attestations agree, or (with >= 5 attestations) at
+    least 90% agree."""
+    learned = {}
+    if not pathlib.Path(path).exists():
+        return learned
+    with open(path, encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            nl, ns = int(row["n_long"]), int(row["n_short"])
+            n = nl + ns
+            if n == 0:
+                continue
+            if row["quantity"] in ("L", "S"):
+                learned[(row["form"], int(row["vowel_no"]))] = row["quantity"]
+            elif n >= LEARN_MIN_N_CONFLICT and max(nl, ns) / n >= LEARN_MIN_SHARE:
+                learned[(row["form"], int(row["vowel_no"]))] = "L" if nl > ns else "S"
+    return learned
+
+
+ANALOGY_MIN_FORMS = 3
+ANALOGY_MIN_SHARE = 0.9
+
+
+def load_analogy(path=HERE / "dichrona_analogy.tsv"):
+    out = {}
+    if not pathlib.Path(path).exists():
+        return out
+    with open(path, encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            if row["quantity"] in ("L", "S"):
+                out[row["key"]] = row["quantity"]
+    return out
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("verse", nargs="*")
-    ap.add_argument("--corpus", action="store_true", help="scan homer/lines.tsv -> homer/scansion.tsv")
+    ap.add_argument("--corpus", action="store_true", help="scan homer/lines.tsv (runs homer/build_tables.py)")
+    ap.add_argument("--no-learned", action="store_true", help="do not use homer/dichrona.tsv")
     ap.add_argument("--all-solutions", action="store_true")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--workers", type=int, default=None)
     args = ap.parse_args()
     if args.corpus:
-        scan_corpus(workers=args.workers)
-        return
+        import subprocess
+        sys.exit(subprocess.call([sys.executable, str(HERE / "build_tables.py")]))
     verses = [" ".join(args.verse)] if args.verse else [l.strip() for l in sys.stdin if l.strip()]
+    learned = None if args.no_learned else load_learned()
+    analogy = None if args.no_learned else load_analogy()
     for v in verses:
-        res = scan(v)
+        res = scan(v, learned=learned, analogy=analogy)
         if args.json:
             print(json.dumps({k: res[k] for k in ("text", "status", "n_solutions", "n_best")} |
                              {"analyses": res["analyses"] if args.all_solutions else res["analyses"][:1]},

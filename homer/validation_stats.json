@@ -1,0 +1,283 @@
+{
+ "pass1": {
+  "lines": 27794,
+  "unique": 27257,
+  "unique_pct": 98.068,
+  "multiple": 532,
+  "multiple_pct": 1.914,
+  "fail": 5,
+  "fail_pct": 0.018,
+  "error": 0,
+  "error_pct": 0.0,
+  "tiers": {
+   "1": 1331,
+   "0": 26356,
+   "2": 102
+  },
+  "Il": {
+   "lines": 15687,
+   "unique": 15369,
+   "multiple": 315,
+   "fail": 3
+  },
+  "Od": {
+   "lines": 12107,
+   "unique": 11888,
+   "multiple": 217,
+   "fail": 2
+  }
+ },
+ "pass2": {
+  "lines": 27794,
+  "unique": 26666,
+  "unique_pct": 95.942,
+  "multiple": 1123,
+  "multiple_pct": 4.04,
+  "fail": 5,
+  "fail_pct": 0.018,
+  "error": 0,
+  "error_pct": 0.0,
+  "tiers": {
+   "1": 3851,
+   "0": 23836,
+   "2": 102
+  },
+  "Il": {
+   "lines": 15687,
+   "unique": 15014,
+   "multiple": 670,
+   "fail": 3
+  },
+  "Od": {
+   "lines": 12107,
+   "unique": 11652,
+   "multiple": 453,
+   "fail": 2
+  }
+ },
+ "dichrona": {
+  "forms_vowels": 17360,
+  "L": 2635,
+  "S": 14678,
+  "conflict": 47,
+  "attestations": 75838,
+  "conflict_attestations_minority": 200
+ },
+ "analogy": {
+  "keys": 5061,
+  "determined": 1031,
+  "leave_one_out": {
+   "extra=0": {
+    "forms": 13449,
+    "predicted": 7206,
+    "coverage_pct": 53.58,
+    "accuracy_pct": 99.15
+   },
+   "extra=1": {
+    "forms": 13449,
+    "predicted": 4880,
+    "coverage_pct": 36.29,
+    "accuracy_pct": 99.47
+   },
+   "extra=2": {
+    "forms": 13449,
+    "predicted": 2765,
+    "coverage_pct": 20.56,
+    "accuracy_pct": 99.39
+   }
+  }
+ },
+ "licence_counts_unique_lines": {
+  "internal_correption": 1745,
+  "hiatus_long": 2186,
+  "synizesis": 257,
+  "hiatus": 735,
+  "digamma": 3347,
+  "correption": 8222,
+  "analogy_contra": 68,
+  "lengthening_closed": 287,
+  "digamma_internal": 14,
+  "muta_cum_liquida_initial": 608,
+  "lengthening_liquid": 438,
+  "digamma_double": 33,
+  "muta_cum_liquida": 93,
+  "dichronon_contra": 46,
+  "no_position_initial_cluster": 6,
+  "lengthening_liquid_internal": 7,
+  "accent_contra": 22,
+  "synizesis_cross": 24,
+  "synizesis_i": 5,
+  "metrical_lengthening": 11,
+  "synizesis_rare": 2
+ },
+ "positions": {
+  "lines_used": 26666
+ },
+ "pattern_changed_pass1_to_pass2": 123,
+ "failures": [
+  [
+   "Il",
+   "16",
+   "857"
+  ],
+  [
+   "Il",
+   "22",
+   "363"
+  ],
+  [
+   "Il",
+   "24",
+   "6"
+  ],
+  [
+   "Od",
+   "8",
+   "267"
+  ],
+  [
+   "Od",
+   "13",
+   "364"
+  ]
+ ],
+ "anomalies": {
+  "hermann_bridge": 176,
+  "no_main_caesura": 51,
+  "diaeresis_after_3rd_foot": 31,
+  "rare_licence": 102,
+  "tied_best": 77,
+  "fail": 5
+ },
+ "top_patterns": [
+  [
+   "DDDDDS",
+   5388
+  ],
+  [
+   "DSDDDS",
+   4051
+  ],
+  [
+   "SDDDDS",
+   3598
+  ],
+  [
+   "DDDSDS",
+   2410
+  ],
+  [
+   "SSDDDS",
+   2168
+  ],
+  [
+   "DSDSDS",
+   1829
+  ],
+  [
+   "SDDSDS",
+   1710
+  ],
+  [
+   "DDSDDS",
+   1182
+  ],
+  [
+   "SSDSDS",
+   1036
+  ],
+  [
+   "DSSDDS",
+   927
+  ],
+  [
+   "SDSDDS",
+   812
+  ],
+  [
+   "DDSSDS",
+   391
+  ],
+  [
+   "SSSDDS",
+   362
+  ],
+  [
+   "DDDDSS",
+   300
+  ],
+  [
+   "SDDDSS",
+   259
+  ],
+  [
+   "DSDDSS",
+   217
+  ],
+  [
+   "SDSSDS",
+   216
+  ],
+  [
+   "DSSSDS",
+   215
+  ],
+  [
+   "SSDDSS",
+   137
+  ],
+  [
+   "DDDSSS",
+   108
+  ],
+  [
+   "SSSSDS",
+   87
+  ],
+  [
+   "DSDSSS",
+   81
+  ],
+  [
+   "SDDSSS",
+   68
+  ],
+  [
+   "DSSDSS",
+   60
+  ],
+  [
+   "DDSDSS",
+   59
+  ],
+  [
+   "SDSDSS",
+   37
+  ],
+  [
+   "SSDSSS",
+   34
+  ],
+  [
+   "SSSDSS",
+   15
+  ],
+  [
+   "DDSSSS",
+   13
+  ],
+  [
+   "DSSSSS",
+   9
+  ],
+  [
+   "SDSSSS",
+   5
+  ],
+  [
+   "SSSSSS",
+   5
+  ]
+ ],
+ "runtime_s": 26.7
+}

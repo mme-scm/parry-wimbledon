@@ -48,3 +48,4 @@ iris	Ἶρις, Ἶρος	w	re:^(ιρισ|ιρι|ιριν|ιριδ.*|ιροσ|ι
 hos_as	ὥς (postpositive 'as')	w	form:ὥς				§375(1)	Monro explains lengthening before ὥς (θεὸς ὥς) by an original initial consonant
 dwe	δϝε- (δέος, δεινός, δειλός, δείδω, ἔδεισα)	dw	re:^(δεοσ|δεει.*|δει(ν|σ|δ|λ|μ).*|δεδι.*|δεδοικ.*|δειδ.*)$			any	§394	initial δϝ: lengthens a preceding short vowel (in arsis)
 dwen	δήν, δηρόν, δηθά	dw	re:^(δην|δηναι.*|δηρον|δηθα|δηθυν.*)$			any	§394	
+dwaug	ἔδεισα (augment + δϝ: ἔδδεισα)	dw_aug	re:^εδει(σ|δ).*$			any	§394	Monro: ἔδεισα (so Aristarchus; MSS ἔδδεισα) lengthens the augment even without the ictus
