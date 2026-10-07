@@ -58,3 +58,10 @@ Connect the section to the poem's composition records. Run critic on the section
 
 ## Finish
 Write README.md: what was done, the corpus sources, where each deliverable is, the headline results, and a summary of FOR_HUMAN.md. Mark every phase DONE in STATUS.md. Commit and push.
+
+## Phase 2b (added 2026-10-07 at the human's request, after Phase 2 closed): the tradition across broadcasts
+Exploratory relative to the pre-registered Phase 2; its own plan (analysis/parry/plan.md) is committed before any test runs.
+1. Shared stock versus idiolect: pairwise formula sharing between the 20 TV broadcasts, by situational slot and by commentator-hint cluster, against a unigram-preserving shuffle null and the written/press baselines; the genre-wide core as a function of the number of broadcasts attesting a formula.
+2. Calibration of the automatic formula measure against Parry's definition: two blind coders mark formula spans in a fixed 300-utterance sample; inter-coder agreement; precision and recall of the automatic inventory (n ≥ 2, n ≥ 3, systems) against the hand-coded spans.
+3. Thrift and extension per situational slot across the pool, with the pooled N.
+Run critic on analysis/parry; fix critical and major issues or record them in analysis/limitations.md; fold the results into the paper as an exploratory section.
