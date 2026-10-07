@@ -4,7 +4,7 @@ Everything here can be rebuilt from scratch:
 
 ```
 source .venv/bin/activate
-make -C homer            # fetch + lines + scan + tables + n-grams + validation (about 2 minutes)
+make -C homer            # fetch + lines + scan + tables + n-grams + elision table + validation (about 3 minutes)
 ```
 
 or step by step (from the repository root):
@@ -15,7 +15,8 @@ or step by step (from the repository root):
 | 2 | `python homer/build_lines.py` | `homer/lines.tsv`, `homer/line_counts.tsv` |
 | 3 | `python homer/build_tables.py` | `homer/scansion.tsv`, `homer/dichrona.tsv`, `homer/dichrona_analogy.tsv`, `homer/licences.tsv`, `homer/positions.tsv`, `homer/validation_stats.json` |
 | 4 | `python homer/concordance.py --build-ngrams` | `homer/ngrams.tsv` |
-| 5 | `python homer/validate.py` | `homer/validation.md` and the generated blocks of this README |
+| 5 | `python homer/elision_digamma.py` | `homer/elision_digamma.tsv` and its generated block of this README |
+| 6 | `python homer/validate.py` | `homer/validation.md` and the generated blocks of this README |
 
 Tools for other agents:
 
@@ -256,6 +257,87 @@ operational choices of this tool, not a claim about the literature.
   uniquely-scanned lines in which it exists, and the number and share of
   them with orthographic (`freq_orth`) and lexical (`freq_lex`) word end
   there, plus the share per line and per poem.
+* `elision_digamma.tsv` (built by `elision_digamma.py` from `lines.tsv` and
+  `digamma.tsv`; no scansion needed): every pair of consecutive words in
+  one line (punctuation between them ignored) in which the second word
+  begins with a vowel and had a digamma, and the first word is either
+  elided or ends in a short vowel Homer can elide (a single α ε ι ο with
+  no circumflex or iota subscript; one-letter words such as ὅ, ἅ left out).
+  Columns: `word` (loose form of the elided word, ending in ʼ; for an
+  unelided word, its loose form with the final vowel replaced by ʼ: ἄρα →
+  αρʼ), `next_word` (`form_key`: accents kept, so οἱ and οἵ differ),
+  `digamma_id` (row of `digamma.tsv`, or `pron3`), `n_elided`,
+  `n_unelided` (final vowel kept: hiatus, or position before the
+  digamma), the attested spellings of each, and the first five citations
+  of each.  A final τ κ π of the first word is written θ χ φ before a
+  rough breathing in the key (τε οἱ and θʼ οἱ have the same key), as the
+  text does.  The digamma-initial words are those of `digamma.tsv` with
+  type `w` or `sw` (the `dw` types begin with δ or the augment) plus the
+  pronoun forms οἱ οἷ ἑ ἕ ἕο ἑο ἑοῖ ἕθεν ἑθεν εὑ εὗ ἑέ, which
+  `digamma.tsv` covers only in part.  Three exclusions are made: the elided
+  forms ἐπʼ and ἔτʼ (matched by the ἔπος and ἔτος rows, but they are ἐπί
+  and ἔτι: ἔπος and ἔτος end in -ος and cannot be elided to them), and the
+  row `hos_as` (postpositive ὥς 'as', Monro §375(1), which the text writes
+  like ὥς/ὣς 'thus' and ὥς τε 'as'; Homer elides before these freely).
+  The script checks its counts against `concordance.py --regex` with the
+  patterns `check_line.py` prints (all elided pairs and a seeded sample of
+  the unelided ones), and writes the figures below.
+
+<!-- BEGIN GENERATED: elision_digamma -->
+Pairs before a digamma-initial word: 1177 (word, next word) pairs; 219 of them elided at least once, 958 only with the vowel kept.
+Instances: 340 elisions (in 340 lines) and 2351 final short vowels kept (hiatus or position) before such a word.
+Leave-one-line-out: 176 of the 340 elisions (51.8%, in 176 lines) are of a pair elided in no other line; check_line would flag them if they were new verses (11 of these pairs occur elsewhere with the vowel kept, 165 occur nowhere else).
+Regex self-test (concordance.py --regex with the patterns check_line prints): 219/219 elided pairs and 300/300 sampled unelided pairs (seed 20261007) reproduce the table's counts.
+
+| digamma entry | elided | vowel kept | elided share |
+|---|---|---|---|
+| `pron3` ἕο, εὗ, οἱ, ἕ, ἕθεν (§391) | 54 | 583 | 8.5% |
+| `idein` ἰδεῖν, οἶδα, εἶδος, εἴδομαι, εἴδωλον, ἴστωρ (§390) | 60 | 353 | 14.5% |
+| `erdo` ἔρδω, ἔργον, ἔοργα, ἐργάζομαι, ἐέργω (§390) | 14 | 180 | 7.2% |
+| `anax` ἄναξ, ἄνασσα, ἀνάσσω (§390) | 8 | 166 | 4.6% |
+| `hekastos` ἕκαστος (§390) | 11 | 125 | 8.1% |
+| `eiko` εἴκω (yield), εἴκελος, ἔοικα, ἐΐσκω, ἴκελος (§390) | 12 | 114 | 9.5% |
+| `epos` ἔπος (§390) | 40 | 80 | 33.3% |
+| `eipein` εἰπεῖν, εἶπον (§390) | 26 | 81 | 24.3% |
+| `oikos` οἶκος, οἴκαδε (§390) | 8 | 96 | 7.7% |
+| `oinos` οἶνος, οἰνοχόος, οἶνοψ (§390) | 9 | 90 | 9.1% |
+| `asty` ἄστυ (§390) | 0 | 85 | 0.0% |
+| `isos` ἶσος, ἐΐσος (§390) | 16 | 44 | 26.7% |
+| `hennymi` ἕννυμι, εἷμα, ἐσθής (§390) | 3 | 51 | 5.6% |
+| `ilios` Ἴλιος (§392) | 3 | 46 | 6.1% |
+| `eryo` ἐρύω (draw), εἰρύω (§392) | 11 | 26 | 29.7% |
+| `iris` Ἶρις, Ἶρος (§392) | 2 | 33 | 5.7% |
+| `eilo` εἴλω (ἔλσαι, ἀλείς, ἐάλη), ἁλῶναι, ἅλις (§390) | 4 | 24 | 14.3% |
+| `hekon` ἑκών, ἕκητι, ἕκηλος (§390) | 1 | 27 | 3.6% |
+| `poss3` ἑός (possessive) (§391) | 14 | 10 | 58.3% |
+| `elpo` ἔλπω, ἐλπίς, ἔολπα (§390) | 9 | 14 | 39.1% |
+| `iakho` ἰάχω, ἰαχή, ἠχήεις (§390) | 0 | 23 | 0.0% |
+| `is` ἴς, ἶφι, ἶνες, Ἴφιτος (§390) | 3 | 12 | 20.0% |
+| `hiemai` ἵεμαι (strive) (§392) | 0 | 13 | 0.0% |
+| `ethnos` ἔθνος (§392) | 0 | 12 | 0.0% |
+| `helisso` ἑλίσσω, ἕλιξ, εἰλύω (§390) | 6 | 5 | 54.5% |
+| `agnymi` ἄγνυμι (ἔαξα, ἆξαι) (§390) | 5 | 4 | 55.6% |
+| `handano` ἁνδάνω, ἡδύς, ἦδος, εὔαδε (§391) | 3 | 6 | 33.3% |
+| `hekas` ἑκάς, ἕκατος, ἑκηβόλος, ἑκάεργος, ἑκατηβόλος (§390) | 2 | 6 | 25.0% |
+| `eikosi` εἴκοσι, ἐείκοσι, εἰκοστός (§390) | 3 | 4 | 42.9% |
+| `etes` ἔτης (§391) | 0 | 7 | 0.0% |
+| `arn` ἀρνός, ἄρνες (lamb) (§390) | 2 | 4 | 33.3% |
+| `eiro` εἴρω (say), ἐρέω (fut.) (§390) | 3 | 3 | 50.0% |
+| `hesperos` ἕσπερος (§390) | 0 | 6 | 0.0% |
+| `araios` ἀραιός (§392) | 0 | 4 | 0.0% |
+| `enops` ἦνοψ (§392) | 0 | 4 | 0.0% |
+| `ethos` ἔθος, ἦθος (§391) | 2 | 1 | 66.7% |
+| `hekaterthe` ἑκάτερθε (§390) | 3 | 0 | 100.0% |
+| `erro` ἔρρω (§392) | 0 | 2 | 0.0% |
+| `etos` ἔτος (§390) | 2 | 0 | 100.0% |
+| `ion` ἴον (ἰοειδής, ἰοδνεφής, ἰόεις) (§390) | 0 | 2 | 0.0% |
+| `ear` ἔαρ, εἰαρινός (§390) | 0 | 1 | 0.0% |
+| `era` ἦρα (§392) | 0 | 1 | 0.0% |
+| `erion` ἠρίον (§392) | 0 | 1 | 0.0% |
+| `hekyros` ἑκυρός (§391) | 0 | 1 | 0.0% |
+| `hex` ἕξ (six) (§391) | 1 | 0 | 100.0% |
+| `itys` ἴτυς, ἰτέη (§390) | 0 | 1 | 0.0% |
+<!-- END GENERATED: elision_digamma -->
 
 ## 5. `check_line.py`
 
@@ -270,7 +352,23 @@ parallels from `licences.tsv`).  Flags (exit code 1):
 * `licence_unattested`: a licence used with a word form for which
   `licences.tsv` has no instance (exact form, then loose form);
 * `quantity_contrary`: an α ι υ given a quantity contrary to `dichrona.tsv`
-  or to the analogy or accent rules.
+  or to the analogy or accent rules;
+* `elision_before_digamma`: an elided word before a digamma-initial word
+  (as defined for `elision_digamma.tsv` in section 4) where Homer never
+  elides that word (loose form) before that form (`n_elided` = 0, or the
+  pair is absent from the table).  The flag gives the elided and unelided
+  Homeric counts of the pair with citations of the unelided instances.  It
+  also gives how often Homer elides the same word before other words of
+  the same `digamma.tsv` row, and how often he elides any word before
+  that form.  The two `concordance.py --regex` commands that reproduce the
+  counts are printed and are in the `--json` output (`query_elided`,
+  `query_unelided`).  This check is textual, so it is also run on
+  unmetrical verses.  Example: `εἰ μὴ ἄρʼ οἱ βέλος ὠκὺ ἐτώσιον ἔκφυγε
+  χειρός` is flagged, because Homer has ἄρα οἱ but never ἄρʼ οἱ; the counts
+  are in the `αρʼ`/`οἱ` row of the table.  The remedy `εἰ μή οἱ βέλος ὠκὺ
+  ἐτώσιον ἔκφυγε χειρός` has no flag (`concordance.py --ngram "εἰ μή οἱ"`:
+  Il. 17.71, 22.203).  When the pair is attested, nothing is flagged, but the
+  parallels are printed (`elision_parallels` in `--json`).
 
 Warnings (no effect on the exit code unless `--strict`): α ι υ whose
 quantity is not attested for the form (the quantity used and its source are
@@ -331,6 +429,18 @@ rules, classified) and the explanation of every remaining failure are in
   and 'sink'; ἰῷ 'one' and 'arrow'); they show up as conflicts.
 * The digamma list follows Monro; ambiguous forms (possessive ὅς = relative
   ὅς) are left out, so hiatus before them appears as another licence.
+* `elision_before_digamma` compares spellings, not words.  (a) Unaccented
+  οἱ is both the enclitic dative (ϝοι) and the plural article.  An elided
+  word before article οἱ therefore counts as an attestation, and the pair
+  then passes.  The Homeric δʼ οἱ of the `δʼ`/`οἱ` row (Od. 3.153, 23.48) are
+  both δʼ οἱ μέν, so a new δʼ οἱ with the dative is not flagged.  The printed parallels
+  show this.  (b) Some regular expressions of `digamma.tsv` also match
+  words without a digamma, e.g. `^ιδ.*` / `^ειδ.*` take in ἱδρύω and
+  εἴδατα.  An unattested elision before such a word is flagged, but the
+  flag is spurious.  (c) The test is per pair, and Homer has many pairs
+  only once.  The leave-one-line-out figure above estimates how often a
+  genuine Homeric elision before a digamma word would be flagged, so the
+  flag asks for a check; it does not prove an error.
 * Lexical word end uses the simple appositive classes above.
 * The text is the Perseus transcription of two different editions (OCT for
   the Iliad, Loeb for the Odyssey); readings are not normalised, and two of

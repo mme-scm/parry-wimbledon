@@ -19,6 +19,14 @@ FLAGS:
                         built from the lines with a unique scansion)
   * quantity_contrary   an α/ι/υ given a quantity contrary to its unambiguous
                         Homeric attestations (homer/dichrona.tsv)
+  * elision_before_digamma
+                        a word elided before a vowel-initial word that had a
+                        digamma (homer/digamma.tsv, or the pronoun οἱ ἑ ἕο ἑοῖ
+                        ἕθεν) where Homer never elides that word (loose form)
+                        before that form (homer/elision_digamma.tsv, built by
+                        homer/elision_digamma.py); the flag gives the elided and
+                        unelided Homeric counts of the pair and the concordance
+                        regexes that reproduce them
 It WARNS (no effect on the exit code unless --strict) about α/ι/υ whose
 quantity is not attested for that form, tied alternative scansions, and
 caesura anomalies.
@@ -33,6 +41,7 @@ import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+import elision_digamma as E  # noqa: E402
 import greek as G  # noqa: E402
 import scan as S  # noqa: E402
 
@@ -77,7 +86,33 @@ class Checker:
         self.dichrona = load_dichrona()
         self.learned = S.load_learned()
         self.analogy = S.load_analogy()
+        self.elision = E.Index()
         self.tier = tier
+
+    def elision_check(self, text, word_positions=None):
+        """Elided words before digamma-initial words: (flags, parallels)."""
+        flags, parallels = [], []
+        toks = G.tokenize(G.nfc(text))
+        for i in range(len(toks) - 1):
+            if not toks[i].elided:
+                continue
+            h = self.elision.check_pair(toks[i].core, toks[i + 1].core)
+            if h is None:
+                continue
+            if word_positions and len(word_positions) == len(toks):
+                h["position"] = word_positions[i + 1].split("-")[0]
+            if h["n_elided"]:
+                parallels.append(h)
+                continue
+            kept = (f"{h['n_unelided']} with the vowel kept ({h['unelided_spellings']} {h['next_form']}: "
+                    f"{', '.join(h['citations_unelided'][:3])})") if h["n_unelided"] else "0 with the vowel kept"
+            h["type"] = "elision_before_digamma"
+            h["detail"] = (f"'{h['word']}' elided before '{h['next_word']}' (ϝ: {h['lemma']}): Homer never elides "
+                           f"'{h['key']}' before '{h['next_form']}': 0 elided, {kept}; '{h['key']}' elided before "
+                           f"other words of this digamma entry {h['n_elided_word_before_entry']}x; any word elided "
+                           f"before '{h['next_form']}' {h['n_any_elided_before_next']}x")
+            flags.append(h)
+        return flags, parallels
 
     def check(self, verse):
         res = S.scan(verse, learned=self.learned, analogy=self.analogy)
@@ -85,6 +120,10 @@ class Checker:
                "n_scansions": res["n_solutions"], "flags": [], "warnings": []}
         if res["status"] == "fail":
             out["flags"].append({"type": "unmetrical", "detail": "no hexameter scansion found"})
+            el_flags, el_par = self.elision_check(verse)
+            out["flags"].extend(el_flags)
+            if el_par:
+                out["elision_parallels"] = el_par
             return out
         a = res["analyses"][0]
         sc = res["solutions"][0]
@@ -129,7 +168,12 @@ class Checker:
             if nm in ("dichronon_contra", "analogy_contra", "accent_contra"):
                 out["flags"].append({"type": "quantity_contrary", "licence": nm, "word": w, "position": pos,
                                      "detail": f"α/ι/υ in '{w}' at {pos}: {S.LICENCES[nm][4]}"})
-        # 3. dichrona: attested or not
+        # 3. elision before a digamma-initial word that Homer never elides
+        el_flags, el_par = self.elision_check(verse, a["word_positions"])
+        out["flags"].extend(el_flags)
+        if el_par:
+            out["elision_parallels"] = el_par
+        # 4. dichrona: attested or not
         nucs = line.nuclei
         for k, (span, q, state, lic) in enumerate(sc.syls):
             if span[0] != span[1] or q == "X":
@@ -172,8 +216,14 @@ def render(o):
         lines.append(f"  licences: {s['licences'] or '-'}")
         for p in o.get("licence_parallels", []):
             lines.append(f"    {p['licence']} '{p['word']}': {p['homeric_count']}x in Homer, e.g. {', '.join(p['examples'])}")
+    for p in o.get("elision_parallels", []):
+        lines.append(f"  elision before digamma word '{p['word']} {p['next_word']}': elided {p['n_elided']}x in Homer "
+                     f"({', '.join(p['citations_elided'][:3])}), vowel kept {p['n_unelided']}x")
     for f in o["flags"]:
         lines.append(f"  FLAG {f['type']}: {f['detail']}")
+        if f["type"] == "elision_before_digamma":
+            lines.append(f"    reproduce: python homer/concordance.py --regex '{f['query_elided']}' --count")
+            lines.append(f"               python homer/concordance.py --regex '{f['query_unelided']}' --count")
     for w in o["warnings"]:
         d = w["detail"] if isinstance(w["detail"], str) else "; ".join(w["detail"])
         lines.append(f"  warn {w['type']}: {d}")
