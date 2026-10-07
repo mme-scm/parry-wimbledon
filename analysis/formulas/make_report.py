@@ -282,7 +282,7 @@ def main():
       "`the first set` and `a little` are not.")
     A("")
     A("**(b) System.** A frame is an n-gram (2 <= n <= 6) with exactly one slot. Slot types: `<NAME>` (a first name or surname of any of the "
-      f"players of the 20 TennisVL matches, {len(C.player_name_lexicon())} name tokens, possessive stripped), `<NUM>` (a digit string or "
+      f"players of the {len(C.tv_streams())} TennisVL matches, {len(C.player_name_lexicon())} name tokens, possessive stripped), `<NUM>` (a digit string or "
       "`love fifteen thirty forty deuce`), `<_>` (any token). A frame is a system of I if it occurs >= 3 times in >= 3 utterances of I with "
       ">= 2 distinct fillers, has >= 1 non-STOP fixed token, and, if the slot is `<_>`, the slot is internal (fixed tokens on both sides). "
       "(a)+(b) coverage = share of tokens covered by a repeated n-gram or by an occurrence of a system of I (any filler of the right type).")
@@ -433,7 +433,7 @@ def main():
     A("")
     A("**Table 3.2. Corpus contrasts at matched size** (each corpus identified and measured on itself; mean and 2.5-97.5% over replicates). "
       "TV pool, Cornell and press differ in matches, outlet, period, transcription (raw ASR vs edited prose vs edited stenography) and "
-      "segmentation (about 7 s clip windows that cut sentences vs whole updates vs whole answers); the matched-size design equalises tokens "
+      "segmentation (rally-clip windows that cut sentences vs whole updates vs whole answers); the matched-size design equalises tokens "
       "only. Held-out columns give the realised size of I: the pre-registered rule (I = 100,000 tokens from groups disjoint from M) could not "
       "be met for Cornell, because excluding every player pair touched by M removes most of the corpus (DEVIATION, plan.md addendum 2).")
     A("")

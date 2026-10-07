@@ -23,7 +23,7 @@ Utterance = one rally clip's de-duplicated, corrected ASR text (`text_corrected`
 | definition | in-sample | split-half | pool -> 2019 | 2019 -> 2023 |
 |---|---|---|---|---|
 | n >= 2, not stop-only (pre-registered (a)) | 44.2 [42.5, 46.3] | 20.3 [18.9, 21.8] | 55.0 [53.1, 57.0] | 26.3 [24.7, 28.0] |
-| n >= 3 | 19.4 [18.0, 20.8] | 4.5 [3.7, 5.3] | 24.4 [22.7, 26.2] | 6.9 [5.7, 8.1] |
+| n >= 3 | 19.4 [18.0, 20.9] | 4.5 [3.7, 5.3] | 24.4 [22.7, 26.1] | 6.9 [5.8, 8.0] |
 | n >= 4 | 6.0 [5.0, 7.0] | 0.5 [0.2, 0.8] | 7.1 [6.0, 8.3] | 1.4 [0.9, 2.0] |
 | n >= 2, not function-word/numeral-only | 40.8 [39.0, 42.6] | 18.4 [17.1, 19.8] | 51.2 [49.4, 53.1] | 24.0 [22.4, 25.5] |
 | n >= 3, not function-word/numeral-only | 18.7 [17.3, 20.2] | 4.4 [3.6, 5.1] | 23.8 [22.1, 25.4] | 6.4 [5.3, 7.5] |
@@ -206,7 +206,7 @@ In-sample and held-out figures differ as the sizes of I lead one to expect: the 
 | design | definition | coverage % | shuffled % | excess (pp) |
 |---|---|---|---|---|
 | in-sample | base | 44.2 [42.5, 46.3] | 16.2 [15.2, 17.3] | 28.1 [26.0, 30.3] |
-| in-sample | n3 | 19.4 [18.0, 20.8] | 0.5 [0.2, 0.8] | 18.9 [17.5, 20.3] |
+| in-sample | n3 | 19.4 [18.0, 20.9] | 0.5 [0.2, 0.8] | 18.9 [17.4, 20.4] |
 | in-sample | n4 | 6.0 [5.0, 7.0] | 0.0 [0.0, 0.1] | 6.0 [5.0, 7.1] |
 | in-sample | content | 40.8 [39.0, 42.6] | 13.0 [12.0, 13.9] | 27.8 [25.7, 29.8] |
 | in-sample | content_n3 | 18.7 [17.3, 20.2] | 0.4 [0.1, 0.7] | 18.3 [16.9, 19.8] |
@@ -216,12 +216,12 @@ In-sample and held-out figures differ as the sizes of I lead one to expect: the 
 | split-half | content | 18.4 [17.1, 19.8] | 2.2 [1.7, 2.8] | 16.2 [14.8, 17.8] |
 | split-half | content_n3 | 4.4 [3.6, 5.1] | 0.0 [0.0, 0.0] | 4.3 [3.6, 5.1] |
 | pool -> 2019 | base | 55.0 [53.1, 57.0] | 17.2 [16.3, 18.1] | 37.9 [35.8, 40.0] |
-| pool -> 2019 | n3 | 24.4 [22.7, 26.2] | 0.5 [0.3, 0.7] | 23.9 [22.2, 25.7] |
+| pool -> 2019 | n3 | 24.4 [22.7, 26.1] | 0.5 [0.3, 0.7] | 23.9 [22.2, 25.6] |
 | pool -> 2019 | n4 | 7.1 [6.0, 8.3] | 0.0 [0.0, 0.0] | 7.1 [6.0, 8.3] |
 | pool -> 2019 | content | 51.2 [49.4, 53.1] | 14.5 [13.7, 15.2] | 36.7 [34.7, 38.8] |
 | pool -> 2019 | content_n3 | 23.8 [22.1, 25.4] | 0.4 [0.2, 0.6] | 23.4 [21.7, 25.0] |
 | 2019 -> 2023 | base | 26.3 [24.7, 28.0] | 4.6 [4.0, 5.2] | 21.7 [20.0, 23.5] |
-| 2019 -> 2023 | n3 | 6.9 [5.7, 8.1] | 0.0 [0.0, 0.1] | 6.8 [5.6, 8.0] |
+| 2019 -> 2023 | n3 | 6.9 [5.8, 8.0] | 0.0 [0.0, 0.1] | 6.8 [5.7, 8.0] |
 | 2019 -> 2023 | n4 | 1.4 [0.9, 2.0] | 0.0 [0.0, 0.0] | 1.4 [0.9, 2.0] |
 | 2019 -> 2023 | content | 24.0 [22.4, 25.5] | 4.0 [3.5, 4.6] | 20.0 [18.3, 21.6] |
 | 2019 -> 2023 | content_n3 | 6.4 [5.3, 7.5] | 0.0 [0.0, 0.1] | 6.4 [5.3, 7.5] |
@@ -241,7 +241,7 @@ In-sample and held-out figures differ as the sizes of I lead one to expect: the 
 | 2023 split-half | content | 16.5 [14.9, 18.0] | - | - |
 | 2023 split-half | content_n3 | 3.6 [2.8, 4.6] | - | - |
 
-**Table 3.2. Corpus contrasts at matched size** (each corpus identified and measured on itself; mean and 2.5-97.5% over replicates). TV pool, Cornell and press differ in matches, outlet, period, transcription (raw ASR vs edited prose vs edited stenography) and segmentation (about 7 s clip windows that cut sentences vs whole updates vs whole answers); the matched-size design equalises tokens only. Held-out columns give the realised size of I: the pre-registered rule (I = 100,000 tokens from groups disjoint from M) could not be met for Cornell, because excluding every player pair touched by M removes most of the corpus (DEVIATION, plan.md addendum 2).
+**Table 3.2. Corpus contrasts at matched size** (each corpus identified and measured on itself; mean and 2.5-97.5% over replicates). TV pool, Cornell and press differ in matches, outlet, period, transcription (raw ASR vs edited prose vs edited stenography) and segmentation (rally-clip windows that cut sentences vs whole updates vs whole answers); the matched-size design equalises tokens only. Held-out columns give the realised size of I: the pre-registered rule (I = 100,000 tokens from groups disjoint from M) could not be met for Cornell, because excluding every player pair touched by M removes most of the corpus (DEVIATION, plan.md addendum 2).
 
 | corpus | tokens measured | in-sample (a) %, R = 1000 | split-half (a) %, R = 1000 | held-out (a) %, D5(ii) as pre-registered, R = 50 | held-out (a) %, M in few groups, D5(ii-b) post hoc, R = 50 |
 |---|---|---|---|---|---|
@@ -265,7 +265,7 @@ Cornell size correction (B2) and the concentrated-M check: Cornell 70.9% (D5(ii)
 
 | corpus, design | base | n3 | n4 | content | content_n3 |
 |---|---|---|---|---|---|
-| TV pool -> 2019 (I = 103,675) | 55.0 [53.1, 57.0] | 24.4 [22.7, 26.2] | 7.1 [6.0, 8.3] | 51.2 [49.4, 53.1] | 23.8 [22.1, 25.4] |
+| TV pool -> 2019 (I = 103,675) | 55.0 [53.1, 57.0] | 24.4 [22.7, 26.1] | 7.1 [6.0, 8.3] | 51.2 [49.4, 53.1] | 23.8 [22.1, 25.4] |
 | Cornell live text (written), D5(ii) | 70.9 [67.8, 72.8] | 45.8 [42.6, 48.5] | 22.4 [20.0, 25.0] | 67.8 [64.9, 69.6] | 43.8 [40.6, 46.4] |
 | press answers (spoken, not commentary), D5(ii) | 66.1 [64.1, 68.1] | 40.2 [37.8, 42.1] | 15.3 [13.8, 16.9] | 65.0 [62.8, 66.9] | 39.6 [37.3, 41.6] |
 | Cornell live text (written), D5(ii-b) | 76.0 [71.7, 79.9] | 52.2 [46.2, 56.6] | 27.5 [22.8, 31.3] | 73.3 [69.2, 77.5] | 50.2 [44.5, 54.6] |
@@ -427,7 +427,7 @@ Revised reporting (plan.md addendum 2): C1/R1 are indeterminate whatever their s
 | R5 | extension: Spearman rho of expression length (syllables) with dead_time_before_s (commentary_only) | rho = 0.076 | null: -0.165 to 0.147 | 0.3453 | 0.6947 | not rejected; MDE (80% power, alpha 0.05): rho = 0.22 |
 
 * **C1/R1** (commentary more repetitive than non-commentary tennis speech, held-out): indeterminate pending a WER estimate. The difference interval ([-13.9, -8.0] pp for 2019, [-9.5, -3.6] pp for 2023) excludes 0, but the comparison confounds commentary with ASR noise, transcription convention and held-out design (section 9.1).
-* **C2** (corpus contrast, split-half at matched size, TV pool vs Cornell live text): corpus difference: 95% interval of differences excludes 0 (not a medium effect); TV pool 16.2% vs Cornell 35.3%, difference -19.1 pp [-22.1, -16.3] over 1000 independent subsample pairs (R raised from 200 in v1 to 1000; f04 stage runtime 6.5 min on 4 CPUs). Its p is the replicate-overlap share at its floor 2/(1000 + 1) = 0.0020: every one of the 1000 paired differences has the same sign. In v1, with R = 200, the same statistic was 0.00995 and its Holm value 0.0498 (rank 2 of 6); that value reflected R, not evidence near the 0.05 boundary.
+* **C2** (corpus contrast, split-half at matched size, TV pool vs Cornell live text): corpus difference: 95% interval of differences excludes 0 (not a medium effect); TV pool 16.2% vs Cornell 35.3%, difference -19.1 pp [-22.1, -16.3] over 1000 independent subsample pairs (R raised from 200 in v1 to 1000; f04 stage runtime 6.3 min on 4 CPUs). Its p is the replicate-overlap share at its floor 2/(1000 + 1) = 0.0020: every one of the 1000 paired differences has the same sign. In v1, with R = 200, the same statistic was 0.00995 and its Holm value 0.0498 (rank 2 of 6); that value reflected R, not evidence near the 0.05 boundary.
 * **C3a/C3b** (less time, more repetition): not rejected / not rejected (MDE 6.4 / 7.0 pp, Table 4.3). Shortest minus longest tercile: dead time before 0.4 pp [-4.0, 4.6]; time after -2.5 pp [-7.3, 2.6]. C3a's predictor (`dead_time_before_s`) is the interval before the point, when the clip's text has not started; C3b (`time_after_s`) is the apt one (section 9.2).
 * **C4** (thrift bound to available time, commentary-only references): not rejected; D = 86, null mean 84.2 (MDE theta = 0.30).
 * **C5** (longer expressions with more time, commentary-only references): not rejected; rho = 0.090 (MDE rho = 0.17).
@@ -455,7 +455,7 @@ Revised reporting (plan.md addendum 2): C1/R1 are indeterminate whatever their s
 | C5 | Spearman rho, syllables vs dead time | rho = 0.090 | rho = 0.17 (latent r = 0.20) | rho = 0.21 (alpha = 0.0083) | 0.04 |
 | R5 | Spearman rho, syllables vs dead time | rho = 0.076 | rho = 0.22 (latent r = 0.30) | rho = 0.27 (alpha = 0.0100) | 0.05 |
 
-Simulation runtime 1.1 min. The C3 MDEs are about 6-7 pp on a base of about 55%; C4 needs roughly 30% of references to take a tercile-specific form (in a design where the surname is the commonest form in every stratum); C5 needs rho of about 0.17 with ties as observed.
+Simulation runtime 1.0 min. The C3 MDEs are about 6-7 pp on a base of about 55%; C4 needs roughly 30% of references to take a tercile-specific form (in a design where the surname is the commonest form in every stratum); C5 needs rho of about 0.17 with ties as observed.
 
 **Table 4.4. Serial correlation check** (post hoc, exploratory): circular-shift nulls (the context sequence shifted against the text sequence by at least 10 utterances, all shifts) beside the label permutations used in the tests.
 
@@ -711,7 +711,7 @@ Functionally equivalent = different expression types (normalised wording, posses
 | 2023 | score | both | token_within_player_slot | exploratory | 164 | 27 | 46 | 45.9 [43, 49] | 0.6561 | 1.0000 | 56 |
 | 2023 | role | both | token_within_player_slot | exploratory | 170 | 18 | 37 | 36.5 [34, 39] | 0.7907 | 1.0000 | 44 |
 
-Of the 28 exploratory thrift rows (both reference sets), 1 have an unadjusted one-sided p below 0.05: commentary_only 2023 dtb_terc both utterance p = 0.0380. With this many exploratory rows such values are expected by chance and are not interpreted.
+Of the 28 exploratory thrift rows (both reference sets), 1 has an unadjusted one-sided p below 0.05: commentary_only 2023 dtb_terc both utterance p = 0.0380. With this many exploratory rows such values are expected by chance and are not interpreted.
 
 **Table 6.1b. Sensitivity: thrift tests on all references (pre-registered token set; exploratory rows in `results/thrift_tests.csv`).**
 
@@ -851,7 +851,7 @@ Pre-specified ranking: distinct utterances, after dropping items contained in a 
 ## 10. Revision log (after `review/critic_analysis_v1.md`; details in plan.md addendum 2)
 
 * A1: C1/R1 relabelled 'indeterminate pending a WER estimate'; the 'asymmetry favours TV' claim withdrawn; crossing points e* computed (f04b, held-out R raised to 50); the substantive discussion moved to section 9.1.
-* B1: C1/R1/C2 use the 95% interval of replicate differences; p shown with its floor; D5(i) R raised from 200 to 1000 (f04 total runtime 19.4 min on 4 CPUs; D5(i) stage 6.5 min).
+* B1: C1/R1/C2 use the 95% interval of replicate differences; p shown with its floor; D5(i) R raised from 200 to 1000 (f04 total runtime 17.5 min on 4 CPUs; D5(i) stage 6.3 min).
 * B2: Cornell held-out I size corrected (median 65,444, range 56,574-76,850 tokens, not 103,675); deviation logged; D5(ii-b) added (Table 3.2).
 * B3: measure renamed repeated-n-gram coverage; stricter family (n >= 3, n >= 4, content-only, content n >= 3) with bootstrap CIs for in-sample, split-half, pool -> 2019, 2019 -> 2023 and pool -> 2023, and for the corpus contrasts; shuffled baselines and excess for every definition (Tables K, 3.1b, 3.2b, 3.2c).
 * B4: Kuiper section limited to verified records and data; minimum detectable effects simulated for C3-C5 (Table 4.3).
