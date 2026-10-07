@@ -1,0 +1,12 @@
+utt_id	excerpt	error_type	confidence	note
+tv_2019wimF:0190	Novak Legrocha start	name_misspelled	probable	surname garbled; context is Novak Djokovic starting the third set
+tv_2019wimF:0284	Game Diogovic	name_misspelled	certain	umpire call 'Game Djokovic'
+tv_2019wimF:0274	Holti, 15	score_call_impossible	certain	'Holti' is not a score word; 'love' expected before 15
+tv_2019wimF:0229	15 left	score_call_impossible	certain	'left' for 'love'
+tv_2019wimF:0036	30 off	score_call_impossible	probable	'off' for 'love'
+tv_2019wimF:0056	15 left	score_call_impossible	certain	'left' for 'love'
+tv_2019wimF:0050	15 left	score_call_impossible	certain	'left' for 'love'
+tv_2019wimF:0284	First game, final second	other_garble	probable	likely 'final set'; not a tennis phrase as written
+tv_2019wimF:0224	For said both	other_garble	probable	no recoverable meaning
+tv_2019wimF:0190	That's what you sent	other_garble	possible	unclear; may be a mishearing
+tv_2019wimF:0056	Inter rally	other_garble	possible	unclear; may be 'entire rally'

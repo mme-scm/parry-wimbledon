@@ -101,6 +101,18 @@ rep["bounce_between_hits"] = {"n": int(len(bb)), "rate_hit<bounce<next_hit": flo
 r_ = pts.resid_s.dropna()
 rep["pbp_clock_vs_first_serve"] = {"n": int(len(r_)), "within_1s": float((r_.abs() <= 1).mean()), "within_3s": float((r_.abs() <= 3).mean())}
 
+# residual breakdown: is ElapsedTime the time of the first serve of the point?
+qq = pts[pts.resid_s.notna()].copy()
+qq["has_fault_clip"] = qq.tv_clip_fault.notna()
+qq["outlier"] = qq.resid_s.abs() > 3
+bd = qq.groupby(["has_fault_clip", "pbp_serve_number"]).agg(n=("resid_s", "size"), n_outlier=("outlier", "sum"), median_resid=("resid_s", "median"))
+rep["resid_breakdown"] = [{"has_fault_clip": bool(i[0]), "pbp_serve_number": int(i[1]), "n": int(r.n), "n_outlier_gt3s": int(r.n_outlier),
+                           "median_resid_s": float(r.median_resid)} for i, r in bd.iterrows()]
+o = qq[qq.outlier]
+rep["resid_outliers"] = {"n": int(len(o)), "n_positive": int((o.resid_s > 0).sum()), "n_negative": int((o.resid_s < 0).sum()),
+                         "positive_range_s": [float(o[o.resid_s > 0].resid_s.min()), float(o[o.resid_s > 0].resid_s.max())],
+                         "negative_range_s": [float(o[o.resid_s < 0].resid_s.min()), float(o[o.resid_s < 0].resid_s.max())],
+                         "n_positive_second_serve_point_without_fault_clip": int(((o.resid_s > 0) & (~o.has_fault_clip) & (o.pbp_serve_number == 2)).sum())}
 # --- 20 random points (sample table)
 rng = random.Random(SEED)
 ids = sorted(q.point_idx.tolist())

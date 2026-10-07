@@ -185,7 +185,8 @@ if __name__ == "__main__":
             for r in recs:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
         cnt = collections.Counter(r["dedup_action"] for r in recs)
-        summary[stream] = {"n": len(recs), "dedup_actions": dict(cnt), "mcp_info": info,
+        summary[stream] = {"n": len(recs), "dedup_actions": dict(cnt),
+                           "n_exact_repeats_beyond_max_distance_not_removed": diag_repeats([c["text"] for c in tvm["clips"]]), "mcp_info": info,
                            "n_aligned_pbp": sum(r["point_idx_pbp"] is not None for r in recs),
                            "n_aligned_mcp": sum(r["point_idx_mcp"] is not None for r in recs)}
         print(stream, len(recs), dict(cnt), info)

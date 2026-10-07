@@ -1,0 +1,21 @@
+utt_id	point_idx	set	game_in_set	server	pbp_score_before_this_point	pbp_score_after_this_point	pbp_score_after_next_point	first_call_in_text	call_context_excerpt	text_corrected_n_words
+tv_2019wimF:0000	3	1	1	Roger Federer	30-0	30-15	40-15	30-15	30 15 40 15	4
+tv_2019wimF:0068	59	1	10	Novak Djokovic	15-30	30-30	40-30	30-0	irst serves You'd expect nothing less 30-0 Just seeing how both players	29
+tv_2019wimF:0072	63	1	10	Novak Djokovic	AD-40	0-0	15-0	love-30	om Novak Djokovic the first search from love 30 down the backhand	54
+tv_2019wimF:0098	97	2	2	Roger Federer	30-30	40-30	0-0	40-30	40 30 That's the textbook play from Federer	28
+tv_2019wimF:0119	113	2	5	Novak Djokovic	30-15	40-15	40-30	40-15	40-15 Well it looks like it's not going to	37
+tv_2019wimF:0157	141	3	4	Novak Djokovic	0-0	15-0	30-0	15-love	15 love Game on again Djokovic fully engaged	8
+tv_2019wimF:0174	156	3	7	Roger Federer	0-0	15-0	30-0	15-0	15-0 Not a very even keel throughout the wh	32
+tv_2019wimF:0178	161	3	8	Novak Djokovic	15-0	30-0	40-0	30-love	30 love Wow	3
+tv_2019wimF:0189	171	3	10	Novak Djokovic	0-0	0-15	15-15	love-15	Djokovic had love 15 on Federer's serve Couldn't take advan	16
+tv_2019wimF:0243	224	4	5	Novak Djokovic	15-15	15-30	15-40	15-30	15 30	2
+tv_2019wimF:0254	232	4	7	Novak Djokovic	15-0	15-15	30-15	15-0	15-0 30-15	2
+tv_2019wimF:0289	263	5	2	Roger Federer	40-15	40-30	0-0	40-40	40-40	1
+tv_2019wimF:0293	265	5	3	Novak Djokovic	0-0	0-15	15-15	Love-15	Love 15	2
+tv_2019wimF:0303	273	5	4	Roger Federer	0-0	0-15	15-15	Love-15	Love 15 Every point counts double There are n	13
+tv_2019wimF:0378	330	5	12	Roger Federer	15-0	15-15	15-30	15-30	He's rediscovering his greatest shot 15 30	21
+tv_2019wimF:0425	367	5	17	Novak Djokovic	40-15	40-30	0-0	40-30	40-30 Game Djokovic	3
+tv_2019wimF:0438	377	5	19	Novak Djokovic	30-15	40-15	0-0	40-15	Oh it's working better 40-15 Going through with the ball Gets his	15
+tv_2019wimF:0451	388	5	21	Novak Djokovic	30-30	40-30	0-0	40-30	40 30 Reached for the forehand and it flew o	27
+tv_2019wimF:0463	398	5	23	Novak Djokovic	40-0	40-15	40-30	40-15	40-15	1
+tv_2019wimF:0464	399	5	23	Novak Djokovic	40-15	40-30	40-40	40-30	40-30 40 love back to 40-30 Djokovic will b	17

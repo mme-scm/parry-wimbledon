@@ -1,0 +1,39 @@
+substitutions: 484
+N01 13 yes
+N02 14 yes
+N03 1 yes
+N04 1 yes
+N05 3 yes
+N06 1 yes
+N07 11 yes
+N08 1 yes
+N09 74 yes
+N10 128 yes
+N11 7 yes
+N12 37 yes
+N13 14 yes
+N14 15 yes
+N15 2 yes
+N16 17 yes
+N17 5 yes
+N18 5 yes
+N19 4 yes
+N20 11 yes
+N21 21 yes
+N22 3 yes
+N23 5 yes
+N24 4 yes
+N25 2 yes
+N26 1 yes
+N27 1 yes
+T01 8 
+T02 15 
+T03 25 
+T04 6 
+T05 3 
+T06 1 
+T07 1 
+T08 11 
+T09 4 
+T10 8 
+T11 1 

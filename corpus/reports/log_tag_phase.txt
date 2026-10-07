@@ -1,0 +1,2 @@
+tv_2019wimF {'phase': {'between_points': 14, 'clip': 463, 'changeover': 4}, 'tags': {'contains_score_call': 67, 'score_call_only': 14, 'changeover_cue': 4}, 'umpire_cues': {'umpire_ball_called': 4, 'umpire_challenge_call': 6, 'umpire_game_call': 5, 'umpire_new_balls': 1}}
+tv_2023wimF {'phase': {'between_points': 13, 'clip': 350, 'changeover': 5}, 'tags': {'contains_score_call': 59, 'score_call_only': 13, 'changeover_cue': 5}, 'umpire_cues': {'umpire_time_violation': 1, 'umpire_ball_called': 7, 'umpire_game_call': 1, 'umpire_new_balls': 3}}

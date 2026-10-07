@@ -1,0 +1,134 @@
+{
+ "wer": "unknown (no audio, no human reference transcript)",
+ "automatic": {
+  "tv_2019wimF": {
+   "n_words_dedup": 9702,
+   "name_variants_corrected": 19,
+   "name_variants_per_1000_words": 1.958359101216244,
+   "love_score_call_errors_corrected": 16,
+   "love_errors_per_1000_words": 1.6491445062873635,
+   "score_calls_parsed": 75,
+   "score_calls_matching_pbp_window_p-1..p+3": 68,
+   "score_call_mismatch_per_1000_words": 0.7215007215007215,
+   "clips_with_call": 59,
+   "first_call_equals_score_after_this_point": 40
+  },
+  "tv_2023wimF": {
+   "n_words_dedup": 7168,
+   "name_variants_corrected": 4,
+   "name_variants_per_1000_words": 0.5580357142857143,
+   "love_score_call_errors_corrected": 2,
+   "love_errors_per_1000_words": 0.27901785714285715,
+   "score_calls_parsed": 42,
+   "score_calls_matching_pbp_window_p-1..p+3": 37,
+   "score_call_mismatch_per_1000_words": 0.6975446428571429,
+   "clips_with_call": 39,
+   "first_call_equals_score_after_this_point": 28
+  },
+  "all_tv_streams": {
+   "n_words_dedup": 119944,
+   "name_variants_corrected": 401,
+   "name_variants_per_1000_words": 3.343226839191623,
+   "love_score_call_errors_corrected": 34,
+   "love_errors_per_1000_words": 0.28346561728806774
+  }
+ },
+ "hand_sample": {
+  "wilson95_ci_per_1000_total": [
+   12.327880167145882,
+   38.96125514839774
+  ],
+  "wilson95_ci_per_1000_name_plus_score": [
+   6.7977030717873586,
+   28.61342614025071
+  ],
+  "n_words": 500,
+  "n_utterances": 18,
+  "seed": 500190714,
+  "errors_by_type": {
+   "name_misspelled": 2,
+   "score_call_impossible": 5,
+   "other_garble": 4
+  },
+  "errors_total": 11,
+  "per_1000_words": {
+   "name_misspelled": 4.0,
+   "score_call_impossible": 10.0,
+   "other_garble": 8.0
+  },
+  "total_per_1000_words": 22.0,
+  "name_plus_score_call_per_1000_words": 14.0,
+  "n_fixed_by_correction_list": 5,
+  "all_excerpts_found": true,
+  "caveat": "recall-limited: only errors detectable by plausibility without audio are counted; WER is certainly higher"
+ },
+ "hand_sample_errors": [
+  {
+   "utt_id": "tv_2019wimF:0190",
+   "excerpt": "Novak Legrocha start",
+   "error_type": "name_misspelled",
+   "confidence": "probable",
+   "note": "surname garbled; context is Novak Djokovic starting the third set",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": false
+  },
+  {
+   "utt_id": "tv_2019wimF:0284",
+   "excerpt": "Game Diogovic",
+   "error_type": "name_misspelled",
+   "confidence": "certain",
+   "note": "umpire call 'Game Djokovic'",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": true
+  },
+  {
+   "utt_id": "tv_2019wimF:0274",
+   "excerpt": "Holti, 15",
+   "error_type": "score_call_impossible",
+   "confidence": "certain",
+   "note": "'Holti' is not a score word; 'love' expected before 15",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": false
+  },
+  {
+   "utt_id": "tv_2019wimF:0229",
+   "excerpt": "15 left",
+   "error_type": "score_call_impossible",
+   "confidence": "certain",
+   "note": "'left' for 'love'",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": true
+  },
+  {
+   "utt_id": "tv_2019wimF:0036",
+   "excerpt": "30 off",
+   "error_type": "score_call_impossible",
+   "confidence": "probable",
+   "note": "'off' for 'love'",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": true
+  },
+  {
+   "utt_id": "tv_2019wimF:0056",
+   "excerpt": "15 left",
+   "error_type": "score_call_impossible",
+   "confidence": "certain",
+   "note": "'left' for 'love'",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": true
+  },
+  {
+   "utt_id": "tv_2019wimF:0050",
+   "excerpt": "15 left",
+   "error_type": "score_call_impossible",
+   "confidence": "certain",
+   "note": "'left' for 'love'",
+   "excerpt_found_in_text_dedup": true,
+   "fixed_by_correction_list": true
+  },
+  {
+   "utt_id": "tv_2019wimF:0284",
+   "excerpt": "First game, final second",
+   "error_type": "other_garble",
+   "confidence": "probable",
+   "note": "likely 'final set

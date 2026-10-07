@@ -87,6 +87,57 @@
   "within_1s": 0.9592391304347826,
   "within_3s": 0.9592391304347826
  },
+ "resid_breakdown": [
+  {
+   "has_fault_clip": false,
+   "pbp_serve_number": 1,
+   "n": 226,
+   "n_outlier_gt3s": 2,
+   "median_resid_s": 0.0
+  },
+  {
+   "has_fault_clip": false,
+   "pbp_serve_number": 2,
+   "n": 27,
+   "n_outlier_gt3s": 9,
+   "median_resid_s": 0.32
+  },
+  {
+   "has_fault_clip": true,
+   "pbp_serve_number": 0,
+   "n": 13,
+   "n_outlier_gt3s": 1,
+   "median_resid_s": 0.24
+  },
+  {
+   "has_fault_clip": true,
+   "pbp_serve_number": 1,
+   "n": 1,
+   "n_outlier_gt3s": 0,
+   "median_resid_s": -0.28
+  },
+  {
+   "has_fault_clip": true,
+   "pbp_serve_number": 2,
+   "n": 101,
+   "n_outlier_gt3s": 3,
+   "median_resid_s": -0.04
+  }
+ ],
+ "resid_outliers": {
+  "n": 15,
+  "n_positive": 10,
+  "n_negative": 5,
+  "positive_range_s": [
+   8.36,
+   15.68
+  ],
+  "negative_range_s": [
+   -15.88,
+   -13.52
+  ],
+  "n_positive_second_serve_point_without_fault_clip": 9
+ },
  "sample20": {
   "tv_eq_mcp": 15,
   "tv_eq_pbp_adj": 15,

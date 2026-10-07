@@ -1,0 +1,21 @@
+utt_id	verdict	note
+tv_2019wimF:0000	match_after_this_point	call 30-15 equals PBP score after point 3; next call 40-15 equals the score after point 4
+tv_2019wimF:0068	no_match	call 30-0 matches no PBP score within points -1..+3 (PBP 15-30 before, 30-30 after); ASR or commentator slip, alignment not confirmed
+tv_2019wimF:0072	retrospective_narration_not_live_call	'from love 30' narrates an earlier point; PBP game ends at this point (AD-40 to game); not usable as evidence
+tv_2019wimF:0098	match_after_this_point	40-30 equals PBP after-score
+tv_2019wimF:0119	match_after_this_point	40-15 equals PBP after-score
+tv_2019wimF:0157	match_after_this_point	15-love equals PBP after-score
+tv_2019wimF:0174	match_after_this_point	15-0 equals PBP after-score
+tv_2019wimF:0178	match_after_this_point	30-love equals PBP after-score
+tv_2019wimF:0189	retrospective_narration_coincidental_match	'had love 15 on Federer's serve' narrates the previous game; equality with PBP after-score (0-15) is coincidental
+tv_2019wimF:0243	match_after_this_point	15-30 equals PBP after-score
+tv_2019wimF:0254	match_before_and_later_skips_after	calls 15-0 and 30-15 equal the score before this point and after the next point; the 15-15 call is absent
+tv_2019wimF:0289	no_match	call 40-40 does not occur in PBP window (40-15 before, 40-30 after, game next); ASR or commentator slip
+tv_2019wimF:0293	match_after_this_point	love-15 equals PBP after-score
+tv_2019wimF:0303	match_after_this_point	love-15 equals PBP after-score
+tv_2019wimF:0378	match_two_points_later	15-30 equals PBP score after the next point (15-15 after this one)
+tv_2019wimF:0425	match_after_this_point	40-30 equals PBP after-score; 'Game Djokovic' follows (next point ends the game)
+tv_2019wimF:0438	match_after_this_point	40-15 equals PBP after-score
+tv_2019wimF:0451	match_after_this_point	40-30 equals PBP after-score
+tv_2019wimF:0463	match_after_this_point	40-15 equals PBP after-score
+tv_2019wimF:0464	match_after_this_point	40-30 equals PBP after-score

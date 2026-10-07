@@ -1,0 +1,38 @@
+{
+ "seed": 20190715,
+ "n_candidates": 59,
+ "automatic": {
+  "2019wimF": {
+   "n_utterances_with_call": 59,
+   "first_call_equals_score_before_point_plus_d": {
+    "-1": 1,
+    "0": 2,
+    "1": 40,
+    "2": 2,
+    "3": 1,
+    "none": 13
+   },
+   "note": "d=1: the call equals the score after this clip's point (before the next point)"
+  },
+  "2023wimF": {
+   "n_utterances_with_call": 39,
+   "first_call_equals_score_before_point_plus_d": {
+    "0": 3,
+    "1": 28,
+    "2": 2,
+    "none": 6
+   },
+   "note": "d=1: the call equals the score after this clip's point (before the next point)"
+  }
+ },
+ "hand_verdicts": {
+  "match_after_this_point": 14,
+  "no_match": 2,
+  "retrospective_narration_not_live_call": 1,
+  "retrospective_narration_coincidental_match": 1,
+  "match_before_and_later_skips_after": 1,
+  "match_two_points_later": 1
+ },
+ "n_judged": 20,
+ "judgements_match_current_sample": true
+}

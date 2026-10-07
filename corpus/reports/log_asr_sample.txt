@@ -1,0 +1,1 @@
+/home/user/parry-wimbledon/corpus/raw/derived_scratch/asr_sample_500.txt 500 18

@@ -114,3 +114,17 @@ def phase_tags(text, surnames=()):
     elif "score_call_only" in tags:
         phase = "between_points"
     return phase, tags, cues
+
+
+def diag_repeats(texts):
+    """Diagnostics (not applied): exact repeats of an earlier non-empty transcript at distance > MAX_EXACT_DUP_DISTANCE clips."""
+    seen = {}
+    far = 0
+    for i, t in enumerate(texts):
+        k = tuple(norm_tokens(t))
+        if not k:
+            continue
+        if k in seen and i - seen[k] > MAX_EXACT_DUP_DISTANCE:
+            far += 1
+        seen[k] = i
+    return far

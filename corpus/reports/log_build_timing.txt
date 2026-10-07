@@ -1,0 +1,284 @@
+2019wimF {
+ "match": "20190714-M-Wimbledon-F-Roger_Federer-Novak_Djokovic",
+ "pbp_id": "2019-wimbledon-1701",
+ "p1": "Novak Djokovic",
+ "p2": "Roger Federer",
+ "pbp": {
+  "n_rows_raw": 424,
+  "dropped_placeholders": [
+   "0X",
+   "0Y"
+  ]
+ },
+ "n_clips": 481,
+ "n_groups": 376,
+ "n_points_pbp": 422,
+ "clip_roles": {
+  "rally": 325,
+  "ace": 34,
+  "first_serve_fault": 115,
+  "double_fault": 7
+ },
+ "pass1_matched_groups": 361,
+ "offset_segments": [
+  {
+   "id": 0,
+   "start_point": 3,
+   "level_s": 26.72,
+   "jump_s": null,
+   "n_anchors": 361,
+   "cut_interval_points": null,
+   "changeover_or_set_break_in_interval": null
+  }
+ ],
+ "n_cuts": 0,
+ "n_cuts_with_changeover_in_interval": 0,
+ "tb_time_tolerance_s": 20.0,
+ "pass2_matched_groups": 368,
+ "match_types": {
+  "key_tb": 3,
+  "key": 359,
+  "key_no_server": 6
+ },
+ "offset": {
+  "n_matched_groups": 368,
+  "residual_sd_all_s": 2.479264442110386,
+  "residual_mad_sd_s": 0.35582400000102477,
+  "n_within_3s": 353,
+  "frac_within_3s": 0.9592391304347826,
+  "residual_sd_within_3s_s": 0.280842061866861,
+  "n_outliers_gt_3s": 15,
+  "linear_fit": {
+   "intercept_s": 26.746958960194032,
+   "slope": 0.9999969224201242,
+   "residual_sd_s": 0.2807995747927467,
+   "n": 353,
+   "offset_slope1_median_s": 26.720000000000255,
+   "offset_slope1_sd_s": 0.280842061866861
+  },
+  "outliers_by_group_type[n,n_gt3s]": {
+   "with_fault_clip": [
+    115,
+    4
+   ],
+   "without_fault_clip": [
+    253,
+    11
+   ]
+  }
+ },
+ "n_unmatched_groups": 8,
+ "n_unmatched_clips": 8,
+ "n_matched_clips": 473,
+ "n_shots_total": 1939,
+ "n_points_with_clip": 368,
+ "n_points_with_rally_clip": 358,
+ "points_match_rate_clips": 0.9833679833679834,
+ "points_coverage_pbp": 0.8720379146919431,
+ "mcp_key_match_rate": 1.0
+}
+{'n_mcp': 422, 'n_pbp': 422, 'key_equal_at_same_index': 422, 'mismatch_points': [], 'join_key': 'server surname + sets + games + points (before point), occurrence order; MCP Pts is server-first'}
+2023wimF {
+ "match": "20230716-M-Wimbledon-F-Novak_Djokovic-Carlos_Alcaraz",
+ "pbp_id": "2023-wimbledon-1701",
+ "p1": "Carlos Alcaraz",
+ "p2": "Novak Djokovic",
+ "pbp": {
+  "n_rows_raw": 336,
+  "dropped_placeholders": [
+   "0X",
+   "0Y"
+  ]
+ },
+ "n_clips": 368,
+ "n_groups": 294,
+ "n_points_pbp": 334,
+ "clip_roles": {
+  "rally": 261,
+  "ace": 22,
+  "first_serve_fault": 80,
+  "double_fault": 5
+ },
+ "pass1_matched_groups": 231,
+ "offset_segments": [
+  {
+   "id": 0,
+   "start_point": 2,
+   "level_s": 7.36,
+   "jump_s": null,
+   "n_anchors": 9,
+   "cut_interval_points": null,
+   "changeover_or_set_break_in_interval": null
+  },
+  {
+   "id": 1,
+   "start_point": 11,
+   "level_s": -45.04,
+   "jump_s": -52.4,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    10,
+    11
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 2,
+   "start_point": 23,
+   "level_s": -131.0,
+   "jump_s": -85.96,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    22,
+    23
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 3,
+   "start_point": 36,
+   "level_s": -190.84,
+   "jump_s": -59.84,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    34,
+    36
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 4,
+   "start_point": 46,
+   "level_s": -296.56,
+   "jump_s": -105.72,
+   "n_anchors": 17,
+   "cut_interval_points": [
+    43,
+    46
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 5,
+   "start_point": 69,
+   "level_s": -371.56,
+   "jump_s": -75.0,
+   "n_anchors": 17,
+   "cut_interval_points": [
+    67,
+    69
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 6,
+   "start_point": 89,
+   "level_s": -452.52,
+   "jump_s": -80.96,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    86,
+    89
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 7,
+   "start_point": 98,
+   "level_s": -550.46,
+   "jump_s": -97.94,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    96,
+    98
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 8,
+   "start_point": 107,
+   "level_s": -636.22,
+   "jump_s": -85.76,
+   "n_anchors": 9,
+   "cut_interval_points": [
+    106,
+    107
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 9,
+   "start_point": 121,
+   "level_s": -721.22,
+   "jump_s": -85.0,
+   "n_anchors": 4,
+   "cut_interval_points": [
+    119,
+    121
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 10,
+   "start_point": 140,
+   "level_s": -858.4,
+   "jump_s": -137.18,
+   "n_anchors": 6,
+   "cut_interval_points": [
+    125,
+    140
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 11,
+   "start_point": 148,
+   "level_s": -908.72,
+   "jump_s": -50.32,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    146,
+    148
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 12,
+   "start_point": 160,
+   "level_s": -1006.12,
+   "jump_s": -97.4,
+   "n_anchors": 18,
+   "cut_interval_points": [
+    159,
+    160
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 13,
+   "start_point": 201,
+   "level_s": -1127.84,
+   "jump_s": -121.72,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    187,
+    201
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 14,
+   "start_point": 210,
+   "level_s": -1559.36,
+   "jump_s": -431.52,
+   "n_anchors": 4,
+   "cut_interval_points": [
+    207,
+    210
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 15,
+   
+{'n_mcp': 334, 'n_pbp': 334, 'key_equal_at_same_index': 334, 'mismatch_points': [], 'join_key': 'server surname + sets + games + points (before point), occurrence order; MCP Pts is server-first'}

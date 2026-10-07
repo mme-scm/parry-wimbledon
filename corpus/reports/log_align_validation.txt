@@ -1,0 +1,58 @@
+{
+ "seed": 20190715,
+ "n_candidates": 59,
+ "automatic": {
+  "2019wimF": {
+   "n_utterances_with_call": 59,
+   "first_call_equals_score_before_point_plus_d": {
+    "-1": 1,
+    "0": 2,
+    "1": 40,
+    "2": 2,
+    "3": 1,
+    "none": 13
+   },
+   "note": "d=1: the call equals the score after this clip's point (before the next point)"
+  },
+  "2023wimF": {
+   "n_utterances_with_call": 39,
+   "first_call_equals_score_before_point_plus_d": {
+    "0": 3,
+    "1": 28,
+    "2": 2,
+    "none": 6
+   },
+   "note": "d=1: the call equals the score after this clip's point (before the next point)"
+  }
+ },
+ "hand_verdicts": {
+  "match_after_this_point": 14,
+  "no_match": 2,
+  "retrospective_narration_not_live_call": 1,
+  "retrospective_narration_coincidental_match": 1,
+  "match_before_and_later_skips_after": 1,
+  "match_two_points_later": 1
+ },
+ "n_judged": 20,
+ "judgements_match_current_sample": true
+}
+{'utt_id': 'tv_2019wimF:0000', 'point_idx': 3, 'set': 1, 'game_in_set': 1, 'server': 'Roger Federer', 'pbp_score_before_this_point': '30-0', 'pbp_score_after_this_point': '30-15', 'pbp_score_after_next_point': '40-15', 'first_call_in_text': '30-15', 'call_context_excerpt': '30 15 40 15', 'text_corrected_n_words': 4}
+{'utt_id': 'tv_2019wimF:0068', 'point_idx': 59, 'set': 1, 'game_in_set': 10, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '15-30', 'pbp_score_after_this_point': '30-30', 'pbp_score_after_next_point': '40-30', 'first_call_in_text': '30-0', 'call_context_excerpt': "irst serves You'd expect nothing less 30-0 Just seeing how both players", 'text_corrected_n_words': 29}
+{'utt_id': 'tv_2019wimF:0072', 'point_idx': 63, 'set': 1, 'game_in_set': 10, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': 'AD-40', 'pbp_score_after_this_point': '0-0', 'pbp_score_after_next_point': '15-0', 'first_call_in_text': 'love-30', 'call_context_excerpt': 'om Novak Djokovic the first search from love 30 down the backhand', 'text_corrected_n_words': 54}
+{'utt_id': 'tv_2019wimF:0098', 'point_idx': 97, 'set': 2, 'game_in_set': 2, 'server': 'Roger Federer', 'pbp_score_before_this_point': '30-30', 'pbp_score_after_this_point': '40-30', 'pbp_score_after_next_point': '0-0', 'first_call_in_text': '40-30', 'call_context_excerpt': "40 30 That's the textbook play from Federer", 'text_corrected_n_words': 28}
+{'utt_id': 'tv_2019wimF:0119', 'point_idx': 113, 'set': 2, 'game_in_set': 5, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '30-15', 'pbp_score_after_this_point': '40-15', 'pbp_score_after_next_point': '40-30', 'first_call_in_text': '40-15', 'call_context_excerpt': "40-15 Well it looks like it's not going to", 'text_corrected_n_words': 37}
+{'utt_id': 'tv_2019wimF:0157', 'point_idx': 141, 'set': 3, 'game_in_set': 4, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '0-0', 'pbp_score_after_this_point': '15-0', 'pbp_score_after_next_point': '30-0', 'first_call_in_text': '15-love', 'call_context_excerpt': '15 love Game on again Djokovic fully engaged', 'text_corrected_n_words': 8}
+{'utt_id': 'tv_2019wimF:0174', 'point_idx': 156, 'set': 3, 'game_in_set': 7, 'server': 'Roger Federer', 'pbp_score_before_this_point': '0-0', 'pbp_score_after_this_point': '15-0', 'pbp_score_after_next_point': '30-0', 'first_call_in_text': '15-0', 'call_context_excerpt': '15-0 Not a very even keel throughout the wh', 'text_corrected_n_words': 32}
+{'utt_id': 'tv_2019wimF:0178', 'point_idx': 161, 'set': 3, 'game_in_set': 8, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '15-0', 'pbp_score_after_this_point': '30-0', 'pbp_score_after_next_point': '40-0', 'first_call_in_text': '30-love', 'call_context_excerpt': '30 love Wow', 'text_corrected_n_words': 3}
+{'utt_id': 'tv_2019wimF:0189', 'point_idx': 171, 'set': 3, 'game_in_set': 10, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '0-0', 'pbp_score_after_this_point': '0-15', 'pbp_score_after_next_point': '15-15', 'first_call_in_text': 'love-15', 'call_context_excerpt': "Djokovic had love 15 on Federer's serve Couldn't take advan", 'text_corrected_n_words': 16}
+{'utt_id': 'tv_2019wimF:0243', 'point_idx': 224, 'set': 4, 'game_in_set': 5, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '15-15', 'pbp_score_after_this_point': '15-30', 'pbp_score_after_next_point': '15-40', 'first_call_in_text': '15-30', 'call_context_excerpt': '15 30', 'text_corrected_n_words': 2}
+{'utt_id': 'tv_2019wimF:0254', 'point_idx': 232, 'set': 4, 'game_in_set': 7, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '15-0', 'pbp_score_after_this_point': '15-15', 'pbp_score_after_next_point': '30-15', 'first_call_in_text': '15-0', 'call_context_excerpt': '15-0 30-15', 'text_corrected_n_words': 2}
+{'utt_id': 'tv_2019wimF:0289', 'point_idx': 263, 'set': 5, 'game_in_set': 2, 'server': 'Roger Federer', 'pbp_score_before_this_point': '40-15', 'pbp_score_after_this_point': '40-30', 'pbp_score_after_next_point': '0-0', 'first_call_in_text': '40-40', 'call_context_excerpt': '40-40', 'text_corrected_n_words': 1}
+{'utt_id': 'tv_2019wimF:0293', 'point_idx': 265, 'set': 5, 'game_in_set': 3, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '0-0', 'pbp_score_after_this_point': '0-15', 'pbp_score_after_next_point': '15-15', 'first_call_in_text': 'Love-15', 'call_context_excerpt': 'Love 15', 'text_corrected_n_words': 2}
+{'utt_id': 'tv_2019wimF:0303', 'point_idx': 273, 'set': 5, 'game_in_set': 4, 'server': 'Roger Federer', 'pbp_score_before_this_point': '0-0', 'pbp_score_after_this_point': '0-15', 'pbp_score_after_next_point': '15-15', 'first_call_in_text': 'Love-15', 'call_context_excerpt': 'Love 15 Every point counts double There are n', 'text_corrected_n_words': 13}
+{'utt_id': 'tv_2019wimF:0378', 'point_idx': 330, 'set': 5, 'game_in_set': 12, 'server': 'Roger Federer', 'pbp_score_before_this_point': '15-0', 'pbp_score_after_this_point': '15-15', 'pbp_score_after_next_point': '15-30', 'first_call_in_text': '15-30', 'call_context_excerpt': "He's rediscovering his greatest shot 15 30", 'text_corrected_n_words': 21}
+{'utt_id': 'tv_2019wimF:0425', 'point_idx': 367, 'set': 5, 'game_in_set': 17, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '40-15', 'pbp_score_after_this_point': '40-30', 'pbp_score_after_next_point': '0-0', 'first_call_in_text': '40-30', 'call_context_excerpt': '40-30 Game Djokovic', 'text_corrected_n_words': 3}
+{'utt_id': 'tv_2019wimF:0438', 'point_idx': 377, 'set': 5, 'game_in_set': 19, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '30-15', 'pbp_score_after_this_point': '40-15', 'pbp_score_after_next_point': '0-0', 'first_call_in_text': '40-15', 'call_context_excerpt': "Oh it's working better 40-15 Going through with the ball Gets his", 'text_corrected_n_words': 15}
+{'utt_id': 'tv_2019wimF:0451', 'point_idx': 388, 'set': 5, 'game_in_set': 21, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '30-30', 'pbp_score_after_this_point': '40-30', 'pbp_score_after_next_point': '0-0', 'first_call_in_text': '40-30', 'call_context_excerpt': '40 30 Reached for the forehand and it flew o', 'text_corrected_n_words': 27}
+{'utt_id': 'tv_2019wimF:0463', 'point_idx': 398, 'set': 5, 'game_in_set': 23, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '40-0', 'pbp_score_after_this_point': '40-15', 'pbp_score_after_next_point': '40-30', 'first_call_in_text': '40-15', 'call_context_excerpt': '40-15', 'text_corrected_n_words': 1}
+{'utt_id': 'tv_2019wimF:0464', 'point_idx': 399, 'set': 5, 'game_in_set': 23, 'server': 'Novak Djokovic', 'pbp_score_before_this_point': '40-15', 'pbp_score_after_this_point': '40-30', 'pbp_score_after_next_point': '40-40', 'first_call_in_text': '40-30', 'call_context_excerpt': '40-30 40 love back to 40-30 Djokovic will b', 'text_corrected_n_words': 17}
