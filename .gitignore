@@ -1,0 +1,12 @@
+corpus/raw/
+.venv/
+__pycache__/
+models/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.opus
+*.zip
+*.tar
+*.tar.gz
