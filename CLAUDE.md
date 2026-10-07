@@ -2,8 +2,8 @@
 
 Goal: (1) test Parry–Lord oral-formulaic theory on live tennis commentary of one match; (2) compose ~50 Homeric hexameters narrating the match, built from attested formulae, every line scanned and sourced; (3) translation and a short paper. The reader is a specialist in Homeric and Indo-European studies who will check the Greek and the statistics.
 
-Match: chosen in Phase 0; see corpus/SOURCES.md
-Corpus scope: chosen in Phase 0; see corpus/SOURCES.md
+Match: 2019 Wimbledon men's final, Djokovic d. Federer, 14 July 2019 (TennisVL id 20190714-M-Wimbledon-F-Roger_Federer-Novak_Djokovic; Sackmann 2019-wimbledon-1701). Held-out match: 2023 Wimbledon men's final, Alcaraz d. Djokovic. See corpus/SOURCES.md
+Corpus scope: (1) MAIN, in-sample: WhisperX ASR transcripts of the single TV commentary track of the 2019 final from the TennisVL test split (broadcaster unnamed in the files; probably BBC TV [unverified]), with TennisVL per-shot hit times, Sackmann slam point-by-point ElapsedTime, and Match Charting Project shot sequences. (2) HELD-OUT: the same layers for the 2023 final. (3) REFERENCE POOL, exploratory and for cross-match formula identification only: the other 18 TennisVL test-split matches' transcripts. (4) WRITTEN CONTRAST (medium=text, never pooled with speech): Cornell/Sports Mole live-text commentary, different matches. No radio, no second broadcaster, no audio, no speaker labels, no word timings: see STATUS.md Phase 0.
 
 ## Rules for every agent
 - Files are the interface. Write outputs to the paths given; return short summaries.

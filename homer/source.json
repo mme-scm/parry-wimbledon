@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/PerseusDL/canonical-greekLit",
+  "commit": "01b725d835e6e733062ffd79e0efdbae1ba06e5c",
+  "fetched": "2026-10-07",
+  "files": {
+    "Il": {
+      "path": "data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
+      "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/01b725d835e6e733062ffd79e0efdbae1ba06e5c/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
+      "local": "corpus/raw/perseus/tlg0012.tlg001.perseus-grc2.xml",
+      "sha256": "ae8b617018c6e5af14cbab9ce6082438c0f103eafd0a4c67bdae4588cca5eaa4",
+      "git_blob": "bd2fdecd37f336c0f7a55650e35ad20f43165ef9",
+      "bytes": 2043055,
+      "last_commit_touching_file": "ceeb60d9e9e0ebefd0f22b536e03a67084d2452a",
+      "last_commit_date": "2026-09-18"
+    },
+    "Od": {
+      "path": "data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml",
+      "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/01b725d835e6e733062ffd79e0efdbae1ba06e5c/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml",
+      "local": "corpus/raw/perseus/tlg0012.tlg002.perseus-grc2.xml",
+      "sha256": "7d7ffafb6c51f8c230c0af3d6c0a6e5c7613cc0a016cc5681fb6e34972b86088",
+      "git_blob": "e799b82a372f2612ab1b05c67a015fbef04fe261",
+      "bytes": 1557271,
+      "last_commit_touching_file": "b864b282e1689a2c2a1ebb59ff8aa2b773cb50c1",
+      "last_commit_date": "2026-09-15"
+    }
+  }
+}

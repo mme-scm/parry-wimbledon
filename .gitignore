@@ -10,3 +10,6 @@ models/
 *.zip
 *.tar
 *.tar.gz
+corpus/transcripts/*.jsonl
+corpus/transcripts/**/*.jsonl
+corpus/text/*.jsonl
