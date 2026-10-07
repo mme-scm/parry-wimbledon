@@ -1,0 +1,12 @@
+{
+ "stream": "tv_2019wimF",
+ "utterances": 318,
+ "tokens": 9791,
+ "pool_tokens": 103675,
+ "formula_types_stop_filtered": 1194,
+ "formula_types_unfiltered": 1503,
+ "insample_density_a_nmin2": 0.4424471453375549,
+ "types_shared_with_any_pool_stream": 919,
+ "types_in_2023": 467,
+ "excerpt_words_written": 915
+}

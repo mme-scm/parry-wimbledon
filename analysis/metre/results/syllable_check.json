@@ -1,0 +1,52 @@
+{
+ "development_fixture_in_sample": {
+  "n_fixture_words": 163,
+  "n_exact": 162,
+  "accuracy": 0.9939,
+  "mean_abs_error": 0.0061,
+  "errors": [
+   {
+    "word": "brilliant",
+    "gold": 2,
+    "counted": 3
+   }
+  ],
+  "n_fixture_words_in_exception_list": 27,
+  "accuracy_excluding_exception_list": 0.9926
+ },
+ "heldout_fixture": {
+  "n_words": 120,
+  "n_exact": 116,
+  "accuracy": 0.9667,
+  "within_one": 0.9917,
+  "mean_signed_error_counted_minus_gold": -0.0083,
+  "mean_abs_error": 0.0417,
+  "n_in_exception_list": 4,
+  "errors": [
+   {
+    "word": "rafael",
+    "gold": 3,
+    "counted": 2
+   },
+   {
+    "word": "cameraman",
+    "gold": 3,
+    "counted": 4
+   },
+   {
+    "word": "interested",
+    "gold": 3,
+    "counted": 4
+   },
+   {
+    "word": "rpm",
+    "gold": 3,
+    "counted": 1
+   }
+  ],
+  "accuracy_wilson95": [
+   0.9174,
+   0.987
+  ]
+ }
+}

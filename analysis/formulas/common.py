@@ -279,25 +279,25 @@ def coverage_arrays(utts, F, S=None, names=None, n_min=2, mask=None):
 
 
 def boot_ratio(num, den, B=2000, seed=0, strata=None):
-    """Percentile bootstrap CI for sum(num)/sum(den), resampling utterances (within strata if given)."""
+    """Percentile bootstrap CI for sum(num)/sum(den), resampling utterances (within strata if given).
+    Returns (estimate, lo, hi, draws)."""
     num = np.asarray(num, float)
     den = np.asarray(den, float)
     rng = np.random.default_rng(seed)
     if strata is None:
         strata = np.zeros(len(num), dtype=int)
     strata = np.asarray(strata)
-    groups = [np.where(strata == s)[0] for s in np.unique(strata)]
-    vals = np.empty(B)
-    for b in range(B):
-        sn = 0.0
-        sd = 0.0
-        for g in groups:
-            idx = rng.choice(g, size=len(g), replace=True)
-            sn += num[idx].sum()
-            sd += den[idx].sum()
-        vals[b] = sn / sd if sd else np.nan
+    sn = np.zeros(B)
+    sd = np.zeros(B)
+    for s_ in np.unique(strata):
+        g = np.where(strata == s_)[0]
+        idx = g[rng.integers(0, len(g), size=(B, len(g)))]
+        sn += num[idx].sum(1)
+        sd += den[idx].sum(1)
+    with np.errstate(invalid="ignore", divide="ignore"):
+        vals = sn / sd
     est = num.sum() / den.sum() if den.sum() else np.nan
-    return est, np.nanpercentile(vals, 2.5), np.nanpercentile(vals, 97.5), vals
+    return float(est), float(np.nanpercentile(vals, 2.5)), float(np.nanpercentile(vals, 97.5)), vals
 
 
 def subsample(utts_list, target_tokens, rng, exclude=None):
@@ -330,3 +330,259 @@ def _default(o):
     if isinstance(o, (set, frozenset)):
         return sorted(o)
     raise TypeError(type(o))
+
+
+# ---------------------------------------------------------------- fast identification (replicates)
+def formula_set_fast(utts, m: int = 2, nmax: int = 12, stop_filter: bool = True):
+    """Same result as formula_set(..., min_gap=None) but without per-key sets (last-seen utterance trick)."""
+    last = {}
+    cnt = {}
+    for ui, toks in enumerate(utts):
+        L = len(toks)
+        for n in range(2, min(nmax, L) + 1):
+            for i in range(L - n + 1):
+                g = tuple(toks[i:i + n])
+                if last.get(g) != ui:
+                    last[g] = ui
+                    cnt[g] = cnt.get(g, 0) + 1
+    F = {g for g, c in cnt.items() if c >= m}
+    if stop_filter:
+        F = {g for g in F if not all(t in STOP for t in g)}
+    return F
+
+
+def system_set_fast(utts, names, nmin=2, nmax=6, min_occ=3, min_utts=3, stop_filter=True):
+    """Same criteria as system_set (>= 2 distinct fillers, >= min_occ occurrences in >= min_utts utterances);
+    returns the set of frame keys only."""
+    occ = {}
+    nutt = {}
+    last = {}
+    fil1 = {}
+    multi = set()
+    for ui, toks in enumerate(utts):
+        L = len(toks)
+        for n in range(nmin, min(nmax, L) + 1):
+            for i in range(L - n + 1):
+                for key, fil in frame_keys(toks, i, n, names):
+                    if key[2] == "OPEN" and n < 3:
+                        continue
+                    occ[key] = occ.get(key, 0) + 1
+                    if last.get(key) != ui:
+                        last[key] = ui
+                        nutt[key] = nutt.get(key, 0) + 1
+                    f0 = fil1.get(key)
+                    if f0 is None:
+                        fil1[key] = fil
+                    elif f0 != fil:
+                        multi.add(key)
+    S = set()
+    for key in multi:
+        if occ[key] < min_occ or nutt[key] < min_utts:
+            continue
+        if stop_filter and all(t in STOP for t in key[3]):
+            continue
+        S.add(key)
+    return S
+
+
+def cover_b_set(toks, S: set, names, nmin=2, nmax=6) -> np.ndarray:
+    L = len(toks)
+    cov = np.zeros(L, dtype=bool)
+    if not S:
+        return cov
+    for n in range(nmin, min(nmax, L) + 1):
+        for i in range(L - n + 1):
+            for key, _ in frame_keys(toks, i, n, names):
+                if key in S:
+                    cov[i:i + n] = True
+                    break
+    return cov
+
+
+def densities(meas_utts, F, S, names, n_min=2, masks=None):
+    """Per-utterance arrays (tokens, covered a, covered a+b). S may be a set or dict of frame keys."""
+    k = len(meas_utts)
+    n = np.zeros(k, dtype=np.int64)
+    ca = np.zeros(k, dtype=np.int64)
+    cab = np.zeros(k, dtype=np.int64)
+    Sset = set(S) if S is not None else set()
+    for j, toks in enumerate(meas_utts):
+        a = cover_a(toks, F, n_min=n_min) > 0
+        b = cover_b_set(toks, Sset, names) if Sset else np.zeros(len(toks), bool)
+        keep = masks[j] if masks is not None else np.ones(len(toks), bool)
+        n[j] = keep.sum()
+        ca[j] = (a & keep).sum()
+        cab[j] = ((a | b) & keep).sum()
+    return n, ca, cab
+
+
+def ratio(num, den):
+    num = np.asarray(num).sum()
+    den = np.asarray(den).sum()
+    return float(num / den) if den else float("nan")
+
+
+# ---------------------------------------------------------------- official-call masks (plan S5)
+def official_mask(toks, names) -> np.ndarray:
+    """True = keep; False = token inside an umpire/Hawk-Eye/announcer pattern (plan section 8, S5)."""
+    nm = "(?:" + "|".join(sorted(re.escape(x) for x in names)) + ")(?:'s)?"
+    ords = "(?:first|second|third|fourth|fifth|final)"
+    pats = [
+        rf"\bgame (?:mr |miss |ms )?{nm}\b",
+        rf"\b{nm} leads? (?:by )?\w+ (?:games?|sets?) to \w+(?: {ords} set)?\b",
+        rf"\b\w+ games? all(?: {ords} set)?\b",
+        rf"\b(?:mr |miss |ms )?{nm} is challenging\b",
+        r"\b(?:mr |miss |ms )?\w+ has \w+ challenges? (?:remaining|left)\b",
+        r"\bchallenges? remaining\b",
+        r"\b(?:service line |line )?ball was called(?: out| in| wide| long)?\b",
+        r"\bnew balls please\b",
+        r"\b(?:thank you )+please\b",
+        r"\bplease thank you\b",
+        r"\btime violation(?: warning)?\b",
+        r"\bplayers ready\b",
+    ]
+    s = " ".join(toks)
+    # char offset -> token index
+    starts = []
+    pos = 0
+    for t in toks:
+        starts.append(pos)
+        pos += len(t) + 1
+    keep = np.ones(len(toks), dtype=bool)
+    for p in pats:
+        for mt in re.finditer(p, s):
+            a, b = mt.start(), mt.end()
+            for ti, st in enumerate(starts):
+                if st >= a and st < b:
+                    keep[ti] = False
+    return keep
+
+
+# ---------------------------------------------------------------- contexts (plan sections 4-5)
+def _f(x):
+    try:
+        if x is None or x == "":
+            return None
+        v = float(x)
+        return None if np.isnan(v) else v
+    except (TypeError, ValueError):
+        return None
+
+
+def load_points(tag: str) -> dict:
+    import csv
+    pts = {}
+    with open(TIMING / f"points_{tag}.csv", encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            pts[int(r["point_idx"])] = r
+    return pts
+
+
+def _pt_val(x, tb):
+    if tb:
+        return int(x)
+    return {"0": 0, "15": 1, "30": 2, "40": 3, "AD": 4}[x]
+
+
+def score_situation(r: dict, final_set_tb_target: int) -> str:
+    """Most pressing category of the PBP state before the point (plan section 4)."""
+    tb = r["tiebreak"] == "True"
+    set_no = int(r["set_no"])
+    p = [_pt_val(r["pts_before_p1"], tb), _pt_val(r["pts_before_p2"], tb)]
+    g = [int(r["games_before_p1"]), int(r["games_before_p2"])]
+    s = [int(r["sets_before_p1"]), int(r["sets_before_p2"])]
+    server = int(r["server_pbp"]) - 1
+    cats = set()
+    for x in (0, 1):
+        o = 1 - x
+        if tb:
+            target = final_set_tb_target if set_no == 5 else 7
+            gp = p[x] >= target - 1 and p[x] - p[o] >= 1
+        else:
+            gp = (p[x] == 3 and p[o] <= 2) or p[x] == 4
+        if not gp:
+            continue
+        if tb:
+            sp = True
+        else:
+            gx = g[x] + 1
+            sp = gx >= 6 and gx - g[o] >= 2
+            if set_no < 5 and g[x] == 6 and g[o] == 5:
+                sp = True
+        if sp and s[x] == 2:
+            cats.add("match_point")
+        elif sp:
+            cats.add("set_point")
+        elif x != server and not tb:
+            cats.add("break_point")
+    for c in ("match_point", "set_point", "break_point"):
+        if c in cats:
+            return c
+    if tb:
+        return "tiebreak"
+    if p[0] >= 3 and p[1] >= 3:
+        return "deuce_ad"
+    return "other"
+
+
+def tercile(values):
+    """Return (labels, cuts): T1/T2/T3 by the 1/3 and 2/3 quantiles of the non-missing values; NA if missing."""
+    v = np.array([x for x in values if x is not None], float)
+    q1, q2 = np.quantile(v, [1 / 3, 2 / 3])
+    lab = []
+    for x in values:
+        if x is None:
+            lab.append("NA")
+        elif x <= q1:
+            lab.append("T1")
+        elif x <= q2:
+            lab.append("T2")
+        else:
+            lab.append("T3")
+    return lab, (float(q1), float(q2))
+
+
+STREAM_TAG = {MAIN: "2019wimF", HELDOUT: "2023wimF"}
+FINAL_SET_TB = {MAIN: 7, HELDOUT: 10}
+
+
+def add_contexts(recs: list[dict], stream: str) -> dict:
+    """Adds ctx_* fields to the records of a final (2019/2023). Returns tercile cut points."""
+    pts = load_points(STREAM_TAG[stream])
+    allrecs = []
+    with open(TRANSCRIPTS / f"{stream}.jsonl", encoding="utf-8") as fh:
+        for line in fh:
+            allrecs.append(json.loads(line))
+    by_i = {r["clip_i"]: r for r in allrecs}
+    for r in recs:
+        p = r.get("point_idx_pbp")
+        r["ctx_dt_before"] = _f(r.get("dead_time_before_s"))
+        ta = None
+        if p is not None:
+            if r["clip_role"] == "first_serve_fault":
+                nxt = by_i.get(r["clip_i"] + 1)
+                if nxt is not None and nxt.get("point_idx_pbp") == p:
+                    ta = _f(r.get("t_to_next_first_hit_s"))
+            else:
+                nr = pts.get(int(p) + 1)
+                if nr is not None:
+                    ta = _f(nr.get("dead_time_before_s"))
+        r["ctx_time_after"] = ta
+        r["ctx_score"] = score_situation(pts[int(p)], FINAL_SET_TB[stream]) if p is not None else "NA"
+        r["ctx_phase"] = r.get("phase") or "clip"
+        r["ctx_role"] = r.get("clip_role") or "NA"
+    lb, cb = tercile([r["ctx_dt_before"] for r in recs])
+    la, ca = tercile([r["ctx_time_after"] for r in recs])
+    for r, x, y in zip(recs, lb, la):
+        r["ctx_dtb_terc"] = x
+        r["ctx_ta_terc"] = y
+    return {"dead_time_before_s": cb, "time_after_s": ca}
+
+
+def excerpt(toks, i, n, width=15):
+    """Lower-cased token window of at most `width` tokens containing toks[i:i+n]."""
+    extra = max(0, width - n)
+    a = max(0, i - extra // 2)
+    b = min(len(toks), a + width)
+    a = max(0, b - width)
+    return " ".join(toks[a:b])

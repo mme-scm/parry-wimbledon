@@ -1,0 +1,232 @@
+rank	frame	n	slot_position	slot_type	occurrences	utterances	distinct_fillers	top_fillers	coverage_share	coverage_beyond_a_share	pool_streams_attested	example_excerpt_max12w
+1	<NUM> 15	2	0	NUM	40	36	8	40:13; 30:12; love:7; 13:3; 14:2; 10:1; 16:1; 7:1	0.00817	0.00051	16	30 15 40 15
+2	15 <NUM>	2	1	NUM	30	29	6	love:8; 0:7; 30:6; 13:5; 40:2; 14:2	0.00613	0.00000	16	15 love
+3	<NUM> 30	2	0	NUM	26	24	5	40:10; 15:6; 14:5; 0:3; love:2	0.00531	0.00000	16	15 0 30 15
+4	40 <NUM>	2	1	NUM	28	22	4	15:13; 30:10; love:4; 40:1	0.00572	0.00020	17	30 love 40 love
+5	the <_> set	3	1	OPEN	27	21	6	first:10; fifth:7; second:6; fourth:2; third:1; final:1	0.00827	0.00000	17	that nadal match and the second set wouldn't have taken much out
+6	<NAME> djokovic	2	0	NAME	21	19	4	novak:16; federer:3; roger:1; djokovic:1	0.00429	0.00031	6	slam by beating kei nishikori novak djokovic to serve we're settling into
+7	30 <NUM>	2	1	NUM	19	19	4	15:12; love:4; 40:2; 0:1	0.00388	0.00020	16	30 love that's what roger does so well serve excellent under pressure
+8	<NUM> love	2	0	NUM	19	15	6	15:8; 30:4; 40:4; 50:1; thirty:1; forty:1	0.00388	0.00061	13	15 love novak serving with new balls going to speed up the
+9	novak <NAME>	2	1	NAME	17	15	2	djokovic:16; djokovic's:1	0.00347	0.00010	7	all percent 15th wimbledon for novak djokovic 32 years of age the
+10	<NUM> 0	2	0	NUM	16	15	6	15:7; 50:3; 1:3; 30:1; 12:1; 6:1	0.00327	0.00051	14	serves you'd expect nothing less 30 0 just seeing how both players
+11	<NUM> minutes	2	0	NUM	14	12	11	10:3; 48:2; 20:1; 58:1; 13:1; 15:1; 47:1; 24:1	0.00286	0.00163	15	it was 6 1 in 20 minutes but again what's amazing even
+12	djokovic <_> the	3	1	OPEN	11	11	9	finding:2; had:2; down:1; certainly:1; perhaps:1; in:1; breaks:1; flashed:1	0.00337	0.00102	4	the djokovic down the line backhand doesn't achieve the right length or
+13	mr <NAME>	2	1	NAME	11	11	2	federer:6; djokovic:5	0.00225	0.00000	2	mr djokovic is charging the call up service line ball was called
+14	federer <_> to	3	1	OPEN	10	10	8	looking:3; going:1; trying:1; able:1; yet:1; began:1; likes:1; again:1	0.00306	0.00092	0	the first set at 4 5 proactive from federer looking to dictate
+15	love <NUM>	2	1	NUM	11	9	4	15:7; 30:2; 40:1; forty:1	0.00225	0.00020	16	djokovic the first search from love 30 down the backhand down the
+16	by <_> games to	4	1	OPEN	9	9	6	two:3; four:2; six:1; five:1; three:1; by:1	0.00368	0.00041	7	game is federer leads by two games to one per set tim
+17	in the <_> set	4	2	OPEN	9	9	4	fifth:4; first:2; second:2; final:1	0.00368	0.00000	15	keep this early momentum in the second set djokovic intensities dropped off
+18	by <_> games	3	1	OPEN	9	9	6	two:3; four:2; six:1; five:1; three:1; by:1	0.00276	0.00041	7	it was not easy by six games to five percent pretty amazing
+19	in <_> fifth	3	1	OPEN	9	9	2	the:6; this:3	0.00276	0.00000	4	good hold every hold a good hold in the fifth
+20	<NAME> federer	2	0	NAME	9	9	2	roger:8; federer:1	0.00184	0.00000	4	if there's one statistic roger federer is really average and challenging for
+21	game <NAME>	2	1	NAME	9	9	2	djokovic:7; federer:2	0.00184	0.00000	9	game djokovic tiebreak coming up can't wait federer i really feel has
+22	roger <NAME>	2	1	NAME	9	9	2	federer:8; djokovic:1	0.00184	0.00020	4	body serve into roger djokovic needs to find a few more first
+23	14 <NUM>	2	1	NUM	9	8	3	30:5; 15:2; 13:2	0.00184	0.00000	8	14 15 14 30
+24	djokovic <_> to	3	1	OPEN	8	8	6	trying:2; able:2; needs:1; serving:1; had:1; corner:1	0.00245	0.00051	3	djokovic had to work so hard to recover to his backhand side
+25	federer <_> the	3	1	OPEN	8	8	8	with:1; got:1; resisting:1; gets:1; was:1; on:1; constructed:1; to:1	0.00245	0.00061	2	quarter of an hour played and federer with the first break point
+26	the <_> serve	3	1	OPEN	8	8	6	first:3; great:1; federer:1; body:1; previous:1; second:1	0.00245	0.00010	17	see a little bit of emotion here by the great serve weider
+27	the <_> shot	3	1	OPEN	8	8	5	drop:3; right:2; second:1; approach:1; passing:1	0.00245	0.00031	15	federer going to the drop shot well for a third time in
+28	the <_> time	3	1	OPEN	8	8	5	first:3; whole:2; last:1; second:1; 11th:1	0.00245	0.00031	14	2015 so federer resisting the whole time i mentioned the year end
+29	<NAME> leads by	3	0	NAME	7	7	2	djokovic:4; federer:3	0.00214	0.00000	4	game federer federer leads by five games to one second set
+30	the <_> final	3	1	OPEN	7	7	3	semi:5; men's:1; longest:1	0.00214	0.00041	6	with each other for the semi final winner of the first set
+31	<NAME> leads	2	0	NAME	7	7	2	djokovic:4; federer:3	0.00143	0.00000	11	federer leads by four games to three third set 1 0 federer
+32	<NUM> 13	2	0	NUM	7	7	2	15:5; 14:2	0.00143	0.00000	12	15 13 maybe word of wisdom for all the federer fans out
+33	the <_> point	3	1	OPEN	7	6	3	first:5; next:1; match:1	0.00214	0.00010	11	a great statement on the first point with djokovic serving to stay
+34	the <_> side	3	1	OPEN	7	6	4	backhand:3; other:2; forehand:1; wrong:1	0.00214	0.00020	14	an early sign of federer being incredibly aggressive on the backhand side
+35	leads by <_> games to	5	2	OPEN	6	6	5	two:2; five:1; four:1; three:1; by:1	0.00306	0.00020	7	their lives djokovic leads by two games to one four sets and
+36	leads by <_> games	4	2	OPEN	6	6	5	two:2; five:1; four:1; three:1; by:1	0.00245	0.00020	7	2 final set djokovic leads by three games to two final set
+37	a <_> set	3	1	OPEN	6	6	4	fifth:2; final:2; fourth:1; deciding:1	0.00184	0.00041	10	off we go into a fourth set two sets to one defending
+38	at <_> end	3	1	OPEN	6	6	2	the:5; djokovic:1	0.00184	0.00000	12	you slightly surprised boris at the end of the second set that
+39	mr <NAME> is	3	1	NAME	6	6	2	djokovic:3; federer:3	0.00184	0.00000	1	please please mr djokovic is having a call right past the line
+40	mr <_> is	3	1	OPEN	6	6	2	djokovic:3; federer:3	0.00184	0.00000	1	mr federer is challenging a goal left centre service line ball was
+41	on <_> serve	3	1	OPEN	6	6	4	his:3; second:1; the:1; federer's:1	0.00184	0.00041	10	
+42	time <_> the	3	1	OPEN	6	6	2	in:5; played:1	0.00184	0.00000	4	
+43	<NUM> 40	2	0	NUM	6	6	4	15:2; 30:2; love:1; 40:1	0.00123	0.00020	13	
+44	federer <NAME>	2	1	NAME	6	6	3	djokovic:3; nadal:2; federer:1	0.00123	0.00000	1	
+45	got to <_> the	4	2	OPEN	5	5	5	be:1; know:1; stop:1; win:1; get:1	0.00204	0.00000	4	
+46	hours and <NUM> minutes	4	2	NUM	5	5	5	47:1; 24:1; 45:1; 57:1; 48:1	0.00204	0.00071	5	
+47	hours and <_> minutes	4	2	OPEN	5	5	5	47:1; 24:1; 45:1; 57:1; 48:1	0.00204	0.00071	6	
+48	in <_> fifth set	4	1	OPEN	5	5	2	the:4; this:1	0.00204	0.00000	4	
+49	of the <_> set	4	2	OPEN	5	5	3	first:2; second:2; fifth:1	0.00204	0.00010	12	
+50	15 <NUM> 30	3	1	NUM	5	5	4	0:2; 40:1; 14:1; love:1	0.00153	0.00000	2	
+51	15 <_> 30	3	1	OPEN	5	5	4	0:2; 40:1; 14:1; love:1	0.00153	0.00000	2	
+52	a <_> game	3	1	OPEN	5	5	4	good:2; champions:1; service:1; brutal:1	0.00153	0.00061	10	
+53	a <_> time	3	1	OPEN	5	5	4	long:2; third:1; bad:1; good:1	0.00153	0.00051	12	
+54	and <NUM> minutes	3	1	NUM	5	5	5	47:1; 24:1; 45:1; 57:1; 48:1	0.00153	0.00071	6	
+55	and <_> minutes	3	1	OPEN	5	5	5	47:1; 24:1; 45:1; 57:1; 48:1	0.00153	0.00071	7	
+56	djokovic <_> by	3	1	OPEN	5	5	2	leads:4; spotted:1	0.00153	0.00010	0	
+57	federer <_> by	3	1	OPEN	5	5	3	leads:3; lead:1; defended:1	0.00153	0.00031	0	
+58	hours and <NUM>	3	2	NUM	5	5	5	47:1; 24:1; 45:1; 57:1; 48:1	0.00153	0.00041	5	
+59	i <_> think	3	1	OPEN	5	5	3	don't:3; didn't:1; still:1	0.00153	0.00051	14	
+60	in <_> match	3	1	OPEN	5	5	2	the:3; this:2	0.00153	0.00000	15	
+61	mr <NAME> has	3	1	NAME	5	5	2	federer:3; djokovic:2	0.00153	0.00000	1	
+62	mr <_> has	3	1	OPEN	5	5	2	federer:3; djokovic:2	0.00153	0.00000	1	
+63	on <_> feet	3	1	OPEN	5	5	2	their:4; his:1	0.00153	0.00010	6	
+64	point <_> the	3	1	OPEN	5	5	5	at:1; with:1; of:1; for:1; played:1	0.00153	0.00010	13	
+65	serve <_> the	3	1	OPEN	5	5	5	it's:1; bangs:1; on:1; in:1; for:1	0.00153	0.00051	15	
+66	the <_> federer	3	1	OPEN	5	5	5	sideline:1; semifinals:1; end:1; way:1; middle:1	0.00153	0.00061	1	
+67	two <_> points	3	1	OPEN	5	5	3	championship:3; great:1; break:1	0.00153	0.00020	11	
+68	4 <NUM>	2	1	NUM	5	5	4	5:2; 11:1; 000:1; 7:1	0.00102	0.00061	14	
+69	6 <NUM>	2	1	NUM	5	5	5	1:1; 4:1; 5:1; 0:1; 7:1	0.00102	0.00082	12	
+70	<NAME> return	2	0	NAME	5	5	3	djokovic's:2; djokovic:2; federer:1	0.00102	0.00010	3	
+71	game <NUM>	2	1	NUM	5	5	5	350:1; 14:1; 4:1; 5:1; 41:1	0.00102	0.00061	7	
+72	set <NAME>	2	1	NAME	5	5	3	djokovic:2; federer:2; novak:1	0.00102	0.00010	8	
+73	<NAME> has won	3	0	NAME	6	4	2	djokovic:4; federer:2	0.00184	0.00000	1	
+74	two <_> to one	4	1	OPEN	5	4	2	games:3; sets:2	0.00204	0.00000	6	
+75	<NAME> is challenging	3	0	NAME	5	4	2	federer:4; djokovic:1	0.00153	0.00000	1	
+76	two <_> to	3	1	OPEN	5	4	2	games:3; sets:2	0.00153	0.00000	11	
+77	mr <NAME> has two challenges remaining	6	1	NAME	4	4	2	federer:3; djokovic:1	0.00245	0.00000	1	
+78	mr <_> has two challenges remaining	6	1	OPEN	4	4	2	federer:3; djokovic:1	0.00245	0.00000	1	
+79	<NAME> has two challenges remaining	5	0	NAME	4	4	2	federer:3; djokovic:1	0.00204	0.00000	1	
+80	by <_> games to one	5	1	OPEN	4	4	2	two:3; five:1	0.00204	0.00010	3	
+81	mr <NAME> has two challenges	5	1	NAME	4	4	2	federer:3; djokovic:1	0.00204	0.00000	1	
+82	mr <_> has two challenges	5	1	OPEN	4	4	2	federer:3; djokovic:1	0.00204	0.00000	1	
+83	<NAME> has two challenges	4	0	NAME	4	4	2	federer:3; djokovic:1	0.00163	0.00000	1	
+84	<NUM> miles an hour	4	0	NUM	4	4	4	119:1; 95:1; 112:1; 107:1	0.00163	0.00041	5	
+85	mr <NAME> has two	4	1	NAME	4	4	2	federer:3; djokovic:1	0.00163	0.00000	1	
+86	mr <NAME> is challenging	4	1	NAME	4	4	2	federer:3; djokovic:1	0.00163	0.00000	0	
+87	mr <_> has two	4	1	OPEN	4	4	2	federer:3; djokovic:1	0.00163	0.00000	1	
+88	mr <_> is challenging	4	1	OPEN	4	4	2	federer:3; djokovic:1	0.00163	0.00000	0	
+89	<NAME> has two	3	0	NAME	4	4	2	federer:3; djokovic:1	0.00123	0.00000	1	
+90	<NAME> is going	3	0	NAME	4	4	2	federer:2; djokovic:2	0.00123	0.00000	5	
+91	<NUM> 30 15	3	0	NUM	4	4	2	0:3; 15:1	0.00123	0.00000	1	
+92	<NUM> miles an	3	0	NUM	4	4	4	119:1; 95:1; 112:1; 107:1	0.00123	0.00041	5	
+93	a <_> point	3	1	OPEN	4	4	3	break:2; short:1; certain:1	0.00123	0.00041	16	
+94	a <_> shot	3	1	OPEN	4	4	4	passing:1; great:1; drop:1; 16:1	0.00123	0.00051	15	
+95	first <_> in	3	1	OPEN	4	4	4	player:1; set:1; serves:1; serve:1	0.00123	0.00010	16	
+96	first <_> to	3	1	OPEN	4	4	4	man:1; set:1; serve:1; forehand:1	0.00123	0.00041	7	
+97	novak <_> the	3	1	OPEN	4	4	3	djokovic:2; was:1; up:1	0.00123	0.00051	2	
+98	of <_> time	3	1	OPEN	4	4	2	all:3; air:1	0.00123	0.00010	7	
+99	on <_> backhand	3	1	OPEN	4	4	2	the:2; that:2	0.00123	0.00000	8	
+100	points <_> the	3	1	OPEN	4	4	4	at:1; for:1; from:1; but:1	0.00123	0.00061	14	
+101	really <_> the	3	1	OPEN	4	4	4	like:1; started:1; sometimes:1; fearing:1	0.00123	0.00071	9	
+102	right <_> the	3	1	OPEN	4	4	3	past:2; with:1; after:1	0.00123	0.00031	10	
+103	the <_> box	3	1	OPEN	4	4	3	royal:2; federer:1; player:1	0.00123	0.00020	7	
+104	the <_> end	3	1	OPEN	4	4	4	year:1; south:1; receiving:1; other:1	0.00123	0.00112	8	
+105	the <_> match	3	1	OPEN	4	4	4	nadal:1; whole:1; dream:1; second:1	0.00123	0.00051	7	
+106	the <_> one	3	1	OPEN	4	4	3	last:2; best:1; number:1	0.00123	0.00000	15	
+107	the <_> return	3	1	OPEN	4	4	4	backhand:1; federer:1; djokovic:1; forehand:1	0.00123	0.00020	6	
+108	to <_> final	3	1	OPEN	4	4	3	a:2; two:1; four:1	0.00123	0.00020	10	
+109	50 <NUM>	2	1	NUM	4	4	2	0:3; love:1	0.00082	0.00020	5	
+110	<NAME> looking	2	0	NAME	4	4	2	federer:3; roger's:1	0.00082	0.00020	2	
+111	<NAME> serve	2	0	NAME	4	4	2	federer:3; federer's:1	0.00082	0.00020	4	
+112	<NUM> djokovic	2	0	NUM	4	4	4	6:1; 30:1; 12:1; 0:1	0.00082	0.00041	3	
+113	<NUM> miles	2	0	NUM	4	4	4	119:1; 95:1; 112:1; 107:1	0.00082	0.00041	6	
+114	serve <NAME>	2	1	NAME	4	4	4	novak:1; djokovic's:1; djokovic:1; federer:1	0.00082	0.00010	8	
+115	time <NAME>	2	1	NAME	4	4	3	roger:2; djokovic:1; federer:1	0.00082	0.00010	3	
+116	three <_> a	3	1	OPEN	5	3	2	and:4; aces:1	0.00153	0.00031	3	
+117	by two <_> to one	5	2	OPEN	4	3	2	games:3; sets:1	0.00204	0.00000	4	
+118	by two <_> to	4	2	OPEN	4	3	2	games:3; sets:1	0.00163	0.00000	4	
+119	on the <_> side	4	2	OPEN	4	3	3	backhand:2; wrong:1; other:1	0.00163	0.00031	7	
+120	a <_> years	3	1	OPEN	4	3	2	half:3; couple:1	0.00123	0.00000	4	
+121	end <_> the	3	1	OPEN	4	3	2	of:3; where:1	0.00123	0.00031	9	
+122	minutes <_> the	3	1	OPEN	4	3	4	at:1; of:1; into:1; matching:1	0.00123	0.00041	4	
+123	shot <_> djokovic	3	1	OPEN	4	3	3	from:2; by:1; and:1	0.00123	0.00000	2	
+124	to <_> djokovic	3	1	OPEN	4	3	4	lure:1; see:1; 12:1; the:1	0.00123	0.00031	3	
+125	5 <NUM>	2	1	NUM	4	3	4	2:1; 5:1; 10:1; 6:1	0.00071	0.00071	12	
+126	<NUM> 5	2	0	NUM	4	3	3	4:2; 6:1; 5:1	0.00071	0.00031	6	
+127	djokovic leads by <_> games to	6	3	OPEN	3	3	3	two:1; three:1; by:1	0.00184	0.00010	0	
+128	federer leads by <_> games to	6	3	OPEN	3	3	3	two:1; five:1; four:1	0.00184	0.00010	0	
+129	leads by <_> games to one	6	2	OPEN	3	3	2	two:2; five:1	0.00184	0.00010	3	
+130	at <_> end of the	5	1	OPEN	3	3	2	the:2; djokovic:1	0.00153	0.00000	7	
+131	djokovic leads by <_> games	5	3	OPEN	3	3	3	two:1; three:1; by:1	0.00153	0.00010	0	
+132	federer leads by <_> games	5	3	OPEN	3	3	3	two:1; five:1; four:1	0.00153	0.00010	0	
+133	games to one <_> set	5	3	OPEN	3	3	3	per:1; second:1; third:1	0.00153	0.00020	3	
+134	the <_> a little bit	5	1	OPEN	3	3	3	serve:1; call:1; air:1	0.00153	0.00020	6	
+135	the <_> down the line	5	1	OPEN	3	3	3	djokovic:1; backhand:1; forehand:1	0.00153	0.00000	5	
+136	<NAME> is going to	4	0	NAME	3	3	2	federer:2; djokovic:1	0.00123	0.00000	5	
+137	<NUM> 0 30 15	4	0	NUM	3	3	2	15:2; 50:1	0.00123	0.00000	1	
+138	able to <_> the	4	2	OPEN	3	3	2	make:2; find:1	0.00123	0.00000	10	
+139	at <_> end of	4	1	OPEN	3	3	2	the:2; djokovic:1	0.00123	0.00000	11	
+140	djokovic to <_> the	4	2	OPEN	3	3	3	play:1; stop:1; get:1	0.00123	0.00000	1	
+141	federer <_> going to	4	1	OPEN	3	3	2	is:2; was:1	0.00123	0.00000	0	
+142	federer is <_> to	4	2	OPEN	3	3	2	going:2; wanting:1	0.00123	0.00010	0	
+143	for the <_> time	4	2	OPEN	3	3	2	first:2; second:1	0.00123	0.00010	9	
+144	going to <_> the	4	2	OPEN	3	3	2	be:2; get:1	0.00123	0.00000	9	
+145	in <_> second set	4	1	OPEN	3	3	2	the:2; this:1	0.00123	0.00000	12	
+146	on the <_> serve	4	2	OPEN	3	3	3	federer:1; previous:1; second:1	0.00123	0.00020	9	
+147	the <_> a little	4	1	OPEN	3	3	3	serve:1; call:1; air:1	0.00123	0.00020	8	
+148	the <_> number one	4	1	OPEN	3	3	2	world:2; world's:1	0.00123	0.00020	7	
+149	the second set <NAME>	4	3	NAME	3	3	3	djokovic:1; federer:1; novak:1	0.00123	0.00010	1	
+150	to <_> a little	4	1	OPEN	3	3	3	get:1; be:1; relax:1	0.00123	0.00031	10	
+151	to <_> final set	4	1	OPEN	3	3	2	a:2; two:1	0.00123	0.00010	3	
+152	to <_> third set	4	1	OPEN	3	3	3	one:1; three:1; five:1	0.00123	0.00010	1	
+153	to one <_> set	4	2	OPEN	3	3	3	per:1; second:1; third:1	0.00123	0.00020	3	
+154	two sets <_> one	4	2	OPEN	3	3	2	to:2; the:1	0.00123	0.00000	5	
+155	15 <_> federer	3	1	OPEN	3	3	2	mr:2; 13:1	0.00092	0.00010	0	
+156	30 <_> 40	3	1	OPEN	3	3	3	15:1; love:1; or:1	0.00092	0.00031	1	
+157	<NAME> able to	3	0	NAME	3	3	2	djokovic:2; federer:1	0.00092	0.00010	4	
+158	<NAME> djokovic has	3	0	NAME	3	3	3	federer:1; novak:1; djokovic:1	0.00092	0.00010	1	
+159	<NAME> trying to	3	0	NAME	3	3	2	djokovic:2; federer:1	0.00092	0.00010	3	
+160	<NUM> 0 30	3	0	NUM	3	3	2	15:2; 50:1	0.00092	0.00000	2	
+161	a <_> emotional	3	1	OPEN	3	3	2	very:2; little:1	0.00092	0.00010	0	
+162	and <_> two	3	1	OPEN	3	3	3	by:1; he's:1; in:1	0.00092	0.00031	5	
+163	at <_> championships	3	1	OPEN	3	3	2	the:2; these:1	0.00092	0.00031	0	
+164	at <_> stage	3	1	OPEN	3	3	2	this:2; that:1	0.00092	0.00020	7	
+165	back <_> the	3	1	OPEN	3	3	2	of:2; in:1	0.00092	0.00000	16	
+166	djokovic <_> going	3	1	OPEN	3	3	2	is:2; it's:1	0.00092	0.00010	1	
+167	djokovic <_> his	3	1	OPEN	3	3	3	so:1; keeping:1; shows:1	0.00092	0.00082	3	
+168	federer <_> a	3	1	OPEN	3	3	3	up:1; with:1; playing:1	0.00092	0.00031	0	
+169	federer <_> going	3	1	OPEN	3	3	2	is:2; was:1	0.00092	0.00000	0	
+170	federer <_> really	3	1	OPEN	3	3	3	is:1; i:1; was:1	0.00092	0.00010	0	
+171	federer's <_> the	3	1	OPEN	3	3	3	but:1; variation:1; way:1	0.00092	0.00071	0	
+172	final <_> to	3	1	OPEN	3	3	3	unable:1; seven:1; push:1	0.00092	0.00061	2	
+173	for <_> second	3	1	OPEN	3	3	3	a:1; the:1; that:1	0.00092	0.00041	9	
+174	go <_> a	3	1	OPEN	3	3	2	to:2; into:1	0.00092	0.00020	6	
+175	go <_> to	3	1	OPEN	3	3	3	off:1; back:1; head:1	0.00092	0.00041	5	
+176	going <_> the	3	1	OPEN	3	3	2	through:2; to:1	0.00092	0.00000	10	
+177	in <_> game	3	1	OPEN	3	3	3	the:1; this:1; that:1	0.00092	0.00041	14	
+178	in <_> second	3	1	OPEN	3	3	2	the:2; this:1	0.00092	0.00000	14	
+179	match <_> the	3	1	OPEN	3	3	3	and:1; in:1; of:1	0.00092	0.00020	9	
+180	not <_> easy	3	1	OPEN	3	3	3	that:1; so:1; always:1	0.00092	0.00061	7	
+181	novak <_> a	3	1	OPEN	3	3	3	is:1; gets:1; put:1	0.00092	0.00031	2	
+182	novak <_> to	3	1	OPEN	3	3	3	djokovic:1; wants:1; wanted:1	0.00092	0.00020	1	
+183	now <_> is	3	1	OPEN	3	3	3	djokovic:1; this:1; what:1	0.00092	0.00031	3	
+184	of <_> federer	3	1	OPEN	3	3	3	that:1; the:1; roger:1	0.00092	0.00020	0	
+185	of <_> first	3	1	OPEN	3	3	2	the:2; his:1	0.00092	0.00010	9	
+186	of <_> game	3	1	OPEN	3	3	2	his:2; federer's:1	0.00092	0.00000	12	
+187	on <_> left	3	1	OPEN	3	3	2	the:2; my:1	0.00092	0.00031	7	
+188	one <_> set	3	1	OPEN	3	3	3	per:1; second:1; third:1	0.00092	0.00020	4	
+189	one <_> the	3	1	OPEN	3	3	3	of:1; seed:1; catching:1	0.00092	0.00031	17	
+190	return <_> djokovic	3	1	OPEN	3	3	2	by:2; that:1	0.00092	0.00000	1	
+191	second set <NAME>	3	2	NAME	3	3	3	djokovic:1; federer:1; novak:1	0.00092	0.00010	2	
+192	set <_> the	3	1	OPEN	3	3	3	in:1; of:1; for:1	0.00092	0.00010	10	
+193	sets <_> one	3	1	OPEN	3	3	2	to:2; the:1	0.00092	0.00000	5	
+194	that <_> serve	3	1	OPEN	3	3	2	second:2; federer:1	0.00092	0.00000	13	
+195	that <_> set	3	1	OPEN	3	3	2	second:2; fifth:1	0.00092	0.00010	12	
+196	the <_> djokovic	3	1	OPEN	3	3	3	full:1; afternoon:1; point:1	0.00092	0.00031	3	
+197	the <_> four	3	1	OPEN	3	3	3	number:1; first:1; longest:1	0.00092	0.00010	4	
+198	the <_> man	3	1	OPEN	3	3	3	young:1; younger:1; older:1	0.00092	0.00082	2	
+199	the <_> number	3	1	OPEN	3	3	2	world:2; world's:1	0.00092	0.00020	9	
+200	the <_> returner	3	1	OPEN	3	3	2	best:2; greatest:1	0.00092	0.00010	2	
+201	the <_> two	3	1	OPEN	3	3	3	one:1; next:1; pressure:1	0.00092	0.00020	12	
+202	these <_> players	3	1	OPEN	3	3	2	two:2; tennis:1	0.00092	0.00010	4	
+203	think <_> was	3	1	OPEN	3	3	2	it:2; he:1	0.00092	0.00010	9	
+204	this <_> set	3	1	OPEN	3	3	3	second:1; third:1; fifth:1	0.00092	0.00010	14	
+205	time <_> he	3	1	OPEN	3	3	3	really:1; does:1; since:1	0.00092	0.00071	4	
+206	to <_> aggressive	3	1	OPEN	3	3	2	be:2; play:1	0.00092	0.00010	5	
+207	to <_> first	3	1	OPEN	3	3	2	the:2; serve:1	0.00092	0.00000	8	
+208	to <_> one	3	1	OPEN	3	3	3	get:1; number:1; play:1	0.00092	0.00020	8	
+209	to <_> third	3	1	OPEN	3	3	3	one:1; three:1; five:1	0.00092	0.00010	1	
+210	two <_> the	3	1	OPEN	3	3	3	sets:1; in:1; of:1	0.00092	0.00051	12	
+211	up <_> love	3	1	OPEN	3	3	2	40:2; for:1	0.00092	0.00031	4	
+212	with <_> return	3	1	OPEN	3	3	2	the:2; his:1	0.00092	0.00031	6	
+213	0 <NAME>	2	1	NAME	3	3	3	federer:1; novak:1; djokovic:1	0.00061	0.00031	1	
+214	7 <NUM>	2	1	NUM	3	3	3	8:1; 6:1; 15:1	0.00061	0.00051	2	
+215	<NAME> able	2	0	NAME	3	3	2	djokovic:2; federer:1	0.00061	0.00010	4	
+216	<NAME> gets	2	0	NAME	3	3	3	federer:1; novak:1; djokovic:1	0.00061	0.00061	7	
+217	<NAME> nadal	2	0	NAME	3	3	2	federer:2; rafael:1	0.00061	0.00020	4	
+218	<NAME> really	2	0	NAME	3	3	3	federer:1; roger:1; djokovic:1	0.00061	0.00041	4	
+219	<NAME> serving	2	0	NAME	3	3	3	novak:1; djokovic:1; roger:1	0.00061	0.00061	8	
+220	<NAME> trying	2	0	NAME	3	3	2	djokovic:2; federer:1	0.00061	0.00010	4	
+221	<NUM> 14	2	0	NUM	3	3	2	15:2; 12:1	0.00061	0.00020	13	
+222	<NUM> 2	2	0	NUM	3	3	3	11:1; 5:1; 3:1	0.00061	0.00061	14	
+223	<NUM> 7	2	0	NUM	3	3	3	4:1; 6:1; 8:1	0.00061	0.00061	0	
+224	<NUM> federer	2	0	NUM	3	3	3	0:1; 13:1; 15:1	0.00061	0.00031	0	
+225	<NUM> first	2	0	NUM	3	3	3	15:1; 43:1; 65:1	0.00061	0.00020	12	
+226	<NUM> game	2	0	NUM	3	3	3	love:1; 15:1; 30:1	0.00061	0.00020	3	
+227	<NUM> shots	2	0	NUM	3	3	3	14:1; 26:1; 35:1	0.00061	0.00061	3	
+228	djokovic <NUM>	2	1	NUM	3	3	3	32:1; 15:1; 119:1	0.00061	0.00020	3	
+229	now <NAME>	2	1	NAME	3	3	3	djokovic:1; federer:1; novak:1	0.00061	0.00031	9	
+230	now <NUM>	2	1	NUM	3	3	3	15:1; 50:1; 6:1	0.00061	0.00051	5	
+231	number <NUM>	2	1	NUM	3	3	3	21:1; 10:1; 8:1	0.00061	0.00051	3	

@@ -31,8 +31,12 @@ Licence notes: TennisVL terms "strictly for academic research in sports video un
 - Check (4), orchestrator: 20 random points (seed 7) re-derived from the raw TennisVL JSON and the raw MCP codes. Hit times in corpus/timing/shots_2019wimF.csv equal the raw `hit_timestamp_second` values in 20/20 (my first pass showed 4 mismatches that were my own filter on fault/ace clips). My own parse of MCP shot codes equals the builder's mcp_n_shots in 20/20. TennisVL n_shots equals MCP in 15/20, matching the builder's 82%. Conclusion: the derived tables faithfully reproduce their sources; TennisVL's automatic shot parse itself disagrees with human charting in about one point in five, so rally-duration figures carry that noise, while per-point match clock (PBP ElapsedTime, 1 s resolution) is independent of it.
 - Not applicable: no audio, so no faster-whisper run, no spectrograms, no librosa onsets.
 
-### Phase 1, Homer tools half
-(pending homer-tools)
+### Phase 1, Homer tools half (orchestrator checks, 2026-10-07)
+- Text: PerseusDL canonical-greekLit at commit 01b725d8 (Iliad: Monro-Allen OCT; Odyssey: Murray 1919 Loeb), 15,687 + 12,107 = 27,794 lines (the edition lacks 9 line numbers; no sub-numbered lines).
+- Builder's validation on every line (two-pass scan): 97.65% unique scansion, 2.33% several valid scansions (0.12% true ties), 0.02% fail (5 lines, each explained in homer/validation.md: three ἀνδροτῆτα lines, Od. 8.267, Od. 13.364). Basic rules without licences: 5.17% fail; 50 of those classified by licence needed.
+- Check (1), orchestrator: 25 random lines (seed 20261007) scanned by my own reasoning before looking at the tool. 25/25 foot patterns agree, including the licences I had to invoke: digamma (οἱ in Il. 5.7, ἔπεα in Od. 22.343, ἔολπα in Od. 2.275, ἰδέσθαι in Od. 23.107), epic correption (τῷ ἔσσεται, καὶ ὤμων, μοι ἀλλο-), muta cum liquida making position (πὸ κρατός, τὰ φρονέων, τε τράκις), κρᾱτός with long alpha, Ᾱρηϊ, and arsis lengthening of -ας before ἑτάροις at the penthemimeral caesura in Od. 9.288 (the tool scans it identically). Il. 5.829 is listed by the tool as having alternatives; its first choice equals mine. No disagreements, so no adjudication needed.
+- Check (2), orchestrator: five well-known formulae (πόδας ὠκὺς Ἀχιλλεύς 30 lines, πολύμητις Ὀδυσσεύς 80, γλαυκῶπις Ἀθήνη 78, ἔπεα πτερόεντα προσηύδα 107, ῥοδοδάκτυλος Ἠώς 27) and five random n-grams from homer/ngrams.tsv: concordance line counts equal my independent accent-insensitive grep of homer/lines.tsv in all ten cases (the TSV output has one header row), and the first cited line of each random n-gram contains it.
+- check_line.py runs on Il. 1.1 and reports its scansion; Hermann's bridge (word end at 7.5, 0.92% of lines) is flagged under the 1% rule.
 
 ## Open issues
 (see FOR_HUMAN.md for items needing human judgment)
@@ -41,7 +45,7 @@ Licence notes: TennisVL terms "strictly for academic research in sports video un
 | Phase | Name | Status | Notes |
 |---|---|---|---|
 | 0 | Find the corpus | DONE | 2019 Wimbledon F; held-out 2023 Wimbledon F; see Phase 0 section |
-| 1 | Tools and corpus | IN PROGRESS | corpus verified; homer-tools running |
+| 1 | Tools and corpus | DONE | corpus and Homer tools both verified by orchestrator |
 | 2 | Analyses | IN PROGRESS | formula-analyst, metre-analyst running |
 | 3 | Brief | NOT STARTED | |
 | 4 | Composition | NOT STARTED | |

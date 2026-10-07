@@ -1,0 +1,16 @@
+{
+ "pool_streams": 18,
+ "pool_tokens": 103675,
+ "distinct_ngrams_n2_12": 892921,
+ "formulas_base(n>=2,count>=3,streams>=2)": 9609,
+ "formulas_strict(n>=3,count>=5,streams>=3)": 1088,
+ "formulas_name_masked_base": 9886,
+ "formulas_base_by_n": {
+  "2": 6167,
+  "3": 2698,
+  "4": 603,
+  "5": 114,
+  "6": 25,
+  "7": 2
+ }
+}

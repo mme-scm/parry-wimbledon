@@ -1,0 +1,150 @@
+{
+ "cuts_2019": {
+  "dead_time_before_s": [
+   24.17333333333333,
+   35.85333333333333
+  ],
+  "time_after_s": [
+   22.76,
+   32.666666666666664
+  ]
+ },
+ "cuts_2023": {
+  "dead_time_before_s": [
+   32.12,
+   44.36
+  ],
+  "time_after_s": [
+   28.8,
+   42.44
+  ]
+ },
+ "tv_2019wimF:dead_time_before:pool_a": {
+  "T1_density": 0.5541211519364448,
+  "T3_density": 0.5505383813824245,
+  "diff_T1_minus_T3": 0.0035827705540203425,
+  "diff_ci_lo": -0.0400832512831684,
+  "diff_ci_hi": 0.046248093302199325,
+  "perm_null_mean": 2.5818376620855067e-05,
+  "perm_null_lo": -0.047272203186134634,
+  "perm_null_hi": 0.04541876332716512,
+  "p_two_sided": 0.8770245950809838,
+  "n_perm": 5000,
+  "utterances_T1": 94,
+  "utterances_T3": 94,
+  "tokens_T1": 3021,
+  "tokens_T3": 2879
+ },
+ "tv_2019wimF:time_after:pool_a": {
+  "T1_density": 0.525479195885928,
+  "T3_density": 0.5509249847529986,
+  "diff_T1_minus_T3": -0.025445788867070607,
+  "diff_ci_lo": -0.07343854518743502,
+  "diff_ci_hi": 0.02636593845030775,
+  "perm_null_mean": -0.00020433902093880274,
+  "perm_null_lo": -0.047769302131573745,
+  "perm_null_hi": 0.049245598203345134,
+  "p_two_sided": 0.30293941211757647,
+  "n_perm": 5000,
+  "utterances_T1": 103,
+  "utterances_T3": 102,
+  "tokens_T1": 2139,
+  "tokens_T3": 4919
+ },
+ "tv_2023wimF:dead_time_before:pool_a": {
+  "T1_density": 0.6059529098178588,
+  "T3_density": 0.5910763569457221,
+  "diff_T1_minus_T3": 0.014876552872136628,
+  "diff_ci_lo": -0.028809513148145848,
+  "diff_ci_hi": 0.05870643136258757,
+  "perm_null_mean": 0.0004202597514318702,
+  "perm_null_lo": -0.045066518106681254,
+  "perm_null_hi": 0.04507294295889487,
+  "p_two_sided": 0.5198960207958409,
+  "n_perm": 5000,
+  "utterances_T1": 70,
+  "utterances_T3": 69,
+  "tokens_T1": 2251,
+  "tokens_T3": 2174
+ },
+ "tv_2023wimF:time_after:pool_a": {
+  "T1_density": 0.5709362435381964,
+  "T3_density": 0.6021386430678466,
+  "diff_T1_minus_T3": -0.031202399529650204,
+  "diff_ci_lo": -0.08237881980954935,
+  "diff_ci_hi": 0.019368690696280798,
+  "perm_null_mean": 0.00013770086508588993,
+  "perm_null_lo": -0.05102354784325203,
+  "perm_null_hi": 0.051065794391309184,
+  "p_two_sided": 0.23035392921415718,
+  "n_perm": 5000,
+  "utterances_T1": 78,
+  "utterances_T3": 76,
+  "tokens_T1": 1741,
+  "tokens_T3": 2712
+ },
+ "tv_2019wimF:dead_time_before:insample_a:exploratory": {
+  "T1_density": 0.4511751075802714,
+  "T3_density": 0.4466828759986106,
+  "diff_T1_minus_T3": 0.004492231581660788,
+  "diff_ci_lo": -0.03613471551501643,
+  "diff_ci_hi": 0.04867894110319387,
+  "perm_null_mean": 5.193313393049159e-06,
+  "perm_null_lo": -0.04198994937689974,
+  "perm_null_hi": 0.04124625243233413,
+  "p_two_sided": 0.8460307938412317,
+  "n_perm": 5000,
+  "utterances_T1": 94,
+  "utterances_T3": 94,
+  "tokens_T1": 3021,
+  "tokens_T3": 2879
+ },
+ "tv_2019wimF:time_after:insample_a:exploratory": {
+  "T1_density": 0.4375876577840112,
+  "T3_density": 0.42793250660703397,
+  "diff_T1_minus_T3": 0.009655151176977239,
+  "diff_ci_lo": -0.03224268299876636,
+  "diff_ci_hi": 0.05865528469282957,
+  "perm_null_mean": 0.00020420102615440378,
+  "perm_null_lo": -0.041930012782434196,
+  "perm_null_hi": 0.04245685488474114,
+  "p_two_sided": 0.6416716656668666,
+  "n_perm": 5000,
+  "utterances_T1": 103,
+  "utterances_T3": 102,
+  "tokens_T1": 2139,
+  "tokens_T3": 4919
+ },
+ "tv_2023wimF:dead_time_before:insample_a:exploratory": {
+  "T1_density": 0.4495779653487339,
+  "T3_density": 0.4126034958601656,
+  "diff_T1_minus_T3": 0.03697446948856831,
+  "diff_ci_lo": -0.013115585483906534,
+  "diff_ci_hi": 0.08701950526674904,
+  "perm_null_mean": -2.9236491137112355e-07,
+  "perm_null_lo": -0.050701268466917804,
+  "perm_null_hi": 0.05065491313746982,
+  "p_two_sided": 0.15656868626274745,
+  "n_perm": 5000,
+  "utterances_T1": 70,
+  "utterances_T3": 69,
+  "tokens_T1": 2251,
+  "tokens_T3": 2174
+ },
+ "tv_2023wimF:time_after:insample_a:exploratory": {
+  "T1_density": 0.40436530729465825,
+  "T3_density": 0.4505899705014749,
+  "diff_T1_minus_T3": -0.046224663206816674,
+  "diff_ci_lo": -0.10178549703553867,
+  "diff_ci_hi": 0.0067853021441194985,
+  "perm_null_mean": -0.00017563726540522847,
+  "perm_null_lo": -0.05328497234601412,
+  "perm_null_hi": 0.05135304016286372,
+  "p_two_sided": 0.08218356328734253,
+  "n_perm": 5000,
+  "utterances_T1": 78,
+  "utterances_T3": 76,
+  "tokens_T1": 1741,
+  "tokens_T3": 2712
+ }
+}

@@ -1,0 +1,5 @@
+test,prediction,statistic,testable,n_units,n_strings,estimate,ci_lo,ci_hi,p_shift,n_shifts,p_holm,significant_holm,direction_as_H1,note
+T1,P1 words increase with A,"Spearman rho(words, A)",True,353,,0.2485,0.1359,0.3591,0.00496,402,0.01984,True,True,
+T2,P2 share(short A) - share(long A) > 0,difference in formula share (short - long tercile),True,353,,-0.0289,-0.0599,0.0131,0.10918,402,0.31266,False,False,
+T3,P3 formula syllables increase with A,"Spearman rho(string syllables, A)",True,353,3460.0,-0.0399,-0.0882,0.0086,0.10422,402,0.31266,False,False,
+T4,P4 share(within game) - share(changeover) > 0,difference in formula share (within - changeover),True,353,,0.0099,-0.0255,0.0439,0.74938,402,0.74938,False,True,

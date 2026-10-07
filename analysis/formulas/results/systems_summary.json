@@ -1,0 +1,11 @@
+{
+ "stream": "tv_2019wimF",
+ "tokens": 9791,
+ "systems": 231,
+ "systems_by_slot_type": {
+  "NUM": 40,
+  "OPEN": 150,
+  "NAME": 41
+ },
+ "excerpt_words_written": 435
+}

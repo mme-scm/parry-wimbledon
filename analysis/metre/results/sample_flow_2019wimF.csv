@@ -1,0 +1,7 @@
+step,n_units
+PBP points,422
+points with any aligned clip,368
+E1 point-proper clip present,358
+E2 not the last point,358
+E3 timing QC (resid),353
+E4 A <= 600 s,353
