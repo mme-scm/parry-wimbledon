@@ -1,0 +1,57 @@
+{
+ "_label": "POST HOC (plan addendum 1, PH6)",
+ "n_formulas_base": 9609,
+ "n_player_names_in_lexicon": 44,
+ "thank you": {
+  "n_formula_types": 17,
+  "pool_count_of_types": 188,
+  "top": [
+   [
+    "thank you",
+    114
+   ],
+   [
+    "thank you thank",
+    8
+   ],
+   [
+    "thank you thank you",
+    8
+   ],
+   [
+    "you thank you",
+    8
+   ],
+   [
+    "thank you very",
+    6
+   ],
+   [
+    "thank you very much",
+    6
+   ],
+   [
+    "thank you ladies",
+    4
+   ],
+   [
+    "thank you ladies and",
+    4
+   ]
+  ]
+ },
+ "mr <token>": {
+  "n_formula_types": 0,
+  "pool_count_of_types": 0,
+  "top": []
+ },
+ "game <player name>": {
+  "n_formula_types": 0,
+  "pool_count_of_types": 0,
+  "top": []
+ },
+ "target_tokens_masked_U_2019wimF": 99,
+ "target_tokens_2019wimF": 9471,
+ "target_tokens_masked_U_2023wimF": 8,
+ "target_tokens_2023wimF": 5623
+}

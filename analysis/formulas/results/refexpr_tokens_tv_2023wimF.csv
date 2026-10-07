@@ -1,202 +1,202 @@
-stream,utt_id,clip_i,token_start,player,expression,category,slot,spacy_dep,syllables,dead_time_before_s,time_after_s,phase,dtb_terc,ta_terc,score,role
-tv_2023wimF,tv_2023wimF:0002,2,5,djokovic,novak djokovic,full_name,after_preposition,pobj,5,49.52,57.28,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0004,4,7,djokovic,novak djokovic,full_name,subject,nsubj,5,57.28,44.36,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0007,7,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,26.36,32.08,between_points,T1,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0008,8,10,djokovic,novak djokovic,full_name,subject,nsubj,5,32.08,74.48,clip,T1,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0009,9,2,djokovic,djokovic,surname,object,attr,3,74.48,30.08,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0009,9,7,djokovic,novak djokovic,full_name,after_preposition,pobj,5,74.48,30.08,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0010,10,0,alcaraz,alcaraz,surname,subject,nsubj,3,30.08,78.36,clip,T1,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0010,10,12,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,30.08,78.36,clip,T1,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0012,12,12,djokovic,novak,first_name,object,dobj,2,23.84,48.24,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0012,12,39,alcaraz,alcaraz,surname,after_preposition,pobj,3,23.84,48.24,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0012,12,47,djokovic,djokovic,surname,after_preposition,pobj,3,23.84,48.24,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0012,12,58,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,23.84,48.24,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0014,14,6,djokovic,djokovic,surname,subject,nsubj,3,48.24,55.08,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0014,14,25,djokovic,djokovic,surname,after_preposition,pobj,3,48.24,55.08,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0015,15,24,alcaraz,alcaraz,surname,after_preposition,pobj,3,55.08,28.56,clip,T3,T1,break_point,rally
-tv_2023wimF,tv_2023wimF:0016,16,14,alcaraz,alcaraz,surname,after_preposition,pobj,3,28.56,29.84,clip,T1,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0016,16,41,djokovic,djokovic,surname,after_preposition,pobj,3,28.56,29.84,clip,T1,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0018,18,33,djokovic,djokovic,surname,object,dobj,3,29.84,71.12,clip,T1,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0018,18,79,djokovic,djokovic,surname,object,dative,3,29.84,71.12,clip,T1,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0027,27,17,djokovic,djokovic,surname,subject,nsubj,3,107.0,25.28,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0030,30,5,djokovic,djokovic,surname,subject,nsubj,3,32.12,30.4,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0030,30,36,djokovic,novak,first_name,object,dobj,2,32.12,30.4,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0033,33,11,djokovic,novak djokovic,full_name,subject,nsubj,5,37.64,39.28,clip,T2,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0034,34,6,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,39.28,42.76,clip,T2,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0034,34,11,alcaraz,alcaraz,surname,after_preposition,pobj,3,39.28,42.76,clip,T2,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0034,34,49,alcaraz,alcaraz,surname,after_preposition,pobj,3,39.28,42.76,clip,T2,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0036,36,8,alcaraz,alcaraz,surname,after_preposition,pobj,3,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0036,36,10,djokovic,djokovic,surname,after_preposition,pobj,3,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0036,36,40,alcaraz,alcaraz,surname,subject,nsubj,3,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0036,36,42,alcaraz,the world number one,epithet,object,attr,5,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0036,36,46,djokovic,djokovic,surname,object,appos,3,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0036,36,82,alcaraz,alcaraz,surname,subject,nsubj,3,42.76,52.92,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0037,37,14,alcaraz,alcaraz,surname,subject,nsubj,3,52.92,21.28,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0037,37,26,djokovic,novak,first_name,subject,nsubj,2,52.92,21.28,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0037,37,60,alcaraz,alcaraz,surname,after_preposition,pobj,3,52.92,21.28,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0040,40,9,alcaraz,alcaraz,surname,subject,nsubj,3,31.76,30.12,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0041,41,0,djokovic,djokovic,surname,subject,nsubj,3,30.12,94.84,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0041,41,26,alcaraz,alcaraz,surname,after_preposition,pobj,3,30.12,94.84,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0044,44,26,alcaraz,carlos,first_name,subject,nsubj,2,21.36,9.48,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0046,46,0,djokovic,novak,first_name,subject,nsubj,2,36.16,4.32,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0050,50,5,alcaraz,alcaraz,surname,after_preposition,pobj,3,47.52,31.72,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0050,50,16,djokovic,djokovic,surname,after_preposition,pobj,3,47.52,31.72,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0055,55,6,alcaraz,alcaraz,surname,after_preposition,pobj,3,123.88,26.64,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0055,55,33,djokovic,djokovic,surname,after_preposition,pobj,3,123.88,26.64,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0056,56,5,alcaraz,alcaraz,surname,after_preposition,pobj,3,,28.52,clip,NA,T1,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,6,alcaraz,alcaraz,surname,after_preposition,pobj,3,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,30,alcaraz,carlos,first_name,subject,nsubj,2,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,39,djokovic,djokovic,surname,after_preposition,pobj,3,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,57,alcaraz,alcaraz,surname,object,dobj,3,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,65,djokovic,djokovic,surname,after_preposition,pobj,3,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0058,58,98,alcaraz,alcaraz,surname,after_preposition,pobj,3,26.2,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0062,62,47,djokovic,djokovic,surname,after_preposition,pobj,3,57.0,49.96,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0062,62,65,alcaraz,the young spaniard,epithet,object,attr,4,57.0,49.96,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0062,62,69,djokovic,djokovic,surname,subject,nsubj,3,57.0,49.96,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0065,65,22,djokovic,djokovic,surname,subject,nsubj,3,36.36,54.32,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0069,69,55,djokovic,novak,first_name,subject,nsubj,2,57.24,16.68,clip,T3,T1,deuce_ad,first_serve_fault
-tv_2023wimF,tv_2023wimF:0071,71,13,alcaraz,alcaraz,surname,subject,nsubj,3,,41.08,clip,NA,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0072,72,11,alcaraz,alcaraz,surname,subject,nsubj,3,41.08,42.36,clip,T2,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0072,72,28,alcaraz,alcaraz,surname,subject,nsubj,3,41.08,42.36,clip,T2,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0072,72,47,djokovic,djokovic,surname,object,dobj,3,41.08,42.36,clip,T2,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0075,75,17,alcaraz,alcaraz,surname,subject,nsubj,3,43.2,41.96,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0077,77,8,djokovic,djokovic,surname,object,dobj,3,37.88,10.28,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0081,81,10,alcaraz,alcaraz,surname,after_preposition,pobj,3,35.0,134.24,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0081,81,12,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,35.0,134.24,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0082,82,5,alcaraz,alcaraz,surname,subject,nsubj,3,134.24,33.32,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0082,82,17,djokovic,djokovic,surname,subject,nsubj,3,134.24,33.32,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0090,90,54,djokovic,djokovic,surname,subject,nsubj,3,56.44,39.48,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0090,90,108,alcaraz,alcaraz,surname,object,appos,3,56.44,39.48,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0090,90,111,djokovic,djokovic,surname,subject,nsubj,3,56.44,39.48,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0093,93,4,djokovic,djokovic,surname,subject,nsubj,3,37.36,48.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0093,93,9,alcaraz,alcaraz,surname,other,compound,3,37.36,48.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0093,93,26,alcaraz,carlos,first_name,subject,nsubj,2,37.36,48.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0093,93,69,djokovic,djokovic,surname,after_preposition,pobj,3,37.36,48.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0093,93,72,djokovic,djokovic,surname,subject,nsubj,3,37.36,48.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0096,96,31,djokovic,djokovic,surname,subject,nsubj,3,23.8,25.44,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0097,97,25,alcaraz,the world number one,epithet,after_preposition,pobj,5,25.44,25.36,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0098,98,78,djokovic,djokovic,surname,after_preposition,pobj,3,25.36,35.6,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0102,102,1,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,23.56,42.44,between_points,T1,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0104,104,6,djokovic,djokovic,surname,other,compound,3,118.8,45.92,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0105,105,22,djokovic,djokovic,surname,after_preposition,pobj,3,45.92,75.76,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0105,105,48,alcaraz,alcaraz,surname,subject,nsubj,3,45.92,75.76,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0116,116,8,djokovic,djokovic,surname,after_preposition,pobj,3,45.48,39.76,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0116,116,25,alcaraz,alcaraz,surname,subject,nsubj,3,45.48,39.76,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0117,117,15,djokovic,novak,first_name,after_preposition,pobj,2,39.76,131.0,clip,T2,T3,other,ace
-tv_2023wimF,tv_2023wimF:0119,119,25,djokovic,novak,first_name,possessive,dep,2,131.0,64.92,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0119,119,85,djokovic,novak,first_name,after_preposition,pobj,2,131.0,64.92,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0126,126,12,djokovic,djokovic,surname,subject,nsubj,3,49.28,26.08,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0128,128,36,djokovic,djokovic,surname,subject,nsubj,3,84.32,,clip,T3,NA,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0129,129,4,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,,45.16,clip,NA,T3,other,rally
-tv_2023wimF,tv_2023wimF:0131,131,16,alcaraz,alcaraz,surname,subject,nsubj,3,45.16,136.36,changeover,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0131,131,28,djokovic,djokovic,surname,object,dobj,3,45.16,136.36,changeover,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0136,136,4,alcaraz,alcaraz,surname,object,dobj,3,95.56,30.88,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0137,137,4,alcaraz,alcaraz,surname,subject,nsubj,3,30.88,36.76,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0137,137,26,djokovic,djokovic,surname,after_preposition,pobj,3,30.88,36.76,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0137,137,42,djokovic,the champion,epithet,object,dobj,4,30.88,36.76,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0141,141,10,djokovic,djokovic,surname,subject,nsubj,3,73.88,9.44,clip,T3,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0141,141,32,djokovic,djokovic,surname,after_preposition,pobj,3,73.88,9.44,clip,T3,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0146,146,3,djokovic,novak,first_name,subject,nsubj,2,115.28,34.6,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0146,146,19,alcaraz,carlos,first_name,after_preposition,pobj,2,115.28,34.6,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0147,147,0,djokovic,novak djokovic,full_name,other,ROOT,5,34.6,,clip,T2,NA,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0151,151,26,djokovic,novak djokovic,full_name,vocative_exclamation,npadvmod,5,,38.28,clip,NA,T2,other,rally
-tv_2023wimF,tv_2023wimF:0155,155,65,djokovic,djokovic,surname,after_preposition,pobj,3,27.36,33.96,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0158,158,14,alcaraz,alcaraz,surname,subject,nsubj,3,31.44,36.92,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0161,161,38,alcaraz,alcaraz,surname,after_preposition,pobj,3,,74.2,clip,NA,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0163,163,0,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0165,165,13,djokovic,djokovic,surname,subject,nsubj,3,29.28,23.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0165,165,45,alcaraz,alcaraz,surname,subject,nsubj,3,29.28,23.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0165,165,68,alcaraz,alcaraz,surname,subject,nsubj,3,29.28,23.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0165,165,104,djokovic,djokovic,surname,subject,nsubj,3,29.28,23.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0169,169,10,djokovic,djokovic,surname,subject,nsubjpass,3,,37.24,clip,NA,T2,other,rally
-tv_2023wimF,tv_2023wimF:0175,175,0,djokovic,novak,first_name,subject,nsubj,2,30.56,54.56,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0176,176,7,djokovic,djokovic,surname,after_preposition,pobj,3,54.56,44.28,clip,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0178,178,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,44.28,134.28,changeover,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0179,179,33,djokovic,djokovic,surname,after_preposition,pobj,3,134.28,26.16,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0183,183,56,djokovic,djokovic,surname,after_preposition,pobj,3,29.28,43.52,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0186,186,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,42.6,20.52,clip,T2,T1,break_point,first_serve_fault
-tv_2023wimF,tv_2023wimF:0187,187,29,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,42.6,69.28,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0189,189,21,alcaraz,alcaraz,surname,other,compound,3,69.28,44.12,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0189,189,22,djokovic,djokovic,surname,subject,nsubj,3,69.28,44.12,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0190,190,4,djokovic,djokovic,surname,other,compound,3,44.12,98.28,clip,T2,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0190,190,5,alcaraz,alcaraz,surname,subject,nsubj,3,44.12,98.28,clip,T2,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0191,191,0,djokovic,novak djokovic,full_name,other,ROOT,5,98.28,23.8,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0191,191,10,alcaraz,alcaraz,surname,subject,nsubj,3,98.28,23.8,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0197,197,17,djokovic,djokovic,surname,after_preposition,pobj,3,27.16,28.0,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0199,199,10,djokovic,novak,first_name,subject,nsubj,2,28.0,37.84,clip,T1,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0204,204,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,48.68,29.68,clip,T3,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0209,209,4,djokovic,novak,first_name,after_preposition,pobj,2,28.8,19.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0211,211,10,alcaraz,alcaraz,surname,subject,nsubj,3,21.36,21.36,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0211,211,28,djokovic,djokovic,surname,after_preposition,pobj,3,21.36,21.36,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0211,211,32,alcaraz,carlos alcaraz,full_name,other,ROOT,5,21.36,21.36,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0212,212,0,alcaraz,alcaraz,surname,subject,nsubj,3,21.36,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0212,212,10,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,21.36,60.36,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0217,217,19,alcaraz,carlos,first_name,subject,nsubj,2,17.84,17.36,clip,T1,T1,set_point,rally
-tv_2023wimF,tv_2023wimF:0223,223,23,djokovic,novak,first_name,subject,nsubj,2,,30.72,clip,NA,T2,other,rally
-tv_2023wimF,tv_2023wimF:0223,223,52,alcaraz,alcaraz,surname,subject,nsubj,3,,30.72,clip,NA,T2,other,rally
-tv_2023wimF,tv_2023wimF:0224,224,18,alcaraz,alcaraz,surname,subject,nsubj,3,30.72,48.68,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0224,224,39,djokovic,djokovic,surname,after_preposition,pobj,3,30.72,48.68,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0228,228,21,djokovic,novak,first_name,after_preposition,pobj,2,58.0,42.44,clip,T3,T2,break_point,rally
-tv_2023wimF,tv_2023wimF:0230,230,2,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,30.48,30.92,between_points,T1,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0234,234,57,djokovic,the champion,epithet,after_preposition,pobj,4,47.36,36.28,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0237,237,9,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,36.0,29.24,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0237,237,11,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,36.0,29.24,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0237,237,28,djokovic,djokovic,surname,after_preposition,pobj,3,36.0,29.24,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0249,249,6,djokovic,novak djokovic,full_name,subject,nsubj,5,46.8,113.32,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0254,254,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,32.96,27.52,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0255,255,36,djokovic,djokovic,surname,after_preposition,pobj,3,32.96,59.48,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0257,257,7,djokovic,djokovic,surname,after_preposition,pobj,3,,37.28,clip,NA,T2,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0265,265,7,djokovic,novak djokovic,full_name,other,ROOT,5,33.96,45.44,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0265,265,63,djokovic,novak djokovic,full_name,subject,nsubj,5,33.96,45.44,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0267,267,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,45.44,81.28,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0267,267,30,djokovic,djokovic,surname,subject,nsubj,3,45.44,81.28,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0270,270,31,djokovic,novak,first_name,object,dobj,2,22.64,32.44,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0273,273,0,djokovic,djokovic,surname,other,ROOT,3,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0273,273,20,djokovic,the champion,epithet,subject,nsubj,4,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0280,280,10,djokovic,novak,first_name,subject,nsubj,2,50.24,23.28,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0283,283,41,djokovic,novak,first_name,object,dobj,2,,23.4,clip,NA,T1,other,rally
-tv_2023wimF,tv_2023wimF:0284,284,6,djokovic,novak,first_name,after_preposition,pobj,2,23.4,28.72,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0286,286,0,djokovic,djokovic,surname,subject,nsubj,3,26.48,35.36,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0289,289,5,alcaraz,carlos alcaraz,full_name,object,dobj,5,24.24,43.0,clip,T1,T3,other,double_fault
-tv_2023wimF,tv_2023wimF:0290,290,1,djokovic,djokovic,surname,vocative_exclamation,npadvmod,3,43.0,5.8,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0292,292,4,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,41.28,23.28,clip,T2,T1,set_point,rally
-tv_2023wimF,tv_2023wimF:0301,301,26,djokovic,djokovic,surname,object,dobj,3,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0307,307,56,djokovic,djokovic,surname,possessive,poss,3,28.36,70.8,clip,T1,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0307,307,102,alcaraz,alcaraz,surname,after_preposition,pobj,3,28.36,70.8,clip,T1,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0308,308,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,70.8,40.04,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0308,308,24,djokovic,djokovic,surname,other,compound,3,70.8,40.04,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0308,308,30,alcaraz,alcaraz,surname,subject,nsubj,3,70.8,40.04,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0308,308,57,djokovic,djokovic,surname,subject,nsubj,3,70.8,40.04,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0309,309,3,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,40.04,31.36,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0312,312,57,djokovic,djokovic,surname,subject,nsubj,3,44.84,32.16,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0313,313,7,alcaraz,alcaraz,surname,subject,nsubj,3,32.16,9.96,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0315,315,52,alcaraz,the young man,epithet,after_preposition,pobj,3,40.96,48.96,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0317,317,8,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,48.96,47.92,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0317,317,21,djokovic,djokovic,surname,subject,nsubj,3,48.96,47.92,clip,T3,T3,deuce_ad,rally
-tv_2023wimF,tv_2023wimF:0323,323,7,djokovic,djokovic,surname,other,compound,3,71.08,29.64,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0324,324,19,alcaraz,alcaraz,surname,after_preposition,pobj,3,29.64,34.92,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0325,325,63,djokovic,djokovic,surname,vocative_exclamation,appos,3,34.92,107.48,clip,T2,T3,break_point,rally
-tv_2023wimF,tv_2023wimF:0328,328,21,alcaraz,alcaraz,surname,subject,nsubj,3,26.28,25.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0331,331,6,alcaraz,alcaraz,surname,subject,nsubj,3,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0331,331,31,djokovic,djokovic,surname,subject,nsubj,3,,,clip,NA,NA,NA,rally
-tv_2023wimF,tv_2023wimF:0337,337,7,djokovic,djokovic,surname,after_preposition,pobj,3,94.72,42.04,clip,T3,T2,other,rally
-tv_2023wimF,tv_2023wimF:0339,339,19,djokovic,djokovic,surname,subject,nsubj,3,42.04,43.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0339,339,30,alcaraz,alcaraz,surname,other,conj,3,42.04,43.2,clip,T2,T3,other,rally
-tv_2023wimF,tv_2023wimF:0341,341,15,djokovic,djokovic,surname,after_preposition,pobj,3,27.08,3.68,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0341,341,37,djokovic,djokovic,surname,possessive,poss,3,27.08,3.68,clip,T1,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0344,344,0,alcaraz,alcaraz,surname,subject,nsubj,3,28.16,30.0,clip,T1,T2,other,ace
-tv_2023wimF,tv_2023wimF:0345,345,4,djokovic,djokovic,surname,subject,nsubj,3,30.0,14.28,clip,T1,T1,other,rally
-tv_2023wimF,tv_2023wimF:0346,346,9,alcaraz,alcaraz,surname,after_preposition,pobj,3,14.28,42.72,clip,T1,T3,other,rally
-tv_2023wimF,tv_2023wimF:0347,347,12,alcaraz,alcaraz,surname,after_preposition,pobj,3,42.72,31.2,clip,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0348,348,35,alcaraz,alcaraz,surname,other,compound,3,31.2,33.56,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0349,349,0,djokovic,novak djokovic,full_name,other,ROOT,5,33.56,26.84,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0349,349,31,djokovic,djokovic,surname,subject,nsubj,3,33.56,26.84,clip,T2,T1,other,first_serve_fault
-tv_2023wimF,tv_2023wimF:0351,351,13,djokovic,the champion,epithet,after_preposition,pobj,4,56.8,102.8,changeover,T3,T3,other,rally
-tv_2023wimF,tv_2023wimF:0352,352,8,djokovic,the serb,epithet,after_preposition,pobj,2,102.8,24.24,clip,T3,T1,other,rally
-tv_2023wimF,tv_2023wimF:0354,354,33,djokovic,djokovic,surname,after_preposition,pobj,3,24.24,37.12,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0356,356,6,djokovic,djokovic,surname,other,nmod,3,37.12,41.0,changeover,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0356,356,20,alcaraz,alcaraz,surname,other,compound,3,37.12,41.0,changeover,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0356,356,36,alcaraz,alcaraz,surname,object,dobj,3,37.12,41.0,changeover,T2,T2,other,rally
-tv_2023wimF,tv_2023wimF:0361,361,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,,28.2,clip,NA,T1,other,rally
-tv_2023wimF,tv_2023wimF:0364,364,44,djokovic,djokovic,surname,after_preposition,pobj,3,25.08,35.4,clip,T1,T2,other,rally
-tv_2023wimF,tv_2023wimF:0365,365,3,djokovic,djokovic,surname,subject,nsubj,3,35.4,32.84,clip,T2,T2,other,rally
+stream,utt_id,clip_i,token_start,player,expression,category,slot,spacy_dep,syllables,dead_time_before_s,time_after_s,umpire_pattern,phase,dtb_terc,ta_terc,score,role
+tv_2023wimF,tv_2023wimF:0002,2,5,djokovic,novak djokovic,full_name,after_preposition,pobj,5,49.52,57.28,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0004,4,7,djokovic,novak djokovic,full_name,subject,nsubj,5,57.28,44.36,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0007,7,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,26.36,32.08,advantage_name,between_points,T1,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0008,8,10,djokovic,novak djokovic,full_name,subject,nsubj,5,32.08,74.48,,clip,T1,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0009,9,2,djokovic,djokovic,surname,object,attr,3,74.48,30.08,,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0009,9,7,djokovic,novak djokovic,full_name,after_preposition,pobj,5,74.48,30.08,,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0010,10,0,alcaraz,alcaraz,surname,subject,nsubj,3,30.08,78.36,,clip,T1,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0010,10,12,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,30.08,78.36,,clip,T1,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0012,12,12,djokovic,novak,first_name,object,dobj,2,23.84,48.24,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0012,12,39,alcaraz,alcaraz,surname,after_preposition,pobj,3,23.84,48.24,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0012,12,47,djokovic,djokovic,surname,after_preposition,pobj,3,23.84,48.24,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0012,12,58,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,23.84,48.24,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0014,14,6,djokovic,djokovic,surname,subject,nsubj,3,48.24,55.08,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0014,14,25,djokovic,djokovic,surname,after_preposition,pobj,3,48.24,55.08,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0015,15,24,alcaraz,alcaraz,surname,after_preposition,pobj,3,55.08,28.56,,clip,T3,T1,break_point,rally
+tv_2023wimF,tv_2023wimF:0016,16,14,alcaraz,alcaraz,surname,after_preposition,pobj,3,28.56,29.84,,clip,T1,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0016,16,41,djokovic,djokovic,surname,after_preposition,pobj,3,28.56,29.84,,clip,T1,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0018,18,33,djokovic,djokovic,surname,object,dobj,3,29.84,71.12,,clip,T1,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0018,18,79,djokovic,djokovic,surname,object,dative,3,29.84,71.12,,clip,T1,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0027,27,17,djokovic,djokovic,surname,subject,nsubj,3,107.0,25.28,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0030,30,5,djokovic,djokovic,surname,subject,nsubj,3,32.12,30.4,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0030,30,36,djokovic,novak,first_name,object,dobj,2,32.12,30.4,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0033,33,11,djokovic,novak djokovic,full_name,subject,nsubj,5,37.64,39.28,challenges_remaining,clip,T2,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0034,34,6,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,39.28,42.76,,clip,T2,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0034,34,11,alcaraz,alcaraz,surname,after_preposition,pobj,3,39.28,42.76,,clip,T2,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0034,34,49,alcaraz,alcaraz,surname,after_preposition,pobj,3,39.28,42.76,,clip,T2,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0036,36,8,alcaraz,alcaraz,surname,after_preposition,pobj,3,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0036,36,10,djokovic,djokovic,surname,after_preposition,pobj,3,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0036,36,40,alcaraz,alcaraz,surname,subject,nsubj,3,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0036,36,42,alcaraz,the world number one,epithet,object,attr,5,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0036,36,46,djokovic,djokovic,surname,object,appos,3,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0036,36,82,alcaraz,alcaraz,surname,subject,nsubj,3,42.76,52.92,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0037,37,14,alcaraz,alcaraz,surname,subject,nsubj,3,52.92,21.28,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0037,37,26,djokovic,novak,first_name,subject,nsubj,2,52.92,21.28,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0037,37,60,alcaraz,alcaraz,surname,after_preposition,pobj,3,52.92,21.28,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0040,40,9,alcaraz,alcaraz,surname,subject,nsubj,3,31.76,30.12,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0041,41,0,djokovic,djokovic,surname,subject,nsubj,3,30.12,94.84,leads_games,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0041,41,26,alcaraz,alcaraz,surname,after_preposition,pobj,3,30.12,94.84,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0044,44,26,alcaraz,carlos,first_name,subject,nsubj,2,21.36,9.48,,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0046,46,0,djokovic,novak,first_name,subject,nsubj,2,36.16,4.32,,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0050,50,5,alcaraz,alcaraz,surname,after_preposition,pobj,3,47.52,31.72,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0050,50,16,djokovic,djokovic,surname,after_preposition,pobj,3,47.52,31.72,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0055,55,6,alcaraz,alcaraz,surname,after_preposition,pobj,3,123.88,26.64,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0055,55,33,djokovic,djokovic,surname,after_preposition,pobj,3,123.88,26.64,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0056,56,5,alcaraz,alcaraz,surname,after_preposition,pobj,3,,28.52,,clip,NA,T1,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,6,alcaraz,alcaraz,surname,after_preposition,pobj,3,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,30,alcaraz,carlos,first_name,subject,nsubj,2,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,39,djokovic,djokovic,surname,after_preposition,pobj,3,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,57,alcaraz,alcaraz,surname,object,dobj,3,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,65,djokovic,djokovic,surname,after_preposition,pobj,3,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0058,58,98,alcaraz,alcaraz,surname,after_preposition,pobj,3,26.2,60.36,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0062,62,47,djokovic,djokovic,surname,after_preposition,pobj,3,57.0,49.96,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0062,62,65,alcaraz,the young spaniard,epithet,object,attr,4,57.0,49.96,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0062,62,69,djokovic,djokovic,surname,subject,nsubj,3,57.0,49.96,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0065,65,22,djokovic,djokovic,surname,subject,nsubj,3,36.36,54.32,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0069,69,55,djokovic,novak,first_name,subject,nsubj,2,57.24,16.68,,clip,T3,T1,deuce_ad,first_serve_fault
+tv_2023wimF,tv_2023wimF:0071,71,13,alcaraz,alcaraz,surname,subject,nsubj,3,,41.08,,clip,NA,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0072,72,11,alcaraz,alcaraz,surname,subject,nsubj,3,41.08,42.36,,clip,T2,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0072,72,28,alcaraz,alcaraz,surname,subject,nsubj,3,41.08,42.36,leads_games,clip,T2,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0072,72,47,djokovic,djokovic,surname,object,dobj,3,41.08,42.36,,clip,T2,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0075,75,17,alcaraz,alcaraz,surname,subject,nsubj,3,43.2,41.96,,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0077,77,8,djokovic,djokovic,surname,object,dobj,3,37.88,10.28,,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0081,81,10,alcaraz,alcaraz,surname,after_preposition,pobj,3,35.0,134.24,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0081,81,12,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,35.0,134.24,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0082,82,5,alcaraz,alcaraz,surname,subject,nsubj,3,134.24,33.32,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0082,82,17,djokovic,djokovic,surname,subject,nsubj,3,134.24,33.32,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0090,90,54,djokovic,djokovic,surname,subject,nsubj,3,56.44,39.48,,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0090,90,108,alcaraz,alcaraz,surname,object,appos,3,56.44,39.48,,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0090,90,111,djokovic,djokovic,surname,subject,nsubj,3,56.44,39.48,,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0093,93,4,djokovic,djokovic,surname,subject,nsubj,3,37.36,48.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0093,93,9,alcaraz,alcaraz,surname,other,compound,3,37.36,48.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0093,93,26,alcaraz,carlos,first_name,subject,nsubj,2,37.36,48.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0093,93,69,djokovic,djokovic,surname,after_preposition,pobj,3,37.36,48.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0093,93,72,djokovic,djokovic,surname,subject,nsubj,3,37.36,48.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0096,96,31,djokovic,djokovic,surname,subject,nsubj,3,23.8,25.44,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0097,97,25,alcaraz,the world number one,epithet,after_preposition,pobj,5,25.44,25.36,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0098,98,78,djokovic,djokovic,surname,after_preposition,pobj,3,25.36,35.6,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0102,102,1,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,23.56,42.44,advantage_name,between_points,T1,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0104,104,6,djokovic,djokovic,surname,other,compound,3,118.8,45.92,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0105,105,22,djokovic,djokovic,surname,after_preposition,pobj,3,45.92,75.76,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0105,105,48,alcaraz,alcaraz,surname,subject,nsubj,3,45.92,75.76,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0116,116,8,djokovic,djokovic,surname,after_preposition,pobj,3,45.48,39.76,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0116,116,25,alcaraz,alcaraz,surname,subject,nsubj,3,45.48,39.76,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0117,117,15,djokovic,novak,first_name,after_preposition,pobj,2,39.76,131.0,,clip,T2,T3,other,ace
+tv_2023wimF,tv_2023wimF:0119,119,25,djokovic,novak,first_name,possessive,dep,2,131.0,64.92,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0119,119,85,djokovic,novak,first_name,after_preposition,pobj,2,131.0,64.92,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0126,126,12,djokovic,djokovic,surname,subject,nsubj,3,49.28,26.08,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0128,128,36,djokovic,djokovic,surname,subject,nsubj,3,84.32,,,clip,T3,NA,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0129,129,4,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,,45.16,,clip,NA,T3,other,rally
+tv_2023wimF,tv_2023wimF:0131,131,16,alcaraz,alcaraz,surname,subject,nsubj,3,45.16,136.36,leads_games,changeover,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0131,131,28,djokovic,djokovic,surname,object,dobj,3,45.16,136.36,,changeover,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0136,136,4,alcaraz,alcaraz,surname,object,dobj,3,95.56,30.88,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0137,137,4,alcaraz,alcaraz,surname,subject,nsubj,3,30.88,36.76,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0137,137,26,djokovic,djokovic,surname,after_preposition,pobj,3,30.88,36.76,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0137,137,42,djokovic,the champion,epithet,object,dobj,4,30.88,36.76,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0141,141,10,djokovic,djokovic,surname,subject,nsubj,3,73.88,9.44,,clip,T3,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0141,141,32,djokovic,djokovic,surname,after_preposition,pobj,3,73.88,9.44,,clip,T3,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0146,146,3,djokovic,novak,first_name,subject,nsubj,2,115.28,34.6,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0146,146,19,alcaraz,carlos,first_name,after_preposition,pobj,2,115.28,34.6,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0147,147,0,djokovic,novak djokovic,full_name,other,ROOT,5,34.6,,challenging,clip,T2,NA,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0151,151,26,djokovic,novak djokovic,full_name,vocative_exclamation,npadvmod,5,,38.28,,clip,NA,T2,other,rally
+tv_2023wimF,tv_2023wimF:0155,155,65,djokovic,djokovic,surname,after_preposition,pobj,3,27.36,33.96,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0158,158,14,alcaraz,alcaraz,surname,subject,nsubj,3,31.44,36.92,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0161,161,38,alcaraz,alcaraz,surname,after_preposition,pobj,3,,74.2,,clip,NA,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0163,163,0,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0165,165,13,djokovic,djokovic,surname,subject,nsubj,3,29.28,23.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0165,165,45,alcaraz,alcaraz,surname,subject,nsubj,3,29.28,23.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0165,165,68,alcaraz,alcaraz,surname,subject,nsubj,3,29.28,23.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0165,165,104,djokovic,djokovic,surname,subject,nsubj,3,29.28,23.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0169,169,10,djokovic,djokovic,surname,subject,nsubjpass,3,,37.24,,clip,NA,T2,other,rally
+tv_2023wimF,tv_2023wimF:0175,175,0,djokovic,novak,first_name,subject,nsubj,2,30.56,54.56,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0176,176,7,djokovic,djokovic,surname,after_preposition,pobj,3,54.56,44.28,,clip,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0178,178,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,44.28,134.28,,changeover,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0179,179,33,djokovic,djokovic,surname,after_preposition,pobj,3,134.28,26.16,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0183,183,56,djokovic,djokovic,surname,after_preposition,pobj,3,29.28,43.52,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0186,186,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,42.6,20.52,challenging,clip,T2,T1,break_point,first_serve_fault
+tv_2023wimF,tv_2023wimF:0187,187,29,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,42.6,69.28,challenges_remaining,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0189,189,21,alcaraz,alcaraz,surname,other,compound,3,69.28,44.12,advantage_name,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0189,189,22,djokovic,djokovic,surname,subject,nsubj,3,69.28,44.12,,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0190,190,4,djokovic,djokovic,surname,other,compound,3,44.12,98.28,,clip,T2,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0190,190,5,alcaraz,alcaraz,surname,subject,nsubj,3,44.12,98.28,leads_games,clip,T2,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0191,191,0,djokovic,novak djokovic,full_name,other,ROOT,5,98.28,23.8,challenging,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0191,191,10,alcaraz,alcaraz,surname,subject,nsubj,3,98.28,23.8,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0197,197,17,djokovic,djokovic,surname,after_preposition,pobj,3,27.16,28.0,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0199,199,10,djokovic,novak,first_name,subject,nsubj,2,28.0,37.84,,clip,T1,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0204,204,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,48.68,29.68,advantage_name,clip,T3,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0209,209,4,djokovic,novak,first_name,after_preposition,pobj,2,28.8,19.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0211,211,10,alcaraz,alcaraz,surname,subject,nsubj,3,21.36,21.36,,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0211,211,28,djokovic,djokovic,surname,after_preposition,pobj,3,21.36,21.36,,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0211,211,32,alcaraz,carlos alcaraz,full_name,other,ROOT,5,21.36,21.36,challenging,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0212,212,0,alcaraz,alcaraz,surname,subject,nsubj,3,21.36,60.36,leads_games,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0212,212,10,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,21.36,60.36,challenges_remaining,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0217,217,19,alcaraz,carlos,first_name,subject,nsubj,2,17.84,17.36,,clip,T1,T1,set_point,rally
+tv_2023wimF,tv_2023wimF:0223,223,23,djokovic,novak,first_name,subject,nsubj,2,,30.72,,clip,NA,T2,other,rally
+tv_2023wimF,tv_2023wimF:0223,223,52,alcaraz,alcaraz,surname,subject,nsubj,3,,30.72,,clip,NA,T2,other,rally
+tv_2023wimF,tv_2023wimF:0224,224,18,alcaraz,alcaraz,surname,subject,nsubj,3,30.72,48.68,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0224,224,39,djokovic,djokovic,surname,after_preposition,pobj,3,30.72,48.68,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0228,228,21,djokovic,novak,first_name,after_preposition,pobj,2,58.0,42.44,,clip,T3,T2,break_point,rally
+tv_2023wimF,tv_2023wimF:0230,230,2,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,30.48,30.92,advantage_name,between_points,T1,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0234,234,57,djokovic,the champion,epithet,after_preposition,pobj,4,47.36,36.28,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0237,237,9,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,36.0,29.24,,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0237,237,11,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,36.0,29.24,,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0237,237,28,djokovic,djokovic,surname,after_preposition,pobj,3,36.0,29.24,,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0249,249,6,djokovic,novak djokovic,full_name,subject,nsubj,5,46.8,113.32,,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0254,254,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,32.96,27.52,challenging,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0255,255,36,djokovic,djokovic,surname,after_preposition,pobj,3,32.96,59.48,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0257,257,7,djokovic,djokovic,surname,after_preposition,pobj,3,,37.28,,clip,NA,T2,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0265,265,7,djokovic,novak djokovic,full_name,other,ROOT,5,33.96,45.44,challenging,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0265,265,63,djokovic,novak djokovic,full_name,subject,nsubj,5,33.96,45.44,challenges_remaining,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0267,267,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,45.44,81.28,advantage_name,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0267,267,30,djokovic,djokovic,surname,subject,nsubj,3,45.44,81.28,,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0270,270,31,djokovic,novak,first_name,object,dobj,2,22.64,32.44,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0273,273,0,djokovic,djokovic,surname,other,ROOT,3,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0273,273,20,djokovic,the champion,epithet,subject,nsubj,4,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0280,280,10,djokovic,novak,first_name,subject,nsubj,2,50.24,23.28,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0283,283,41,djokovic,novak,first_name,object,dobj,2,,23.4,,clip,NA,T1,other,rally
+tv_2023wimF,tv_2023wimF:0284,284,6,djokovic,novak,first_name,after_preposition,pobj,2,23.4,28.72,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0286,286,0,djokovic,djokovic,surname,subject,nsubj,3,26.48,35.36,leads_games,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0289,289,5,alcaraz,carlos alcaraz,full_name,object,dobj,5,24.24,43.0,challenging,clip,T1,T3,other,double_fault
+tv_2023wimF,tv_2023wimF:0290,290,1,djokovic,djokovic,surname,vocative_exclamation,npadvmod,3,43.0,5.8,,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0292,292,4,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,41.28,23.28,challenges_remaining,clip,T2,T1,set_point,rally
+tv_2023wimF,tv_2023wimF:0301,301,26,djokovic,djokovic,surname,object,dobj,3,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0307,307,56,djokovic,djokovic,surname,possessive,poss,3,28.36,70.8,,clip,T1,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0307,307,102,alcaraz,alcaraz,surname,after_preposition,pobj,3,28.36,70.8,,clip,T1,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0308,308,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,70.8,40.04,challenging,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0308,308,24,djokovic,djokovic,surname,other,compound,3,70.8,40.04,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0308,308,30,alcaraz,alcaraz,surname,subject,nsubj,3,70.8,40.04,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0308,308,57,djokovic,djokovic,surname,subject,nsubj,3,70.8,40.04,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0309,309,3,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,40.04,31.36,challenges_remaining,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0312,312,57,djokovic,djokovic,surname,subject,nsubj,3,44.84,32.16,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0313,313,7,alcaraz,alcaraz,surname,subject,nsubj,3,32.16,9.96,,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0315,315,52,alcaraz,the young man,epithet,after_preposition,pobj,3,40.96,48.96,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0317,317,8,alcaraz,alcaraz,surname,vocative_exclamation,ROOT,3,48.96,47.92,advantage_name,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0317,317,21,djokovic,djokovic,surname,subject,nsubj,3,48.96,47.92,,clip,T3,T3,deuce_ad,rally
+tv_2023wimF,tv_2023wimF:0323,323,7,djokovic,djokovic,surname,other,compound,3,71.08,29.64,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0324,324,19,alcaraz,alcaraz,surname,after_preposition,pobj,3,29.64,34.92,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0325,325,63,djokovic,djokovic,surname,vocative_exclamation,appos,3,34.92,107.48,,clip,T2,T3,break_point,rally
+tv_2023wimF,tv_2023wimF:0328,328,21,alcaraz,alcaraz,surname,subject,nsubj,3,26.28,25.28,leads_games,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0331,331,6,alcaraz,alcaraz,surname,subject,nsubj,3,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0331,331,31,djokovic,djokovic,surname,subject,nsubj,3,,,,clip,NA,NA,NA,rally
+tv_2023wimF,tv_2023wimF:0337,337,7,djokovic,djokovic,surname,after_preposition,pobj,3,94.72,42.04,,clip,T3,T2,other,rally
+tv_2023wimF,tv_2023wimF:0339,339,19,djokovic,djokovic,surname,subject,nsubj,3,42.04,43.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0339,339,30,alcaraz,alcaraz,surname,other,conj,3,42.04,43.2,,clip,T2,T3,other,rally
+tv_2023wimF,tv_2023wimF:0341,341,15,djokovic,djokovic,surname,after_preposition,pobj,3,27.08,3.68,,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0341,341,37,djokovic,djokovic,surname,possessive,poss,3,27.08,3.68,,clip,T1,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0344,344,0,alcaraz,alcaraz,surname,subject,nsubj,3,28.16,30.0,leads_games,clip,T1,T2,other,ace
+tv_2023wimF,tv_2023wimF:0345,345,4,djokovic,djokovic,surname,subject,nsubj,3,30.0,14.28,,clip,T1,T1,other,rally
+tv_2023wimF,tv_2023wimF:0346,346,9,alcaraz,alcaraz,surname,after_preposition,pobj,3,14.28,42.72,,clip,T1,T3,other,rally
+tv_2023wimF,tv_2023wimF:0347,347,12,alcaraz,alcaraz,surname,after_preposition,pobj,3,42.72,31.2,,clip,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0348,348,35,alcaraz,alcaraz,surname,other,compound,3,31.2,33.56,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0349,349,0,djokovic,novak djokovic,full_name,other,ROOT,5,33.56,26.84,challenging,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0349,349,31,djokovic,djokovic,surname,subject,nsubj,3,33.56,26.84,,clip,T2,T1,other,first_serve_fault
+tv_2023wimF,tv_2023wimF:0351,351,13,djokovic,the champion,epithet,after_preposition,pobj,4,56.8,102.8,,changeover,T3,T3,other,rally
+tv_2023wimF,tv_2023wimF:0352,352,8,djokovic,the serb,epithet,after_preposition,pobj,2,102.8,24.24,,clip,T3,T1,other,rally
+tv_2023wimF,tv_2023wimF:0354,354,33,djokovic,djokovic,surname,after_preposition,pobj,3,24.24,37.12,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0356,356,6,djokovic,djokovic,surname,other,nmod,3,37.12,41.0,,changeover,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0356,356,20,alcaraz,alcaraz,surname,other,compound,3,37.12,41.0,,changeover,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0356,356,36,alcaraz,alcaraz,surname,object,dobj,3,37.12,41.0,,changeover,T2,T2,other,rally
+tv_2023wimF,tv_2023wimF:0361,361,0,alcaraz,carlos alcaraz,full_name,subject,nsubj,5,,28.2,challenges_remaining,clip,NA,T1,other,rally
+tv_2023wimF,tv_2023wimF:0364,364,44,djokovic,djokovic,surname,after_preposition,pobj,3,25.08,35.4,,clip,T1,T2,other,rally
+tv_2023wimF,tv_2023wimF:0365,365,3,djokovic,djokovic,surname,subject,nsubj,3,35.4,32.84,,clip,T2,T2,other,rally

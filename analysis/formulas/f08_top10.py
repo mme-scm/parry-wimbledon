@@ -1,5 +1,10 @@
 """Top-10 commentary formulae or systems of the 2019 final for the Phase 3 composition brief (plan section 9).
 
+Revision 1 (plan.md addendum 2; critic C2/C9): `official_call` is computed with common.official_mask_v2 (the S5 patterns plus
+point-score calls, bare `thank you`, `mr <name>`, `advantage <name>`, game-set calls and challenge announcements), so it now
+fires on score calls, which the umpire says as often as the commentators; the `commentary_only` list therefore excludes them.
+Column schema unchanged.
+
 Outputs: results/top10_for_brief.csv (pre-specified ranking), results/top10_for_brief_n3.csv (exploratory: n >= 3 formulas
 and systems with >= 2 fixed tokens)
 Run: python -I analysis/formulas/f08_top10.py
@@ -21,7 +26,7 @@ def main():
     recs = C.load_stream(C.MAIN)
     C.add_contexts(recs, C.MAIN)
     names = C.player_name_lexicon()
-    masks = [C.official_mask(r["toks"], names) for r in recs]
+    masks = [C.official_mask_v2(r["toks"], names) for r in recs]
     with open(C.RESULTS / "formulas_2019.tsv") as fh:
         F = [dict(r, kind="formula", item=r["formula"]) for r in csv.DictReader(fh, delimiter="\t")]
     with open(C.RESULTS / "systems_2019.tsv") as fh:

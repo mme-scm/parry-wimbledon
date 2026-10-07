@@ -1,5 +1,10 @@
 """Economy (thrift) and extension of the referring-expression systems (plan section 6); tests C4, C5 (2019) and R4, R5 (2023).
 
+Revision 1 (plan.md addendum 2, B6): every test is run on two token sets. `commentary_only` drops the referring expressions
+inside umpire/Hawk-Eye patterns (column `umpire_pattern` of the token files, rules in refexpr.UMPIRE_*; `mr <surname>` always);
+it is the reported confirmatory set after the revision. `all_tokens` is the pre-registered set (original seeds, identical
+results) and is kept as a sensitivity analysis.
+
 Input: results/refexpr_tokens_<stream>.csv (from f05_refexpr.py).
 Outputs: results/thrift_tests.csv, results/thrift_cells.csv, results/extension.csv, results/length_time_tests.csv
 Run: python -I analysis/formulas/f06_thrift.py
@@ -22,6 +27,7 @@ def load(stream):
         rows = list(csv.DictReader(fh))
     for r in rows:
         r["syllables"] = int(r["syllables"])
+        r["umpire_pattern"] = r.get("umpire_pattern") or ""
         for k in ("dead_time_before_s", "time_after_s"):
             r[k] = float(r[k]) if r[k] not in ("", "None") else None
     return rows
@@ -104,47 +110,55 @@ def length_time(rows, tkey, seed, level="token"):
             "mean_syll": float(syl.mean())}
 
 
+TOKEN_SETS = ("commentary_only", "all_tokens")
+
+
 def main():
     tests, lt, cell_rows, ext_rows = [], [], [], []
     for si, stream in enumerate((C.MAIN, C.HELDOUT)):
-        rows = load(stream)
-        players = sorted({r["player"] for r in rows})
-        for ci, ctxname in enumerate(CONTEXTS):
-            status = "confirmatory" if ctxname == "dtb_terc" else "exploratory"
-            res, types, cells = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + ci)
-            tests.append({"stream": stream, "context": ctxname, "players": "both", "permutation": "token_within_player_slot",
-                          "status": status, **res})
-            for k in sorted(cells):
-                cell_rows.append({"stream": stream, "context": ctxname, "player": k[0], "slot": k[1], "group": k[2],
-                                  "tokens": cells[k], "distinct_expressions": len(types[k]),
-                                  "expressions": "; ".join(sorted(types[k]))})
-            if ctxname == "dtb_terc":
-                res_u, _, _ = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + 50, level="utterance")
-                tests.append({"stream": stream, "context": ctxname, "players": "both", "permutation": "utterance",
-                              "status": "exploratory", **res_u})
-                for p in players:
-                    res_p, _, _ = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + 60 + players.index(p), players={p})
-                    tests.append({"stream": stream, "context": ctxname, "players": p, "permutation": "token_within_player_slot",
-                                  "status": "exploratory", **res_p})
-        for ti, tkey in enumerate(("dead_time_before_s", "time_after_s")):
-            for level in ("token", "utterance"):
-                status = "confirmatory" if (tkey == "dead_time_before_s" and level == "token") else "exploratory"
-                res = length_time(rows, tkey, C.MASTER_SEED + 1000 + 10 * si + 2 * ti + (level == "utterance"), level=level)
-                lt.append({"stream": stream, "time": tkey, "permutation": level + ("_within_player" if level == "token" else ""),
-                           "status": status, **res})
-        # extension descriptives
-        for p in players:
-            pr = [r for r in rows if r["player"] == p]
-            syl_class = lambda s: "1-2" if s <= 2 else ("3" if s == 3 else ("4-5" if s <= 5 else "6+"))
-            occ_cells = {(r["slot"], r["dtb_terc"], syl_class(r["syllables"])) for r in pr}
-            ext_rows.append({"stream": stream, "player": p, "tokens": len(pr),
-                             "distinct_expressions": len({r["expression"] for r in pr}),
-                             "distinct_categories": len({r["category"] for r in pr}),
-                             "syllable_min": min(r["syllables"] for r in pr), "syllable_max": max(r["syllables"] for r in pr),
-                             "distinct_syllable_lengths": len({r["syllables"] for r in pr}),
-                             "occupied_cells_slot_x_dtb_x_sylclass": len(occ_cells),
-                             "share_surname": float(np.mean([r["category"] == "surname" for r in pr])),
-                             "share_epithet": float(np.mean([r["category"] == "epithet" for r in pr]))})
+        rows_all = load(stream)
+        for tset in TOKEN_SETS:
+            rows = rows_all if tset == "all_tokens" else [r for r in rows_all if not r["umpire_pattern"]]
+            primary = "confirmatory" if tset == "commentary_only" else "sensitivity (pre-registered token set)"
+            players = sorted({r["player"] for r in rows})
+            for ci, ctxname in enumerate(CONTEXTS):
+                status = primary if ctxname == "dtb_terc" else "exploratory"
+                res, types, cells = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + ci)
+                tests.append({"token_set": tset, "stream": stream, "context": ctxname, "players": "both",
+                              "permutation": "token_within_player_slot", "status": status, **res})
+                for k in sorted(cells):
+                    cell_rows.append({"token_set": tset, "stream": stream, "context": ctxname, "player": k[0], "slot": k[1],
+                                      "group": k[2], "tokens": cells[k], "distinct_expressions": len(types[k]),
+                                      "expressions": "; ".join(sorted(types[k]))})
+                if ctxname == "dtb_terc":
+                    res_u, _, _ = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + 50, level="utterance")
+                    tests.append({"token_set": tset, "stream": stream, "context": ctxname, "players": "both",
+                                  "permutation": "utterance", "status": "exploratory", **res_u})
+                    for p in players:
+                        res_p, _, _ = thrift_test(rows, ctxname, C.MASTER_SEED + 100 * si + 60 + players.index(p), players={p})
+                        tests.append({"token_set": tset, "stream": stream, "context": ctxname, "players": p,
+                                      "permutation": "token_within_player_slot", "status": "exploratory", **res_p})
+            for ti, tkey in enumerate(("dead_time_before_s", "time_after_s")):
+                for level in ("token", "utterance"):
+                    status = primary if (tkey == "dead_time_before_s" and level == "token") else "exploratory"
+                    res = length_time(rows, tkey, C.MASTER_SEED + 1000 + 10 * si + 2 * ti + (level == "utterance"), level=level)
+                    lt.append({"token_set": tset, "stream": stream, "time": tkey,
+                               "permutation": level + ("_within_player" if level == "token" else ""), "status": status, **res})
+            # extension descriptives
+            for p in players:
+                pr = [r for r in rows if r["player"] == p]
+                syl_class = lambda s_: "1-2" if s_ <= 2 else ("3" if s_ == 3 else ("4-5" if s_ <= 5 else "6+"))
+                occ_cells = {(r["slot"], r["dtb_terc"], syl_class(r["syllables"])) for r in pr}
+                ext_rows.append({"token_set": tset, "stream": stream, "player": p, "tokens": len(pr),
+                                 "distinct_expressions": len({r["expression"] for r in pr}),
+                                 "distinct_categories": len({r["category"] for r in pr}),
+                                 "syllable_min": min(r["syllables"] for r in pr), "syllable_max": max(r["syllables"] for r in pr),
+                                 "distinct_syllable_lengths": len({r["syllables"] for r in pr}),
+                                 "occupied_cells_slot_x_dtb_x_sylclass": len(occ_cells),
+                                 "share_surname": float(np.mean([r["category"] == "surname" for r in pr])),
+                                 "share_epithet": float(np.mean([r["category"] == "epithet" for r in pr])),
+                                 "umpire_pattern_tokens_excluded": sum(1 for r in rows_all if r["player"] == p and r["umpire_pattern"])
+                                 if tset == "commentary_only" else 0})
     for name, rr in (("thrift_tests.csv", tests), ("thrift_cells.csv", cell_rows), ("extension.csv", ext_rows),
                      ("length_time_tests.csv", lt)):
         with open(C.RESULTS / name, "w", newline="") as fh:
@@ -153,10 +167,10 @@ def main():
             for x in rr:
                 w.writerow({k: (f"{v:.6f}" if isinstance(v, float) else v) for k, v in x.items()})
     for t in tests:
-        print(t["stream"], t["context"], t["players"], t["permutation"], t["D_observed"], round(t["null_mean"], 2),
+        print(t["token_set"], t["stream"], t["context"], t["players"], t["permutation"], t["D_observed"], round(t["null_mean"], 2),
               round(t["p_one_sided_fewer"], 4))
     for t in lt:
-        print(t["stream"], t["time"], t["permutation"], round(t["rho"], 3), round(t["p_two_sided"], 4))
+        print(t["token_set"], t["stream"], t["time"], t["permutation"], round(t["rho"], 3), round(t["p_two_sided"], 4))
 
 
 if __name__ == "__main__":

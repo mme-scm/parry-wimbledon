@@ -125,7 +125,8 @@ def load_press_answers() -> list[dict]:
                 continue
             toks = tokenize(qa[1] or "")
             if toks:
-                out.append({"utt_id": f"press:{k}", "group": iv.get("player") or f"iv{k}", "toks": toks})
+                out.append({"utt_id": f"press:{k}", "group": iv.get("player") or f"iv{k}", "toks": toks,
+                            "date": iv.get("date") or ""})
     return out
 
 
@@ -454,6 +455,99 @@ def official_mask(toks, names) -> np.ndarray:
             a, b = mt.start(), mt.end()
             for ti, st in enumerate(starts):
                 if st >= a and st < b:
+                    keep[ti] = False
+    return keep
+
+
+# ---------------------------------------------------------------- revision 1 (plan.md addendum 2): stricter coverage family
+# Numerals for the "content" filter: digit strings, tennis score words, English cardinal and ordinal number words.
+NUMERAL_WORDS = frozenset("""
+love fifteen thirty forty deuce
+zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen sixteen seventeen eighteen nineteen
+twenty fifty sixty seventy eighty ninety hundred thousand million
+first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth
+""".split())
+
+
+def is_numeral(tok: str) -> bool:
+    return tok.isdigit() or tok in NUMERAL_WORDS
+
+
+def is_function_or_numeral(tok: str) -> bool:
+    return tok in STOP or is_numeral(tok)
+
+
+def content_formulas(F) -> set:
+    """Formulas with at least one token that is neither a STOP word nor a numeral."""
+    return {g for g in F if not all(is_function_or_numeral(t) for t in g)}
+
+
+# Definitions of the coverage family. 'base' is the pre-registered (a) measure (n >= 2, not stop-only).
+FAMILY = ("base", "n3", "n4", "content", "content_n3")
+FAMILY_LABEL = {
+    "base": "n >= 2, not stop-only (pre-registered (a))",
+    "n3": "n >= 3",
+    "n4": "n >= 4",
+    "content": "n >= 2, not function-word/numeral-only",
+    "content_n3": "n >= 3, not function-word/numeral-only",
+}
+
+
+def cover_family_utt(toks, F, Fc) -> dict:
+    """Per-token boolean coverage under each FAMILY definition. F = formulas of I, Fc = content_formulas(F)."""
+    mx = cover_a(toks, F)
+    mc = cover_a(toks, Fc) if Fc is not None else mx
+    return {"base": mx >= 2, "n3": mx >= 3, "n4": mx >= 4, "content": mc >= 2, "content_n3": mc >= 3}
+
+
+def family_arrays(utts, F, Fc=None, masks=None) -> dict:
+    """Per-utterance arrays: 'tokens' and covered tokens under each FAMILY definition."""
+    if Fc is None:
+        Fc = content_formulas(F)
+    out = {k: np.zeros(len(utts), dtype=np.int64) for k in ("tokens",) + FAMILY}
+    for j, toks in enumerate(utts):
+        fam = cover_family_utt(toks, F, Fc)
+        keep = masks[j] if masks is not None else np.ones(len(toks), bool)
+        out["tokens"][j] = keep.sum()
+        for k in FAMILY:
+            out[k][j] = (fam[k] & keep).sum()
+    return out
+
+
+# ---------------------------------------------------------------- revision 1: umpire-type and score-call patterns (S5b)
+SCORE_TOKS = "(?:0|15|30|40|love|fifteen|thirty|forty|13|14|50)"  # 13/14/50 = documented ASR confusions of thirty/forty/fifteen
+
+
+def official_mask_v2(toks, names) -> np.ndarray:
+    """True = keep. S5 patterns plus (revision 1): `mr <name>`, `advantage <name>`, `game set (and match) <name>`,
+    `game and <ordinal> set <name>`, `<name>... (is) challenging (the call)`, `<name>... has <n> challenge(s) remaining/left`,
+    bare `thank you` (with following `players`/`please`/`all`), and point-score calls (`<score> <score|all>`, `deuce`).
+    Score calls are said by the umpire and by commentators; the transcript does not tell them apart."""
+    keep = official_mask(toks, names)
+    nm = "(?:" + "|".join(sorted(re.escape(x) for x in names)) + ")(?:'s)?"
+    ords = "(?:first|second|third|fourth|fifth|final)"
+    pats = [
+        rf"\bmr {nm}\b",
+        rf"\badvantage {nm}\b",
+        rf"\bgame (?:and )?set(?: and match)? {nm}\b",
+        rf"\bgame and {ords} set {nm}\b",
+        rf"\b(?:{nm} )+(?:is )?challenging(?: the call)?\b",
+        rf"\b(?:{nm} )+has (?:\w+) challenges? (?:remaining|left)\b",
+        r"\bthank you(?: (?:players|please|all))*\b",
+        rf"\b{SCORE_TOKS} (?:{SCORE_TOKS}|all)\b",
+        r"\bdeuce\b",
+    ]
+    s = " ".join(toks)
+    starts = []
+    pos = 0
+    for t in toks:
+        starts.append(pos)
+        pos += len(t) + 1
+    for p in pats:
+        for mt in re.finditer(p, s):
+            a, b = mt.start(), mt.end()
+            for ti, st in enumerate(starts):
+                if a <= st < b:
                     keep[ti] = False
     return keep
 

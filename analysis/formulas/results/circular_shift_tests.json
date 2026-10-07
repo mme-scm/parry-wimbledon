@@ -1,0 +1,67 @@
+{
+ "shift_min": 10,
+ "tv_2019wimF:ctx_dtb_terc": {
+  "stream": "tv_2019wimF",
+  "context": "ctx_dtb_terc",
+  "observed_diff_T1_minus_T3": 0.0035827705540203425,
+  "n_shifts": 299,
+  "shift_null_lo": -0.04665366523732176,
+  "shift_null_hi": 0.05137641513203462,
+  "p_two_sided_circular_shift": 0.9033333333333333,
+  "p_two_sided_label_permutation_9999": 0.8828,
+  "label_permutation_null_sd": 0.023273334499613368,
+  "shift_null_sd": 0.026336229141012205
+ },
+ "tv_2019wimF:ctx_ta_terc": {
+  "stream": "tv_2019wimF",
+  "context": "ctx_ta_terc",
+  "observed_diff_T1_minus_T3": -0.025445788867070607,
+  "n_shifts": 299,
+  "shift_null_lo": -0.0477986168433515,
+  "shift_null_hi": 0.05055065241569545,
+  "p_two_sided_circular_shift": 0.35333333333333333,
+  "p_two_sided_label_permutation_9999": 0.3149,
+  "label_permutation_null_sd": 0.025071627053619375,
+  "shift_null_sd": 0.025981370545089307
+ },
+ "tv_2019wimF:C5_dead_time_before_s": {
+  "stream": "tv_2019wimF",
+  "observed_rho": 0.08970168604466221,
+  "n_shifts": 299,
+  "shift_null_lo": -0.14630274896735987,
+  "shift_null_hi": 0.13310585786414408,
+  "p_two_sided_circular_shift": 0.22666666666666666
+ },
+ "tv_2023wimF:ctx_dtb_terc": {
+  "stream": "tv_2023wimF",
+  "context": "ctx_dtb_terc",
+  "observed_diff_T1_minus_T3": 0.014876552872136628,
+  "n_shifts": 226,
+  "shift_null_lo": -0.04371281631534776,
+  "shift_null_hi": 0.04966167137691124,
+  "p_two_sided_circular_shift": 0.5814977973568282,
+  "p_two_sided_label_permutation_9999": 0.5274,
+  "label_permutation_null_sd": 0.023312652614805408,
+  "shift_null_sd": 0.02572694208816082
+ },
+ "tv_2023wimF:ctx_ta_terc": {
+  "stream": "tv_2023wimF",
+  "context": "ctx_ta_terc",
+  "observed_diff_T1_minus_T3": -0.031202399529650204,
+  "n_shifts": 226,
+  "shift_null_lo": -0.050718582732841036,
+  "shift_null_hi": 0.047405681945947756,
+  "p_two_sided_circular_shift": 0.20704845814977973,
+  "p_two_sided_label_permutation_9999": 0.2298,
+  "label_permutation_null_sd": 0.026048938817001516,
+  "shift_null_sd": 0.02525690969645772
+ },
+ "tv_2023wimF:C5_dead_time_before_s": {
+  "stream": "tv_2023wimF",
+  "observed_rho": 0.07596632796012948,
+  "n_shifts": 226,
+  "shift_null_lo": -0.17325689685693269,
+  "shift_null_hi": 0.17816284114507852,
+  "p_two_sided_circular_shift": 0.3436123348017621
+ }
+}

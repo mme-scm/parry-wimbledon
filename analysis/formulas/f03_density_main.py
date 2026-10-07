@@ -1,7 +1,12 @@
 """Formulaic density for the finals: D1 in-sample, D2 split-half, D3 held-out across matches, D6 per context,
 D7 shuffled-word baseline, sensitivity analyses S1-S8, and the C3/R3 time tests (plan sections 4, 7, 8).
 
-Outputs: results/density_main.csv, results/density_context.csv, results/density_sensitivity.csv,
+Revision 1 (plan.md addendum 2, B3; post hoc): the stricter coverage family (common.FAMILY: n >= 3, n >= 4, content-only
+n >= 2 and n >= 3) for every main design with bootstrap CIs, shuffled-word baselines for every definition (D7 extended; for
+the held-out designs only M is shuffled, I's inventory is kept), and the excess of each coverage over its shuffled baseline
+(results/coverage_family.csv); S5b = revised umpire/score-call mask (common.official_mask_v2).
+
+Outputs: results/density_main.csv, results/density_context.csv, results/density_sensitivity.csv, results/coverage_family.csv,
 results/density_shuffled.csv, results/split_random.csv, results/c3_time_tests.json,
 results/utt_coverage_<design>.csv (per-utterance token counts; no text)
 Run: python -I analysis/formulas/f03_density_main.py
@@ -61,9 +66,11 @@ def split_half(utts, half, F_S_by_half=None, n_min=2, masks=None):
     return a0, a1, pooled, strata
 
 
-def _shuffle_job(args):
-    seed, utts, parity = args
-    rng = np.random.default_rng(seed)
+HELD = {}  # name -> (F, Fc, measured utterances); set before the worker pool is forked
+
+
+def shuffle_tokens(utts, rng):
+    """All tokens permuted over positions, utterance lengths kept."""
     flat = [t for u in utts for t in u]
     perm = rng.permutation(len(flat))
     flat = [flat[i] for i in perm]
@@ -72,10 +79,44 @@ def _shuffle_job(args):
     for u in utts:
         out.append(flat[k:k + len(u)])
         k += len(u)
+    return out
+
+
+def fam_ratio(arr):
+    return [C.ratio(arr[k], arr["tokens"]) for k in C.FAMILY]
+
+
+def split_half_family(utts, half):
+    half = np.asarray(half)
+    U0 = [u for u, h in zip(utts, half) if h == 0]
+    U1 = [u for u, h in zip(utts, half) if h == 1]
+    F0 = C.formula_set_fast(U0)
+    F1 = C.formula_set_fast(U1)
+    a1 = C.family_arrays(U1, F0)
+    a0 = C.family_arrays(U0, F1)
+    pooled = {k: np.concatenate([a0[k], a1[k]]) for k in a0}
+    strata = np.concatenate([np.zeros(len(U0), int), np.ones(len(U1), int)])
+    return pooled, strata
+
+
+def _shuffle_job(args):
+    seed, utts, parity = args
+    rng = np.random.default_rng(seed)
+    out = shuffle_tokens(utts, rng)
     F, S = ident(out)
     n, ca, cab = measure(out, F, S)
     _, _, (pn, pa, pab), _ = split_half(out, parity)
-    return [C.ratio(ca, n), C.ratio(cab, n), C.ratio(pa, pn), C.ratio(pab, pn)]
+    fam_in = fam_ratio(C.family_arrays(out, F))
+    fam_sp = fam_ratio(split_half_family(out, parity)[0])
+    return [C.ratio(ca, n), C.ratio(cab, n), C.ratio(pa, pn), C.ratio(pab, pn)] + fam_in + fam_sp
+
+
+def _shuffle_heldout_job(args):
+    """Held-out baseline: the tokens of M permuted over positions (utterance lengths kept); I's inventory unchanged."""
+    name, seed = args
+    F, Fc, M = HELD[name]
+    rng = np.random.default_rng(seed)
+    return [name] + fam_ratio(C.family_arrays(shuffle_tokens(M, rng), F, Fc))
 
 
 def _randsplit_job(args):
@@ -266,14 +307,87 @@ def main():
     blk = np.array([(r["clip_i"] // 20) % 2 for r in r19])
     _, _, pooled7, st7 = split_half(u19, blk)
     sens_rows += row("D2_split_half", "2019 halves", "2019 other half (pooled)", "S7_blocks_of_20_clips", pooled7, 161, st7)
+    # S5b (revision 1, exploratory): revised umpire/Hawk-Eye/score-call mask
+    def mask_v2(utts):
+        out, masks = [], []
+        k = 0
+        for u in utts:
+            keep = C.official_mask_v2(u, NAMES)
+            v = []
+            for t, kp in zip(u, keep):
+                v.append(t if kp else f"<masked{k}>")
+                k += 0 if kp else 1
+            out.append(v)
+            masks.append(keep)
+        return out, masks
+    vu19, vk19 = mask_v2(u19)
+    vu23, vk23 = mask_v2(u23)
+    vpool, _ = mask_v2(upool)
+    Fv, Sv = ident(vu19)
+    sens_rows += row("D1_in_sample", C.MAIN, C.MAIN, "S5b_umpire_and_score_calls_masked", measure(vu19, Fv, Sv, masks=vk19), 171)
+    _, _, pooledv, stv = split_half(vu19, par19, masks=vk19)
+    sens_rows += row("D2_split_half", "2019 halves", "2019 other half (pooled)", "S5b_umpire_and_score_calls_masked", pooledv, 172, stv)
+    Fvp, Svp = ident(vpool)
+    sens_rows += row("D3_held_out", "pool (18 matches)", C.MAIN, "S5b_umpire_and_score_calls_masked", measure(vu19, Fvp, Svp, masks=vk19), 173)
+    sens_rows += row("D3_held_out", C.MAIN, C.HELDOUT, "S5b_umpire_and_score_calls_masked", measure(vu23, Fv, Sv, masks=vk23), 174)
+    masked_share_v2 = 1 - sum(int(m.sum()) for m in vk19) / sum(map(len, u19))
     print("sensitivity done", flush=True)
+
+    # ---------------- revision 1: stricter coverage family (B3)
+    Fc19, Fcpool = C.content_formulas(F19), C.content_formulas(Fpool)
+    fam_designs = []  # (design, ident, meas, arrays, strata, seed, shuffle key); base rows reuse the density_main.csv seeds
+    fam_designs.append(("D1_in_sample", C.MAIN, C.MAIN, C.family_arrays(u19, F19, Fc19), None, 11, "insample"))
+    fam_designs.append(("D1_in_sample", C.HELDOUT, C.HELDOUT, C.family_arrays(u23, F23), None, 12, None))
+    pf19, sf19 = split_half_family(u19, par19)
+    fam_designs.append(("D2_split_half", "2019 halves", "2019 other half (pooled)", pf19, sf19, 23, "splithalf"))
+    pf23, sf23 = split_half_family(u23, par23)
+    fam_designs.append(("D2_split_half", "2023 halves", "2023 other half (pooled)", pf23, sf23, 24, None))
+    fam_designs.append(("D3_held_out", "pool (18 matches)", C.MAIN, C.family_arrays(u19, Fpool, Fcpool), None, 31, "pool_to_2019"))
+    fam_designs.append(("D3_held_out", C.MAIN, C.HELDOUT, C.family_arrays(u23, F19, Fc19), None, 32, "2019_to_2023"))
+    fam_designs.append(("D3_held_out", "pool (18 matches)", C.HELDOUT, C.family_arrays(u23, Fpool, Fcpool), None, 33, "pool_to_2023"))
+    HELD["pool_to_2019"] = (Fpool, Fcpool, u19)
+    HELD["2019_to_2023"] = (F19, Fc19, u23)
+    HELD["pool_to_2023"] = (Fpool, Fcpool, u23)
+    print("family done", flush=True)
 
     # S8 random half-splits, D7 shuffled baseline (parallel)
     with Pool(4) as pool:
         rs = pool.map(_randsplit_job, [(C.MASTER_SEED + 1000 + k, u19) for k in range(R_RANDSPLIT)])
         sh = pool.map(_shuffle_job, [(C.MASTER_SEED + 2000 + k, u19, par19) for k in range(R_SHUFFLE)])
+        shh = pool.map(_shuffle_heldout_job, [(name, C.MASTER_SEED + 3000 + 1000 * j + k)
+                                              for j, name in enumerate(("pool_to_2019", "2019_to_2023", "pool_to_2023"))
+                                              for k in range(R_SHUFFLE)], chunksize=4)
     rs = np.array(rs)
-    sh = np.array(sh)
+    sh_full = np.array(sh)
+    sh = sh_full[:, :4]
+    nf = len(C.FAMILY)
+    shuf = {"insample": sh_full[:, 4:4 + nf], "splithalf": sh_full[:, 4 + nf:4 + 2 * nf]}
+    for name in ("pool_to_2019", "2019_to_2023", "pool_to_2023"):
+        shuf[name] = np.array([x[1:] for x in shh if x[0] == name])
+    fam_rows = []
+    rng_pair = np.random.default_rng(C.MASTER_SEED + 77)
+    for design, ident_on, meas_on, arr, strata, seed, skey in fam_designs:
+        for j, d in enumerate(C.FAMILY):
+            est, lo, hi, draws = C.boot_ratio(arr[d], arr["tokens"], B=B, seed=seed if d == "base" else 5000 + 10 * seed + j, strata=strata)
+            rec = {"design": design, "identified_on": ident_on, "measured_on": meas_on, "definition": d,
+                   "definition_label": C.FAMILY_LABEL[d], "coverage": est, "ci_lo": lo, "ci_hi": hi,
+                   "tokens_measured": int(arr["tokens"].sum()), "utterances_measured": len(arr["tokens"]),
+                   "shuffle_scheme": "", "shuffled_mean": "", "shuffled_lo": "", "shuffled_hi": "",
+                   "excess_over_shuffled": "", "excess_lo": "", "excess_hi": "", "shuffle_replicates": ""}
+            if skey is not None:
+                v = shuf[skey][:, j]
+                dd = draws[rng_pair.integers(0, len(draws), 10000)] - v[rng_pair.integers(0, len(v), 10000)]
+                rec.update({"shuffle_scheme": "I and M shuffled (D7)" if skey in ("insample", "splithalf") else "M shuffled, I kept",
+                            "shuffled_mean": float(v.mean()), "shuffled_lo": float(np.percentile(v, 2.5)),
+                            "shuffled_hi": float(np.percentile(v, 97.5)), "excess_over_shuffled": float(est - v.mean()),
+                            "excess_lo": float(np.percentile(dd, 2.5)), "excess_hi": float(np.percentile(dd, 97.5)),
+                            "shuffle_replicates": len(v)})
+            fam_rows.append(rec)
+    with open(C.RESULTS / "coverage_family.csv", "w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(fam_rows[0]))
+        w.writeheader()
+        for x in fam_rows:
+            w.writerow({k: (f"{v:.6f}" if isinstance(v, float) else v) for k, v in x.items()})
     with open(C.RESULTS / "split_random.csv", "w", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["replicate", "density_a", "density_ab"])
@@ -308,7 +422,8 @@ def main():
         "utterances_2019": len(u19), "utterances_2023": len(u23), "utterances_pool": len(upool),
         "formula_types_2019": len(F19), "system_frames_2019": len(S19), "formula_types_pool": len(Fpool), "system_frames_pool": len(Spool),
         "formula_types_2023": len(F23), "system_frames_2023": len(S23),
-        "S5_masked_token_share_2019": masked_share, "B": B, "R_shuffle": R_SHUFFLE, "R_randsplit": R_RANDSPLIT, "n_perm_C3": N_PERM,
+        "S5_masked_token_share_2019": masked_share, "S5b_masked_token_share_2019": masked_share_v2,
+        "formula_types_2019_content": len(Fc19), "formula_types_pool_content": len(Fcpool), "B": B, "R_shuffle": R_SHUFFLE, "R_randsplit": R_RANDSPLIT, "n_perm_C3": N_PERM,
     })
     print("done")
 

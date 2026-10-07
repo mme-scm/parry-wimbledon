@@ -1,0 +1,239 @@
+       match test   mix    alpha  alpha_label  mde_true  mde_measured  size_at_zero_effect  max_power_in_grid  grid_max_true_effect  n_bases
+0   2019wimF   T2  0.00  0.05000      alpha05    0.0534        0.0534               0.0224              1.000                0.1979      402
+1   2019wimF   T2  0.00  0.01250  alpha_holm1    0.0648        0.0648               0.0050              1.000                0.1979      402
+2   2019wimF   T2  0.25  0.05000      alpha05    0.0707        0.0534               0.0224              1.000                0.1979      402
+3   2019wimF   T2  0.25  0.01250  alpha_holm1    0.0857        0.0647               0.0050              1.000                0.1979      402
+4   2019wimF   T2  0.50  0.05000      alpha05    0.1076        0.0549               0.0224              1.000                0.1979      402
+5   2019wimF   T2  0.50  0.01250  alpha_holm1    0.1293        0.0660               0.0050              0.995                0.1979      402
+6   2019wimF   T3  0.00  0.05000      alpha05    0.0657        0.0657               0.0249              1.000                0.5137      402
+7   2019wimF   T3  0.00  0.01250  alpha_holm1    0.0810        0.0810               0.0050              1.000                0.5137      402
+8   2019wimF   T3  0.25  0.05000      alpha05    0.0887        0.0663               0.0249              1.000                0.5152      402
+9   2019wimF   T3  0.25  0.01250  alpha_holm1    0.1105        0.0824               0.0050              1.000                0.5152      402
+10  2019wimF   T3  0.50  0.05000      alpha05    0.1348        0.0660               0.0249              1.000                0.5159      402
+11  2019wimF   T3  0.50  0.01250  alpha_holm1    0.1683        0.0827               0.0050              1.000                0.5159      402
+12  2019wimF   T4  0.00  0.05000      alpha05    0.0832        0.0832               0.0224              1.000                0.1979      402
+13  2019wimF   T4  0.00  0.01250  alpha_holm1    0.1057        0.1057               0.0050              1.000                0.1979      402
+14  2019wimF   T4  0.25  0.05000      alpha05    0.1155        0.0827               0.0224              0.995                0.1979      402
+15  2019wimF   T4  0.25  0.01250  alpha_holm1    0.1465        0.1049               0.0050              0.985                0.1979      402
+16  2019wimF   T4  0.50  0.05000      alpha05       NaN           NaN               0.0224              0.799                0.1979      402
+17  2019wimF   T4  0.50  0.01250  alpha_holm1       NaN           NaN               0.0050              0.532                0.1979      402
+18  2023wimF   T2  0.00  0.05000      alpha05    0.0819        0.0819               0.0223              1.000                0.1976      314
+19  2023wimF   T2  0.00  0.01667  alpha_holm1    0.0969        0.0969               0.0064              1.000                0.1976      314
+20  2023wimF   T2  0.25  0.05000      alpha05    0.1071        0.0822               0.0223              1.000                0.1976      314
+21  2023wimF   T2  0.25  0.01667  alpha_holm1    0.1290        0.0990               0.0064              1.000                0.1976      314
+22  2023wimF   T2  0.50  0.05000      alpha05    0.1545        0.0825               0.0223              0.962                0.1976      314
+23  2023wimF   T2  0.50  0.01667  alpha_holm1    0.1893        0.1012               0.0064              0.838                0.1976      314
+24  2023wimF   T3  0.00  0.05000      alpha05    0.0812        0.0812               0.0223              1.000                0.5202      314
+25  2023wimF   T3  0.00  0.01667  alpha_holm1    0.0958        0.0958               0.0064              1.000                0.5202      314
+26  2023wimF   T3  0.25  0.05000      alpha05    0.1045        0.0795               0.0223              1.000                0.5210      314
+27  2023wimF   T3  0.25  0.01667  alpha_holm1    0.1259        0.0956               0.0064              1.000                0.5210      314
+28  2023wimF   T3  0.50  0.05000      alpha05    0.1513        0.0783               0.0223              1.000                0.5213      314
+29  2023wimF   T3  0.50  0.01667  alpha_holm1    0.1872        0.0967               0.0064              1.000                0.5213      314
+       match                                         check variant test  testable  estimate   ci_lo   ci_hi  p_shift  n_shifts  n_units  null_sd  share_all  tokens  n_strings  n_changeover_units  ci_excludes_0
+0   2019wimF                                 PH6 variant U       U   T2      True   -0.0273 -0.0585  0.0155  0.12903     402.0    353.0  0.01810     0.6435  9372.0        NaN                 NaN          False
+1   2019wimF                                 PH6 variant U       U   T3      True   -0.0417 -0.0892  0.0061  0.07940     402.0    353.0  0.02382     0.6435  9372.0     3429.0                 NaN          False
+2   2019wimF                                 PH6 variant U       U   T4      True    0.0135 -0.0197  0.0458  0.65012     402.0    353.0  0.02838     0.6435  9372.0        NaN                 NaN          False
+3   2019wimF                               PH6 variant R1U     R1U   T2      True   -0.0331 -0.0641  0.0105  0.04467     402.0    353.0  0.01797     0.6369  9144.0        NaN                 NaN          False
+4   2019wimF                               PH6 variant R1U     R1U   T3      True   -0.0247 -0.0696  0.0190  0.27295     402.0    353.0  0.02266     0.6369  9144.0     3313.0                 NaN          False
+5   2019wimF                               PH6 variant R1U     R1U   T4      True    0.0070 -0.0269  0.0393  0.78412     402.0    353.0  0.02859     0.6369  9144.0        NaN                 NaN          False
+6   2023wimF                                 PH6 variant U       U   T2      True   -0.0444 -0.0970  0.0099  0.10794     314.0    219.0  0.02697     0.6951  5615.0        NaN                 NaN          False
+7   2023wimF                                 PH6 variant U       U   T3      True    0.0195 -0.0268  0.0637  0.47619     314.0    219.0  0.02775     0.6951  5615.0     2251.0                 NaN          False
+8   2023wimF                                 PH6 variant U       U   T4     False       NaN     NaN     NaN      NaN       NaN      NaN      NaN        NaN     NaN        NaN                 1.0          False
+9   2023wimF                               PH6 variant R1U     R1U   T2      True   -0.0464 -0.1008  0.0088  0.11429     314.0    219.0  0.02718     0.6917  5492.0        NaN                 NaN          False
+10  2023wimF                               PH6 variant R1U     R1U   T3      True    0.0230 -0.0254  0.0706  0.41905     314.0    219.0  0.02847     0.6917  5492.0     2192.0                 NaN          False
+11  2023wimF                               PH6 variant R1U     R1U   T4     False       NaN     NaN     NaN      NaN       NaN      NaN      NaN        NaN     NaN        NaN                 1.0          False
+12  2019wimF  PH4 2019 units with A <= max A of 2023 units    base   T2      True   -0.0292 -0.0631  0.0111  0.12903     402.0    348.0  0.01909     0.6445  9162.0        NaN                 NaN          False
+13  2019wimF  PH4 2019 units with A <= max A of 2023 units    base   T3      True   -0.0283 -0.0739  0.0176  0.24318     402.0    348.0  0.02352     0.6445  9162.0     3350.0                 NaN          False
+{
+ "2019wimF": {
+  "PH3_T1_within_category": {
+   "T1_all_units": {
+    "rho": 0.2485,
+    "ci": [
+     0.1359,
+     0.3591
+    ],
+    "n": 353
+   },
+   "T1_within_game_units": {
+    "testable": true,
+    "estimate": 0.1658,
+    "ci_lo": 0.0464,
+    "ci_hi": 0.2795,
+    "p_shift": 0.00993,
+    "n_shifts": 402,
+    "n_units": 290,
+    "null_sd": 0.05912
+   },
+   "T1_units_with_text": {
+    "testable": true,
+    "estimate": 0.2478,
+    "ci_lo": 0.1222,
+    "ci_hi": 0.365,
+    "p_shift": 0.00496,
+    "n_shifts": 402,
+    "n_units": 290,
+    "null_sd": 0.05986
+   },
+   "median_tokens_by_category": {
+    "changeover": 109.0,
+    "other_game_end": 37.5,
+    "within_game": 14.0
+   },
+   "n_by_category": {
+    "within_game": 290,
+    "other_game_end": 36,
+    "changeover": 27
+   },
+   "median_A_by_category": {
+    "changeover": 100.0,
+    "other_game_end": 44.5,
+    "within_game": 31.0
+   },
+   "median_A_zero_token_units": 29.0,
+   "median_A_units_with_text": 35.0,
+   "n_zero_token_units": 63
+  },
+  "PH4_A_range": {
+   "min": 14.0,
+   "q10": 20.0,
+   "median": 34.0,
+   "q90": 66.0,
+   "max": 305.0,
+   "n_units": 353,
+   "n_units_A_over_100s": 13,
+   "n_changeover_units": 27
+  },
+  "PH5_serial_correlation": {
+   "lag1_spearman_unit_order": {
+    "tokens": -0.047,
+    "formula_share_units_with_text": 0.06,
+    "A": -0.02,
+    "A_full_cycle_sequence": 0.004
+   },
+   "n_permutations": 2000,
+   "tests": {
+    "T1": {
+     "sd_shift_null": 0.05495,
+     "sd_perm_null": 0.05413,
+     "ratio_shift_over_perm": 1.015,
+     "p_shift": 0.00496,
+     "p_perm": 0.001
+    },
+    "T2": {
+     "sd_shift_null": 0.0185,
+     "sd_perm_null": 0.01899,
+     "ratio_shift_over_perm": 0.974,
+     "p_shift": 0.10918,
+     "p_perm": 0.13493
+    },
+    "T3": {
+     "sd_shift_null": 0.02377,
+     "sd_perm_null": 0.02271,
+     "ratio_shift_over_perm": 1.047,
+     "p_shift": 0.10422,
+     "p_perm": 0.07496
+    },
+    "T4": {
+     "sd_shift_null": 0.02903,
+     "sd_perm_null": 0.02862,
+     "ratio_shift_over_perm": 1.014,
+     "p_shift": 0.74938,
+     "p_perm": 0.68866
+    }
+   }
+  }
+ },
+ "2023wimF": {
+  "PH3_T1_within_category": {
+   "T1_all_units": {
+    "rho": 0.163,
+    "ci": [
+     0.0303,
+     0.2854
+    ],
+    "n": 219
+   },
+   "T1_within_game_units": {
+    "testable": true,
+    "estimate": 0.1248,
+    "ci_lo": -0.0075,
+    "ci_hi": 0.2521,
+    "p_shift": 0.10159,
+    "n_shifts": 314,
+    "n_units": 197,
+    "null_sd": 0.07292
+   },
+   "T1_units_with_text": {
+    "testable": true,
+    "estimate": 0.283,
+    "ci_lo": 0.1375,
+    "ci_hi": 0.4238,
+    "p_shift": 0.00635,
+    "n_shifts": 314,
+    "n_units": 180,
+    "null_sd": 0.07532
+   },
+   "median_tokens_by_category": {
+    "changeover": 12.0,
+    "other_game_end": 25.0,
+    "within_game": 17.0
+   },
+   "n_by_category": {
+    "within_game": 197,
+    "other_game_end": 21,
+    "changeover": 1
+   },
+   "median_A_by_category": {
+    "changeover": 117.0,
+    "other_game_end": 48.0,
+    "within_game": 41.0
+   },
+   "median_A_zero_token_units": 42.0,
+   "median_A_units_with_text": 41.0,
+   "n_zero_token_units": 39
+  },
+  "PH4_A_range": {
+   "min": 15.0,
+   "q10": 27.0,
+   "median": 42.0,
+   "q90": 66.0,
+   "max": 117.0,
+   "n_units": 219,
+   "n_units_A_over_100s": 2,
+   "n_changeover_units": 1
+  },
+  "PH5_serial_correlation": {
+   "lag1_spearman_unit_order": {
+    "tokens": 0.011,
+    "formula_share_units_with_text": -0.033,
+    "A": 0.161,
+    "A_full_cycle_sequence": 0.045
+   },
+   "n_permutations": 2000,
+   "tests": {
+    "T1": {
+     "sd_shift_null": 0.06769,
+     "sd_perm_null": 0.06807,
+     "ratio_shift_over_perm": 0.994,
+     "p_shift": 0.03175,
+     "p_perm": 0.01199
+    },
+    "T2": {
+     "sd_shift_null": 0.02689,
+     "sd_perm_null": 0.02563,
+     "ratio_shift_over_perm": 1.049,
+     "p_shift": 0.12063,
+     "p_perm": 0.08196
+    },
+    "T3": {
+     "sd_shift_null": 0.02762,
+     "sd_perm_null": 0.02621,
+     "ratio_shift_over_perm": 1.054,
+     "p_shift": 0.43175,
+     "p_perm": 0.3988
+    }
+   }
+  }
+ }
+}

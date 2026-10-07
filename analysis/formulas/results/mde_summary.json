@@ -1,0 +1,99 @@
+{
+ "C3a": {
+  "stream": "tv_2019wimF",
+  "context": "ctx_dtb_terc",
+  "type_I_error_at_zero_effect": 0.0375,
+  "mde_param_alpha05": 0.06565217391304348,
+  "mde_achieved_alpha05": 0.06391873453973852,
+  "mde_param_bonferroni": 0.07926470588235295,
+  "mde_achieved_bonferroni": 0.07946519032135312,
+  "alpha_bonferroni": 0.008333333333333333,
+  "effect_scale": "difference in coverage share, shortest minus longest tercile (pp/100)"
+ },
+ "C3b": {
+  "stream": "tv_2019wimF",
+  "context": "ctx_ta_terc",
+  "type_I_error_at_zero_effect": 0.055,
+  "mde_param_alpha05": 0.07,
+  "mde_achieved_alpha05": 0.07038925773941467,
+  "mde_param_bonferroni": 0.08404255319148937,
+  "mde_achieved_bonferroni": 0.08512934193817508,
+  "alpha_bonferroni": 0.008333333333333333,
+  "effect_scale": "difference in coverage share, shortest minus longest tercile (pp/100)"
+ },
+ "R3a": {
+  "stream": "tv_2023wimF",
+  "context": "ctx_dtb_terc",
+  "type_I_error_at_zero_effect": 0.0325,
+  "mde_param_alpha05": 0.06411764705882353,
+  "mde_achieved_alpha05": 0.06516721186322061,
+  "mde_param_bonferroni": 0.07666666666666667,
+  "mde_achieved_bonferroni": 0.07906998488001567,
+  "alpha_bonferroni": 0.01,
+  "effect_scale": "difference in coverage share, shortest minus longest tercile (pp/100)"
+ },
+ "R3b": {
+  "stream": "tv_2023wimF",
+  "context": "ctx_ta_terc",
+  "type_I_error_at_zero_effect": 0.0525,
+  "mde_param_alpha05": 0.06971428571428573,
+  "mde_achieved_alpha05": 0.07187555720872969,
+  "mde_param_bonferroni": 0.08619047619047619,
+  "mde_achieved_bonferroni": 0.08529715451800733,
+  "alpha_bonferroni": 0.01,
+  "effect_scale": "difference in coverage share, shortest minus longest tercile (pp/100)"
+ },
+ "C4": {
+  "stream": "tv_2019wimF",
+  "context": "dtb_terc",
+  "type_I_error_at_zero_effect": 0.035,
+  "mde_param_alpha05": 0.3,
+  "mde_achieved_alpha05": 0.44956411673219576,
+  "mde_param_bonferroni": 0.3777777777777778,
+  "mde_achieved_bonferroni": 0.5055593160751412,
+  "alpha_bonferroni": 0.008333333333333333,
+  "effect_scale": "theta = share of references whose form is fixed by the tercile; achieved = mean Cramer's V",
+  "observed_cramers_v_within_strata": 0.30901645516931275
+ },
+ "R4": {
+  "stream": "tv_2023wimF",
+  "context": "dtb_terc",
+  "type_I_error_at_zero_effect": 0.0325,
+  "mde_param_alpha05": 0.41830985915492963,
+  "mde_achieved_alpha05": 0.5238865301400891,
+  "mde_param_bonferroni": 0.48384615384615387,
+  "mde_achieved_bonferroni": 0.5734500680501948,
+  "alpha_bonferroni": 0.01,
+  "effect_scale": "theta = share of references whose form is fixed by the tercile; achieved = mean Cramer's V",
+  "observed_cramers_v_within_strata": 0.3160908640961567
+ },
+ "C5": {
+  "stream": "tv_2019wimF",
+  "context": "dead_time_before_s",
+  "type_I_error_at_zero_effect": 0.0425,
+  "mde_param_alpha05": 0.20423728813559325,
+  "mde_achieved_alpha05": 0.16714995362925686,
+  "mde_param_bonferroni": 0.25086206896551727,
+  "mde_achieved_bonferroni": 0.20597311675694502,
+  "alpha_bonferroni": 0.008333333333333333,
+  "effect_scale": "latent r; achieved = mean Spearman rho"
+ },
+ "R5": {
+  "stream": "tv_2023wimF",
+  "context": "dead_time_before_s",
+  "type_I_error_at_zero_effect": 0.0525,
+  "mde_param_alpha05": 0.29791666666666666,
+  "mde_achieved_alpha05": 0.21998988517718127,
+  "mde_param_bonferroni": 0.37142857142857144,
+  "mde_achieved_bonferroni": 0.27239971426219134,
+  "alpha_bonferroni": 0.01,
+  "effect_scale": "latent r; achieved = mean Spearman rho"
+ },
+ "runtime_seconds": 67.27398085594177,
+ "nsim": 400,
+ "nperm": {
+  "C3": 999,
+  "C4": 499,
+  "C5": 999
+ }
+}

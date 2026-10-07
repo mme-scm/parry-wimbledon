@@ -12,5 +12,44 @@
   "tv_2023wimF": 247
  },
  "spacy_model": "en_core_web_sm 3.8.0",
- "spacy_version": "3.8.16"
+ "spacy_version": "3.8.16",
+ "umpire_pattern_tokens": {
+  "tv_2019wimF:advantage_name": 2,
+  "tv_2019wimF:challenging": 1,
+  "tv_2019wimF:game_name": 9,
+  "tv_2019wimF:leads_games": 8,
+  "tv_2019wimF:mr_surname": 11,
+  "tv_2023wimF:advantage_name": 7,
+  "tv_2023wimF:challenges_remaining": 7,
+  "tv_2023wimF:challenging": 9,
+  "tv_2023wimF:leads_games": 8
+ },
+ "umpire_before_patterns": [
+  [
+   "game_name",
+   "(?:^| )game$"
+  ],
+  [
+   "game_set_name",
+   "(?:^| )game (?:and )?(?:\\w+ )?set(?: and match)?$"
+  ],
+  [
+   "advantage_name",
+   "(?:^| )advantage$"
+  ]
+ ],
+ "umpire_after_patterns": [
+  [
+   "leads_games",
+   "^(?:leads?|leading) (?:by )?(?:by )?\\w+ (?:games?|gains?) to\\b"
+  ],
+  [
+   "challenging",
+   "^(?:is )?(?:challenging|charging|having a call)\\b"
+  ],
+  [
+   "challenges_remaining",
+   "^has (?:\\w+) challenges? (?:remaining|left)\\b"
+  ]
+ ]
 }

@@ -1,5 +1,9 @@
-stream,player,tokens,distinct_expressions,distinct_categories,syllable_min,syllable_max,distinct_syllable_lengths,occupied_cells_slot_x_dtb_x_sylclass,share_surname,share_epithet
-tv_2019wimF,djokovic,188,12,6,1,7,6,52,0.675532,0.047872
-tv_2019wimF,federer,164,8,5,2,5,4,39,0.774390,0.036585
-tv_2023wimF,alcaraz,80,6,4,2,5,4,30,0.762500,0.050000
-tv_2023wimF,djokovic,121,5,4,2,5,4,39,0.710744,0.041322
+token_set,stream,player,tokens,distinct_expressions,distinct_categories,syllable_min,syllable_max,distinct_syllable_lengths,occupied_cells_slot_x_dtb_x_sylclass,share_surname,share_epithet,umpire_pattern_tokens_excluded
+commentary_only,tv_2019wimF,djokovic,172,11,5,1,7,6,50,0.674419,0.052326,16
+commentary_only,tv_2019wimF,federer,149,7,4,2,5,4,38,0.791946,0.040268,15
+all_tokens,tv_2019wimF,djokovic,188,12,6,1,7,6,52,0.675532,0.047872,0
+all_tokens,tv_2019wimF,federer,164,8,5,2,5,4,39,0.774390,0.036585,0
+commentary_only,tv_2023wimF,alcaraz,61,5,3,2,5,4,21,0.852459,0.065574,19
+commentary_only,tv_2023wimF,djokovic,109,5,4,2,5,4,35,0.733945,0.045872,12
+all_tokens,tv_2023wimF,alcaraz,80,6,4,2,5,4,30,0.762500,0.050000,0
+all_tokens,tv_2023wimF,djokovic,121,5,4,2,5,4,39,0.710744,0.041322,0

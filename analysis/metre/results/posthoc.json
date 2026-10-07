@@ -1,0 +1,292 @@
+{
+ "_label": "POST HOC (plan.md Addendum 1): not pre-registered, outside every Holm family, for interpretation only.",
+ "2019wimF": {
+  "reimplementation_check": "T2/T4 base estimates, CIs and p equal confirmatory_<tag>.csv",
+  "mde_setup": {
+   "n_base_shifts": 402,
+   "null_shifts_per_base_min": 383,
+   "alphas": {
+    "alpha05": 0.05,
+    "alpha_holm1": 0.0125
+   },
+   "power_target": 0.8,
+   "mix_scenarios": [
+    0.0,
+    0.25,
+    0.5
+   ],
+   "d_grid_max": 0.2,
+   "w_grid_max": 0.6,
+   "n_strings_T3": 3460
+  },
+  "PH3_T1_within_category": {
+   "T1_all_units": {
+    "rho": 0.2485,
+    "ci": [
+     0.1359,
+     0.3591
+    ],
+    "n": 353
+   },
+   "T1_within_game_units": {
+    "testable": true,
+    "estimate": 0.1658,
+    "ci_lo": 0.0464,
+    "ci_hi": 0.2795,
+    "p_shift": 0.00993,
+    "n_shifts": 402,
+    "n_units": 290,
+    "null_sd": 0.05912
+   },
+   "T1_units_with_text": {
+    "testable": true,
+    "estimate": 0.2478,
+    "ci_lo": 0.1222,
+    "ci_hi": 0.365,
+    "p_shift": 0.00496,
+    "n_shifts": 402,
+    "n_units": 290,
+    "null_sd": 0.05986
+   },
+   "median_tokens_by_category": {
+    "changeover": 109.0,
+    "other_game_end": 37.5,
+    "within_game": 14.0
+   },
+   "n_by_category": {
+    "within_game": 290,
+    "other_game_end": 36,
+    "changeover": 27
+   },
+   "median_A_by_category": {
+    "changeover": 100.0,
+    "other_game_end": 44.5,
+    "within_game": 31.0
+   },
+   "median_A_zero_token_units": 29.0,
+   "median_A_units_with_text": 35.0,
+   "n_zero_token_units": 63
+  },
+  "PH4_A_range": {
+   "min": 14.0,
+   "q10": 20.0,
+   "median": 34.0,
+   "q90": 66.0,
+   "max": 305.0,
+   "n_units": 353,
+   "n_units_A_over_100s": 13,
+   "n_changeover_units": 27
+  },
+  "PH5_serial_correlation": {
+   "lag1_spearman_unit_order": {
+    "tokens": -0.047,
+    "formula_share_units_with_text": 0.06,
+    "A": -0.02,
+    "A_full_cycle_sequence": 0.004
+   },
+   "n_permutations": 2000,
+   "tests": {
+    "T1": {
+     "sd_shift_null": 0.05495,
+     "sd_perm_null": 0.05413,
+     "ratio_shift_over_perm": 1.015,
+     "p_shift": 0.00496,
+     "p_perm": 0.001
+    },
+    "T2": {
+     "sd_shift_null": 0.0185,
+     "sd_perm_null": 0.01899,
+     "ratio_shift_over_perm": 0.974,
+     "p_shift": 0.10918,
+     "p_perm": 0.13493
+    },
+    "T3": {
+     "sd_shift_null": 0.02377,
+     "sd_perm_null": 0.02271,
+     "ratio_shift_over_perm": 1.047,
+     "p_shift": 0.10422,
+     "p_perm": 0.07496
+    },
+    "T4": {
+     "sd_shift_null": 0.02903,
+     "sd_perm_null": 0.02862,
+     "ratio_shift_over_perm": 1.014,
+     "p_shift": 0.74938,
+     "p_perm": 0.68866
+    }
+   }
+  }
+ },
+ "2023wimF": {
+  "reimplementation_check": "T2/T4 base estimates, CIs and p equal confirmatory_<tag>.csv",
+  "mde_setup": {
+   "n_base_shifts": 314,
+   "null_shifts_per_base_min": 295,
+   "alphas": {
+    "alpha05": 0.05,
+    "alpha_holm1": 0.01667
+   },
+   "power_target": 0.8,
+   "mix_scenarios": [
+    0.0,
+    0.25,
+    0.5
+   ],
+   "d_grid_max": 0.2,
+   "w_grid_max": 0.6,
+   "n_strings_T3": 2255
+  },
+  "PH3_T1_within_category": {
+   "T1_all_units": {
+    "rho": 0.163,
+    "ci": [
+     0.0303,
+     0.2854
+    ],
+    "n": 219
+   },
+   "T1_within_game_units": {
+    "testable": true,
+    "estimate": 0.1248,
+    "ci_lo": -0.0075,
+    "ci_hi": 0.2521,
+    "p_shift": 0.10159,
+    "n_shifts": 314,
+    "n_units": 197,
+    "null_sd": 0.07292
+   },
+   "T1_units_with_text": {
+    "testable": true,
+    "estimate": 0.283,
+    "ci_lo": 0.1375,
+    "ci_hi": 0.4238,
+    "p_shift": 0.00635,
+    "n_shifts": 314,
+    "n_units": 180,
+    "null_sd": 0.07532
+   },
+   "median_tokens_by_category": {
+    "changeover": 12.0,
+    "other_game_end": 25.0,
+    "within_game": 17.0
+   },
+   "n_by_category": {
+    "within_game": 197,
+    "other_game_end": 21,
+    "changeover": 1
+   },
+   "median_A_by_category": {
+    "changeover": 117.0,
+    "other_game_end": 48.0,
+    "within_game": 41.0
+   },
+   "median_A_zero_token_units": 42.0,
+   "median_A_units_with_text": 41.0,
+   "n_zero_token_units": 39
+  },
+  "PH4_A_range": {
+   "min": 15.0,
+   "q10": 27.0,
+   "median": 42.0,
+   "q90": 66.0,
+   "max": 117.0,
+   "n_units": 219,
+   "n_units_A_over_100s": 2,
+   "n_changeover_units": 1
+  },
+  "PH5_serial_correlation": {
+   "lag1_spearman_unit_order": {
+    "tokens": 0.011,
+    "formula_share_units_with_text": -0.033,
+    "A": 0.161,
+    "A_full_cycle_sequence": 0.045
+   },
+   "n_permutations": 2000,
+   "tests": {
+    "T1": {
+     "sd_shift_null": 0.06769,
+     "sd_perm_null": 0.06807,
+     "ratio_shift_over_perm": 0.994,
+     "p_shift": 0.03175,
+     "p_perm": 0.01199
+    },
+    "T2": {
+     "sd_shift_null": 0.02689,
+     "sd_perm_null": 0.02563,
+     "ratio_shift_over_perm": 1.049,
+     "p_shift": 0.12063,
+     "p_perm": 0.08196
+    },
+    "T3": {
+     "sd_shift_null": 0.02762,
+     "sd_perm_null": 0.02621,
+     "ratio_shift_over_perm": 1.054,
+     "p_shift": 0.43175,
+     "p_perm": 0.3988
+    }
+   }
+  }
+ },
+ "PH4_2019_restricted": {
+  "A_max_2023": 117.0,
+  "n_units_2019_restricted": 348,
+  "n_units_2019_dropped": 5
+ },
+ "PH6_umpire_check": {
+  "_label": "POST HOC (plan addendum 1, PH6)",
+  "n_formulas_base": 9609,
+  "n_player_names_in_lexicon": 44,
+  "thank you": {
+   "n_formula_types": 17,
+   "pool_count_of_types": 188,
+   "top": [
+    [
+     "thank you",
+     114
+    ],
+    [
+     "thank you thank",
+     8
+    ],
+    [
+     "thank you thank you",
+     8
+    ],
+    [
+     "you thank you",
+     8
+    ],
+    [
+     "thank you very",
+     6
+    ],
+    [
+     "thank you very much",
+     6
+    ],
+    [
+     "thank you ladies",
+     4
+    ],
+    [
+     "thank you ladies and",
+     4
+    ]
+   ]
+  },
+  "mr <token>": {
+   "n_formula_types": 0,
+   "pool_count_of_types": 0,
+   "top": []
+  },
+  "game <player name>": {
+   "n_formula_types": 0,
+   "pool_count_of_types": 0,
+   "top": []
+  },
+  "target_tokens_masked_U_2019wimF": 99,
+  "target_tokens_2019wimF": 9471,
+  "target_tokens_masked_U_2023wimF": 8,
+  "target_tokens_2023wimF": 5623
+ }
+}

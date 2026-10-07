@@ -1,0 +1,15 @@
+match,check,variant,test,testable,estimate,ci_lo,ci_hi,p_shift,n_shifts,n_units,null_sd,share_all,tokens,n_strings,n_changeover_units,ci_excludes_0
+2019wimF,PH6 variant U,U,T2,True,-0.0273,-0.0585,0.0155,0.12903,402.0,353.0,0.0181,0.6435,9372.0,,,False
+2019wimF,PH6 variant U,U,T3,True,-0.0417,-0.0892,0.0061,0.0794,402.0,353.0,0.02382,0.6435,9372.0,3429.0,,False
+2019wimF,PH6 variant U,U,T4,True,0.0135,-0.0197,0.0458,0.65012,402.0,353.0,0.02838,0.6435,9372.0,,,False
+2019wimF,PH6 variant R1U,R1U,T2,True,-0.0331,-0.0641,0.0105,0.04467,402.0,353.0,0.01797,0.6369,9144.0,,,False
+2019wimF,PH6 variant R1U,R1U,T3,True,-0.0247,-0.0696,0.019,0.27295,402.0,353.0,0.02266,0.6369,9144.0,3313.0,,False
+2019wimF,PH6 variant R1U,R1U,T4,True,0.007,-0.0269,0.0393,0.78412,402.0,353.0,0.02859,0.6369,9144.0,,,False
+2023wimF,PH6 variant U,U,T2,True,-0.0444,-0.097,0.0099,0.10794,314.0,219.0,0.02697,0.6951,5615.0,,,False
+2023wimF,PH6 variant U,U,T3,True,0.0195,-0.0268,0.0637,0.47619,314.0,219.0,0.02775,0.6951,5615.0,2251.0,,False
+2023wimF,PH6 variant U,U,T4,False,,,,,,,,,,,1.0,False
+2023wimF,PH6 variant R1U,R1U,T2,True,-0.0464,-0.1008,0.0088,0.11429,314.0,219.0,0.02718,0.6917,5492.0,,,False
+2023wimF,PH6 variant R1U,R1U,T3,True,0.023,-0.0254,0.0706,0.41905,314.0,219.0,0.02847,0.6917,5492.0,2192.0,,False
+2023wimF,PH6 variant R1U,R1U,T4,False,,,,,,,,,,,1.0,False
+2019wimF,PH4 2019 units with A <= max A of 2023 units,base,T2,True,-0.0292,-0.0631,0.0111,0.12903,402.0,348.0,0.01909,0.6445,9162.0,,,False
+2019wimF,PH4 2019 units with A <= max A of 2023 units,base,T3,True,-0.0283,-0.0739,0.0176,0.24318,402.0,348.0,0.02352,0.6445,9162.0,3350.0,,False

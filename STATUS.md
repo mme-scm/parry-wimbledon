@@ -6,6 +6,8 @@ Orchestrator log. Phase table at the bottom is printed at the end of every turn.
 - 2026-10-07: Project started. Python venv in .venv; requirements.txt committed.
 - 2026-10-07: homer-tools (Phase 1 tool build) started during Phase 0 because it has no dependency on the corpus choice; corpus-builder waits for Phase 0.
 - 2026-10-07: Phase 2 analysts (formula-analyst, metre-analyst) started as soon as the corpus half of Phase 1 was verified; they do not use homer/. The Homer-tools verification of Phase 1 continues in parallel.
+- 2026-10-07: Phase 3 brief drafted (by a research agent from concordance-verified material, then reviewed by the orchestrator) while critic v1 of Phase 2 ran; composer v1 started on the accepted brief while the Phase 2 revision round and critic v2 close. Overlap, not skipping: the brief depends only on the formula top-10 (final) and the Homer tools; the poem depends only on the brief.
+- 2026-10-07: press-conference transcripts (same Cornell release as the live text) are used only as a spoken non-commentary baseline in analysis/formulas; SOURCES.md marks them DON'T USE as commentary, which they are not used as.
 
 ## Phase 0: corpus choice (DONE 2026-10-07)
 Orchestrator verified every USE source by opening the downloaded files (scratch script verify_phase0.py; results below).
@@ -49,7 +51,7 @@ Licence notes: TennisVL terms "strictly for academic research in sports video un
 | 1 | Tools and corpus | DONE | corpus and Homer tools both verified by orchestrator |
 | 2 | Analyses | IN PROGRESS | formula-analyst, metre-analyst running |
 | 3 | Brief | NOT STARTED | |
-| 4 | Composition | NOT STARTED | |
+| 4 | Composition | IN PROGRESS | composer v1 running |
 | 5 | Translation | NOT STARTED | |
 | 6 | Paper | NOT STARTED | |
 | 7 | Weaving and stitching | NOT STARTED | |

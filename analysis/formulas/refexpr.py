@@ -132,6 +132,35 @@ def slot_of(doc, t0, t1):
     return "other", root.dep_
 
 
+# ---------------------------------------------------------------- revision 1: umpire-pattern references (plan.md addendum 2, B6)
+# Applied to the lower-case word sequence (possessive stripped) around an expression words[k0:k1].
+UMPIRE_BEFORE = [
+    ("game_name", r"(?:^| )game$"),                                   # "Game, Djokovic"
+    ("game_set_name", r"(?:^| )game (?:and )?(?:\w+ )?set(?: and match)?$"),  # "Game and first set, Federer"; "Game, set and match"
+    ("advantage_name", r"(?:^| )advantage$"),                         # "Advantage Federer"
+]
+UMPIRE_AFTER = [
+    ("leads_games", r"^(?:leads?|leading) (?:by )?(?:by )?\w+ (?:games?|gains?) to\b"),      # "Federer leads by four games to three"
+    ("challenging", r"^(?:is )?(?:challenging|charging|having a call)\b"),                   # "Mr Djokovic is challenging (the call)"
+    ("challenges_remaining", r"^has (?:\w+) challenges? (?:remaining|left)\b"),             # "Djokovic has two challenges remaining"
+]
+
+
+def umpire_rule(words, k0, k1, category):
+    """Name of the umpire/Hawk-Eye pattern containing the expression words[k0:k1], or '' (commentary)."""
+    if category == "title_surname":
+        return "mr_surname"
+    before = " ".join(words[max(0, k0 - 4):k0])
+    after = " ".join(words[k1:k1 + 6])
+    for name, pat in UMPIRE_BEFORE:
+        if re.search(pat, before):
+            return name
+    for name, pat in UMPIRE_AFTER:
+        if re.search(pat, after):
+            return name
+    return ""
+
+
 # ---------------------------------------------------------------- syllables
 _ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 _TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()

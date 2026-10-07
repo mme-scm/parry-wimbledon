@@ -4,6 +4,10 @@ noise into the TV corpora) and recompute split-half and held-out (a) density.
 
 Noise model: each token is replaced, independently with probability e, by a token drawn from the unigram distribution of
 the 18-match TV pool (substitutions only; no insertions or deletions). Noise is applied to both I and M.
+Revision 1 (plan.md addendum 2, A1): R = 50 for the held-out rows too, and the crossing points e* at which the press and
+Cornell values reach the TV value (linear interpolation of the means; first grid level at which the 95% ranges overlap),
+written to asr_noise_summary.json["crossings"]. For TV held-out rows I and M are fixed, so only the noise draws vary.
+
 Outputs: results/asr_noise_sensitivity.csv
 Run: python -I analysis/formulas/f04b_asr_noise.py
 """
@@ -18,7 +22,7 @@ import numpy as np
 import common as C
 
 R_SPLIT = 50
-R_HELD = 10
+R_HELD = 50  # revision 1: raised from 10 (critic C8)
 CORP = {}
 UNI = {}
 
@@ -124,8 +128,33 @@ def main():
         v = np.array([r[4] for r in res if r[0] == design and r[1] == corpus and r[2] == e])
         summ[f"{design}|{corpus}|{e}"] = {"mean": float(v.mean()), "p2_5": float(np.percentile(v, 2.5)),
                                           "p97_5": float(np.percentile(v, 97.5)), "replicates": len(v)}
+    # crossing points (revision 1): TV references = split-half TV pool at e = 0 (this script) and pool -> 2019 held-out (f03)
+    import csv as _csv
+    with open(C.RESULTS / "density_main.csv") as fh:
+        d3 = next(r for r in _csv.DictReader(fh) if r["design"] == "D3_held_out" and r["identified_on"] == "pool (18 matches)"
+                  and r["measured_on"] == C.MAIN and r["measure"] == "a" and r["variant"] == "primary")
+    tv_ref = {"splithalf_matched": (summ[f"splithalf_matched|tv_pool_all|0.0"]["mean"], summ[f"splithalf_matched|tv_pool_all|0.0"]["p97_5"]),
+              "heldout": (float(d3["density"]), float(d3["ci_hi"]))}
+    crossings = {}
+    for design, lv_ in (("splithalf_matched", levels), ("heldout", levels[1:])):
+        ref_mean, ref_hi = tv_ref[design]
+        for corpus in (C.TEXT, "press_answers"):
+            cells = [(e, summ[f"{design}|{corpus}|{e}"]) for e in lv_]
+            e_mean = None
+            for (e0, c0), (e1, c1) in zip(cells, cells[1:]):
+                if c0["mean"] > ref_mean >= c1["mean"]:
+                    e_mean = e0 + (c0["mean"] - ref_mean) / (c0["mean"] - c1["mean"]) * (e1 - e0)
+                    break
+            if e_mean is None and cells[0][1]["mean"] <= ref_mean:
+                e_mean = cells[0][0]
+            e_overlap = next((e for e, c in cells if c["p2_5"] <= ref_hi), None)
+            crossings[f"{design}|{corpus}"] = {"tv_reference_mean": ref_mean, "tv_reference_upper": ref_hi,
+                                               "e_star_mean_crossing": e_mean, "e_first_grid_range_overlap": e_overlap,
+                                               "max_level_tried": lv_[-1]}
     C.write_json(C.RESULTS / "asr_noise_summary.json", {"levels": levels, "hand_read_lower_bound_rate": e_lb,
-                                                         "R_split": R_SPLIT, "R_held": R_HELD, "cells": summ})
+                                                         "R_split": R_SPLIT, "R_held": R_HELD, "cells": summ,
+                                                         "crossings": crossings})
+    print(crossings)
     for k, v in summ.items():
         print(k, round(v["mean"], 4))
 

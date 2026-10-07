@@ -39,6 +39,14 @@ D2_split_half,2019 halves,2019 other half (pooled),S6_nmin3,a,0.044531,0.037350,
 D2_split_half,2019 halves,2019 other half (pooled),S6_nmin3,a+b,0.111020,0.098404,0.124404,9791,318
 D2_split_half,2019 halves,2019 other half (pooled),S7_blocks_of_20_clips,a,0.197630,0.183210,0.212041,9791,318
 D2_split_half,2019 halves,2019 other half (pooled),S7_blocks_of_20_clips,a+b,0.224185,0.208798,0.240877,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S5b_umpire_and_score_calls_masked,a,0.415026,0.397416,0.433013,9344,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S5b_umpire_and_score_calls_masked,a+b,0.452911,0.433899,0.471690,9344,318
+D2_split_half,2019 halves,2019 other half (pooled),S5b_umpire_and_score_calls_masked,a,0.177547,0.164191,0.191850,9344,318
+D2_split_half,2019 halves,2019 other half (pooled),S5b_umpire_and_score_calls_masked,a+b,0.197881,0.183930,0.213078,9344,318
+D3_held_out,pool (18 matches),tv_2019wimF,S5b_umpire_and_score_calls_masked,a,0.532534,0.513626,0.551807,9344,318
+D3_held_out,pool (18 matches),tv_2019wimF,S5b_umpire_and_score_calls_masked,a+b,0.617509,0.597341,0.637385,9344,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S5b_umpire_and_score_calls_masked,a,0.239907,0.224423,0.256592,6886,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S5b_umpire_and_score_calls_masked,a+b,0.271856,0.255005,0.289919,6886,245
 D1_in_sample,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a,0.161705,0.151552,0.172613,9791,318
 D1_in_sample,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a+b,0.222352,0.209984,0.234001,9791,318
 D2_split_half,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a,0.027996,0.021545,0.034537,9791,318

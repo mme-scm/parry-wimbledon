@@ -191,3 +191,65 @@ ASR noise in the TV text, which breaks exact repetitions. `f04b_asr_noise.py` in
 corpus's hand-read lower bound, 0.05, 0.10, 0.15}; replacement tokens drawn from the TV-pool unigram distribution) into press answers,
 Cornell text and, as extra noise, the TV corpora, and recomputes split-half density at matched size (R = 50) and held-out density
 (R = 10). This is exploratory and post hoc; it changes no confirmatory result.
+
+## Addendum 2 (2026-10-07): revision after the adversarial review `review/critic_analysis_v1.md`
+
+Written after every v1 result had been seen. Nothing above this heading has been edited. Items marked **DEVIATION** change
+how a pre-registered result is computed or reported; items marked **post hoc** are new exploratory analyses. Every
+pre-registered quantity is still computed exactly as specified above (same seeds) and remains in `results/`; where the
+reported version differs, both are shown in the report. Sizes and values of every deviation are script-generated in
+`results/deviations.json` and the report, not entered here.
+
+1. **A1, DEVIATION (reporting of C1/R1).** Section 7's decision rule (Holm over the pre-registered p) is no longer used for
+   C1/R1. Both are reported as "indeterminate pending a WER estimate": the TV text is raw ASR with an unknown word error rate,
+   the press answers are edited stenographic transcripts, and the TV held-out identification set is other matches with other
+   commentators while the press one is other interviewees of the same genre and transcription house. The v1 sentence that the
+   one-match measurement set "favours TV" is withdrawn (no check supports it). `f04b_asr_noise.py` (post hoc, addendum 1) now
+   uses R = 50 for the held-out rows as well (was 10) and writes the crossing points e* at which press and Cornell values reach
+   the TV value. **Post hoc** D5(ii-b) (below) adds a press design in which the measurement set is concentrated in as few
+   interviewees as possible, the closest analogue of TV's one-match measurement set.
+2. **B1, DEVIATION (inferential statistic of C1/R1/C2).** The pre-registered "p" (2 x the share of replicate pairs on the
+   minority side) is not a calibrated null test; when all pairs share a sign it equals its floor 2/(R+1), and a Holm value
+   computed from it is an artefact of R. The inferential statistic for C1/R1/C2 is now the 95% interval of the replicate
+   differences; p, its floor and a flag `p_at_floor` stay in `confirmatory.csv`, and C2's verdict is read from the interval.
+   D5(i) replicates are raised from R = 200 to R = 1000 for the (a) family (section 4 fixed R = 200; section 11 allowed only
+   reductions, so this increase is logged here). The first 200 replicates use the original seeds and reproduce v1 exactly;
+   systems ((a)+(b)) are still identified only on those 200. Runtimes are written to `results/density_medium_meta.json`.
+3. **B2, DEVIATION (D5(ii) identification size, unlogged in v1).** For Cornell the rule "I = a 100,000-token subsample from
+   groups disjoint from M" cannot be met: excluding every player pair touched by a random 9,791-token M leaves too few tokens.
+   The realised Cornell I sizes (min/median/max) are now written to `density_medium_meta.json` and `deviations.json`, and every
+   statement of I's size is read from them. **Post hoc** D5(ii-b): M = whole groups in random order (each group's utterances
+   in random order) until >= 9,791 tokens, I = random utterances of all other groups until >= the pool size; (a) family only,
+   R = 50, seeds MASTER_SEED + 750000 + 1000k + r. The report states whether direction and magnitude change.
+4. **B3, post hoc (definitions).** The pre-registered measure is renamed **repeated-n-gram coverage** in the report: it is a
+   lexical-repetition rate, not Parry's formula (a metrically conditioned expression of an essential idea) nor Duggan's
+   hemistich-based "formulaic density". Result-file column names (`density`) are unchanged for compatibility. Added a stricter
+   family (`common.FAMILY`): coverage by formulas with n >= 3; n >= 4; n >= 2 excluding n-grams made only of STOP words and
+   numerals (`common.NUMERAL_WORDS`: digits, tennis score words, cardinal and ordinal number words); and both (n >= 3, content).
+   It is computed for in-sample, split-half, pool -> 2019, 2019 -> 2023 and pool -> 2023 with bootstrap CIs (B = 2000; the
+   base rows reuse the v1 seeds), and for D5(i)/(ii)/(ii-b)/(iii). Shuffled-word baselines are computed for every definition:
+   D7 as pre-registered for in-sample and split-half (I and M shuffled), and for the held-out designs M's tokens shuffled with
+   I's inventory kept (R = 200); the report gives coverage minus shuffled baseline with an interval. All exploratory; the
+   confirmatory tests keep the pre-registered (a) definition.
+5. **B4, post hoc.** Section 8 of the report is rewritten to state only what the verified records say and what the data show
+   (no auctioneer data were measured, so no placement relative to auctioneers is made). `f09_power.py` simulates the minimum
+   detectable effect (80% power, alpha 0.05 and the Bonferroni level) of C3a/C3b/R3a/R3b, C4/R4 and C5/R5 under the tests
+   as run (simulation models in its docstring), and adds circular-shift nulls (shifts of at least 10 utterances) for C3 and
+   C5 as exploratory checks for serial correlation.
+6. **B6, DEVIATION (token set of C4/C5/R4/R5).** References inside umpire/Hawk-Eye patterns are excluded before the thrift and
+   extension tests (`refexpr.umpire_rule`: `mr <surname>`; preceded by `game`, `game (and) <x> set (and match)`, `advantage`;
+   followed by `lead(s)/leading (by) <x> games/gains to`, `(is) challenging/charging/having a call`, `has <x> challenge(s)
+   remaining/left`). The commentary-only results are the reported C4/C5/R4/R5; the pre-registered all-token results are kept
+   as sensitivity rows (`*_all_tokens`, Holm in the original family composition).
+7. **B7 (wording).** C2 and every TV/Cornell/press comparison are labelled corpus contrasts (matches, outlet, period, ASR vs
+   edited text, segmentation all differ); no difference is attributed to medium alone.
+8. **Minor.** (i) Duggan 1973: bibliographic record fetched (`hand/duggan_verification.tsv`); the wording of his criterion is
+   [unverified] (book not read). (ii) The literal "2007-2015" in `make_report.py` is replaced by the date range of the press
+   records; replicate and permutation counts in the report text are read from result files. (The second literal named by
+   the critic is in `analysis/metre/`, outside this directory.) (iii) **DEVIATION (section 9 `official_call`):** the top-10
+   flag now uses `common.official_mask_v2` = the S5 patterns plus point-score calls, bare `thank you`, `mr <name>`,
+   `advantage <name>`, game-set calls and challenge announcements, because the umpire says most score calls and the S5 flag
+   never fired on them; the CSV schema is unchanged. The same mask gives a new exploratory sensitivity S5b. (iv) The systems
+   table reports the share of the commonest filler (a frame whose top filler takes most occurrences, e.g. a full name, does
+   not alternate in Parry's sense). (v) Limitations now state that C3a's interval (`dead_time_before_s`) precedes the clip's
+   text, so C3b is the apt predictor, and that the label permutations of C3-C5 treat adjacent clips as exchangeable.

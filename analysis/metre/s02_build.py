@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import syllables  # noqa: E402
 from metre_lib import (RES, TAGS, build_units, formula_set, full_names, mask_names, match_segment,  # noqa: E402
                        pool_ngram_table, read_jsonl, score_call_mask, split_unmasked, surnames, tokenize, TR,
-                       pool_paths)
+                       pool_paths, umpire_mask, names_from_match_id)
 
 RES.mkdir(parents=True, exist_ok=True)
 
@@ -43,7 +43,26 @@ with open(RES / "pool_formulas_top.tsv", "w") as f:
             f.write(f"{n}\t{c}\t{s}\t{g}\n")
 print(json.dumps(summary))
 
-VARIANTS = ["base", "R1", "R2", "X4"]
+# U and R1U are POST HOC (plan addendum 1, PH6): umpire-pattern tokens masked (U), plus the R1 score-call mask (R1U).
+VARIANTS = ["base", "R1", "R2", "X4", "U", "R1U"]
+
+# ---- POST HOC check (PH6): does the pool-only formula list contain umpire-pattern n-grams?
+import re  # noqa: E402
+pool_names = set()
+for _p in pool_paths():
+    for _r in read_jsonl(_p)[:1]:
+        pool_names |= names_from_match_id(_r["match_id"])
+final_names = set().union(*(full_names(t) for t in TAGS))
+_all_names = pool_names | final_names
+_pat = {"thank you": lambda g: re.search(r"(^| )thank you( |$)", g) is not None,
+        "mr <token>": lambda g: re.search(r"(^| )mr [a-z0-9]", g) is not None,
+        "game <player name>": lambda g: any(w in _all_names for w in re.findall(r"(?:^| )game ([a-z0-9']+)", g))}
+umpire_check = {"_label": "POST HOC (plan addendum 1, PH6)", "n_formulas_base": len(F_base),
+                "n_player_names_in_lexicon": len(_all_names)}
+for _k, _fn in _pat.items():
+    _hits = sorted((g for g in F_base if _fn(g)), key=lambda g: (-table[g][0], g))
+    umpire_check[_k] = {"n_formula_types": len(_hits), "pool_count_of_types": int(sum(table[g][0] for g in _hits)),
+                        "top": [[g, table[g][0]] for g in _hits[:8]]}
 
 
 def segments_for(tokens, variant, sn, names):
@@ -51,11 +70,16 @@ def segments_for(tokens, variant, sn, names):
         return split_unmasked(tokens, score_call_mask(tokens, sn))
     if variant == "X4":
         return [mask_names(tokens, names)] if tokens else []
+    if variant == "U":
+        return split_unmasked(tokens, umpire_mask(tokens, names))
+    if variant == "R1U":
+        m1, m2 = score_call_mask(tokens, sn), umpire_mask(tokens, names)
+        return split_unmasked(tokens, [a or b for a, b in zip(m1, m2)])
     return [tokens] if tokens else []
 
 
 def analyse_clip(tokens, variant, sn, names):
-    F = {"base": F_base, "R1": F_base, "R2": F_strict, "X4": F_masked}[variant]
+    F = {"base": F_base, "R1": F_base, "R2": F_strict, "X4": F_masked, "U": F_base, "R1U": F_base}[variant]
     nmin = 3 if variant == "R2" else 2
     n_tok, n_cov, strings, texts = 0, 0, [], []
     for seg in segments_for(tokens, variant, sn, names):
@@ -100,6 +124,12 @@ for tag in TAGS:
         U[k] = vals
     U["words"] = U["n_tok_base"]
     U.to_csv(RES / f"units_{tag}.csv", index=False)
+    _nu = 0
+    for p in U.point_idx:
+        for c in clips_by_point[p]:
+            _nu += sum(umpire_mask(tokenize(c["text_corrected"]), names))
+    umpire_check[f"target_tokens_masked_U_{tag}"] = int(_nu)
+    umpire_check[f"target_tokens_{tag}"] = int(U.n_tok_base.sum())
     pd.DataFrame(srows).to_csv(RES / f"strings_{tag}.csv", index=False)
     with open(RES / f"top_strings_{tag}.tsv", "w") as f:
         f.write("count\tn_tokens\tstring\n")
@@ -131,3 +161,5 @@ for tag in TAGS:
     print(tag, dict(flow), "units", len(U), "tokens", int(U.words.sum()), "share_base",
           round(U.n_cov_base.sum() / max(1, U.n_tok_base.sum()), 3))
 json.dump(WD, open(RES / "window_diagnostics.json", "w"), indent=1)
+json.dump(umpire_check, open(RES / "posthoc_umpire_check.json", "w"), indent=1)
+print("umpire check:", json.dumps(umpire_check)[:1500])

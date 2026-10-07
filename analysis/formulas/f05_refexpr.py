@@ -74,7 +74,8 @@ def main():
                 tok = {"stream": stream, "utt_id": r["utt_id"], "clip_i": r["clip_i"], "token_start": e["t0"], "player": ref,
                        "expression": e["expr"], "category": e["category"], "slot": slot, "spacy_dep": dep,
                        "syllables": R.syllables(e["expr"], poss),
-                       "dead_time_before_s": r["ctx_dt_before"], "time_after_s": r["ctx_time_after"]}
+                       "dead_time_before_s": r["ctx_dt_before"], "time_after_s": r["ctx_time_after"],
+                       "umpire_pattern": R.umpire_rule(words, e["k0"], e["k1"], e["category"])}
                 for c in CTX:
                     tok[c[4:]] = r[c]
                 utt_tokens.append(tok)
@@ -191,6 +192,9 @@ def main():
         "epithets_unresolved": sum(1 for c in cand_rows if c["hand_referent"] == "UNRESOLVED"),
         "pronouns_total": {s: sum(p["pronouns"] for p in pron_rows if p["stream"] == s) for s in (C.MAIN, C.HELDOUT)},
         "spacy_model": f"en_core_web_sm {nlp.meta['version']}", "spacy_version": spacy.__version__,
+        "umpire_pattern_tokens": {f"{s}:{rule}": n for (s, rule), n in sorted(Counter((t["stream"], t["umpire_pattern"])
+                                                                                    for t in tokens_all if t["umpire_pattern"]).items())},
+        "umpire_before_patterns": [list(x) for x in R.UMPIRE_BEFORE], "umpire_after_patterns": [list(x) for x in R.UMPIRE_AFTER],
     }
     C.write_json(C.RESULTS / "refexpr_summary.json", summary)
     print(json.dumps(summary, indent=1))

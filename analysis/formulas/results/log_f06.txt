@@ -1,24 +1,48 @@
-tv_2019wimF dtb_terc both token_within_player_slot 91 89.64 0.8403
-tv_2019wimF dtb_terc both utterance 91 88.76 0.9038
-tv_2019wimF dtb_terc djokovic token_within_player_slot 52 50.88 0.8592
-tv_2019wimF dtb_terc federer token_within_player_slot 39 38.73 0.7429
-tv_2019wimF ta_terc both token_within_player_slot 85 88.58 0.0747
-tv_2019wimF phase both token_within_player_slot 52 52.24 0.633
-tv_2019wimF score both token_within_player_slot 88 87.88 0.6031
-tv_2019wimF role both token_within_player_slot 66 67.34 0.3355
-tv_2023wimF dtb_terc both token_within_player_slot 59 60.3 0.3052
-tv_2023wimF dtb_terc both utterance 59 60.2 0.35
-tv_2023wimF dtb_terc alcaraz token_within_player_slot 27 26.73 0.798
-tv_2023wimF dtb_terc djokovic token_within_player_slot 32 33.52 0.2269
-tv_2023wimF ta_terc both token_within_player_slot 61 61.69 0.4388
-tv_2023wimF phase both token_within_player_slot 41 40.23 1.0
-tv_2023wimF score both token_within_player_slot 56 56.02 0.6116
-tv_2023wimF role both token_within_player_slot 44 45.29 0.2929
-tv_2019wimF dead_time_before_s token_within_player 0.087 0.1173
-tv_2019wimF dead_time_before_s utterance 0.087 0.1897
-tv_2019wimF time_after_s token_within_player 0.085 0.1219
-tv_2019wimF time_after_s utterance 0.085 0.1817
-tv_2023wimF dead_time_before_s token_within_player 0.024 0.7564
-tv_2023wimF dead_time_before_s utterance 0.024 0.7615
-tv_2023wimF time_after_s token_within_player 0.086 0.2305
-tv_2023wimF time_after_s utterance 0.086 0.2565
+commentary_only tv_2019wimF dtb_terc both token_within_player_slot 86 84.23 0.8932
+commentary_only tv_2019wimF dtb_terc both utterance 86 82.81 0.9668
+commentary_only tv_2019wimF dtb_terc djokovic token_within_player_slot 50 48.31 0.9364
+commentary_only tv_2019wimF dtb_terc federer token_within_player_slot 36 35.92 0.693
+commentary_only tv_2019wimF ta_terc both token_within_player_slot 80 83.21 0.0811
+commentary_only tv_2019wimF phase both token_within_player_slot 49 48.86 0.8151
+commentary_only tv_2019wimF score both token_within_player_slot 81 81.67 0.4678
+commentary_only tv_2019wimF role both token_within_player_slot 61 62.83 0.2118
+all_tokens tv_2019wimF dtb_terc both token_within_player_slot 91 89.64 0.8403
+all_tokens tv_2019wimF dtb_terc both utterance 91 88.76 0.9038
+all_tokens tv_2019wimF dtb_terc djokovic token_within_player_slot 52 50.88 0.8592
+all_tokens tv_2019wimF dtb_terc federer token_within_player_slot 39 38.73 0.7429
+all_tokens tv_2019wimF ta_terc both token_within_player_slot 85 88.58 0.0747
+all_tokens tv_2019wimF phase both token_within_player_slot 52 52.24 0.633
+all_tokens tv_2019wimF score both token_within_player_slot 88 87.88 0.6031
+all_tokens tv_2019wimF role both token_within_player_slot 66 67.34 0.3355
+commentary_only tv_2023wimF dtb_terc both token_within_player_slot 47 49.0 0.1737
+commentary_only tv_2023wimF dtb_terc both utterance 47 50.77 0.038
+commentary_only tv_2023wimF dtb_terc alcaraz token_within_player_slot 19 19.02 0.7289
+commentary_only tv_2023wimF dtb_terc djokovic token_within_player_slot 28 29.96 0.1513
+commentary_only tv_2023wimF ta_terc both token_within_player_slot 51 51.17 0.5794
+commentary_only tv_2023wimF phase both token_within_player_slot 34 33.45 1.0
+commentary_only tv_2023wimF score both token_within_player_slot 46 45.91 0.6561
+commentary_only tv_2023wimF role both token_within_player_slot 37 36.53 0.7907
+all_tokens tv_2023wimF dtb_terc both token_within_player_slot 59 60.3 0.3052
+all_tokens tv_2023wimF dtb_terc both utterance 59 60.2 0.35
+all_tokens tv_2023wimF dtb_terc alcaraz token_within_player_slot 27 26.73 0.798
+all_tokens tv_2023wimF dtb_terc djokovic token_within_player_slot 32 33.52 0.2269
+all_tokens tv_2023wimF ta_terc both token_within_player_slot 61 61.69 0.4388
+all_tokens tv_2023wimF phase both token_within_player_slot 41 40.23 1.0
+all_tokens tv_2023wimF score both token_within_player_slot 56 56.02 0.6116
+all_tokens tv_2023wimF role both token_within_player_slot 44 45.29 0.2929
+commentary_only tv_2019wimF dead_time_before_s token_within_player 0.09 0.1295
+commentary_only tv_2019wimF dead_time_before_s utterance 0.09 0.2015
+commentary_only tv_2019wimF time_after_s token_within_player 0.103 0.0672
+commentary_only tv_2019wimF time_after_s utterance 0.103 0.1211
+all_tokens tv_2019wimF dead_time_before_s token_within_player 0.087 0.1173
+all_tokens tv_2019wimF dead_time_before_s utterance 0.087 0.1897
+all_tokens tv_2019wimF time_after_s token_within_player 0.085 0.1219
+all_tokens tv_2019wimF time_after_s utterance 0.085 0.1817
+commentary_only tv_2023wimF dead_time_before_s token_within_player 0.076 0.3453
+commentary_only tv_2023wimF dead_time_before_s utterance 0.076 0.384
+commentary_only tv_2023wimF time_after_s token_within_player 0.185 0.0179
+commentary_only tv_2023wimF time_after_s utterance 0.185 0.0259
+all_tokens tv_2023wimF dead_time_before_s token_within_player 0.024 0.7564
+all_tokens tv_2023wimF dead_time_before_s utterance 0.024 0.7615
+all_tokens tv_2023wimF time_after_s token_within_player 0.086 0.2305
+all_tokens tv_2023wimF time_after_s utterance 0.086 0.2565

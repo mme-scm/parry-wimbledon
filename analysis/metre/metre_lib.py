@@ -84,6 +84,30 @@ def split_unmasked(tokens, mask):
     return segs
 
 
+# ---------------------------------------------------------------- umpire patterns (POST HOC, plan addendum 1, PH6)
+UMPIRE_ADJ = {"please", "players"}
+
+
+def umpire_mask(tokens, names):
+    """Mask umpire-pattern tokens: every `thank you` (with an adjacent `please`, or a following `players`),
+    `mr` + next token, and `game` + a first or last name of either finalist (`names`)."""
+    n = len(tokens)
+    mask = [False] * n
+    for i in range(n - 1):
+        a, b = tokens[i], tokens[i + 1]
+        if a == "thank" and b == "you":
+            mask[i] = mask[i + 1] = True
+            if i + 2 < n and tokens[i + 2] in UMPIRE_ADJ:
+                mask[i + 2] = True
+            if i >= 1 and tokens[i - 1] == "please":
+                mask[i - 1] = True
+        elif a == "mr":
+            mask[i] = mask[i + 1] = True
+        elif a == "game" and b in names:
+            mask[i] = mask[i + 1] = True
+    return mask
+
+
 # ---------------------------------------------------------------- names (exploratory X4)
 def names_from_match_id(match_id):
     parts = match_id.split("-")

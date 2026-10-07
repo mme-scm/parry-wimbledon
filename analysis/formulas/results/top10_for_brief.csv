@@ -1,21 +1,21 @@
 list,rank,kind,item,n,utterances,occurrences,fixed_tokens,pool_streams_attested,fillers,official_call,share_occurrences_in_official_patterns,modal_clip_role,modal_score_situation,pressure_points_share,modal_phase,median_time_after_s,median_dead_time_before_s
-with_official,1,system,<NUM> 15,2,36,40,1,16,40:13; 30:12; love:7; 13:3; 14:2; 10:1; 16:1; 7:1,False,0.000,rally,other,0.028,clip,25.080,31.220
-with_official,2,system,15 <NUM>,2,29,30,1,16,love:8; 0:7; 30:6; 13:5; 40:2; 14:2,False,0.000,rally,other,0.034,clip,25.440,32.200
+with_official,1,system,<NUM> 15,2,36,40,1,16,40:13; 30:12; love:7; 13:3; 14:2; 10:1; 16:1; 7:1,True,0.925,rally,other,0.028,clip,25.080,31.220
+with_official,2,system,15 <NUM>,2,29,30,1,16,love:8; 0:7; 30:6; 13:5; 40:2; 14:2,True,1.000,rally,other,0.034,clip,25.440,32.200
 with_official,3,formula,the first,2,24,28,2,18,,False,0.000,rally,other,0.292,clip,40.400,31.120
-with_official,4,system,<NUM> 30,2,24,26,1,16,40:10; 15:6; 14:5; 0:3; love:2,False,0.000,rally,other,0.083,clip,29.080,29.140
-with_official,5,system,40 <NUM>,2,22,28,1,17,15:13; 30:10; love:4; 40:1,False,0.000,rally,other,0.136,clip,29.620,30.040
+with_official,4,system,<NUM> 30,2,24,26,1,16,40:10; 15:6; 14:5; 0:3; love:2,True,1.000,rally,other,0.083,clip,29.080,29.140
+with_official,5,system,40 <NUM>,2,22,28,1,17,15:13; 30:10; love:4; 40:1,True,1.000,rally,other,0.136,clip,29.620,30.040
 with_official,6,formula,a little,2,22,24,2,18,,False,0.000,rally,other,0.182,clip,31.920,27.360
 with_official,7,system,the <_> set,3,21,27,2,17,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
 with_official,8,system,<NAME> djokovic,2,19,21,1,6,novak:16; federer:3; roger:1; djokovic:1,False,0.000,rally,other,0.263,clip,43.480,26.580
-with_official,9,system,30 <NUM>,2,19,19,1,16,15:12; love:4; 40:2; 0:1,False,0.000,rally,other,0.000,clip,29.440,22.140
+with_official,9,system,30 <NUM>,2,19,19,1,16,15:12; love:4; 40:2; 0:1,True,1.000,rally,other,0.000,clip,29.440,22.140
 with_official,10,formula,the match,2,17,17,2,15,,False,0.000,rally,other,0.176,clip,25.000,25.400
-commentary_only,1,system,<NUM> 15,2,36,40,1,16,40:13; 30:12; love:7; 13:3; 14:2; 10:1; 16:1; 7:1,False,0.000,rally,other,0.028,clip,25.080,31.220
-commentary_only,2,system,15 <NUM>,2,29,30,1,16,love:8; 0:7; 30:6; 13:5; 40:2; 14:2,False,0.000,rally,other,0.034,clip,25.440,32.200
-commentary_only,3,formula,the first,2,24,28,2,18,,False,0.000,rally,other,0.292,clip,40.400,31.120
-commentary_only,4,system,<NUM> 30,2,24,26,1,16,40:10; 15:6; 14:5; 0:3; love:2,False,0.000,rally,other,0.083,clip,29.080,29.140
-commentary_only,5,system,40 <NUM>,2,22,28,1,17,15:13; 30:10; love:4; 40:1,False,0.000,rally,other,0.136,clip,29.620,30.040
-commentary_only,6,formula,a little,2,22,24,2,18,,False,0.000,rally,other,0.182,clip,31.920,27.360
-commentary_only,7,system,the <_> set,3,21,27,2,17,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
-commentary_only,8,system,<NAME> djokovic,2,19,21,1,6,novak:16; federer:3; roger:1; djokovic:1,False,0.000,rally,other,0.263,clip,43.480,26.580
-commentary_only,9,system,30 <NUM>,2,19,19,1,16,15:12; love:4; 40:2; 0:1,False,0.000,rally,other,0.000,clip,29.440,22.140
-commentary_only,10,formula,the match,2,17,17,2,15,,False,0.000,rally,other,0.176,clip,25.000,25.400
+commentary_only,1,formula,the first,2,24,28,2,18,,False,0.000,rally,other,0.292,clip,40.400,31.120
+commentary_only,2,formula,a little,2,22,24,2,18,,False,0.000,rally,other,0.182,clip,31.920,27.360
+commentary_only,3,system,the <_> set,3,21,27,2,17,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
+commentary_only,4,system,<NAME> djokovic,2,19,21,1,6,novak:16; federer:3; roger:1; djokovic:1,False,0.000,rally,other,0.263,clip,43.480,26.580
+commentary_only,5,formula,the match,2,17,17,2,15,,False,0.000,rally,other,0.176,clip,25.000,25.400
+commentary_only,6,formula,from djokovic,2,16,16,2,4,,False,0.000,rally,other,0.312,clip,29.740,31.120
+commentary_only,7,formula,you know,2,15,18,2,16,,False,0.000,rally,other,0.200,clip,31.800,27.000
+commentary_only,8,formula,going to,2,15,17,2,18,,False,0.000,rally,other,0.133,clip,28.520,20.800
+commentary_only,9,system,novak <NAME>,2,15,17,1,7,djokovic:16; djokovic's:1,False,0.000,rally,other,0.267,clip,45.200,26.580
+commentary_only,10,formula,novak djokovic,2,14,16,2,6,,False,0.000,rally,other,0.214,clip,46.380,26.640

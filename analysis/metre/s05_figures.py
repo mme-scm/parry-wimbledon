@@ -1,7 +1,8 @@
 """Figures for report.md (figures/). Values plotted are read from results/ or recomputed from results/ tables.
 
 fig1 words vs available time; fig2 formula share by A tercile (base, R1) and by dead-ball category; fig3 formula string
-syllables by A tercile; fig4 index-shift null distributions; fig5 (exploratory) lengths of written updates vs TV transcripts.
+syllables by A tercile; fig4 index-shift null distributions; fig5 (exploratory) lengths of written updates vs TV transcripts;
+fig6 (POST HOC, plan addendum 1, PH2) power curves of T2-T4 against planted effects.
 Error bars in fig2 are block-bootstrap 95% CIs recomputed here with B = 2,000 (display only; reported CIs are in results/).
 """
 import json
@@ -142,5 +143,29 @@ ax.set_title("EXPLORATORY: length distributions by medium", fontsize=10)
 ax.legend(fontsize=8)
 fig.tight_layout()
 fig.savefig(FIG / "fig5_lengths_by_medium_exploratory.png", dpi=150)
+plt.close(fig)
+# ---- fig6 (POST HOC, plan addendum 1, PH2): power curves of T2-T4 with planted effects
+PC = pd.read_csv(RES / "posthoc_power_curves.csv")
+MD = pd.read_csv(RES / "posthoc_mde.csv")
+panels = [(t, tg) for tg in TAGS for t in ("T2", "T3", "T4") if ((PC.match == tg) & (PC.test == t)).any()]
+fig, axes = plt.subplots(1, len(panels), figsize=(3.3 * len(panels), 3.6), sharey=True)
+for ax, (t, tg) in zip(axes, panels):
+    g = PC[(PC.match == tg) & (PC.test == t)]
+    a_h = MD[(MD.match == tg) & (MD.alpha_label == "alpha_holm1")].alpha.iloc[0]
+    if t == "T3":
+        g = g[g.true_effect <= 0.3]
+    for m, col in zip(sorted(g.mix.unique()), ["C0", "C1", "C2"]):
+        h = g[g.mix == m].sort_values("param")
+        x = h.true_effect * (100 if t != "T3" else 1)
+        ax.plot(x, h.power_alpha05, color=col, label=f"misattribution {m:.2f}, alpha 0.05")
+        ax.plot(x, h.power_alpha_holm1, color=col, ls="--", label=f"misattribution {m:.2f}, alpha/m (Holm step 1)")
+    ax.axhline(0.8, color="0.5", lw=0.8)
+    ax.set_xlabel("true effect (pp)" if t != "T3" else "true effect (Spearman rho)")
+    ax.set_title(f"{tg}: {t} (dashed: alpha = {a_h:.4f})", fontsize=8)
+axes[0].set_ylabel("power (detection in H1' direction)")
+axes[-1].legend(fontsize=6, loc="lower right")
+fig.suptitle("POST HOC: power of T2-T4 against planted effects on shifted timing (shift-null test, observed N)", fontsize=9)
+fig.tight_layout()
+fig.savefig(FIG / "fig6_power_curves_posthoc.png", dpi=150)
 plt.close(fig)
 print("figures written:", sorted(p.name for p in FIG.glob("*.png")))
