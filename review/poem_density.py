@@ -24,8 +24,9 @@ Greek analogue of analysis/formulas (report.md section 1, common.cover_a / boot_
   * exact-formula lines: share of verses containing at least one claimed `sources` string of >= 2 words
     (status other than COINAGE; Homeric string extracted as in review/provenance_check.py) found verbatim in
     the verse at a metrical position at which Homer has it (positions: homer/scan.py on the verse,
-    homer/scansion.tsv via the concordance for Homer); and, unclaimed included, the share of verses containing
-    any attested n-gram (n >= 2, not function-word-only) at a Homeric position.
+    homer/scansion.tsv via the concordance for Homer); the same share counting only formulas that are not
+    made of function words alone (FUNC); and, unclaimed included, the share of verses containing any attested
+    n-gram (n >= 2, not function-word-only) at a Homeric position.
 """
 import json
 import sys
@@ -214,7 +215,7 @@ def main(jsonl, out_path):
                                      "the verse; token-weighted over all %d verses" % len(hlines))
 
     # exact-formula lines
-    exact_lines, any_attested_pos_lines = [], []
+    exact_lines, any_attested_pos_lines, exact_content_lines = [], [], []
     for r, toks in zip(recs, poem):
         sc = P.scan_verse(r["text"])
         wp = sc["word_positions"]
@@ -245,6 +246,7 @@ def main(jsonl, out_path):
                     if pp in hpos:
                         anyp.append(" ".join(g))
         exact_lines.append(bool(found))
+        exact_content_lines.append(any(not is_func_only(tuple(P.loose_words(x["formula"]))) for x in found))
         any_attested_pos_lines.append(bool(anyp))
         res["per_verse"].append({
             "n": r["n"], "tokens": len(toks), "verbatim_homeric_verse": verbatim[recs.index(r)],
@@ -254,6 +256,10 @@ def main(jsonl, out_path):
     res["lines_with_claimed_exact_formula_ge2_words_pct"] = round(100 * sum(exact_lines) / len(recs), 1)
     res["lines_with_claimed_exact_formula_ge2_words"] = int(sum(exact_lines))
     res["lines_without_claimed_exact_formula_ge2_words"] = [r["n"] for r, e in zip(recs, exact_lines) if not e]
+    res["lines_with_claimed_exact_formula_ge2_words_not_function_only_pct"] = round(
+        100 * sum(exact_content_lines) / len(recs), 1)
+    res["lines_without_claimed_exact_formula_ge2_words_not_function_only"] = [
+        r["n"] for r, e in zip(recs, exact_content_lines) if not e]
     res["lines_with_any_attested_ngram_at_homeric_position_pct"] = round(
         100 * sum(any_attested_pos_lines) / len(recs), 1)
     res["lines_without_any_attested_ngram_at_homeric_position"] = [

@@ -1,0 +1,1715 @@
+{
+ "forms_with_0_homeric_hits": [
+  {
+   "n": 1,
+   "form": "δαΐφρονε",
+   "loose": "δαιφρονε",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 4,
+   "form": "Φεδερεύς",
+   "loose": "φεδερευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 4,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 5,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 10,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 12,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 14,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 15,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 19,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 20,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 23,
+   "form": "Ζοκοβεὺς",
+   "loose": "ζοκοβευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 24,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 24,
+   "form": "δάμασεν",
+   "loose": "δαμασεν",
+   "in_coinages": false,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 25,
+   "form": "Φεδερεὺς",
+   "loose": "φεδερευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 27,
+   "form": "Ῥογῆρος",
+   "loose": "ρογηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 29,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 29,
+   "form": "Φεδερῆρον",
+   "loose": "φεδερηρον",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 30,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 32,
+   "form": "Φεδερεὺς",
+   "loose": "φεδερευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 33,
+   "form": "Ῥογῆρος",
+   "loose": "ρογηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 34,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 36,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 38,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 43,
+   "form": "Σέρβον",
+   "loose": "σερβον",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 44,
+   "form": "ἔκφερε",
+   "loose": "εκφερε",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 44,
+   "form": "Ζοκοβεύς",
+   "loose": "ζοκοβευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 51,
+   "form": "Ἑλβετίου",
+   "loose": "ελβετιου",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 51,
+   "form": "Ζοκοβῆος",
+   "loose": "ζοκοβηοσ",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true
+  },
+  {
+   "n": 52,
+   "form": "Ἑλβετίου",
+   "loose": "ελβετιου",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 53,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 54,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 55,
+   "form": "Νοβήκος",
+   "loose": "νοβηκοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 56,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 56,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 57,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false
+  },
+  {
+   "n": 58,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true
+  }
+ ],
+ "coined_stems_substring_hits": {
+  "φεδερ": 0,
+  "ρογηρ": 0,
+  "ελβετ": 0,
+  "σερβ": 0,
+  "ζοκοβ": 0,
+  "νοβηκ": 0,
+  "νοβακ": 0
+ },
+ "patronymic": {
+  "Πηλείδ (diphthong ει)": {
+   "total": 1,
+   "positions": {
+    "3-5": 1
+   },
+   "hits": [
+    "Il. 1.277@3-5: Πηλείδη | μήτε σὺ Πηλείδη ἔθελʼ ἐριζέμεναι βασιλῆϊ"
+   ]
+  },
+  "Πηλεΐδ (ε-ϊ)": {
+   "total": 51,
+   "positions": {
+    "1-3": 33,
+    "3-5": 12,
+    "3-5.5": 4,
+    "7-9.5": 1,
+    "7-9": 1
+   },
+   "hits": [
+    "Il. 1.146@3-5: Πηλεΐδη | ἠὲ σὺ Πηλεΐδη πάντων ἐκπαγλότατʼ ἀνδρῶν,",
+    "Il. 1.223@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν",
+    "Il. 1.245@3-5: Πηλεΐδης | ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ",
+    "Il. 1.306@1-3: Πηλεΐδης | Πηλεΐδης μὲν ἐπὶ κλισίας καὶ νῆας ἐΐσας",
+    "Il. 15.64@1-3: Πηλεΐδεω | Πηλεΐδεω Ἀχιλῆος· ὃ δʼ ἀνστήσει ὃν ἑταῖρον",
+    "Il. 15.74@3-5.5: Πηλεΐδαο | πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,",
+    "Il. 15.614@7-9.5: Πηλεΐδαο | Παλλὰς Ἀθηναίη ὑπὸ Πηλεΐδαο βίηφιν.",
+    "Il. 16.271@3-5: Πηλεΐδην | ὡς ἂν Πηλεΐδην τιμήσομεν, ὃς μέγʼ ἄριστος",
+    "Il. 17.105@1-3: Πηλεΐδῃ | Πηλεΐδῃ Ἀχιλῆϊ· κακῶν δέ κε φέρτατον εἴη.",
+    "Il. 17.195@1-3: Πηλεΐδεω | Πηλεΐδεω Ἀχιλῆος ἅ οἱ θεοὶ Οὐρανίωνες",
+    "Il. 17.199@3-5.5: Πηλεΐδαο | τεύχεσι Πηλεΐδαο κορυσσόμενον θείοιο,",
+    "Il. 17.641@1-3: Πηλεΐδῃ | Πηλεΐδῃ, ἐπεὶ οὔ μιν ὀΐομαι οὐδὲ πεπύσθαι"
+   ]
+  },
+  "Πηλεΐδης (nom.)": {
+   "total": 24,
+   "positions": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "hits": [
+    "Il. 1.223@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν",
+    "Il. 1.245@3-5: Πηλεΐδης | ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ",
+    "Il. 1.306@1-3: Πηλεΐδης | Πηλεΐδης μὲν ἐπὶ κλισίας καὶ νῆας ἐΐσας",
+    "Il. 18.316@3-5: Πηλεΐδης | τοῖσι δὲ Πηλεΐδης ἁδινοῦ ἐξῆρχε γόοιο",
+    "Il. 20.164@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+    "Il. 20.261@1-3: Πηλεΐδης | Πηλεΐδης δὲ σάκος μὲν ἀπὸ ἕο χειρὶ παχείῃ",
+    "Il. 20.290@3-5: Πηλεΐδης | τὸν δέ κε Πηλεΐδης σχεδὸν ἄορι θυμὸν ἀπηύρα,",
+    "Il. 20.503@1-3: Πηλεΐδης | Πηλεΐδης, λύθρῳ δὲ παλάσσετο χεῖρας ἀάπτους.",
+    "Il. 21.173@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ",
+    "Il. 21.251@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἀπόρουσεν ὅσον τʼ ἐπὶ δουρὸς ἐρωή,",
+    "Il. 21.272@1-3: Πηλεΐδης | Πηλεΐδης δʼ ᾤμωξεν ἰδὼν εἰς οὐρανὸν εὐρύν·",
+    "Il. 21.595@1-3: Πηλεΐδης | Πηλεΐδης δʼ ὁρμήσατʼ Ἀγήνορος ἀντιθέοιο"
+   ]
+  },
+  "Πηλείων (diphthong)": {
+   "total": 1,
+   "positions": {
+    "3-5.5": 1
+   },
+   "hits": [
+    "Il. 22.7@3-5.5: Πηλείωνα | αὐτὰρ Πηλείωνα προσηύδα Φοῖβος Ἀπόλλων·"
+   ]
+  },
+  "Πηλεΐων (ε-ϊ)": {
+   "total": 48,
+   "positions": {
+    "9-12": 32,
+    "3-5.5": 11,
+    "7-9.5": 3,
+    "1-3.5": 2
+   },
+   "hits": [
+    "Il. 1.188@3-5.5: Πηλεΐωνι | ὣς φάτο· Πηλεΐωνι δʼ ἄχος γένετʼ, ἐν δέ οἱ ἦτορ",
+    "Il. 1.197@9-12: Πηλεΐωνα | στῆ δʼ ὄπιθεν, ξανθῆς δὲ κόμης ἕλε Πηλεΐωνα",
+    "Il. 2.674@9-12: Πηλεΐωνα | τῶν ἄλλων Δαναῶν μετʼ ἀμύμονα Πηλεΐωνα·",
+    "Il. 2.770@9-12: Πηλεΐωνα | ἵπποι θʼ οἳ φορέεσκον ἀμύμονα Πηλεΐωνα.",
+    "Il. 8.474@9-12: Πηλεΐωνα | πρὶν ὄρθαι παρὰ ναῦφι ποδώκεα Πηλεΐωνα,",
+    "Il. 9.181@9-12: Πηλεΐωνα | πειρᾶν ὡς πεπίθοιεν ἀμύμονα Πηλεΐωνα.",
+    "Il. 9.698@9-12: Πηλεΐωνα | μὴ ὄφελες λίσσεσθαι ἀμύμονα Πηλεΐωνα",
+    "Il. 10.323@9-12: Πηλεΐωνα | δωσέμεν, οἳ φορέουσιν ἀμύμονα Πηλεΐωνα,",
+    "Il. 10.392@3-5.5: Πηλεΐωνος | ὅς μοι Πηλεΐωνος ἀγαυοῦ μώνυχας ἵππους",
+    "Il. 13.113@9-12: Πηλεΐωνα | οὕνεκʼ ἀπητίμησε ποδώκεα Πηλεΐωνα,",
+    "Il. 16.195@7-9.5: Πηλεΐωνος | ἔγχεϊ μάρνασθαι μετὰ Πηλεΐωνος ἑταῖρον.",
+    "Il. 16.281@9-12: Πηλεΐωνα | ἐλπόμενοι παρὰ ναῦφι ποδώκεα Πηλεΐωνα"
+   ]
+  },
+  "Ἀτρείδ (diphthong)": {
+   "total": 3,
+   "positions": {
+    "3-5": 1,
+    "3-5.5": 1,
+    "9-12": 1
+   },
+   "hits": [
+    "Od. 15.52@3-5: Ἀτρείδης | ἥρως Ἀτρείδης, δουρικλειτὸς Μενέλαος,",
+    "Od. 19.183@3-5.5: Ἀτρείδῃσιν | ᾤχεθʼ ἅμʼ Ἀτρείδῃσιν, ἐμοὶ δʼ ὄνομα κλυτὸν Αἴθων,",
+    "Od. 24.35@9-12: Ἀτρείδαο | τὸν δʼ αὖτε ψυχὴ προσεφώνεεν Ἀτρείδαο·"
+   ]
+  },
+  "Ἀμαρυγκ- (Ἀμαρυγκεύς and patronymics)": {
+   "total": 3,
+   "positions": {
+    "1.5-5": 2,
+    "5.5-8": 1
+   },
+   "hits": [
+    "Il. 2.622@1.5-5: Ἀμαρυγκεΐδης | τῶν δʼ Ἀμαρυγκεΐδης ἦρχε κρατερὸς Διώρης·",
+    "Il. 4.517@1.5-5: Ἀμαρυγκείδην | ἔνθʼ Ἀμαρυγκείδην Διώρεα μοῖρα πέδησε·",
+    "Il. 23.630@5.5-8: Ἀμαρυγκέα | ὡς ὁπότε κρείοντʼ Ἀμαρυγκέα θάπτον Ἐπειοὶ"
+   ]
+  },
+  "capitalised -είδ- with the diphthong (all)": {
+   "total": 40,
+   "positions": {
+    "6-8": 11,
+    "6-9": 5,
+    "2-5": 5,
+    "3-5": 4,
+    "5.5-8": 3,
+    "11-12": 2,
+    "8-10": 2,
+    "2-4": 1,
+    "1.5-5": 1,
+    "1-2": 1,
+    "1-3": 1,
+    "7.5-9.5": 1,
+    "3-5.5": 1,
+    "4-7": 1,
+    "9-12": 1
+   },
+   "hits": [
+    "Il. 1.211@6-8: ὀνείδισον | ἀλλʼ ἤτοι ἔπεσιν μὲν ὀνείδισον ὡς ἔσεταί περ·",
+    "Il. 1.277@3-5: Πηλείδη | μήτε σὺ Πηλείδη ἔθελʼ ἐριζέμεναι βασιλῆϊ",
+    "Il. 1.291@6-8: ὀνείδεα | τοὔνεκά οἱ προθέουσιν ὀνείδεα μυθήσασθαι;",
+    "Il. 2.222@6-8: ὀνείδεα | ὀξέα κεκλήγων λέγʼ ὀνείδεα· τῷ δʼ ἄρʼ Ἀχαιοὶ",
+    "Il. 2.251@2-4: ὀνείδεά | καί σφιν ὀνείδεά τε προφέροις, νόστόν τε φυλάσσοις.",
+    "Il. 2.678@3-5: Φείδιππός | τῶν αὖ Φείδιππός τε καὶ Ἄντιφος ἡγησάσθην",
+    "Il. 3.242@6-8: ὀνείδεα | αἴσχεα δειδιότες καὶ ὀνείδεα πόλλʼ ἅ μοί ἐστιν.",
+    "Il. 3.438@6-8: ὀνείδεσι | μή με γύναι χαλεποῖσιν ὀνείδεσι θυμὸν ἔνιπτε·",
+    "Il. 4.517@1.5-5: Ἀμαρυγκείδην | ἔνθʼ Ἀμαρυγκείδην Διώρεα μοῖρα πέδησε·",
+    "Il. 5.521@5.5-8: ὑπεδείδισαν | οὔτε βίας Τρώων ὑπεδείδισαν οὔτε ἰωκάς,",
+    "Il. 5.790@6-8: ἐδείδισαν | οἴχνεσκον· κείνου γὰρ ἐδείδισαν ὄβριμον ἔγχος·",
+    "Il. 6.99@6-8: ἐδείδιμεν | οὐδʼ Ἀχιλῆά ποθʼ ὧδέ γʼ ἐδείδιμεν ὄρχαμον ἀνδρῶν,"
+   ]
+  },
+  "capitalised -εΐδ- (all)": {
+   "total": 350,
+   "positions": {
+    "1-3": 173,
+    "3-5": 105,
+    "9-12": 23,
+    "3-5.5": 17,
+    "7-9": 9,
+    "5-7": 8,
+    "7-9.5": 5,
+    "1.5-5": 2,
+    "4-7": 2,
+    "2-5": 2,
+    "3.5-7": 2,
+    "6-9.5": 1,
+    "9-11": 1
+   },
+   "hits": [
+    "Il. 1.7@1-3: Ἀτρεΐδης | Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.",
+    "Il. 1.12@1-3: Ἀτρεΐδης | Ἀτρεΐδης· ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν",
+    "Il. 1.16@1-3: Ἀτρεΐδα | Ἀτρεΐδα δὲ μάλιστα δύω, κοσμήτορε λαῶν·",
+    "Il. 1.17@1-3: Ἀτρεΐδαι | Ἀτρεΐδαι τε καὶ ἄλλοι ἐϋκνήμιδες Ἀχαιοί,",
+    "Il. 1.24@3-5: Ἀτρεΐδῃ | ἀλλʼ οὐκ Ἀτρεΐδῃ Ἀγαμέμνονι ἥνδανε θυμῷ,",
+    "Il. 1.59@1-3: Ἀτρεΐδη | Ἀτρεΐδη νῦν ἄμμε παλιμπλαγχθέντας ὀΐω",
+    "Il. 1.102@3-5: Ἀτρεΐδης | ἥρως Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων",
+    "Il. 1.122@1-3: Ἀτρεΐδη | Ἀτρεΐδη κύδιστε φιλοκτεανώτατε πάντων,",
+    "Il. 1.146@3-5: Πηλεΐδη | ἠὲ σὺ Πηλεΐδη πάντων ἐκπαγλότατʼ ἀνδρῶν,",
+    "Il. 1.191@7-9: Ἀτρεΐδην | τοὺς μὲν ἀναστήσειεν, ὃ δʼ Ἀτρεΐδην ἐναρίζοι,",
+    "Il. 1.203@9-12: Ἀτρεΐδαο | ἦ ἵνα ὕβριν ἴδῃ Ἀγαμέμνονος Ἀτρεΐδαο;",
+    "Il. 1.223@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν"
+   ]
+  },
+  "Ζοκοβειδ (loose substring)": 0,
+  "Νοβηκ (loose substring)": 0
+ },
+ "ionic_eta": {
+  "αθηνη --word": 215,
+  "αθανα --word": 0,
+  "αθαναι --word": 0
+ },
+ "name_slots": [
+  {
+   "verse": 4,
+   "coined": "Φεδερεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "διογενησ",
+   "verse_next": "τε",
+   "model": "Ὀδυσεύς",
+   "model_citation": "Il. 10.340",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "διογενησ",
+   "model_next": "διομηδεα",
+   "model_line": "διογενὴς Ὀδυσεύς, Διομήδεα δὲ προσέειπεν·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 48,
+    "3.5-5": 32,
+    "5.5-7": 14
+   },
+   "condition": ""
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Γανυμήδης",
+   "model_citation": "Il. 20.232",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Ἶλός τʼ Ἀσσάρακός τε καὶ ἀντίθεος Γανυμήδης,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Θρασυμήδης",
+   "model_citation": "Od. 3.414",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Περσεύς τʼ Ἄρητός τε καὶ ἀντίθεος Θρασυμήδης.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 5,
+    "5.5-8": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Κλυτόνηος",
+   "model_citation": "Od. 8.119",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Λαοδάμας θʼ Ἅλιός τε καὶ ἀντίθεος Κλυτόνηος.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 1,
+    "7.5-9.5": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 5,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Πηλεΐδης",
+   "model_citation": "Il. 20.164",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "condition": ""
+  },
+  {
+   "verse": 10,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 12,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δε",
+   "model": "Πάτροκλος",
+   "model_citation": "Il. 16.284",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δε",
+   "model_line": "Πάτροκλος δὲ πρῶτος ἀκόντισε δουρὶ φαεινῷ",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 28,
+    "3-5": 8,
+    "4-5.5": 4,
+    "8-9.5": 2,
+    "5-7": 1,
+    "9-11": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 12,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δε",
+   "model": "Πηλεΐδης",
+   "model_citation": "Il. 20.164",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "condition": ""
+  },
+  {
+   "verse": 14,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 15,
+   "coined": "Σέρβος",
+   "verse_position": "9-9.5",
+   "verse_prev": "απημβροτε",
+   "verse_next": "ενικα",
+   "model": "Τεῦκρος",
+   "model_citation": "Il. 8.273",
+   "model_in_line": true,
+   "model_position": "9-9.5",
+   "model_prev": "ελε",
+   "model_next": "αμυμων",
+   "model_line": "ἔνθα τίνα πρῶτον Τρώων ἕλε Τεῦκρος ἀμύμων;",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 10,
+    "3-3.5": 3,
+    "6-7": 2,
+    "9-9.5": 2,
+    "5-5.5": 2
+   },
+   "condition": "before a vowel-initial word"
+  },
+  {
+   "verse": 19,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "γʼ",
+   "verse_next": "τοτʼ",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 20,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 23,
+   "coined": "Ζοκοβεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "αφαρ",
+   "model": "Ὀδυσεύς",
+   "model_citation": "Il. 10.340",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "διογενησ",
+   "model_next": "διομηδεα",
+   "model_line": "διογενὴς Ὀδυσεύς, Διομήδεα δὲ προσέειπεν·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 48,
+    "3.5-5": 32,
+    "5.5-7": 14
+   },
+   "condition": ""
+  },
+  {
+   "verse": 23,
+   "coined": "Ζοκοβεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "αφαρ",
+   "model": "Ἀχιλεύς",
+   "model_citation": "Il. 20.273",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προιει",
+   "model_line": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 19,
+    "3.5-5": 15,
+    "5.5-7": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 24,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυθʼ",
+   "verse_next": "δαμασεν",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 25,
+   "coined": "Φεδερεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "προιει",
+   "model": "Ἀχιλεύς",
+   "model_citation": "Il. 20.273",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προιει",
+   "model_line": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 19,
+    "3.5-5": 15,
+    "5.5-7": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 27,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 27,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 29,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 29,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 17.304",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Ἕκτωρ δʼ αὖτʼ Αἴαντος ἀκόντισε δουρὶ φαεινῷ·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": "name + δʼ αὖτʼ at 1-3"
+  },
+  {
+   "verse": 29,
+   "coined": "Φεδερῆρον",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθον",
+   "verse_next": null,
+   "model": "Μενέλαον",
+   "model_citation": "Il. 4.220",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθον",
+   "model_next": null,
+   "model_line": "ὄφρα τοὶ ἀμφεπένοντο βοὴν ἀγαθὸν Μενέλαον,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 20,
+    "3.5-5.5": 10,
+    "7.5-9.5": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 30,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 32,
+   "coined": "Φεδερεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "δη",
+   "verse_next": "αφαρ",
+   "model": "Ἀχιλεύς",
+   "model_citation": "Il. 20.273",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προιει",
+   "model_line": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 19,
+    "3.5-5": 15,
+    "5.5-7": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 33,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "δευτερον",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 33,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "δευτερον",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 34,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 8.91",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "εἰ μὴ ἄρʼ ὀξὺ νόησε βοὴν ἀγαθὸς Διομήδης·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 36,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "κρατεροσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 4.401",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "κρατεροσ",
+   "model_next": null,
+   "model_line": "ὣς φάτο, τὸν δʼ οὔ τι προσέφη κρατερὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "after κρατερός"
+  },
+  {
+   "verse": 38,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 38,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Τρῶες",
+   "model_citation": "Il. 8.55",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Τρῶες δʼ αὖθʼ ἑτέρωθεν ἀνὰ πτόλιν ὁπλίζοντο",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 33,
+    "4-5": 32,
+    "1-1.5": 22,
+    "5-5.5": 15,
+    "6-7": 13,
+    "8-9": 11,
+    "2-3": 8,
+    "10-11": 4,
+    "9-9.5": 3,
+    "3-3.5": 1
+   },
+   "condition": "before δʼ αὖθʼ ἑτέρωθεν"
+  },
+  {
+   "verse": 43,
+   "coined": "Σέρβον",
+   "verse_position": "3-3.5",
+   "verse_prev": "τοτε",
+   "verse_next": "ανηκε",
+   "model": "Τεῦκρος",
+   "model_citation": "Il. 12.350",
+   "model_in_line": true,
+   "model_position": "3-3.5",
+   "model_prev": "οι",
+   "model_next": "αμα",
+   "model_line": "καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 10,
+    "3-3.5": 3,
+    "6-7": 2,
+    "9-9.5": 2,
+    "5-5.5": 2
+   },
+   "condition": "before a vowel-initial word"
+  },
+  {
+   "verse": 44,
+   "coined": "Ζοκοβεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "επι",
+   "model": "Ὀδυσεύς",
+   "model_citation": "Il. 10.340",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "διογενησ",
+   "model_next": "διομηδεα",
+   "model_line": "διογενὴς Ὀδυσεύς, Διομήδεα δὲ προσέειπεν·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 48,
+    "3.5-5": 32,
+    "5.5-7": 14
+   },
+   "condition": ""
+  },
+  {
+   "verse": 44,
+   "coined": "Ζοκοβεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "επι",
+   "model": "Ἀχιλεύς",
+   "model_citation": "Il. 20.273",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προιει",
+   "model_line": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 19,
+    "3.5-5": 15,
+    "5.5-7": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 51,
+   "coined": "Ἑλβετίου",
+   "verse_position": "3-5",
+   "verse_prev": "αρʼ",
+   "verse_next": "την",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 51,
+   "coined": "Ζοκοβῆος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεου",
+   "verse_next": null,
+   "model": "Ὀδυσῆος",
+   "model_citation": "Od. 20.369",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεου",
+   "model_next": null,
+   "model_line": "μνηστήρων, οἳ δῶμα κάτʼ ἀντιθέου Ὀδυσῆος",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 37,
+    "3.5-5.5": 25,
+    "1.5-3.5": 1,
+    "7.5-9.5": 1
+   },
+   "condition": "after ἀντιθέου"
+  },
+  {
+   "verse": 52,
+   "coined": "Ἑλβετίου",
+   "verse_position": "7-9",
+   "verse_prev": "δʼ",
+   "verse_next": "κακον",
+   "model": "Ἀτρεΐδης",
+   "model_citation": "Il. 14.29",
+   "model_in_line": true,
+   "model_position": "7-9",
+   "model_prev": "και",
+   "model_next": "αγαμεμνων",
+   "model_line": "Τυδεΐδης Ὀδυσεύς τε καὶ Ἀτρεΐδης Ἀγαμέμνων.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 42,
+    "3-5": 34,
+    "7-9": 5,
+    "5-7": 1,
+    "9-11": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 53,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "κρατεροσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 4.401",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "κρατεροσ",
+   "model_next": null,
+   "model_line": "ὣς φάτο, τὸν δʼ οὔ τι προσέφη κρατερὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "after κρατερός"
+  },
+  {
+   "verse": 54,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "γʼ",
+   "verse_next": "τοτʼ",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 55,
+   "coined": "Νοβήκος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "δευτερον",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 56,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυτʼ",
+   "verse_next": "προιει",
+   "model": "Ἀντίνοος",
+   "model_citation": "Od. 1.383",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προσεφη",
+   "model_line": "τὸν δʼ αὖτʼ Ἀντίνοος προσέφη, Εὐπείθεος υἱός·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 21,
+    "1-3": 13
+   },
+   "condition": "after αὖτʼ"
+  },
+  {
+   "verse": 56,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυτʼ",
+   "verse_next": "προιει",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 56,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αψ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "bare name at 9.5-12"
+  },
+  {
+   "verse": 57,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Σαρπηδών",
+   "model_citation": "Il. 16.466",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Σαρπηδὼν δʼ αὐτοῦ μὲν ἀπήμβροτε δουρὶ φαεινῷ",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 10,
+    "3-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 57,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Πηλεΐδης",
+   "model_citation": "Il. 20.164",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "condition": ""
+  },
+  {
+   "verse": 58,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 58,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 17.304",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Ἕκτωρ δʼ αὖτʼ Αἴαντος ἀκόντισε δουρὶ φαεινῷ·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": "name + δʼ αὖτʼ at 1-3"
+  }
+ ],
+ "note_counts": {
+  "Διομήδης": {
+   "9.5-12": 44,
+   "5.5-8": 1
+  },
+  "κρατερὸς Διομήδης": {
+   "7.5-12": 19,
+   "3.5-8": 1
+  },
+  "Τεῦκρος": {
+   "1-2": 10,
+   "3-3.5": 3,
+   "6-7": 2,
+   "9-9.5": 2,
+   "5-5.5": 2
+  },
+  "Παλλὰς": {
+   "9-9.5": 41,
+   "1-1.5": 9
+  },
+  "Φοῖβος": {
+   "9-9.5": 34,
+   "5-5.5": 5,
+   "1-1.5": 1
+  },
+  "Ἀχαιῶν": {
+   "10-12": 274,
+   "6-8": 96,
+   "2-4": 5
+  },
+  "Ἀπόλλων": {
+   "10-12": 103,
+   "2-4": 5,
+   "6-8": 4
+  },
+  "Ὀδυσσεύς": {
+   "10-12": 292,
+   "2-4": 15,
+   "6-8": 2
+  },
+  "Μελανθώ": {
+   "6-8": 2
+  },
+  "Ἀτρεΐδης": {
+   "1-3": 42,
+   "3-5": 34,
+   "7-9": 5,
+   "5-7": 1,
+   "9-11": 1
+  },
+  "ατρειδ (loose substring, the records' query)": {
+   "1-3": 101,
+   "3-5": 64,
+   "9-12": 20,
+   "3-5.5": 10,
+   "7-9": 8,
+   "7-9.5": 4,
+   "5-7": 2,
+   "9-11": 1
+  },
+  "δαρδανιδης --word": {
+   "3-5": 2,
+   "1-3": 2
+  },
+  "Ἀντίνοος": {
+   "3-5": 21,
+   "1-3": 13
+  },
+  "* δʼ αὖτʼ": {
+   "1-2": 45,
+   "1-3": 20,
+   "3-5": 6,
+   "6-7": 3,
+   "4-5": 2,
+   "3.5-5": 1,
+   "1-4": 1,
+   "5.5-7": 1
+  },
+  "Ἕκτωρ δʼ αὖτʼ": [
+   "Il. 3.76@3-5",
+   "Il. 17.304@1-3"
+  ],
+  "Αἴας δʼ αὖτʼ": [
+   "Il. 14.469@1-3"
+  ],
+  "τρὶς δέ μιν": 0,
+  "δαμασεν --word": 0,
+  "ἔκφερε --word": 0,
+  "δαΐφρονε --word": 0,
+  "ὣς τότε": {
+   "1-2": 13
+  },
+  "πολλάκι δή": {
+   "1-3": 1
+  }
+ },
+ "rho_initial_at_6_after_vowel_final_word_at_5.5": {
+  "count": 16,
+  "examples": [
+   "Il. 5.88: ωκα ρεων | χειμάρρῳ, ὅς τʼ ὦκα ῥέων ἐκέδασσε γεφύρας·",
+   "Il. 5.340: τε ρεει | ἰχώρ, οἷός πέρ τε ῥέει μακάρεσσι θεοῖσιν·",
+   "Il. 5.545: ευρυ ρεει | Ἀλφειοῦ, ὅς τʼ εὐρὺ ῥέει Πυλίων διὰ γαίης,",
+   "Il. 9.208: σιαλοιο ραχιν | ἐν δὲ συὸς σιάλοιο ῥάχιν τεθαλυῖαν ἀλοιφῇ.",
+   "Il. 14.172: το ρα | ἀμβροσίῳ ἑδανῷ, τό ῥά οἱ τεθυωμένον ἦεν·",
+   "Il. 16.719: ναιεσκε ροησ | ὃς Φρυγίῃ ναίεσκε ῥοῇς ἔπι Σαγγαρίοιο·",
+   "Il. 17.750: πασι ροον | ἴσχει, ἄφαρ δέ τε πᾶσι ῥόον πεδίον δὲ τίθησι",
+   "Il. 18.240: ωκεανοιο ροασ | πέμψεν ἐπʼ Ὠκεανοῖο ῥοὰς ἀέκοντα νέεσθαι·",
+   "Od. 3.455: αιμα ρυη | τῆς δʼ ἐπεὶ ἐκ μέλαν αἷμα ῥύη, λίπε δʼ ὀστέα θυμός,",
+   "Od. 4.66: τα ρα | ὄπτʼ ἐν χερσὶν ἑλών, τά ῥά οἱ γέρα πάρθεσαν αὐτῷ.",
+   "Od. 6.85: ποταμοιο ροον | αἱ δʼ ὅτε δὴ ποταμοῖο ῥόον περικαλλέʼ ἵκοντο,",
+   "Od. 9.450: δε ροασ | μακρὰ βιβάς, πρῶτος δὲ ῥοὰς ποταμῶν ἀφικάνεις,"
+  ]
+ },
+ "position_field_mismatches": [
+  {
+   "n": 1,
+   "k": 7,
+   "text": "τὼ περὶ",
+   "position_field": "1-2",
+   "verse_position": [
+    "9-10"
+   ],
+   "homer_positions": {
+    "1-2": 1
+   }
+  },
+  {
+   "n": 4,
+   "k": 6,
+   "text": "ἀντίθεος Γανυμήδης / Θρασυμήδης / Κλυτόνηος → ἀντίθεος Ζοκοβείδης (SSLL at 9.5-12)",
+   "position_field": "7-12",
+   "verse_position": [
+    "5.5-9"
+   ],
+   "homer_positions": {
+    "5.5-9": 3
+   }
+  },
+  {
+   "n": 12,
+   "k": 2,
+   "text": "δὲ πρῶτος",
+   "position_field": "3-5",
+   "verse_position": [
+    "4-5.5"
+   ],
+   "homer_positions": {
+    "3-5": 7,
+    "4-5.5": 5
+   }
+  },
+  {
+   "n": 22,
+   "k": 0,
+   "text": "σφαῖραν",
+   "position_field": "1-1.5",
+   "verse_position": [
+    "1-2"
+   ],
+   "homer_positions": {
+    "1-1.5": 1,
+    "4-5": 1
+   }
+  },
+  {
+   "n": 22,
+   "k": 1,
+   "text": "ἀμφοτέρω",
+   "position_field": "1-3",
+   "verse_position": [
+    "3-5"
+   ],
+   "homer_positions": {
+    "1-3": 15,
+    "3-5": 4
+   }
+  },
+  {
+   "n": 22,
+   "k": 2,
+   "text": "βάλλον",
+   "position_field": "1-1.5",
+   "verse_position": [
+    "6-7"
+   ],
+   "homer_positions": {
+    "1-1.5": 4,
+    "1-2": 3,
+    "11-12": 2,
+    "5-5.5": 2
+   }
+  },
+  {
+   "n": 22,
+   "k": 5,
+   "text": "πάλιν",
+   "position_field": "6-7",
+   "verse_position": [
+    "7.5-8"
+   ],
+   "homer_positions": {
+    "6-7": 24,
+    "7.5-8": 11,
+    "5.5-6": 11,
+    "2-3": 5,
+    "3.5-4": 4,
+    "9.5-10": 1,
+    "1.5-2": 1
+   }
+  },
+  {
+   "n": 28,
+   "k": 3,
+   "text": "ἔλαβεν",
+   "position_field": "5.5-7",
+   "verse_position": [
+    "3.5-5"
+   ],
+   "homer_positions": {
+    "5.5-7": 2,
+    "1.5-3": 1
+   }
+  },
+  {
+   "n": 31,
+   "k": 2,
+   "text": "καμάτῳ",
+   "position_field": "3.5-5",
+   "verse_position": [
+    "5.5-7"
+   ],
+   "homer_positions": {
+    "3.5-5": 10,
+    "5.5-7": 4
+   }
+  },
+  {
+   "n": 48,
+   "k": 2,
+   "text": "πολλάκι δὴ",
+   "position_field": "1-3",
+   "verse_position": [
+    "3-5"
+   ],
+   "homer_positions": {
+    "1-3": 1
+   }
+  },
+  {
+   "n": 48,
+   "k": 3,
+   "text": "πολλάκι",
+   "position_field": "1-2",
+   "verse_position": [
+    "3-4"
+   ],
+   "homer_positions": {
+    "1-2": 9,
+    "7-8": 2
+   }
+  },
+  {
+   "n": 60,
+   "k": 1,
+   "text": "τέλος",
+   "position_field": "6-7",
+   "verse_position": [
+    "3.5-4"
+   ],
+   "homer_positions": {
+    "6-7": 17,
+    "7.5-8": 7,
+    "10-11": 2,
+    "2-3": 1,
+    "4-5": 1,
+    "5.5-6": 1
+   }
+  }
+ ]
+}
