@@ -421,3 +421,8 @@ No modern proper name except the two players' renderings. For Wimbledon use no n
 1. Name slots: §4's slot lists were tests, not an exhaustive licence. Any slot where `check_line.py` passes with no flags and no unattested licence is allowed; record the slot in the jsonl.
 2. Djokovic renderings replaced (review/round_1.md R3): **Ζοκοβείδης** (SSLL; patronymic in -είδης from Ζοκοβεύς, model Πηλείδης: verify) for the Διομήδης slot; **Νοβήκος** (SLX, Ionic η for ᾱ) for the Ὀδυσσεύς/Ἀχιλλεύς slot after a vowel-final word; Σέρβος and Ζοκοβεύς unchanged. Ζοκοβίδης and Νοβάκος are withdrawn.
 3. Ῥογῆρος must not stand before ἰσόθεος φώς (R2). δίς + verb is not allowed (R4); ἐξενάριξε at most twice, inside the aristeia (R5); πάλιν only as "back" (R6).
+
+## Addendum A2 (after round 2, orchestrator)
+1. The Ionic form of Novak is **Νοβῆκος** (circumflex), replacing Νοβήκος in A1.
+2. Ζοκοβεύς denotes the eponym (Đoko), never Novak Djokovic himself; Djokovic's forms are Ζοκοβείδης (gen. Ζοκοβείδαο / Ζοκοβείδεω, to be verified against Πηλεΐδαο / Πηληϊάδεω), Σέρβος, Νοβῆκος. Models for -είδης: Ἀμαρυγκείδην Il. 4.517, Ἀτρείδης Od. 15.52, Πηλείδη Il. 1.277.
+3. Counting must match the facts: δεύτερον αὖτις narrates one repeated action.
