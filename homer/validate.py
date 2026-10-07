@@ -47,7 +47,7 @@ CAUSE = {
     "metrical_lengthening": "metrical lengthening of a short vowel in arsis",
     "lengthening_hiatus": "short final vowel lengthened in arsis before a vowel",
     "no_position_initial_cluster": "no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος)",
-    "accent_contra": "α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν)",
+    "accent_contra": "α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long)",
     "dichronon_contra": "α/ι/υ contrary to attested quantity",
     "analogy_contra": "α/ι/υ contrary to analogy",
 }
@@ -86,6 +86,60 @@ def cite(r):
     return f"{r['work']}. {r['book']}.{r['line']}"
 
 
+MONRO = {
+    "correption": "§380", "hiatus_long": "§380", "hiatus": "§§379, 382", "internal_correption": "§§381, 384",
+    "muta_cum_liquida": "§370", "muta_cum_liquida_initial": "§370", "no_position_initial_cluster": "§370",
+    "lengthening_liquid": "§§371-372", "lengthening_liquid_internal": "§§371-372",
+    "lengthening_closed": "§375", "lengthening_hiatus": "§§375, 390 (ἰάχω)", "metrical_lengthening": "§§386-387",
+    "synizesis": "§378", "synizesis_i": "§378", "synizesis_cross": "§378", "synizesis_rare": "§378",
+    "synizesis_cross_rare": "§378", "digamma": "§§388-392", "digamma_double": "§§391, 394",
+    "digamma_internal": "§394", "dichronon_contra": "§§383-384", "analogy_contra": "-",
+    "accent_contra": "§§373, 375",
+}
+
+
+def fill_block(txt, name, lines):
+    pat = re.compile(rf"<!-- BEGIN GENERATED: {re.escape(name)} -->.*?<!-- END GENERATED: {re.escape(name)} -->",
+                     re.S)
+    block = "\n".join([f"<!-- BEGIN GENERATED: {name} -->"] + lines + [f"<!-- END GENERATED: {name} -->"])
+    return pat.sub(lambda m: block, txt)
+
+
+def text_block(counts):
+    out = ["| poem | books | lines | line numbers absent in the edition |", "|---|---|---|---|"]
+    for wk in ("Il", "Od"):
+        rows = [r for r in counts if r["work"] == wk and r["book"] != "ALL"]
+        total = next(r["lines"] for r in counts if r["work"] == wk and r["book"] == "ALL")
+        missing = "; ".join(f"{r['book']}.{r['missing_numbers'].replace(',', ', ')}" for r in rows
+                            if r["missing_numbers"])
+        out.append(f"| {wk} | {len(rows)} | {total} | {missing or '-'} |")
+    lines = S.read_lines()
+    br = [f"{l['work']}. {l['book']}.{l['line']}" for l in lines if l.get("bracketed") == "1"]
+    out.append("")
+    out.append(f"Lines marked `<del>` (bracketed) in the TEI: {', '.join(br) or 'none'}.")
+    return out
+
+
+def licence_block():
+    counts = collections.Counter()
+    forms = collections.defaultdict(list)
+    with open(HERE / "licences.tsv", encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE, escapechar="\\"):
+            counts[r["licence"]] += int(r["count"])
+            if len(forms[r["licence"]]) < 3:
+                forms[r["licence"]].append(f"{r['form']} ({r['citations'].split('; ')[0]})")
+    def t(x):
+        return "-" if x == 9 else str(x)
+    out = ["| licence | tier princeps / biceps | cost p / b | description | Monro | instances in uniquely scanned lines | examples (word, first citation @ position) |",
+           "|---|---|---|---|---|---|---|"]
+    for nm, (tp, cp, tb, cb, desc) in S.LICENCES.items():
+        cps = "-" if cp == float("inf") else f"{cp:g}"
+        cbs = "-" if cb == float("inf") else f"{cb:g}"
+        out.append(f"| `{nm}` | {t(tp)} / {t(tb)} | {cps} / {cbs} | {desc} | {MONRO.get(nm, '-')} | "
+                   f"{counts.get(nm, 0)} | {'; '.join(forms.get(nm, [])) or '-'} |")
+    return out
+
+
 def lic_tier(nm, pos):
     """Tier of a licence instance: princeps (odd integer position) or biceps."""
     princeps = pos.isdigit() and int(pos) % 2 == 1
@@ -102,7 +156,7 @@ def primary_cause(res):
             if nm in CAUSE and nm not in ("dichronon_contra", "analogy_contra")]
     inst = [(nm, pos) for nm, pos in inst if lic_tier(nm, pos) >= 1 or nm == "accent_contra"]
     if not inst:
-        return "resolved by α/ι/υ preferences or ranking", []
+        return "α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long)", []
     best = max(inst, key=lambda x: (lic_tier(*x), S.LICENCES[x[0]][1] if lic_tier(*x) == S.LICENCES[x[0]][0]
                                      else S.LICENCES[x[0]][3]))
     return CAUSE[best[0]], [nm for nm, _ in inst]
@@ -275,10 +329,12 @@ def main():
                              f"{100 * float(p['freq_orth']):.2f}%)" for p in rare) + ".\n")
     (HERE / "validation.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
-    # generated block in README
+    # generated blocks in README
     readme = HERE / "README.md"
     if readme.exists():
         txt = readme.read_text(encoding="utf-8")
+        txt = fill_block(txt, "text", text_block(counts))
+        txt = fill_block(txt, "licences", licence_block())
         block = ["<!-- BEGIN GENERATED: validate.py -->",
                  f"Lines: Iliad {n_il}, Odyssey {n_od}, total {n_il + n_od}.",
                  "",

@@ -14,7 +14,7 @@ Text: 15687 Iliad lines + 12107 Odyssey lines = 27794 lines (homer/lines.tsv).
 
 | lines | unique | multiple | of which tied best | fail |
 |---|---|---|---|---|
-| 27794 | 26876 (96.70%) | 913 (3.28%) | 38 (0.14%) | 5 (0.02%) |
+| 27794 | 27142 (97.65%) | 647 (2.33%) | 33 (0.12%) | 5 (0.02%) |
 
 Rows of homer/scansion.tsv whose pattern agrees with this rerun: 27794 of 27794.
 
@@ -22,10 +22,10 @@ By poem (final):
 
 | poem | lines | unique | multiple | fail |
 |---|---|---|---|---|
-| Il | 15687 | 15114 (96.35%) | 570 (3.63%) | 3 (0.02%) |
-| Od | 12107 | 11762 (97.15%) | 343 (2.83%) | 2 (0.02%) |
+| Il | 15687 | 15309 (97.59%) | 375 (2.39%) | 3 (0.02%) |
+| Od | 12107 | 11833 (97.74%) | 272 (2.25%) | 2 (0.02%) |
 
-Lowest tier needed (final): tier 0 24727, tier 1 2960, tier 2 102 lines.
+Lowest tier needed (final): tier 0 25786, tier 1 1901, tier 2 102 lines.
 
 ## Iterations and ablations
 
@@ -35,33 +35,34 @@ Lowest tier needed (final): tier 0 24727, tier 1 2960, tier 2 102 lines.
 | core | 94.48% | 0.34% | 0.04% | 1438 (5.17%) |
 | tier<=1 | 97.95% | 1.66% | 0.22% | 107 (0.38%) |
 | pass 1 | 98.07% | 1.91% | 0.26% | 5 (0.02%) |
-| final | 96.70% | 3.28% | 0.14% | 5 (0.02%) |
-| final, no digamma list | 96.01% | 3.85% | 0.15% | 37 (0.13%) |
-| final, accent rules off | 96.83% | 3.15% | 0.14% | 5 (0.02%) |
-| final, accent rules hard | 96.72% | 3.27% | 0.14% | 5 (0.02%) |
+| final | 97.65% | 2.33% | 0.12% | 5 (0.02%) |
+| final, no digamma list | 96.95% | 2.91% | 0.13% | 37 (0.13%) |
+| final, accent rules off | 97.79% | 2.19% | 0.12% | 5 (0.02%) |
+| final, accent rules hard | 97.65% | 2.33% | 0.12% | 5 (0.02%) |
 
-Patterns changed between pass 1 and the final configuration: 156 lines.
+Patterns changed between pass 1 and the final configuration: 146 lines.
 
-The first version of the scanner (row v1: accent rules as hard constraints; no internal δϝ, no rare or generic cross-word synizesis, no internal lengthening before liquids) failed 31 lines: Il. 1.277, Il. 3.424, Il. 4.10, Il. 6.45, Il. 9.5, Il. 10.292, Il. 10.572, Il. 11.36, Il. 13.624, Il. 14.211, Il. 16.857, Il. 17.89, Il. 18.458, Il. 20.40, Il. 22.19, Il. 22.363, Il. 23.195, Il. 23.425, Il. 23.493, Il. 24.6, Il. 24.769, Od. 3.382, Od. 8.267, Od. 10.36, Od. 10.60, Od. 10.219, Od. 10.251, Od. 13.184, Od. 13.194, Od. 13.364, Od. 24.247.  Examining them led to the rule changes recorded in the README (accent rules made soft: βλοσυρῶπις, ἦνιν; ἔδεισα = ἔδδεισα; Πηλείδη ἔθελʼ; ἐλίσσετο; ἤιομεν).  The other ablation rows show the effect of single components on the final rule set.
+An emulation of the first version of the scanner (row v1: accent rules as hard constraints; no internal δϝ, no rare or generic cross-word synizesis, no internal lengthening before liquids) failed 31 lines: Il. 1.277, Il. 3.424, Il. 4.10, Il. 6.45, Il. 9.5, Il. 10.292, Il. 10.572, Il. 11.36, Il. 13.624, Il. 14.211, Il. 16.857, Il. 17.89, Il. 18.458, Il. 20.40, Il. 22.19, Il. 22.363, Il. 23.195, Il. 23.425, Il. 23.493, Il. 24.6, Il. 24.769, Od. 3.382, Od. 8.267, Od. 10.36, Od. 10.60, Od. 10.219, Od. 10.251, Od. 13.184, Od. 13.194, Od. 13.364, Od. 24.247.  Examining them led to the rule changes recorded in the README (accent rules made soft: βλοσυρῶπις, ἦνιν; ἔδεισα = ἔδδεισα; Πηλείδη ἔθελʼ; ἐλίσσετο; ἤιομεν).  The other ablation rows show the effect of single components on the final rule set.
 
 ## Failure taxonomy: sample of 50 core (tier-0) failures
 
-The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20261007) is classified by the licence the full scanner (pass 1, α/ι/υ free) needs for the line (its highest-tier licence):
+The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20261007) is classified by the highest-tier metrical licence used in the line's final scansion:
 
 | cause | in sample | in all core failures |
 |---|---|---|
-| closed final syllable lengthened in arsis before a vowel | 15 | 342 |
-| synizesis (within a word: θεοί, -εω, χρυσέῳ) | 11 | 333 |
-| short final vowel lengthened before λ μ ν ρ σ | 11 | 285 |
-| long vowel kept before a vowel in the biceps | 4 | 166 |
-| internal correption (οἷος, υἱός, ἥρωος) | 2 | 101 |
-| α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | 1 | 41 |
-| synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 40 |
-| metrical lengthening of a short vowel in arsis | 1 | 38 |
-| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 24 |
+| closed final syllable lengthened in arsis before a vowel | 15 | 361 |
+| synizesis (within a word: θεοί, -εω, χρυσέῳ) | 9 | 324 |
+| short final vowel lengthened before λ μ ν ρ σ | 11 | 282 |
+| long vowel kept before a vowel in the biceps | 4 | 174 |
+| internal correption (οἷος, υἱός, ἥρωος) | 2 | 84 |
+| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 42 |
+| metrical lengthening of a short vowel in arsis | 1 | 40 |
+| synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 31 |
+| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 25 |
 | σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 24 |
-| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 17 |
+| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 14 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 0 | 10 |
+| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 1 | 10 |
 | short final vowel lengthened in arsis before a vowel | 1 | 5 |
 | still unscannable (see failure notes) | 0 | 5 |
 | other synizesis across words | 0 | 4 |
@@ -82,12 +83,12 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 | Il. 4.103 | οἴκαδε νοστήσας ἱερῆς εἰς ἄστυ Ζελείης. | DSDSDS | no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | no_position_initial_cluster@9.5(Ζελείης) |
 | Il. 5.387 | χαλκέῳ δʼ ἐν κεράμῳ δέδετο τρισκαίδεκα μῆνας· | SDDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@2(χαλκέῳ) |
 | Il. 5.818 | ἀλλʼ ἔτι σέων μέμνημαι ἐφετμέων ἃς ἐπέτειλας· | DSDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@3(σέων), synizesis@8(ἐφετμέων) |
-| Il. 7.142 | τὸν Λυκόοργος ἔπεφνε δόλῳ, οὔ τι κράτεΐ γε, | DDDSSS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | hiatus_long@7(δόλῳ), synizesis@11(κράτεΐ) |
+| Il. 7.142 | τὸν Λυκόοργος ἔπεφνε δόλῳ, οὔ τι κράτεΐ γε, | DDDSDS | α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | hiatus_long@7(δόλῳ), accent_contra@11(κράτεΐ) |
 | Il. 7.159 | ὑμέων δʼ οἵ περ ἔασιν ἀριστῆες Παναχαιῶν | SDDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@2(ὑμέων) |
 | Il. 7.167 | τοῖσι δʼ ἐπʼ Εὐρύπυλος Εὐαίμονος ἀγλαὸς υἱός, | DDSDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(Εὐρύπυλος) |
 | Il. 7.418 | ἀμφότερον νέκυάς τʼ ἀγέμεν ἕτεροι δὲ μεθʼ ὕλην· | DDDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@7(ἀγέμεν) |
 | Il. 8.158 | αὖτις ἀνʼ ἰωχμόν· ἐπὶ δὲ Τρῶές τε καὶ Ἕκτωρ | DSDSDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(ἰωχμόν) |
-| Il. 8.267 | στῆ δʼ ἄρʼ ὑπʼ Αἴαντος σάκεϊ Τελαμωνιάδαο. | DSSDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@7(σάκεϊ) |
+| Il. 8.267 | στῆ δʼ ἄρʼ ὑπʼ Αἴαντος σάκεϊ Τελαμωνιάδαο. | DSDDDS | α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | accent_contra@7(σάκεϊ) |
 | Il. 9.191 | δέγμενος Αἰακίδην ὁπότε λήξειεν ἀείδων, | DDDSDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@7(λήξειεν) |
 | Il. 11.378 | ἐν γαίῃ κατέπηκτο· ὃ δὲ μάλα ἡδὺ γελάσσας | SDDDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@7(μάλα) |
 | Il. 11.618 | οἳ δʼ ὅτε δὴ κλισίην Νηληϊάδεω ἀφίκοντο, | DDSDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | hiatus_long@9(Νηληϊάδεω), synizesis@9(Νηληϊάδεω) |
@@ -110,8 +111,8 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 | Od. 8.452 | ἐπεὶ δὴ λίπε δῶμα Καλυψοῦς ἠυκόμοιο. | SDDSDS | metrical lengthening of a short vowel in arsis | metrical_lengthening@1(ἐπεὶ) |
 | Od. 9.154 | ὦρσαν δὲ νύμφαι, κοῦραι Διὸς αἰγιόχοιο, | SSSDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@3(νύμφαι) |
 | Od. 10.353 | πορφύρεα καθύπερθʼ, ὑπένερθε δὲ λῖθʼ ὑπέβαλλεν· | SDDDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@3(πορφύρεα) |
-| Od. 10.574 | ὀφθαλμοῖσιν ἴδοιτʼ ἢ ἔνθʼ ἢ ἔνθα κιόντα; | SDSSSS | synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | synizesis_cross@6(ἢ), hiatus_long@7(ἢ) |
-| Od. 11.28 | τὸ τρίτον αὖθʼ ὕδατι· ἐπὶ δʼ ἄλφιτα λευκὰ πάλυνον. | DDDDDS | α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | hiatus_long@5(ὕδατι), accent_contra@5(ὕδατι) |
+| Od. 10.574 | ὀφθαλμοῖσιν ἴδοιτʼ ἢ ἔνθʼ ἢ ἔνθα κιόντα; | SSSSDS | synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | hiatus_long@7(ἢ), synizesis_cross@9(ἢ) |
+| Od. 11.28 | τὸ τρίτον αὖθʼ ὕδατι· ἐπὶ δʼ ἄλφιτα λευκὰ πάλυνον. | DDDDDS | α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | hiatus_long@5(ὕδατι), dichronon_contra@5(ὕδατι) |
 | Od. 11.322 | κούρην Μίνωος ὀλοόφρονος, ἥν ποτε Θησεὺς | SSDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(Μίνωος) |
 | Od. 11.602 | εἴδωλον· αὐτὸς δὲ μετʼ ἀθανάτοισι θεοῖσι | SSDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@3(εἴδωλον) |
 | Od. 15.243 | Ἀντιφάτης μὲν ἔτικτεν Ὀϊκλῆα μεγάθυμον, | DDDSDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@9(μεγάθυμον) |
@@ -128,9 +129,9 @@ Lines that still fail with tiers 0-1 (107), by the tier-2 licence they need:
 
 | cause | lines |
 |---|---|
-| metrical lengthening of a short vowel in arsis | 38 |
-| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 24 |
-| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 17 |
+| metrical lengthening of a short vowel in arsis | 40 |
+| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 25 |
+| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 14 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 10 |
 | short final vowel lengthened in arsis before a vowel | 5 |
 | still unscannable (see failure notes) | 5 |
@@ -158,17 +159,17 @@ homer/manual_checks.tsv records scansions made by hand (by reasoning, not from t
 
 ## Internal consistency of α/ι/υ
 
-homer/dichrona.tsv: 17360 (form, vowel) pairs fixed by 75838 unambiguous attestations; 2635 long, 14678 short, 47 with conflicting attestations (minority attestations: 200, 0.26% of all).  Conflicts are mostly genuine Homeric doubtful vowels (Ἄρης, ἀνήρ, ὕδωρ, λίην, ἱερός, ἵκω) and homographs (δύω 'two' / 'sink'; ἰῷ 'one' / 'arrow').
+homer/dichrona.tsv: 20191 (form, vowel) pairs fixed by 85254 unambiguous attestations; 2596 long, 17509 short, 86 with conflicting attestations (minority attestations: 297, 0.35% of all).  Conflicts are mostly genuine Homeric doubtful vowels (Ἄρης, ἀνήρ, ὕδωρ, λίην, ἱερός, ἵκω) and homographs (δύω 'two' / 'sink'; ἰῷ 'one' / 'arrow').
 
 Analogy predictor (quantity of a word-internal α/ι/υ from other forms beginning with the same letters up to the next vowel), leave-one-form-out:
 
 | key | forms | predicted | coverage | accuracy |
 |---|---|---|---|---|
-| extra=0 | 13347 | 7115 | 53.31% | 99.14% |
-| extra=1 | 13447 | 4880 | 36.29% | 99.47% |
-| extra=2 | 13447 | 2765 | 20.56% | 99.39% |
+| extra=0 | 15776 | 7822 | 49.58% | 99.09% |
+| extra=1 | 16238 | 5593 | 34.44% | 99.3% |
+| extra=2 | 16238 | 3277 | 20.18% | 99.33% |
 
 ## Word-end baseline
 
-Positions where Homer has (lexical) word end in fewer than 1% of the lines in which the position exists: 7.5 (0.92%; orthographic 6.71%).
+Positions where Homer has (lexical) word end in fewer than 1% of the lines in which the position exists: 7.5 (0.91%; orthographic 6.66%).
 

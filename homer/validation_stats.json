@@ -29,79 +29,79 @@
  },
  "pass2": {
   "lines": 27794,
-  "unique": 26876,
-  "unique_pct": 96.697,
-  "multiple": 913,
-  "multiple_pct": 3.285,
+  "unique": 27142,
+  "unique_pct": 97.654,
+  "multiple": 647,
+  "multiple_pct": 2.328,
   "fail": 5,
   "fail_pct": 0.018,
   "error": 0,
   "error_pct": 0.0,
   "tiers": {
-   "1": 2960,
-   "0": 24727,
+   "1": 1901,
+   "0": 25786,
    "2": 102
   },
   "Il": {
    "lines": 15687,
-   "unique": 15114,
-   "multiple": 570,
+   "unique": 15309,
+   "multiple": 375,
    "fail": 3
   },
   "Od": {
    "lines": 12107,
-   "unique": 11762,
-   "multiple": 343,
+   "unique": 11833,
+   "multiple": 272,
    "fail": 2
   }
  },
  "dichrona": {
-  "forms_vowels": 17360,
-  "L": 2635,
-  "S": 14678,
-  "conflict": 47,
-  "attestations": 75838,
-  "conflict_attestations_minority": 200
+  "forms_vowels": 20191,
+  "L": 2596,
+  "S": 17509,
+  "conflict": 86,
+  "attestations": 85254,
+  "conflict_attestations_minority": 297
  },
  "analogy": {
-  "keys": 5048,
-  "determined": 1022,
+  "keys": 6225,
+  "determined": 1213,
   "leave_one_out": {
    "extra=0": {
-    "forms": 13347,
-    "predicted": 7115,
-    "coverage_pct": 53.31,
-    "accuracy_pct": 99.14
+    "forms": 15776,
+    "predicted": 7822,
+    "coverage_pct": 49.58,
+    "accuracy_pct": 99.09
    },
    "extra=1": {
-    "forms": 13447,
-    "predicted": 4880,
-    "coverage_pct": 36.29,
-    "accuracy_pct": 99.47
+    "forms": 16238,
+    "predicted": 5593,
+    "coverage_pct": 34.44,
+    "accuracy_pct": 99.3
    },
    "extra=2": {
-    "forms": 13447,
-    "predicted": 2765,
-    "coverage_pct": 20.56,
-    "accuracy_pct": 99.39
+    "forms": 16238,
+    "predicted": 3277,
+    "coverage_pct": 20.18,
+    "accuracy_pct": 99.33
    }
   }
  },
  "licence_counts_unique_lines": {
-  "hiatus_long": 2217,
+  "hiatus_long": 2245,
   "synizesis": 257,
-  "hiatus": 743,
-  "analogy_contra": 649,
-  "digamma": 3386,
-  "correption": 8299,
+  "hiatus": 748,
+  "digamma": 3411,
+  "correption": 8363,
+  "analogy_contra": 81,
   "lengthening_closed": 287,
   "digamma_internal": 14,
-  "internal_correption": 396,
-  "muta_cum_liquida_initial": 609,
+  "muta_cum_liquida_initial": 610,
   "lengthening_liquid": 438,
   "digamma_double": 33,
-  "muta_cum_liquida": 93,
-  "dichronon_contra": 46,
+  "internal_correption": 75,
+  "muta_cum_liquida": 97,
+  "dichronon_contra": 51,
   "no_position_initial_cluster": 6,
   "lengthening_liquid_internal": 7,
   "accent_contra": 22,
@@ -111,9 +111,9 @@
   "synizesis_rare": 2
  },
  "positions": {
-  "lines_used": 26876
+  "lines_used": 27142
  },
- "pattern_changed_pass1_to_pass2": 156,
+ "pattern_changed_pass1_to_pass2": 146,
  "failures": [
   [
    "Il",
@@ -143,32 +143,32 @@
  ],
  "anomalies": {
   "hermann_bridge": 177,
-  "no_main_caesura": 52,
-  "diaeresis_after_3rd_foot": 31,
+  "no_main_caesura": 51,
+  "diaeresis_after_3rd_foot": 32,
   "rare_licence": 102,
-  "tied_best": 38,
+  "tied_best": 33,
   "fail": 5
  },
  "top_patterns": [
   [
    "DDDDDS",
-   5381
+   5385
   ],
   [
    "DSDDDS",
-   4044
+   4045
   ],
   [
    "SDDDDS",
-   3594
+   3596
   ],
   [
    "DDDSDS",
-   2410
+   2411
   ],
   [
    "SSDDDS",
-   2170
+   2168
   ],
   [
    "DSDSDS",
@@ -180,7 +180,7 @@
   ],
   [
    "DDSDDS",
-   1179
+   1178
   ],
   [
    "SSDSDS",
@@ -192,11 +192,11 @@
   ],
   [
    "SDSDDS",
-   811
+   810
   ],
   [
    "DDSSDS",
-   395
+   393
   ],
   [
    "SSSDDS",
@@ -215,12 +215,12 @@
    217
   ],
   [
-   "DSSSDS",
+   "SDSSDS",
    216
   ],
   [
-   "SDSSDS",
-   216
+   "DSSSDS",
+   215
   ],
   [
    "SSDDSS",
@@ -232,7 +232,7 @@
   ],
   [
    "SSSSDS",
-   86
+   87
   ],
   [
    "DSDSSS",
@@ -248,7 +248,7 @@
   ],
   [
    "DDSDSS",
-   59
+   58
   ],
   [
    "SDSDSS",
@@ -272,12 +272,12 @@
   ],
   [
    "SDSSSS",
-   6
+   5
   ],
   [
    "SSSSSS",
    5
   ]
  ],
- "runtime_s": 24.8
+ "runtime_s": 27.3
 }

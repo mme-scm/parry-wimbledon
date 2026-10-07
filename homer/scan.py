@@ -324,6 +324,7 @@ def syl_options(line, span):
     weak = False   # quantity only predicted by analogy: no internal correption
     if not merged and cls == "D" and i in line.force:
         cls = line.force[i]
+        weak = True   # a forced vowel quantity may not be undone by internal correption
     elif not merged and cls == "D":
         if i in line.learned:
             q = line.learned[i]
