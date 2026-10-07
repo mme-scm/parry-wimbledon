@@ -115,3 +115,9 @@ provide. Agents have not used them and will not.
 3. **Hand verdicts in `analysis/formulas/hand/`.** The referent of 25 descriptive epithets ("the champion", "the world
    number one", "the young man", ...) and the syntactic slot of a 40-expression validation sample were judged by the
    analyst. Please spot-check them.
+
+## Composition decisions taken provisionally (Phase 4, round 1)
+- **Greek renderings of "Djokovic".** The brief's Ζοκοβίδης needs a long ι that no Homeric -ίδης shows, and Νοβάκος a long non-Ionic ᾱ (review/philology_v1.md, lines 48, 50, 51). The orchestrator replaced them with Ζοκοβείδης (patronymic in -είδης from Ζοκοβεύς, as Πηλείδης from Πηλεύς; Đoković is itself a patronymic) and Νοβήκος (Ionic η for ᾱ). A Homerist may prefer another convention (e.g. keeping the Serbian vowel quantities and accepting a metre-only licence, or a different base name). Σέρβος and Ζοκοβεύς are unchanged; Ἑλβέτιος is a Latin-based coinage for "the Swiss", flagged as such in the brief.
+- **Ῥογῆρος ἰσόθεος φώς** was rejected because ς + ϝ making position is unattested for ἰσόθεος; the composer must use the name elsewhere. If a human judges the licence acceptable (cf. the general treatment of digamma after a consonant), lines 27/49 of v1 could be restored.
+- **ἐξεναρίζω for "won the game / broke serve"** is limited to the aristeia (two uses); a human may prefer to allow the metaphor throughout or to ban it.
+- **δίς + verb** ("twice") is avoided as un-Homeric (only δὶς τόσσον Od. 9.491); a human may accept it as an extension.

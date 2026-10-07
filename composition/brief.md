@@ -416,3 +416,8 @@ No modern proper name except the two players' renderings. For Wimbledon use no n
 
 ### 5.5 Deliverables
 `composition/drafts/v1.txt` (one line per verse, numbered) and `composition/drafts/v1.jsonl` (one record per verse: `n`, `text`, `scansion` from check_line, `enjambment`, `section` of 2.0, `clock` and `facts` from section 1, `sources` [{citation, position, count, status, query}], `name_formula`, `commentary_equivalent`, `quantity` flags, `notes`), plus a 10-line summary of what was attempted and which lines are weakest. Verification pipeline (PHASES.md Phase 4): scansion-verifier, provenance-verifier, philologist; a line passes only if all three pass it.
+
+## Addendum A1 (after round 1, orchestrator)
+1. Name slots: §4's slot lists were tests, not an exhaustive licence. Any slot where `check_line.py` passes with no flags and no unattested licence is allowed; record the slot in the jsonl.
+2. Djokovic renderings replaced (review/round_1.md R3): **Ζοκοβείδης** (SSLL; patronymic in -είδης from Ζοκοβεύς, model Πηλείδης: verify) for the Διομήδης slot; **Νοβήκος** (SLX, Ionic η for ᾱ) for the Ὀδυσσεύς/Ἀχιλλεύς slot after a vowel-final word; Σέρβος and Ζοκοβεύς unchanged. Ζοκοβίδης and Νοβάκος are withdrawn.
+3. Ῥογῆρος must not stand before ἰσόθεος φώς (R2). δίς + verb is not allowed (R4); ἐξενάριξε at most twice, inside the aristeia (R5); πάλιν only as "back" (R6).
