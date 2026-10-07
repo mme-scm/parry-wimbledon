@@ -493,7 +493,7 @@ of epic verses as opposed to the strophic compositions of lyrics; cf. Hes. Fr. 2
 payavtes dod, Pi. N. 2, 2‘Ounpida parráv £néov ... dowdoi (see Patzer Herm. 80 
 (1952): 314ff.; Sealey REGr. 70 (1957): 312ff.). 
 ```
-ὑφαίνω (p. 1539–1540), OCR as fetched (head and ETYM):
+ὑφαίνω (p. 1540), OCR as fetched (head and ETYM):
 ```
 boaívo [v.] ‘to weave, warp, devise, produce’ (Il). «IE *(h, ueb'- ‘weave’> 
 Further nouns, probably back-formations: 1. br (nap-, ovv-, ég-, yvvatko-) [f.] 
