@@ -1,4 +1,17 @@
 {
+ "score_call_frame_filler_occurrences": 195,
+ "score_call_fillers_not_score_words": 29,
+ "non_score_fillers": {
+  "14": 9,
+  "13": 8,
+  "50": 4,
+  "1": 3,
+  "10": 1,
+  "16": 1,
+  "7": 1,
+  "12": 1,
+  "6": 1
+ },
  "stream": "tv_2019wimF",
  "tokens": 9791,
  "systems": 231,

@@ -88,7 +88,19 @@ def main():
         w.writerow(["n", "slot_type", "systems"])
         for (n, st), c in sorted(by.items()):
             w.writerow([n, st, c])
+    # ASR diagnostic: fillers of score-call frames (NUM slot, fixed token a score word) that are not score words
+    score_words = {"0", "love", "15", "30", "40", "fifteen", "thirty", "forty", "all", "deuce"}
+    sc_tot, sc_bad, bad = 0, 0, Counter()
+    for key, st in S.items():
+        if key[2] == "NUM" and key[0] == 2 and key[3][0] in score_words:
+            for f, c in st["fillers"].items():
+                sc_tot += c
+                if f not in score_words:
+                    sc_bad += c
+                    bad[f] += c
     C.write_json(C.RESULTS / "systems_summary.json", {
+        "score_call_frame_filler_occurrences": sc_tot, "score_call_fillers_not_score_words": sc_bad,
+        "non_score_fillers": dict(bad.most_common()),
         "stream": C.MAIN, "tokens": T, "systems": len(S),
         "systems_by_slot_type": dict(Counter(k[2] for k in S)),
         "excerpt_words_written": ex_words,
