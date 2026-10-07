@@ -67,6 +67,7 @@ def split_half(utts, half, F_S_by_half=None, n_min=2, masks=None):
 
 
 HELD = {}  # name -> (F, Fc, measured utterances); set before the worker pool is forked
+S6_SEED = {11: 151, 31: 152, 32: 153, 23: 154}  # density_main seed -> S6_nmin3 seed of the same design
 
 
 def shuffle_tokens(utts, rng):
@@ -368,7 +369,9 @@ def main():
     rng_pair = np.random.default_rng(C.MASTER_SEED + 77)
     for design, ident_on, meas_on, arr, strata, seed, skey in fam_designs:
         for j, d in enumerate(C.FAMILY):
-            est, lo, hi, draws = C.boot_ratio(arr[d], arr["tokens"], B=B, seed=seed if d == "base" else 5000 + 10 * seed + j, strata=strata)
+            # base rows reuse the density_main seeds and n3 rows the S6 seeds, so identical quantities get identical CIs
+            sd = seed if d == "base" else (S6_SEED[seed] if d == "n3" and seed in S6_SEED else 5000 + 10 * seed + j)
+            est, lo, hi, draws = C.boot_ratio(arr[d], arr["tokens"], B=B, seed=sd, strata=strata)
             rec = {"design": design, "identified_on": ident_on, "measured_on": meas_on, "definition": d,
                    "definition_label": C.FAMILY_LABEL[d], "coverage": est, "ci_lo": lo, "ci_hi": hi,
                    "tokens_measured": int(arr["tokens"].sum()), "utterances_measured": len(arr["tokens"]),

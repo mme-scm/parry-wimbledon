@@ -3,12 +3,22 @@
  "target_pool_tokens": 103675,
  "S_stream": 1500,
  "R_small_stream": 200,
- "R_matched": 200,
+ "R_matched": 1000,
+ "R_matched_systems": 200,
  "R_heldout": 50,
+ "R_heldout_grouped": 50,
  "R_large": 20,
  "press_answers": 81974,
  "press_tokens": 5435611,
  "press_interviewees": 358,
+ "press_years": [
+  "2007",
+  "2015"
+ ],
+ "tv_years": [
+  "2019",
+  "2025"
+ ],
  "cornell_updates": 3962,
  "cornell_tokens": 178770,
  "cornell_player_pair_groups": 496,
@@ -18,5 +28,59 @@
   "tv_2023wimF": 29.453061224489797,
   "text_cornell": 45.12115093387178,
   "press_answers": 66.30896381779588
- }
+ },
+ "D5ii_identification_size": {
+  "text_cornell": {
+   "tokens_identification_min": 56574,
+   "tokens_identification_median": 65444.5,
+   "tokens_identification_max": 76850,
+   "groups_in_measurement_median": 137.5,
+   "groups_in_measurement_min": 119,
+   "groups_in_measurement_max": 150,
+   "tokens_eligible_median": 65444.5,
+   "replicates": 50
+  },
+  "press_answers": {
+   "tokens_identification_min": 103675,
+   "tokens_identification_median": 103703.5,
+   "tokens_identification_max": 103860,
+   "groups_in_measurement_median": 70.0,
+   "groups_in_measurement_min": 57,
+   "groups_in_measurement_max": 79,
+   "tokens_eligible_median": 1425298.0,
+   "replicates": 50
+  }
+ },
+ "D5iib_identification_size": {
+  "text_cornell": {
+   "tokens_identification_min": 103675,
+   "tokens_identification_median": 103706.0,
+   "tokens_identification_max": 103786,
+   "groups_in_measurement_median": 29.0,
+   "groups_in_measurement_min": 7,
+   "groups_in_measurement_max": 42,
+   "tokens_eligible_median": 168691.5,
+   "replicates": 50
+  },
+  "press_answers": {
+   "tokens_identification_min": 103675,
+   "tokens_identification_median": 103710.5,
+   "tokens_identification_max": 103814,
+   "groups_in_measurement_median": 2.0,
+   "groups_in_measurement_min": 1,
+   "groups_in_measurement_max": 9,
+   "tokens_eligible_median": 5414253.0,
+   "replicates": 50
+  }
+ },
+ "runtime_seconds": {
+  "D4i": 50.9,
+  "D4ii": 258.8,
+  "D5i": 388.6,
+  "D5iii": 277.5,
+  "D5ii": 144.3,
+  "D5ii_b": 40.5,
+  "total": 1164.0
+ },
+ "cpus": 4
 }

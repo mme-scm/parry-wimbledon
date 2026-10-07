@@ -329,7 +329,7 @@ def main():
     A("## 2. Repeated n-grams (a) and systems (b) in the 2019 final")
     A("")
     A(f"{fsum['formula_types_stop_filtered']} repeated n-gram types (n = 2..12, stop-only n-grams excluded; {fsum['formula_types_unfiltered']} "
-      f"without the filter; {meta['formula_types_2019_content']} after also excluding numeral-only and function-word/numeral n-grams). "
+      f"without the filter; {meta['formula_types_2019_content']} after also excluding n-grams made only of function words and numerals). "
       f"In-sample (a) coverage {pc(d1['density'])}% {ci(d1['ci_lo'], d1['ci_hi'])}. {fsum['types_shared_with_any_pool_stream']} of the "
       f"{fsum['formula_types_stop_filtered']} types also occur in at least one of the {NPOOL} other matches, and {fsum['types_in_2023']} "
       "in the 2023 final.")
@@ -598,9 +598,12 @@ def main():
     for key, lab in (("splithalf_matched|press_answers", "split-half, press"), ("heldout|press_answers", "held-out, press"),
                      ("splithalf_matched|" + C.TEXT, "split-half, Cornell"), ("heldout|" + C.TEXT, "held-out, Cornell")):
         x = cr[key]
-        em = f"e* = {x['e_star_mean_crossing']:.3f}" if x["e_star_mean_crossing"] is not None else f"not reached up to e = {x['max_level_tried']}"
-        eo = f"ranges first overlap at e = {x['e_first_grid_range_overlap']}" if x["e_first_grid_range_overlap"] is not None else "ranges never overlap"
-        lines.append(f"{lab}: mean reaches the TV value ({pc(x['tv_reference_mean'])}%) at {em}; {eo}")
+        em = (f"mean reaches the TV value ({pc(x['tv_reference_mean'])}%) at e* = {x['e_star_mean_crossing']:.3f}"
+              if x["e_star_mean_crossing"] is not None else
+              f"mean stays above the TV value ({pc(x['tv_reference_mean'])}%) up to e = {x['max_level_tried']}")
+        eo = (f"ranges first overlap at e = {x['e_first_grid_range_overlap']}" if x["e_first_grid_range_overlap"] is not None
+              else f"ranges do not overlap up to e = {x['max_level_tried']}")
+        lines.append(f"{lab}: {em}; {eo}")
     A("Crossing points (linear interpolation between grid levels; TV references: split-half TV pool at e = 0, and pool -> 2019): " +
       "; ".join(lines) + ". The noise model is not a bound on the real effect of ASR (section 9.1).")
     A("")
@@ -650,14 +653,16 @@ def main():
       f"{2 / (R200 + 1):.5f} and its Holm value {(len(fam19) - 1) * 2 / (R200 + 1):.4f} (rank 2 of {len(fam19)}); that value reflected R, "
       "not evidence near the 0.05 boundary.")
     c3a, c3b, c4, c5 = (cf(x) for x in ("C3a", "C3b", "C4", "C5"))
-    A(f"* **C3a/C3b** (less time, more repetition): {c3a['verdict']} / {c3b['verdict']}. Shortest minus longest tercile: dead time before "
+    A(f"* **C3a/C3b** (less time, more repetition): {c3a['verdict'].split(';')[0]} / {c3b['verdict'].split(';')[0]} (MDE "
+      f"{pc(mde['C3a']['mde_achieved_alpha05'])} / {pc(mde['C3b']['mde_achieved_alpha05'])} pp, Table 4.3). Shortest minus longest tercile: dead time before "
       f"{pc(c3a['difference'])} pp {ci(c3a['diff_lo'], c3a['diff_hi'])}; time after {pc(c3b['difference'])} pp {ci(c3b['diff_lo'], c3b['diff_hi'])}. "
       "C3a's predictor (`dead_time_before_s`) is the interval before the point, when the clip's text has not started; C3b (`time_after_s`) is "
       "the apt one (section 9.2).")
-    A(f"* **C4** (thrift bound to available time, commentary-only references): {c4['verdict']}; D = {float(c4['estimate_x']):.0f}, null mean "
-      f"{float(c4['estimate_y']):.1f}.")
-    A(f"* **C5** (longer expressions with more time, commentary-only references): {c5['verdict']}; rho = {f3(c5['estimate_x'])}.")
-    A("* Replication on the 2023 final: " + "; ".join(f"{x} {cf(x)['verdict']}" for x in ("R1", "R3a", "R3b", "R4", "R5")) + ".")
+    A(f"* **C4** (thrift bound to available time, commentary-only references): {c4['verdict'].split(';')[0]}; D = "
+      f"{float(c4['estimate_x']):.0f}, null mean {float(c4['estimate_y']):.1f} (MDE theta = {g2(mde['C4']['mde_param_alpha05'])}).")
+    A(f"* **C5** (longer expressions with more time, commentary-only references): {c5['verdict'].split(';')[0]}; rho = "
+      f"{f3(c5['estimate_x'])} (MDE rho = {g2(mde['C5']['mde_achieved_alpha05'])}).")
+    A("* Replication on the 2023 final: " + ", ".join(f"{x} {cf(x)['verdict'].split(';')[0]}" for x in ("R1", "R3a", "R3b", "R4", "R5")) + ".")
     A("")
     A("**Table 4.1b. Sensitivity: C4/C5/R4/R5 on the pre-registered token set** (all references, including umpire-pattern ones; these are "
       "the v1 confirmatory results; Holm in the original family composition).")
@@ -806,6 +811,13 @@ def main():
     A("")
     A(table(hdr, th_rows("commentary_only")))
     A("")
+    expl = [r for r in th if r["status"] == "exploratory"]
+    low = [r for r in expl if float(r["p_one_sided_fewer"]) < 0.05]
+    A(f"Of the {len(expl)} exploratory thrift rows (both reference sets), {len(low)} {'has' if len(low) == 1 else 'have'} an unadjusted one-sided p below 0.05" +
+      (": " + "; ".join(f"{r['token_set']} {r['stream'][3:7]} {r['context']} {r['players']} {r['permutation']} p = {pv(r['p_one_sided_fewer'])}"
+                        for r in low) + ". With this many exploratory rows such values are expected by chance and are not interpreted."
+       if low else "."))
+    A("")
     A("**Table 6.1b. Sensitivity: thrift tests on all references (pre-registered token set; exploratory rows in `results/thrift_tests.csv`).**")
     A("")
     A(table(hdr, th_rows("all_tokens", only_conf=True)))
@@ -892,6 +904,7 @@ def main():
       "nothing either way about whether tennis commentary carries the memory load described for auctioneers.")
     A("")
     # ------------------------------------------------------------------ 9 limitations
+    circ_ps = [v["p_two_sided_circular_shift"] for k, v in circ.items() if isinstance(v, dict)]
     A("## 9. Limitations")
     A("")
     A(f"1. **ASR and the TV-vs-press contrast (C1/R1).** The text is WhisperX output with no audio; the word error rate is unknown. The "
@@ -906,14 +919,19 @@ def main():
       "held-out designs are not analogous: for TV, I is other matches with mostly different commentators; for press, I is other interviewees of "
       "the same genre, transcription house and questioners. (iv) The v1 claim that the one-match TV measurement set favours TV is withdrawn: a "
       f"concentrated M helps only if its recurrent items are in I, and {sum(int(r['formula_types_2019']) for r in cs if int(r['pool_streams_attested']) == 0)} "
-      "of the final's repeated types occur in no pool match. The noise model is not a bound either: independent uniform substitutions drawn "
+      "of the final's repeated types occur in no pool match. In the post hoc check D5(ii-b), where the press M comes from a median of "
+      f"{szb['press_answers']['groups_in_measurement_median']:.0f} interviewees, press held-out coverage is "
+      f"{pc(medv('D5iib_heldout_grouped_M', 'press_answers', 'heldout', 'a')['mean'])}% against "
+      f"{pc(medv('D5ii_heldout_disjoint_groups', 'press_answers', 'heldout', 'a')['mean'])}% with M spread over many interviewees, so "
+      "concentrating M did not visibly change the press value. The noise model is not a bound either: independent uniform substitutions drawn "
       "from the unigram distribution are neither clustered (real errors concentrate in names, score calls and overlapping speech) nor include "
       "deletions, insertions or word merges, and frequent-word replacements can create matches. Settling C1/R1 needs a measured WER on a sample "
       "with audio (FOR_HUMAN.md) or a within-convention comparison (e.g. press-conference audio through the same ASR pipeline).")
     A("2. **Clip-level text and time.** No word times: a clip's text spans the rally and the following dead time, so 'available time' is "
       "assigned per clip, not per phrase. C3a's predictor `dead_time_before_s` is the interval before the point, when the clip's text has not "
       "started, so it is misaligned with the text; C3b (`time_after_s`) is the apt predictor. The label permutations of C3-C5 treat adjacent "
-      "clips as exchangeable although coverage and context are serially correlated; circular-shift nulls (Table 4.4) give similar p-values. "
+      "clips as exchangeable although coverage and context may be serially correlated; with circular-shift nulls instead (Table 4.4) the "
+      f"p-values range from {pv(min(circ_ps))} to {pv(max(circ_ps))}, so no conclusion changes. "
       "The phase tags are text-based heuristics; `between_points` clips are score calls by definition.")
     A("3. **Corpus contrasts, not medium contrasts.** TV pool, Cornell and press differ in matches (Cornell has no match ids), outlet (one "
       f"live-text outlet with a house style), period (press record dates {pyears[0]}-{pyears[1]}, TV {tyears[0]}-{tyears[1]}), transcription "

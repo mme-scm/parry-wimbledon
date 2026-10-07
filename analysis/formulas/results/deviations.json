@@ -1,9 +1,62 @@
 {
+ "replicate_changes": [
+  {
+   "design": "D5(i)",
+   "planned_R": 200,
+   "used_R_a_family": 1000,
+   "used_R_ab": 200,
+   "note": "revision 1 (B1): increase for the (a) family; first replicates identical to v1 (same seeds)"
+  },
+  {
+   "design": "f04b held-out noise rows (post hoc)",
+   "v1_R": 10,
+   "used_R": 50,
+   "note": "revision 1 (critic C8)"
+  }
+ ],
  "replicate_reductions": [],
+ "D5ii_identification_size": {
+  "planned_tokens": 103675,
+  "realised": {
+   "text_cornell": {
+    "tokens_identification_min": 56574,
+    "tokens_identification_median": 65444.5,
+    "tokens_identification_max": 76850,
+    "groups_in_measurement_median": 137.5,
+    "groups_in_measurement_min": 119,
+    "groups_in_measurement_max": 150,
+    "tokens_eligible_median": 65444.5,
+    "replicates": 50
+   },
+   "press_answers": {
+    "tokens_identification_min": 103675,
+    "tokens_identification_median": 103703.5,
+    "tokens_identification_max": 103860,
+    "groups_in_measurement_median": 70.0,
+    "groups_in_measurement_min": 57,
+    "groups_in_measurement_max": 79,
+    "tokens_eligible_median": 1425298.0,
+    "replicates": 50
+   }
+  },
+  "note": "revision 1 (B2): for Cornell the disjoint-group rule exhausts the eligible set; unlogged in v1"
+ },
+ "C1_R1_reporting": "revision 1 (A1): reported as indeterminate pending a WER estimate instead of by the Holm decision rule",
+ "C1_R1_C2_inferential_statistic": "revision 1 (B1): 95% interval of replicate differences; the pre-registered p is kept with its floor",
+ "C4_C5_R4_R5_token_set": {
+  "revised": "commentary_only (umpire-pattern references excluded)",
+  "pre_registered": "all_tokens (sensitivity)",
+  "excluded_tokens": {
+   "tv_2019wimF": 31,
+   "tv_2023wimF": 31
+  }
+ },
+ "top10_official_flag": "revision 1: common.official_mask_v2 (S5 + score calls + thank you + other umpire forms) instead of S5",
  "excerpts": "plan section 9 allowed excerpts for the 100 most frequent formulas and 50 most frequent systems; 80 and 40 were written, each at most 12 words and never overlapping an already written window, to keep committed transcript text small",
  "post_hoc_additions": [
-  "f04b_asr_noise.py (plan.md addendum, written after C1/C2 were seen); exploratory only",
-  "formulas_top_by_medium.csv (exploratory list, added for the report)"
+  "f04b_asr_noise.py (plan.md addendum 1, written after C1/C2 were seen); exploratory only",
+  "formulas_top_by_medium.csv (exploratory list, added for the report)",
+  "revision 1: coverage family and held-out shuffled baselines (f03, f04), S5b, D5(ii-b), f09_power.py (MDE, circular-shift nulls), crossing points in f04b"
  ],
  "inventory_fix_before_hand_labels": "refexpr.word_seq strips a trailing period so that 'Mr.' matches the title_surname pattern; made before the 40-item slot sample was hand-labelled"
 }

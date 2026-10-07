@@ -2,3 +2,7 @@ targets 9791 103675
 D4i done 50.9 s
 D4ii done 258.8 s
 D5i done 388.6 s
+D5iii done 277.5 s
+D5ii done 144.3 s
+D5ii_b done 40.5 s
+done {'D4i': 50.9, 'D4ii': 258.8, 'D5i': 388.6, 'D5iii': 277.5, 'D5ii': 144.3, 'D5ii_b': 40.5, 'total': 1164.0}
