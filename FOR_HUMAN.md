@@ -99,3 +99,18 @@ provide. Agents have not used them and will not.
      and no word-level timing.
    * Treat the broadcaster label (probably BBC TV for the 2019 final) as an inference from names the commentators
      use, not a fact from the data.
+
+## Formula analysis (Phase 2, formula-analyst, 2026-10-07)
+
+1. **Press-conference transcripts used as a baseline.** `corpus/SOURCES.md` row O lists the Cornell press conferences as
+   DON'T USE *as commentary*. At the orchestrator's request, the player answers in
+   `corpus/raw/cornell_tennis/extracted/transcripts_matchinfo.json` (same Cornell release as the USE source G, same terms)
+   are used only as a spoken, non-commentary baseline for formulaic density (test C1 and the per-medium table). Every row that
+   depends on them is labelled `press_answers` in `analysis/formulas/results/`. If you do not accept this use, drop
+   those rows and test C1; nothing else depends on them.
+2. **Kuiper and Austin (race calling).** No fetched catalogue record lists the chapter "They're off and racing now"
+   (Kuiper and Austin 1990, in Bell and Holmes, eds, *New Zealand Ways of Speaking English*); only the edited volume was
+   confirmed (Open Library). It is cited as [unverified] in `analysis/formulas/report.md`. A library catalogue lookup would settle it.
+3. **Hand verdicts in `analysis/formulas/hand/`.** The referent of 25 descriptive epithets ("the champion", "the world
+   number one", "the young man", ...) and the syntactic slot of a 40-expression validation sample were judged by the
+   analyst. Please spot-check them.
