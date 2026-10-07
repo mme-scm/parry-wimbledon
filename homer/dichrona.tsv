@@ -837,7 +837,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 αἶαν	αιαν	2	α	conflict	1	3	final:4	Il. 23.493	Il. 7.288; Il. 13.68; Il. 13.824
 αἴαντα	αιαντα	3	α	S	0	11	final:11		Il. 7.321; Il. 10.53; Il. 10.110; Il. 10.112; Il. 10.175; Il. 11.563; Il. 11.591; Il. 12.343; Il. 15.301; Il. 17.115
 αἰάντεσσι	αιαντεσσι	4	ι	S	0	2	final:2		Il. 4.273; Il. 12.353
-αἴαντι	αιαντι	3	ι	S	0	3	final:3		Il. 7.203; Il. 15.483; Il. 23.822
+αἴαντι	αιαντι	3	ι	conflict	2	3	final:5	Il. 14.459; Il. 17.123	Il. 7.203; Il. 15.483; Il. 23.822
 αἴας	αιασ	2	α	L	4	0	final:4	Il. 3.229; Il. 7.211; Il. 14.520; Il. 17.279	
 αἰγανέῃσιν	αιγανεησιν	5	ι	S	0	3	final:3		Il. 2.774; Od. 4.626; Od. 17.168
 αἰγάς	αιγασ	2	ά	L	1	0	final:1	Il. 13.21	
@@ -900,6 +900,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀΐδης	αιδησ	2	ΐ	S	0	4	internal:4		Il. 5.395; Il. 9.158; Il. 15.188; Il. 15.191
 ἄϊδι	αιδι	1	Ἄ	S	0	6	prevocalic:6		Il. 5.654; Il. 6.487; Il. 11.55; Il. 11.445; Il. 16.625; Il. 23.244
 ἄϊδι	αιδι	2	ϊ	S	0	6	internal:6		Il. 5.654; Il. 6.487; Il. 11.55; Il. 11.445; Il. 16.625; Il. 23.244
+ἄϊδι	αιδι	3	ι	L	1	0	final:1	Il. 23.244	
 αἰδοίοισιν	αιδοιοισιν	4	ι	S	0	4	final:4		Od. 7.165; Od. 7.181; Od. 9.271; Od. 15.373
 ἄϊδος	αιδοσ	1	Ἄ	conflict	13	11	prevocalic:24	Il. 3.322; Il. 6.284; Il. 6.422; Il. 7.131; Il. 11.263; Il. 14.457; Il. 20.336; Il. 22.425; Il. 24.246; Od. 9.524	Il. 5.845; Il. 7.330; Il. 13.415; Il. 16.856; Il. 20.294; Il. 22.362; Il. 23.74; Il. 23.137; Il. 24.593; Od. 10.502
 ἄϊδος	αιδοσ	2	ϊ	S	0	24	internal:24		Il. 3.322; Il. 5.845; Il. 6.284; Il. 6.422; Il. 7.131; Il. 7.330; Il. 11.263; Il. 13.415; Il. 14.457; Il. 16.856
@@ -968,6 +969,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 αἱμυλίοισι	αιμυλιοισι	5	ι	S	0	1	final:1		Od. 1.56
 αἰνά	αινα	2	ὰ	S	0	4	final:4		Il. 1.414; Il. 22.431; Od. 10.219; Od. 16.255
 αἰναρέτη	αιναρετη	2	α	S	0	1	internal:1		Il. 16.31
+αἰνεία	αινεια	3	α	L	3	0	final:3	Il. 6.77; Il. 16.620; Il. 20.332	
 αἰνείαο	αινειαο	3	α	L	7	0	prevocalic:7	Il. 5.263; Il. 5.323; Il. 20.175; Il. 20.263; Il. 20.267; Il. 20.293; Il. 20.323	
 αἰνήσουσιν	αινησουσιν	4	ι	S	0	1	final:1		Od. 16.380
 αἰνήσωσι	αινησωσι	4	ι	S	0	1	final:1		Od. 16.403
@@ -1094,7 +1096,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀϊχθῆναι	αιχθηναι	1	ἀ	L	1	0	prevocalic:1	Il. 5.854	
 ἀϊχθήτην	αιχθητην	1	ἀ	L	1	0	prevocalic:1	Il. 24.97	
 αἰχμάς	αιχμασ	2	ά	L	2	0	final:2	Il. 12.45; Il. 14.423	
-αἰχμητά	αιχμητα	3	ὰ	S	0	1	final:1		Il. 5.197
+αἰχμητά	αιχμητα	3	ά	conflict	1	1	final:2	Il. 7.281	Il. 5.197
 αἰχμητάων	αιχμηταων	3	ά	L	10	0	prevocalic:10	Il. 1.152; Il. 2.846; Il. 3.49; Il. 8.33; Il. 8.464; Il. 8.472; Il. 12.128; Il. 17.740; Od. 11.559; Od. 24.81	
 αἶψα	αιψα	2	α	S	0	94	final:94		Il. 1.303; Il. 1.387; Il. 2.664; Il. 2.808; Il. 3.145; Il. 4.70; Il. 4.118; Il. 5.242; Il. 5.329; Il. 5.367
 ἀΐων	αιων	1	ἀ	S	0	1	prevocalic:1		Il. 15.378
@@ -2014,6 +2016,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀμφέχυτʼ	αμφεχυτʼ	3	υ	S	0	1	final:1		Il. 2.41
 ἀμφήλυθε	αμφηλυθε	3	υ	S	0	1	internal:1		Od. 6.122
 ἀμφήλυθεν	αμφηλυθεν	3	υ	S	0	1	internal:1		Od. 12.369
+ἀμφηρεφέα	αμφηρεφεα	5	α	L	1	0	final:1	Il. 1.45	
 ἀμφί	αμφι	2	ὶ	S	0	224	final:221,mcl:3		Il. 1.481; Il. 2.45; Il. 2.305; Il. 2.333; Il. 2.782; Il. 2.854; Il. 3.157; Il. 3.231; Il. 3.254; Il. 3.334
 ἀμφίαλος	αμφιαλοσ	2	ί	S	0	2	prevocalic:2		Od. 8.114; Od. 8.128
 ἀμφίαλος	αμφιαλοσ	3	α	S	0	2	internal:2		Od. 8.114; Od. 8.128
@@ -2154,6 +2157,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀμφιπένονται	αμφιπενονται	2	ι	S	0	1	internal:1		Il. 16.28
 ἀμφιπεριστέφεται	αμφιπεριστεφεται	2	ι	S	0	1	internal:1		Od. 8.175
 ἀμφιπεριστρώφα	αμφιπεριστρωφα	2	ι	S	0	1	internal:1		Il. 8.348
+ἀμφιπεριστρώφα	αμφιπεριστρωφα	6	α	L	1	0	final:1	Il. 8.348	
 ἀμφιπεσοῦσα	αμφιπεσουσα	2	ι	S	0	1	internal:1		Od. 8.523
 ἀμφιπολεύειν	αμφιπολευειν	2	ι	S	0	2	internal:2		Od. 20.78; Od. 24.244
 ἀμφιπολεύεις	αμφιπολευεισ	2	ι	S	0	1	internal:1		Od. 24.257
@@ -2292,6 +2296,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀναιδής	αναιδησ	1	ἀ	S	0	3	internal:3		Il. 4.521; Od. 11.598; Od. 17.449
 ἀναίμονες	αναιμονεσ	1	ἀ	S	0	1	internal:1		Il. 5.342
 ἀναιμωτί	αναιμωτι	1	ἀ	S	0	3	internal:3		Il. 17.363; Il. 17.497; Od. 24.532
+ἀναιμωτί	αναιμωτι	4	ί	L	3	0	final:3	Il. 17.363; Il. 17.497; Od. 24.532	
 ἀναίνεαι	αναινεαι	1	ἀ	S	0	1	internal:1		Od. 14.149
 ἀναίνεται	αναινεται	1	ἀ	S	0	1	internal:1		Il. 9.679
 ἀναίνετο	αναινετο	1	ἀ	S	0	4	internal:4		Il. 9.585; Il. 11.647; Il. 18.500; Od. 3.265
@@ -2564,6 +2569,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀνέδραμον	ανεδραμον	1	ἀ	S	0	1	internal:1		Il. 23.717
 ἀνέδραμον	ανεδραμον	3	α	S	0	1	internal:1		Il. 23.717
 ἀνέδυ	ανεδυ	1	ἀ	S	0	2	internal:2		Il. 1.359; Od. 5.322
+ἀνέδυ	ανεδυ	3	υ	L	1	0	final:1	Il. 1.359	
 ἀνεδύσετο	ανεδυσετο	1	ἀ	S	0	2	internal:2		Il. 1.496; Od. 5.337
 ἀνεδύσετο	ανεδυσετο	3	ύ	L	2	0	internal:2	Il. 1.496; Od. 5.337	
 ἀνείλετο	ανειλετο	1	ἀ	S	0	1	internal:1		Il. 13.296
@@ -2782,6 +2788,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀνιᾶται	ανιαται	1	ἀ	S	0	1	internal:1		Od. 15.335
 ἀνιᾶται	ανιαται	2	ι	L	1	0	prevocalic:1	Od. 15.335	
 ἀνιδρωτί	ανιδρωτι	1	ἀ	S	0	1	internal:1		Il. 15.228
+ἀνιδρωτί	ανιδρωτι	4	ί	L	1	0	final:1	Il. 15.228	
 ἀνίει	ανιει	1	ἀ	S	0	2	internal:2		Il. 15.24; Od. 8.359
 ἀνίει	ανιει	2	ί	conflict	1	1	prevocalic:2	Il. 15.24	Od. 8.359
 ἀνιεῖς	ανιεισ	1	ἀ	S	0	1	internal:1		Il. 5.880
@@ -2856,6 +2863,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀνούτατος	ανουτατοσ	1	ἀ	S	0	1	internal:1		Il. 4.540
 ἀνούτατος	ανουτατοσ	3	α	S	0	1	internal:1		Il. 4.540
 ἀνουτητί	ανουτητι	1	ἀ	S	0	1	internal:1		Il. 22.371
+ἀνουτητί	ανουτητι	4	ί	L	1	0	final:1	Il. 22.371	
 ἀνστάς	ανστασ	2	ὰ	L	3	0	final:3	Il. 19.269; Od. 15.58; Od. 15.96	
 ἀνστᾶσα	ανστασα	3	α	S	0	1	final:1		Il. 14.336
 ἄντα	αντα	2	α	S	0	15	final:14,mcl:1		Il. 8.424; Il. 8.428; Il. 17.167; Il. 19.163; Il. 20.69; Il. 20.73; Il. 20.76; Il. 21.331; Il. 21.477; Il. 23.686
@@ -2913,7 +2921,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀντιθέοισιν	αντιθεοισιν	5	ι	S	0	1	final:1		Il. 12.408
 ἀντίθυρον	αντιθυρον	2	ί	S	0	1	internal:1		Od. 16.159
 ἀντίθυρον	αντιθυρον	3	υ	S	0	1	internal:1		Od. 16.159
-ἀντικρύ	αντικρυ	3	ὺ	S	0	2	final:2		Il. 5.130; Il. 5.819
+ἀντικρύ	αντικρυ	3	ὺ	conflict	15	2	final:17	Il. 3.359; Il. 4.481; Il. 5.74; Il. 5.100; Il. 7.253; Il. 7.362; Il. 8.301; Il. 8.310; Il. 11.253; Il. 16.346	Il. 5.130; Il. 5.819
 ἀντίλοχʼ	αντιλοχʼ	2	ί	S	0	6	internal:6		Il. 17.685; Il. 23.306; Il. 23.439; Il. 23.558; Il. 23.581; Il. 23.795
 ἀντίλοχε	αντιλοχε	2	ί	S	0	2	internal:2		Il. 23.570; Il. 23.602
 ἀντιλόχοιο	αντιλοχοιο	2	ι	S	0	5	internal:5		Il. 13.565; Il. 23.522; Il. 23.612; Od. 4.187; Od. 24.78
@@ -2979,6 +2987,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀνώγοιτʼ	ανωγοιτʼ	1	ἀ	S	0	1	internal:1		Od. 11.356
 ἄνωγον	ανωγον	1	ἄ	S	0	4	internal:4		Il. 5.805; Od. 3.35; Od. 9.331; Od. 14.471
 ἀνωιστί	ανωιστι	1	ἀ	S	0	1	internal:1		Od. 4.92
+ἀνωιστί	ανωιστι	4	ί	L	1	0	final:1	Od. 4.92	
 ἀνώϊστον	ανωιστον	1	ἀ	S	0	1	internal:1		Il. 21.39
 ἀνώνυμος	ανωνυμοσ	1	ἀ	S	0	1	internal:1		Od. 8.552
 ἀνώνυμος	ανωνυμοσ	3	υ	S	0	1	internal:1		Od. 8.552
@@ -3968,7 +3977,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἄρῃ	αρη	1	Ἄ	S	0	2	internal:2		Il. 5.757; Il. 21.431
 ἄρηʼ	αρηʼ	1	Ἄ	S	0	1	internal:1		Il. 5.909
 ἄρηα	αρηα	1	Ἄ	conflict	2	33	internal:35	Il. 5.827; Il. 20.152	Il. 2.381; Il. 2.440; Il. 3.132; Il. 4.352; Il. 5.30; Il. 5.35; Il. 5.289; Il. 5.355; Il. 5.390; Il. 5.454
-ἄρηα	αρηα	3	α	S	0	8	final:7,mcl:1		Il. 5.289; Il. 5.454; Il. 5.824; Il. 17.721; Il. 20.78; Il. 21.406; Il. 22.267; Od. 8.518
+ἄρηα	αρηα	3	α	conflict	1	8	final:8,mcl:1	Il. 5.827	Il. 5.289; Il. 5.454; Il. 5.824; Il. 17.721; Il. 20.78; Il. 21.406; Il. 22.267; Od. 8.518
 ἄρηαι	αρηαι	1	ἄ	S	0	1	internal:1		Il. 16.84
 ἀρήγεθʼ	αρηγεθʼ	1	ἀ	S	0	1	internal:1		Il. 20.25
 ἀρήγει	αρηγει	1	ἀ	S	0	3	internal:3		Il. 15.42; Il. 15.493; Il. 17.630
@@ -4316,6 +4325,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀσπαίροντα	ασπαιροντα	4	α	S	0	3	final:3		Il. 12.203; Od. 12.254; Od. 19.229
 ἀσπαίροντας	ασπαιροντασ	4	α	S	0	1	final:1		Il. 10.521
 ἀσπαίρουσα	ασπαιρουσα	4	α	S	0	1	final:1		Il. 13.443
+ἄσπαρτα	ασπαρτα	3	α	L	1	0	final:1	Od. 9.109	
 ἀσπασίη	ασπασιη	2	α	S	0	1	internal:1		Il. 8.488
 ἀσπασίη	ασπασιη	3	ί	S	0	1	prevocalic:1		Il. 8.488
 ἀσπάσιοι	ασπασιοι	2	ά	S	0	4	internal:4		Il. 21.607; Od. 9.466; Od. 23.238; Od. 23.296
@@ -4343,6 +4353,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀσπίσι	ασπισι	3	ι	S	0	2	final:2		Il. 3.135; Il. 7.62
 ἀσπιστάων	ασπισταων	3	ά	L	11	0	prevocalic:11	Il. 4.90; Il. 4.201; Il. 4.221; Il. 5.577; Il. 8.155; Il. 8.214; Il. 11.412; Il. 13.680; Il. 16.490; Il. 16.541	
 ἀσπληδόνα	ασπληδονα	4	α	S	0	1	final:1		Il. 2.511
+ἀσπουδί	ασπουδι	3	ί	L	3	0	final:3	Il. 8.512; Il. 15.476; Il. 22.304	
 ἄσσα	ασσα	2	α	S	0	1	final:1		Od. 19.218
 ἅσσα	ασσα	2	α	S	0	3	final:3		Il. 10.208; Il. 10.409; Od. 11.74
 ἀσσάρακος	ασσαρακοσ	2	ά	S	0	2	internal:2		Il. 20.232; Il. 20.239
@@ -4542,6 +4553,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἄτιτος	ατιτοσ	2	ι	conflict	1	1	internal:2	Il. 14.484	Il. 13.414
 ἀτραπιτοί	ατραπιτοι	2	α	S	0	1	internal:1		Od. 13.195
 ἀτραπιτοί	ατραπιτοι	3	ι	S	0	1	internal:1		Od. 13.195
+ἀτρεΐδα	ατρειδα	4	α	L	2	0	final:2	Il. 1.16; Il. 1.375	
 ἀτρεΐδαο	ατρειδαο	4	α	L	23	0	prevocalic:23	Il. 1.203; Il. 2.9; Il. 3.193; Il. 3.347; Il. 7.176; Il. 7.313; Il. 9.178; Il. 9.226; Il. 9.388; Il. 9.669	
 ἀτρείδαο	ατρειδαο	3	α	L	1	0	prevocalic:1	Od. 24.35	
 ἀτρεΐδῃσι	ατρειδησι	5	ι	S	0	2	final:2		Od. 3.136; Od. 5.307
@@ -4893,6 +4905,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἀχιλλεύς	αχιλλευσ	1	Ἀ	S	0	163	internal:163		Il. 1.7; Il. 1.54; Il. 1.58; Il. 1.84; Il. 1.121; Il. 1.148; Il. 1.215; Il. 1.292; Il. 1.330; Il. 1.348
 ἀχιλλῆα	αχιλληα	1	Ἀ	S	0	7	internal:7		Il. 7.228; Il. 8.372; Il. 15.77; Il. 16.146; Il. 21.138; Il. 21.250; Il. 21.550
 ἀχιλλῆϊ	αχιλληι	1	Ἀ	S	0	11	internal:11		Il. 1.283; Il. 13.324; Il. 16.575; Il. 17.121; Il. 20.376; Il. 24.108; Il. 24.110; Il. 24.119; Il. 24.147; Il. 24.176
+ἀχιλλῆϊ	αχιλληι	4	ϊ	L	4	0	final:4	Il. 24.119; Il. 24.147; Il. 24.176; Il. 24.196	
 ἀχιλλῆος	αχιλληοσ	1	Ἀ	S	0	27	internal:27		Il. 1.240; Il. 8.225; Il. 11.8; Il. 11.831; Il. 16.799; Il. 17.504; Il. 18.214; Il. 18.615; Il. 19.13; Il. 19.89
 ἀχλύος	αχλυοσ	2	ύ	S	0	1	prevocalic:1		Il. 15.668
 ἀχλύς	αχλυσ	2	ύ	L	1	0	final:1	Il. 20.421	
@@ -5094,6 +5107,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 βεβρυχώς	βεβρυχωσ	2	υ	L	2	0	internal:2	Il. 13.393; Il. 16.486	
 βελέεσσι	βελεεσσι	4	ι	S	0	2	final:2		Il. 11.589; Il. 16.639
 βελέεσσιν	βελεεσσιν	4	ι	S	0	5	final:5		Od. 3.280; Od. 5.124; Od. 11.173; Od. 11.199; Od. 15.411
+βέλεσι	βελεσι	3	ι	L	1	0	final:1	Od. 16.277	
 βέλεσσιν	βελεσσιν	3	ι	S	0	1	final:1		Il. 24.759
 βένθεσι	βενθεσι	3	ι	S	0	2	final:2		Il. 13.21; Il. 13.32
 βένθεσιν	βενθεσιν	3	ι	S	0	1	final:1		Od. 17.316
@@ -5532,7 +5546,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 δαιμονίη	δαιμονιη	3	ί	S	0	8	prevocalic:8		Il. 1.561; Il. 3.399; Il. 4.31; Il. 6.486; Il. 24.194; Od. 19.71; Od. 23.166; Od. 23.264
 δαιμόνιοι	δαιμονιοι	3	ι	S	0	2	prevocalic:2		Od. 4.774; Od. 18.406
 δαίμοσιν	δαιμοσιν	3	ι	S	0	2	final:2		Il. 6.115; Il. 23.595
-δαίνυ	δαινυ	2	υ	L	1	0	final:1	Il. 9.70	
+δαίνυ	δαινυ	2	υ	L	2	0	final:2	Il. 9.70; Od. 3.309	
 δαινύατʼ	δαινυατʼ	2	ύ	L	1	0	prevocalic:1	Od. 18.248	
 δαινύατʼ	δαινυατʼ	3	α	S	0	1	final:1		Od. 18.248
 δαινύῃ	δαινυη	2	ύ	conflict	1	1	prevocalic:2	Od. 8.243	Od. 19.328
@@ -6186,6 +6200,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 διήφυσε	διηφυσε	1	ι	S	0	1	prevocalic:1		Od. 19.450
 διήφυσε	διηφυσε	3	υ	S	0	1	internal:1		Od. 19.450
 διΐ	διι	1	ι	S	0	17	prevocalic:17		Il. 1.74; Il. 1.86; Il. 2.628; Il. 6.318; Il. 8.493; Il. 8.517; Il. 9.168; Il. 10.49; Il. 10.527; Il. 11.419
+διΐ	διι	2	ῒ	L	17	0	final:17	Il. 1.74; Il. 1.86; Il. 2.628; Il. 6.318; Il. 8.493; Il. 8.517; Il. 9.168; Il. 10.49; Il. 10.527; Il. 11.419	
 διί	διι	1	ι	S	0	76	prevocalic:76		Il. 1.419; Il. 2.102; Il. 2.116; Il. 2.169; Il. 2.407; Il. 2.478; Il. 2.636; Il. 2.781; Il. 3.104; Il. 3.350
 διί	διι	2	ὶ	S	0	56	final:56		Il. 1.419; Il. 2.116; Il. 2.478; Il. 3.104; Il. 3.350; Il. 4.23; Il. 5.174; Il. 5.362; Il. 5.457; Il. 6.257
 διίκεο	διικεο	1	ι	S	0	1	prevocalic:1		Il. 19.186
@@ -6584,6 +6599,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 δωτίνην	δωτινην	2	ί	L	2	0	internal:2	Od. 9.268; Od. 11.352	
 δωτίνῃσι	δωτινησι	2	ί	L	2	0	internal:2	Il. 9.155; Il. 9.297	
 δώωσιν	δωωσιν	3	ι	S	0	1	final:1		Il. 1.137
+ἔα	εα	2	α	L	7	0	final:7	Il. 5.887; Il. 9.260; Il. 13.2; Il. 15.472; Il. 17.13; Il. 22.339; Od. 2.281	
 ἑαδότα	εαδοτα	4	α	S	0	2	final:2		Il. 9.173; Od. 18.422
 ἑανόν	εανον	2	α	L	2	0	internal:2	Il. 5.734; Il. 8.385	
 ἑανῷ	εανω	2	α	L	2	0	internal:2	Il. 18.352; Il. 23.254	
@@ -6732,6 +6748,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἔδραμον	εδραμον	2	α	S	0	1	internal:1		Il. 18.30
 ἑδριάασθαι	εδριαασθαι	2	ι	S	0	3	prevocalic:3		Il. 11.646; Il. 11.778; Od. 3.35
 ἑδριάασθαι	εδριαασθαι	3	ά	S	0	3	prevocalic:3		Il. 11.646; Il. 11.778; Od. 3.35
+ἔδυ	εδυ	2	υ	L	11	0	final:11	Il. 8.487; Il. 9.553; Il. 18.241; Il. 19.16; Il. 22.94; Il. 23.154; Od. 3.329; Od. 5.225; Od. 13.35; Od. 16.220	
 ἐδύναντο	εδυναντο	2	ύ	S	0	11	internal:11		Il. 12.417; Il. 12.419; Il. 12.432; Il. 15.22; Il. 15.406; Il. 15.408; Il. 15.651; Il. 18.163; Od. 11.264; Od. 16.357
 ἐδύνασθε	εδυνασθε	2	ύ	S	0	1	internal:1		Od. 21.71
 ἐδυνάσθη	εδυνασθη	2	υ	S	0	1	internal:1		Od. 5.319
@@ -6788,7 +6805,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἐθόωσα	εθοωσα	4	α	S	0	1	final:1		Od. 9.327
 ἐθύσαμεν	εθυσαμεν	2	ύ	L	1	0	internal:1	Od. 9.231	
 ἐθύσαμεν	εθυσαμεν	3	α	S	0	1	internal:1		Od. 9.231
-εἴα	εια	2	α	L	2	0	final:2	Il. 15.522; Il. 18.189	
+εἴα	εια	2	α	L	3	0	final:3	Il. 15.522; Il. 18.189; Od. 19.531	
 εἵαθʼ	ειαθʼ	2	α	S	0	2	final:2		Il. 15.10; Il. 24.99
 εἱαμενῇ	ειαμενη	2	α	S	0	2	internal:2		Il. 4.483; Il. 15.631
 εἴασʼ	ειασʼ	2	α	L	1	0	final:1	Od. 10.166	
@@ -6936,6 +6953,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 εἰρύσσατο	ειρυσσατο	3	α	S	0	2	internal:2		Il. 22.306; Od. 22.79
 εἴρυτο	ειρυτο	2	υ	L	3	0	internal:3	Il. 16.542; Il. 24.499; Od. 22.90	
 εἰρώμεθα	ειρωμεθα	4	α	S	0	1	final:1		Od. 16.402
+εἰρώτα	ειρωτα	3	α	L	1	0	final:1	Od. 15.423	
 εἰσάγαγον	εισαγαγον	2	ά	S	0	2	internal:2		Il. 24.719; Od. 19.420
 εἰσάγαγον	εισαγαγον	3	α	S	0	2	internal:2		Il. 24.719; Od. 19.420
 εἰσαγαγόντες	εισαγαγοντεσ	2	α	S	0	1	internal:1		Il. 12.18
@@ -8447,6 +8465,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἕρμα	ερμα	2	α	S	0	2	final:2		Il. 16.549; Od. 23.121
 ἕρματα	ερματα	2	α	S	0	4	internal:4		Il. 1.486; Il. 2.154; Il. 14.182; Od. 18.297
 ἕρματα	ερματα	3	α	S	0	3	final:3		Il. 1.486; Il. 2.154; Od. 18.297
+ἑρμεία	ερμεια	3	α	L	1	0	final:1	Od. 8.335	
 ἑρμείαο	ερμειαο	3	α	L	2	0	prevocalic:2	Od. 12.390; Od. 15.319	
 ἑρμιόνην	ερμιονην	2	ι	S	0	2	prevocalic:2		Il. 2.560; Od. 4.14
 ἔρξαιμι	ερξαιμι	3	ι	S	0	1	final:1		Od. 13.147
@@ -8703,6 +8722,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἑτάρω	εταρω	2	ά	S	0	1	internal:1		Od. 21.216
 ἑτάρῳ	εταρω	2	ά	S	0	1	internal:1		Il. 5.325
 ἑτάρων	εταρων	2	ά	S	0	34	internal:34		Il. 1.349; Il. 3.32; Il. 4.373; Il. 11.585; Il. 13.165; Il. 13.533; Il. 13.566; Il. 13.596; Il. 13.648; Il. 14.408
+ἐτεά	ετεα	3	ά	L	1	0	final:1	Il. 20.255	
 ἑτέρηφι	ετερηφι	4	ι	S	0	3	final:3		Il. 16.734; Il. 18.477; Il. 22.80
 ἑτέροισι	ετεροισι	4	ι	S	0	4	final:4		Il. 7.292; Il. 7.378; Il. 7.397; Il. 13.303
 ἑτέρωθι	ετερωθι	4	ι	S	0	4	final:4		Il. 5.351; Il. 15.348; Od. 4.531; Od. 12.235
@@ -9016,6 +9036,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἐφράσατο	εφρασατο	2	ά	S	0	1	internal:1		Od. 4.444
 ἐφράσατο	εφρασατο	3	α	S	0	1	internal:1		Od. 4.444
 ἐφράσσατο	εφρασσατο	3	α	S	0	2	internal:2		Il. 24.352; Od. 4.529
+ἔφυ	εφυ	2	υ	L	1	0	final:1	Od. 23.190	
 ἔφυγες	εφυγεσ	2	υ	S	0	2	internal:2		Il. 11.362; Il. 20.449
 ἐφύλασσε	εφυλασσε	2	ύ	S	0	1	internal:1		Od. 2.346
 ἐφύλασσεν	εφυλασσεν	2	ύ	S	0	1	internal:1		Il. 15.461
@@ -9551,6 +9572,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 θαυμάζωσιν	θαυμαζωσιν	4	ι	S	0	1	final:1		Od. 13.157
 θαυμακίην	θαυμακιην	2	α	S	0	1	internal:1		Il. 2.716
 θαυμακίην	θαυμακιην	3	ί	S	0	1	prevocalic:1		Il. 2.716
+θεά	θεα	2	ὰ	L	17	0	final:17	Il. 1.1; Il. 5.815; Il. 10.462; Il. 15.76; Il. 15.93; Il. 18.146; Il. 18.381; Il. 23.782; Il. 24.104; Il. 24.120	
 θεανώ	θεανω	2	α	L	2	0	internal:2	Il. 6.298; Il. 11.224	
 θεάων	θεαων	2	ά	L	1	0	prevocalic:1	Il. 5.331	
 θέλγουσιν	θελγουσιν	3	ι	S	0	2	final:2		Od. 12.40; Od. 12.44
@@ -9615,7 +9637,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 θέσφατα	θεσφατα	3	α	S	0	1	final:1		Od. 11.297
 θέσφατον	θεσφατον	2	α	S	0	3	internal:3		Il. 8.477; Od. 4.561; Od. 10.473
 θέσφατος	θεσφατοσ	2	α	S	0	1	internal:1		Od. 7.143
-θέτι	θετι	2	ι	S	0	1	final:1		Il. 24.104
+θέτι	θετι	2	ι	conflict	4	1	final:5	Il. 18.385; Il. 18.407; Il. 18.424; Il. 24.88	Il. 24.104
 θέτιδος	θετιδοσ	2	ι	S	0	5	internal:5		Il. 4.512; Il. 8.370; Il. 15.598; Il. 16.860; Il. 20.207
 θέτιν	θετιν	2	ι	S	0	3	final:3		Il. 16.574; Il. 24.74; Il. 24.83
 θέτις	θετισ	2	ι	S	0	10	final:10		Il. 9.410; Il. 15.76; Il. 16.222; Il. 18.127; Il. 18.146; Il. 18.369; Il. 18.381; Il. 19.28; Il. 24.89; Il. 24.120
@@ -10520,7 +10542,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ἴσασʼ	ισασʼ	2	α	L	1	0	final:1	Il. 9.36	
 ἴσασι	ισασι	1	ἴ	conflict	3	3	internal:6	Od. 8.559; Od. 11.124; Od. 23.271	Il. 20.214; Od. 8.560; Od. 13.239
 ἴσασι	ισασι	2	α	conflict	3	1	internal:4	Il. 20.214; Od. 8.559; Od. 13.239	Od. 8.560
-ἴσασι	ισασι	3	ι	S	0	2	final:2		Od. 8.559; Od. 13.239
+ἴσασι	ισασι	3	ι	conflict	1	2	final:3	Od. 8.560	Od. 8.559; Od. 13.239
 ἴσασιν	ισασιν	1	ἴ	conflict	2	4	internal:6	Il. 23.312; Od. 2.283	Il. 6.151; Il. 18.420; Od. 4.379; Od. 4.468
 ἴσασιν	ισασιν	2	α	L	6	0	internal:6	Il. 6.151; Il. 18.420; Il. 23.312; Od. 2.283; Od. 4.379; Od. 4.468	
 ἰσάσκετο	ισασκετο	1	ἰ	L	1	0	internal:1	Il. 24.607	
@@ -11481,6 +11503,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 κατέδραθον	κατεδραθον	1	α	S	0	3	internal:3		Od. 7.285; Od. 8.296; Od. 23.18
 κατέδραθον	κατεδραθον	3	α	S	0	3	internal:3		Od. 7.285; Od. 8.296; Od. 23.18
 κατέδυ	κατεδυ	1	α	S	0	12	internal:12		Il. 1.475; Il. 1.605; Il. 6.504; Od. 4.246; Od. 4.249; Od. 9.168; Od. 9.558; Od. 10.185; Od. 10.478; Od. 12.31
+κατέδυ	κατεδυ	3	υ	L	9	0	final:9	Il. 1.475; Od. 4.246; Od. 9.168; Od. 9.558; Od. 10.185; Od. 10.478; Od. 12.31; Od. 13.33; Od. 19.426	
 κατεδύσεθʼ	κατεδυσεθʼ	1	α	S	0	1	internal:1		Il. 4.86
 κατεδύσεθʼ	κατεδυσεθʼ	3	ύ	L	1	0	internal:1	Il. 4.86	
 κατεδύσετο	κατεδυσετο	1	α	S	0	2	internal:2		Il. 7.103; Il. 10.517
@@ -12731,6 +12754,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 λαόγονον	λαογονον	1	α	L	2	0	prevocalic:2	Il. 16.604; Il. 20.460	
 λαοδάμα	λαοδαμα	1	α	L	2	0	prevocalic:2	Od. 8.141; Od. 8.153	
 λαοδάμα	λαοδαμα	3	ά	S	0	2	internal:2		Od. 8.141; Od. 8.153
+λαοδάμα	λαοδαμα	4	α	L	1	0	final:1	Od. 8.153	
 λαοδάμαντα	λαοδαμαντα	1	α	L	4	0	prevocalic:4	Il. 15.516; Od. 7.170; Od. 8.117; Od. 8.370	
 λαοδάμαντα	λαοδαμαντα	3	ά	S	0	4	internal:4		Il. 15.516; Od. 7.170; Od. 8.117; Od. 8.370
 λαοδάμαντα	λαοδαμαντα	5	α	S	0	1	final:1		Od. 8.370
@@ -12919,6 +12943,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 λιθάδεσσιν	λιθαδεσσιν	4	ι	S	0	1	final:1		Od. 14.36
 λίθακι	λιθακι	1	ί	S	0	1	internal:1		Od. 5.415
 λίθακι	λιθακι	2	α	S	0	1	internal:1		Od. 5.415
+λίθακι	λιθακι	3	ι	L	1	0	final:1	Od. 5.415	
 λίθοι	λιθοι	1	ί	S	0	1	internal:1		Il. 12.287
 λίθοιο	λιθοιο	1	ί	S	0	4	internal:4		Il. 6.244; Il. 6.248; Od. 13.77; Od. 23.103
 λίθοις	λιθοισ	1	ί	S	0	1	internal:1		Il. 18.504
@@ -12945,6 +12970,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 λιλαιόμενον	λιλαιομενον	1	ι	S	0	1	internal:1		Od. 1.315
 λιμένʼ	λιμενʼ	1	ι	S	0	1	internal:1		Od. 16.473
 λιμένα	λιμενα	1	ι	S	0	4	internal:4		Od. 10.87; Od. 10.141; Od. 13.279; Od. 15.472
+λιμένα	λιμενα	3	α	L	1	0	final:1	Od. 10.141	
 λιμένας	λιμενασ	1	ι	S	0	3	internal:3		Od. 5.418; Od. 5.440; Od. 7.43
 λιμένες	λιμενεσ	1	ι	S	0	3	internal:3		Od. 4.846; Od. 5.404; Od. 13.195
 λιμένεσσι	λιμενεσσι	1	ι	S	0	1	internal:1		Il. 23.745
@@ -14004,6 +14030,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ναύμαχον	ναυμαχον	2	α	S	0	1	internal:1		Il. 15.677
 ναυσικάα	ναυσικαα	2	ι	S	0	7	internal:7		Od. 6.17; Od. 6.25; Od. 6.101; Od. 6.186; Od. 6.213; Od. 6.251; Od. 8.464
 ναυσικάα	ναυσικαα	3	ά	S	0	7	prevocalic:7		Od. 6.17; Od. 6.25; Od. 6.101; Od. 6.186; Od. 6.213; Od. 6.251; Od. 8.464
+ναυσικάα	ναυσικαα	4	α	L	4	0	final:4	Od. 6.17; Od. 6.25; Od. 6.213; Od. 8.464	
 ναυσικάᾳ	ναυσικαα	2	ι	S	0	1	internal:1		Od. 6.276
 ναυσικάᾳ	ναυσικαα	3	ά	S	0	1	prevocalic:1		Od. 6.276
 ναυσικάαν	ναυσικααν	2	ι	S	0	2	internal:2		Od. 6.49; Od. 7.12
@@ -14035,6 +14062,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 νεκύεσσιν	νεκυεσσιν	2	ύ	S	0	2	prevocalic:2		Od. 10.518; Od. 11.485
 νέκυος	νεκυοσ	2	υ	S	0	7	prevocalic:7		Il. 13.509; Il. 16.321; Il. 16.577; Il. 17.240; Il. 18.20; Il. 18.173; Il. 24.423
 νεκύων	νεκυων	2	ύ	S	0	20	prevocalic:20		Il. 1.52; Il. 7.409; Il. 8.491; Il. 10.199; Il. 10.343; Il. 10.387; Il. 16.72; Il. 16.661; Il. 21.218; Od. 10.521
+νεμέσα	νεμεσα	3	α	L	2	0	final:2	Il. 10.145; Il. 16.22	
 νεμεσσηθεῖσα	νεμεσσηθεισα	5	α	S	0	1	final:1		Il. 15.103
 νεμόμεσθα	νεμομεσθα	4	α	S	0	1	final:1		Il. 12.313
 νεογιλῆς	νεογιλησ	3	ι	L	1	0	internal:1	Od. 12.86	
@@ -14075,7 +14103,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 νήεσσι	νηεσσι	3	ι	S	0	22	final:22		Il. 2.175; Il. 2.688; Il. 2.771; Il. 7.229; Il. 8.166; Il. 9.428; Il. 9.691; Il. 11.311; Il. 12.112; Il. 13.320
 νήεσσιν	νηεσσιν	3	ι	S	0	9	final:9		Il. 4.239; Il. 9.347; Il. 9.674; Il. 10.214; Il. 10.342; Il. 11.22; Il. 15.603; Il. 24.408; Od. 24.427
 νηΐ	νηι	2	ῒ	S	0	44	final:44		Il. 1.183; Il. 1.300; Il. 1.329; Il. 1.389; Il. 1.433; Il. 2.54; Il. 2.293; Il. 7.88; Il. 7.383; Il. 8.222
-νηί	νηι	2	ὶ	S	0	41	final:41		Od. 1.182; Od. 2.263; Od. 2.417; Od. 3.61; Od. 3.323; Od. 3.365; Od. 4.656; Od. 4.781; Od. 5.27; Od. 5.37
+νηί	νηι	2	ὶ	conflict	2	41	final:43	Od. 9.194; Od. 10.444	Od. 1.182; Od. 2.263; Od. 2.417; Od. 3.61; Od. 3.323; Od. 3.365; Od. 4.656; Od. 4.781; Od. 5.27; Od. 5.37
 νήια	νηια	2	ι	S	0	1	prevocalic:1		Od. 9.498
 νήια	νηια	3	α	S	0	1	final:1		Od. 9.498
 νηϊάδες	νηιαδεσ	2	ϊ	S	0	3	prevocalic:3		Od. 13.104; Od. 13.348; Od. 13.356
@@ -14140,6 +14168,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 νηυσίν	νηυσιν	2	ὶ	S	0	72	final:72		Il. 1.305; Il. 1.559; Il. 2.4; Il. 2.351; Il. 5.327; Il. 6.50; Il. 7.294; Il. 8.180; Il. 8.183; Il. 8.345
 νηχομένοισι	νηχομενοισι	5	ι	S	0	1	final:1		Od. 23.233
 νίκα	νικα	1	ί	L	1	0	internal:1	Od. 13.261	
+νίκα	νικα	2	α	L	1	0	final:1	Od. 13.261	
 νικᾷ	νικα	1	ι	L	2	0	internal:2	Il. 1.576; Od. 18.404	
 νικᾶν	νικαν	1	ι	L	1	0	internal:1	Od. 11.548	
 νικᾷς	νικασ	1	ι	L	1	0	internal:1	Il. 2.370	
@@ -14174,6 +14203,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 νισόμενον	νισομενον	1	ι	L	4	0	internal:4	Il. 13.186; Il. 15.577; Od. 4.701; Od. 5.19	
 νίσοντο	νισοντο	1	ί	L	2	0	internal:2	Il. 12.119; Il. 18.566	
 νίσου	νισου	1	ί	L	2	0	internal:2	Od. 16.395; Od. 18.413	
+νισσόμεθα	νισσομεθα	4	α	L	1	0	final:1	Od. 10.42	
 νιφάδες	νιφαδεσ	1	ι	S	0	1	internal:1		Il. 12.156
 νιφάδες	νιφαδεσ	2	ά	S	0	1	internal:1		Il. 12.156
 νιφάς	νιφασ	1	ι	S	0	1	internal:1		Il. 15.170
@@ -14408,6 +14438,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ὀδυσῆος	οδυσηοσ	2	υ	S	0	62	internal:62		Il. 3.224; Il. 10.243; Il. 11.459; Il. 23.720; Od. 1.65; Od. 1.103; Od. 1.207; Od. 1.253; Od. 2.225; Od. 2.259
 ὀδυσσαμένοιο	οδυσσαμενοιο	3	α	S	0	2	internal:2		Il. 8.37; Il. 8.468
 ὀδυσσάμενος	οδυσσαμενοσ	3	ά	S	0	1	internal:1		Od. 19.407
+ὀδυσσῆϊ	οδυσσηι	4	ϊ	L	1	0	final:1	Od. 24.309	
 ὄεσσι	οεσσι	3	ι	S	0	3	final:3		Il. 6.25; Il. 11.106; Od. 9.418
 ὅθι	οθι	2	ι	S	0	48	final:46,mcl:2		Il. 2.722; Il. 2.783; Il. 2.861; Il. 4.41; Il. 8.83; Il. 8.491; Il. 9.382; Il. 10.199; Il. 10.326; Il. 10.504
 ὀθρυονεῦ	οθρυονευ	2	υ	S	0	1	prevocalic:1		Il. 13.374
@@ -14738,6 +14769,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ὁπλότατος	οπλοτατοσ	3	α	S	0	1	internal:1		Il. 9.58
 ὁπλοτεράων	οπλοτεραων	4	ά	L	2	0	prevocalic:2	Il. 14.267; Il. 14.275	
 ὀπόεντα	οποεντα	4	α	S	0	2	final:2		Il. 2.531; Il. 18.326
+ὁπόσα	οποσα	3	α	L	1	0	final:1	Il. 24.7	
 ὁπόσσα	οποσσα	3	α	S	0	1	final:1		Od. 22.220
 ὁππόθι	οπποθι	3	ι	S	0	1	final:1		Il. 9.577
 ὁππόσα	οπποσα	3	α	S	0	1	final:1		Od. 14.47
@@ -14746,6 +14778,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ὄπωπα	οπωπα	3	α	S	0	2	final:2		Il. 6.124; Il. 24.392
 ὀπωρινός	οπωρινοσ	3	ι	L	2	0	internal:2	Il. 21.346; Od. 5.328	
 ὀπωρινῷ	οπωρινω	3	ι	L	2	0	internal:2	Il. 5.5; Il. 16.385	
+ὅρα	ορα	2	α	L	2	0	final:2	Il. 15.616; Il. 16.646	
 ὁράᾳς	οραασ	2	ά	S	0	4	prevocalic:4		Il. 7.448; Il. 15.555; Il. 21.108; Od. 17.545
 ὁράασθαι	οραασθαι	2	ά	S	0	3	prevocalic:3		Od. 16.107; Od. 18.4; Od. 20.317
 ὄργυιαν	οργυιαν	3	α	S	0	1	final:1		Od. 9.325
@@ -15025,6 +15058,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 παθών	παθων	1	α	S	0	6	internal:6		Il. 21.82; Od. 4.81; Od. 5.377; Od. 8.184; Od. 15.176; Od. 16.205
 πάθωσιν	παθωσιν	1	ά	S	0	1	internal:1		Il. 10.538
 πάϊ	παι	1	ά	S	0	1	prevocalic:1		Od. 24.192
+πάϊ	παι	2	ϊ	L	1	0	final:1	Od. 24.192	
 παῖδα	παιδα	2	α	S	0	26	final:26		Il. 1.20; Il. 1.443; Il. 1.447; Il. 3.175; Il. 6.389; Il. 6.404; Il. 6.408; Il. 9.481; Il. 16.460; Il. 19.331
 παῖδας	παιδασ	2	α	S	0	2	final:2		Il. 22.423; Il. 24.751
 παίδεσσι	παιδεσσι	3	ι	S	0	2	final:2		Od. 3.381; Od. 5.394
@@ -15569,6 +15603,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 πατέρʼ	πατερʼ	1	α	S	0	27	internal:27		Il. 6.414; Il. 24.161; Il. 24.511; Il. 24.700; Il. 24.737; Od. 1.115; Od. 1.195; Od. 2.46; Od. 3.379; Od. 4.387
 πατέρα	πατερα	1	α	S	0	11	internal:11		Il. 4.354; Il. 5.639; Od. 1.300; Od. 3.198; Od. 3.308; Od. 6.36; Od. 6.56; Od. 11.451; Od. 20.385; Od. 22.355
 πατέρι	πατερι	1	α	S	0	3	internal:3		Il. 5.156; Il. 24.37; Od. 3.39
+πατέρι	πατερι	3	ι	L	1	0	final:1	Il. 5.156	
 πατέρος	πατεροσ	1	α	S	0	1	internal:1		Od. 11.501
 πατέρων	πατερων	1	α	S	0	5	internal:5		Il. 4.405; Il. 6.209; Od. 4.94; Od. 15.197; Od. 24.508
 πατήρ	πατηρ	1	α	S	0	109	internal:109		Il. 1.544; Il. 2.260; Il. 4.68; Il. 4.235; Il. 5.33; Il. 5.426; Il. 5.543; Il. 5.662; Il. 6.49; Il. 6.413
@@ -16493,6 +16528,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 πουλυβοτείρῃ	πουλυβοτειρη	2	υ	S	0	12	internal:12		Il. 3.89; Il. 3.195; Il. 6.213; Il. 8.73; Il. 8.277; Il. 12.158; Il. 12.194; Il. 16.418; Il. 21.426; Il. 23.368
 πουλυδάμα	πουλυδαμα	2	υ	S	0	4	internal:4		Il. 12.231; Il. 13.751; Il. 14.470; Il. 18.285
 πουλυδάμα	πουλυδαμα	3	ά	S	0	4	internal:4		Il. 12.231; Il. 13.751; Il. 14.470; Il. 18.285
+πουλυδάμα	πουλυδαμα	4	α	L	1	0	final:1	Il. 14.470	
 πουλυδάμαντʼ	πουλυδαμαντʼ	2	υ	S	0	1	internal:1		Il. 16.535
 πουλυδάμαντʼ	πουλυδαμαντʼ	3	ά	S	0	1	internal:1		Il. 16.535
 πουλυδάμαντα	πουλυδαμαντα	2	υ	S	0	3	internal:3		Il. 11.57; Il. 13.756; Il. 13.790
@@ -16761,6 +16797,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 πτερύγεσσι	πτερυγεσσι	2	ύ	S	0	1	internal:1		Il. 2.462
 πτερύγεσσιν	πτερυγεσσιν	2	ύ	S	0	1	internal:1		Od. 2.149
 πτέρυγος	πτερυγοσ	2	υ	S	0	2	internal:2		Il. 2.316; Il. 23.875
+πτόλεϊ	πτολει	3	ΐ	L	1	0	final:1	Il. 17.152	
 πτολίεθρα	πτολιεθρα	2	ί	S	0	3	prevocalic:3		Il. 9.149; Il. 9.291; Il. 9.396
 πτολίεθρα	πτολιεθρα	4	α	S	0	1	final:1		Il. 9.396
 πτολίεθρον	πτολιεθρον	2	ί	S	0	27	prevocalic:27		Il. 1.164; Il. 2.133; Il. 2.228; Il. 2.501; Il. 2.505; Il. 2.538; Il. 2.546; Il. 2.569; Il. 4.33; Il. 4.239
@@ -17341,7 +17378,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 σπάσεν	σπασεν	1	ά	S	0	1	internal:1		Il. 5.859
 σπασσάμενος	σπασσαμενοσ	2	ά	S	0	3	internal:3		Il. 16.473; Od. 10.439; Od. 11.231
 σπάσσατο	σπασσατο	2	α	S	0	1	internal:1		Il. 11.240
-σπεῖρα	σπειρα	2	α	S	0	1	final:1		Od. 4.245
+σπεῖρα	σπειρα	2	α	conflict	1	1	final:2	Od. 6.269	Od. 4.245
 σπέρμα	σπερμα	2	α	S	0	1	final:1		Od. 5.490
 σπερχοίατʼ	σπερχοιατʼ	3	α	S	0	2	final:2		Il. 19.317; Od. 13.22
 σπεύδοντα	σπευδοντα	3	α	S	0	2	final:2		Il. 4.225; Il. 8.293
@@ -17683,7 +17720,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 σώματι	σωματι	2	α	S	0	1	internal:1		Il. 3.23
 σώματι	σωματι	3	ι	S	0	1	final:1		Il. 3.23
 σώματος	σωματοσ	2	α	S	0	1	internal:1		Il. 18.161
-τά	τα	1	ὰ	S	0	222	final:222		Il. 1.20; Il. 1.107; Il. 1.125; Il. 1.125; Il. 1.318; Il. 1.368; Il. 1.383; Il. 1.576; Il. 2.145; Il. 2.262
+τά	τα	1	ὰ	conflict	1	222	final:223	Il. 21.352	Il. 1.20; Il. 1.107; Il. 1.125; Il. 1.125; Il. 1.318; Il. 1.368; Il. 1.383; Il. 1.576; Il. 2.145; Il. 2.262
 τάδʼ	ταδʼ	1	ά	S	0	14	final:14		Il. 1.573; Il. 9.688; Il. 15.159; Il. 23.273; Od. 4.75; Od. 4.292; Od. 6.190; Od. 8.538; Od. 8.544; Od. 10.43
 τάδε	ταδε	1	ά	S	0	77	internal:77		Il. 1.257; Il. 2.252; Il. 3.321; Il. 4.14; Il. 5.185; Il. 5.490; Il. 5.757; Il. 5.872; Il. 5.894; Il. 6.348
 ταθείς	ταθεισ	1	α	S	0	3	internal:3		Il. 13.655; Il. 21.119; Od. 22.200
@@ -18382,6 +18419,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 τρισκαιδεκάτῃ	τρισκαιδεκατη	4	ά	S	0	1	internal:1		Od. 19.202
 τρισκαιδέκατον	τρισκαιδεκατον	4	α	S	0	2	internal:2		Il. 10.495; Il. 10.561
 τρισκαιδέκατος	τρισκαιδεκατοσ	4	α	S	0	1	internal:1		Od. 8.391
+τριστοιχί	τριστοιχι	3	ί	L	1	0	final:1	Il. 10.473	
 τρισχίλιαι	τρισχιλιαι	2	ί	L	1	0	internal:1	Il. 20.221	
 τρισχίλιαι	τρισχιλιαι	3	ι	S	0	1	prevocalic:1		Il. 20.221
 τρίτα	τριτα	1	ί	S	0	1	internal:1		Il. 23.700
@@ -18650,6 +18688,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ὑπέδραμε	υπεδραμε	1	ὑ	S	0	2	internal:2		Il. 21.68; Od. 10.323
 ὑπέδραμε	υπεδραμε	3	α	S	0	2	internal:2		Il. 21.68; Od. 10.323
 ὑπέδυ	υπεδυ	1	ὑ	S	0	1	internal:1		Od. 10.398
+ὑπέδυ	υπεδυ	3	υ	L	1	0	final:1	Od. 10.398	
 ὑπεδύσετο	υπεδυσετο	1	ὑ	S	0	1	internal:1		Od. 6.127
 ὑπεδύσετο	υπεδυσετο	3	ύ	L	1	0	internal:1	Od. 6.127	
 ὑπεθερμάνθη	υπεθερμανθη	1	ὑ	S	0	2	internal:2		Il. 16.333; Il. 20.476
@@ -18830,6 +18869,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 ὑπερκύδαντας	υπερκυδαντασ	5	α	S	0	2	final:2		Il. 4.66; Il. 4.71
 ὑπερμενέα	υπερμενεα	1	ὑ	S	0	2	internal:2		Il. 2.350; Il. 8.470
 ὑπερμενέϊ	υπερμενει	1	ὑ	S	0	7	internal:7		Il. 2.116; Il. 2.403; Il. 7.315; Il. 7.481; Il. 9.23; Il. 13.226; Il. 14.69
+ὑπερμενέϊ	υπερμενει	5	ϊ	L	3	0	final:3	Il. 2.116; Il. 9.23; Il. 14.69	
 ὑπερμενεῖ	υπερμενει	1	ὑ	S	0	1	internal:1		Il. 11.727
 ὑπερμενέοντες	υπερμενεοντεσ	1	ὑ	S	0	1	internal:1		Od. 19.62
 ὑπερμενέων	υπερμενεων	1	ὑ	S	0	4	internal:4		Il. 8.236; Il. 17.362; Od. 13.205; Od. 20.222
@@ -19478,6 +19518,7 @@ form	loose	vowel_no	vowel	quantity	n_long	n_short	contexts	citations_long	citati
 φλιῇσι	φλιησι	1	ι	L	1	0	prevocalic:1	Od. 17.221	
 φλιῇσι	φλιησι	3	ι	S	0	1	final:1		Od. 17.221
 φλόγα	φλογα	2	α	S	0	3	final:3		Il. 18.206; Il. 21.333; Il. 21.349
+φλόγεα	φλογεα	3	α	L	2	0	final:2	Il. 5.745; Il. 8.389	
 φοβέουσι	φοβεουσι	4	ι	S	0	1	final:1		Il. 21.267
 φοινήεντα	φοινηεντα	4	α	S	0	2	mcl:2		Il. 12.202; Il. 12.220
 φοίνικα	φοινικα	2	ι	L	1	0	internal:1	Il. 23.360	

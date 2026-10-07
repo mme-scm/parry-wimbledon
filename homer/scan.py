@@ -901,12 +901,35 @@ QUANTITY_LICENCES = {"correption", "hiatus_long", "internal_correption", "length
                      "lengthening_liquid_internal", "dichronon_contra"}
 
 
+LENGTHENING_ONSETS = ("λ", "μ", "ν", "ρ", "σ")
+
+
+def _lengthening_context(line, n):
+    """True if a lengthening licence could explain a long final syllable of
+    the word of nucleus `n`: the next word begins with λ μ ν ρ σ, with a
+    digamma (homer/digamma.tsv) or with a vowel, or there is no next word."""
+    nt = n.tok + 1
+    if nt >= len(line.tokens):
+        return True
+    if line.digamma[nt] or line.onset_vowel[nt]:
+        return True
+    ls = line.tok_segs[nt][0]
+    return not ls or ls[0].base in LENGTHENING_ONSETS
+
+
 def dichronon_attestations(line, sc, tier):
     """Dichrona whose quantity this (unique) scansion fixes.  A vowel counts
     only if (a) its syllable is open or prevocalic so that the syllable
     quantity shows the vowel quantity, (b) no licence that changes quantity
     could apply in that context, and (c) forcing the opposite quantity leaves
-    no scansion even when the tier-1 licences are allowed."""
+    no scansion even when the tier-1 licences are allowed.
+
+    For (b), a word-final long α/ι/υ before a single consonant in the
+    princeps is excluded only where a lengthening licence could explain it:
+    the next word begins with λ μ ν ρ σ (lengthening_liquid), with a digamma
+    (homer/digamma.tsv), or with a vowel (the word ends in a consonant:
+    lengthening_closed), or the line ends.  Before any other single consonant
+    (θεὰ Πηληϊάδεω, Il. 1.1) the long vowel counts."""
     out = []
     nucs = line.nuclei
     for k, (span, q, state, lic) in enumerate(sc.syls):
@@ -940,7 +963,7 @@ def dichronon_attestations(line, sc, tier):
                     continue
                 env = "prevocalic"
             else:
-                if final and princeps:
+                if final and princeps and _lengthening_context(line, n):
                     continue
                 if final and cl.startswith("|") and cons in ("λ", "μ", "ν", "ρ", "σ"):
                     continue

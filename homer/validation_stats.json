@@ -29,39 +29,39 @@
  },
  "pass2": {
   "lines": 27794,
-  "unique": 27142,
-  "unique_pct": 97.654,
-  "multiple": 647,
-  "multiple_pct": 2.328,
+  "unique": 27162,
+  "unique_pct": 97.726,
+  "multiple": 627,
+  "multiple_pct": 2.256,
   "fail": 5,
   "fail_pct": 0.018,
   "error": 0,
   "error_pct": 0.0,
   "tiers": {
-   "1": 1901,
-   "0": 25786,
+   "1": 1851,
+   "0": 25836,
    "2": 102
   },
   "Il": {
    "lines": 15687,
-   "unique": 15309,
-   "multiple": 375,
+   "unique": 15327,
+   "multiple": 357,
    "fail": 3
   },
   "Od": {
    "lines": 12107,
-   "unique": 11833,
-   "multiple": 272,
+   "unique": 11835,
+   "multiple": 270,
    "fail": 2
   }
  },
  "dichrona": {
-  "forms_vowels": 20191,
-  "L": 2596,
-  "S": 17509,
-  "conflict": 86,
-  "attestations": 85254,
-  "conflict_attestations_minority": 297
+  "forms_vowels": 20232,
+  "L": 2637,
+  "S": 17500,
+  "conflict": 95,
+  "attestations": 85399,
+  "conflict_attestations_minority": 309
  },
  "analogy": {
   "keys": 6225,
@@ -90,28 +90,28 @@
  "licence_counts_unique_lines": {
   "hiatus_long": 2245,
   "synizesis": 257,
-  "hiatus": 748,
-  "digamma": 3411,
-  "correption": 8363,
+  "hiatus": 745,
+  "digamma": 3412,
+  "correption": 8371,
   "analogy_contra": 81,
   "lengthening_closed": 287,
   "digamma_internal": 14,
   "muta_cum_liquida_initial": 610,
-  "lengthening_liquid": 438,
+  "lengthening_liquid": 431,
   "digamma_double": 33,
   "internal_correption": 75,
   "muta_cum_liquida": 97,
-  "dichronon_contra": 51,
+  "dichronon_contra": 35,
   "no_position_initial_cluster": 6,
   "lengthening_liquid_internal": 7,
-  "accent_contra": 22,
+  "accent_contra": 14,
   "synizesis_cross": 24,
   "synizesis_i": 5,
   "metrical_lengthening": 11,
   "synizesis_rare": 2
  },
  "positions": {
-  "lines_used": 27142
+  "lines_used": 27162
  },
  "pattern_changed_pass1_to_pass2": 146,
  "failures": [
@@ -279,5 +279,5 @@
    5
   ]
  ],
- "runtime_s": 25.4
+ "runtime_s": 53.3
 }

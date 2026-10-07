@@ -14,7 +14,7 @@ Text: 15687 Iliad lines + 12107 Odyssey lines = 27794 lines (homer/lines.tsv).
 
 | lines | unique | multiple | of which tied best | fail |
 |---|---|---|---|---|
-| 27794 | 27142 (97.65%) | 647 (2.33%) | 33 (0.12%) | 5 (0.02%) |
+| 27794 | 27162 (97.73%) | 627 (2.26%) | 33 (0.12%) | 5 (0.02%) |
 
 Rows of homer/scansion.tsv whose pattern agrees with this rerun: 27794 of 27794.
 
@@ -22,10 +22,10 @@ By poem (final):
 
 | poem | lines | unique | multiple | fail |
 |---|---|---|---|---|
-| Il | 15687 | 15309 (97.59%) | 375 (2.39%) | 3 (0.02%) |
-| Od | 12107 | 11833 (97.74%) | 272 (2.25%) | 2 (0.02%) |
+| Il | 15687 | 15327 (97.71%) | 357 (2.28%) | 3 (0.02%) |
+| Od | 12107 | 11835 (97.75%) | 270 (2.23%) | 2 (0.02%) |
 
-Lowest tier needed (final): tier 0 25786, tier 1 1901, tier 2 102 lines.
+Lowest tier needed (final): tier 0 25836, tier 1 1851, tier 2 102 lines.
 
 ## Iterations and ablations
 
@@ -35,10 +35,10 @@ Lowest tier needed (final): tier 0 25786, tier 1 1901, tier 2 102 lines.
 | core | 94.48% | 0.34% | 0.04% | 1438 (5.17%) |
 | tier<=1 | 97.95% | 1.66% | 0.22% | 107 (0.38%) |
 | pass 1 | 98.07% | 1.91% | 0.26% | 5 (0.02%) |
-| final | 97.65% | 2.33% | 0.12% | 5 (0.02%) |
-| final, no digamma list | 96.95% | 2.91% | 0.13% | 37 (0.13%) |
-| final, accent rules off | 97.79% | 2.19% | 0.12% | 5 (0.02%) |
-| final, accent rules hard | 97.65% | 2.33% | 0.12% | 5 (0.02%) |
+| final | 97.73% | 2.26% | 0.12% | 5 (0.02%) |
+| final, no digamma list | 97.02% | 2.85% | 0.13% | 37 (0.13%) |
+| final, accent rules off | 97.86% | 2.12% | 0.12% | 5 (0.02%) |
+| final, accent rules hard | 97.74% | 2.24% | 0.12% | 5 (0.02%) |
 
 Patterns changed between pass 1 and the final configuration: 146 lines.
 
@@ -52,17 +52,17 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 |---|---|---|
 | closed final syllable lengthened in arsis before a vowel | 15 | 361 |
 | synizesis (within a word: θεοί, -εω, χρυσέῳ) | 9 | 324 |
-| short final vowel lengthened before λ μ ν ρ σ | 11 | 282 |
+| short final vowel lengthened before λ μ ν ρ σ | 10 | 276 |
 | long vowel kept before a vowel in the biceps | 4 | 174 |
 | internal correption (οἷος, υἱός, ἥρωος) | 2 | 84 |
-| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 42 |
 | metrical lengthening of a short vowel in arsis | 1 | 40 |
+| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 33 |
 | synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 31 |
+| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 2 | 25 |
 | no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 25 |
 | σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 24 |
 | consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 14 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 0 | 10 |
-| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 1 | 10 |
 | short final vowel lengthened in arsis before a vowel | 1 | 5 |
 | still unscannable (see failure notes) | 0 | 5 |
 | other synizesis across words | 0 | 4 |
@@ -120,7 +120,7 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 | Od. 17.254 | ὣς εἰπὼν τοὺς μὲν λίπεν αὐτοῦ ἦκα κιόντας, | SSDSDS | long vowel kept before a vowel in the biceps | hiatus_long@8(αὐτοῦ) |
 | Od. 18.249 | εἶδός τε μέγεθός τε ἰδὲ φρένας ἔνδον ἐΐσας. | SDDDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@3(μέγεθός) |
 | Od. 19.172 | Κρήτη τις γαῖʼ ἔστι, μέσῳ ἐνὶ οἴνοπι πόντῳ, | SSDDDS | long vowel kept before a vowel in the biceps | hiatus_long@4(γαῖʼ), hiatus_long@7(μέσῳ) |
-| Od. 20.281 | πὰρ δʼ ἄρʼ Ὀδυσσῆϊ μοῖραν θέσαν οἳ πονέοντο | DSSDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@5(μοῖραν) |
+| Od. 20.281 | πὰρ δʼ ἄρʼ Ὀδυσσῆϊ μοῖραν θέσαν οἳ πονέοντο | DSSDDS | α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) |  |
 | Od. 24.337 | εἴπω, ἅ μοί ποτʼ ἔδωκας, ἐγὼ δʼ ᾔτεόν σε ἕκαστα | DDDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@9(ᾔτεόν) |
 
 </details>
@@ -160,7 +160,7 @@ homer/manual_checks.tsv records scansions made by hand (by reasoning, not from t
 
 ## Internal consistency of α/ι/υ
 
-homer/dichrona.tsv: 20191 (form, vowel) pairs fixed by 85254 unambiguous attestations; 2596 long, 17509 short, 86 with conflicting attestations (minority attestations: 297, 0.35% of all).  Conflicts are mostly genuine Homeric doubtful vowels (Ἄρης, ἀνήρ, ὕδωρ, λίην, ἱερός, ἵκω) and homographs (δύω 'two' / 'sink'; ἰῷ 'one' / 'arrow').
+homer/dichrona.tsv: 20232 (form, vowel) pairs fixed by 85399 unambiguous attestations; 2637 long, 17500 short, 95 with conflicting attestations (minority attestations: 309, 0.36% of all).  Conflicts are mostly genuine Homeric doubtful vowels (Ἄρης, ἀνήρ, ὕδωρ, λίην, ἱερός, ἵκω) and homographs (δύω 'two' / 'sink'; ἰῷ 'one' / 'arrow').
 
 Analogy predictor (quantity of a word-internal α/ι/υ from other forms beginning with the same letters up to the next vowel), leave-one-form-out:
 
@@ -172,5 +172,5 @@ Analogy predictor (quantity of a word-internal α/ι/υ from other forms beginni
 
 ## Word-end baseline
 
-Positions where Homer has (lexical) word end in fewer than 1% of the lines in which the position exists: 7.5 (0.91%; orthographic 6.66%).
+Positions where Homer has (lexical) word end in fewer than 1% of the lines in which the position exists: 7.5 (0.91%; orthographic 6.67%).
 

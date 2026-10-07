@@ -144,29 +144,29 @@ unique scansion only) and are therefore attested in this text.
 <!-- BEGIN GENERATED: licences -->
 | licence | tier princeps / biceps | cost p / b | description | Monro | instances in uniquely scanned lines | examples (word, first citation @ position) |
 |---|---|---|---|---|---|---|
-| `correption` | - / 0 | - / 0.1 | epic correption: final long vowel/diphthong shortened before a vowel | §380 | 8363 | καί (Il. 1.17@4); οἱ (Il. 1.188@10); μοι (Il. 1.76@9.5) |
+| `correption` | - / 0 | - / 0.1 | epic correption: final long vowel/diphthong shortened before a vowel | §380 | 8371 | καί (Il. 1.17@4); οἱ (Il. 1.188@10); μοι (Il. 1.76@9.5) |
 | `hiatus_long` | 0 / 1 | 0.3 / 1 | final long vowel/diphthong kept long before a vowel (hiatus) | §380 | 2245 | ἤ (Il. 1.27@6); ἦ (Il. 1.133@1); τῷ (Il. 2.109@1) |
-| `hiatus` | 0 / 0 | 0.2 / 0.2 | final short vowel not elided before a vowel (hiatus) | §§379, 382 | 748 | δέ (Il. 1.4@5.5); τε (Il. 2.90@10); πότνια (Il. 1.551@10) |
+| `hiatus` | 0 / 0 | 0.2 / 0.2 | final short vowel not elided before a vowel (hiatus) | §§379, 382 | 745 | δέ (Il. 1.4@5.5); τε (Il. 2.90@10); πότνια (Il. 1.551@10) |
 | `internal_correption` | - / 1 | - / 1 | long vowel/diphthong shortened before a vowel inside a word | §§381, 384 | 75 | δηΐων (Il. 2.544@5.5); μεμαυῖα (Il. 4.440@10); υἱέ (Il. 7.47@2) |
 | `muta_cum_liquida` | - / 0 | - / 0.6 | stop + liquid/nasal inside a word does not make position | §370 | 97 | ἀφροδίτη (Il. 2.820@9.5); ἀλλοτρίης (Od. 9.535@3.5); ἀλλοτρίων (Il. 20.298@3.5) |
 | `muta_cum_liquida_initial` | - / 0 | - / 0.4 | word-initial stop + liquid/nasal does not lengthen a preceding short final vowel | §370 | 610 | προσηύδα (Il. 1.201@9.5); πρός (Il. 1.609@1.5); βροτῶν (Il. 6.142@3.5) |
 | `no_position_initial_cluster` | - / 2 | - / 2 | word-initial ζ / σ+consonant does not lengthen a preceding short final vowel | §370 | 6 | σκαμάνδρου (Il. 5.77@9.5); ζάκυνθον (Il. 2.634@1.5); σκάμανδρε (Il. 21.223@3.5) |
-| `lengthening_liquid` | 1 / 2 | 0.5 / 1.5 | short final vowel lengthened before initial λ μ ν ρ σ (originally double) | §§371-372 | 438 | μέγα (Il. 1.454@5); μεγάροισι (Il. 5.270@7); μεγάροισιν (Il. 5.805@7) |
+| `lengthening_liquid` | 1 / 2 | 0.5 / 1.5 | short final vowel lengthened before initial λ μ ν ρ σ (originally double) | §§371-372 | 431 | μέγα (Il. 1.454@5); μεγάροισι (Il. 5.270@7); μεγάροισιν (Il. 5.805@7) |
 | `lengthening_closed` | 1 / - | 1 / - | short final syllable ending in a consonant lengthened in arsis before a vowel | §375 | 287 | γάρ (Il. 1.342@5); μῆτιν (Il. 2.169@9); χωόμενος (Il. 1.244@3) |
 | `lengthening_hiatus` | 2 / - | 2.5 / - | short final vowel lengthened in arsis before a vowel | §§375, 390 (ἰάχω) | 0 | - |
 | `metrical_lengthening` | 2 / - | 2 / - | short vowel lengthened in arsis before a single consonant (metrical licence) | §§386-387 | 11 | ὑποδείσαντες (Il. 12.413@7); ἐπεί (Od. 4.13@1); ἐπίτονος (Od. 12.423@1) |
 | `synizesis` | 1 / 1 | 1 / 1 | two adjacent vowels in a word pronounced as one long syllable | §378 | 257 | σφεας (Il. 2.704@3); χρεώ (Il. 9.75@8); ἡμέας (Il. 8.211@2) |
 | `synizesis_i` | 2 / 2 | 1.5 / 1.5 | ι or υ before a vowel pronounced consonantally (synizesis) | §378 | 5 | αἰγυπτίους (Od. 4.83@9); αἰγυπτίας (Il. 9.382@3); αἰγυπτίη (Od. 4.229@3) |
 | `synizesis_cross` | 1 / 1 | 0.8 / 0.8 | synizesis across a word boundary (δή, ἤ, ἐπεί, μή, ἐγώ + vowel) | §378 | 24 | ἦ (Il. 5.349@1); δή (Il. 11.386@3); ἐπεί (Il. 13.777@3) |
-| `digamma` | 0 / 0 | 0.05 / 0.05 | initial ϝ (lost digamma) counted as a consonant | §§388-392 | 3411 | οἱ (Il. 1.79@6); ἔπος (Il. 1.108@7); ἔργα (Il. 1.115@10) |
+| `digamma` | 0 / 0 | 0.05 / 0.05 | initial ϝ (lost digamma) counted as a consonant | §§388-392 | 3412 | οἱ (Il. 1.79@6); ἔπος (Il. 1.108@7); ἔργα (Il. 1.115@10) |
 | `digamma_double` | 1 / 1 | 0.5 / 1 | initial σϝ/δϝ counted as two consonants | §§391, 394 | 33 | δήν (Il. 1.416@11); ἕθεν (Il. 6.62@7); δείσαντες (Od. 9.236@3) |
 | `synizesis_rare` | 2 / 2 | 2 / 2 | synizesis of other vowel pairs inside a word (ἤιομεν) | §378 | 2 | ἀλλοειδέα (Od. 13.194@4); ἤιομεν (Od. 10.251@1) |
 | `digamma_internal` | 0 / 0 | 0.05 / 0.05 | δϝ after the augment counts as two consonants (ἔδεισα = ἔδδεισα) | §394 | 14 | ἔδεισεν (Il. 1.33@3); ἔδεισαν (Od. 10.219@4); ἔδεισας (Il. 22.19@8) |
 | `synizesis_cross_rare` | 2 / 2 | 2 / 2 | synizesis across a word boundary after another word (Πηλείδη ἔθελʼ) | §378 | 0 | - |
 | `lengthening_liquid_internal` | 2 / 2 | 2 / 2.5 | short vowel lengthened before a single λ μ ν ρ σ inside a word (augment/compound: ἐλίσσετο) | §§371-372 | 7 | φιλομειδής (Il. 3.424@7); αἰόλου (Od. 10.60@4); βορέης (Il. 9.5@1) |
-| `dichronon_contra` | 1 / 1 | 1.5 / 1.5 | α/ι/υ given the quantity contrary to its unambiguous attestations elsewhere | §§383-384 | 51 | ἀντικρύ (Il. 3.359@3); γάρ (Il. 9.377@4); μέγα (Il. 14.421@3) |
+| `dichronon_contra` | 1 / 1 | 1.5 / 1.5 | α/ι/υ given the quantity contrary to its unambiguous attestations elsewhere | §§383-384 | 35 | γάρ (Il. 9.377@4); μέγα (Il. 14.421@3); διά (Il. 3.357@1) |
 | `analogy_contra` | 1 / 1 | 1.5 / 1.5 | α/ι/υ given a quantity contrary to other word forms sharing the same beginning (homer/dichrona_analogy.tsv) | - | 81 | ἀνήρ (Il. 2.553@11); ἀπόλλωνος (Il. 1.14@9); ἀπόλλωνι (Il. 1.36@1) |
-| `accent_contra` | 1 / 1 | 1.2 / 1.2 | α/ι/υ given a quantity contrary to the accentuation (σωτῆρα / antepenult rules) | §§373, 375 | 22 | ἀχιλλῆϊ (Il. 24.119@5); φλόγεα (Il. 5.745@5); αἶαν (Il. 23.493@2) |
+| `accent_contra` | 1 / 1 | 1.2 / 1.2 | α/ι/υ given a quantity contrary to the accentuation (σωτῆρα / antepenult rules) | §§373, 375 | 14 | αἴαντι (Il. 14.459@3); αἶαν (Il. 23.493@2); πυλαιμένεα (Il. 5.576@5) |
 <!-- END GENERATED: licences -->
 
 Notes on particular licences:
@@ -232,9 +232,12 @@ operational choices of this tool, not a claim about the literature.
   `n_short`, `contexts`, citations (first 10 each).  An attestation counts
   only if (a) the line has a unique scansion in pass 1, (b) the syllable
   shows the vowel's quantity (open or prevocalic syllable; a final vowel
-  before a vowel, a final vowel in the princeps before a single consonant,
-  and a final vowel before λ μ ν ρ σ are excluded because a licence could
-  explain them; a syllable long by position is excluded), and (c) forcing
+  before a vowel, a final vowel before λ μ ν ρ σ, and a long final syllable
+  in the princeps whose next word begins with a digamma (`digamma.tsv`) or
+  a vowel (word ending in a consonant: `lengthening_closed`) are excluded
+  because a licence could explain them; a long final vowel in the princeps
+  before any other single consonant counts, e.g. θεὰ Πηληϊάδεω, Il. 1.1; a
+  syllable long by position is excluded), and (c) forcing
   the opposite quantity leaves the line unscannable even with the tier-1
   licences.  In pass 2 a form's quantity is used if all its attestations
   agree, or if at least 90% agree among five or more.
@@ -284,7 +287,7 @@ Lines: Iliad 15687, Odyssey 12107, total 27794.
 | core | 26261 (94.48%) | 95 (0.34%) | 1438 (5.17%) |
 | tier<=1 | 27225 (97.95%) | 462 (1.66%) | 107 (0.38%) |
 | pass 1 | 27257 (98.07%) | 532 (1.91%) | 5 (0.02%) |
-| final | 27142 (97.65%) | 647 (2.33%) | 5 (0.02%) |
+| final | 27162 (97.73%) | 627 (2.26%) | 5 (0.02%) |
 
 Final: tied best scansions 33 (0.12%). Manual checks: sample A: 50/50 agree; sample B: 30/30 agree.
 
@@ -294,17 +297,17 @@ Failure taxonomy (tier-0 rules alone fail 1438 lines; sample of 50, seed 2026100
 |---|---|---|
 | closed final syllable lengthened in arsis before a vowel | 15 | 361 |
 | synizesis (within a word: θεοί, -εω, χρυσέῳ) | 9 | 324 |
-| short final vowel lengthened before λ μ ν ρ σ | 11 | 282 |
+| short final vowel lengthened before λ μ ν ρ σ | 10 | 276 |
 | long vowel kept before a vowel in the biceps | 4 | 174 |
 | internal correption (οἷος, υἱός, ἥρωος) | 2 | 84 |
-| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 42 |
 | metrical lengthening of a short vowel in arsis | 1 | 40 |
+| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 33 |
 | synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 31 |
+| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 2 | 25 |
 | no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 25 |
 | σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 24 |
 | consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 14 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 0 | 10 |
-| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 1 | 10 |
 | short final vowel lengthened in arsis before a vowel | 1 | 5 |
 | still unscannable (see failure notes) | 0 | 5 |
 | other synizesis across words | 0 | 4 |
