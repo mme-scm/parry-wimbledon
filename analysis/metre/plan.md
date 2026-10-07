@@ -176,3 +176,71 @@ Only structure, never an outcome-predictor relation: field lists of the jsonl an
 2.0 s after the last hit, medians); the timing of the 55 (2019) / 26 (2023) exact-repeat clips (median 17 s after the end of the clip
 they repeat, mostly the next point), which shows that a clip's text window reaches well beyond the clip; clip-role and dedup counts;
 counts of residual outliers by serve number. No word count, formula share or syllable count was computed before this commit.
+
+---
+
+## Addendum 1 (2026-10-07): POST HOC changes after the critic review `review/critic_analysis_v1.md`
+
+**Label: POST HOC.** Everything in this addendum was decided after the confirmatory results, `report.md` and the critic's
+review had been seen. The text above this addendum is unchanged. No confirmatory definition, test, exclusion rule, threshold,
+alpha or Holm family is changed, so the confirmatory results and the section-7 verdict are unchanged. Every new analysis
+below is reported as **POST HOC** in `report.md`, is outside every Holm family and is used only for interpretation. This
+addendum was committed before any of the new analyses was run. New code: `s04b_posthoc.py`. Umpire-mask variants were added
+to `metre_lib.py` and `s02_build.py`; all pre-existing outputs are unchanged. The report generator (`s06_make_report.py`)
+and the figures (`s05_figures.py`) were extended.
+
+* **PH1 (critic B5), verdict wording.** The summary sentence "The 2019 CIs are narrow enough to exclude a short-interval
+  excess in formula share larger than 1.3 pp and a positive syllable-time correlation larger than rho = 0.009" is withdrawn.
+  It conflicted with Limitation 2 (attenuation). The replacement states what the 2019 CIs exclude **for the effect as
+  measured**: clip-level text attributed to points, ASR text, and the section-3 formula definitions. It then says that
+  misattributing text to points and ASR errors both attenuate a true effect towards 0, so the true effect could be larger
+  than these bounds. The "unless the CI is narrow" clause of section 7 is not invoked.
+* **PH2 (critic B5), minimum detectable effect (MDE) by simulation** for T2, T3 and T4 in 2019 and for T2 and T3 in 2023.
+  The method was fixed here before it was run:
+  * *Null bases.* Each admissible index shift k0 of the primary null (k0 = 10 ... M-10) is treated in turn as the true
+    timing. This breaks the real alignment. It keeps the real N, token counts, formula coverage, string syllables and the
+    serial structure of both sequences.
+  * *Planted effect, T2 and T4.* Each unit's formula share is shifted additively under the k0 timing:
+    delta_u = +d/2 in group 1 (short tercile for T2, within-game for T4), -d/2 in group 2 (long tercile, changeover) and 0
+    otherwise. Then n_cov' = clip(n_cov + delta_u * n_tok, 0, n_tok).
+  * *Planted effect, T3 (Gaussian copula).* latent = sqrt(1 - w^2) * z(rank of the string's syllables, ties broken at
+    random) + w * z(rank of the A of the string's unit). Each string then receives the syllable count of its latent rank
+    among the observed syllable counts, so the syllable distribution is preserved exactly. The effect size is the Spearman
+    rho between the planted syllables and A.
+  * *Test.* The confirmatory statistic at k0 is compared with the shift null formed by all admissible k at circular
+    distance >= 10 from k0, using the two-sided p of section 4. A detection is p < alpha with the estimate > 0, the
+    direction H1' predicts.
+  * *Power and MDE.* Power is the share of k0 at which the test detects. Grids: d = 0 to 0.20 in steps of 0.005;
+    w = 0 to 0.60 in steps of 0.02. The MDE is the smallest effect with power >= 0.80, found by linear interpolation, at
+    alpha = 0.05 and at alpha/m (the first Holm step; m = 4 in 2019, 3 in 2023). The power at d = 0 or w = 0 is reported
+    as the empirical size of the one-directional test.
+  * *Attenuation scenarios (illustrative, not estimates).* The misattribution fraction is m_mix in {0, 0.25, 0.5}: a unit's
+    measured text is (1 - m_mix) its own interval and m_mix its two neighbours in the unit sequence, in equal parts. For
+    T2 and T4 the measured shift is delta_u' = (1 - m_mix) * delta_u + m_mix / 2 * (delta_{u-1} + delta_{u+1}). For T3,
+    each string's source unit is its own unit with probability 1 - m_mix and otherwise a neighbour, each with equal
+    probability. The plant uses the source unit's A; the test uses the A of the unit the string is assigned to. MDEs are
+    reported both as the true (planted) effect and as the expected measured effect.
+  * ASR noise is not simulated, because no WER is available (corpus README 7.3). Its attenuating effect is stated in
+    words. Seed 20190714.
+* **PH3 (critic C4).** T1 is computed within within-game units (Spearman rho, block-bootstrap CI, index-shift p) for both
+  matches and reported beside the overall rho. T1 is described as consistent with H0 as well as with H1', and "time-locked
+  at the level of points" is qualified.
+* **PH4 (critic C6).** The ranges of A (min, q10, median, q90, max) of the analysed units are reported for both matches.
+  The 2023 result is described as **not a comparable-range replication**: T4 is not testable there, and T2 and T3 are
+  null over a narrower range of A. Exploratory addition: T2 and T3 in 2019 restricted to units with A <= the maximum A of
+  the analysed 2023 units (estimate, block-bootstrap CI and index-shift p).
+* **PH5 (critic C3, applied to this analysis).** Serial-correlation check: lag-1 Spearman autocorrelation, in unit order, of
+  tokens, formula share (units with text) and A. For T1-T4, the ratio of the SD of the index-shift null to the SD of an iid
+  label-permutation null (2,000 permutations of the units' timing values), and the permutation p for comparison. The
+  circular shift preserves the serial structure of both sequences by construction; the check shows how much that matters.
+* **PH6 (critic C2/B6, applied to this analysis).** The pool-only formula list is not filtered for umpire speech. Check: the
+  number of formula types that contain `thank you`, `mr <token>`, or `game <player name>` (a name from any pool match id or
+  either final), and the number of target tokens in these patterns. Sensitivity runs, outside any Holm family, mask target
+  tokens before matching, and the text splits at masked spans as in R1. Variant **U** masks umpire patterns: every
+  `thank you` together with an adjacent `please`, or a following `players`; `mr` + the next token; and `game` + a first
+  name or surname of either finalist. Variant **R1U** applies U together with the R1 score-call mask. Both variants report
+  T2-T4 with CI and index-shift p. The formula list is unchanged, as in R1.
+* **PH7 (critic C7).** Hand-entered literals in `s06_make_report.py` are replaced by values read from files: the ASR
+  figure from `corpus/reports/asr_proxy.json`, the unit counts in Limitation 8, and the bootstrap B and block length.
+* **PH8 (critic C5, wording only).** The strict-formula (R2) share and the R2 estimates for T2-T4 are shown beside the base
+  definition in the summary.
