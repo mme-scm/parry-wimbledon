@@ -86,16 +86,26 @@ def cite(r):
     return f"{r['work']}. {r['book']}.{r['line']}"
 
 
-def primary_cause(final):
-    if final["status"] == "fail":
+def lic_tier(nm, pos):
+    """Tier of a licence instance: princeps (odd integer position) or biceps."""
+    princeps = pos.isdigit() and int(pos) % 2 == 1
+    return S.LICENCES[nm][0] if princeps else S.LICENCES[nm][2]
+
+
+def primary_cause(res):
+    """Classify a line by the highest-tier metrical licence its scansion uses.
+    Preferences for attested α/ι/υ quantities (dichronon_contra,
+    analogy_contra) are not causes: the core run ignores them."""
+    if res["status"] == "fail":
         return "still unscannable (see failure notes)", []
-    names = [nm for nm, pos, w in final.get("licences", [])
-             if max(S.LICENCES[nm][0], S.LICENCES[nm][2]) >= 1 and nm in CAUSE]
-    # tier-0 licences that only matter in the biceps (hiatus_long) count too
-    if not names:
+    inst = [(nm, pos) for nm, pos, w in res.get("licences", [])
+            if nm in CAUSE and nm not in ("dichronon_contra", "analogy_contra")]
+    inst = [(nm, pos) for nm, pos in inst if lic_tier(nm, pos) >= 1 or nm == "accent_contra"]
+    if not inst:
         return "resolved by α/ι/υ preferences or ranking", []
-    best = max(names, key=lambda nm: (min(S.LICENCES[nm][0], S.LICENCES[nm][2]), S.LICENCES[nm][1]))
-    return CAUSE[best], names
+    best = max(inst, key=lambda x: (lic_tier(*x), S.LICENCES[x[0]][1] if lic_tier(*x) == S.LICENCES[x[0]][0]
+                                     else S.LICENCES[x[0]][3]))
+    return CAUSE[best[0]], [nm for nm, _ in inst]
 
 
 def main():
@@ -126,9 +136,9 @@ def main():
     sample = sorted(rng.sample(core_fail, min(50, len(core_fail))))
     sample_rows = []
     sample_causes = collections.Counter()
-    # classified with the pass-1 scansion (full licences, α/ι/υ free), so that the
-    # cause is the licence the metre needs, not a lexical preference
-    p1 = configs["pass 1"]
+    # classified with the final scansion (preferences for attested α/ι/υ quantities
+    # make it the most accurate); lexical preferences themselves are not causes
+    p1 = final
     for i in sample:
         cause, names = primary_cause(p1[i])
         sample_causes[cause] += 1
@@ -203,15 +213,15 @@ def main():
           f"{v['fail']} ({v['fail_pct']:.2f}%) |")
     w("")
     w(f"Patterns changed between pass 1 and the final configuration: {stats['pattern_changed_pass1_to_pass2']} lines.\n")
-    w(f"The first version of the scanner (row v1: accent rules as hard constraints; no internal δϝ, no "
+    w(f"An emulation of the first version of the scanner (row v1: accent rules as hard constraints; no internal δϝ, no "
       f"rare or generic cross-word synizesis, no internal lengthening before liquids) failed {len(v1_fail)} "
       f"lines: {', '.join(v1_fail)}.  Examining them led to the rule changes recorded in the README "
       f"(accent rules made soft: βλοσυρῶπις, ἦνιν; ἔδεισα = ἔδδεισα; Πηλείδη ἔθελʼ; ἐλίσσετο; ἤιομεν).  "
       f"The other ablation rows show the effect of single components on the final rule set.\n")
     w(f"## Failure taxonomy: sample of 50 core (tier-0) failures\n")
     w(f"The core configuration fails {len(core_fail)} lines ({100 * len(core_fail) / len(lines):.2f}%).  "
-      f"A sample of {len(sample)} (random seed {SEED}) is classified by the licence the full scanner (pass 1, "
-      f"α/ι/υ free) needs for the line (its highest-tier licence):\n")
+      f"A sample of {len(sample)} (random seed {SEED}) is classified by the highest-tier metrical licence "
+      f"used in the line's final scansion:\n")
     w("| cause | in sample | in all core failures |\n|---|---|---|")
     for cause, n in sorted(all_causes.items(), key=lambda x: -x[1]):
         w(f"| {cause} | {sample_causes.get(cause, 0)} | {n} |")

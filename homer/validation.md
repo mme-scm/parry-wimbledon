@@ -31,6 +31,7 @@ Lowest tier needed (final): tier 0 24727, tier 1 2960, tier 2 102 lines.
 
 | configuration | unique | multiple | tied best | fail |
 |---|---|---|---|---|
+| first version (v1) | 98.13% | 1.76% | 0.24% | 31 (0.11%) |
 | core | 94.48% | 0.34% | 0.04% | 1438 (5.17%) |
 | tier<=1 | 97.95% | 1.66% | 0.22% | 107 (0.38%) |
 | pass 1 | 98.07% | 1.91% | 0.26% | 5 (0.02%) |
@@ -41,32 +42,29 @@ Lowest tier needed (final): tier 0 24727, tier 1 2960, tier 2 102 lines.
 
 Patterns changed between pass 1 and the final configuration: 156 lines.
 
-The first version of the scanner (accent rules as hard constraints, no internal δϝ, no generic cross-word synizesis) failed 24 lines; the classified failures led to the rule changes recorded in the README (accent rules made soft: βλοσυρῶπις, ἦνιν; ἔδεισα = ἔδδεισα; Πηλείδη ἔθελʼ; ἐλίσσετο; ἤιομεν).  The ablation rows above reproduce the effect of each change on the final rule set.
+The first version of the scanner (row v1: accent rules as hard constraints; no internal δϝ, no rare or generic cross-word synizesis, no internal lengthening before liquids) failed 31 lines: Il. 1.277, Il. 3.424, Il. 4.10, Il. 6.45, Il. 9.5, Il. 10.292, Il. 10.572, Il. 11.36, Il. 13.624, Il. 14.211, Il. 16.857, Il. 17.89, Il. 18.458, Il. 20.40, Il. 22.19, Il. 22.363, Il. 23.195, Il. 23.425, Il. 23.493, Il. 24.6, Il. 24.769, Od. 3.382, Od. 8.267, Od. 10.36, Od. 10.60, Od. 10.219, Od. 10.251, Od. 13.184, Od. 13.194, Od. 13.364, Od. 24.247.  Examining them led to the rule changes recorded in the README (accent rules made soft: βλοσυρῶπις, ἦνιν; ἔδεισα = ἔδδεισα; Πηλείδη ἔθελʼ; ἐλίσσετο; ἤιομεν).  The other ablation rows show the effect of single components on the final rule set.
 
 ## Failure taxonomy: sample of 50 core (tier-0) failures
 
-The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20261007) is classified by the licence the full scanner needs for the line (the highest-tier licence it uses):
+The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20261007) is classified by the licence the full scanner (pass 1, α/ι/υ free) needs for the line (its highest-tier licence):
 
 | cause | in sample | in all core failures |
 |---|---|---|
-| closed final syllable lengthened in arsis before a vowel | 15 | 339 |
-| synizesis (within a word: θεοί, -εω, χρυσέῳ) | 9 | 305 |
-| short final vowel lengthened before λ μ ν ρ σ | 10 | 270 |
-| long vowel kept before a vowel in the biceps | 3 | 167 |
-| internal correption (οἷος, υἱός, ἥρωος) | 2 | 109 |
-| α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | 2 | 41 |
-| metrical lengthening of a short vowel in arsis | 1 | 40 |
-| α/ι/υ contrary to analogy | 2 | 39 |
-| synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 1 | 27 |
-| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 25 |
-| σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 23 |
-| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 14 |
+| closed final syllable lengthened in arsis before a vowel | 15 | 342 |
+| synizesis (within a word: θεοί, -εω, χρυσέῳ) | 11 | 333 |
+| short final vowel lengthened before λ μ ν ρ σ | 11 | 285 |
+| long vowel kept before a vowel in the biceps | 4 | 166 |
+| internal correption (οἷος, υἱός, ἥρωος) | 2 | 101 |
+| α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | 1 | 41 |
+| synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 40 |
+| metrical lengthening of a short vowel in arsis | 1 | 38 |
+| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 24 |
+| σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 24 |
+| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 17 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 0 | 10 |
-| α/ι/υ contrary to attested quantity | 2 | 9 |
 | short final vowel lengthened in arsis before a vowel | 1 | 5 |
 | still unscannable (see failure notes) | 0 | 5 |
 | other synizesis across words | 0 | 4 |
-| resolved by α/ι/υ preferences or ranking | 0 | 3 |
 | other synizesis | 0 | 3 |
 
 <details><summary>The 50 sampled lines</summary>
@@ -84,12 +82,12 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 | Il. 4.103 | οἴκαδε νοστήσας ἱερῆς εἰς ἄστυ Ζελείης. | DSDSDS | no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | no_position_initial_cluster@9.5(Ζελείης) |
 | Il. 5.387 | χαλκέῳ δʼ ἐν κεράμῳ δέδετο τρισκαίδεκα μῆνας· | SDDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@2(χαλκέῳ) |
 | Il. 5.818 | ἀλλʼ ἔτι σέων μέμνημαι ἐφετμέων ἃς ἐπέτειλας· | DSDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@3(σέων), synizesis@8(ἐφετμέων) |
-| Il. 7.142 | τὸν Λυκόοργος ἔπεφνε δόλῳ, οὔ τι κράτεΐ γε, | DDDSDS | α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | hiatus_long@7(δόλῳ), accent_contra@11(κράτεΐ) |
+| Il. 7.142 | τὸν Λυκόοργος ἔπεφνε δόλῳ, οὔ τι κράτεΐ γε, | DDDSSS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | hiatus_long@7(δόλῳ), synizesis@11(κράτεΐ) |
 | Il. 7.159 | ὑμέων δʼ οἵ περ ἔασιν ἀριστῆες Παναχαιῶν | SDDSDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@2(ὑμέων) |
 | Il. 7.167 | τοῖσι δʼ ἐπʼ Εὐρύπυλος Εὐαίμονος ἀγλαὸς υἱός, | DDSDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(Εὐρύπυλος) |
 | Il. 7.418 | ἀμφότερον νέκυάς τʼ ἀγέμεν ἕτεροι δὲ μεθʼ ὕλην· | DDDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@7(ἀγέμεν) |
 | Il. 8.158 | αὖτις ἀνʼ ἰωχμόν· ἐπὶ δὲ Τρῶές τε καὶ Ἕκτωρ | DSDSDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(ἰωχμόν) |
-| Il. 8.267 | στῆ δʼ ἄρʼ ὑπʼ Αἴαντος σάκεϊ Τελαμωνιάδαο. | DSDDDS | α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | accent_contra@7(σάκεϊ) |
+| Il. 8.267 | στῆ δʼ ἄρʼ ὑπʼ Αἴαντος σάκεϊ Τελαμωνιάδαο. | DSSDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@7(σάκεϊ) |
 | Il. 9.191 | δέγμενος Αἰακίδην ὁπότε λήξειεν ἀείδων, | DDDSDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@7(λήξειεν) |
 | Il. 11.378 | ἐν γαίῃ κατέπηκτο· ὃ δὲ μάλα ἡδὺ γελάσσας | SDDDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@7(μάλα) |
 | Il. 11.618 | οἳ δʼ ὅτε δὴ κλισίην Νηληϊάδεω ἀφίκοντο, | DDSDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | hiatus_long@9(Νηληϊάδεω), synizesis@9(Νηληϊάδεω) |
@@ -110,15 +108,15 @@ The core configuration fails 1438 lines (5.17%).  A sample of 50 (random seed 20
 | Od. 6.294 | τόσσον ἀπὸ πτόλιος, ὅσσον τε γέγωνε βοήσας. | DDSDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(πτόλιος) |
 | Od. 7.298 | τὸν δʼ αὖτʼ Ἀλκίνοος ἀπαμείβετο φώνησέν τε· | SDDDSS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(Ἀλκίνοος) |
 | Od. 8.452 | ἐπεὶ δὴ λίπε δῶμα Καλυψοῦς ἠυκόμοιο. | SDDSDS | metrical lengthening of a short vowel in arsis | metrical_lengthening@1(ἐπεὶ) |
-| Od. 9.154 | ὦρσαν δὲ νύμφαι, κοῦραι Διὸς αἰγιόχοιο, | SSSDDS | α/ι/υ contrary to analogy | lengthening_liquid@3(νύμφαι), analogy_contra@7.5(Διὸς) |
+| Od. 9.154 | ὦρσαν δὲ νύμφαι, κοῦραι Διὸς αἰγιόχοιο, | SSSDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@3(νύμφαι) |
 | Od. 10.353 | πορφύρεα καθύπερθʼ, ὑπένερθε δὲ λῖθʼ ὑπέβαλλεν· | SDDDDS | synizesis (within a word: θεοί, -εω, χρυσέῳ) | synizesis@3(πορφύρεα) |
-| Od. 10.574 | ὀφθαλμοῖσιν ἴδοιτʼ ἢ ἔνθʼ ἢ ἔνθα κιόντα; | SDSSSS | α/ι/υ contrary to attested quantity | synizesis_cross@6(ἢ), hiatus_long@7(ἢ), dichronon_contra@9(ἔνθα) |
-| Od. 11.28 | τὸ τρίτον αὖθʼ ὕδατι· ἐπὶ δʼ ἄλφιτα λευκὰ πάλυνον. | DDDDDS | α/ι/υ contrary to attested quantity | hiatus_long@5(ὕδατι), dichronon_contra@5(ὕδατι) |
+| Od. 10.574 | ὀφθαλμοῖσιν ἴδοιτʼ ἢ ἔνθʼ ἢ ἔνθα κιόντα; | SDSSSS | synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | synizesis_cross@6(ἢ), hiatus_long@7(ἢ) |
+| Od. 11.28 | τὸ τρίτον αὖθʼ ὕδατι· ἐπὶ δʼ ἄλφιτα λευκὰ πάλυνον. | DDDDDS | α/ι/υ contrary to the accent rule (βλοσυρῶπις, ἦνιν) | hiatus_long@5(ὕδατι), accent_contra@5(ὕδατι) |
 | Od. 11.322 | κούρην Μίνωος ὀλοόφρονος, ἥν ποτε Θησεὺς | SSDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@5(Μίνωος) |
 | Od. 11.602 | εἴδωλον· αὐτὸς δὲ μετʼ ἀθανάτοισι θεοῖσι | SSDDDS | closed final syllable lengthened in arsis before a vowel | lengthening_closed@3(εἴδωλον) |
 | Od. 15.243 | Ἀντιφάτης μὲν ἔτικτεν Ὀϊκλῆα μεγάθυμον, | DDDSDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@9(μεγάθυμον) |
 | Od. 16.158 | καλῇ τε μεγάλῃ τε καὶ ἀγλαὰ ἔργα ἰδυίῃ. | SDDDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@3(μεγάλῃ) |
-| Od. 17.254 | ὣς εἰπὼν τοὺς μὲν λίπεν αὐτοῦ ἦκα κιόντας, | SSDSDS | α/ι/υ contrary to analogy | hiatus_long@8(αὐτοῦ), analogy_contra@10(κιόντας) |
+| Od. 17.254 | ὣς εἰπὼν τοὺς μὲν λίπεν αὐτοῦ ἦκα κιόντας, | SSDSDS | long vowel kept before a vowel in the biceps | hiatus_long@8(αὐτοῦ) |
 | Od. 18.249 | εἶδός τε μέγεθός τε ἰδὲ φρένας ἔνδον ἐΐσας. | SDDDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@3(μέγεθός) |
 | Od. 19.172 | Κρήτη τις γαῖʼ ἔστι, μέσῳ ἐνὶ οἴνοπι πόντῳ, | SSDDDS | long vowel kept before a vowel in the biceps | hiatus_long@4(γαῖʼ), hiatus_long@7(μέσῳ) |
 | Od. 20.281 | πὰρ δʼ ἄρʼ Ὀδυσσῆϊ μοῖραν θέσαν οἳ πονέοντο | DSSDDS | short final vowel lengthened before λ μ ν ρ σ | lengthening_liquid@5(μοῖραν) |
@@ -130,9 +128,9 @@ Lines that still fail with tiers 0-1 (107), by the tier-2 licence they need:
 
 | cause | lines |
 |---|---|
-| metrical lengthening of a short vowel in arsis | 40 |
-| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 25 |
-| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 14 |
+| metrical lengthening of a short vowel in arsis | 38 |
+| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 24 |
+| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 17 |
 | short vowel lengthened before λ μ ν ρ σ inside a word | 10 |
 | short final vowel lengthened in arsis before a vowel | 5 |
 | still unscannable (see failure notes) | 5 |
