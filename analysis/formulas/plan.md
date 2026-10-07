@@ -183,3 +183,11 @@ for each; anything not confirmed by a fetched record is marked [unverified].
 
 `bash analysis/formulas/run_all.sh` runs everything (scripts with `python -I`). Master seed 20190714; each script derives its own seeds.
 Replicate counts may be reduced only if a script exceeds 30 minutes; any such deviation is logged in `results/deviations.json` and the report.
+
+## Addendum (2026-10-07, written AFTER the confirmatory results C1 and C2 were seen): post hoc exploratory analysis
+
+C1 and C2 came out with TV commentary *less* formulaic than press answers and written live text. One alternative explanation is
+ASR noise in the TV text, which breaks exact repetitions. `f04b_asr_noise.py` injects substitution noise (rate e in {0, the
+corpus's hand-read lower bound, 0.05, 0.10, 0.15}; replacement tokens drawn from the TV-pool unigram distribution) into press answers,
+Cornell text and, as extra noise, the TV corpora, and recomputes split-half density at matched size (R = 50) and held-out density
+(R = 10). This is exploratory and post hoc; it changes no confirmatory result.

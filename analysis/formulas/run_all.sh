@@ -16,6 +16,7 @@ step 1 $D/f01_formulas.py $D/results/log_f01.txt   # (a) inventory, per-n, maxim
 step 2 $D/f02_systems.py $D/results/log_f02.txt   # (b) systems
 step 3 $D/f03_density_main.py $D/results/log_f03.txt   # D1-D3, D6, D7, S1-S8, C3/R3
 step 4 $D/f04_density_streams_media.py $D/results/log_f04.txt   # D4 per stream, D5 per medium + press baseline
+step 4 $D/f04b_asr_noise.py $D/results/log_f04b.txt   # POST HOC exploratory: injected ASR-like noise
 step 5 $D/f05_refexpr.py $D/results/log_f05.txt   # referring expressions (uses hand/*.tsv)
 step 6 $D/f06_thrift.py $D/results/log_f06.txt   # thrift / extension, C4/C5, R4/R5
 step 7 $D/f07_confirmatory.py $D/results/log_f07.txt   # C1-C5, R1-R5, Holm

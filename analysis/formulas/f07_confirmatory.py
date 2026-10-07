@@ -127,12 +127,25 @@ def main():
                      "estimate_x": float(t["rho"]), "estimate_y": float(t["null_mean"]), "difference": float(t["rho"]),
                      "diff_lo": float(t["null_lo"]), "diff_hi": float(t["null_hi"]), "p": float(t["p_two_sided"]),
                      "test": f"two-sided, {t['n_perm']} permutations within player; diff_lo/hi = null 95% interval of rho"})
+    # expected sign of the effect under the oral-formulaic hypothesis (plan section 7); C2 is non-directional
+    expected = {"C1": 1, "R1": 1, "C2": 0, "C3a": 1, "C3b": 1, "R3a": 1, "R3b": 1, "C4": -1, "R4": -1, "C5": 1, "R5": 1}
     for fam in ("2019", "2023_replication"):
         sel = [r for r in rows if r["family"] == fam]
         adj = holm([r["p"] for r in sel])
         for r, a in zip(sel, adj):
             r["p_holm"] = float(a)
             r["reject_at_0.05"] = bool(a < 0.05)
+            e = expected[r["id"]]
+            sign = 1 if r["difference"] > 0 else (-1 if r["difference"] < 0 else 0)
+            r["expected_sign"] = e
+            if not r["reject_at_0.05"]:
+                r["verdict"] = "not rejected"
+            elif e == 0:
+                r["verdict"] = "rejected (non-directional)"
+            elif sign == e:
+                r["verdict"] = "rejected, in the predicted direction"
+            else:
+                r["verdict"] = "rejected, OPPOSITE to the predicted direction"
     with open(C.RESULTS / "confirmatory.csv", "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()

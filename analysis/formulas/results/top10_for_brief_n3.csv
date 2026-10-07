@@ -1,21 +1,21 @@
-list,rank,kind,item,n,utterances,occurrences,fixed_tokens,fillers,official_call,share_occurrences_in_official_patterns,modal_clip_role,modal_score_situation,pressure_points_share,modal_phase,median_time_after_s,median_dead_time_before_s
-with_official,1,system,the <_> set,3,21,27,2,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
-with_official,2,formula,a little bit,3,14,15,3,,False,0.000,rally,other,0.143,clip,25.080,29.260
-with_official,3,system,djokovic <_> the,3,11,11,2,finding:2; had:2; down:1; certainly:1; perhaps:1; in:1; breaks:1; flashed:1,False,0.000,rally,other,0.273,clip,27.360,25.000
-with_official,4,system,federer <_> to,3,10,10,2,looking:3; going:1; trying:1; able:1; yet:1; began:1; likes:1; again:1,False,0.000,rally,other,0.200,clip,44.760,50.720
-with_official,5,system,by <_> games to,4,9,9,3,two:3; four:2; six:1; five:1; three:1; by:1,True,0.778,rally,other,0.222,clip,91.640,19.760
-with_official,6,system,in the <_> set,4,9,9,3,fifth:4; first:2; second:2; final:1,False,0.000,rally,other,0.222,clip,41.360,33.120
-with_official,7,system,in <_> fifth,3,9,9,2,the:6; this:3,False,0.000,rally,other,0.444,clip,40.280,33.600
-with_official,8,formula,the first set,3,8,10,3,,False,0.000,rally,other,0.000,clip,36.200,26.020
-with_official,9,system,djokovic <_> to,3,8,8,2,trying:2; able:2; needs:1; serving:1; had:1; corner:1,False,0.000,rally,other,0.375,clip,40.680,49.460
-with_official,10,system,federer <_> the,3,8,8,2,with:1; got:1; resisting:1; gets:1; was:1; on:1; constructed:1; to:1,False,0.000,rally,other,0.375,clip,41.360,29.760
-commentary_only,1,system,the <_> set,3,21,27,2,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
-commentary_only,2,formula,a little bit,3,14,15,3,,False,0.000,rally,other,0.143,clip,25.080,29.260
-commentary_only,3,system,djokovic <_> the,3,11,11,2,finding:2; had:2; down:1; certainly:1; perhaps:1; in:1; breaks:1; flashed:1,False,0.000,rally,other,0.273,clip,27.360,25.000
-commentary_only,4,system,federer <_> to,3,10,10,2,looking:3; going:1; trying:1; able:1; yet:1; began:1; likes:1; again:1,False,0.000,rally,other,0.200,clip,44.760,50.720
-commentary_only,5,system,in the <_> set,4,9,9,3,fifth:4; first:2; second:2; final:1,False,0.000,rally,other,0.222,clip,41.360,33.120
-commentary_only,6,system,in <_> fifth,3,9,9,2,the:6; this:3,False,0.000,rally,other,0.444,clip,40.280,33.600
-commentary_only,7,formula,the first set,3,8,10,3,,False,0.000,rally,other,0.000,clip,36.200,26.020
-commentary_only,8,system,djokovic <_> to,3,8,8,2,trying:2; able:2; needs:1; serving:1; had:1; corner:1,False,0.000,rally,other,0.375,clip,40.680,49.460
-commentary_only,9,system,federer <_> the,3,8,8,2,with:1; got:1; resisting:1; gets:1; was:1; on:1; constructed:1; to:1,False,0.000,rally,other,0.375,clip,41.360,29.760
-commentary_only,10,system,the <_> serve,3,8,8,2,first:3; great:1; federer:1; body:1; previous:1; second:1,False,0.000,rally,other,0.125,clip,28.860,45.340
+list,rank,kind,item,n,utterances,occurrences,fixed_tokens,pool_streams_attested,fillers,official_call,share_occurrences_in_official_patterns,modal_clip_role,modal_score_situation,pressure_points_share,modal_phase,median_time_after_s,median_dead_time_before_s
+with_official,1,system,the <_> set,3,21,27,2,17,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
+with_official,2,formula,a little bit,3,14,15,3,18,,False,0.000,rally,other,0.143,clip,25.080,29.260
+with_official,3,system,djokovic <_> the,3,11,11,2,4,finding:2; had:2; down:1; certainly:1; perhaps:1; in:1; breaks:1; flashed:1,False,0.000,rally,other,0.273,clip,27.360,25.000
+with_official,4,system,federer <_> to,3,10,10,2,0,looking:3; going:1; trying:1; able:1; yet:1; began:1; likes:1; again:1,False,0.000,rally,other,0.200,clip,44.760,50.720
+with_official,5,system,by <_> games to,4,9,9,3,7,two:3; four:2; six:1; five:1; three:1; by:1,True,0.778,rally,other,0.222,clip,91.640,19.760
+with_official,6,system,in the <_> set,4,9,9,3,15,fifth:4; first:2; second:2; final:1,False,0.000,rally,other,0.222,clip,41.360,33.120
+with_official,7,system,in <_> fifth,3,9,9,2,4,the:6; this:3,False,0.000,rally,other,0.444,clip,40.280,33.600
+with_official,8,formula,the first set,3,8,10,3,14,,False,0.000,rally,other,0.000,clip,36.200,26.020
+with_official,9,system,djokovic <_> to,3,8,8,2,3,trying:2; able:2; needs:1; serving:1; had:1; corner:1,False,0.000,rally,other,0.375,clip,40.680,49.460
+with_official,10,system,federer <_> the,3,8,8,2,2,with:1; got:1; resisting:1; gets:1; was:1; on:1; constructed:1; to:1,False,0.000,rally,other,0.375,clip,41.360,29.760
+commentary_only,1,system,the <_> set,3,21,27,2,17,first:10; fifth:7; second:6; fourth:2; third:1; final:1,False,0.000,rally,other,0.143,clip,36.240,32.640
+commentary_only,2,formula,a little bit,3,14,15,3,18,,False,0.000,rally,other,0.143,clip,25.080,29.260
+commentary_only,3,system,djokovic <_> the,3,11,11,2,4,finding:2; had:2; down:1; certainly:1; perhaps:1; in:1; breaks:1; flashed:1,False,0.000,rally,other,0.273,clip,27.360,25.000
+commentary_only,4,system,federer <_> to,3,10,10,2,0,looking:3; going:1; trying:1; able:1; yet:1; began:1; likes:1; again:1,False,0.000,rally,other,0.200,clip,44.760,50.720
+commentary_only,5,system,in the <_> set,4,9,9,3,15,fifth:4; first:2; second:2; final:1,False,0.000,rally,other,0.222,clip,41.360,33.120
+commentary_only,6,system,in <_> fifth,3,9,9,2,4,the:6; this:3,False,0.000,rally,other,0.444,clip,40.280,33.600
+commentary_only,7,formula,the first set,3,8,10,3,14,,False,0.000,rally,other,0.000,clip,36.200,26.020
+commentary_only,8,system,djokovic <_> to,3,8,8,2,3,trying:2; able:2; needs:1; serving:1; had:1; corner:1,False,0.000,rally,other,0.375,clip,40.680,49.460
+commentary_only,9,system,federer <_> the,3,8,8,2,2,with:1; got:1; resisting:1; gets:1; was:1; on:1; constructed:1; to:1,False,0.000,rally,other,0.375,clip,41.360,29.760
+commentary_only,10,system,the <_> serve,3,8,8,2,17,first:3; great:1; federer:1; body:1; previous:1; second:1,False,0.000,rally,other,0.125,clip,28.860,45.340

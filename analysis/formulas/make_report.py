@@ -152,9 +152,10 @@ def main():
       f"(a)+(b) {pc(d1b['density'])}%, {pc(d2b['density'])}%, {pc(d3b['density'])}%. Formulas of the 2019 final cover {pc(d3x['density'])}% "
       f"{ci(d3x['ci_lo'], d3x['ci_hi'])} of the held-out 2023 final ((a)+(b) {pc(d3xb['density'])}%).")
     A(f"* Baselines with the same procedure: shuffled words {pc(sh_in['density'])}% in-sample, {pc(sh_sp['density'])}% split-half. "
-      f"At matched size (split-half, {T19:,} tokens) TV commentary {pc(tvsp['mean'])}%, written live text {pc(txsp['mean'])}%, "
+      f"At matched size (split-half, {T19:,} tokens) TV commentary (18-match pool subsamples) {pc(tvsp['mean'])}%, written live text {pc(txsp['mean'])}%, "
       f"press answers {pc(prsp['mean'])}%.")
-    A(f"* Confirmatory family (Holm): {nrej} of 6 null hypotheses rejected for 2019; {nrej23} of 5 in the 2023 replication (section 4).")
+    A(f"* Confirmatory family (Holm): {nrej} of 6 null hypotheses rejected for 2019, {nrej23} of 5 in the 2023 replication: " +
+      "; ".join(f"{r['id']} {r['verdict']}" for r in conf if r["reject_at_0.05"] == "True") + " (section 4).")
     timing = [cf(x) for x in ("C3a", "C3b", "C4", "C5")]
     sur = [float(r["share_surname"]) for r in ext]
     epi = [float(r["share_epithet"]) for r in ext]
@@ -276,7 +277,7 @@ def main():
                      f"{pc(rb['density'])} {ci(rb['ci_lo'], rb['ci_hi'])}"])
     A(table(["design", "identified on", "measured on", "tokens", "(a) %", "(a)+(b) %"], rows))
     A("")
-    A(f"In-sample and held-out figures differ in the expected direction: the 2019 final reuses {pc(d1['density'])}% of its tokens within itself, "
+    A(f"In-sample and held-out figures differ as the sizes of I lead one to expect: the 2019 final reuses {pc(d1['density'])}% of its tokens within itself, "
       f"{pc(d2['density'])}% when formulas must come from the other half of the match, and {pc(d3['density'])}% when they come from 18 other matches "
       f"({TP:,} tokens, about {TP / T19:.0f} times the final). Density therefore depends strongly on the size of I; compare only like with like.")
     A("")
@@ -309,7 +310,8 @@ def main():
     A("")
     A(table(["corpus", "in-sample (a)+(b) %", "split-half (a)+(b) %", "in-sample (a) % at pool size"], rows))
     A("")
-    A("Written live text is identified and measured only on itself. The held-out Cornell and press figures draw I and M from disjoint "
+    A("At pool size the TV 'subsample' is the whole pool, so its replicates are identical. "
+      "Written live text is identified and measured only on itself. The held-out Cornell and press figures draw I and M from disjoint "
       "player pairs and interviewees respectively; the TV analogue is pool -> 2019, where M is one whole match.")
     A("")
     A("**Table 3.4. Per stream** (each stream = one match with one unnamed TV broadcaster; broadcaster, match and commentators are confounded). "
@@ -363,6 +365,35 @@ def main():
     A(f"S5 masks {pc(meta['S5_masked_token_share_2019'])}% of 2019 tokens as umpire/Hawk-Eye/announcer calls (score calls are not masked: "
       "the umpire and the commentators both say them and the transcript does not tell them apart).")
     A("")
+    an = rjson("asr_noise_summary.json")
+    lv = an["levels"]
+    A(f"**Table 3.8. POST HOC exploratory: injected ASR-like substitution noise** (added after C1/C2 were seen; plan.md addendum). Each token "
+      f"replaced with probability e by a token drawn from the TV-pool unigram distribution, in both I and M; (a) density, mean "
+      f"[2.5-97.5%] over {an['R_split']} (split-half) or {an['R_held']} (held-out) replicates. e = {lv[1]} is the corpus's hand-read lower bound on "
+      "the TV error rate. For TV rows e is noise added on top of the ASR errors already present.")
+    A("")
+    rows = []
+    for design, corpus, label in (("splithalf_matched", "tv_pool_all", "split-half, TV pool subsample"),
+                                  ("splithalf_matched", C.TEXT, "split-half, Cornell text"),
+                                  ("splithalf_matched", "press_answers", "split-half, press answers"),
+                                  ("heldout", "tv_pool_to_2019", "held-out, TV pool -> 2019"),
+                                  ("heldout", C.TEXT, "held-out, Cornell text"),
+                                  ("heldout", "press_answers", "held-out, press answers")):
+        row = [label]
+        for e in lv:
+            cell = an["cells"].get(f"{design}|{corpus}|{e}")
+            row.append(f"{pc(cell['mean'])} [{pc(cell['p2_5'])}, {pc(cell['p97_5'])}]" if cell else "-")
+        rows.append(row)
+    A(table(["design, corpus"] + [f"e = {e}" for e in lv], rows))
+    A("")
+    tv0 = an["cells"][f"splithalf_matched|tv_pool_all|0.0"]["mean"]
+    cross = []
+    for corpus, label in ((C.TEXT, "Cornell text"), ("press_answers", "press answers")):
+        hits = [e for e in lv if an["cells"][f"splithalf_matched|{corpus}|{e}"]["mean"] <= tv0]
+        cross.append(f"{label}: " + (f"falls to the TV level ({pc(tv0)}%) at e = {hits[0]}" if hits else
+                                     f"stays above the TV level ({pc(tv0)}%) up to e = {lv[-1]}"))
+    A("Split-half density under injected noise: " + "; ".join(cross) + ".")
+    A("")
     A("## 4. Confirmatory tests and replication")
     A("")
     rows = []
@@ -373,8 +404,8 @@ def main():
             est = f"rho = {f3(r['estimate_x'])} (null 95%: {f3(r['diff_lo'])} to {f3(r['diff_hi'])})"
         else:
             est = f"{pc(r['estimate_x'])} vs {pc(r['estimate_y'])}; diff {pc(r['difference'])} pp {ci(r['diff_lo'], r['diff_hi'])}"
-        rows.append([r["id"], r["hypothesis"], est, pv(r["p"]), pv(r["p_holm"]), "yes" if r["reject_at_0.05"] == "True" else "no"])
-    A(table(["test", "hypothesis / statistic", "estimate", "p", "p (Holm)", "reject H0 at 0.05"], rows))
+        rows.append([r["id"], r["hypothesis"], est, pv(r["p"]), pv(r["p_holm"]), r["verdict"]])
+    A(table(["test", "hypothesis / statistic", "estimate", "p", "p (Holm)", "H0 at 0.05 (Holm)"], rows))
     A("")
     A("Holm-Bonferroni is applied within the 2019 family (C1, C2, C3a, C3b, C4, C5) and separately within the 2023 replication family "
       "(R1, R3a, R3b, R4, R5). C1/R1 compare a bootstrap distribution of the TV value with the press replicate distribution "
@@ -384,17 +415,23 @@ def main():
     c1, c2, c3a, c3b, c4, c5 = (cf(x) for x in ("C1", "C2", "C3a", "C3b", "C4", "C5"))
 
     def verdict(r):
-        return "supported" if r["reject_at_0.05"] == "True" else "not supported"
+        return r["verdict"]
     A(f"* **C1** (commentary more formulaic than non-commentary tennis speech, held-out): {verdict(c1)}; TV {pc(c1['estimate_x'])}% vs press "
       f"{pc(c1['estimate_y'])}% (difference {pc(c1['difference'])} points {ci(c1['diff_lo'], c1['diff_hi'])}). The TV measurement set is one match "
-      "(topic and names concentrated), the press measurement set many interviewees, which favours TV; see limitations.")
-    A(f"* **C2** (speech vs writing, split-half, matched size): {verdict(c2)}; TV pool {pc(c2['estimate_x'])}% vs Cornell text {pc(c2['estimate_y'])}% "
+      "(names and topics concentrated), the press measurement set many interviewees; that asymmetry favours TV, so it cannot explain a TV deficit.")
+    A(f"* **C2** (speech vs writing, split-half, matched size): {verdict(c2)}; TV pool {pc(c2['estimate_x'])}% vs Cornell live text {pc(c2['estimate_y'])}% "
       f"(difference {pc(c2['difference'])} points {ci(c2['diff_lo'], c2['diff_hi'])}).")
+    nrep = int(mmeta["R_matched"])
+    floor = 2 / (nrep + 1)
+    if abs(float(c2["p"]) - floor) < 1e-9:
+        A(f"  C2's p equals the resolution floor of {nrep} paired replicates (2/{nrep + 1}): all {nrep} paired differences have the same sign; "
+          "the Holm-adjusted value is therefore conservative.")
     A(f"* **C3a/C3b** (less time, more formulas): {verdict(c3a)} / {verdict(c3b)}. Shortest minus longest tercile: dead time before "
       f"{pc(c3a['difference'])} points {ci(c3a['diff_lo'], c3a['diff_hi'])}; time after {pc(c3b['difference'])} points {ci(c3b['diff_lo'], c3b['diff_hi'])}.")
-    A(f"* **C4** (thrift bound to available time): {verdict(c4)}; the number of distinct expressions per player x slot x dead-time cell "
-      f"({float(c4['estimate_x']):.0f}) is what random reassignment of contexts gives (null mean {float(c4['estimate_y']):.1f}).")
+    A(f"* **C4** (thrift bound to available time): {verdict(c4)}; distinct expressions per player x slot x dead-time cell summed: "
+      f"{float(c4['estimate_x']):.0f}, null mean {float(c4['estimate_y']):.1f}.")
     A(f"* **C5** (longer expressions with more time): {verdict(c5)}; rho = {f3(c5['estimate_x'])}.")
+    A("* Replication on the 2023 final: " + "; ".join(f"{x} {cf(x)['verdict']}" for x in ("R1", "R3a", "R3b", "R4", "R5")) + ".")
     A("")
     A("**Table 4.2. Exploratory medium and baseline contrasts** (difference x - y in percentage points, interval over replicate pairs, unadjusted p).")
     A("")
@@ -500,23 +537,31 @@ def main():
     for r in kv:
         A(f"* {r['reference']} Status: **{r['status']}**. Record: {r['record_fetched']}. Confirms: {r['what_the_record_confirms']}.")
     A("")
-    sup = lambda r: r["reject_at_0.05"] == "True"
-    c1r, c3ar, c3br, c4r, c5r = (cf(x) for x in ("C1", "C3a", "C3b", "C4", "C5"))
+    c1r, c2r = cf("C1"), cf("C2")
+    timing = [cf(x) for x in ("C3a", "C3b", "C4", "C5")]
+    tvsp = medv("D5i_matched_2019_size", "tv_pool_all", "splithalf", "a")
+    prsp = medv("D5i_matched_2019_size", "press_answers", "splithalf", "a")
+    txsp = medv("D5i_matched_2019_size", C.TEXT, "splithalf", "a")
     A("Relation to this analysis. Only the verified abstract of Kuiper and Haggo (1984) is used: livestock auctioneers 'use an oral "
       "formulaic technique', explained as 'a response to performance constraints which place a heavy load on short term memory', and the "
       "difference from ordinary speech is 'one of degree, not kind'. Two of our results bear on this.")
     A("")
-    A(f"* Degree: the commentary's held-out (a) density is {pc(c1r['estimate_x'])}% against {pc(c1r['estimate_y'])}% for unscripted tennis "
-      f"press answers under the same procedure (C1 {'supported' if sup(c1r) else 'not supported'}), and the 2019 in-sample density "
-      f"({pc(d1['density'])}%) is {float(d1['density']) / float(sh_in['density']):.1f} times the shuffled-word baseline ({pc(sh_in['density'])}%). "
-      "This is a difference of degree measured on the same scale, in line with the 'degree, not kind' formulation.")
-    A(f"* Performance constraint: if formulas relieve time pressure, density and naming should shift toward the clips with the least "
-      f"available time. Within these two finals they do not: C3a {'supported' if sup(c3ar) else 'not supported'}, C3b "
-      f"{'supported' if sup(c3br) else 'not supported'}, C4 {'supported' if sup(c4r) else 'not supported'}, C5 "
-      f"{'supported' if sup(c5r) else 'not supported'}. With clip-level text, and between-point dead times whose 2019 terciles are cut at "
-      f"{c3['cuts_2019']['dead_time_before_s'][0]:.0f} and {c3['cuts_2019']['dead_time_before_s'][1]:.0f} s, "
-      "tennis television may simply not impose the load Kuiper and Haggo describe for auctioneers; the race-calling comparison, the obvious "
-      "high-load case, cannot be drawn here because the race-calling sources are verified only bibliographically or not at all [unverified].")
+    order = sorted([("TV commentary", float(tvsp["mean"])), ("press answers", float(prsp["mean"])), ("written live text", float(txsp["mean"]))],
+                   key=lambda x: -x[1])
+    A(f"* Degree. On one scale and one procedure, at matched size, split-half (a) density ranks " +
+      " > ".join(f"{n} {pc(v)}%" for n, v in order) + f"; held-out, TV {pc(c1r['estimate_x'])}% vs press {pc(c1r['estimate_y'])}% (C1: "
+      f"{c1r['verdict']}). The commentary is {float(d1['density']) / float(sh_in['density']):.1f} times as repetitive as its own words shuffled "
+      f"({pc(d1['density'])}% vs {pc(sh_in['density'])}% in-sample), so its repetition is not an artefact of word frequencies; " +
+      ("but on this measure it is not more formulaic than the spontaneous answers of players in post-match press conferences, and it is "
+       "less so than the written live text. On a 'degree' scale this TV commentary sits at the low end, not with the auctioneers "
+       "(subject to the ASR caveat quantified in Table 3.8)."
+       if float(tvsp["mean"]) < float(prsp["mean"]) else "and more so than unscripted tennis talk, consistent with a difference of degree."))
+    A(f"* Performance constraint. If formulas relieve time pressure, density and naming should shift toward the clips with the least "
+      f"available time. Tests: " + "; ".join(f"{r['id']} {r['verdict']}" for r in timing) + ". "
+      f"With clip-level text, and between-point dead times whose 2019 terciles are cut at "
+      f"{c3['cuts_2019']['dead_time_before_s'][0]:.0f} and {c3['cuts_2019']['dead_time_before_s'][1]:.0f} s, tennis television may not impose the "
+      "continuous load described for auctioneers; race calling, the obvious high-load comparison, cannot be drawn on here because those "
+      "sources are verified only bibliographically (Kuiper 2009, ch. 2) or not at all (Kuiper and Austin [unverified]).")
     A("")
     A("## 9. Limitations")
     A("")
@@ -540,6 +585,9 @@ def main():
       "(`results/epithet_discovery.csv`); referents of descriptive epithets and the slot validation are single-annotator hand verdicts. "
       "Pronouns are not resolved. The surname dominates every cell, so the thrift test has little room to detect structure.")
     A("8. **CIs** condition on the formula inventory; split-half and random-split distributions (Table 3.7) show the identification variability.")
+    A("9. **Transcription conventions.** Press answers are edited stenographic transcripts and Cornell is edited prose; both are cleaner than ASR. "
+      "Utterances differ in length across corpora (mean tokens above); because a formula must recur in two distinct utterances, the shorter TV "
+      "utterances make that criterion, if anything, easier for TV to meet.")
     A("")
     A("## 10. Files")
     A("")
