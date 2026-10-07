@@ -1,0 +1,222 @@
+{
+ "sample_size": 40,
+ "hand_labelled": 40,
+ "agree": 33,
+ "accuracy": 0.825,
+ "confusion_hand_vs_spacy": {
+  "after_preposition|after_preposition": 12,
+  "object|object": 3,
+  "object|subject": 1,
+  "other|after_preposition": 1,
+  "other|object": 1,
+  "other|other": 2,
+  "subject|after_preposition": 1,
+  "subject|object": 1,
+  "subject|subject": 14,
+  "subject|vocative_exclamation": 1,
+  "vocative_exclamation|object": 1,
+  "vocative_exclamation|vocative_exclamation": 2
+ },
+ "sample_keys": [
+  [
+   "tv_2019wimF:0008",
+   17,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0014",
+   25,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0025",
+   4,
+   "novak"
+  ],
+  [
+   "tv_2019wimF:0033",
+   34,
+   "novak"
+  ],
+  [
+   "tv_2019wimF:0045",
+   38,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0062",
+   1,
+   "roger"
+  ],
+  [
+   "tv_2019wimF:0063",
+   59,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0067",
+   26,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0071",
+   15,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0074",
+   0,
+   "mr djokovic"
+  ],
+  [
+   "tv_2019wimF:0081",
+   173,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0092",
+   119,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0099",
+   76,
+   "novak djokovic"
+  ],
+  [
+   "tv_2019wimF:0114",
+   14,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0126",
+   0,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0128",
+   0,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0162",
+   45,
+   "the young man"
+  ],
+  [
+   "tv_2019wimF:0167",
+   119,
+   "roger"
+  ],
+  [
+   "tv_2019wimF:0167",
+   157,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0176",
+   0,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0188",
+   13,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0188",
+   26,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0196",
+   2,
+   "novak djokovic"
+  ],
+  [
+   "tv_2019wimF:0247",
+   21,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0270",
+   79,
+   "novak"
+  ],
+  [
+   "tv_2019wimF:0319",
+   7,
+   "novak djokovic"
+  ],
+  [
+   "tv_2019wimF:0354",
+   17,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0356",
+   38,
+   "novak djokovic"
+  ],
+  [
+   "tv_2019wimF:0359",
+   7,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0360",
+   5,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0373",
+   74,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0399",
+   4,
+   "novak"
+  ],
+  [
+   "tv_2019wimF:0407",
+   22,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0416",
+   17,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0419",
+   61,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0428",
+   3,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0432",
+   102,
+   "djokovic"
+  ],
+  [
+   "tv_2019wimF:0466",
+   9,
+   "mr federer"
+  ],
+  [
+   "tv_2019wimF:0474",
+   103,
+   "federer"
+  ],
+  [
+   "tv_2019wimF:0474",
+   123,
+   "federer"
+  ]
+ ]
+}

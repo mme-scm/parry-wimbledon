@@ -1,0 +1,292 @@
+stream,context,player,slot,group,tokens,distinct_expressions,expressions
+tv_2019wimF,dtb_terc,djokovic,after_preposition,T1,17,3,djokovic; novak; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,after_preposition,T2,15,3,djokovic; novak; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,after_preposition,T3,19,5,djokovic; novak; novak djokovic; the serbian; the young man
+tv_2019wimF,dtb_terc,djokovic,object,T1,8,4,djokovic; novak; novak djokovic; the younger man
+tv_2019wimF,dtb_terc,djokovic,object,T2,4,2,djokovic; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,object,T3,8,6,djokovic; novak; novak djokovic; the defending champion; the number one seed; the world number one
+tv_2019wimF,dtb_terc,djokovic,other,T1,6,3,djokovic; novak; the top seed
+tv_2019wimF,dtb_terc,djokovic,other,T2,2,2,djokovic; novak
+tv_2019wimF,dtb_terc,djokovic,other,T3,3,2,djokovic; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,possessive,T1,2,2,djokovic; the world number one
+tv_2019wimF,dtb_terc,djokovic,possessive,T2,3,2,djokovic; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,possessive,T3,3,1,djokovic
+tv_2019wimF,dtb_terc,djokovic,subject,T1,18,3,djokovic; novak; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,subject,T2,27,4,djokovic; mr djokovic; nole; novak
+tv_2019wimF,dtb_terc,djokovic,subject,T3,23,4,djokovic; mr djokovic; novak; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,vocative_exclamation,T1,2,2,djokovic; novak
+tv_2019wimF,dtb_terc,djokovic,vocative_exclamation,T2,5,2,djokovic; novak djokovic
+tv_2019wimF,dtb_terc,djokovic,vocative_exclamation,T3,6,2,djokovic; novak
+tv_2019wimF,dtb_terc,federer,after_preposition,T1,12,5,federer; roger; roger federer; the man from basel; the swiss
+tv_2019wimF,dtb_terc,federer,after_preposition,T2,10,3,federer; roger; the great swiss
+tv_2019wimF,dtb_terc,federer,after_preposition,T3,12,3,federer; roger; roger federer
+tv_2019wimF,dtb_terc,federer,object,T1,6,2,federer; roger federer
+tv_2019wimF,dtb_terc,federer,object,T2,6,2,federer; roger federer
+tv_2019wimF,dtb_terc,federer,object,T3,3,1,federer
+tv_2019wimF,dtb_terc,federer,other,T1,4,1,federer
+tv_2019wimF,dtb_terc,federer,other,T2,8,1,federer
+tv_2019wimF,dtb_terc,federer,other,T3,3,1,federer
+tv_2019wimF,dtb_terc,federer,possessive,T1,4,1,federer
+tv_2019wimF,dtb_terc,federer,possessive,T2,3,2,federer; roger
+tv_2019wimF,dtb_terc,federer,possessive,T3,4,1,federer
+tv_2019wimF,dtb_terc,federer,subject,T1,24,4,federer; mr federer; roger; the older man
+tv_2019wimF,dtb_terc,federer,subject,T2,17,3,federer; mr federer; roger
+tv_2019wimF,dtb_terc,federer,subject,T3,23,5,federer; mr federer; roger; roger federer; the great swiss
+tv_2019wimF,dtb_terc,federer,vocative_exclamation,T1,2,1,federer
+tv_2019wimF,dtb_terc,federer,vocative_exclamation,T2,4,1,federer
+tv_2019wimF,dtb_terc,federer,vocative_exclamation,T3,2,2,federer; roger
+tv_2019wimF,ta_terc,djokovic,after_preposition,T1,11,2,djokovic; novak
+tv_2019wimF,ta_terc,djokovic,after_preposition,T2,16,3,djokovic; novak djokovic; the young man
+tv_2019wimF,ta_terc,djokovic,after_preposition,T3,29,4,djokovic; novak; novak djokovic; the serbian
+tv_2019wimF,ta_terc,djokovic,object,T1,5,5,djokovic; novak; the defending champion; the number one seed; the world number one
+tv_2019wimF,ta_terc,djokovic,object,T2,4,2,djokovic; the younger man
+tv_2019wimF,ta_terc,djokovic,object,T3,12,3,djokovic; novak; novak djokovic
+tv_2019wimF,ta_terc,djokovic,other,T1,1,1,djokovic
+tv_2019wimF,ta_terc,djokovic,other,T2,7,3,djokovic; novak; the top seed
+tv_2019wimF,ta_terc,djokovic,other,T3,4,2,djokovic; novak djokovic
+tv_2019wimF,ta_terc,djokovic,possessive,T2,6,3,djokovic; novak djokovic; the world number one
+tv_2019wimF,ta_terc,djokovic,possessive,T3,2,1,djokovic
+tv_2019wimF,ta_terc,djokovic,subject,T1,16,3,djokovic; novak; novak djokovic
+tv_2019wimF,ta_terc,djokovic,subject,T2,21,3,djokovic; mr djokovic; novak
+tv_2019wimF,ta_terc,djokovic,subject,T3,35,5,djokovic; mr djokovic; nole; novak; novak djokovic
+tv_2019wimF,ta_terc,djokovic,vocative_exclamation,T1,2,2,djokovic; novak
+tv_2019wimF,ta_terc,djokovic,vocative_exclamation,T2,6,3,djokovic; novak; novak djokovic
+tv_2019wimF,ta_terc,djokovic,vocative_exclamation,T3,6,1,djokovic
+tv_2019wimF,ta_terc,federer,after_preposition,T1,7,4,federer; roger; the great swiss; the man from basel
+tv_2019wimF,ta_terc,federer,after_preposition,T2,10,3,federer; roger; roger federer
+tv_2019wimF,ta_terc,federer,after_preposition,T3,19,5,federer; roger; roger federer; the great swiss; the swiss
+tv_2019wimF,ta_terc,federer,object,T1,2,2,federer; roger federer
+tv_2019wimF,ta_terc,federer,object,T2,5,1,federer
+tv_2019wimF,ta_terc,federer,object,T3,8,2,federer; roger federer
+tv_2019wimF,ta_terc,federer,other,T1,3,1,federer
+tv_2019wimF,ta_terc,federer,other,T2,4,1,federer
+tv_2019wimF,ta_terc,federer,other,T3,8,1,federer
+tv_2019wimF,ta_terc,federer,possessive,T1,2,1,federer
+tv_2019wimF,ta_terc,federer,possessive,T2,4,1,federer
+tv_2019wimF,ta_terc,federer,possessive,T3,7,2,federer; roger
+tv_2019wimF,ta_terc,federer,subject,T1,12,3,federer; roger; roger federer
+tv_2019wimF,ta_terc,federer,subject,T2,23,4,federer; mr federer; roger; the great swiss
+tv_2019wimF,ta_terc,federer,subject,T3,36,5,federer; mr federer; roger; roger federer; the older man
+tv_2019wimF,ta_terc,federer,vocative_exclamation,T1,1,1,roger
+tv_2019wimF,ta_terc,federer,vocative_exclamation,T2,3,1,federer
+tv_2019wimF,ta_terc,federer,vocative_exclamation,T3,5,1,federer
+tv_2019wimF,phase,djokovic,after_preposition,clip,57,6,djokovic; novak; novak djokovic; the serbian; the world number one; the young man
+tv_2019wimF,phase,djokovic,object,clip,21,7,djokovic; novak; novak djokovic; the defending champion; the number one seed; the world number one; the younger man
+tv_2019wimF,phase,djokovic,other,clip,13,4,djokovic; novak; novak djokovic; the top seed
+tv_2019wimF,phase,djokovic,possessive,clip,8,3,djokovic; novak djokovic; the world number one
+tv_2019wimF,phase,djokovic,subject,changeover,2,2,djokovic; novak
+tv_2019wimF,phase,djokovic,subject,clip,73,5,djokovic; mr djokovic; nole; novak; novak djokovic
+tv_2019wimF,phase,djokovic,vocative_exclamation,between_points,2,1,djokovic
+tv_2019wimF,phase,djokovic,vocative_exclamation,clip,12,3,djokovic; novak; novak djokovic
+tv_2019wimF,phase,federer,after_preposition,changeover,2,1,federer
+tv_2019wimF,phase,federer,after_preposition,clip,34,6,federer; roger; roger federer; the great swiss; the man from basel; the swiss
+tv_2019wimF,phase,federer,object,changeover,1,1,federer
+tv_2019wimF,phase,federer,object,clip,14,2,federer; roger federer
+tv_2019wimF,phase,federer,other,clip,16,1,federer
+tv_2019wimF,phase,federer,possessive,clip,13,2,federer; roger
+tv_2019wimF,phase,federer,subject,clip,75,6,federer; mr federer; roger; roger federer; the great swiss; the older man
+tv_2019wimF,phase,federer,vocative_exclamation,clip,9,2,federer; roger
+tv_2019wimF,score,djokovic,after_preposition,break_point,5,1,djokovic
+tv_2019wimF,score,djokovic,after_preposition,deuce_ad,4,3,djokovic; novak; novak djokovic
+tv_2019wimF,score,djokovic,after_preposition,other,46,5,djokovic; novak; novak djokovic; the serbian; the young man
+tv_2019wimF,score,djokovic,after_preposition,tiebreak,1,1,djokovic
+tv_2019wimF,score,djokovic,object,break_point,3,2,djokovic; novak
+tv_2019wimF,score,djokovic,object,deuce_ad,4,2,djokovic; novak djokovic
+tv_2019wimF,score,djokovic,object,match_point,1,1,djokovic
+tv_2019wimF,score,djokovic,object,other,13,7,djokovic; novak; novak djokovic; the defending champion; the number one seed; the world number one; the younger man
+tv_2019wimF,score,djokovic,other,break_point,1,1,novak djokovic
+tv_2019wimF,score,djokovic,other,deuce_ad,1,1,djokovic
+tv_2019wimF,score,djokovic,other,other,10,3,djokovic; novak; the top seed
+tv_2019wimF,score,djokovic,possessive,deuce_ad,3,2,djokovic; novak djokovic
+tv_2019wimF,score,djokovic,possessive,other,5,2,djokovic; the world number one
+tv_2019wimF,score,djokovic,subject,break_point,8,4,djokovic; mr djokovic; nole; novak djokovic
+tv_2019wimF,score,djokovic,subject,deuce_ad,10,3,djokovic; mr djokovic; novak
+tv_2019wimF,score,djokovic,subject,match_point,1,1,djokovic
+tv_2019wimF,score,djokovic,subject,other,51,4,djokovic; mr djokovic; novak; novak djokovic
+tv_2019wimF,score,djokovic,subject,set_point,3,1,djokovic
+tv_2019wimF,score,djokovic,subject,tiebreak,1,1,djokovic
+tv_2019wimF,score,djokovic,vocative_exclamation,deuce_ad,1,1,djokovic
+tv_2019wimF,score,djokovic,vocative_exclamation,other,12,3,djokovic; novak; novak djokovic
+tv_2019wimF,score,djokovic,vocative_exclamation,tiebreak,1,1,djokovic
+tv_2019wimF,score,federer,after_preposition,break_point,2,2,federer; roger federer
+tv_2019wimF,score,federer,after_preposition,deuce_ad,6,3,federer; roger; the great swiss
+tv_2019wimF,score,federer,after_preposition,other,28,6,federer; roger; roger federer; the great swiss; the man from basel; the swiss
+tv_2019wimF,score,federer,object,break_point,1,1,federer
+tv_2019wimF,score,federer,object,deuce_ad,1,1,federer
+tv_2019wimF,score,federer,object,match_point,1,1,federer
+tv_2019wimF,score,federer,object,other,12,2,federer; roger federer
+tv_2019wimF,score,federer,other,break_point,2,1,federer
+tv_2019wimF,score,federer,other,deuce_ad,3,1,federer
+tv_2019wimF,score,federer,other,other,10,1,federer
+tv_2019wimF,score,federer,possessive,break_point,1,1,federer
+tv_2019wimF,score,federer,possessive,deuce_ad,1,1,federer
+tv_2019wimF,score,federer,possessive,other,9,2,federer; roger
+tv_2019wimF,score,federer,possessive,set_point,2,1,federer
+tv_2019wimF,score,federer,subject,break_point,5,1,federer
+tv_2019wimF,score,federer,subject,deuce_ad,6,2,federer; mr federer
+tv_2019wimF,score,federer,subject,match_point,1,1,federer
+tv_2019wimF,score,federer,subject,other,59,6,federer; mr federer; roger; roger federer; the great swiss; the older man
+tv_2019wimF,score,federer,subject,tiebreak,1,1,federer
+tv_2019wimF,score,federer,vocative_exclamation,deuce_ad,2,1,federer
+tv_2019wimF,score,federer,vocative_exclamation,other,7,2,federer; roger
+tv_2019wimF,role,djokovic,after_preposition,ace,3,1,djokovic
+tv_2019wimF,role,djokovic,after_preposition,first_serve_fault,3,2,djokovic; novak
+tv_2019wimF,role,djokovic,after_preposition,rally,51,6,djokovic; novak; novak djokovic; the serbian; the world number one; the young man
+tv_2019wimF,role,djokovic,object,ace,1,1,novak djokovic
+tv_2019wimF,role,djokovic,object,first_serve_fault,1,1,novak
+tv_2019wimF,role,djokovic,object,rally,19,7,djokovic; novak; novak djokovic; the defending champion; the number one seed; the world number one; the younger man
+tv_2019wimF,role,djokovic,other,ace,2,1,djokovic
+tv_2019wimF,role,djokovic,other,rally,11,4,djokovic; novak; novak djokovic; the top seed
+tv_2019wimF,role,djokovic,possessive,first_serve_fault,1,1,novak djokovic
+tv_2019wimF,role,djokovic,possessive,rally,7,2,djokovic; the world number one
+tv_2019wimF,role,djokovic,subject,ace,3,2,djokovic; mr djokovic
+tv_2019wimF,role,djokovic,subject,first_serve_fault,6,3,djokovic; mr djokovic; novak
+tv_2019wimF,role,djokovic,subject,rally,66,5,djokovic; mr djokovic; nole; novak; novak djokovic
+tv_2019wimF,role,djokovic,vocative_exclamation,rally,14,3,djokovic; novak; novak djokovic
+tv_2019wimF,role,federer,after_preposition,first_serve_fault,2,2,federer; the man from basel
+tv_2019wimF,role,federer,after_preposition,rally,34,5,federer; roger; roger federer; the great swiss; the swiss
+tv_2019wimF,role,federer,object,ace,3,1,federer
+tv_2019wimF,role,federer,object,rally,12,2,federer; roger federer
+tv_2019wimF,role,federer,other,rally,16,1,federer
+tv_2019wimF,role,federer,possessive,ace,3,2,federer; roger
+tv_2019wimF,role,federer,possessive,first_serve_fault,1,1,federer
+tv_2019wimF,role,federer,possessive,rally,9,1,federer
+tv_2019wimF,role,federer,subject,ace,5,1,federer
+tv_2019wimF,role,federer,subject,first_serve_fault,3,2,federer; mr federer
+tv_2019wimF,role,federer,subject,rally,67,6,federer; mr federer; roger; roger federer; the great swiss; the older man
+tv_2019wimF,role,federer,vocative_exclamation,ace,3,1,federer
+tv_2019wimF,role,federer,vocative_exclamation,rally,6,2,federer; roger
+tv_2023wimF,dtb_terc,alcaraz,after_preposition,T1,9,2,alcaraz; the world number one
+tv_2023wimF,dtb_terc,alcaraz,after_preposition,T2,6,2,alcaraz; the young man
+tv_2023wimF,dtb_terc,alcaraz,after_preposition,T3,5,2,alcaraz; carlos
+tv_2023wimF,dtb_terc,alcaraz,object,T1,2,2,alcaraz; carlos alcaraz
+tv_2023wimF,dtb_terc,alcaraz,object,T2,2,2,alcaraz; the world number one
+tv_2023wimF,dtb_terc,alcaraz,object,T3,3,2,alcaraz; the young spaniard
+tv_2023wimF,dtb_terc,alcaraz,other,T1,2,2,alcaraz; carlos alcaraz
+tv_2023wimF,dtb_terc,alcaraz,other,T2,3,1,alcaraz
+tv_2023wimF,dtb_terc,alcaraz,other,T3,1,1,alcaraz
+tv_2023wimF,dtb_terc,alcaraz,subject,T1,15,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,dtb_terc,alcaraz,subject,T2,13,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,dtb_terc,alcaraz,subject,T3,8,2,alcaraz; carlos alcaraz
+tv_2023wimF,dtb_terc,alcaraz,vocative_exclamation,T1,1,1,alcaraz
+tv_2023wimF,dtb_terc,alcaraz,vocative_exclamation,T2,2,1,alcaraz
+tv_2023wimF,dtb_terc,alcaraz,vocative_exclamation,T3,1,1,alcaraz
+tv_2023wimF,dtb_terc,djokovic,after_preposition,T1,16,2,djokovic; novak
+tv_2023wimF,dtb_terc,djokovic,after_preposition,T2,5,2,djokovic; novak
+tv_2023wimF,dtb_terc,djokovic,after_preposition,T3,17,5,djokovic; novak; novak djokovic; the champion; the serb
+tv_2023wimF,dtb_terc,djokovic,object,T1,6,3,djokovic; novak; the champion
+tv_2023wimF,dtb_terc,djokovic,object,T2,3,1,djokovic
+tv_2023wimF,dtb_terc,djokovic,object,T3,2,1,djokovic
+tv_2023wimF,dtb_terc,djokovic,other,T2,5,2,djokovic; novak djokovic
+tv_2023wimF,dtb_terc,djokovic,other,T3,4,2,djokovic; novak djokovic
+tv_2023wimF,dtb_terc,djokovic,possessive,T1,2,1,djokovic
+tv_2023wimF,dtb_terc,djokovic,possessive,T3,1,1,novak
+tv_2023wimF,dtb_terc,djokovic,subject,T1,10,3,djokovic; novak; novak djokovic
+tv_2023wimF,dtb_terc,djokovic,subject,T2,9,3,djokovic; novak; novak djokovic
+tv_2023wimF,dtb_terc,djokovic,subject,T3,20,3,djokovic; novak; novak djokovic
+tv_2023wimF,dtb_terc,djokovic,vocative_exclamation,T1,4,1,djokovic
+tv_2023wimF,dtb_terc,djokovic,vocative_exclamation,T2,5,1,djokovic
+tv_2023wimF,dtb_terc,djokovic,vocative_exclamation,T3,2,1,djokovic
+tv_2023wimF,ta_terc,alcaraz,after_preposition,T1,5,2,alcaraz; the world number one
+tv_2023wimF,ta_terc,alcaraz,after_preposition,T2,5,2,alcaraz; carlos
+tv_2023wimF,ta_terc,alcaraz,after_preposition,T3,12,2,alcaraz; the young man
+tv_2023wimF,ta_terc,alcaraz,object,T2,3,1,alcaraz
+tv_2023wimF,ta_terc,alcaraz,object,T3,4,4,alcaraz; carlos alcaraz; the world number one; the young spaniard
+tv_2023wimF,ta_terc,alcaraz,other,T1,1,1,carlos alcaraz
+tv_2023wimF,ta_terc,alcaraz,other,T2,2,1,alcaraz
+tv_2023wimF,ta_terc,alcaraz,other,T3,3,1,alcaraz
+tv_2023wimF,ta_terc,alcaraz,subject,T1,13,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,ta_terc,alcaraz,subject,T2,14,2,alcaraz; carlos alcaraz
+tv_2023wimF,ta_terc,alcaraz,subject,T3,12,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,ta_terc,alcaraz,vocative_exclamation,T2,3,1,alcaraz
+tv_2023wimF,ta_terc,alcaraz,vocative_exclamation,T3,1,1,alcaraz
+tv_2023wimF,ta_terc,djokovic,after_preposition,T1,9,3,djokovic; novak; the serb
+tv_2023wimF,ta_terc,djokovic,after_preposition,T2,14,4,djokovic; novak; novak djokovic; the champion
+tv_2023wimF,ta_terc,djokovic,after_preposition,T3,16,4,djokovic; novak; novak djokovic; the champion
+tv_2023wimF,ta_terc,djokovic,object,T1,2,2,djokovic; novak
+tv_2023wimF,ta_terc,djokovic,object,T2,5,3,djokovic; novak; the champion
+tv_2023wimF,ta_terc,djokovic,object,T3,5,2,djokovic; novak
+tv_2023wimF,ta_terc,djokovic,other,T1,2,1,novak djokovic
+tv_2023wimF,ta_terc,djokovic,other,T2,3,1,djokovic
+tv_2023wimF,ta_terc,djokovic,other,T3,3,2,djokovic; novak djokovic
+tv_2023wimF,ta_terc,djokovic,possessive,T1,1,1,djokovic
+tv_2023wimF,ta_terc,djokovic,possessive,T3,2,2,djokovic; novak
+tv_2023wimF,ta_terc,djokovic,subject,T1,12,2,djokovic; novak
+tv_2023wimF,ta_terc,djokovic,subject,T2,13,3,djokovic; novak; novak djokovic
+tv_2023wimF,ta_terc,djokovic,subject,T3,15,3,djokovic; novak; novak djokovic
+tv_2023wimF,ta_terc,djokovic,vocative_exclamation,T1,1,1,djokovic
+tv_2023wimF,ta_terc,djokovic,vocative_exclamation,T2,4,2,djokovic; novak djokovic
+tv_2023wimF,ta_terc,djokovic,vocative_exclamation,T3,8,1,djokovic
+tv_2023wimF,phase,alcaraz,after_preposition,clip,22,4,alcaraz; carlos; the world number one; the young man
+tv_2023wimF,phase,alcaraz,object,changeover,1,1,alcaraz
+tv_2023wimF,phase,alcaraz,object,clip,6,4,alcaraz; carlos alcaraz; the world number one; the young spaniard
+tv_2023wimF,phase,alcaraz,other,changeover,1,1,alcaraz
+tv_2023wimF,phase,alcaraz,other,clip,5,2,alcaraz; carlos alcaraz
+tv_2023wimF,phase,alcaraz,subject,changeover,1,1,alcaraz
+tv_2023wimF,phase,alcaraz,subject,clip,39,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,phase,alcaraz,vocative_exclamation,between_points,1,1,alcaraz
+tv_2023wimF,phase,alcaraz,vocative_exclamation,clip,4,1,alcaraz
+tv_2023wimF,phase,djokovic,after_preposition,changeover,1,1,the champion
+tv_2023wimF,phase,djokovic,after_preposition,clip,38,5,djokovic; novak; novak djokovic; the champion; the serb
+tv_2023wimF,phase,djokovic,object,changeover,1,1,djokovic
+tv_2023wimF,phase,djokovic,object,clip,12,3,djokovic; novak; the champion
+tv_2023wimF,phase,djokovic,other,changeover,1,1,djokovic
+tv_2023wimF,phase,djokovic,other,clip,9,2,djokovic; novak djokovic
+tv_2023wimF,phase,djokovic,possessive,clip,3,2,djokovic; novak
+tv_2023wimF,phase,djokovic,subject,clip,43,4,djokovic; novak; novak djokovic; the champion
+tv_2023wimF,phase,djokovic,vocative_exclamation,between_points,2,1,djokovic
+tv_2023wimF,phase,djokovic,vocative_exclamation,changeover,1,1,djokovic
+tv_2023wimF,phase,djokovic,vocative_exclamation,clip,10,2,djokovic; novak djokovic
+tv_2023wimF,score,alcaraz,after_preposition,break_point,5,2,alcaraz; the young man
+tv_2023wimF,score,alcaraz,after_preposition,deuce_ad,4,1,alcaraz
+tv_2023wimF,score,alcaraz,after_preposition,other,13,3,alcaraz; carlos; the world number one
+tv_2023wimF,score,alcaraz,object,break_point,1,1,the world number one
+tv_2023wimF,score,alcaraz,object,deuce_ad,1,1,alcaraz
+tv_2023wimF,score,alcaraz,object,other,5,3,alcaraz; carlos alcaraz; the young spaniard
+tv_2023wimF,score,alcaraz,other,deuce_ad,1,1,alcaraz
+tv_2023wimF,score,alcaraz,other,other,5,2,alcaraz; carlos alcaraz
+tv_2023wimF,score,alcaraz,subject,break_point,6,2,alcaraz; carlos alcaraz
+tv_2023wimF,score,alcaraz,subject,deuce_ad,3,1,alcaraz
+tv_2023wimF,score,alcaraz,subject,other,28,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,score,alcaraz,subject,set_point,2,2,carlos; carlos alcaraz
+tv_2023wimF,score,alcaraz,vocative_exclamation,deuce_ad,2,1,alcaraz
+tv_2023wimF,score,alcaraz,vocative_exclamation,other,2,1,alcaraz
+tv_2023wimF,score,djokovic,after_preposition,break_point,3,2,djokovic; novak
+tv_2023wimF,score,djokovic,after_preposition,deuce_ad,2,2,djokovic; novak djokovic
+tv_2023wimF,score,djokovic,after_preposition,other,34,5,djokovic; novak; novak djokovic; the champion; the serb
+tv_2023wimF,score,djokovic,object,break_point,4,1,djokovic
+tv_2023wimF,score,djokovic,object,deuce_ad,1,1,djokovic
+tv_2023wimF,score,djokovic,object,other,7,3,djokovic; novak; the champion
+tv_2023wimF,score,djokovic,other,break_point,1,1,novak djokovic
+tv_2023wimF,score,djokovic,other,deuce_ad,1,1,djokovic
+tv_2023wimF,score,djokovic,other,other,7,2,djokovic; novak djokovic
+tv_2023wimF,score,djokovic,possessive,deuce_ad,1,1,djokovic
+tv_2023wimF,score,djokovic,possessive,other,2,2,djokovic; novak
+tv_2023wimF,score,djokovic,subject,break_point,2,1,novak djokovic
+tv_2023wimF,score,djokovic,subject,deuce_ad,9,3,djokovic; novak; novak djokovic
+tv_2023wimF,score,djokovic,subject,other,30,3,djokovic; novak; novak djokovic
+tv_2023wimF,score,djokovic,vocative_exclamation,break_point,2,1,djokovic
+tv_2023wimF,score,djokovic,vocative_exclamation,deuce_ad,6,1,djokovic
+tv_2023wimF,score,djokovic,vocative_exclamation,other,5,2,djokovic; novak djokovic
+tv_2023wimF,role,alcaraz,after_preposition,rally,22,4,alcaraz; carlos; the world number one; the young man
+tv_2023wimF,role,alcaraz,object,double_fault,1,1,carlos alcaraz
+tv_2023wimF,role,alcaraz,object,rally,6,3,alcaraz; the world number one; the young spaniard
+tv_2023wimF,role,alcaraz,other,first_serve_fault,1,1,carlos alcaraz
+tv_2023wimF,role,alcaraz,other,rally,5,1,alcaraz
+tv_2023wimF,role,alcaraz,subject,ace,1,1,alcaraz
+tv_2023wimF,role,alcaraz,subject,first_serve_fault,5,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,role,alcaraz,subject,rally,34,3,alcaraz; carlos; carlos alcaraz
+tv_2023wimF,role,alcaraz,vocative_exclamation,rally,5,1,alcaraz
+tv_2023wimF,role,djokovic,after_preposition,ace,1,1,novak
+tv_2023wimF,role,djokovic,after_preposition,first_serve_fault,3,1,djokovic
+tv_2023wimF,role,djokovic,after_preposition,rally,35,5,djokovic; novak; novak djokovic; the champion; the serb
+tv_2023wimF,role,djokovic,object,first_serve_fault,1,1,djokovic
+tv_2023wimF,role,djokovic,object,rally,12,3,djokovic; novak; the champion
+tv_2023wimF,role,djokovic,other,first_serve_fault,2,1,novak djokovic
+tv_2023wimF,role,djokovic,other,rally,8,2,djokovic; novak djokovic
+tv_2023wimF,role,djokovic,possessive,first_serve_fault,1,1,djokovic
+tv_2023wimF,role,djokovic,possessive,rally,2,2,djokovic; novak
+tv_2023wimF,role,djokovic,subject,first_serve_fault,5,2,djokovic; novak
+tv_2023wimF,role,djokovic,subject,rally,38,4,djokovic; novak; novak djokovic; the champion
+tv_2023wimF,role,djokovic,vocative_exclamation,first_serve_fault,1,1,djokovic
+tv_2023wimF,role,djokovic,vocative_exclamation,rally,12,2,djokovic; novak djokovic

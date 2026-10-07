@@ -54,7 +54,9 @@ def word_seq(doc):
             continue
         if t.text.lower() in ("'s", "’s") and t.dep_ in ("case", "poss"):
             continue
-        txt = t.text.lower().replace("’", "'")
+        txt = t.text.lower().replace("’", "'").rstrip(".")
+        if not txt:
+            continue
         if txt.endswith("'s") and len(txt) > 2:
             txt = txt[:-2]
         words.append(txt)

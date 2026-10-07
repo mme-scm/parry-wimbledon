@@ -1,0 +1,353 @@
+stream,utt_id,clip_i,token_start,player,expression,category,slot,spacy_dep,syllables,dead_time_before_s,time_after_s,phase,dtb_terc,ta_terc,score,role
+tv_2019wimF,tv_2019wimF:0002,2,37,djokovic,novak djokovic,full_name,subject,nsubj,5,15.0,51.64,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0008,8,17,djokovic,djokovic,surname,subject,nsubj,3,20.88,38.04,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0008,8,26,djokovic,djokovic,surname,after_preposition,pobj,3,20.88,38.04,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0009,9,17,federer,federer,surname,after_preposition,pobj,3,38.04,32.4,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0009,9,28,djokovic,djokovic,surname,possessive,poss,3,38.04,32.4,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0009,9,37,federer,federer,surname,object,dobj,3,38.04,32.4,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0009,9,41,federer,the great swiss,epithet,subject,nsubj,3,38.04,32.4,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,13,federer,federer,surname,subject,nsubj,3,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,25,federer,federer,surname,subject,nsubj,3,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,194,djokovic,djokovic,surname,after_preposition,pobj,3,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,219,federer,federer,surname,other,compound,3,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,269,djokovic,novak,first_name,after_preposition,pobj,2,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0014,14,278,federer,roger,first_name,after_preposition,pobj,2,19.76,94.68,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0016,16,6,federer,federer,surname,possessive,poss,3,,22.76,clip,NA,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0016,16,15,djokovic,djokovic,surname,after_preposition,pobj,3,,22.76,clip,NA,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0017,17,21,federer,federer,surname,subject,nsubj,3,,44.16,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0019,19,6,federer,roger federer,full_name,subject,nsubj,5,44.16,53.44,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0021,21,1,djokovic,djokovic,surname,subject,nsubj,3,7.76,27.0,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0021,21,22,federer,federer,surname,subject,nsubj,3,7.76,27.0,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0023,23,5,federer,federer,surname,after_preposition,pobj,3,27.0,45.52,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0025,25,4,djokovic,novak,first_name,subject,nsubj,2,21.36,29.48,clip,T1,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0026,26,4,federer,roger,first_name,after_preposition,pobj,2,29.48,21.28,clip,T2,T1,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0026,26,6,djokovic,djokovic,surname,subject,nsubj,3,29.48,21.28,clip,T2,T1,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0029,29,9,federer,federer,surname,other,conj,3,30.52,44.32,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0031,31,7,federer,federer,surname,other,ROOT,3,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0031,31,21,djokovic,djokovic,surname,other,compound,3,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0031,31,62,federer,federer,surname,subject,nsubj,3,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0032,32,9,djokovic,djokovic,surname,other,compound,3,,22.76,clip,NA,T1,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0033,33,20,federer,federer,surname,subject,nsubj,3,22.76,30.84,clip,T1,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0033,33,31,djokovic,djokovic,surname,object,dobj,3,22.76,30.84,clip,T1,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0033,33,34,djokovic,novak,first_name,subject,nsubj,2,22.76,30.84,clip,T1,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0034,34,16,djokovic,novak,first_name,subject,nsubj,2,,20.16,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0036,36,6,federer,roger,first_name,subject,nsubj,2,19.28,19.36,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0036,36,27,djokovic,djokovic,surname,after_preposition,pobj,3,19.28,19.36,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0036,36,47,federer,federer,surname,after_preposition,pobj,3,19.28,19.36,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0038,38,7,djokovic,novak,first_name,after_preposition,pobj,2,18.36,93.76,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0038,38,184,djokovic,novak,first_name,after_preposition,pobj,2,18.36,93.76,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0039,39,3,federer,roger,first_name,subject,nsubj,2,93.76,24.64,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0039,39,19,djokovic,djokovic,surname,after_preposition,pobj,3,93.76,24.64,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0039,39,28,federer,roger,first_name,subject,nsubj,2,93.76,24.64,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0043,43,5,federer,roger,first_name,subject,nsubj,2,48.0,35.68,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0045,45,7,djokovic,novak djokovic,full_name,after_preposition,pobj,5,20.0,28.36,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0045,45,13,djokovic,the top seed,epithet,other,appos,3,20.0,28.36,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0045,45,30,djokovic,the world number one,epithet,possessive,poss,5,20.0,28.36,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0045,45,38,federer,federer,surname,after_preposition,pobj,3,20.0,28.36,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0047,47,4,federer,federer,surname,subject,nsubj,3,19.84,19.72,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0047,47,30,djokovic,djokovic,surname,object,dobj,3,19.84,19.72,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0050,50,3,djokovic,novak,first_name,subject,nsubj,2,,,changeover,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0052,52,3,federer,federer,surname,subject,nsubj,3,31.0,35.28,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0052,52,8,djokovic,djokovic,surname,subject,nsubj,3,31.0,35.28,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0056,56,6,federer,federer,surname,subject,nsubj,3,36.68,33.72,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0056,56,15,djokovic,djokovic,surname,object,dobj,3,36.68,33.72,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0059,59,0,djokovic,mr djokovic,title_surname,subject,nsubj,5,28.72,26.36,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0062,62,1,federer,roger,first_name,subject,nsubj,2,30.2,32.32,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0062,62,11,djokovic,novak,first_name,other,amod,2,30.2,32.32,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0063,63,0,federer,federer,surname,subject,nsubj,3,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0063,63,49,djokovic,novak djokovic,full_name,object,attr,5,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0063,63,59,federer,federer,surname,vocative_exclamation,npadvmod,3,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0063,63,74,djokovic,djokovic,surname,subject,nsubj,3,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0063,63,90,federer,federer,surname,object,dobj,3,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0063,63,163,federer,roger,first_name,possessive,poss,2,32.32,94.0,clip,T2,T3,other,ace
+tv_2019wimF,tv_2019wimF:0065,65,30,djokovic,djokovic,surname,subject,nsubj,3,94.0,44.76,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0065,65,44,federer,federer,surname,after_preposition,pobj,3,94.0,44.76,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0067,67,26,djokovic,djokovic,surname,object,dative,3,44.76,52.56,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0068,68,3,djokovic,djokovic,surname,after_preposition,pobj,3,,29.44,clip,NA,T2,other,rally
+tv_2019wimF,tv_2019wimF:0071,71,0,djokovic,djokovic,surname,subject,nsubj,3,40.0,26.64,clip,T3,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0071,71,15,federer,federer,surname,object,dobj,3,40.0,26.64,clip,T3,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0071,71,20,federer,federer,surname,after_preposition,pobj,3,40.0,26.64,clip,T3,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0072,72,6,djokovic,novak djokovic,full_name,after_preposition,pobj,5,26.64,39.44,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0072,72,41,federer,federer,surname,possessive,pobj,3,26.64,39.44,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0073,73,4,djokovic,mr djokovic,title_surname,subject,nsubj,5,39.44,32.0,clip,T3,T2,other,ace
+tv_2019wimF,tv_2019wimF:0074,74,0,djokovic,mr djokovic,title_surname,subject,nsubj,5,32.0,,clip,T2,NA,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0075,75,6,federer,federer,surname,subject,nsubj,3,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0077,77,0,federer,federer,surname,subject,nsubj,3,,36.6,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0077,77,21,djokovic,djokovic,surname,after_preposition,pobj,3,,36.6,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0077,77,24,djokovic,djokovic,surname,after_preposition,pobj,3,,36.6,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0078,78,6,djokovic,djokovic,surname,after_preposition,pobj,3,36.6,25.52,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0078,78,18,federer,federer,surname,subject,nsubj,3,36.6,25.52,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0078,78,25,djokovic,djokovic,surname,possessive,poss,3,36.6,25.52,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0079,79,16,federer,federer,surname,subject,nsubj,3,25.52,26.88,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0081,81,69,federer,federer,surname,subject,nsubj,3,,23.56,clip,NA,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0081,81,173,federer,federer,surname,after_preposition,conj,3,,23.56,clip,NA,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0081,81,217,djokovic,djokovic,surname,subject,nsubj,3,,23.56,clip,NA,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0081,81,225,federer,federer,surname,subject,nsubj,3,,23.56,clip,NA,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0083,83,0,djokovic,djokovic,surname,subject,nsubj,3,97.84,21.0,clip,T3,T1,other,ace
+tv_2019wimF,tv_2019wimF:0085,85,1,djokovic,djokovic,surname,other,compound,3,21.52,29.0,clip,T1,T2,other,ace
+tv_2019wimF,tv_2019wimF:0085,85,9,federer,federer,surname,object,dobj,3,21.52,29.0,clip,T1,T2,other,ace
+tv_2019wimF,tv_2019wimF:0086,86,0,federer,federer,surname,subject,nsubj,3,29.0,41.36,clip,T2,T3,tiebreak,rally
+tv_2019wimF,tv_2019wimF:0087,87,16,djokovic,novak,first_name,subject,nsubj,2,,19.36,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0090,90,11,federer,federer,surname,other,compound,3,35.96,27.36,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0092,92,85,federer,federer,surname,object,attr,3,27.36,51.36,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0092,92,102,federer,federer,surname,after_preposition,pobj,3,27.36,51.36,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0092,92,112,djokovic,djokovic,surname,after_preposition,pobj,3,27.36,51.36,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0092,92,119,federer,federer,surname,after_preposition,pobj,3,27.36,51.36,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0098,98,10,federer,federer,surname,after_preposition,pobj,3,31.64,23.68,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0099,99,12,federer,federer,surname,other,compound,3,23.68,42.12,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0099,99,21,djokovic,djokovic,surname,after_preposition,pobj,3,23.68,42.12,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0099,99,76,djokovic,novak djokovic,full_name,object,dobj,5,23.68,42.12,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0099,99,95,djokovic,djokovic,surname,object,dobj,3,23.68,42.12,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0101,101,5,djokovic,novak,first_name,subject,nsubj,2,20.0,4.92,clip,T1,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0101,101,27,federer,the man from basel,epithet,after_preposition,pobj,5,20.0,4.92,clip,T1,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0102,102,10,djokovic,djokovic,surname,other,compound,3,20.0,36.24,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0108,108,28,federer,federer,surname,after_preposition,appos,3,121.88,24.72,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0110,110,1,djokovic,djokovic,surname,subject,nsubj,3,24.72,28.28,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0114,114,0,federer,federer,surname,subject,nsubj,3,,41.36,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0114,114,14,federer,federer,surname,subject,nsubj,3,,41.36,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0119,119,21,federer,federer,surname,subject,nsubj,3,20.32,33.64,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0119,119,24,djokovic,djokovic,surname,object,dobj,3,20.32,33.64,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0121,121,4,djokovic,djokovic,surname,subject,nsubj,3,25.84,94.2,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0126,126,0,djokovic,djokovic,surname,subject,nsubj,3,27.0,29.96,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0127,127,21,djokovic,djokovic,surname,subject,nsubj,3,29.96,23.12,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0128,128,0,federer,federer,surname,subject,nsubj,3,23.12,17.44,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0129,129,2,federer,federer,surname,vocative_exclamation,npadvmod,3,17.44,32.0,clip,T1,T2,other,ace
+tv_2019wimF,tv_2019wimF:0129,129,4,federer,federer,surname,subject,nsubj,3,17.44,32.0,clip,T1,T2,other,ace
+tv_2019wimF,tv_2019wimF:0134,134,0,djokovic,djokovic,surname,subject,nsubj,3,1.0,8.36,clip,T1,T1,set_point,first_serve_fault
+tv_2019wimF,tv_2019wimF:0137,137,0,federer,federer,surname,subject,nsubj,3,274.0,28.0,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0137,137,23,djokovic,djokovic,surname,subject,nsubj,3,274.0,28.0,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0137,137,34,federer,federer,surname,object,dative,3,274.0,28.0,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0138,138,0,djokovic,novak,first_name,subject,nsubj,2,28.0,19.2,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0139,139,0,federer,mr federer,title_surname,subject,nsubj,5,19.2,23.72,clip,T1,T2,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0140,140,10,federer,mr federer,title_surname,subject,nsubj,5,19.2,41.28,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0142,142,38,djokovic,djokovic,surname,after_preposition,pobj,3,18.28,45.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0142,142,58,federer,federer,surname,object,dobj,3,18.28,45.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0143,143,7,djokovic,djokovic,surname,after_preposition,pobj,3,45.0,23.16,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0144,144,11,federer,federer,surname,after_preposition,pobj,3,23.16,4.4,clip,T1,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0144,144,13,djokovic,djokovic,surname,subject,nsubj,3,23.16,4.4,clip,T1,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0148,148,0,federer,federer,surname,subject,nsubj,3,34.0,28.44,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0149,149,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,28.44,28.36,between_points,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0151,151,10,djokovic,djokovic,surname,possessive,poss,3,28.36,25.2,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0154,154,2,federer,federer,surname,subject,nsubj,3,29.68,18.32,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0157,157,7,djokovic,djokovic,surname,subject,nsubj,3,94.56,39.84,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0159,159,2,federer,federer,surname,subject,nsubj,3,39.84,39.24,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0159,159,33,djokovic,djokovic,surname,after_preposition,pobj,3,39.84,39.24,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0162,162,16,djokovic,novak,first_name,subject,appos,2,45.68,32.44,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0162,162,45,djokovic,the young man,epithet,after_preposition,pobj,3,45.68,32.44,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0164,164,7,djokovic,djokovic,surname,subject,nsubj,3,31.28,33.52,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0165,165,13,djokovic,djokovic,surname,subject,nsubj,3,33.52,20.2,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0165,165,19,federer,federer,surname,object,dobj,3,33.52,20.2,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0166,166,20,federer,roger,first_name,subject,nsubj,2,20.2,20.32,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,2,djokovic,novak,first_name,subject,nsubj,2,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,8,federer,roger,first_name,subject,nsubj,2,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,119,federer,roger,first_name,subject,nsubj,2,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,157,djokovic,djokovic,surname,other,compound,3,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,168,federer,roger federer,full_name,object,dobj,5,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,188,djokovic,novak,first_name,after_preposition,pobj,2,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,194,djokovic,novak,first_name,object,dobj,2,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,216,federer,federer,surname,possessive,poss,3,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0167,167,247,federer,federer,surname,possessive,poss,3,20.32,99.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0169,169,12,djokovic,djokovic,surname,subject,nsubj,3,99.36,36.6,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0173,173,40,djokovic,djokovic,surname,subject,nsubj,3,22.36,31.04,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0176,176,0,federer,federer,surname,subject,nsubj,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0176,176,15,federer,federer,surname,vocative_exclamation,ROOT,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0176,176,70,djokovic,djokovic,surname,other,ROOT,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0176,176,93,federer,federer,surname,subject,nsubj,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0176,176,106,federer,federer,surname,possessive,poss,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0176,176,153,djokovic,djokovic,surname,after_preposition,pobj,3,18.12,96.0,clip,T1,T3,other,ace
+tv_2019wimF,tv_2019wimF:0184,184,7,djokovic,djokovic,surname,after_preposition,pobj,3,42.68,19.0,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0185,185,25,djokovic,djokovic,surname,after_preposition,pobj,3,19.0,18.0,clip,T1,T1,other,ace
+tv_2019wimF,tv_2019wimF:0185,185,36,federer,federer,surname,subject,nsubj,3,19.0,18.0,clip,T1,T1,other,ace
+tv_2019wimF,tv_2019wimF:0187,187,6,djokovic,djokovic,surname,after_preposition,pobj,3,18.0,32.36,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0188,188,1,federer,roger,first_name,subject,nsubj,2,32.36,20.36,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0188,188,13,djokovic,djokovic,surname,after_preposition,appos,3,32.36,20.36,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0188,188,26,federer,federer,surname,other,compound,3,32.36,20.36,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0189,189,0,djokovic,djokovic,surname,subject,nsubj,3,,23.08,clip,NA,T2,other,rally
+tv_2019wimF,tv_2019wimF:0189,189,5,federer,federer,surname,possessive,poss,3,,23.08,clip,NA,T2,other,rally
+tv_2019wimF,tv_2019wimF:0189,189,15,federer,federer,surname,vocative_exclamation,ROOT,3,,23.08,clip,NA,T2,other,rally
+tv_2019wimF,tv_2019wimF:0190,190,23,djokovic,novak,first_name,other,compound,2,23.08,23.28,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0194,194,5,federer,federer,surname,possessive,poss,3,41.4,27.36,clip,T3,T2,set_point,rally
+tv_2019wimF,tv_2019wimF:0194,194,10,djokovic,djokovic,surname,subject,nsubj,3,41.4,27.36,clip,T3,T2,set_point,rally
+tv_2019wimF,tv_2019wimF:0194,194,16,djokovic,djokovic,surname,subject,nsubj,3,41.4,27.36,clip,T3,T2,set_point,rally
+tv_2019wimF,tv_2019wimF:0194,194,26,federer,federer,surname,possessive,poss,3,41.4,27.36,clip,T3,T2,set_point,rally
+tv_2019wimF,tv_2019wimF:0196,196,2,djokovic,novak djokovic,full_name,object,dobj,5,,47.56,clip,NA,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0197,197,4,djokovic,djokovic,surname,after_preposition,pobj,3,47.56,20.56,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0197,197,34,federer,federer,surname,subject,nsubj,3,47.56,20.56,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0198,198,0,federer,federer,surname,other,ROOT,3,20.56,18.72,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0198,198,28,djokovic,djokovic,surname,subject,nsubj,3,20.56,18.72,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0199,199,0,djokovic,novak,first_name,subject,nsubj,2,18.72,19.64,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0200,200,11,federer,federer,surname,possessive,poss,3,19.64,93.2,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0200,200,85,djokovic,novak djokovic,full_name,after_preposition,pobj,5,19.64,93.2,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0200,200,96,federer,federer,surname,object,dobj,3,19.64,93.2,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0201,201,8,federer,federer,surname,subject,nsubj,3,93.2,36.76,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0202,202,0,djokovic,novak,first_name,subject,nsubj,2,36.76,12.28,clip,T3,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0206,206,22,djokovic,djokovic,surname,after_preposition,pobj,3,23.68,7.56,clip,T1,T1,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0208,208,12,djokovic,djokovic,surname,after_preposition,pobj,3,44.76,49.36,clip,T3,T3,tiebreak,rally
+tv_2019wimF,tv_2019wimF:0209,209,2,federer,roger federer,full_name,subject,nsubj,5,,18.36,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0209,209,18,federer,the great swiss,epithet,after_preposition,pobj,3,,18.36,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0209,209,138,djokovic,djokovic,surname,after_preposition,appos,3,,18.36,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0215,215,0,djokovic,djokovic,surname,subject,nsubj,3,17.36,47.0,changeover,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0215,215,17,federer,federer,surname,after_preposition,pobj,3,17.36,47.0,changeover,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0215,215,97,federer,federer,surname,object,dobj,3,17.36,47.0,changeover,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0226,226,11,federer,roger federer,full_name,after_preposition,pobj,5,21.28,25.52,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0227,227,43,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,25.52,19.88,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0227,227,55,djokovic,djokovic,surname,subject,nsubj,3,25.52,19.88,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0227,227,164,federer,roger federer,full_name,object,dobj,5,25.52,19.88,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0227,227,195,djokovic,novak,first_name,after_preposition,pobj,2,25.52,19.88,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0227,227,216,federer,roger,first_name,after_preposition,pobj,2,25.52,19.88,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0231,231,3,federer,federer,surname,subject,nsubj,3,27.0,,clip,T2,NA,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0231,231,13,djokovic,novak,first_name,subject,nsubj,2,27.0,,clip,T2,NA,other,first_serve_fault
+tv_2019wimF,tv_2019wimF:0237,237,4,djokovic,djokovic,surname,possessive,poss,3,21.84,23.52,clip,T1,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0242,242,11,djokovic,djokovic,surname,after_preposition,pobj,3,25.56,40.64,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0242,242,17,djokovic,djokovic,surname,subject,nsubj,3,25.56,40.64,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0246,246,16,djokovic,novak,first_name,object,dobj,2,55.28,11.04,clip,T3,T1,break_point,first_serve_fault
+tv_2019wimF,tv_2019wimF:0247,247,11,djokovic,djokovic,surname,after_preposition,pobj,3,55.28,113.16,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0247,247,21,federer,federer,surname,after_preposition,pobj,3,55.28,113.16,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0247,247,53,federer,federer,surname,possessive,poss,3,55.28,113.16,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0248,248,10,djokovic,the number one seed,epithet,object,attr,5,113.16,17.28,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0248,248,15,djokovic,the world number one,epithet,object,appos,5,113.16,17.28,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0248,248,20,djokovic,the defending champion,epithet,object,appos,7,113.16,17.28,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0248,248,50,djokovic,novak,first_name,vocative_exclamation,ROOT,2,113.16,17.28,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0256,256,0,federer,federer,surname,subject,nsubjpass,3,18.0,35.24,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0261,261,6,djokovic,novak djokovic,full_name,subject,nsubj,5,119.6,13.2,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0261,261,17,federer,roger,first_name,vocative_exclamation,npadvmod,2,119.6,13.2,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0263,263,2,federer,mr federer,title_surname,subject,nsubj,5,,29.0,clip,NA,T2,other,rally
+tv_2019wimF,tv_2019wimF:0266,266,17,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,31.68,22.8,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0269,269,9,federer,federer,surname,other,compound,3,43.56,22.92,clip,T3,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0270,270,6,djokovic,djokovic,surname,subject,nsubj,3,22.92,44.96,clip,T1,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0270,270,9,federer,federer,surname,other,compound,3,22.92,44.96,clip,T1,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0270,270,41,djokovic,djokovic,surname,subject,nsubj,3,22.92,44.96,clip,T1,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0270,270,61,federer,federer,surname,subject,nsubj,3,22.92,44.96,clip,T1,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0270,270,79,djokovic,novak,first_name,object,attr,2,22.92,44.96,clip,T1,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0275,275,9,federer,roger,first_name,after_preposition,pobj,2,36.6,95.96,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0275,275,38,djokovic,novak,first_name,after_preposition,pobj,2,36.6,95.96,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0275,275,79,federer,federer,surname,other,compound,3,36.6,95.96,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0275,275,102,federer,federer,surname,subject,nsubj,3,36.6,95.96,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0276,276,11,federer,roger,first_name,subject,nsubj,2,95.96,22.52,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0278,278,38,djokovic,novak,first_name,subject,nsubj,2,303.08,19.84,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0282,282,4,federer,federer,surname,vocative_exclamation,npadvmod,3,24.24,46.72,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0284,284,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,46.72,55.2,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0284,284,6,djokovic,the serbian,epithet,after_preposition,pobj,4,46.72,55.2,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0284,284,22,djokovic,djokovic,surname,subject,nsubj,3,46.72,55.2,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0284,284,41,federer,roger federer,full_name,subject,nsubj,5,46.72,55.2,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0294,294,4,djokovic,novak,first_name,vocative_exclamation,ROOT,2,37.0,25.08,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0294,294,21,federer,federer,surname,subject,nsubj,3,37.0,25.08,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0297,297,0,djokovic,djokovic,surname,subject,nsubj,3,41.4,45.92,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0298,298,9,djokovic,djokovic,surname,after_preposition,pobj,3,45.92,23.36,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0298,298,17,federer,federer,surname,vocative_exclamation,ROOT,3,45.92,23.36,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0300,300,0,federer,federer,surname,subject,nsubj,3,23.36,44.6,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0300,300,24,federer,federer,surname,object,dobj,3,23.36,44.6,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0306,306,8,federer,federer,surname,possessive,poss,3,35.36,26.24,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0306,306,21,djokovic,djokovic,surname,after_preposition,pobj,3,35.36,26.24,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0310,310,20,federer,federer,surname,object,dative,3,30.12,35.56,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0314,314,21,djokovic,djokovic,surname,after_preposition,pobj,3,36.32,21.36,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0319,319,7,djokovic,novak djokovic,full_name,vocative_exclamation,ROOT,5,32.44,31.6,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0319,319,36,federer,federer,surname,other,compound,3,32.44,31.6,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0321,321,1,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,25.36,91.64,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0321,321,9,djokovic,djokovic,surname,object,dative,3,25.36,91.64,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0321,321,26,djokovic,djokovic,surname,subject,nsubj,3,25.36,91.64,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0326,326,4,federer,federer,surname,other,compound,3,35.0,21.84,clip,T2,T1,other,rally
+tv_2019wimF,tv_2019wimF:0328,328,7,federer,federer,surname,subject,nsubj,3,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0328,328,31,djokovic,the world number one,epithet,after_preposition,pobj,5,,,clip,NA,NA,NA,rally
+tv_2019wimF,tv_2019wimF:0332,332,0,federer,federer,surname,subject,nsubj,3,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0332,332,8,djokovic,djokovic,surname,subject,nsubj,3,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0332,332,16,djokovic,djokovic,surname,after_preposition,pobj,3,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0332,332,22,federer,federer,surname,other,dep,3,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0332,332,35,djokovic,djokovic,surname,subject,nsubj,3,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0332,332,63,djokovic,nole,hypocoristic,subject,nsubj,1,31.12,56.76,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0342,342,5,djokovic,novak,first_name,after_preposition,pobj,2,48.72,10.04,clip,T3,T1,deuce_ad,first_serve_fault
+tv_2019wimF,tv_2019wimF:0345,345,37,federer,roger federer,full_name,after_preposition,pobj,5,54.56,119.96,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0345,345,46,djokovic,novak djokovic,full_name,subject,nsubj,5,54.56,119.96,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0345,345,134,djokovic,novak djokovic,full_name,other,compound,5,54.56,119.96,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0350,350,9,federer,federer,surname,other,compound,3,25.0,27.04,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0350,350,10,djokovic,djokovic,surname,after_preposition,pobj,3,25.0,27.04,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0354,354,17,federer,federer,surname,subject,nsubj,3,33.6,26.52,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0354,354,21,djokovic,novak,first_name,subject,nsubj,2,33.6,26.52,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0356,356,24,federer,federer,surname,other,conj,3,26.52,45.2,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0356,356,38,djokovic,novak djokovic,full_name,after_preposition,pobj,5,26.52,45.2,clip,T2,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,2,djokovic,novak djokovic,full_name,object,dobj,5,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,7,djokovic,djokovic,surname,subject,nsubj,3,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,22,federer,roger federer,full_name,after_preposition,pobj,5,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,33,djokovic,novak djokovic,full_name,after_preposition,pobj,5,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,69,federer,federer,surname,subject,nsubj,3,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,96,federer,federer,surname,subject,nsubj,3,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,122,djokovic,djokovic,surname,possessive,poss,3,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0359,359,186,djokovic,djokovic,surname,subject,nsubj,3,56.08,92.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0360,360,5,federer,federer,surname,after_preposition,pobj,3,92.36,21.52,changeover,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0361,361,15,federer,roger,first_name,after_preposition,pobj,2,21.52,23.52,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0364,364,34,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,16.0,31.92,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0368,368,5,djokovic,djokovic,surname,other,compound,3,48.2,24.32,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0372,372,7,djokovic,novak djokovic,full_name,subject,nsubj,5,,53.68,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0373,373,74,federer,federer,surname,subject,nsubj,3,53.68,25.36,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0373,373,216,djokovic,djokovic,surname,other,compound,3,53.68,25.36,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0378,378,7,djokovic,djokovic,surname,other,compound,3,32.0,29.0,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0382,382,13,federer,mr federer,title_surname,subject,nsubj,5,25.0,23.04,clip,T2,T2,deuce_ad,first_serve_fault
+tv_2019wimF,tv_2019wimF:0382,382,49,djokovic,novak djokovic,full_name,possessive,poss,5,25.0,23.04,clip,T2,T2,deuce_ad,first_serve_fault
+tv_2019wimF,tv_2019wimF:0393,393,7,federer,federer,surname,after_preposition,pobj,3,22.28,43.48,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0393,393,9,djokovic,djokovic,surname,after_preposition,pobj,3,22.28,43.48,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0393,393,21,federer,federer,surname,after_preposition,pobj,3,22.28,43.48,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0393,393,23,djokovic,djokovic,surname,subject,nsubj,3,22.28,43.48,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0393,393,36,federer,the swiss,epithet,after_preposition,pobj,2,22.28,43.48,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0394,394,9,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,43.48,93.28,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0399,399,4,djokovic,novak,first_name,vocative_exclamation,ROOT,2,18.0,27.64,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0403,403,21,federer,federer,surname,subject,nsubj,3,20.64,37.88,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0407,407,0,federer,federer,surname,subject,nsubj,3,33.76,32.0,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0407,407,22,djokovic,djokovic,surname,after_preposition,pobj,3,33.76,32.0,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0409,409,59,federer,mr federer,title_surname,subject,nsubj,5,91.56,29.08,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0412,412,1,federer,federer,surname,possessive,poss,3,39.64,22.0,clip,T3,T1,other,ace
+tv_2019wimF,tv_2019wimF:0416,416,3,federer,federer,surname,subject,nsubj,3,30.08,24.72,clip,T2,T2,match_point,rally
+tv_2019wimF,tv_2019wimF:0416,416,5,djokovic,djokovic,surname,object,dobj,3,30.08,24.72,clip,T2,T2,match_point,rally
+tv_2019wimF,tv_2019wimF:0416,416,15,djokovic,djokovic,surname,subject,nsubj,3,30.08,24.72,clip,T2,T2,match_point,rally
+tv_2019wimF,tv_2019wimF:0416,416,17,federer,federer,surname,object,dobj,3,30.08,24.72,clip,T2,T2,match_point,rally
+tv_2019wimF,tv_2019wimF:0419,419,10,djokovic,djokovic,surname,after_preposition,pobj,3,34.48,42.28,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0419,419,30,federer,federer,surname,subject,nsubj,3,34.48,42.28,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0419,419,37,djokovic,djokovic,surname,subject,nsubj,3,34.48,42.28,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0419,419,61,djokovic,djokovic,surname,after_preposition,pobj,3,34.48,42.28,clip,T2,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0420,420,4,djokovic,djokovic,surname,after_preposition,pobj,3,42.28,26.72,clip,T3,T2,other,rally
+tv_2019wimF,tv_2019wimF:0425,425,6,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,,50.72,clip,NA,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,0,djokovic,djokovic,surname,subject,nsubj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,39,federer,federer,surname,after_preposition,pobj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,77,djokovic,djokovic,surname,subject,nsubj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,89,federer,federer,surname,after_preposition,pobj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,99,federer,federer,surname,subject,nsubj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,115,djokovic,djokovic,surname,after_preposition,conj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,173,federer,federer,surname,after_preposition,pobj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0426,426,176,djokovic,djokovic,surname,after_preposition,pobj,3,50.72,95.36,clip,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0427,427,3,federer,federer,surname,subject,nsubj,3,95.36,17.0,clip,T3,T1,other,rally
+tv_2019wimF,tv_2019wimF:0428,428,3,federer,federer,surname,after_preposition,pobj,3,17.0,22.88,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0428,428,7,djokovic,djokovic,surname,subject,nsubj,3,17.0,22.88,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0432,432,3,djokovic,djokovic,surname,subject,nsubj,3,32.64,28.64,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0432,432,97,federer,federer,surname,after_preposition,pobj,3,32.64,28.64,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0432,432,102,djokovic,djokovic,surname,after_preposition,pobj,3,32.64,28.64,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0437,437,6,djokovic,djokovic,surname,after_preposition,pobj,3,21.28,30.04,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0437,437,25,djokovic,the younger man,epithet,object,attr,4,21.28,30.04,clip,T1,T2,other,rally
+tv_2019wimF,tv_2019wimF:0444,444,8,federer,federer,surname,subject,nsubj,3,24.04,39.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0444,444,33,federer,the older man,epithet,subject,conj,4,24.04,39.36,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0449,449,1,djokovic,djokovic,surname,subject,nsubj,3,23.36,39.52,clip,T1,T3,other,rally
+tv_2019wimF,tv_2019wimF:0452,452,2,djokovic,djokovic,surname,vocative_exclamation,appos,3,37.28,89.36,between_points,T3,T3,other,rally
+tv_2019wimF,tv_2019wimF:0460,460,10,djokovic,novak djokovic,full_name,subject,nsubj,5,,21.16,clip,NA,T1,other,rally
+tv_2019wimF,tv_2019wimF:0464,464,12,djokovic,djokovic,surname,subject,nsubj,3,33.12,29.16,clip,T2,T2,other,rally
+tv_2019wimF,tv_2019wimF:0466,466,9,federer,mr federer,title_surname,subject,nsubj,5,35.8,85.16,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0466,466,23,federer,federer,surname,subject,nsubj,3,35.8,85.16,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0466,466,46,djokovic,djokovic,surname,subject,nsubj,3,35.8,85.16,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0466,466,80,federer,federer,surname,vocative_exclamation,ROOT,3,35.8,85.16,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0466,466,83,federer,federer,surname,vocative_exclamation,ROOT,3,35.8,85.16,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0467,467,4,djokovic,djokovic,surname,after_preposition,pobj,3,85.16,29.32,clip,T3,T2,break_point,rally
+tv_2019wimF,tv_2019wimF:0467,467,10,federer,federer,surname,subject,nsubj,3,85.16,29.32,clip,T3,T2,break_point,rally
+tv_2019wimF,tv_2019wimF:0467,467,17,djokovic,djokovic,surname,object,dobj,3,85.16,29.32,clip,T3,T2,break_point,rally
+tv_2019wimF,tv_2019wimF:0468,468,8,djokovic,djokovic,surname,after_preposition,pobj,3,29.32,25.28,clip,T2,T2,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0469,469,2,djokovic,djokovic,surname,possessive,poss,3,25.28,37.6,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0469,469,11,federer,the great swiss,epithet,after_preposition,pobj,3,25.28,37.6,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0471,471,0,djokovic,mr djokovic,title_surname,subject,nsubj,5,37.6,59.64,clip,T3,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0472,472,14,federer,federer,surname,subject,nsubj,3,59.64,33.52,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0472,472,22,djokovic,mr djokovic,title_surname,subject,nsubj,5,59.64,33.52,clip,T3,T3,break_point,rally
+tv_2019wimF,tv_2019wimF:0474,474,22,djokovic,djokovic,surname,subject,nsubj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,33,djokovic,djokovic,surname,subject,nsubj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,93,federer,federer,surname,other,compound,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,103,federer,federer,surname,after_preposition,pobj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,106,djokovic,djokovic,surname,after_preposition,pobj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,110,djokovic,djokovic,surname,object,dobj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0474,474,123,federer,federer,surname,after_preposition,pobj,3,31.24,94.52,clip,T2,T3,deuce_ad,rally
+tv_2019wimF,tv_2019wimF:0477,477,21,federer,federer,surname,subject,nsubj,3,21.16,18.24,clip,T1,T1,other,rally
+tv_2019wimF,tv_2019wimF:0480,480,3,djokovic,djokovic,surname,vocative_exclamation,ROOT,3,43.0,43.48,clip,T3,T3,tiebreak,rally
+tv_2019wimF,tv_2019wimF:0480,480,5,djokovic,djokovic,surname,subject,nsubj,3,43.0,43.48,clip,T3,T3,tiebreak,rally

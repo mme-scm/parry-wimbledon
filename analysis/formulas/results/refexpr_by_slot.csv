@@ -1,0 +1,24 @@
+stream,player,slot,tokens,distinct_expressions,expressions
+tv_2019wimF,djokovic,after_preposition,57,6,djokovic:42; novak:7; novak djokovic:5; the young man:1; the serbian:1; the world number one:1
+tv_2019wimF,djokovic,object,21,7,djokovic:10; novak djokovic:4; novak:3; the number one seed:1; the world number one:1; the defending champion:1; the younger man:1
+tv_2019wimF,djokovic,other,13,4,djokovic:9; novak:2; the top seed:1; novak djokovic:1
+tv_2019wimF,djokovic,possessive,8,3,djokovic:6; the world number one:1; novak djokovic:1
+tv_2019wimF,djokovic,subject,75,5,djokovic:50; novak:14; novak djokovic:5; mr djokovic:5; nole:1
+tv_2019wimF,djokovic,vocative_exclamation,14,3,djokovic:10; novak:3; novak djokovic:1
+tv_2019wimF,federer,after_preposition,36,6,federer:24; roger:5; roger federer:3; the great swiss:2; the man from basel:1; the swiss:1
+tv_2019wimF,federer,object,15,2,federer:13; roger federer:2
+tv_2019wimF,federer,other,16,1,federer:16
+tv_2019wimF,federer,possessive,13,2,federer:12; roger:1
+tv_2019wimF,federer,subject,75,6,federer:54; roger:10; mr federer:6; roger federer:3; the great swiss:1; the older man:1
+tv_2019wimF,federer,vocative_exclamation,9,2,federer:8; roger:1
+tv_2023wimF,alcaraz,after_preposition,22,4,alcaraz:19; the world number one:1; carlos:1; the young man:1
+tv_2023wimF,alcaraz,object,7,4,alcaraz:4; the world number one:1; the young spaniard:1; carlos alcaraz:1
+tv_2023wimF,alcaraz,other,6,2,alcaraz:5; carlos alcaraz:1
+tv_2023wimF,alcaraz,subject,40,3,alcaraz:28; carlos alcaraz:8; carlos:4
+tv_2023wimF,alcaraz,vocative_exclamation,5,1,alcaraz:5
+tv_2023wimF,djokovic,after_preposition,39,5,djokovic:29; novak:5; novak djokovic:2; the champion:2; the serb:1
+tv_2023wimF,djokovic,object,13,3,djokovic:8; novak:4; the champion:1
+tv_2023wimF,djokovic,other,10,2,djokovic:6; novak djokovic:4
+tv_2023wimF,djokovic,possessive,3,2,djokovic:2; novak:1
+tv_2023wimF,djokovic,subject,43,4,djokovic:29; novak:8; novak djokovic:5; the champion:1
+tv_2023wimF,djokovic,vocative_exclamation,13,2,djokovic:12; novak djokovic:1

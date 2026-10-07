@@ -1,0 +1,80 @@
+stream,player,context,group,tokens,distinct_expressions,mean_syllables,share_surname,expressions
+tv_2019wimF,djokovic,phase,between_points,2,1,3.000,1.000,djokovic:2
+tv_2019wimF,djokovic,phase,changeover,2,2,2.500,0.500,novak:1; djokovic:1
+tv_2019wimF,djokovic,phase,clip,184,12,3.152,0.674,djokovic:124; novak:28; novak djokovic:17; mr djokovic:5; the world number one:3; the top seed:1; the young man:1; the number one seed:1; the defending champion:1; the serbian:1; nole:1; the younger man:1
+tv_2019wimF,federer,phase,changeover,3,1,3.000,1.000,federer:3
+tv_2019wimF,federer,phase,clip,161,8,3.081,0.770,federer:124; roger:17; roger federer:8; mr federer:6; the great swiss:3; the man from basel:1; the swiss:1; the older man:1
+tv_2023wimF,alcaraz,phase,between_points,1,1,3.000,1.000,alcaraz:1
+tv_2023wimF,alcaraz,phase,changeover,3,1,3.000,1.000,alcaraz:3
+tv_2023wimF,alcaraz,phase,clip,76,6,3.263,0.750,alcaraz:57; carlos alcaraz:10; carlos:5; the world number one:2; the young spaniard:1; the young man:1
+tv_2023wimF,djokovic,phase,between_points,2,1,3.000,1.000,djokovic:2
+tv_2023wimF,djokovic,phase,changeover,4,2,3.250,0.750,djokovic:3; the champion:1
+tv_2023wimF,djokovic,phase,clip,115,5,3.070,0.704,djokovic:81; novak:18; novak djokovic:12; the champion:3; the serb:1
+tv_2019wimF,djokovic,dtb_terc,NA,17,4,3.294,0.588,djokovic:10; novak:3; novak djokovic:3; the world number one:1
+tv_2019wimF,djokovic,dtb_terc,T1,53,6,2.962,0.623,djokovic:33; novak:13; novak djokovic:4; the top seed:1; the world number one:1; the younger man:1
+tv_2019wimF,djokovic,dtb_terc,T2,56,5,3.125,0.768,djokovic:43; novak:5; novak djokovic:5; mr djokovic:2; nole:1
+tv_2019wimF,djokovic,dtb_terc,T3,62,9,3.274,0.661,djokovic:41; novak:8; novak djokovic:5; mr djokovic:3; the young man:1; the number one seed:1; the world number one:1; the defending champion:1; the serbian:1
+tv_2019wimF,federer,dtb_terc,NA,17,4,3.235,0.824,federer:14; roger federer:1; the great swiss:1; mr federer:1
+tv_2019wimF,federer,dtb_terc,T1,52,7,3.077,0.750,federer:39; roger:6; mr federer:2; roger federer:2; the man from basel:1; the swiss:1; the older man:1
+tv_2019wimF,federer,dtb_terc,T2,48,5,3.021,0.812,federer:39; roger:5; mr federer:2; roger federer:1; the great swiss:1
+tv_2019wimF,federer,dtb_terc,T3,47,5,3.085,0.745,federer:35; roger:6; roger federer:4; the great swiss:1; mr federer:1
+tv_2023wimF,alcaraz,dtb_terc,NA,7,2,3.286,0.857,alcaraz:6; carlos alcaraz:1
+tv_2023wimF,alcaraz,dtb_terc,T1,29,4,3.172,0.759,alcaraz:22; carlos:3; carlos alcaraz:3; the world number one:1
+tv_2023wimF,alcaraz,dtb_terc,T2,26,5,3.423,0.692,alcaraz:18; carlos alcaraz:5; the world number one:1; carlos:1; the young man:1
+tv_2023wimF,alcaraz,dtb_terc,T3,18,4,3.111,0.833,alcaraz:15; the young spaniard:1; carlos:1; carlos alcaraz:1
+tv_2023wimF,djokovic,dtb_terc,NA,10,4,3.100,0.600,djokovic:6; novak:2; novak djokovic:1; the champion:1
+tv_2023wimF,djokovic,dtb_terc,T1,38,4,2.895,0.763,djokovic:29; novak:7; novak djokovic:1; the champion:1
+tv_2023wimF,djokovic,dtb_terc,T2,27,3,3.296,0.741,djokovic:20; novak djokovic:5; novak:2
+tv_2023wimF,djokovic,dtb_terc,T3,46,5,3.087,0.674,djokovic:31; novak:7; novak djokovic:5; the champion:2; the serb:1
+tv_2019wimF,djokovic,ta_terc,NA,5,4,3.400,0.200,novak:2; djokovic:1; mr djokovic:1; the world number one:1
+tv_2019wimF,djokovic,ta_terc,T1,35,6,3.029,0.543,djokovic:19; novak:11; novak djokovic:2; the number one seed:1; the world number one:1; the defending champion:1
+tv_2019wimF,djokovic,ta_terc,T2,60,8,3.083,0.717,djokovic:43; novak:8; novak djokovic:3; mr djokovic:2; the top seed:1; the world number one:1; the young man:1; the younger man:1
+tv_2019wimF,djokovic,ta_terc,T3,88,6,3.216,0.727,djokovic:64; novak djokovic:12; novak:8; mr djokovic:2; the serbian:1; nole:1
+tv_2019wimF,federer,ta_terc,NA,5,1,3.000,1.000,federer:5
+tv_2019wimF,federer,ta_terc,T1,27,5,2.963,0.593,federer:16; roger:7; roger federer:2; the man from basel:1; the great swiss:1
+tv_2019wimF,federer,ta_terc,T2,49,5,3.122,0.796,federer:39; roger:4; mr federer:4; the great swiss:1; roger federer:1
+tv_2019wimF,federer,ta_terc,T3,83,7,3.096,0.807,federer:67; roger:6; roger federer:5; mr federer:2; the swiss:1; the older man:1; the great swiss:1
+tv_2023wimF,alcaraz,ta_terc,NA,2,1,3.000,1.000,alcaraz:2
+tv_2023wimF,alcaraz,ta_terc,T1,19,4,3.526,0.579,alcaraz:11; carlos alcaraz:5; carlos:2; the world number one:1
+tv_2023wimF,alcaraz,ta_terc,T2,27,3,3.111,0.889,alcaraz:24; carlos alcaraz:2; carlos:1
+tv_2023wimF,alcaraz,ta_terc,T3,32,6,3.219,0.750,alcaraz:24; carlos alcaraz:3; carlos:2; the world number one:1; the young spaniard:1; the young man:1
+tv_2023wimF,djokovic,ta_terc,NA,6,3,3.500,0.667,djokovic:4; novak djokovic:1; the champion:1
+tv_2023wimF,djokovic,ta_terc,T1,27,4,2.852,0.630,djokovic:17; novak:7; novak djokovic:2; the serb:1
+tv_2023wimF,djokovic,ta_terc,T2,39,4,3.051,0.718,djokovic:28; novak:6; novak djokovic:3; the champion:2
+tv_2023wimF,djokovic,ta_terc,T3,49,4,3.163,0.755,djokovic:37; novak djokovic:6; novak:5; the champion:1
+tv_2019wimF,djokovic,score,NA,3,3,3.333,0.333,djokovic:1; novak:1; the world number one:1
+tv_2019wimF,djokovic,score,break_point,17,5,3.118,0.647,djokovic:11; novak:2; novak djokovic:2; nole:1; mr djokovic:1
+tv_2019wimF,djokovic,score,deuce_ad,23,4,3.217,0.696,djokovic:16; novak:3; novak djokovic:3; mr djokovic:1
+tv_2019wimF,djokovic,score,match_point,2,1,3.000,1.000,djokovic:2
+tv_2019wimF,djokovic,score,other,137,11,3.139,0.664,djokovic:91; novak:23; novak djokovic:12; mr djokovic:3; the world number one:2; the top seed:1; the young man:1; the number one seed:1; the defending champion:1; the serbian:1; the younger man:1
+tv_2019wimF,djokovic,score,set_point,3,1,3.000,1.000,djokovic:3
+tv_2019wimF,djokovic,score,tiebreak,3,1,3.000,1.000,djokovic:3
+tv_2019wimF,federer,score,NA,4,1,3.000,1.000,federer:4
+tv_2019wimF,federer,score,break_point,11,2,3.182,0.909,federer:10; roger federer:1
+tv_2019wimF,federer,score,deuce_ad,19,4,3.158,0.789,federer:15; mr federer:2; roger:1; the great swiss:1
+tv_2019wimF,federer,score,match_point,2,1,3.000,1.000,federer:2
+tv_2019wimF,federer,score,other,125,8,3.064,0.744,federer:93; roger:16; roger federer:7; mr federer:4; the great swiss:2; the man from basel:1; the swiss:1; the older man:1
+tv_2019wimF,federer,score,set_point,2,1,3.000,1.000,federer:2
+tv_2019wimF,federer,score,tiebreak,1,1,3.000,1.000,federer:1
+tv_2023wimF,alcaraz,score,NA,2,1,3.000,1.000,alcaraz:2
+tv_2023wimF,alcaraz,score,break_point,12,4,3.500,0.667,alcaraz:8; carlos alcaraz:2; the world number one:1; the young man:1
+tv_2023wimF,alcaraz,score,deuce_ad,11,1,3.000,1.000,alcaraz:11
+tv_2023wimF,alcaraz,score,other,53,5,3.245,0.755,alcaraz:40; carlos alcaraz:7; carlos:4; the young spaniard:1; the world number one:1
+tv_2023wimF,alcaraz,score,set_point,2,2,3.500,0.000,carlos:1; carlos alcaraz:1
+tv_2023wimF,djokovic,score,NA,4,2,3.250,0.750,djokovic:3; the champion:1
+tv_2023wimF,djokovic,score,break_point,12,3,3.417,0.667,djokovic:8; novak djokovic:3; novak:1
+tv_2023wimF,djokovic,score,deuce_ad,20,3,3.200,0.750,djokovic:15; novak djokovic:3; novak:2
+tv_2023wimF,djokovic,score,other,85,5,2.988,0.706,djokovic:60; novak:15; novak djokovic:6; the champion:3; the serb:1
+tv_2019wimF,djokovic,role,ace,9,3,3.444,0.778,djokovic:7; novak djokovic:1; mr djokovic:1
+tv_2019wimF,djokovic,role,first_serve_fault,11,4,2.909,0.364,novak:5; djokovic:4; mr djokovic:1; novak djokovic:1
+tv_2019wimF,djokovic,role,rally,168,12,3.143,0.690,djokovic:116; novak:24; novak djokovic:15; the world number one:3; mr djokovic:3; the top seed:1; the young man:1; the number one seed:1; the defending champion:1; the serbian:1; nole:1; the younger man:1
+tv_2019wimF,federer,role,ace,14,2,2.929,0.929,federer:13; roger:1
+tv_2019wimF,federer,role,first_serve_fault,6,3,4.000,0.500,federer:3; mr federer:2; the man from basel:1
+tv_2019wimF,federer,role,rally,144,7,3.056,0.771,federer:111; roger:16; roger federer:8; mr federer:4; the great swiss:3; the swiss:1; the older man:1
+tv_2023wimF,alcaraz,role,ace,1,1,3.000,1.000,alcaraz:1
+tv_2023wimF,alcaraz,role,double_fault,1,1,5.000,0.000,carlos alcaraz:1
+tv_2023wimF,alcaraz,role,first_serve_fault,6,3,3.833,0.333,carlos alcaraz:3; alcaraz:2; carlos:1
+tv_2023wimF,alcaraz,role,rally,72,6,3.181,0.806,alcaraz:58; carlos alcaraz:6; carlos:4; the world number one:2; the young spaniard:1; the young man:1
+tv_2023wimF,djokovic,role,ace,1,1,2.000,0.000,novak:1
+tv_2023wimF,djokovic,role,first_serve_fault,13,3,3.154,0.692,djokovic:9; novak:2; novak djokovic:2
+tv_2023wimF,djokovic,role,rally,107,5,3.075,0.720,djokovic:77; novak:15; novak djokovic:10; the champion:4; the serb:1

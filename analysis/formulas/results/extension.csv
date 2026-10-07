@@ -1,0 +1,5 @@
+stream,player,tokens,distinct_expressions,distinct_categories,syllable_min,syllable_max,distinct_syllable_lengths,occupied_cells_slot_x_dtb_x_sylclass,share_surname,share_epithet
+tv_2019wimF,djokovic,188,12,6,1,7,6,52,0.675532,0.047872
+tv_2019wimF,federer,164,8,5,2,5,4,39,0.774390,0.036585
+tv_2023wimF,alcaraz,80,6,4,2,5,4,30,0.762500,0.050000
+tv_2023wimF,djokovic,121,5,4,2,5,4,39,0.710744,0.041322

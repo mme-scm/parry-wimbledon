@@ -1,0 +1,9 @@
+stream,time,permutation,status,tokens,rho,null_mean,null_lo,null_hi,p_two_sided,n_perm,mean_syll
+tv_2019wimF,dead_time_before_s,token_within_player,confirmatory,318,0.087112,0.001007,-0.107720,0.110597,0.117288,10000,3.097484
+tv_2019wimF,dead_time_before_s,utterance,exploratory,318,0.087112,-0.000422,-0.127267,0.129306,0.189681,10000,3.097484
+tv_2019wimF,time_after_s,token_within_player,exploratory,342,0.084761,-0.000999,-0.109871,0.104190,0.121888,10000,3.111111
+tv_2019wimF,time_after_s,utterance,exploratory,342,0.084761,-0.000724,-0.122279,0.119542,0.181682,10000,3.111111
+tv_2023wimF,dead_time_before_s,token_within_player,confirmatory,184,0.023515,-0.014574,-0.157336,0.127171,0.756424,10000,3.141304
+tv_2023wimF,dead_time_before_s,utterance,exploratory,184,0.023515,-0.000542,-0.153542,0.152623,0.761524,10000,3.141304
+tv_2023wimF,time_after_s,token_within_player,exploratory,193,0.086447,-0.002684,-0.142655,0.139605,0.230477,10000,3.134715
+tv_2023wimF,time_after_s,utterance,exploratory,193,0.086447,0.000305,-0.150709,0.154122,0.256474,10000,3.134715

@@ -1,0 +1,16 @@
+{
+ "tokens_by_stream_player": {
+  "tv_2019wimF:djokovic": 188,
+  "tv_2019wimF:federer": 164,
+  "tv_2023wimF:djokovic": 121,
+  "tv_2023wimF:alcaraz": 80
+ },
+ "epithet_occurrences": 25,
+ "epithets_unresolved": 0,
+ "pronouns_total": {
+  "tv_2019wimF": 288,
+  "tv_2023wimF": 247
+ },
+ "spacy_model": "en_core_web_sm 3.8.0",
+ "spacy_version": "3.8.16"
+}

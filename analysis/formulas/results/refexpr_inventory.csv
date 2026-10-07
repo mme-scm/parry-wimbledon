@@ -1,0 +1,32 @@
+stream,player,category,expression,tokens,syllables_base,subject,object,possessive,after_preposition,vocative_exclamation,other
+tv_2019wimF,djokovic,surname,djokovic,127,3,50,10,6,42,10,9
+tv_2019wimF,djokovic,first_name,novak,29,2,14,3,0,7,3,2
+tv_2019wimF,djokovic,full_name,novak djokovic,17,5,5,4,1,5,1,1
+tv_2019wimF,djokovic,title_surname,mr djokovic,5,5,5,0,0,0,0,0
+tv_2019wimF,djokovic,epithet,the world number one,3,5,0,1,1,1,0,0
+tv_2019wimF,djokovic,epithet,the top seed,1,3,0,0,0,0,0,1
+tv_2019wimF,djokovic,epithet,the young man,1,3,0,0,0,1,0,0
+tv_2019wimF,djokovic,epithet,the number one seed,1,5,0,1,0,0,0,0
+tv_2019wimF,djokovic,epithet,the defending champion,1,7,0,1,0,0,0,0
+tv_2019wimF,djokovic,epithet,the serbian,1,4,0,0,0,1,0,0
+tv_2019wimF,djokovic,hypocoristic,nole,1,1,1,0,0,0,0,0
+tv_2019wimF,djokovic,epithet,the younger man,1,4,0,1,0,0,0,0
+tv_2019wimF,federer,surname,federer,127,3,54,13,12,24,8,16
+tv_2019wimF,federer,first_name,roger,17,2,10,0,1,5,1,0
+tv_2019wimF,federer,full_name,roger federer,8,5,3,2,0,3,0,0
+tv_2019wimF,federer,title_surname,mr federer,6,5,6,0,0,0,0,0
+tv_2019wimF,federer,epithet,the great swiss,3,3,1,0,0,2,0,0
+tv_2019wimF,federer,epithet,the man from basel,1,5,0,0,0,1,0,0
+tv_2019wimF,federer,epithet,the swiss,1,2,0,0,0,1,0,0
+tv_2019wimF,federer,epithet,the older man,1,4,1,0,0,0,0,0
+tv_2023wimF,alcaraz,surname,alcaraz,61,3,28,4,0,19,5,5
+tv_2023wimF,alcaraz,full_name,carlos alcaraz,10,5,8,1,0,0,0,1
+tv_2023wimF,alcaraz,first_name,carlos,5,2,4,0,0,1,0,0
+tv_2023wimF,alcaraz,epithet,the world number one,2,5,0,1,0,1,0,0
+tv_2023wimF,alcaraz,epithet,the young spaniard,1,4,0,1,0,0,0,0
+tv_2023wimF,alcaraz,epithet,the young man,1,3,0,0,0,1,0,0
+tv_2023wimF,djokovic,surname,djokovic,86,3,29,8,2,29,12,6
+tv_2023wimF,djokovic,first_name,novak,18,2,8,4,1,5,0,0
+tv_2023wimF,djokovic,full_name,novak djokovic,12,5,5,0,0,2,1,4
+tv_2023wimF,djokovic,epithet,the champion,4,4,1,1,0,2,0,0
+tv_2023wimF,djokovic,epithet,the serb,1,2,0,0,0,1,0,0

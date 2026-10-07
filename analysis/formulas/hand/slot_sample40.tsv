@@ -1,0 +1,41 @@
+utt_id	token_start	expression	hand_slot	note
+tv_2019wimF:0008	17	djokovic	subject	subject of participle (leading 25 to 22)
+tv_2019wimF:0014	25	federer	subject	
+tv_2019wimF:0025	4	novak	subject	
+tv_2019wimF:0033	34	novak	subject	
+tv_2019wimF:0045	38	federer	after_preposition	same as X
+tv_2019wimF:0062	1	roger	subject	
+tv_2019wimF:0063	59	federer	subject	subject of participle
+tv_2019wimF:0067	26	djokovic	object	indirect object of gave
+tv_2019wimF:0071	15	federer	other	prenominal modifier (the X return)
+tv_2019wimF:0074	0	mr djokovic	subject	umpire call
+tv_2019wimF:0081	173	federer	other	apposition naming a match (X and Nadal)
+tv_2019wimF:0092	119	federer	after_preposition	surface "of X"; ASR garble likely
+tv_2019wimF:0099	76	novak djokovic	object	beat X
+tv_2019wimF:0114	14	federer	subject	
+tv_2019wimF:0126	0	djokovic	subject	
+tv_2019wimF:0128	0	federer	subject	verbless predicate (X still very agile)
+tv_2019wimF:0162	45	the young man	after_preposition	sacrifice of X
+tv_2019wimF:0167	119	roger	subject	
+tv_2019wimF:0167	157	djokovic	other	prenominal modifier (a X return)
+tv_2019wimF:0176	0	federer	subject	umpire call (X leads by)
+tv_2019wimF:0188	13	djokovic	subject	
+tv_2019wimF:0188	26	federer	other	prenominal modifier (the X serve)
+tv_2019wimF:0196	2	novak djokovic	vocative_exclamation	well done X
+tv_2019wimF:0247	21	federer	after_preposition	a break to X
+tv_2019wimF:0270	79	novak	subject	so was X
+tv_2019wimF:0319	7	novak djokovic	vocative_exclamation	verbless announcement
+tv_2019wimF:0354	17	federer	subject	
+tv_2019wimF:0356	38	novak djokovic	after_preposition	with X
+tv_2019wimF:0359	7	djokovic	subject	umpire-style call (X leads by)
+tv_2019wimF:0360	5	federer	after_preposition	by X
+tv_2019wimF:0373	74	federer	object	get X moving
+tv_2019wimF:0399	4	novak	vocative_exclamation	verbless; ASR garble before it
+tv_2019wimF:0407	22	djokovic	after_preposition	from X
+tv_2019wimF:0416	17	federer	object	denies X
+tv_2019wimF:0419	61	djokovic	after_preposition	for X
+tv_2019wimF:0428	3	federer	after_preposition	from X
+tv_2019wimF:0432	102	djokovic	after_preposition	on X
+tv_2019wimF:0466	9	mr federer	subject	umpire call
+tv_2019wimF:0474	103	federer	after_preposition	from X
+tv_2019wimF:0474	123	federer	after_preposition	of X

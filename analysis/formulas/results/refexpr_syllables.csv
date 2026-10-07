@@ -1,0 +1,19 @@
+stream,player,syllables,tokens,expressions
+tv_2019wimF,djokovic,1,1,nole:1
+tv_2019wimF,djokovic,2,29,novak:29
+tv_2019wimF,djokovic,3,129,djokovic:127; the top seed:1; the young man:1
+tv_2019wimF,djokovic,4,2,the serbian:1; the younger man:1
+tv_2019wimF,djokovic,5,26,novak djokovic:17; mr djokovic:5; the world number one:3; the number one seed:1
+tv_2019wimF,djokovic,7,1,the defending champion:1
+tv_2019wimF,federer,2,18,roger:17; the swiss:1
+tv_2019wimF,federer,3,130,federer:127; the great swiss:3
+tv_2019wimF,federer,4,1,the older man:1
+tv_2019wimF,federer,5,15,roger federer:8; mr federer:6; the man from basel:1
+tv_2023wimF,alcaraz,2,5,carlos:5
+tv_2023wimF,alcaraz,3,62,alcaraz:61; the young man:1
+tv_2023wimF,alcaraz,4,1,the young spaniard:1
+tv_2023wimF,alcaraz,5,12,carlos alcaraz:10; the world number one:2
+tv_2023wimF,djokovic,2,19,novak:18; the serb:1
+tv_2023wimF,djokovic,3,86,djokovic:86
+tv_2023wimF,djokovic,4,4,the champion:4
+tv_2023wimF,djokovic,5,12,novak djokovic:12
