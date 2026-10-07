@@ -1,0 +1,47 @@
+design,identified_on,measured_on,variant,measure,density,ci_lo,ci_hi,tokens_measured,utterances_measured
+D1_in_sample,tv_2019wimF,tv_2019wimF,S1_text_dedup,a,0.438700,0.420920,0.459522,9788,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S1_text_dedup,a+b,0.480793,0.462692,0.502021,9788,318
+D2_split_half,2019 halves,2019 other half (pooled),S1_text_dedup,a,0.197385,0.184093,0.212794,9788,318
+D2_split_half,2019 halves,2019 other half (pooled),S1_text_dedup,a+b,0.229056,0.214095,0.246446,9788,318
+D3_held_out,pool (18 matches),tv_2019wimF,S1_text_dedup,a,0.546281,0.526454,0.566709,9788,318
+D3_held_out,pool (18 matches),tv_2019wimF,S1_text_dedup,a+b,0.635574,0.615792,0.656605,9788,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S1_text_dedup,a,0.258977,0.242019,0.275817,7213,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S1_text_dedup,a+b,0.297380,0.278976,0.315696,7213,245
+D1_in_sample,tv_2019wimF,tv_2019wimF,S2_no_stop_filter,a,0.584516,0.570141,0.599423,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S2_no_stop_filter,a+b,0.682668,0.669070,0.696786,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S2_no_stop_filter,a,0.701256,0.687897,0.714597,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S2_no_stop_filter,a+b,0.836789,0.826083,0.847471,9791,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S2_no_stop_filter,a,0.418237,0.400287,0.435967,7216,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S2_no_stop_filter,a+b,0.522450,0.502761,0.542252,7216,245
+D1_in_sample,tv_2019wimF,tv_2019wimF,S3_m3,a,0.295884,0.279806,0.312865,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S3_m3,a+b,0.364518,0.345929,0.384378,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S3_m3,a,0.483505,0.464600,0.503789,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S3_m3,a+b,0.598407,0.578537,0.618699,9791,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S3_m3,a,0.200942,0.187133,0.214947,7216,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S3_m3,a+b,0.247090,0.231093,0.263037,7216,245
+D1_in_sample,tv_2019wimF,tv_2019wimF,S4_repeats_ge4_clips_apart,a,0.439383,0.421385,0.458614,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S4_repeats_ge4_clips_apart,a+b,0.480645,0.461078,0.501186,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S5_official_calls_masked,a,0.429852,0.413202,0.449905,9594,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S5_official_calls_masked,a+b,0.470190,0.452188,0.490496,9594,318
+D2_split_half,2019 halves,2019 other half (pooled),S5_official_calls_masked,a,0.188972,0.174930,0.203514,9594,318
+D2_split_half,2019 halves,2019 other half (pooled),S5_official_calls_masked,a+b,0.218574,0.202284,0.234954,9594,318
+D3_held_out,pool (18 matches),tv_2019wimF,S5_official_calls_masked,a,0.543777,0.523953,0.562915,9594,318
+D3_held_out,pool (18 matches),tv_2019wimF,S5_official_calls_masked,a+b,0.630811,0.610486,0.650342,9594,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S5_official_calls_masked,a,0.250460,0.235192,0.267502,7067,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S5_official_calls_masked,a+b,0.284562,0.267904,0.301778,7067,245
+D1_in_sample,tv_2019wimF,tv_2019wimF,S6_nmin3,a,0.194260,0.179962,0.208603,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,S6_nmin3,a+b,0.298131,0.279658,0.318484,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S6_nmin3,a,0.243897,0.227318,0.260539,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,S6_nmin3,a+b,0.469819,0.449138,0.490994,9791,318
+D3_held_out,tv_2019wimF,tv_2023wimF,S6_nmin3,a,0.068736,0.057700,0.080373,7216,245
+D3_held_out,tv_2019wimF,tv_2023wimF,S6_nmin3,a+b,0.144124,0.128959,0.159960,7216,245
+D2_split_half,2019 halves,2019 other half (pooled),S6_nmin3,a,0.044531,0.037350,0.053133,9791,318
+D2_split_half,2019 halves,2019 other half (pooled),S6_nmin3,a+b,0.111020,0.098404,0.124404,9791,318
+D2_split_half,2019 halves,2019 other half (pooled),S7_blocks_of_20_clips,a,0.197630,0.183210,0.212041,9791,318
+D2_split_half,2019 halves,2019 other half (pooled),S7_blocks_of_20_clips,a+b,0.224185,0.208798,0.240877,9791,318
+D1_in_sample,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a,0.161705,0.151552,0.172613,9791,318
+D1_in_sample,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a+b,0.222352,0.209984,0.234001,9791,318
+D2_split_half,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a,0.027996,0.021545,0.034537,9791,318
+D2_split_half,2019 shuffled words,2019 shuffled words,D7_shuffled_word_baseline_R200,a+b,0.044385,0.035742,0.052107,9791,318
+D2_split_half,2019 random halves,2019 other half (pooled),S8_random_half_splits_R200,a,0.206003,0.194758,0.216423,9791,318
+D2_split_half,2019 random halves,2019 other half (pooled),S8_random_half_splits_R200,a+b,0.233616,0.222945,0.243841,9791,318

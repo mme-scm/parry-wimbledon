@@ -1,0 +1,19 @@
+{
+ "tokens_2019": 9791,
+ "tokens_2023": 7216,
+ "tokens_pool": 103675,
+ "utterances_2019": 318,
+ "utterances_2023": 245,
+ "utterances_pool": 2930,
+ "formula_types_2019": 1194,
+ "system_frames_2019": 231,
+ "formula_types_pool": 18619,
+ "system_frames_pool": 5676,
+ "formula_types_2023": 986,
+ "system_frames_2023": 146,
+ "S5_masked_token_share_2019": 0.020120518843836144,
+ "B": 2000,
+ "R_shuffle": 200,
+ "R_randsplit": 200,
+ "n_perm_C3": 5000
+}

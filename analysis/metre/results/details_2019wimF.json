@@ -1,0 +1,178 @@
+{
+ "T1": {
+  "testable": true,
+  "estimate": 0.2485,
+  "ci_lo": 0.1359,
+  "ci_hi": 0.3591,
+  "p_shift": 0.00496,
+  "n_shifts": 402,
+  "null_mean": -0.0002,
+  "null_sd": 0.055,
+  "n_units": 353
+ },
+ "OLS": {
+  "testable": true,
+  "estimate": 0.5259,
+  "ci_lo": 0.2912,
+  "ci_hi": 0.9032,
+  "p_shift": 0.00496,
+  "n_shifts": 402,
+  "null_mean": 0.0003,
+  "null_sd": 0.0734,
+  "n_units": 353
+ },
+ "T2": {
+  "testable": true,
+  "estimate": -0.0289,
+  "ci_lo": -0.0599,
+  "ci_hi": 0.0131,
+  "p_shift": 0.10918,
+  "n_shifts": 402,
+  "null_mean": 0.0004,
+  "null_sd": 0.0185,
+  "n_units": 353,
+  "share_short": 0.6216,
+  "share_short_ci": [
+   0.5949,
+   0.6589
+  ],
+  "share_long": 0.6505,
+  "share_long_ci": [
+   0.6278,
+   0.6705
+  ],
+  "n_units_short": 121,
+  "n_units_long": 109,
+  "tokens_short": 2241,
+  "tokens_long": 4773,
+  "A_cut_1_3": 28.0,
+  "A_cut_2_3": 42.0
+ },
+ "T3": {
+  "testable": true,
+  "estimate": -0.0399,
+  "ci_lo": -0.0882,
+  "ci_hi": 0.0086,
+  "p_shift": 0.10422,
+  "n_shifts": 402,
+  "null_mean": -0.0001,
+  "null_sd": 0.0238,
+  "n_units": 353,
+  "n_strings": 3460,
+  "mean_syll": 2.668,
+  "median_syll": 2.0
+ },
+ "T4": {
+  "testable": true,
+  "estimate": 0.0099,
+  "ci_lo": -0.0255,
+  "ci_hi": 0.0439,
+  "p_shift": 0.74938,
+  "n_shifts": 402,
+  "null_mean": -0.0007,
+  "null_sd": 0.029,
+  "n_units": 353,
+  "share_within_game": 0.6475,
+  "share_within_ci": [
+   0.631,
+   0.6644
+  ],
+  "share_changeover": 0.6376,
+  "share_changeover_ci": [
+   0.605,
+   0.6704
+  ],
+  "n_units_within": 290,
+  "n_units_changeover": 27,
+  "tokens_within": 5734,
+  "tokens_changeover": 2591
+ },
+ "descriptives": {
+  "n_units": 353,
+  "tokens": 9471,
+  "zero_word_units": 63,
+  "words_median": 16.0,
+  "words_mean": 26.83,
+  "A_median": 34.0,
+  "A_q25": 26.0,
+  "A_q75": 47.0,
+  "A_max": 305.0,
+  "M_cycles": 421,
+  "category_counts": {
+   "within_game": 290,
+   "other_game_end": 36,
+   "changeover": 27
+  },
+  "share_base_all": 0.6442,
+  "share_R1_all": 0.6387,
+  "share_R2_all": 0.1491
+ },
+ "robustness_R1_raw": {
+  "T2": {
+   "testable": true,
+   "estimate": -0.0349,
+   "ci_lo": -0.0659,
+   "ci_hi": 0.0089,
+   "p_shift": 0.04963,
+   "n_shifts": 402,
+   "null_mean": 0.0005,
+   "null_sd": 0.0183,
+   "n_units": 353,
+   "share_short": 0.6136,
+   "share_short_ci": [
+    0.5881,
+    0.6524
+   ],
+   "share_long": 0.6485,
+   "share_long_ci": [
+    0.6258,
+    0.6679
+   ],
+   "n_units_short": 121,
+   "n_units_long": 109,
+   "tokens_short": 2161,
+   "tokens_long": 4705,
+   "A_cut_1_3": 28.0,
+   "A_cut_2_3": 42.0
+  },
+  "T3": {
+   "testable": true,
+   "estimate": -0.0225,
+   "ci_lo": -0.0685,
+   "ci_hi": 0.0222,
+   "p_shift": 0.31762,
+   "n_shifts": 402,
+   "null_mean": -0.0002,
+   "null_sd": 0.0226,
+   "n_units": 353,
+   "n_strings": 3343,
+   "mean_syll": 2.642,
+   "median_syll": 2.0
+  },
+  "T4": {
+   "testable": true,
+   "estimate": 0.0036,
+   "ci_lo": -0.0326,
+   "ci_hi": 0.0375,
+   "p_shift": 0.86849,
+   "n_shifts": 402,
+   "null_mean": -0.0003,
+   "null_sd": 0.0293,
+   "n_units": 353,
+   "share_within_game": 0.6388,
+   "share_within_ci": [
+    0.6217,
+    0.6563
+   ],
+   "share_changeover": 0.6352,
+   "share_changeover_ci": [
+    0.6033,
+    0.6676
+   ],
+   "n_units_within": 290,
+   "n_units_changeover": 27,
+   "tokens_within": 5526,
+   "tokens_changeover": 2574
+  }
+ }
+}

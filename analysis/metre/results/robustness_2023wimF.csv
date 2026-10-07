@@ -1,0 +1,19 @@
+check,test,testable,n_units,n_strings,estimate,ci_lo,ci_hi,p_shift,n_shifts,ci_excludes_0,note
+R1 score-call tokens removed,T2,True,219.0,,-0.0454,-0.0992,0.0098,0.11429,314.0,False,
+R1 score-call tokens removed,T3,True,219.0,2196.0,0.0245,-0.0235,0.0717,0.39365,314.0,False,
+R1 score-call tokens removed,T4,False,,,,,,,,,1 changeover units
+"R2 strict formulas (n>=3, count>=5, streams>=3)",T2,True,219.0,,-0.0036,-0.073,0.0506,0.88254,314.0,False,
+"R2 strict formulas (n>=3, count>=5, streams>=3)",T3,True,219.0,357.0,-0.0201,-0.127,0.0826,0.70476,314.0,False,
+"R2 strict formulas (n>=3, count>=5, streams>=3)",T4,False,,,,,,,,,1 changeover units
+"R3 predictor D (last hit to next serve), unit-sequence shift",T1,True,217.0,,-0.007,-0.1488,0.1249,0.99497,198.0,False,
+"R3 predictor D (last hit to next serve), unit-sequence shift",T2,True,217.0,,-0.0385,-0.0924,0.0136,0.13065,198.0,False,
+"R3 predictor D (last hit to next serve), unit-sequence shift",T3,True,217.0,2220.0,0.0309,-0.0258,0.0833,0.25126,198.0,False,
+R4 T3 partial Spearman controlling unit token count,T3,True,219.0,2255.0,0.0255,-0.021,0.0673,0.33016,314.0,False,
+R5 units in cross-point exact repeats excluded,T1,True,195.0,,0.1245,-0.0175,0.2583,0.12063,314.0,False,
+R5 units in cross-point exact repeats excluded,T2,True,195.0,,-0.0478,-0.1201,0.0018,0.10794,314.0,False,
+R5 units in cross-point exact repeats excluded,T3,True,195.0,2008.0,0.0249,-0.0238,0.0709,0.3873,314.0,False,
+R5 units in cross-point exact repeats excluded,T4,False,,,,,,,,,1 changeover units
+R6 continuous time-shift null (1-s steps),T1,True,219.0,,0.163,0.0303,0.2854,0.01236,16348.0,True,
+R6 continuous time-shift null (1-s steps),T2,True,219.0,,-0.0434,-0.096,0.0109,0.08649,16348.0,False,
+R6 continuous time-shift null (1-s steps),T3,True,219.0,2255.0,0.0209,-0.0247,0.065,0.42437,16348.0,False,
+R6 continuous time-shift null (1-s steps),T4,False,,,,,,,,,1 changeover units

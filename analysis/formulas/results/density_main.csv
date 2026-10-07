@@ -1,0 +1,19 @@
+design,identified_on,measured_on,variant,measure,density,ci_lo,ci_hi,tokens_measured,utterances_measured
+D1_in_sample,tv_2019wimF,tv_2019wimF,primary,a,0.442447,0.424703,0.462512,9791,318
+D1_in_sample,tv_2019wimF,tv_2019wimF,primary,a+b,0.483301,0.463805,0.504775,9791,318
+D1_in_sample,tv_2023wimF,tv_2023wimF,primary,a,0.432095,0.413095,0.451312,7216,245
+D1_in_sample,tv_2023wimF,tv_2023wimF,primary,a+b,0.467849,0.448240,0.487834,7216,245
+D2_split_half,2019 odd clips,2019 even clips,primary,a,0.210206,0.192963,0.228961,4605,158
+D2_split_half,2019 odd clips,2019 even clips,primary,a+b,0.250597,0.230550,0.272025,4605,158
+D2_split_half,2019 even clips,2019 odd clips,primary,a,0.196105,0.175283,0.221169,5186,160
+D2_split_half,2019 even clips,2019 odd clips,primary,a+b,0.218280,0.195801,0.246012,5186,160
+D2_split_half,2019 halves,2019 other half (pooled),primary,a,0.202737,0.188719,0.217919,9791,318
+D2_split_half,2019 halves,2019 other half (pooled),primary,a+b,0.233480,0.217846,0.250726,9791,318
+D2_split_half,2023 halves,2023 other half (pooled),primary,a,0.183620,0.167350,0.200088,7216,245
+D2_split_half,2023 halves,2023 other half (pooled),primary,a+b,0.206208,0.189147,0.224752,7216,245
+D3_held_out,pool (18 matches),tv_2019wimF,primary,a,0.550301,0.531285,0.570005,9791,318
+D3_held_out,pool (18 matches),tv_2019wimF,primary,a+b,0.639056,0.619038,0.659393,9791,318
+D3_held_out,tv_2019wimF,tv_2023wimF,primary,a,0.262749,0.246942,0.279513,7216,245
+D3_held_out,tv_2019wimF,tv_2023wimF,primary,a+b,0.299196,0.281978,0.316878,7216,245
+D3_held_out,pool (18 matches),tv_2023wimF,primary,a,0.594512,0.575547,0.614598,7216,245
+D3_held_out,pool (18 matches),tv_2023wimF,primary,a+b,0.675721,0.656349,0.695152,7216,245
