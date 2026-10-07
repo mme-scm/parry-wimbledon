@@ -1,0 +1,22 @@
+{
+ "target_matched_tokens": 9791,
+ "target_pool_tokens": 103675,
+ "S_stream": 1500,
+ "R_small_stream": 200,
+ "R_matched": 200,
+ "R_heldout": 50,
+ "R_large": 20,
+ "press_answers": 81974,
+ "press_tokens": 5435611,
+ "press_interviewees": 358,
+ "cornell_updates": 3962,
+ "cornell_tokens": 178770,
+ "cornell_player_pair_groups": 496,
+ "mean_tokens_per_utterance": {
+  "tv_pool_all": 35.3839590443686,
+  "tv_2019wimF": 30.78930817610063,
+  "tv_2023wimF": 29.453061224489797,
+  "text_cornell": 45.12115093387178,
+  "press_answers": 66.30896381779588
+ }
+}
