@@ -1,0 +1,86 @@
+{
+ "match": "20190714-M-Wimbledon-F-Roger_Federer-Novak_Djokovic",
+ "pbp_id": "2019-wimbledon-1701",
+ "p1": "Novak Djokovic",
+ "p2": "Roger Federer",
+ "pbp": {
+  "n_rows_raw": 424,
+  "dropped_placeholders": [
+   "0X",
+   "0Y"
+  ]
+ },
+ "n_clips": 481,
+ "n_groups": 376,
+ "n_points_pbp": 422,
+ "clip_roles": {
+  "rally": 325,
+  "ace": 34,
+  "first_serve_fault": 115,
+  "double_fault": 7
+ },
+ "pass1_matched_groups": 361,
+ "offset_segments": [
+  {
+   "id": 0,
+   "start_point": 3,
+   "level_s": 26.72,
+   "jump_s": null,
+   "n_anchors": 361,
+   "cut_interval_points": null,
+   "changeover_or_set_break_in_interval": null
+  }
+ ],
+ "n_cuts": 0,
+ "n_cuts_with_changeover_in_interval": 0,
+ "tb_time_tolerance_s": 20.0,
+ "pass2_matched_groups": 368,
+ "match_types": {
+  "key_tb": 3,
+  "key": 359,
+  "key_no_server": 6
+ },
+ "mcp_vs_pbp": {
+  "n_mcp": 422,
+  "n_pbp": 422,
+  "key_equal_at_same_index": 422,
+  "mismatch_points": [],
+  "join_key": "server surname + sets + games + points (before point), occurrence order; MCP Pts is server-first"
+ },
+ "offset": {
+  "n_matched_groups": 368,
+  "residual_sd_all_s": 2.479264442110386,
+  "residual_mad_sd_s": 0.35582400000102477,
+  "n_within_3s": 353,
+  "frac_within_3s": 0.9592391304347826,
+  "residual_sd_within_3s_s": 0.280842061866861,
+  "n_outliers_gt_3s": 15,
+  "linear_fit": {
+   "intercept_s": 26.746958960194032,
+   "slope": 0.9999969224201242,
+   "residual_sd_s": 0.2807995747927467,
+   "n": 353,
+   "offset_slope1_median_s": 26.720000000000255,
+   "offset_slope1_sd_s": 0.280842061866861
+  },
+  "outliers_by_group_type[n,n_gt3s]": {
+   "with_fault_clip": [
+    115,
+    4
+   ],
+   "without_fault_clip": [
+    253,
+    11
+   ]
+  }
+ },
+ "n_unmatched_groups": 8,
+ "n_unmatched_clips": 8,
+ "n_matched_clips": 473,
+ "n_shots_total": 1939,
+ "n_points_with_clip": 368,
+ "n_points_with_rally_clip": 358,
+ "points_match_rate_clips": 0.9833679833679834,
+ "points_coverage_pbp": 0.8720379146919431,
+ "mcp_key_match_rate": 1.0
+}

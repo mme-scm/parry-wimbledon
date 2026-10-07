@@ -1,0 +1,9 @@
+group	clips	first_attempt_s	server	sets	games	pts	n_shots	tb
+25	25643_26018	1026.76	FEDERER	"{""FEDERER"": 0, ""DJOKOVIC"": 0}"	"{""FEDERER"": 2, ""DJOKOVIC"": 1}"	"{""FEDERER"": ""AD"", ""DJOKOVIC"": ""40""}"	10	False
+42	43349_43442	1735.0	DJOKOVIC	"{""FEDERER"": 0, ""DJOKOVIC"": 0}"	"{""FEDERER"": 4, ""DJOKOVIC"": 3}"	"{""FEDERER"": ""0"", ""DJOKOVIC"": ""0""}"	2	False
+61	63736_64130	2554.88	DJOKOVIC	"{""FEDERER"": 0, ""DJOKOVIC"": 0}"	"{""FEDERER"": 5, ""DJOKOVIC"": 5}"	"{""FEDERER"": ""15"", ""DJOKOVIC"": ""0""}"	4	False
+119	141339_141414	5654.6	DJOKOVIC	"{""FEDERER"": 1, ""DJOKOVIC"": 1}"	"{""FEDERER"": 1, ""DJOKOVIC"": 1}"	"{""FEDERER"": ""15"", ""DJOKOVIC"": ""0""}"	1	False
+168	212714_212836	8509.6	FEDERER	"{""FEDERER"": 1, ""DJOKOVIC"": 2}"	"{""FEDERER"": 0, ""DJOKOVIC"": 0}"	"{""FEDERER"": ""0"", ""DJOKOVIC"": ""30""}"	1	False
+183	224879_224972	8996.2	FEDERER	"{""FEDERER"": 1, ""DJOKOVIC"": 2}"	"{""FEDERER"": 1, ""DJOKOVIC"": 2}"	"{""FEDERER"": ""0"", ""DJOKOVIC"": ""0""}"	2	False
+200	240978_241053	9640.16	FEDERER	"{""FEDERER"": 1, ""DJOKOVIC"": 2}"	"{""FEDERER"": 4, ""DJOKOVIC"": 2}"	"{""FEDERER"": ""0"", ""DJOKOVIC"": ""15""}"	1	False
+259	307019_307168	12281.8	DJOKOVIC	"{""FEDERER"": 2, ""DJOKOVIC"": 2}"	"{""FEDERER"": 2, ""DJOKOVIC"": 3}"	"{""FEDERER"": ""15"", ""DJOKOVIC"": ""30""}"	3	False

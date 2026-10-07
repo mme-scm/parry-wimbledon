@@ -1,0 +1,98 @@
+{
+ "seed": 20190714,
+ "n_points_with_tv_rally_clip": 358,
+ "pbp_minus_mcp": {
+  "-1": 281,
+  "0": 141
+ },
+ "pbp_minus_mcp_by_mcp_final_char": {
+  "#": {
+   "-1": 139,
+   "0": 3
+  },
+  "*": {
+   "0": 137
+  },
+  "@": {
+   "-1": 127
+  },
+  "C": {
+   "0": 1
+  },
+  "d": {
+   "-1": 9
+  },
+  "n": {
+   "-1": 5
+  },
+  "w": {
+   "-1": 1
+  }
+ },
+ "pbp_rc_adj_equals_mcp_all_points": 0.9928909952606635,
+ "all_points": {
+  "tv_vs_mcp_exact": 0.8212290502793296,
+  "tv_vs_mcp_within1": 0.9692737430167597,
+  "tv_vs_pbp_raw_exact": 0.32122905027932963,
+  "tv_vs_pbp_adj_exact": 0.8184357541899442,
+  "tv_vs_pbp_adj_within1": 0.9692737430167597,
+  "n": 358,
+  "tv_minus_mcp_dist": {
+   "-4": 2,
+   "-3": 3,
+   "-2": 5,
+   "-1": 31,
+   "0": 294,
+   "1": 22,
+   "2": 1
+  },
+  "wing_agreement": {
+   "n_shots_compared": 1026,
+   "n_agree": 1022,
+   "rate": 0.9961013645224172,
+   "rule": "points with equal shot counts; MCP f,r = forehand and b,s = backhand vs TennisVL wing"
+  },
+  "serve_hitter_vs_pbp_server": {
+   "n": 358,
+   "n_agree": 354
+  },
+  "final_shot_outcome_vs_mcp_end_char": {
+   "n": 319,
+   "n_agree": 258,
+   "rate": 0.8087774294670846
+  }
+ },
+ "tv_more_than_mcp": {
+  "n": 23,
+  "n_first_interval_ge_4s": 13,
+  "n_mcp_code_starts_with_c_or_has_let": 2
+ },
+ "hit_intervals_s": {
+  "n": 1458,
+  "mean": 1.3139643347050753,
+  "median": 1.2,
+  "sd": 1.059530880686324,
+  "p1": 0.64,
+  "p99": 8.30880000000001,
+  "min": 0.56,
+  "max": 14.32,
+  "n_nonpositive": 0
+ },
+ "bounce_between_hits": {
+  "n": 1372,
+  "rate_hit<bounce<next_hit": 1.0
+ },
+ "pbp_clock_vs_first_serve": {
+  "n": 368,
+  "within_1s": 0.9592391304347826,
+  "within_3s": 0.9592391304347826
+ },
+ "sample20": {
+  "tv_eq_mcp": 15,
+  "tv_eq_pbp_adj": 15,
+  "tv_within1_mcp": 19,
+  "tv_within1_pbp_adj": 19,
+  "n": 20,
+  "mean_interval_s": 1.343157894736842
+ }
+}

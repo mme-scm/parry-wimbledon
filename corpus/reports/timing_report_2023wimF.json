@@ -1,0 +1,356 @@
+{
+ "match": "20230716-M-Wimbledon-F-Novak_Djokovic-Carlos_Alcaraz",
+ "pbp_id": "2023-wimbledon-1701",
+ "p1": "Carlos Alcaraz",
+ "p2": "Novak Djokovic",
+ "pbp": {
+  "n_rows_raw": 336,
+  "dropped_placeholders": [
+   "0X",
+   "0Y"
+  ]
+ },
+ "n_clips": 368,
+ "n_groups": 294,
+ "n_points_pbp": 334,
+ "clip_roles": {
+  "rally": 261,
+  "ace": 22,
+  "first_serve_fault": 80,
+  "double_fault": 5
+ },
+ "pass1_matched_groups": 231,
+ "offset_segments": [
+  {
+   "id": 0,
+   "start_point": 2,
+   "level_s": 7.36,
+   "jump_s": null,
+   "n_anchors": 9,
+   "cut_interval_points": null,
+   "changeover_or_set_break_in_interval": null
+  },
+  {
+   "id": 1,
+   "start_point": 11,
+   "level_s": -45.04,
+   "jump_s": -52.4,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    10,
+    11
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 2,
+   "start_point": 23,
+   "level_s": -131.0,
+   "jump_s": -85.96,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    22,
+    23
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 3,
+   "start_point": 36,
+   "level_s": -190.84,
+   "jump_s": -59.84,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    34,
+    36
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 4,
+   "start_point": 46,
+   "level_s": -296.56,
+   "jump_s": -105.72,
+   "n_anchors": 17,
+   "cut_interval_points": [
+    43,
+    46
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 5,
+   "start_point": 69,
+   "level_s": -371.56,
+   "jump_s": -75.0,
+   "n_anchors": 17,
+   "cut_interval_points": [
+    67,
+    69
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 6,
+   "start_point": 89,
+   "level_s": -452.52,
+   "jump_s": -80.96,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    86,
+    89
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 7,
+   "start_point": 98,
+   "level_s": -550.46,
+   "jump_s": -97.94,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    96,
+    98
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 8,
+   "start_point": 107,
+   "level_s": -636.22,
+   "jump_s": -85.76,
+   "n_anchors": 9,
+   "cut_interval_points": [
+    106,
+    107
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 9,
+   "start_point": 121,
+   "level_s": -721.22,
+   "jump_s": -85.0,
+   "n_anchors": 4,
+   "cut_interval_points": [
+    119,
+    121
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 10,
+   "start_point": 140,
+   "level_s": -858.4,
+   "jump_s": -137.18,
+   "n_anchors": 6,
+   "cut_interval_points": [
+    125,
+    140
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 11,
+   "start_point": 148,
+   "level_s": -908.72,
+   "jump_s": -50.32,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    146,
+    148
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 12,
+   "start_point": 160,
+   "level_s": -1006.12,
+   "jump_s": -97.4,
+   "n_anchors": 18,
+   "cut_interval_points": [
+    159,
+    160
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 13,
+   "start_point": 201,
+   "level_s": -1127.84,
+   "jump_s": -121.72,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    187,
+    201
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 14,
+   "start_point": 210,
+   "level_s": -1559.36,
+   "jump_s": -431.52,
+   "n_anchors": 4,
+   "cut_interval_points": [
+    207,
+    210
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 15,
+   "start_point": 216,
+   "level_s": -1606.84,
+   "jump_s": -47.48,
+   "n_anchors": 18,
+   "cut_interval_points": [
+    214,
+    216
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 16,
+   "start_point": 240,
+   "level_s": -1706.6,
+   "jump_s": -99.76,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    238,
+    240
+   ],
+   "changeover_or_set_break_in_interval": false
+  },
+  {
+   "id": 17,
+   "start_point": 254,
+   "level_s": -1815.04,
+   "jump_s": -108.44,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    253,
+    254
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 18,
+   "start_point": 266,
+   "level_s": -1915.72,
+   "jump_s": -100.68,
+   "n_anchors": 10,
+   "cut_interval_points": [
+    263,
+    266
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 19,
+   "start_point": 277,
+   "level_s": -2054.04,
+   "jump_s": -138.32,
+   "n_anchors": 17,
+   "cut_interval_points": [
+    276,
+    277
+   ],
+   "changeover_or_set_break_in_interval": false
+  },
+  {
+   "id": 22,
+   "start_point": 298,
+   "level_s": -2145.88,
+   "jump_s": -91.84,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    297,
+    298
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 23,
+   "start_point": 307,
+   "level_s": -2230.98,
+   "jump_s": -85.1,
+   "n_anchors": 8,
+   "cut_interval_points": [
+    306,
+    307
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 24,
+   "start_point": 319,
+   "level_s": -2321.2,
+   "jump_s": -90.22,
+   "n_anchors": 7,
+   "cut_interval_points": [
+    318,
+    319
+   ],
+   "changeover_or_set_break_in_interval": true
+  },
+  {
+   "id": 25,
+   "start_point": 329,
+   "level_s": -2413.6,
+   "jump_s": -92.4,
+   "n_anchors": 5,
+   "cut_interval_points": [
+    327,
+    329
+   ],
+   "changeover_or_set_break_in_interval": true
+  }
+ ],
+ "n_cuts": 23,
+ "n_cuts_with_changeover_in_interval": 21,
+ "tb_time_tolerance_s": 130.0,
+ "pass2_matched_groups": 276,
+ "match_types": {
+  "key": 231,
+  "key_no_server": 44,
+  "key_tb": 1
+ },
+ "mcp_vs_pbp": {
+  "n_mcp": 334,
+  "n_pbp": 334,
+  "key_equal_at_same_index": 334,
+  "mismatch_points": [],
+  "join_key": "server surname + sets + games + points (before point), occurrence order; MCP Pts is server-first"
+ },
+ "offset": {
+  "n_matched_groups": 276,
+  "residual_sd_all_s": 43.71589385005588,
+  "residual_mad_sd_s": 0.4151279999996224,
+  "n_within_3s": 236,
+  "frac_within_3s": 0.855072463768116,
+  "residual_sd_within_3s_s": 0.29618118790576564,
+  "n_outliers_gt_3s": 40,
+  "stepwise_note": "video offset is piecewise constant (cuts); SD is about the local level",
+  "n_segments": 24,
+  "outliers_by_group_type[n,n_gt3s]": {
+   "with_fault_clip": [
+    75,
+    11
+   ],
+   "without_fault_clip": [
+    201,
+    29
+   ]
+  }
+ },
+ "n_unmatched_groups": 18,
+ "n_unmatched_clips": 20,
+ "n_matched_clips": 348,
+ "n_shots_total": 1488,
+ "n_points_with_clip": 276,
+ "n_points_with_rally_clip": 268,
+ "points_match_rate_clips": 0.9456521739130435,
+ "points_coverage_pbp": 0.8263473053892215,
+ "mcp_key_match_rate": 1.0
+}
