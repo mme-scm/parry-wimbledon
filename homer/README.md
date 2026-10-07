@@ -287,6 +287,30 @@ Lines: Iliad 15687, Odyssey 12107, total 27794.
 | final | 27142 (97.65%) | 647 (2.33%) | 5 (0.02%) |
 
 Final: tied best scansions 33 (0.12%). Manual checks: sample A: 50/50 agree; sample B: 30/30 agree.
+
+Failure taxonomy (tier-0 rules alone fail 1438 lines; sample of 50, seed 20261007, and all of them, classified by the licence the final scansion needs):
+
+| cause | sample | all |
+|---|---|---|
+| closed final syllable lengthened in arsis before a vowel | 15 | 361 |
+| synizesis (within a word: θεοί, -εω, χρυσέῳ) | 9 | 324 |
+| short final vowel lengthened before λ μ ν ρ σ | 11 | 282 |
+| long vowel kept before a vowel in the biceps | 4 | 174 |
+| internal correption (οἷος, υἱός, ἥρωος) | 2 | 84 |
+| α/ι/υ against the accent rule (βλοσυρῶπις, ἦνιν, dative -ι long) | 2 | 42 |
+| metrical lengthening of a short vowel in arsis | 1 | 40 |
+| synizesis across words (δὴ αὖ, ἐπεὶ οὐ, ἢ οὐ) | 2 | 31 |
+| no position before initial ζ / σ+consonant (Σκάμανδρος, Ζάκυνθος) | 1 | 25 |
+| σϝ/δϝ counted as two consonants (ἀπὸ ἕο, δέος) | 0 | 24 |
+| consonantal ι/υ (Αἰγυπτίη, πόλιος) | 1 | 14 |
+| short vowel lengthened before λ μ ν ρ σ inside a word | 0 | 10 |
+| α/ι/υ against its usual quantity (doubtful vowel, e.g. dative -ι long) | 1 | 10 |
+| short final vowel lengthened in arsis before a vowel | 1 | 5 |
+| still unscannable (see failure notes) | 0 | 5 |
+| other synizesis across words | 0 | 4 |
+| other synizesis | 0 | 3 |
+
+Remaining failures: Il. 16.857 (short vowel before three consonants (ἀνδρ-)); Il. 22.363 (short vowel before three consonants (ἀνδρ-)); Il. 24.6 (short vowel before three consonants (ἀνδρ-)); Od. 8.267 (spelling of the edition); Od. 13.364 (reading of the edition) (explanations in validation.md and failure_notes.tsv).
 <!-- END GENERATED: validate.py -->
 
 Details, ablations, the failure taxonomy (50 sampled failures of the tier-0

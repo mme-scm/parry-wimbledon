@@ -358,6 +358,19 @@ def main():
         block.append(f"Final: tied best scansions {summ['final']['tied_best']} ({summ['final']['tied_best_pct']:.2f}%). "
                      f"Manual checks: " + "; ".join(f"sample {s}: {ok}/{n} agree" for s, (n, ok, _) in
                                                     sorted(man_by_sample.items())) + ".")
+        block.append("")
+        block.append(f"Failure taxonomy (tier-0 rules alone fail {len(core_fail)} lines; sample of "
+                     f"{len(sample)}, seed {SEED}, and all of them, classified by the licence the final "
+                     f"scansion needs):")
+        block.append("")
+        block.append("| cause | sample | all |")
+        block.append("|---|---|---|")
+        for cause, n in sorted(all_causes.items(), key=lambda x: -x[1]):
+            block.append(f"| {cause} | {sample_causes.get(cause, 0)} | {n} |")
+        block.append("")
+        block.append("Remaining failures: " + "; ".join(
+            f"{cite(lines[i])} ({notes.get(cite(lines[i]), {}).get('cause', 'UNEXPLAINED')})" for i in final_fail)
+            + " (explanations in validation.md and failure_notes.tsv).")
         block.append("<!-- END GENERATED: validate.py -->")
         txt = re.sub(r"<!-- BEGIN GENERATED: validate.py -->.*?<!-- END GENERATED: validate.py -->",
                      "\n".join(block), txt, flags=re.S)
