@@ -1,0 +1,11 @@
+id,family,status,hypothesis,estimate_x,estimate_y,difference,diff_lo,diff_hi,p,test
+E-C1-text,2019,exploratory,"(a) density, pool -> 2019 final, minus Cornell text held-out (disjoint player pairs)",0.550301,0.708518,-0.158217,-0.192247,-0.122351,0.000200,
+E-R1-text,2023_replication,exploratory,"(a) density, pool -> 2023 final, minus Cornell text held-out (disjoint player pairs)",0.594512,0.708518,-0.114006,-0.148031,-0.077699,0.000200,
+E-split-tv_pool-vs-press,medium,exploratory,split-half (a) density at 2019 size: tv_pool minus press,0.161811,0.246526,-0.084715,-0.109800,-0.056581,0.009950,
+E-split-cornell_text-vs-press,medium,exploratory,split-half (a) density at 2019 size: cornell_text minus press,0.352696,0.246526,0.106169,0.067980,0.136830,0.009950,
+E-insample_a-tv-vs-text,medium,exploratory,insample_a at 2019 size: TV pool minus Cornell text,0.388665,0.607479,-0.218815,-0.246466,-0.190907,0.009950,
+E-insample_a-tv-vs-press,medium,exploratory,insample_a at 2019 size: TV pool minus press answers,0.388665,0.486987,-0.098322,-0.126957,-0.064791,0.009950,
+E-insample_ab-tv-vs-text,medium,exploratory,insample_ab at 2019 size: TV pool minus Cornell text,0.423702,0.665419,-0.241716,-0.269965,-0.210987,0.009950,
+E-insample_ab-tv-vs-press,medium,exploratory,insample_ab at 2019 size: TV pool minus press answers,0.423702,0.527943,-0.104240,-0.138404,-0.071810,0.009950,
+E-splithalf_ab-tv-vs-text,medium,exploratory,splithalf_ab at 2019 size: TV pool minus Cornell text,0.176808,0.409585,-0.232777,-0.260572,-0.204201,0.009950,
+E-splithalf_ab-tv-vs-press,medium,exploratory,splithalf_ab at 2019 size: TV pool minus press answers,0.176808,0.262894,-0.086086,-0.113127,-0.057694,0.009950,
