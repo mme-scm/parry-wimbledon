@@ -66,7 +66,10 @@ LICENCES = {
     "synizesis_cross": (1, 0.8, 1, 0.8, "synizesis across a word boundary (δή, ἤ, ἐπεί, μή, ἐγώ + vowel)"),
     "digamma": (0, 0.05, 0, 0.05, "initial ϝ (lost digamma) counted as a consonant"),
     "digamma_double": (1, 0.5, 1, 1.0, "initial σϝ/δϝ counted as two consonants"),
-    "dichronon_contra": (1, 1.0, 1, 1.0, "α/ι/υ given the quantity contrary to its unambiguous attestations"),
+    "synizesis_cross_rare": (2, 2.0, 2, 2.0, "synizesis across a word boundary after another word (Πηλείδη ἔθελʼ)"),
+    "lengthening_liquid_internal": (2, 2.0, 2, 2.5, "short vowel lengthened before a single λ μ ν ρ σ inside a word (augment/compound: ἐλίσσετο)"),
+    "dichronon_contra": (1, 1.5, 1, 1.5, "α/ι/υ given the quantity contrary to its unambiguous attestations elsewhere"),
+    "accent_contra": (1, 1.2, 1, 1.2, "α/ι/υ given a quantity contrary to the accentuation (σωτῆρα / antepenult rules)"),
 }
 MAX_TIER = 2
 
@@ -303,12 +306,14 @@ def syl_options(line, span):
     cls = "L" if merged else last_n.cls
     extra_variants = []
     if not merged and cls == "D":
-        if i in line.fixed:
-            cls = line.fixed[i]
-        elif i in line.learned:
+        if i in line.learned:
             q = line.learned[i]
             cls = q
             extra_variants.append(("S" if q == "L" else "L", (("dichronon_contra", last_n.tok),)))
+        elif i in line.fixed:
+            q = line.fixed[i]
+            cls = q
+            extra_variants.append(("S" if q == "L" else "L", (("accent_contra", last_n.tok),)))
     cl = line.after[j]
     final = last_n.last
     tok = last_n.tok
@@ -391,6 +396,8 @@ def _options_for_cluster(line, cls, merged, nuc, cluster, final, elided, tok, nx
             add("L", [("lengthening_liquid", nxt_tok if nxt_tok is not None else tok)])
         elif final and cluster.endswith("|") and not cluster.startswith("|"):
             add("L", [("lengthening_closed", tok)])
+        elif not final and cons in ("λ", "μ", "ν", "ρ", "σ"):
+            add("L", [("lengthening_liquid_internal", tok)])
         else:
             add("L", [("metrical_lengthening", tok)])
         return out
@@ -442,6 +449,8 @@ def synizesis_options(line, i):
     if a.last and b.first and cl == "|" and not line.tokens[a.tok].elided:
         if G.form_key(line.tokens[a.tok].core) in SYNIZESIS_CROSS_FIRST:
             return ("synizesis_cross", a.tok)
+        if a.cls == "L":
+            return ("synizesis_cross_rare", a.tok)
     return None
 
 
@@ -767,7 +776,7 @@ def scan(text, max_solutions=64, learned=None, max_tier=MAX_TIER):
             fk = G.form_key(line.tokens[ti].core)
             for k, i in enumerate(idxs):
                 q = learned.get((fk, k + 1))
-                if q and line.nuclei[i].cls == "D" and i not in line.fixed:
+                if q and line.nuclei[i].cls == "D":
                     line.learned[i] = q
     sols, tier = [], None
     for t in range(0, max_tier + 1):
