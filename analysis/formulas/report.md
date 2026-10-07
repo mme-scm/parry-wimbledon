@@ -17,8 +17,9 @@ Utterance = one rally clip's de-duplicated, corrected ASR text (`text_corrected`
 ## Key results
 
 * (a) exact formulas cover 44.2% [42.5, 46.3] of the 2019 final in-sample, 20.3% [18.9, 21.8] split-half, and 55.0% [53.1, 57.0] when identified on 18 other matches; (a)+(b) 48.3%, 23.3%, 63.9%. Formulas of the 2019 final cover 26.3% [24.7, 28.0] of the held-out 2023 final ((a)+(b) 29.9%).
-* Baselines with the same procedure: shuffled words 16.2% in-sample, 2.8% split-half. At matched size (split-half, 9,791 tokens) TV commentary 16.2%, written live text 35.3%, press answers 24.7%.
+* Baselines with the same procedure: shuffled words 16.2% in-sample, 2.8% split-half. At matched size (split-half, 9,791 tokens) TV commentary (18-match pool subsamples) 16.2%, written live text 35.3%, press answers 24.7%.
 * Confirmatory family (Holm): 2 of 6 null hypotheses rejected for 2019, 1 of 5 in the 2023 replication: C1 rejected, OPPOSITE to the predicted direction; R1 rejected, OPPOSITE to the predicted direction; C2 rejected (non-directional) (section 4).
+* ASR caveat (post hoc, Table 3.8): with injected substitution noise the held-out press density falls to the TV level at e = 0.15; the written-text density stays above it up to e = 0.15.
 * Naming: the bare surname is 68-77% of each player's references and descriptive epithets 4-5% (section 5). No timing test was significant: neither formulaic density (C3a, C3b) nor the choice (C4) or length (C5) of names tracks the time available around the point.
 
 ## 1. Definitions (exact)
@@ -177,7 +178,7 @@ ASR in score calls: of 195 filler occurrences in two-token score-call frames, 29
 | D3_held_out | tv_2019wimF | tv_2023wimF | 7216 | 26.3 [24.7, 28.0] | 29.9 [28.2, 31.7] |
 | D3_held_out | pool (18 matches) | tv_2023wimF | 7216 | 59.5 [57.6, 61.5] | 67.6 [65.6, 69.5] |
 
-In-sample and held-out figures differ in the expected direction: the 2019 final reuses 44.2% of its tokens within itself, 20.3% when formulas must come from the other half of the match, and 55.0% when they come from 18 other matches (103,675 tokens, about 11 times the final). Density therefore depends strongly on the size of I; compare only like with like.
+In-sample and held-out figures differ as the sizes of I lead one to expect: the 2019 final reuses 44.2% of its tokens within itself, 20.3% when formulas must come from the other half of the match, and 55.0% when they come from 18 other matches (103,675 tokens, about 11 times the final). Density therefore depends strongly on the size of I; compare only like with like.
 
 **Table 3.2. Baselines and media at matched size** (same procedure, each corpus identified on itself; mean and 2.5-97.5% over replicates).
 
@@ -197,7 +198,7 @@ In-sample and held-out figures differ in the expected direction: the 2019 final 
 | Cornell live text (written) | 66.5 [64.4, 68.5] | 41.0 [38.4, 43.6] | 85.0 [84.7, 85.2] |
 | press answers (spoken, not commentary) | 52.8 [50.3, 55.3] | 26.3 [23.9, 28.8] | 76.9 [76.4, 77.4] |
 
-Written live text is identified and measured only on itself. The held-out Cornell and press figures draw I and M from disjoint player pairs and interviewees respectively; the TV analogue is pool -> 2019, where M is one whole match.
+At pool size the TV 'subsample' is the whole pool, so its replicates are identical. Written live text is identified and measured only on itself. The held-out Cornell and press figures draw I and M from disjoint player pairs and interviewees respectively; the TV analogue is pool -> 2019, where M is one whole match.
 
 **Table 3.4. Per stream** (each stream = one match with one unnamed TV broadcaster; broadcaster, match and commentators are confounded). Leave-one-out: I = the pool without this stream (for the finals: the whole pool). 1,500-token columns: mean over 200 random subsamples.
 
@@ -308,6 +309,19 @@ Written live text is identified and measured only on itself. The held-out Cornel
 | S8_random_half_splits_R200 | D2_split_half | 2019 random halves -> 2019 other half (pooled) | 20.6 [19.5, 21.6] | 23.4 [22.3, 24.4] |
 
 S5 masks 2.0% of 2019 tokens as umpire/Hawk-Eye/announcer calls (score calls are not masked: the umpire and the commentators both say them and the transcript does not tell them apart).
+
+**Table 3.8. POST HOC exploratory: injected ASR-like substitution noise** (added after C1/C2 were seen; plan.md addendum). Each token replaced with probability e by a token drawn from the TV-pool unigram distribution, in both I and M; (a) density, mean [2.5-97.5%] over 50 (split-half) or 10 (held-out) replicates. e = 0.022 is the corpus's hand-read lower bound on the TV error rate. For TV rows e is noise added on top of the ASR errors already present.
+
+| design, corpus | e = 0.0 | e = 0.022 | e = 0.05 | e = 0.1 | e = 0.15 |
+|---|---|---|---|---|---|
+| split-half, TV pool subsample | 16.3 [14.9, 17.9] | 15.3 [13.7, 16.6] | 13.9 [12.5, 15.5] | 12.0 [10.7, 13.6] | 10.1 [9.0, 11.4] |
+| split-half, Cornell text | 35.2 [33.1, 37.3] | 33.7 [31.6, 36.2] | 31.3 [28.7, 33.7] | 26.9 [25.0, 28.7] | 23.1 [20.7, 25.6] |
+| split-half, press answers | 24.7 [22.5, 26.5] | 23.0 [20.6, 24.8] | 21.4 [19.2, 23.3] | 18.6 [17.0, 20.4] | 15.9 [14.1, 17.7] |
+| held-out, TV pool -> 2019 | - | 53.3 [53.0, 53.5] | 50.7 [50.1, 51.0] | 47.1 [46.6, 47.6] | 43.9 [43.1, 45.0] |
+| held-out, Cornell text | - | 69.1 [67.3, 71.4] | 66.2 [63.3, 67.7] | 60.7 [58.8, 62.1] | 56.2 [54.8, 57.9] |
+| held-out, press answers | - | 63.9 [62.9, 65.1] | 61.1 [59.1, 62.6] | 56.9 [56.2, 58.5] | 52.3 [50.4, 53.9] |
+
+Under injected noise, split-half Cornell text: stays above the TV level (16.3%) up to e = 0.15; press answers: falls to the TV level (16.3%) at e = 0.15; held-out Cornell text: stays above the TV pool -> 2019 level (55.0%) up to e = 0.15; held-out press answers: falls to the TV pool -> 2019 level (55.0%) at e = 0.15. The TV-vs-written-text gap survives every noise level tried. The TV-vs-press gap would be erased if the ASR substitution rate of the TV text, relative to the press transcripts, were of the order of the e at which the press rows reach the TV level; the true TV error rate is unknown (only a lower bound exists), so C1's direction is robust only to modest ASR noise.
 
 ## 4. Confirmatory tests and replication
 
@@ -615,15 +629,15 @@ Pre-specified ranking: distinct utterances, after dropping items contained in a 
 
 ## 8. Kuiper
 
-* Kuiper, Koenraad and Douglas Haggo. 1984. Livestock auctions, oral poetry, and ordinary language. Language in Society 13(2): 205-234. doi:10.1017/S0047404500010381 Status: **verified**. Record: https://api.crossref.org/works?query.bibliographic=... (Crossref record); https://www.cambridge.org/core/product/identifier/S0047404500010381/type/journal_article (publisher page with abstract). Confirms: authors, title, journal, volume, issue, pages, year; abstract: stock auctioneers "use an oral formulaic technique"; the technique "is a response to performance constraints which place a heavy load on short term memory"; "the difference between traditional oral formulaic and ordinary spoken language is one of degree, not kind".
-* Kuiper, Koenraad. 1996. Smooth Talkers: The Linguistic Performance of Auctioneers and Sportscasters. Mahwah, NJ: Lawrence Erlbaum. xiv + 110 pp. Status: **verified (bibliographic only)**. Record: Crossref records of three reviews: Coupland 1998, Language in Society 27(3) 397-399, doi:10.1017/S0047404598243041; Higgins 1997, Language, doi:10.2307/416088; Moser-Mercer 1996, Interpreting 1(2) 267-270, doi:10.1075/intp.1.2.08mos. Confirms: title, subtitle, publisher, place, year, pagination (from the review titles); book contents not read: claims about its content are [unverified].
-* Kuiper, Koenraad. 2004. Formulaic performance in conventionalised varieties of speech. In N. Schmitt (ed.), Formulaic Sequences, 37-54. Amsterdam: John Benjamins (LLLT 9). doi:10.1075/lllt.9.04kui Status: **verified (bibliographic only)**. Record: https://api.crossref.org/works/10.1075/lllt.9.04kui. Confirms: author, chapter title, book title, series, pages, publisher, year (editor name not in the record: [unverified]).
-* Kuiper, Koenraad. 2009. Formulaic Genres. Basingstoke: Palgrave Macmillan. doi:10.1057/9780230241657; chapter 2 "A Day at the Races", pp. 26-41, doi:10.1057/9780230241657_2 Status: **verified (bibliographic only)**. Record: https://api.crossref.org/works/10.1057/9780230241657_2 and author query. Confirms: book and chapter titles, pages, publisher, year; chapter content not read: [unverified] that it treats race calling.
-* Kuiper, Koenraad and Paddy Austin. 1990. They're off and racing now: The speech of the New Zealand race caller. In A. Bell and J. Holmes (eds), New Zealand Ways of Speaking English. Clevedon: Multilingual Matters. Status: **[unverified]**. Record: Open Library edition records of the volume (OL2228004M: Multilingual Matters 1990, 305 pp.; OL1335680M: Victoria University Press 1990); Crossref record of Locker 1991 review (doi:10.5070/L421005133). Confirms: only the edited volume (editors, publisher, year, 305 pp.) is confirmed; no fetched record lists the Kuiper and Austin chapter, its title, co-author or pages.
+* Kuiper, Koenraad and Douglas Haggo. 1984. Livestock auctions, oral poetry, and ordinary language. Language in Society 13(2): 205-234. doi:10.1017/S0047404500010381 Status: **verified**. Record: https://api.crossref.org/works?query.bibliographic=Livestock+auctions+oral+poetry+and+ordinary+language+Kuiper+Haggo&rows=3 (Crossref); https://www.cambridge.org/core/product/identifier/S0047404500010381/type/journal_article (publisher page, abstract). Confirms: authors, title, journal, volume, issue, pages, year; abstract: stock auctioneers "use an oral formulaic technique"; the technique "is a response to performance constraints which place a heavy load on short term memory"; "the difference between traditional oral formulaic and ordinary spoken language is one of degree, not kind".
+* Kuiper, Koenraad. 1996. Smooth Talkers: The Linguistic Performance of Auctioneers and Sportscasters. Mahwah, NJ: Lawrence Erlbaum. xiv + 110 pp. Status: **verified (bibliographic only)**. Record: Crossref records of reviews: Coupland 1998, Language in Society, pp. 397-399, doi:10.1017/S0047404598243041 (title gives "Mahwah, NJ: Erlbaum, 1996. Pp. xiv, 110"); Higgins 1997, Language, doi:10.2307/416088; Moser-Mercer 1996, Interpreting, pp. 267-270, doi:10.1075/intp.1.2.08mos. Confirms: title, subtitle, publisher, place, year, pagination (from the review titles); the book itself was not read, so nothing is claimed about its content.
+* Kuiper, Koenraad. 2004. Formulaic performance in conventionalised varieties of speech. In: Formulaic Sequences (Language Learning and Language Teaching 9), 37-54. John Benjamins. doi:10.1075/lllt.9.04kui Status: **verified (bibliographic only)**. Record: https://api.crossref.org/works/10.1075/lllt.9.04kui. Confirms: author, chapter title, book title, series, pages, publisher, year; the volume editor is not in the record [unverified].
+* Kuiper, Koenraad. 2009. Formulaic Genres. Palgrave Macmillan. doi:10.1057/9780230241657; chapter 2 "A Day at the Races", pp. 26-41, doi:10.1057/9780230241657_2 Status: **verified (bibliographic only)**. Record: https://api.crossref.org/works/10.1057/9780230241657_2 and https://api.crossref.org/works?query.author=Kuiper+Koenraad. Confirms: book and chapter titles, pages, publisher, year; chapter not read: that it treats race calling is [unverified].
+* Kuiper, Koenraad and Austin [first name unverified]. 1990 [unverified]. Chapter on the speech of New Zealand race callers [title and pages unverified]. In A. Bell and J. Holmes (eds), New Zealand Ways of Speaking English. Clevedon: Multilingual Matters, 1990. Status: **[unverified]**. Record: Open Library edition records of the volume (https://openlibrary.org/books/OL2228004M.json: Multilingual Matters 1990, 305 pp.; OL1335680M: Victoria University Press 1990); Crossref record of Locker 1991 review (doi:10.5070/L421005133; title gives "Clevedon, UK: Multilingual Matters, 1990. 305 pp."). Confirms: only the edited volume (editors, publisher, place, year, 305 pp.) is confirmed; no fetched record lists a Kuiper and Austin chapter.
 
 Relation to this analysis. Only the verified abstract of Kuiper and Haggo (1984) is used: livestock auctioneers 'use an oral formulaic technique', explained as 'a response to performance constraints which place a heavy load on short term memory', and the difference from ordinary speech is 'one of degree, not kind'. Two of our results bear on this.
 
-* Degree. On one scale and one procedure, at matched size, split-half (a) density ranks written live text 35.3% > press answers 24.7% > TV commentary 16.2%; held-out, TV 55.0% vs press 66.1% (C1: rejected, OPPOSITE to the predicted direction). The commentary is 2.7 times as repetitive as its own words shuffled (44.2% vs 16.2% in-sample), so it is formulaic in the weak sense that all speech is; but on this measure it is not more formulaic than unscripted tennis talk outside the commentary box, and less so than the written live text. A 'degree' account would place this TV commentary at the low end of the scale, not with the auctioneers.
+* Degree. On one scale and one procedure, at matched size, split-half (a) density ranks written live text 35.3% > press answers 24.7% > TV commentary 16.2%; held-out, TV 55.0% vs press 66.1% (C1: rejected, OPPOSITE to the predicted direction). The commentary is 2.7 times as repetitive as its own words shuffled (44.2% vs 16.2% in-sample), so its repetition is not an artefact of word frequencies; but on this measure it is not more formulaic than the spontaneous answers of players in post-match press conferences, and it is less so than the written live text. On a 'degree' scale this TV commentary sits at the low end, not with the auctioneers (subject to the ASR caveat quantified in Table 3.8).
 * Performance constraint. If formulas relieve time pressure, density and naming should shift toward the clips with the least available time. Tests: C3a not rejected; C3b not rejected; C4 not rejected; C5 not rejected. With clip-level text, and between-point dead times whose 2019 terciles are cut at 24 and 36 s, tennis television may not impose the continuous load described for auctioneers; race calling, the obvious high-load comparison, cannot be drawn on here because those sources are verified only bibliographically (Kuiper 2009, ch. 2) or not at all (Kuiper and Austin [unverified]).
 
 ## 9. Limitations
@@ -636,6 +650,7 @@ Relation to this analysis. Only the verified abstract of Kuiper and Haggo (1984)
 6. **Media contrast.** Speech vs writing is confounded with matches, outlets, period (Cornell and press are older) and transcription (ASR vs editorial text vs stenography).
 7. **Referring expressions.** The epithet inventory is a fixed regex family checked against a discovery list (`results/epithet_discovery.csv`); referents of descriptive epithets and the slot validation are single-annotator hand verdicts. Pronouns are not resolved. The surname dominates every cell, so the thrift test has little room to detect structure.
 8. **CIs** condition on the formula inventory; split-half and random-split distributions (Table 3.7) show the identification variability.
+9. **Transcription conventions.** Press answers are edited stenographic transcripts and Cornell is edited prose; both are cleaner than ASR. Utterances differ in length across corpora (mean tokens above); because a formula must recur in two distinct utterances, the shorter TV utterances make that criterion, if anything, easier for TV to meet.
 
 ## 10. Files
 

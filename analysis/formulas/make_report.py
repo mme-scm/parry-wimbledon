@@ -116,6 +116,12 @@ def main():
     sh_sp = dmv("D2_split_half", "2019 shuffled words", "2019 shuffled words", "a", ds, f"D7_shuffled_word_baseline_R{meta['R_shuffle']}")
     L = []
     A = L.append
+    an = rjson("asr_noise_summary.json")
+    lv = an["levels"]
+
+    def noise_cross(design, corpus, ref):
+        hits = [e for e in lv if f"{design}|{corpus}|{e}" in an["cells"] and an["cells"][f"{design}|{corpus}|{e}"]["mean"] <= ref]
+        return hits[0] if hits else None
 
     A("# Formula analysis (Phase 2): oral-formulaic measures on live tennis commentary")
     A("")
@@ -156,6 +162,11 @@ def main():
       f"press answers {pc(prsp['mean'])}%.")
     A(f"* Confirmatory family (Holm): {nrej} of 6 null hypotheses rejected for 2019, {nrej23} of 5 in the 2023 replication: " +
       "; ".join(f"{r['id']} {r['verdict']}" for r in conf if r["reject_at_0.05"] == "True") + " (section 4).")
+    e_press = noise_cross("heldout", "press_answers", float(d3["density"]))
+    e_text = noise_cross("heldout", C.TEXT, float(d3["density"]))
+    A("* ASR caveat (post hoc, Table 3.8): with injected substitution noise the held-out press density falls to the TV level " +
+      (f"at e = {e_press}" if e_press is not None else f"at no tested e (max {lv[-1]})") + "; the written-text density " +
+      (f"at e = {e_text}" if e_text is not None else f"stays above it up to e = {lv[-1]}") + ".")
     timing = [cf(x) for x in ("C3a", "C3b", "C4", "C5")]
     sur = [float(r["share_surname"]) for r in ext]
     epi = [float(r["share_epithet"]) for r in ext]
@@ -365,8 +376,6 @@ def main():
     A(f"S5 masks {pc(meta['S5_masked_token_share_2019'])}% of 2019 tokens as umpire/Hawk-Eye/announcer calls (score calls are not masked: "
       "the umpire and the commentators both say them and the transcript does not tell them apart).")
     A("")
-    an = rjson("asr_noise_summary.json")
-    lv = an["levels"]
     A(f"**Table 3.8. POST HOC exploratory: injected ASR-like substitution noise** (added after C1/C2 were seen; plan.md addendum). Each token "
       f"replaced with probability e by a token drawn from the TV-pool unigram distribution, in both I and M; (a) density, mean "
       f"[2.5-97.5%] over {an['R_split']} (split-half) or {an['R_held']} (held-out) replicates. e = {lv[1]} is the corpus's hand-read lower bound on "
@@ -392,7 +401,21 @@ def main():
         hits = [e for e in lv if an["cells"][f"splithalf_matched|{corpus}|{e}"]["mean"] <= tv0]
         cross.append(f"{label}: " + (f"falls to the TV level ({pc(tv0)}%) at e = {hits[0]}" if hits else
                                      f"stays above the TV level ({pc(tv0)}%) up to e = {lv[-1]}"))
-    A("Split-half density under injected noise: " + "; ".join(cross) + ".")
+    tvh = float(d3["density"])
+    for corpus, label in ((C.TEXT, "Cornell text"), ("press_answers", "press answers")):
+        hits = [e for e in lv[1:] if an["cells"][f"heldout|{corpus}|{e}"]["mean"] <= tvh]
+        cross.append(f"held-out {label}: " + (f"falls to the TV pool -> 2019 level ({pc(tvh)}%) at e = {hits[0]}" if hits else
+                                              f"stays above the TV pool -> 2019 level ({pc(tvh)}%) up to e = {lv[-1]}"))
+    text_survives = not any(c.startswith(("Cornell text: falls", "held-out Cornell text: falls")) for c in cross)
+    press_falls = any(c.startswith(("press answers: falls", "held-out press answers: falls")) for c in cross)
+    msg = "Under injected noise, split-half " + "; ".join(cross) + "."
+    if text_survives:
+        msg += " The TV-vs-written-text gap survives every noise level tried."
+    if press_falls:
+        msg += (" The TV-vs-press gap would be erased if the ASR substitution rate of the TV text, relative to the press transcripts, were of "
+                "the order of the e at which the press rows reach the TV level; the true TV error rate is unknown (only a lower bound "
+                "exists), so C1's direction is robust only to modest ASR noise.")
+    A(msg)
     A("")
     A("## 4. Confirmatory tests and replication")
     A("")

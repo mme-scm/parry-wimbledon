@@ -108,9 +108,10 @@ provide. Agents have not used them and will not.
    are used only as a spoken, non-commentary baseline for formulaic density (test C1 and the per-medium table). Every row that
    depends on them is labelled `press_answers` in `analysis/formulas/results/`. If you do not accept this use, drop
    those rows and test C1; nothing else depends on them.
-2. **Kuiper and Austin (race calling).** No fetched catalogue record lists the chapter "They're off and racing now"
-   (Kuiper and Austin 1990, in Bell and Holmes, eds, *New Zealand Ways of Speaking English*); only the edited volume was
-   confirmed (Open Library). It is cited as [unverified] in `analysis/formulas/report.md`. A library catalogue lookup would settle it.
+2. **Kuiper and Austin (race calling).** No fetched catalogue record lists a Kuiper and Austin chapter on New Zealand race
+   callers (believed to be in Bell and Holmes, eds, *New Zealand Ways of Speaking English*, 1990; chapter title, co-author's first
+   name and pages [unverified]); only the edited volume was confirmed (Open Library, Crossref review record). It is cited as
+   [unverified] in `analysis/formulas/report.md`. A library catalogue lookup would settle it.
 3. **Hand verdicts in `analysis/formulas/hand/`.** The referent of 25 descriptive epithets ("the champion", "the world
    number one", "the young man", ...) and the syntactic slot of a 40-expression validation sample were judged by the
    analyst. Please spot-check them.
