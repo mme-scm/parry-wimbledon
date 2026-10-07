@@ -1,0 +1,327 @@
+{
+ "tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz": {
+  "n": 254,
+  "dedup_actions": {
+   "none": 209,
+   "exact_repeat": 45
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 181,
+   "n_matched_groups": 181,
+   "n_mcp_points": 201,
+   "n_clips": 254,
+   "n_matched_clips": 254
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 254
+ },
+ "tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek": {
+  "n": 91,
+  "dedup_actions": {
+   "none": 86,
+   "exact_repeat": 5
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 69,
+   "n_matched_groups": 59,
+   "n_mcp_points": 79,
+   "n_clips": 91,
+   "n_matched_clips": 81
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 81
+ },
+ "tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton": {
+  "n": 231,
+  "dedup_actions": {
+   "none": 210,
+   "exact_repeat": 21
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 182,
+   "n_matched_groups": 180,
+   "n_mcp_points": 207,
+   "n_clips": 231,
+   "n_matched_clips": 229
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 229
+ },
+ "tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner": {
+  "n": 187,
+  "dedup_actions": {
+   "none": 160,
+   "exact_repeat": 27
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 138,
+   "n_matched_groups": 138,
+   "n_mcp_points": 175,
+   "n_clips": 187,
+   "n_matched_clips": 187
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 187
+ },
+ "tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova": {
+  "n": 176,
+  "dedup_actions": {
+   "none": 158,
+   "exact_repeat": 18
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 143,
+   "n_matched_groups": 140,
+   "n_mcp_points": 161,
+   "n_clips": 176,
+   "n_matched_clips": 173
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 173
+ },
+ "tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini": {
+  "n": 109,
+  "dedup_actions": {
+   "none": 102,
+   "exact_repeat": 7
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 85,
+   "n_matched_groups": 85,
+   "n_mcp_points": 88,
+   "n_clips": 109,
+   "n_matched_clips": 109
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 109
+ },
+ "tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev": {
+  "n": 339,
+  "dedup_actions": {
+   "none": 304,
+   "exact_repeat": 35
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 261,
+   "n_matched_groups": 261,
+   "n_mcp_points": 283,
+   "n_clips": 339,
+   "n_matched_clips": 339
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 339
+ },
+ "tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev": {
+  "n": 193,
+  "dedup_actions": {
+   "none": 164,
+   "exact_repeat": 29
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 153,
+   "n_matched_groups": 152,
+   "n_mcp_points": 215,
+   "n_clips": 193,
+   "n_matched_clips": 191
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 191
+ },
+ "tv_2023wimF": {
+  "n": 368,
+  "dedup_actions": {
+   "none": 342,
+   "exact_repeat": 26
+  },
+  "mcp_info": {
+   "mcp": true
+  },
+  "n_aligned_pbp": 348,
+  "n_aligned_mcp": 348
+ },
+ "tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova": {
+  "n": 233,
+  "dedup_actions": {
+   "none": 223,
+   "exact_repeat": 10
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 172,
+   "n_matched_groups": 172,
+   "n_mcp_points": 177,
+   "n_clips": 233,
+   "n_matched_clips": 233
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 233
+ },
+ "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
+  "n": 218,
+  "dedup_actions": {
+   "none": 174,
+   "exact_repeat": 43,
+   "suffix_prefix_overlap": 1
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 172,
+   "n_matched_groups": 171,
+   "n_mcp_points": 249,
+   "n_clips": 218,
+   "n_matched_clips": 217
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 217
+ },
+ "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
+  "n": 271,
+  "dedup_actions": {
+   "none": 249,
+   "exact_repeat": 22
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 228,
+   "n_matched_groups": 227,
+   "n_mcp_points": 278,
+   "n_clips": 271,
+   "n_matched_clips": 270
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 270
+ },
+ "tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev": {
+  "n": 389,
+  "dedup_actions": {
+   "none": 354,
+   "exact_repeat": 35
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 310,
+   "n_matched_groups": 309,
+   "n_mcp_points": 371,
+   "n_clips": 389,
+   "n_matched_clips": 388
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 388
+ },
+ "tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez": {
+  "n": 165,
+  "dedup_actions": {
+   "none": 149,
+   "exact_repeat": 16
+  },
+  "mcp_info": {
+   "mcp": false
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 0
+ },
+ "tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic": {
+  "n": 298,
+  "dedup_actions": {
+   "none": 272,
+   "exact_repeat": 26
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 231,
+   "n_matched_groups": 230,
+   "n_mcp_points": 311,
+   "n_clips": 298,
+   "n_matched_clips": 297
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 297
+ },
+ "tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady": {
+  "n": 164,
+  "dedup_actions": {
+   "none": 149,
+   "exact_repeat": 15
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 116,
+   "n_matched_groups": 116,
+   "n_mcp_points": 123,
+   "n_clips": 164,
+   "n_matched_clips": 164
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 164
+ },
+ "tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin": {
+  "n": 68,
+  "dedup_actions": {
+   "none": 62,
+   "exact_repeat": 6
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 59,
+   "n_matched_groups": 59,
+   "n_mcp_points": 107,
+   "n_clips": 68,
+   "n_matched_clips": 68
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 68
+ },
+ "tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem": {
+  "n": 344,
+  "dedup_actions": {
+   "none": 311,
+   "exact_repeat": 33
+  },
+  "mcp_info": {
+   "mcp": true,
+   "n_groups": 267,
+   "n_matched_groups": 267,
+   "n_mcp_points": 304,
+   "n_clips": 344,
+   "n_matched_clips": 344
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 344
+ },
+ "tv_2019wimF": {
+  "n": 481,
+  "dedup_actions": {
+   "none": 426,
+   "exact_repeat": 55
+  },
+  "mcp_info": {
+   "mcp": true
+  },
+  "n_aligned_pbp": 473,
+  "n_aligned_mcp": 473
+ },
+ "tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova": {
+  "n": 257,
+  "dedup_actions": {
+   "none": 228,
+   "exact_repeat": 29
+  },
+  "mcp_info": {
+   "mcp": false
+  },
+  "n_aligned_pbp": 0,
+  "n_aligned_mcp": 0
+ },
+ "text_cornell": {
+  "n": 3962,
+  "n_scoreline_parsed": 3962
+ }
+}

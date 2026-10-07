@@ -1,0 +1,485 @@
+# corrections.log: one line per applied rule per utterance. Format: stream<TAB>utt_id<TAB>rule<TAB>match -> replacement<TAB>context (<=4 words each side)
+tv_2019wimF	tv_2019wimF:0002	N06	Kane Nishikori -> Kei Nishikori	Grand Slam by beating [[Kane Nishikori]] Novak Djokovic to serve
+tv_2019wimF	tv_2019wimF:0003	T03	15 left -> 15 love	 [[15 left]] 
+tv_2019wimF	tv_2019wimF:0005	T03	30 left -> 30 love	 [[30 left]] 40 left
+tv_2019wimF	tv_2019wimF:0005	T03	40 left -> 40 love	30 left [[40 left]] 
+tv_2019wimF	tv_2019wimF:0036	T05	30 off -> 30 love	 [[30 off]] That's what Roger does
+tv_2019wimF	tv_2019wimF:0050	T03	15 left -> 15 love	 [[15 left]] Novak serving with new
+tv_2019wimF	tv_2019wimF:0056	T03	15 left -> 15 love	 [[15 left]] Inter rally Federer was
+tv_2019wimF	tv_2019wimF:0059	N01	Diokovic -> Djokovic	Mr [[Diokovic]] is charging the call-up
+tv_2019wimF	tv_2019wimF:0073	N01	Diogovic -> Djokovic	Please Please Mr [[Diogovic]] is having a call
+tv_2019wimF	tv_2019wimF:0083	N01	Klokovic -> Djokovic	 [[Klokovic]] has picked up his
+tv_2019wimF	tv_2019wimF:0085	N03	Game Diogo -> Game Djokovic	 [[Game Diogo]] tiebreak coming up Can't
+tv_2019wimF	tv_2019wimF:0092	T03	15 left -> 15 love	in this second set [[15 left]] 
+tv_2019wimF	tv_2019wimF:0149	N01	Diogovic -> Djokovic	Game [[Diogovic]] 
+tv_2019wimF	tv_2019wimF:0163	T03	15 left -> 15 love	 [[15 left]] 
+tv_2019wimF	tv_2019wimF:0189	N02	Jokovic -> Djokovic	 [[Jokovic]] had love 15 on
+tv_2019wimF	tv_2019wimF:0199	N04	Nova -> Novak	 [[Nova]] gets a little emotional
+tv_2019wimF	tv_2019wimF:0206	N02	Jokovic -> Djokovic	we did it for [[Jokovic]] but now both players
+tv_2019wimF	tv_2019wimF:0215	N01	Diogovic -> Djokovic	 [[Diogovic]] new balls please First
+tv_2019wimF	tv_2019wimF:0215	T08	breakpoint -> break point	it to face a [[breakpoint]] Down two sets the
+tv_2019wimF	tv_2019wimF:0227	N01	Diogovic -> Djokovic	good happy birthday Game [[Diogovic]] They've been singing a
+tv_2019wimF	tv_2019wimF:0227	N01	Diogovic -> Djokovic	lot in their lives [[Diogovic]] leads by two games
+tv_2019wimF	tv_2019wimF:0229	T03	15 left -> 15 love	title to their resume [[15 left]] 
+tv_2019wimF	tv_2019wimF:0270	N05	Federal -> Federer	break Djokovic breaks the [[Federal]] Reserve That is news
+tv_2019wimF	tv_2019wimF:0284	N01	Diogovic -> Djokovic	Game [[Diogovic]] Important hole for the
+tv_2019wimF	tv_2019wimF:0319	N05	Federal -> Federer	points before on the [[Federal]] Soft So emotionally he's
+tv_2019wimF	tv_2019wimF:0323	T04	La 15 -> Love 15	 [[La 15]] Definitely a few more
+tv_2019wimF	tv_2019wimF:0326	N05	Federal -> Federer	15 13 [[Federal]] boxers virtually on their
+tv_2019wimF	tv_2019wimF:0395	T03	15 left -> 15 love	and 5-6 Now 6-7 [[15 left]] 30 left Really fearing
+tv_2019wimF	tv_2019wimF:0395	T03	30 left -> 30 love	Now 6-7 15 left [[30 left]] Really fearing the pressure
+tv_2019wimF	tv_2019wimF:0395	T03	thirty left -> thirty love	the pressure Two aces [[thirty left]] Fourty left
+tv_2019wimF	tv_2019wimF:0395	T03	Fourty left -> Fourty love	Two aces thirty left [[Fourty left]] 
+tv_2019wimF	tv_2019wimF:0395	T06	Fourty -> Forty	Two aces thirty love [[Fourty]] love
+tv_2019wimF	tv_2019wimF:0425	N01	Diogovic -> Djokovic	40-30 Game [[Diogovic]] 
+tv_2019wimF	tv_2019wimF:0427	T04	La 15 -> Love 15	 [[La 15]] Federer cannot afford to
+tv_2019wimF	tv_2019wimF:0432	N01	cacovic -> Djokovic	when you think [[cacovic]] had the emotional advantage
+tv_2019wimF	tv_2019wimF:0452	N01	Diogovic -> Djokovic	Game [[Diogovic]] 
+tv_2019wimF	tv_2019wimF:0464	T03	40 left -> 40 love	40-30 [[40 left]] back to 40-30 Djokovic
+tv_2019wimF	tv_2019wimF:0474	T02	juice -> deuce	game get back to [[juice]] have those breakpoint opportunities
+tv_2019wimF	tv_2019wimF:0474	T07	Fire set -> Fifth set	12 gains to 11 [[Fire set]] Having a good time
+tv_2019wimF	tv_2019wimF:0474	T08	breakpoints -> break points	up one second Two [[breakpoints]] down another Djokovic shows
+tv_2019wimF	tv_2019wimF:0474	T08	breakpoint -> break point	to deuce have those [[breakpoint]] opportunities all these champions
+tv_2023wimF	tv_2023wimF:0000	T05	15 off -> 15 love	 [[15 off]] 
+tv_2023wimF	tv_2023wimF:0010	T08	breakpoint -> break point	Club And Djokovic From [[breakpoint]] down Chop of the
+tv_2023wimF	tv_2023wimF:0041	N07	Alcala -> Alcaraz	important service game for [[Alcala]] He needs to just
+tv_2023wimF	tv_2023wimF:0041	N08	Andrusova -> Vondrousova	a hard time against [[Andrusova]] of the Czech Republic
+tv_2023wimF	tv_2023wimF:0081	N01	Csokvic -> Djokovic	in mind from Alcaraz [[Csokvic]] a huge roar
+tv_2023wimF	tv_2023wimF:0161	T08	breakpoint -> break point	of the ball another [[breakpoint]] opportunity
+tv_2023wimF	tv_2023wimF:0246	T01	Juice -> Deuce	hit the net cord [[Juice]] Here it is down
+tv_2023wimF	tv_2023wimF:0257	T02	juice -> deuce	all Fortson extended to [[juice]] though Once again still
+tv_2023wimF	tv_2023wimF:0277	T05	15 loud -> 15 love	 [[15 loud]] 
+tv_2023wimF	tv_2023wimF:0292	N07	Alvarez -> Alcaraz	15-40 Carlos [[Alvarez]] has two challenges remaining
+tv_2023wimF	tv_2023wimF:0315	T09	Breakpoint -> Break point	this men's singles final [[Breakpoint]] saved by the young
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0027	T08	breakpoint -> break point	much bigger on the [[breakpoint]] up five kilometers an
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0027	T08	breakpoint -> break point	of her biggest on [[breakpoint]] of the tournament
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0037	T08	breakpoint -> break point	makes the most of [[breakpoint]] opportunities
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0056	T10	down the tee -> down the T	first serve to go [[down the tee]] and she's got to
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0063	T10	down the tee -> down the T	need it There's the [[down the tee]] serve that we spoke
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0087	T08	breakpoints -> break points	I've had to survive [[breakpoints]] blemish free on serve
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova:0239	T03	15 left -> 15 love	in store for us [[15 left]] 
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem:0003	T02	juice -> deuce	the T on the [[juice]] side and out wide
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem:0113	T10	down the tee -> down the T	And maybe he's gone [[down the tee]] a lot on the
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem:0116	T03	30 left -> 30 love	 [[30 left]] 
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem:0196	N01	Stejkovic -> Djokovic	 [[Stejkovic]] changing the ball on
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem:0326	N02	Jokovic -> Djokovic	 [[Jokovic]] leads four games to
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0003	N21	Kenan -> Kenin	take time away from [[Kenan]] who we know can
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0006	N10	Sviantek -> Swiatek	didn't seem to cause [[Sviantek]] any problems at all
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0006	N10	Sviantek -> Swiatek	all Great point for [[Sviantek]] 
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0006	N21	Kennan -> Kenin	more You can see [[Kennan]] just trying to mix
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0007	N10	Sviantek -> Swiatek	long Great recovery from [[Sviantek]] In a way Kennan
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0007	N10	Sviantek -> Swiatek	ball She is irritated [[Sviantek]] gets her fired up
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0007	N10	Sviantek -> Swiatek	another fast start for [[Sviantek]] Every match as I
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0007	N21	Kennan -> Kenin	Swiatek In a way [[Kennan]] tossed away the loose
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0009	N10	Sviantek -> Swiatek	eight minutes it's three-love [[Sviantek]] The legendary American coach
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0009	N21	Kenan -> Kenin	Well there [[Kenan]] Previous point on this
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0011	N21	Kennan -> Kenin	more awkward See straightaway [[Kennan]] adapting her game
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0014	N21	Kennan -> Kenin	intelligent moon ball from [[Kennan]] Well that's what she
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0022	N10	Sviantek -> Swiatek	average topspin speed and [[Sviantek]] I mean 122 that's
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0023	N21	Kennan -> Kenin	been one area for [[Kennan]] particularly off the first
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0025	N10	Siontek -> Swiatek	Second double fault from [[Siontek]] They've both been where
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0026	N21	Kennan's -> Kenin's	is a compliment to [[Kennan's]] returning Three all 30
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0026	N21	Kennan -> Kenin	the point and certainly [[Kennan]] didn't expect that at
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0026	N21	Kennan -> Kenin	the service line but [[Kennan]] with all her body
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0030	N10	Sviontek -> Swiatek	important game for Iga [[Sviontek]] 
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0031	N21	Kenan -> Kenin	 [[Kenan]] with the new balls
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0032	N21	Kennan -> Kenin	court once more from [[Kennan]] She does such a
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0034	N10	Swiontek -> Swiatek	it was all about [[Swiontek]] 
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0034	N21	Kennan -> Kenin	You can see [[Kennan]] starting to try and
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0035	N10	Svantec -> Swiatek	is break point for [[Svantec]] 
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0035	N21	Kennan -> Kenin	Double foul from [[Kennan]] And this is break
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0039	N21	Kenan -> Kenin	that of course gives [[Kenan]] less time to be
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0040	N21	Kennan -> Kenin	a little more because [[Kennan]] was aware that was
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0042	N21	Kennan -> Kenin	whole point to the [[Kennan]] forehand then went down
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0042	N21	Kennan -> Kenin	she's not really allowing [[Kennan]] to get a rhythm
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0044	N21	Kennin -> Kenin	slightly angled forehand from [[Kennin]] Just overplaying
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0049	N21	Kenan -> Kenin	 [[Kenan]] one love second set
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0052	N10	Siante -> Swiatek	been successful so far [[Siante]] one-all
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin:0062	N21	Kennan -> Kenin	broken the concentration of [[Kennan]] 
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady	tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady:0001	N25	Asaka -> Osaka	the poise when Naomi [[Asaka]] walked out here onto
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady	tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady:0054	N25	Utaka -> Osaka	all Just such self-belief [[Utaka]] Nakamura there who's The
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0007	N02	Jokovic -> Djokovic	he beat a certain [[Jokovic]] in the final And
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0007	N02	Jokovic -> Djokovic	was the year that [[Jokovic]] had previously beaten Nadal
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0014	N20	Sitsipas -> Tsitsipas	as world number one [[Sitsipas]] will go to a
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0018	T02	juice -> deuce	just hovers in the [[juice]] court
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0027	N20	Sitsipas -> Tsitsipas	 [[Sitsipas]] would almost back himself
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0027	N20	Sitsipas -> Tsitsipas	just wide something that [[Sitsipas]] likes to do quite
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0039	N20	Sitsipas -> Tsitsipas	That's fantastic from [[Sitsipas]] He knew what Djokovic
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0059	N20	Sitsipas -> Tsitsipas	to come down And [[Sitsipas]] taking full advantage
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0081	N20	Sitsipas -> Tsitsipas	 [[Sitsipas]] breaks straight back And
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0086	T02	juice -> deuce	moving out of that [[juice]] court Able to anticipate
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0092	N20	Sitsipas -> Tsitsipas	his shirt But knowing [[Sitsipas]] I just wonder whether
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0097	N02	Jokovic -> Djokovic	 [[Jokovic]] is going for the
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0105	N20	Titipas -> Tsitsipas	 [[Titipas]] Titipas re-establishes the two-game
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0105	N20	Titipas -> Tsitsipas	Titipas [[Titipas]] re-establishes the two-game cushion
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0124	N20	Sitsipas -> Tsitsipas	 [[Sitsipas]] gets a second break
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0189	N02	Jokovic's -> Djokovic's	 [[Jokovic's]] return of serve It's
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0198	T02	juice -> deuce	wide serve on the [[juice]] court trying to open
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0203	N02	Jokovic -> Djokovic	 [[Jokovic]] looking refreshed at the
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0203	N02	Jokovic -> Djokovic	momentary extra time for [[Jokovic]] to hit penetrating returns
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0219	N20	Sitsipas' -> Tsitsipas'	back Sloppy points First [[Sitsipas']] miss and then Djokovic
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic:0295	N02	Jokovic -> Djokovic	the world number five [[Jokovic]] just walking straight back
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0004	N23	Layla -> Leylah	There's a bunch of [[Layla]] fans She just loves
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0008	N23	Leila -> Leylah	that she has beaten [[Leila]] Fernandez before
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0015	N23	Layla -> Leylah	Did those people know [[Layla]] before this tournament started
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0018	N22	Hernandez -> Fernandez	to see this Mary [[Hernandez]] making an adjustment Working
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0025	N22	Hernandez -> Fernandez	 [[Hernandez]] 73 in the world
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0064	N23	Leila -> Leylah	opening set Championship match [[Leila]] Fernandez just turned 19
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0084	N24	Raducano's -> Raducanu's	a hand in Emma [[Raducano's]] fortunes in the last
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0112	T01	Juice -> Deuce	 [[Juice]] 
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0120	T02	juice -> deuce	ball There was no [[juice]] to get to Fernandez
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0135	N23	Leila -> Leylah	I mean [[Leila]] Fernandez knocking down all
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0150	N24	Raducanini -> Raducanu	match right here Dante [[Raducanini]] 
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0154	N24	Raducano -> Raducanu	she has But Emma [[Raducano]] has a chance to
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0155	N24	Raducami -> Raducanu	few times now where [[Raducami]] hasn't quite hit her
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez:0158	N22	Hernandez -> Fernandez	to keep moving forward [[Hernandez]] able to take advantage
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0005	N16	Daniel -> Daniil	interesting aspect of watching [[Daniel]] Medvedev play who we've
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0019	N16	Daniel -> Daniil	lot of damage with [[Daniel]] and two I think
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0023	T10	down the tee -> down the T	60 of his serves [[down the tee]] on the outside of
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0029	N16	Daniel -> Daniil	and second service game [[Daniel]] Medvedev comes over and
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0039	N16	Daniel -> Daniil	And it's delight for [[Daniel]] 3-2
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0068	T02	juice -> deuce	time also on the [[juice]] You know I think
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0083	T02	juice -> deuce	the tee on the [[juice]] out wide on the
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0083	T10	down the tee -> down the T	Nadal in the past [[down the tee]] on the deuce out
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0114	N16	Daniel -> Daniil	volleys I've ever seen [[Daniel]] Medvedev hit Great movement
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0121	T01	Juice -> Deuce	A rare free point [[Juice]] This game is why
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0189	T04	La 15 -> Love 15	Out [[La 15]] 
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0201	T04	La 15 -> Love 15	error out of that [[La 15]] Well some of that
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0244	N16	Daniel -> Daniil	all seen it But [[Daniel]] definitely looks like he's
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0251	N16	Daniel -> Daniil	Wow Do not underestimate [[Daniel]] Medvedev Even if the
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev:0313	N17	Evidev -> Medvedev	real determination radiating from [[Evidev]] here at the start
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0011	T09	Breakpoint -> Break point	 [[Breakpoint]] number three
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0032	T02	juice -> deuce	of Djokovic Ate a [[juice]] again Remember in the
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0059	N02	Jokovic -> Djokovic	 [[Jokovic]] responding with his own
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0069	T08	breakpoint -> break point	error and here is [[breakpoint]] Nadal
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0096	T09	Breakpoint -> Break point	error like it did [[Breakpoint]] again for Nadal It's
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0114	N02	Jokovic -> Djokovic	 [[Jokovic]] was expecting the cross-court
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0119	N02	Jokovic -> Djokovic	 [[Jokovic]] is hitting with more
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0136	N26	Nidal -> Nadal	Cheers for Rafa Rafa [[Nidal]] supporters are in the
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0170	T03	40 left -> 40 love	 [[40 left]] to 4030 I needed
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0240	N02	Jokovic -> Djokovic	making a few mistakes [[Jokovic]] leading 5 to 4
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0250	T10	down the tee -> down the T	good body good serve [[down the tee]] I was pretty sure
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal:0270	T02	juice -> deuce	So there was enough [[juice]] on the ball Extracting
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0012	N18	Kasper -> Casper	the tournament started that [[Kasper]] Ruud has a chance
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0054	N07	Alvarez -> Alcaraz	two service games for [[Alvarez]] First serves in play
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0057	N18	Kasper -> Casper	First game second sets [[Kasper]] Ruud again idolized Rafa
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0057	T03	15 left -> 15 love	when he was 19 [[15 left]] 
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0060	N07	Alcrezda -> Alcaraz	the little things that [[Alcrezda]] he's a little bit
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0070	N19	Rude's -> Ruud	is that play that [[Rude's]] used quite a bit
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0075	N07	Alvarez -> Alcaraz	for you and certainly [[Alvarez]] has a little bit
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0116	N07	Alvarez -> Alcaraz	to one for Carlos [[Alvarez]] That's it one set
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0132	N07	Alvarez -> Alcaraz	a little slower than [[Alvarez]] He didn't get to
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0133	T03	15 left -> 15 love	major of the year [[15 left]] Dolls had some injuries
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0143	N18	Kasper -> Casper	correct people who say [[Kasper]] Ruud would be the
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0145	N19	Rude's -> Ruud	as Alcaraz hits it [[Rude's]] movement from that far
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0152	N07	Alvarez -> Alcaraz	Alper has expected Carlos [[Alvarez]] has played more tennis
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0152	N07	Alvarez -> Alcaraz	as though How does [[Alvarez]] win this match in
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0152	N18	Kasper -> Casper	more dramatic tennis than [[Kasper]] Rudd Rudd is being
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0152	N19	Rudd -> Ruud	dramatic tennis than Casper [[Rudd]] Rudd is being efficient
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0152	N19	Rudd -> Ruud	tennis than Casper Rudd [[Rudd]] is being efficient He's
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0157	N18	Kasper -> Casper	worried about good old [[Kasper]] Ruud Absolutely zero worry
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0187	T03	40 left -> 40 love	nine On 18 T [[40 left]] Number 10
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz:0205	T03	15 left -> 15 love	were talking about Please [[15 left]] Please ladies and gentlemen
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0003	N10	Chiantek -> Swiatek	 [[Chiantek]] able to generate pace
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0004	N10	Triantek -> Swiatek	a lot more than [[Triantek]] It's been successful behind
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0004	N12	Mukova -> Muchova	Nice drop shot from [[Mukova]] Standing inside her baseline
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0006	N12	Mukovo -> Muchova	in that point that [[Mukovo]] is starting to relax
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0007	N12	Mukova -> Muchova	now second serve Will [[Mukova]] take this one
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0007	T03	40 left -> 40 love	 [[40 left]] 40-30 and now second
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0011	N10	Chiantek -> Swiatek	on the opening point [[Chiantek]] was almost waiting for
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0012	N10	Siontek -> Swiatek	up to maybe help [[Siontek]] out because of a
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0012	N10	Siontek -> Swiatek	are break points for [[Siontek]] in the second game
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0012	N12	Mukova's -> Muchova's	the ball Not sure [[Mukova's]] feet are quite working
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0013	N10	Triantek -> Swiatek	Great returning from [[Triantek]] Did put pressure on
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0013	N12	Mukovo -> Muchova	Did put pressure on [[Mukovo]] and we saw her
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0018	N10	Siontek -> Swiatek	margins 10 minutes played [[Siontek]] already 3-0 up
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0021	N10	Siontek -> Swiatek	as an error But [[Siontek]] has returned extremely well
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0021	N10	Siontek -> Swiatek	has returned extremely well [[Siontek]] held her position then
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0027	N12	mukova -> Muchova	shape on it allowed [[mukova]] to be able to
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0033	N10	Siontek -> Swiatek	to try and put [[Siontek]] under more pressure or
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0033	N10	Siontek's -> Swiatek's	does that play into [[Siontek's]] strength Well I think
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0033	N10	Siontek -> Swiatek	ball It's then keeping [[Siontek]] back And then she's
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0033	N12	Mukova -> Muchova	quite high we know [[Mukova]] can flatten her forehand
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0034	N10	Siontek -> Swiatek	Just signs that [[Siontek]] is starting to get
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0038	N10	Triantek -> Swiatek	out taking time from [[Triantek]] Their only real option
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0038	N12	Mukova -> Muchova	so much damage for [[Mukova]] in her six matches
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0038	N12	Mukova -> Muchova	forward was excellent from [[Mukova]] Brilliant volley
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0039	N10	Siontek -> Swiatek	a good job keeping [[Siontek]] back would there be
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0039	N10	Siontek -> Swiatek	topspin just to keep [[Siontek]] at the back of
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0042	N10	Sviantek -> Swiatek	of the court by [[Sviantek]] And that little scream
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0042	N10	Sviantek -> Swiatek	break but it's 4-1 [[Sviantek]] first set
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0049	N10	Siontek -> Swiatek	to swing away from [[Siontek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0053	N10	Siontek -> Swiatek	We know how quick [[Siontek]] is off the mark
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0053	N12	Mukova -> Muchova	and brilliant feel from [[Mukova]] We know how quick
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0055	N12	Mukova -> Muchova	to get through for [[Mukova]] And continuing to really
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0056	N10	Svantec -> Swiatek	she's constructing the point [[Svantec]] 4-2 first set
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0065	N10	Sriantek's -> Swiatek's	drop shot For starting [[Sriantek's]] getting wise to them
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0071	N10	Svantec -> Swiatek	Thanks in part to [[Svantec]] slipping off the miss-hit
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0071	N10	Svantec -> Swiatek	on the racket and [[Svantec]] not able to do
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0071	N12	Mukova -> Muchova	into the body of [[Mukova]] Well just to get
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0074	N10	Sviontek -> Swiatek	getting no errors from [[Sviontek]] More from Sabalenka
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0076	N10	Siontek -> Swiatek	of play as well [[Siontek]] has dealt with it
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0078	N10	Sviantek -> Swiatek	part of the net [[Sviantek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0081	N12	Mukova -> Muchova	trying to get behind [[Mukova]] This could still become
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0082	N10	Triantek -> Swiatek	again great defence from [[Triantek]] able to put that
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0086	N10	Triantek -> Swiatek	to get impressive from [[Triantek]] the change of pace
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0086	N12	Mukova's -> Muchova's	the type of problems [[Mukova's]] other opponents have found
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0088	N12	Makova -> Muchova	timing spot on there [[Makova]] The coach just applauding
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0094	N10	Siontek -> Swiatek	too many of those [[Siontek]] has returned well
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0098	N10	Chiantek's -> Swiatek's	came overruled immediately and [[Chiantek's]] accepted it
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0099	N10	Siontek -> Swiatek	Interesting Excellent play by [[Siontek]] but good defending by
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0099	N12	Mukova -> Muchova	but good defending by [[Mukova]] 14 points that have
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0099	N12	Mukova -> Muchova	that one of them [[Mukova]] has only won four
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0100	N12	Mukova -> Muchova	is more purposeful by [[Mukova]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0103	N10	Siontek -> Swiatek	cleaned the baseline of [[Siontek]] Siontek just wide And
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0103	N10	Siontek -> Swiatek	the baseline of Siontek [[Siontek]] just wide And here
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0103	N12	Moukova -> Muchova	 [[Moukova]] cleaned the baseline of
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N10	Svantec -> Swiatek	But back on serve [[Svantec]] leading 3-2 Look at
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N10	Sviantek -> Swiatek	what you say that [[Sviantek]] is playing a much
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N12	Mukova -> Muchova	it That is the [[Mukova]] that beats Zabalenka And
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N12	Mukova -> Muchova	match then so is [[Mukova]] But back on serve
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N12	Mukova -> Muchova	depth once more from [[Mukova]] to be really aggressive
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0104	N12	Mukova -> Muchova	I just don't think [[Mukova]] trusted her shots and
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0105	N10	Siontek -> Swiatek	overhead but anticipated by [[Siontek]] Asked another question and
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0112	N10	Shantek -> Swiatek	 [[Shantek]] 3 all
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0123	N10	Siontek -> Swiatek	is a gift from [[Siontek]] A very welcome one
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0123	N10	Chiantek -> Swiatek	have come off the [[Chiantek]] bracket Very few
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0123	N12	Mukova -> Muchova	very welcome one for [[Mukova]] I say it's a
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0130	N12	Mukova -> Muchova	A calm character herself [[Mukova]] Four all 30 all
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0131	N12	Mukova -> Muchova	around it really well [[Mukova]] Point to lead 5-4
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0133	T08	breakpoint -> break point	Second serve on [[breakpoint]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0139	N10	Siontek -> Swiatek	Interesting [[Siontek]] has handled the slice
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0139	N10	Siontek's -> Swiatek's	effective for Makovic because [[Siontek's]] done a good job
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0139	N10	Siontek -> Swiatek	a little tight from [[Siontek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0143	N10	Triantek -> Swiatek	aware of how well [[Triantek]] moves around the court
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0145	N10	Triantek -> Swiatek	that forehand cross-court from [[Triantek]] pushing Ukever into defence
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0149	N10	Triantek -> Swiatek	Under pressure again here [[Triantek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0151	N10	Sviantik -> Swiatek	Very loose by [[Sviantik]] The nerves are getting
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0151	N12	Mukova -> Muchova	her It means that [[Mukova]] will serve for a
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0156	N10	Svantec -> Swiatek	is most uncharacteristic of [[Svantec]] Well she saved a
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0159	N10	Siontek -> Swiatek	puts that back behind [[Siontek]] Excellent control on the
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0159	N10	Chiantek -> Swiatek	You have to credit [[Chiantek]] a lot of pressure
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0159	N12	Mukova -> Muchova	focus as well from [[Mukova]] A quote from Roland
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0159	N12	Mukova -> Muchova	to the most tenacious [[Mukova]] is being very tenacious
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0159	N12	Mukova -> Muchova	was great defence from [[Mukova]] the shanked forehand Trying
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0172	N10	Siontek -> Swiatek	of the set for [[Siontek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0178	N10	Siontek -> Swiatek	that was fortunate for [[Siontek]] I think that changed
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0180	N10	Sviantek -> Swiatek	a good point and [[Sviantek]] has got back to
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0180	N10	Sviantek -> Swiatek	the points tennis from [[Sviantek]] Points for Toole
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0180	N12	Mukova -> Muchova	of time away from [[Mukova]] stop her being able
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0183	N10	Shiontek -> Swiatek	 [[Shiontek]] breaks back
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0184	N10	Sviantek -> Swiatek	 [[Sviantek]] to all final set
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0186	N10	Sviatek -> Swiatek	run of points for [[Sviatek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0188	N10	Siontek's -> Swiatek's	off the strings of [[Siontek's]] racket
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0191	N10	Triantek -> Swiatek	She's picketing from [[Triantek]] Made a couple of
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0192	N10	Siontek -> Swiatek	but normally bank on [[Siontek]] to make that maybe
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0196	N12	Mukova -> Muchova	chance Heavy breathing from [[Mukova]] Is that nerves or
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0201	N12	Mukova -> Muchova	good aggressive game from [[Mukova]] And she moves ahead
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0210	N12	Mukova -> Muchova	was almost waiting for [[Mukova]] to commit
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0216	N10	Siontek -> Swiatek	 [[Siontek]] looking down but I'm
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0217	N10	Siontek -> Swiatek	pace Back in behind [[Siontek]] as well A little
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0219	N10	Shiantek -> Swiatek	very big forehand from [[Shiantek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0223	N10	Triantek -> Swiatek	the aggressive play of [[Triantek]] To be able to
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0224	N10	Chiantek -> Swiatek	Point for 54 for [[Chiantek]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0225	N12	Mukova -> Muchova	weak forehands from Karolina [[Mukova]] And the world number
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0226	N12	Mukova -> Muchova	are not working for [[Mukova]] 
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0227	N10	Siontek -> Swiatek	for the Czech now [[Siontek]] two points from victory
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0227	N12	Mukova -> Muchova	up the line from [[Mukova]] I'm not able to
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0230	N10	Siontek -> Swiatek	again Clever return by [[Siontek]] though Chance 40 Championship
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova:0231	N10	Svantec -> Swiatek	 [[Svantec]] asserts her position as
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev	tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev:0147	T03	40 left -> 40 love	start for Novak Djokovic [[40 left]] 
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev	tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev:0151	N17	Medved -> Medvedev	Obviously it can't be [[Medved]] ever he's game first
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev	tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev:0156	N16	Daniel -> Daniil	elbow a little bit [[Daniel]] not ready to get
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev	tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev:0185	N17	Benvedev -> Medvedev	pasting ground strokes and [[Benvedev]] hung in there And
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0012	N09	Yannick -> Jannik	the slight difference for [[Yannick]] today is the flatter
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0026	N16	Daniel -> Daniil	about the way that [[Daniel]] plays this game And
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0029	N09	Yannick -> Jannik	picture the physio for [[Yannick]] Sinner He used to
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0035	N09	Yannick -> Jannik	at that slide from [[Yannick]] something a little bit
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0038	N09	Yannick -> Jannik	direct and consistent And [[Yannick]] he's having to nurse
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0050	N09	Yannick -> Jannik	amazing You know when [[Yannick]] won his first service
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0050	N16	Daniel -> Daniil	Basset you've seen [[Daniel]] play Wally this tournament
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0050	N16	Daniel -> Daniil	say it's gold from [[Daniel]] absolute gold You know
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0063	N09	Yannick -> Jannik	is true here of [[Yannick]] Sinner in the early
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0064	N09	Yannick -> Jannik	of the tunnel for [[Yannick]] because it did happen
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0064	N16	Daniel -> Daniil	the French Open And [[Daniel]] when he grabs the
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0065	N09	Yannick -> Jannik	expect a lot of [[Yannick]] He's only 22 years
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0065	N09	Yannick -> Jannik	learn a bit about [[Yannick]] right here
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0073	N09	Yannick -> Jannik	in your game and [[Yannick]] has that on that
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0074	N16	Daniel -> Daniil	returns coming back from [[Daniel]] 
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0077	N17	Evidev -> Medvedev	good this is from [[Evidev]] right now
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0079	N09	Yannick -> Jannik	nevertheless Let's not forget [[Yannick]] Sinner came into this
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0092	N09	Yannick -> Jannik	would like to see [[Yannick]] Yuzi serve a little
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0102	N09	Yannick -> Jannik	he's just all over [[Yannick]] Sinner at the moment
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0104	N09	Yannick -> Jannik	a childhood friend of [[Yannick]] Sinner since he was
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0105	N09	Yannick -> Jannik	see the potential in [[Yannick]] Center before signing up
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0106	N09	Yannick -> Jannik	the net away from [[Yannick]] I mean Darren that's
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0106	N09	Yannick's -> Jannik's	think that means that [[Yannick's]] got to start going
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0109	N09	Yannick -> Jannik	you can't say that [[Yannick]] Sinan did anything wrong
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0110	N09	Yannick -> Jannik	the change up from [[Yannick]] Sinner But he's having
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0143	N09	Yannick -> Jannik	a long journey for [[Yannick]] Sinner accomplished very nicely
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0159	N09	Yannick -> Jannik	And our good friend [[Yannick]] has got more time
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0176	N17	Verev -> Medvedev	Open Dominic Thiem against [[Verev]] of course more recently
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0182	N09	Yannick -> Jannik	get away with that [[Yannick]] I thought he should
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0211	N16	Daniel -> Daniil	the perfect storm that [[Daniel]] had produced for an
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0215	N09	Yannick -> Jannik	speeds Big uptick for [[Yannick]] and now eclipsing Medvedev
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0216	N09	Yannick's -> Jannik's	it's a sign that [[Yannick's]] racket head speed has
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0216	N09	Yannick's -> Jannik's	of fatigue in it [[Yannick's]] got more time
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0217	N09	Yannick -> Jannik	 [[Yannick]] has to be a
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0234	N09	Yannick -> Jannik	 [[Yannick]] sooner to one in
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0245	N09	Yannick -> Jannik	because of that Well [[Yannick]] was almost forced onto
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0249	N16	Daniel -> Daniil	Don't often see [[Daniel]] Walker's up into the
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0280	N16	Daniel -> Daniil	been interesting to watch [[Daniel]] conserve his energy This
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0288	N09	Yannick -> Jannik	of external stuff for [[Yannick]] in the last sort
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev:0316	N16	Daniel -> Daniil	Turning to despair for [[Daniel]] Medvedev once again Thank
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0003	N10	Siontek -> Swiatek	Certainly a serve that [[Siontek]] has been using well
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0003	T02	juice -> deuce	as well on the [[juice]] side and serving speeds
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0003	T10	down the tee -> down the T	well that slice of [[down the tee]] on the ad side
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0004	N10	Chiantek -> Swiatek	few loose shots from [[Chiantek]] in the last round
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0004	N10	Triantek -> Swiatek	that match I thought [[Triantek]] was smart with how
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0010	N10	Chiantek -> Swiatek	Avantage for [[Chiantek]] 
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0013	N13	Paulini -> Paolini	Ah montage [[Paulini]] 
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0015	N10	Sviantek -> Swiatek	rapid final partly because [[Sviantek]] won a 40-minute six-love-six-love
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0020	N10	Siontek -> Swiatek	Paolini doing to [[Siontek]] what Siontek does to
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0020	N10	Siontek -> Swiatek	doing to Siontek what [[Siontek]] does to so many
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0023	N10	Svantek -> Swiatek	started very nervously and [[Svantek]] was a set and
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0026	N10	Sviantek -> Swiatek	will be attacked by [[Sviantek]] A response from Sviantek
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0026	N10	Sviantek -> Swiatek	Sviantek A response from [[Sviantek]] breaking straight back Panic
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0028	N10	Svantec -> Swiatek	 [[Svantec]] Tuul first set
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0030	N10	Sviantik -> Swiatek	goes out wide and [[Sviantik]] has time she'll find
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0032	N10	Chiantek's -> Swiatek's	thing to break up [[Chiantek's]] rhythm It's not easy
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0033	N10	Svantec -> Swiatek	Bonjour [[Svantec]] She went for the
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0033	N10	Chiantek -> Swiatek	was on but 40-15 [[Chiantek]] leading 3-2 first set
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0033	N13	Paulini -> Paolini	for the big forehand [[Paulini]] then the drop shot
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0034	N10	Siontek -> Swiatek	Clever lob though from [[Siontek]] Give her that Absolutely
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0039	N10	Sviantek -> Swiatek	a break point for [[Sviantek]] 
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0040	N10	Sviatek -> Swiatek	the run for Iga [[Sviatek]] 
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0041	N10	Sviantek -> Swiatek	 [[Sviantek]] just measuring a ball
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0041	N10	Sviantek -> Swiatek	the President's box end [[Sviantek]] at 4-2 15-0
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0046	N10	Swiontek -> Swiatek	middle Yeah it gave [[Swiontek]] a tough ball to
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0047	N10	Chiantek -> Swiatek	the full court by [[Chiantek]] Four games on the
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0050	N10	Sviantek -> Swiatek	make And rather quickly [[Sviantek]] has got to three
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0052	N10	Sviantek -> Swiatek	 [[Sviantek]] It looked rather interesting
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0052	N10	Svantec -> Swiatek	games later all to [[Svantec]] the defending champion and
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0056	N10	Triantek -> Swiatek	more and more from [[Triantek]] her ability to change
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0065	N13	Halini's -> Paolini's	forehand cleaned the baseline [[Halini's]] got to be a
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0065	N13	Halini's -> Paolini's	seems to have burst [[Halini's]] bubble
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0067	N10	Siontek -> Swiatek	into the body of [[Siontek]] Couldn't quite get enough
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0068	N13	Paulini -> Paolini	Ah montage [[Paulini]] 
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0071	N10	Chiantek -> Swiatek	a tremendous recovery from [[Chiantek]] Getting such depth on
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0079	N13	Paulini -> Paolini	that first one gets [[Paulini]] off the court and
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0083	N10	Svantec -> Swiatek	on Been a break-up [[Svantec]] a set and four
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0088	T10	down the tee -> down the T	the serve to go [[down the tee]] in a pattern Triontek's
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0092	N10	sriyantek -> Swiatek	that set up for [[sriyantek]] point for five love
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0099	N10	Chiantek -> Swiatek	It's wide [[Chiantek]] not getting down to
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini:0101	N10	Siontek -> Swiatek	 [[Siontek]] serving for the title
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0004	N14	Krajicova -> Krejcikova	there That forehand of [[Krajicova]] hits it well Paulina
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0005	N14	Krejcik -> Krejcikova	It's a pattern that [[Krejcik]] loves She loves to
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0006	N14	Grejcikova -> Krejcikova	Again [[Grejcikova]] Grejcikova leads by two
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0006	N14	Grejcikova -> Krejcikova	Again Grejcikova [[Grejcikova]] leads by two games
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0012	N14	Krychikova -> Krejcikova	can see already from [[Krychikova]] her ability to neutralize
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0013	N14	Kurechikov -> Krejcikova	Advantage [[Kurechikov]] So within 10 minutes
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0013	N14	Kurechikov -> Krejcikova	this lady's singles final [[Kurechikov]] had an opportunity for
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0017	N14	Kuchikova -> Krejcikova	off both wings for [[Kuchikova]] is something she's looking
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0019	N14	Krutikova -> Krejcikova	That's the forehand from [[Krutikova]] It can do so
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0022	N14	Kocikova -> Krejcikova	one five and six [[Kocikova]] yet to come in
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0022	N14	Kocikova -> Krejcikova	winners on short balls [[Kocikova]] watched by Pavel Motyl
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0032	N13	Polini -> Paolini	against her I think [[Polini]] that's exactly what she's
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0038	N13	Paulini -> Paolini	Jasmine [[Paulini]] is challenging the call
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0038	N13	Paulini -> Paolini	Called in challenge by [[Paulini]] Something to go away
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0039	N13	Paulini -> Paolini	the moment unbeatable So [[Paulini]] serving to stay in
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0046	N14	Mechikova -> Krejcikova	on this opening set [[Mechikova]] leads by five gains
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0050	N15	Barbara -> Barbora	set of tennis from [[Barbara]] By six games to
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0071	N14	Grachikova -> Krejcikova	a double break here [[Grachikova]] did not face a
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0108	N13	Paulini -> Paolini	She was really hurting [[Paulini]] with much recently In
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0124	N14	Krejcik -> Krejcikova	traffic to the Barbara [[Krejcik]] of her backhand And
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0124	N15	Barbara -> Barbora	more traffic to the [[Barbara]] Krejcikova of her backhand
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0136	T03	15 left -> 15 love	Another liner [[15 left]] Forehand from the first
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0149	N13	Pellini -> Paolini	 [[Pellini]] up against the experience
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0157	N13	Pallini -> Paolini	position slightly if you're [[Pallini]] this game considering how
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0157	N14	Grejcikova -> Krejcikova	in this Wimbledon final [[Grejcikova]] leads by five gains
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0164	T01	Juice -> Deuce	to the safety of [[Juice]] Juice
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova:0164	T01	Juice -> Deuce	the safety of Juice [[Juice]] 
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0001	N09	Yannick -> Jannik	1513 [[Yannick]] Center is simply better
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0002	N09	Yannick -> Jannik	opportunity As well as [[Yannick]] Center 1540 points here
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0034	N09	Yannick -> Jannik	First days for [[Yannick]] Sinner There was a
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0037	N09	Yannick -> Jannik	Delivers the information to [[Yannick]] 
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0042	N09	Yannick -> Jannik	backhand pocket there of [[Yannick]] Center and both these
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0045	N09	Yannick -> Jannik	Novak Djokovic So when [[Yannick]] Sinner moved to Carlo
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0049	N09	Yannick -> Jannik	round stroke games of [[Yannick]] Sinner and Taylor Fritz
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0052	T04	La 15 -> Love 15	 [[La 15]] 
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0064	N09	Yannick -> Jannik	be because he's playing [[Yannick]] Center or a combination
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0066	N09	Yannick -> Jannik	Amazing from [[Yannick]] Center Prince of course
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0068	N09	Yannick -> Jannik	past the serve because [[Yannick]] Center moves better and
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0068	N09	Yannick -> Jannik	court As well as [[Yannick]] Center it has the
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0078	N09	Yannick -> Jannik	this loose-limbed grace about [[Yannick]] Sinner that I find
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0079	N09	Yannick -> Jannik	talked a lot about [[Yannick]] Center and his development
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0107	N09	Yannick -> Jannik	have to do what [[Yannick]] center did in his
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0115	N09	Yannick -> Jannik	since Sasha's very beat [[Yannick]] center here in the
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0118	N09	Yannick -> Jannik	you don't you need [[Yannick]] Center to have a
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0132	N09	Yannick -> Jannik	he's felt good against [[Yannick]] playing the shots coming
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0134	N09	Yannick -> Jannik	down the line from [[Yannick]] Center was a key
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0136	N09	Yannick -> Jannik	of breaking that sideline [[Yannick]] I can see being
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0136	N09	Yannick -> Jannik	making first serves today [[Yannick]] center but boy the
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0180	N09	Yannick -> Jannik	first two sets Did [[Yannick]] centers obviously had to
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner:0185	N09	Yannick -> Jannik	double championship point for [[Yannick]] Center
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0002	N09	Yannick's -> Jannik's	now Ben Shelton And [[Yannick's]] is too But the
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0056	N09	Yannick -> Jannik	 [[Yannick]] Senna before the match
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0059	N09	Yannick -> Jannik	Ben Shelton here for [[Yannick]] Sinner they are totally
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0059	N09	Yannick -> Jannik	conversation with coach of [[Yannick]] Center Darren Cahill and
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0069	N09	Yannick -> Jannik	build the pressure on [[Yannick]] Shelton's already faced break
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0097	N27	Sheldon -> Shelton	against though isn't it [[Sheldon]] faced break points in
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0112	N09	Yannick -> Jannik	Sinner That's how good [[Yannick]] has been at getting
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0123	T09	Breakpoint -> Break point	to make those balls [[Breakpoint]] A golden opportunity missed
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0126	N09	Yannick -> Jannik	like that If you're [[Yannick]] Center just to get
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0128	T03	15 left -> 15 love	 [[15 left]] Well Fitzy I think
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0133	N09	Yannick -> Jannik	As soon as [[Yannick]] went down the line
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0140	T02	juice -> deuce	of discipline there at [[juice]] in the not juice
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0140	T02	juice -> deuce	juice in the not [[juice]] it was actually his
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0164	T11	Setpoint -> Set point	depth on the return [[Setpoint]] center
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0166	T01	Juice -> Deuce	 [[Juice]] 
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0179	N09	Yannick -> Jannik	and you just see [[Yannick]] have to change the
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0193	N09	Yannick -> Jannik	13 Of course for [[Yannick]] Sinner now you've got
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0203	T01	Juice -> Deuce	 [[Juice]] Yeah that that didn't
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0223	N13	Paulini -> Paolini	It was both Jasmine [[Paulini]] and Francesca Schiavone Both
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton:0230	N09	Yannick -> Jannik	third major final for [[Yannick]] Senna On Sunday he
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0008	N10	Sviantek -> Swiatek	Anna Samova can rush [[Sviantek]] on that forehand side
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0008	N10	Sviantek -> Swiatek	for opponents in beating [[Sviantek]] at Wimbledon in the
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0008	N11	Anna Samova -> Amanda Anisimova	curious to see how [[Anna Samova]] can rush Swiatek on
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0012	N10	Chiantek -> Swiatek	Gautier 15 Game [[Chiantek]] Chiantek so far hitting
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0012	N10	Chiantek -> Swiatek	Gautier 15 Game Chiantek [[Chiantek]] so far hitting all
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0014	N11	Anna Samova's -> Amanda Anisimova's	more unforced errors in [[Anna Samova's]] game certainly than in
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0014	N11	Anna Samova -> Amanda Anisimova	her any freebies because [[Anna Samova]] can be so dangerous
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0027	N10	Sviantek -> Swiatek	a great angle from [[Sviantek]] And that's really going
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0027	N10	Sviantek -> Swiatek	not as good as [[Sviantek]] And she's so wound
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0028	N10	Sviantek -> Swiatek	opening service game And [[Sviantek]] eyeing up another here
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0029	N10	Svantec -> Swiatek	the right balance because [[Svantec]] has started off much
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0032	N10	Sviantek -> Swiatek	the real commitment for [[Sviantek]] to really want to
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0039	N11	Anna Samova -> Amanda Anisimova	was a concern for [[Anna Samova]] as well She's been
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0041	N11	Anna Samova -> Amanda Anisimova	the First step of [[Anna Samova]] 
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0044	N10	Sviantek -> Swiatek	Incredible scrambling from [[Sviantek]] What an athlete she
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0045	N10	Siontek -> Swiatek	been sailing for Iga [[Siontek]] in a very one-sided
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0055	N10	Shviantek -> Swiatek	miles an hour and [[Shviantek]] more than happy and
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0059	N10	Sviantik -> Swiatek	cool but if you're [[Sviantik]] you don't want to
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0059	N11	Anna Samova -> Amanda Anisimova	want to give up [[Anna Samova]] a game here you
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0059	N11	Anna Samova -> Amanda Anisimova	is so important for [[Anna Samova]] to hold and not
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0073	N10	Sviantek -> Swiatek	Nice job from Igor [[Sviantek]] coming into that short
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0082	N10	Sviantik -> Swiatek	here possibly except Igor [[Sviantik]] 
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0085	N10	Svantec -> Swiatek	15 15 on Igor [[Svantec]] when she woke up
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek:0085	T04	La 15 -> Love 15	 [[La 15]] 15 on Igor Swiatek
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0000	N09	Yannick -> Jannik	Mary You mentioned that [[Yannick]] centers first serve percentage
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0007	T01	Juice -> Deuce	 [[Juice]] 
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0022	N09	Yannick -> Jannik	at Lindsey Paul And [[Yannick]] sinners in the box
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0022	N09	Yannick -> Jannik	she's skied with With [[Yannick]] it says that his
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0026	N09	Yannick -> Jannik	Carlos and that gives [[Yannick]] a chance to get
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0058	T03	15 left -> 15 love	six games to do [[15 left]] 
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0123	N07	Alvarez -> Alcaraz	dismissed the majesty of [[Alvarez]] in that opening set
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0123	N09	Yannick -> Jannik	long and second sets [[Yannick]] Sinner dismissed the majesty
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0139	N09	Yannick -> Jannik	we've got to give [[Yannick]] plenty of credit He's
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0148	N09	Yannick -> Jannik	back and also befuddling [[Yannick]] center
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0153	N09	Yannick -> Jannik	forehand unforced errors from [[Yannick]] center Feeling the pressure
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0166	N09	Yannick -> Jannik	conditions the better for [[Yannick]] Center It's more difficult
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0177	N07	Alvarez -> Alcaraz	To Carlos [[Alvarez]] and the trainer here
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0181	T02	juice -> deuce	 [[juice]] that felt awfully close
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0184	N09	Yannick -> Jannik	many more times will [[Yannick]] Center see him in
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0184	N09	Yannick's -> Jannik's	He's been instrumental to [[Yannick's]] rise Great point again
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz:0191	N09	Yannick -> Jannik	Ask another question of [[Yannick]] 

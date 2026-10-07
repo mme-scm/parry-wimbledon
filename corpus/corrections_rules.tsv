@@ -1,0 +1,39 @@
+id	kind	scope	pattern	replacement	confidence	reason
+N01	name	20190714,20230716,20230910,20220531,20210613,20200202	\b(?:Diogovic|Diogovi|Diokovic|Klokovic|cacovic|Csokvic|Stejkovic)\b	Djokovic	high	ASR variants of Djokovic (several are the umpire call 'Game <name>'); checked in context in the 2019 and 2023 finals
+N02	name	all	\bJokovic\b(?P<s>'s)?	Djokovic\g<s>	high	initial D dropped by ASR
+N03	name	20190714	\bGame Diogo\b	Game Djokovic	high	umpire call 'Game Djokovic' before 'tiebreak coming up'
+N04	name	20190714	\bNova\b(?= gets a little emotional)	Novak	high	clip text: 'Nova gets a little emotional now'; Novak Djokovic
+N05	name	20190714	\bFederal\b	Federer	medium	ASR 'Federal' for Federer (e.g. 'Nadal federal semifinal'); some contexts are 'Federer's serve' garbled
+N06	name	all	\bKane Nishikori\b	Kei Nishikori	high	player name 'Kei Nishikori'; checked against 'Nishikori' (ASR keeps the surname); not a match player
+N07	name	20230716,20250907,20220911	\b(?:Alcala|Alvarez|Alcrezda)\b(?P<s>'s)?	Alcaraz\g<s>	high	ASR variants of Alcaraz in matches where he plays
+N08	name	20230716	\bAndrusova\b	Vondrousova	medium	Czech player named in the 2023 final commentary; ASR variant (surname in the Wimbledon 2023 PBP matches file, checked by script)
+N09	name	20250907,20250124,20240908,20240128	\bYannick(?P<s>'s)?\b	Jannik\g<s>	high	Jannik Sinner transcribed as 'Yannick'
+N10	name	20250712,20240608,20230610,20201010	\b(?:Sviantek|Siontek|Chiantek|Triantek|Svantek|Svantec|Sviantik|Sviatek|Swiontek|Sviontek|Sriyantek|sriyantek|Sriantek|Shiantek|Shiontek|Shantek|Shviantek|Siante)\b(?P<s>'s)?	Swiatek\g<s>	high	ASR variants of Swiatek
+N11	name	20250712	\bAnna Samova\b(?P<s>'s)?	Amanda Anisimova\g<s>	medium	'Anna Samova' = Amanda Anisimova (match player, other finalist Swiatek)
+N12	name	20230610	\b(?:Mukova|Mukovo|Makova|Moukova|mukova)\b(?P<s>'s)?	Muchova\g<s>	high	ASR variants of Muchova
+N13	name	20240713,20240608,20250124	\b(?:Paulini|Pellini|Pallini|Polini|Halini)\b(?P<s>'s)?	Paolini\g<s>	high	ASR variants of Paolini
+N14	name	20240713	\b(?:Grejcikova|Krajicova|Kurechikov|Kocikova|Krychikova|Kuchikova|Krutikova|Mechikova|Grachikova|Krejcik)\b	Krejcikova	medium	ASR variants of Krejcikova
+N15	name	20240713	\bBarbara\b	Barbora	high	Barbora Krejcikova
+N16	name	20240128,20230910,20220130	\bDaniel\b	Daniil	medium	Daniil Medvedev transcribed as 'Daniel' (matches with Medvedev)
+N17	name	20240128,20230910,20220130	\b(?:Evidev|Verev|Benvedev|Medved)\b	Medvedev	medium	ASR variants of Medvedev
+N18	name	20220911	\bKasper\b	Casper	high	Casper Ruud
+N19	name	20220911	\bRudd\b|\bRude's\b	Ruud	high	Casper Ruud
+N20	name	20210613	\b(?:Sitsipas|Titipas)\b(?P<s>')?	Tsitsipas\g<s>	high	ASR variants of Tsitsipas
+N21	name	20201010	\b(?:Kennan|Kenan|Kennin)\b(?P<s>'s)?	Kenin\g<s>	high	Sofia Kenin
+N22	name	20210911	\bHernandez\b	Fernandez	medium	Leylah Fernandez
+N23	name	20210911	\b(?:Leila|Layla)\b	Leylah	medium	Leylah Fernandez
+N24	name	20210911	\b(?:Raducano|Raducami|Raducanini)\b(?P<s>'s)?	Raducanu\g<s>	high	ASR variants of Raducanu
+N25	name	20210220,20190126	\b(?:Asaka|Utaka)\b	Osaka	medium	ASR variants of Osaka
+N26	name	20220531,20220130	\bNidal\b	Nadal	medium	ASR variant of Nadal
+N27	name	20250124	\bSheldon\b	Shelton	high	Ben Shelton
+T01	term	all	\bJuice\b	Deuce	high	ASR 'juice' for 'deuce' (score call / deuce court)
+T02	term	all	\bjuice\b	deuce	high	ASR 'juice' for 'deuce'
+T03	term	all	\b(?P<n>15|30|40|[Ff]ifteen|[Tt]hirty|[Ff]orty|[Ff]ourty) left\b	\g<n> love	high	ASR 'left' for 'love' in score calls
+T04	term	all	\bLa (?P<n>15|30|40)\b	Love \g<n>	high	ASR 'La' for 'Love' in score calls
+T05	term	all	\b(?P<n>15|30|40) (?:off|loud)(?=[.,])	\g<n> love	medium	ASR 'off'/'loud' for 'love' directly after a score number before punctuation
+T06	term	all	\bFourty\b	Forty	high	misspelling
+T07	term	20190714	\bFire set\b	Fifth set	high	'gains to 11. Fire set.' (fifth set at 12-12 tie-break rule); no such phrase otherwise
+T08	term	all	\bbreakpoint(?P<s>s?)\b	break point\g<s>	normalisation	spelling variant of 'break point' (53 two-word vs 18 one-word uses)
+T09	term	all	\bBreakpoint(?P<s>s?)\b	Break point\g<s>	normalisation	spelling variant of 'break point'
+T10	term	all	\bdown the tee\b	down the T	normalisation	serve location 'down the T'
+T11	term	all	\bSetpoint\b	Set point	normalisation	spelling variant of 'set point'
