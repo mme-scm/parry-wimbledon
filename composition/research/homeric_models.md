@@ -55,6 +55,19 @@ Il. 11.218   [1-12]  ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια 
 Il. 14.508   [1-12]  ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματʼ ἔχουσαι    <ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματʼ ἔχουσαι>
 Il. 16.112   [1-12]  ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματʼ ἔχουσαι,    <ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματʼ ἔχουσαι>
 ```
+The line that follows each of the four invocations:
+```
+Il. 2.485    ὑμεῖς γὰρ θεαί ἐστε πάρεστέ τε ἴστέ τε πάντα,    [SDDDDS; 1-2 3-3 3.5-4 5-5.5 6-7.5 8-8 9-9.5 10-10 11-12]
+```
+```
+Il. 11.219   ὅς τις δὴ πρῶτος Ἀγαμέμνονος ἀντίον ἦλθεν    [SSDDDS; 1-1 2-2 3-3 4-5 5.5-8 9-10 11-12]
+```
+```
+Il. 14.509   ὅς τις δὴ πρῶτος βροτόεντʼ ἀνδράγριʼ Ἀχαιῶν    [SSDSDS; 1-1 2-2 3-3 4-5 5.5-7 8-9.5 10-12]
+```
+```
+Il. 16.113   ὅππως δὴ πρῶτον πῦρ ἔμπεσε νηυσὶν Ἀχαιῶν.    [SSSDDS; 1-2 3-3 4-5 6-6 7-8 9-9.5 10-12]
+```
 `--loose "μουσα" --word` : **3 hit(s)**; positions {'11-12': 1, '5-5.5': 1, '9-9.5': 1} -- all forms Μοῦσα (nom./voc.)
 ```
 Il. 2.761    [11-12]  τίς τὰρ τῶν ὄχʼ ἄριστος ἔην σύ μοι ἔννεπε Μοῦσα    <Μοῦσα>
@@ -100,7 +113,7 @@ Od. 1.1      [9-12]  ἄνδρα μοι ἔννεπε, μοῦσα, πολύτρ
 Il. 1.6      [1-3]  ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε    <ἐξ οὗ δὴ>  shape L L L
 Od. 14.379   [1-3]  ἐξ οὗ δή μʼ Αἰτωλὸς ἀνὴρ ἐξήπαφε μύθῳ,    <ἐξ οὗ δή>  shape L L L
 ```
-**Reading of (a).** Il. 1.1 and Od. 1.1 are each unique as whole lines. The imperative ἄειδε occurs 10 times, six of them at 4-5.5 in the bard formula ἀοιδὸς ἄειδε περικλυτός; only Il. 1.1 has it at 2-3.5. The singular Μοῦσα appears three times in all (Il. 2.761, Od. 1.1, Od. 24.62); ἔννεπε Μοῦσα is a line-end formula at 9-12 as well as the line-opening at 3-5.5. The only whole-line invocation that recurs is ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματ᾽ ἔχουσαι (4x), and each time it opens a catalogue or a "who first" question (Il. 2.484 the Catalogue; 11.218 who first faced Agamemnon; 14.508 who first took spoils; 16.112 how fire first fell on the ships): it is the natural opening for a catalogue of winners or of the tie-break points. θεὰ θύγατερ Διός (3x, always 4-8) with εἰπὲ καὶ ἡμῖν (9-12) gives a second proem line (Od. 1.10). Proem skeleton for the composer: line 1 = accusative theme at 1-2 + ἄειδε θεά (2-5) or ἔννεπε Μοῦσα (3-5.5) + patronymic-and-name genitive at 6-12 on the pattern Πηληϊάδεω Ἀχιλῆος (8x, always 6-12; see the tests of Φεδερῆος / Ζοκοβῆος in (i)); then ἐξ οὗ δὴ (1-3, 2x) for "from the point where", and Διὸς δ᾽ ἐτελείετο βουλή (6-12, 2x) for the theme line.
+**Reading of (a).** Il. 1.1 and Od. 1.1 are each unique as whole lines. The imperative ἄειδε occurs 10 times, six of them at 4-5.5 in the bard formula ἀοιδὸς ἄειδε περικλυτός; only Il. 1.1 has it at 2-3.5. The singular Μοῦσα appears three times in all (Il. 2.761, Od. 1.1, Od. 24.62); ἔννεπε Μοῦσα is a line-end formula at 9-12 as well as the line-opening at 3-5.5. The only whole-line invocation that recurs is ἔσπετε νῦν μοι Μοῦσαι Ὀλύμπια δώματ᾽ ἔχουσαι (4x), and each time it opens a catalogue or a "who first" question (the following lines are printed below: Il. 2.485 the Catalogue, 11.219, 14.509 and 16.113): it is the natural opening for a catalogue of winners or of the tie-break points. θεὰ θύγατερ Διός (3x, always 4-8) with εἰπὲ καὶ ἡμῖν (9-12) gives a second proem line (Od. 1.10). Proem skeleton for the composer: line 1 = accusative theme at 1-2 + ἄειδε θεά (2-5) or ἔννεπε Μοῦσα (3-5.5) + patronymic-and-name genitive at 6-12 on the pattern Πηληϊάδεω Ἀχιλῆος (8x, always 6-12; see the tests of Φεδερῆος / Ζοκοβῆος in (i)); then ἐξ οὗ δὴ (1-3, 2x) for "from the point where", and Διὸς δ᾽ ἐτελείετο βουλή (6-12, 2x) for the theme line.
 
 ## (b) The arming typical scene
 
@@ -237,7 +250,7 @@ Il. 11.29    [1-5]  ἀμφὶ δʼ ἄρʼ ὤμοισιν βάλετο ξίφ�
 Il. 16.135   [1-5]  ἀμφὶ δʼ ἄρʼ ὤμοισιν βάλετο ξίφος ἀργυρόηλον    <ἀμφὶ δʼ ἄρʼ ὤμοισιν>  shape LS 0 S LLL
 Il. 19.372   [1-5]  ἀμφὶ δʼ ἄρʼ ὤμοισιν βάλετο ξίφος ἀργυρόηλον    <ἀμφὶ δʼ ἄρʼ ὤμοισιν>  shape LS 0 S LLL
 ```
-**Reading of (b).** The lines shared verbatim by the arming scenes, with their counts: κνημῖδας μὲν πρῶτα περὶ κνήμῃσιν ἔθηκε (4x: 3.330, 11.17, 16.131, 19.369); καλὰς ἀργυρέοισιν ἐπισφυρίοις ἀραρυίας (4x, in two spelling pairs); δεύτερον αὖ θώρηκα περὶ στήθεσσιν ἔδυνε(ν) (4x; the whole-line check sees only identical spellings, so the movable ν splits the pairs); ἀμφὶ δ᾽ ἄρ᾽ ὤμοισιν βάλετο ξίφος ἀργυρόηλον (3.334 = 16.135 = 19.372, and Il. 2.45 of Agamemnon rising; the half-line 1-8 is 5x, with 11.29 ending differently); χάλκεον, αὐτὰρ ἔπειτα σάκος μέγα τε στιβαρόν τε (3.335 = 16.136 = 19.373, the last differing only in punctuation); κρατὶ δ᾽ ἐπ᾽ ἰφθίμῳ κυνέην εὔτυκτον ἔθηκεν (4x: 3.336, 15.480, 16.137, Od. 22.123); ἵππουριν· δεινὸν δὲ λόφος καθύπερθεν ἔνευεν (5x); εἵλετο δ᾽ ἄλκιμα δοῦρε (3x) / εἵλετο δ᾽ ἄλκιμον ἔγχος (8x), both at 1-5.5, with the second half ὅ οἱ παλάμηφιν ἀρήρει (6-12, 2x) or ἀκαχμένον ὀξέϊ χαλκῷ. The scene is a fixed order greaves, corslet, sword, shield, helmet, spear(s); each item takes one line of the shape [verb phrase 1-5.5] + [object and epithet 6-12], and expansions (Agamemnon's corslet 11.20-28 and shield 11.32-40; the beacon simile for Achilles' shield 19.374-383) are inserted after the item's line. For a tennis arming scene the templates are these whole lines with the object noun exchanged in its slot: κνημῖδας LLL at 1-3; θώρηκα LLS at 4-5.5; ξίφος SS at 7.5-8; κυνέην SSL at 5.5-7; ἔγχος LS at 4-5.5. The Odyssey uses the same lines for Telemachus and Odysseus (Od. 22.122-125), so the scene is pan-Homeric, not Iliadic only.
+**Reading of (b).** The lines shared verbatim by the arming scenes, with their counts: κνημῖδας μὲν πρῶτα περὶ κνήμῃσιν ἔθηκε (4x: 3.330, 11.17, 16.131, 19.369); καλὰς ἀργυρέοισιν ἐπισφυρίοις ἀραρυίας (4x, in two spelling pairs); δεύτερον αὖ θώρηκα περὶ στήθεσσιν ἔδυνε(ν) (4x; the whole-line check sees only identical spellings, so the movable ν splits the pairs); ἀμφὶ δ᾽ ἄρ᾽ ὤμοισιν βάλετο ξίφος ἀργυρόηλον (3.334 = 16.135 = 19.372, and Il. 2.45 of Agamemnon rising; the half-line 1-8 is 5x, with 11.29 ending differently); χάλκεον, αὐτὰρ ἔπειτα σάκος μέγα τε στιβαρόν τε (3.335 = 16.136 = 19.373, the last differing only in punctuation); κρατὶ δ᾽ ἐπ᾽ ἰφθίμῳ κυνέην εὔτυκτον ἔθηκεν (4x: 3.336, 15.480, 16.137, Od. 22.123); ἵππουριν· δεινὸν δὲ λόφος καθύπερθεν ἔνευεν (5x); εἵλετο δ᾽ ἄλκιμα δοῦρε (3x) / εἵλετο δ᾽ ἄλκιμον ἔγχος (8x), both at 1-5.5, with the second half ὅ οἱ παλάμηφιν ἀρήρει (6-12, 2x) or ἀκαχμένον ὀξέϊ χαλκῷ. The scene is a fixed order greaves, corslet, sword, shield, helmet, spear(s); each item takes one line of the shape [verb phrase 1-5.5] + [object and epithet 6-12], and expansions (Agamemnon's corslet 11.20-28 and shield 11.32-40; the beacon simile for Achilles' shield 19.374-383) are inserted after the item's line. For a tennis arming scene the templates are these whole lines with the object noun exchanged in its slot: κνημῖδας LLL at 1-3; θώρηκα LLS at 4-5.5; ξίφος SS at 7.5-8; κυνέην SSL at 5.5-7; ἔγχος LS at 4-5.5. The Odyssey has the same lines at Od. 22.123-125, so the scene is pan-Homeric, not Iliadic only.
 
 ## (c) The duel typical scene
 
@@ -401,6 +414,16 @@ Il. 3.316    [1-2]  κλήρους ἐν κυνέῃ χαλκήρεϊ πάλλο
 Il. 23.352   [8-9]  ἂν δʼ ἔβαν ἐς δίφρους, ἐν δὲ κλήρους ἐβάλοντο·    <κλήρους>  shape LL
 ... 3 more
 ```
+`--loose "κληρον" --word` : **2 hit(s)**; positions {'5-5.5': 1, '4-5': 1}
+```
+Il. 7.175    [5-5.5]  ὣς ἔφαθʼ, οἳ δὲ κλῆρον ἐσημήναντο ἕκαστος,    <κλῆρον>  shape LS
+... 1 more
+```
+`--ngram "θάμβος δ᾽ ἔχεν"` : **2 hit(s)**; positions {'6-8': 2}
+```
+Il. 3.342    [6-8]  δεινὸν δερκόμενοι· θάμβος δʼ ἔχεν εἰσορόωντας    <θάμβος δʼ ἔχεν>  shape LL 0 SS
+Il. 4.79     [6-8]  κὰδ δʼ ἔθορʼ ἐς μέσσον· θάμβος δʼ ἔχεν εἰσορόωντας    <θάμβος δʼ ἔχεν>  shape LL 0 SS
+```
 `--ngram "ἐν κυνέῃ"` : **3 hit(s)**; positions {'3-5': 3}
 ```
 Il. 3.316    [3-5]  κλήρους ἐν κυνέῃ χαλκήρεϊ πάλλον ἑλόντες,    <ἐν κυνέῃ>  shape L SSL
@@ -429,10 +452,12 @@ Il. 23.359   τηλόθεν ἐν λείῳ πεδίῳ· παρὰ δὲ σκο
 Il. 23.360   ἀντίθεον Φοίνικα ὀπάονα πατρὸς ἑοῖο,    [DSDDDS; 1-3 4-5.5 6-8 9-9.5 10-12]
 Il. 23.361   ὡς μεμνέῳτο δρόμους καὶ ἀληθείην ἀποείποι.    [SDDSDS; 1-1 2-3.5 4-5 5.5-5.5 6-9 9.5-12]
 ```
-Il. 23.448-449 (the spectators):
+Il. 23.448-451 (the spectators; Idomeneus seated highest):
 ```
 Il. 23.448   Ἀργεῖοι δʼ ἐν ἀγῶνι καθήμενοι εἰσορόωντο    [SDDDDS; 1-3 3.5-3.5 3.5-3.5 4-5.5 6-8 9-12]
 Il. 23.449   ἵππους· τοὶ δὲ πέτοντο κονίοντες πεδίοιο.    [SDDSDS; 1-2 3-3 3.5-3.5 4-5.5 6-9 9.5-12]
+Il. 23.450   πρῶτος δʼ Ἰδομενεὺς Κρητῶν ἀγὸς ἐφράσαθʼ ἵππους·    [SDSDDS; 1-2 3-3 3-5 6-7 7.5-8 9-10 11-12]
+Il. 23.451   ἧστο γὰρ ἐκτὸς ἀγῶνος ὑπέρτατος ἐν περιωπῇ·    [DDDDDS; 1-1.5 2-2 3-3.5 4-5.5 6-8 9-9 9.5-12]
 ```
 Il. 23.735-737 (the wrestling draw of Ajax and Odysseus):
 ```
@@ -502,7 +527,15 @@ Od. 8.191    Φαίηκες δολιχήρετμοι, ναυσίκλυτοι ἄ
 Od. 8.192    λᾶος ὑπὸ ῥιπῆς· ὁ δʼ ὑπέρπτατο σήματα πάντων    [DSDDDS; 1-1.5 2-3 4-5 5.5-5.5 6-6 6-8 9-10 11-12]
 Od. 8.193    ῥίμφα θέων ἀπὸ χειρός. ἔθηκε δὲ τέρματʼ Ἀθήνη    [DDDDDS; 1-1.5 2-3 3.5-4 5-5.5 6-7.5 8-8 9-9.5 10-12]
 ```
+Od. 8.233 (limbs loosened by the sea):
+```
+Od. 8.233    ἦεν ἐπηετανός· τῷ μοι φίλα γυῖα λέλυνται.    [DDSDDS; 1-1.5 2-5 6-6 7-7 7.5-8 9-9.5 10-12]
+```
 Formulae of contest:
+`--loose "αεθλ"` : **88 hit(s)**; positions {'10-12': 56, '6-8': 18, '4-5.5': 7, '2-5': 2} -- all forms of ἄεθλον, ἄεθλος, ἀεθλεύω, ἀεθλοφόρος
+```
+... 88 more
+```
 `--loose "αεθλα" --word` : **13 hit(s)**; positions {'10-12': 10, '4-5.5': 3}
 ```
 Il. 11.700   [4-5.5]  ἐλθόντες μετʼ ἄεθλα· περὶ τρίποδος γὰρ ἔμελλον    <ἄεθλα>  shape SLS
@@ -529,6 +562,11 @@ Il. 1.486    [10-12]  ὑψοῦ ἐπὶ ψαμάθοις, ὑπὸ δʼ ἕρ�
 Il. 4.112    [6-9]  καὶ τὸ μὲν εὖ κατέθηκε τανυσσάμενος ποτὶ γαίῃ    <νυσσ>  shape SLSSL
 Il. 9.213    [10-12]  ἀνθρακιὴν στορέσας ὀβελοὺς ἐφύπερθε τάνυσσε,    <νυσσ>  shape SLX
 ... 46 more
+```
+`--loose "νυσση" --word` : **2 hit(s)**; positions {'2-3': 1, '4-5': 1}
+```
+Il. 23.338   [2-3]  ἐν νύσσῃ δέ τοι ἵππος ἀριστερὸς ἐγχριμφθήτω,    <νύσσῃ>  shape LL
+Il. 23.344   [4-5]  εἰ γάρ κʼ ἐν νύσσῃ γε παρεξελάσῃσθα διώκων,    <νύσσῃ>  shape LL
 ```
 `--loose "τερμα"` : **8 hit(s)**; positions {'9-9.5': 4, '5-5.5': 2, '7-8': 1, '3-3.5': 1} -- τέρμα, the goal / turning mark
 ```
@@ -587,12 +625,9 @@ Il. 16.239   [9.5-12]  αὐτὸς μὲν γὰρ ἐγὼ μενέω νηῶ�
 Il. 16.500   [7.5-9.5]  τεύχεα συλήσωσι νεῶν ἐν ἀγῶνι πεσόντα.    <ἐν ἀγῶνι>  shape S SLS
 ... 10 more
 ```
-`--loose "αγωνα" --word` : **11 hit(s)**; positions {'10-12': 6, '4-5.5': 3, '2-3.5': 2}
+`--ngram "εὐρὺν ἀγῶνα"` : **1 hit(s)**; positions {'9-12': 1}
 ```
-Il. 7.298    [10-12]  αἵ τέ μοι εὐχόμεναι θεῖον δύσονται ἀγῶνα.    <ἀγῶνα>  shape SLX
-Il. 18.376   [10-12]  ὄφρά οἱ αὐτόματοι θεῖον δυσαίατʼ ἀγῶνα    <ἀγῶνα>  shape SLX
-Il. 20.33    [4-5.5]  Ἥρη μὲν μετʼ ἀγῶνα νεῶν καὶ Παλλὰς Ἀθήνη    <ἀγῶνα>  shape SLS
-... 8 more
+Il. 23.258   [9-12]  αὐτοῦ λαὸν ἔρυκε καὶ ἵζανεν εὐρὺν ἀγῶνα,    <εὐρὺν ἀγῶνα>  shape LS SLX
 ```
 `--ngram "ἐπὶ δ᾽ ἴαχε λαὸς"` : **3 hit(s)**; positions {'5.5-9.5': 3}
 ```
@@ -604,7 +639,7 @@ Il. 13.834   [5.5-9.5]  ἠχῇ θεσπεσίῃ, ἐπὶ δʼ ἴαχε λα
 ```
 Il. 23.437   [9.5-12]  ἐν κονίῃσι πέσοιεν ἐπειγόμενοι περὶ νίκης.    <περὶ νίκης>  shape SS LL
 Il. 23.496   [9.5-12]  ἵππους· οἳ δὲ τάχʼ αὐτοὶ ἐπειγόμενοι περὶ νίκης    <περὶ νίκης>  shape SS LL
-... 1 more
+Il. 23.639   [9.5-12]  πλήθει πρόσθε βαλόντες ἀγασσάμενοι περὶ νίκης,    <περὶ νίκης>  shape SS LL
 ```
 `--ngram "τοῖσι δ᾽ ἀπὸ νύσσης"` : **2 hit(s)**; positions {'1-5': 2}
 ```
@@ -628,11 +663,16 @@ Od. 8.189    [6-12]  τόν ῥα περιστρέψας ἧκε στιβαρῆ
 ```
 Od. 8.148    [8-12]  ἤ ὅ τι ποσσίν τε ῥέξῃ καὶ χερσὶν ἑῇσιν.    <καὶ χερσὶν ἑῇσιν>  shape L LS SLX
 ```
+`--loose "αθλητ"` : **1 hit(s)**; positions {'7-9.5': 1}
+```
+Od. 8.164    [7-9.5]  κερδέων θʼ ἁρπαλέων· οὐδʼ ἀθλητῆρι ἔοικας.    <ἀθλητ>  shape LLLS
+```
 `--ngram "χεῖρας ἀνέσχον"` : **4 hit(s)**; positions {'9-12': 4}
 ```
 Il. 3.318    [9-12]  λαοὶ δʼ ἠρήσαντο, θεοῖσι δὲ χεῖρας ἀνέσχον,    <χεῖρας ἀνέσχον>  shape LS SLX
 Il. 6.301    [9-12]  αἳ δʼ ὀλολυγῇ πᾶσαι Ἀθήνῃ χεῖρας ἀνέσχον·    <χεῖρας ἀνέσχον>  shape LS SLX
-... 2 more
+Il. 7.177    [9-12]  λαοὶ δʼ ἠρήσαντο, θεοῖσι δὲ χεῖρας ἀνέσχον·    <χεῖρας ἀνέσχον>  shape LS SLX
+Od. 18.89    [9-12]  ἐς μέσσον δʼ ἄναγον· τὼ δʼ ἄμφω χεῖρας ἀνέσχον.    <χεῖρας ἀνέσχον>  shape LS SLX
 ```
 `--loose "κελαδησαν" --word` : **3 hit(s)**; positions {'9.5-12': 2, '7.5-9.5': 1}
 ```
@@ -806,9 +846,23 @@ Il. 2.469    [1-2]  ἠΰτε μυιάων ἁδινάων ἔθνεα πολλ�
 ```
 Il. 1.318    [1-3]  ὣς οἳ μὲν τὰ πένοντο κατὰ στρατόν· οὐδʼ Ἀγαμέμνων    <ὣς οἳ μὲν>  shape L L L
 Il. 5.84     [1-3]  ὣς οἳ μὲν πονέοντο κατὰ κρατερὴν ὑσμίνην·    <ὣς οἳ μὲν>  shape L L L
-Il. 5.274    [1-3]  ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,    <ὣς οἳ μὲν>  shape L L L
-Il. 5.431    [1-3]  ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,    <ὣς οἳ μὲν>  shape L L L
-... 46 more
+... 48 more
+```
+`--ngram "ὣς τοῦ"` : **9 hit(s)**; positions {'1-2': 6, '3-4': 2, '1-1.5': 1}
+```
+Il. 9.587    [3-4]  ἀλλʼ οὐδʼ ὧς τοῦ θυμὸν ἐνὶ στήθεσσιν ἔπειθον,    <ὧς τοῦ>  shape L L
+Il. 13.245   [1-2]  ὣς τοῦ χαλκὸς ἔλαμπε περὶ στήθεσσι θέοντος.    <ὣς τοῦ>  shape L L
+... 7 more
+```
+`--ngram "καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα"` : **2 hit(s)**; positions {'1-12': 2}
+```
+Il. 8.69     [1-12]  καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα·    <καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα>  shape L SS L LLS SL SSLS SLX
+Il. 22.209   [1-12]  καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα,    <καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα>  shape L SS L LLS SL SSLS SLX
+```
+`--ngram "ἐν δ᾽ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο"` : **2 hit(s)**; positions {'1-12': 2}
+```
+Il. 8.70     [1-12]  ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο    <ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο>  shape L 0 SSL SS LS SLSSL SSLX
+Il. 22.210   [1-12]  ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο,    <ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο>  shape L 0 SSL SS LS SLSSL SSLX
 ```
 `--ngram "δύσετό τ᾽ ἠέλιος"` : **9 hit(s)**; positions {'1-5': 9}
 ```
@@ -827,9 +881,17 @@ Od. 19.433   [1-5.5]  Ἠέλιος μὲν ἔπειτα νέον προσέβ�
 Il. 1.475    [1-3]  ἦμος δʼ ἠέλιος κατέδυ καὶ ἐπὶ κνέφας ἦλθε,    <ἦμος δʼ>  shape LL 0
 Il. 1.477    [1-3]  ἦμος δʼ ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς,    <ἦμος δʼ>  shape LL 0
 Il. 7.433    [1-3]  ἦμος δʼ οὔτʼ ἄρ πω ἠώς, ἔτι δʼ ἀμφιλύκη νύξ,    <ἦμος δʼ>  shape LL 0
-Il. 8.68     [1-3]  ἦμος δʼ Ἠέλιος μέσον οὐρανὸν ἀμφιβεβήκει,    <ἦμος δʼ>  shape LL 0
-Il. 16.779   [1-3]  ἦμος δʼ Ἠέλιος μετενίσετο βουλυτὸν δέ,    <ἦμος δʼ>  shape LL 0
-... 31 more
+... 33 more
+```
+`--ngram "ἠέλιος μέσον οὐρανὸν"` : **3 hit(s)**; positions {'3-8': 3}
+```
+Il. 8.68     [3-8]  ἦμος δʼ Ἠέλιος μέσον οὐρανὸν ἀμφιβεβήκει,    <Ἠέλιος μέσον οὐρανὸν>  shape LSSL SS LSS
+Il. 16.777   [3-8]  ὄφρα μὲν Ἠέλιος μέσον οὐρανὸν ἀμφιβεβήκει,    <Ἠέλιος μέσον οὐρανὸν>  shape LSSL SS LSS
+... 1 more
+```
+`--ngram "μετενίσετο βουλυτὸν"` : **1 hit(s)**; positions {'5.5-11': 1}
+```
+Il. 16.779   [5.5-11]  ἦμος δʼ Ἠέλιος μετενίσετο βουλυτὸν δέ,    <μετενίσετο βουλυτὸν>  shape SSLSS LLL
 ```
 `--ngram "ἦμος δ᾽ ἠριγένεια φάνη ῥοδοδάκτυλος ἠώς"` : **22 hit(s)**; positions {'1-12': 22}
 ```
@@ -984,6 +1046,21 @@ Il. 1.10     [11-12]  νοῦσον ἀνὰ στρατὸν ὄρσε κακή�
 Il. 1.382    [11-12]  ἧκε δʼ ἐπʼ Ἀργείοισι κακὸν βέλος· οἳ δέ νυ λαοὶ    <λαοὶ>  shape LL
 ... 45 more
 ```
+`--loose "λαος" --word` : **30 hit(s)**; positions {'11-12': 11, '9-9.5': 10, '5-5.5': 6, '1-1.5': 2}
+```
+Il. 2.99     [5-5.5]  σπουδῇ δʼ ἕζετο λαός, ἐρήτυθεν δὲ καθʼ ἕδρας    <λαός>  shape LS
+... 29 more
+```
+`--loose "λαον" --word` : **78 hit(s)**; positions {'9-9.5': 39, '5-5.5': 14, '11-12': 7, '3-3.5': 5}
+```
+Il. 1.54     [9-9.5]  τῇ δεκάτῃ δʼ ἀγορὴν δὲ καλέσσατο λαὸν Ἀχιλλεύς·    <λαὸν>  shape LS
+... 77 more
+```
+`--loose "λαων" --word` : **109 hit(s)**; positions {'11-12': 91, '1-2': 9, '4-5': 4, '2-3': 2}
+```
+Il. 1.16     [11-12]  Ἀτρεΐδα δὲ μάλιστα δύω, κοσμήτορε λαῶν·    <λαῶν>  shape LL
+... 108 more
+```
 `--loose "ομιλος" --word` : **4 hit(s)**; positions {'10-12': 3, '4-5.5': 1}
 ```
 Il. 18.603   [10-12]  πολλὸς δʼ ἱμερόεντα χορὸν περιίσταθʼ ὅμιλος    <ὅμιλος>  shape SLX
@@ -996,6 +1073,21 @@ Od. 8.109    [10-12]  βὰν δʼ ἴμεν εἰς ἀγορήν, ἅμα δʼ
 Il. 3.36     [4-5.5]  ὣς αὖτις καθʼ ὅμιλον ἔδυ Τρώων ἀγερώχων    <ὅμιλον>  shape SLS
 Il. 3.449    [4-5.5]  Ἀτρεΐδης δʼ ἀνʼ ὅμιλον ἐφοίτα θηρὶ ἐοικὼς    <ὅμιλον>  shape SLS
 ... 52 more
+```
+`--loose "ομιλω" --word` : **16 hit(s)**; positions {'10-12': 16}
+```
+Il. 4.302    [10-12]  σφοὺς ἵππους ἐχέμεν μηδὲ κλονέεσθαι ὁμίλῳ·    <ὁμίλῳ>  shape SLL
+... 15 more
+```
+`--loose "πληθυς" --word` : **2 hit(s)**; positions {'4-5': 1, '2-3': 1}
+```
+Il. 2.278    [4-5]  ὣς φάσαν ἣ πληθύς· ἀνὰ δʼ ὃ πτολίπορθος Ὀδυσσεὺς    <πληθύς>  shape LL
+... 1 more
+```
+`--loose "ομαδος" --word` : **5 hit(s)**; positions {'5.5-7': 5}
+```
+Il. 2.96     [5.5-7]  λαῶν ἱζόντων, ὅμαδος δʼ ἦν· ἐννέα δέ σφεας    <ὅμαδος>  shape SSL
+... 4 more
 ```
 `--loose "οχλ"` : **14 hit(s)**; positions {'9-12': 2, '1-3': 2, '2-5.5': 2, '9-9.5': 2} -- ὄχλος does not occur in Homer; only the verb ὀχλέω/ὀχλίζω
 ```
@@ -1027,8 +1119,17 @@ Od. 7.150    [9-9.5]  κτήματʼ ἐνὶ μεγάροισι γέρας θʼ
 Il. 5.860    [6-8]  ὅσσόν τʼ ἐννεάχιλοι ἐπίαχον ἢ δεκάχιλοι    <ἐπίαχον>  shape SLSS
 Il. 7.403    [6-8]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἐπίαχον υἷες Ἀχαιῶν    <ἐπίαχον>  shape SLSS
 Il. 9.50     [6-8]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἐπίαχον υἷες Ἀχαιῶν    <ἐπίαχον>  shape SLSS
-Il. 13.835   [6-8]  Ἀργεῖοι δʼ ἑτέρωθεν ἐπίαχον, οὐδὲ λάθοντο    <ἐπίαχον>  shape SLSS
-Il. 14.148   [6-8]  ὅσσόν τʼ ἐννεάχιλοι ἐπίαχον ἢ δεκάχιλοι    <ἐπίαχον>  shape SLSS
+... 2 more
+```
+`--ngram "μέγ᾽ ἴαχον"` : **2 hit(s)**; positions {'6-8': 2}
+```
+Il. 2.333    [6-8]  ὣς ἔφατʼ, Ἀργεῖοι δὲ μέγʼ ἴαχον, ἀμφὶ δὲ νῆες    <μέγʼ ἴαχον>  shape S LSS
+Il. 2.394    [6-8]  ὣς ἔφατʼ, Ἀργεῖοι δὲ μέγʼ ἴαχον ὡς ὅτε κῦμα    <μέγʼ ἴαχον>  shape S LSS
+```
+`--ngram "μέγα ἴαχον"` : **2 hit(s)**; positions {'4-7': 2}
+```
+Il. 4.506    [4-7]  Ἀργεῖοι δὲ μέγα ἴαχον, ἐρύσαντο δὲ νεκρούς,    <μέγα ἴαχον>  shape SL SSL
+Il. 17.317   [4-7]  Ἀργεῖοι δὲ μέγα ἴαχον, ἐρύσαντο δὲ νεκροὺς    <μέγα ἴαχον>  shape SL SSL
 ```
 `--ngram "μέγα δ᾽ ἴαχε"` : **1 hit(s)**; positions {'5.5-8': 1}
 ```
@@ -1085,6 +1186,13 @@ Il. 3.461    [5.5-8]  ὣς ἔφατʼ Ἀτρεΐδης, ἐπὶ δʼ ᾔνε
 Od. 12.294   [5.5-8]  ὣς ἔφατʼ Εὐρύλοχος, ἐπὶ δʼ ᾔνεον ἄλλοι ἑταῖροι.    <ἐπὶ δʼ ᾔνεον>  shape SS 0 LSS
 ... 1 more
 ```
+`--loose "επηνησαν" --word` : **4 hit(s)**; positions {'6-9': 3, '4-7': 1}
+```
+Il. 7.344    [6-9]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἐπῄνησαν βασιλῆες.    <ἐπῄνησαν>  shape SLLL
+Il. 9.710    [6-9]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἐπῄνησαν βασιλῆες    <ἐπῄνησαν>  shape SLLL
+Il. 18.312   [4-7]  Ἕκτορι μὲν γὰρ ἐπῄνησαν κακὰ μητιόωντι,    <ἐπῄνησαν>  shape SLLL
+Il. 23.540   [6-9]  καί νύ κέ οἱ πόρεν ἵππον, ἐπῄνησαν γὰρ Ἀχαιοί,    <ἐπῄνησαν>  shape SLLL
+```
 `--ngram "ἐπευφήμησαν ἀχαιοί"` : **2 hit(s)**; positions {'6-12': 2}
 ```
 Il. 1.22     [6-12]  ἔνθʼ ἄλλοι μὲν πάντες ἐπευφήμησαν Ἀχαιοὶ    <ἐπευφήμησαν Ἀχαιοὶ>  shape SLLLS SLL
@@ -1111,9 +1219,12 @@ Il. 18.377   [9-12]  ἠδʼ αὖτις πρὸς δῶμα νεοίατο θα
 ```
 Il. 3.95     [6-7]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ·    <ἀκὴν>  shape SL
 Il. 4.429    [6-7]  ἡγεμόνων· οἳ δʼ ἄλλοι ἀκὴν ἴσαν, οὐδέ κε φαίης    <ἀκὴν>  shape SL
-Il. 7.92     [6-7]  ὣς ἔφαθʼ, οἱ δʼ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ·    <ἀκὴν>  shape SL
-Il. 7.398    [6-7]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ·    <ἀκὴν>  shape SL
-... 17 more
+... 19 more
+```
+`--loose "σιωπη" --word` : **28 hit(s)**; positions {'10-12': 27, '2-4': 1}
+```
+Il. 3.95     [10-12]  ὣς ἔφαθʼ, οἳ δʼ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ·    <σιωπῇ>  shape SLL
+... 27 more
 ```
 **Reading of (g).** The hush before the serve: ὣς ἔφαθ᾽, οἳ δ᾽ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ 15x as a whole line, ἀκὴν ἐγένοντο σιωπῇ 16x at 6-12; ἀκήν 21x, always at 6-7; σιωπῇ 28x, 27 at 10-12. Crowd nouns: λαοί 47x (17 at 11-12), λαός 30x, λαόν 78x (39 at 9-9.5), λαῶν 109x (91 at 11-12, ποιμένα λαῶν); ὅμιλος 4x nominative but ὅμιλον 54x (27 at 4-5.5, 20 at 10-12) and ὁμίλῳ 16x, all 10-12; πληθύς 2x / πληθύν 11x; δῆμος 8x (πᾶς δῆμος 20.166); ὅμαδος 5x, always 5.5-7; ὄχλος never (the stem occurs only in ὀχλέω, ὀχλίζω, μοχλός). Shouts: ἐπίαχον 5x, always 6-8, and the applause line ὣς ἔφαθ᾽, οἳ δ᾽ ἄρα πάντες ἐπίαχον υἷες Ἀχαιῶν (7.403 = 9.50); Ἀργεῖοι δὲ μέγ᾽ ἴαχον (2.333 = 2.394, 7-8) and Ἀργεῖοι δὲ μέγα ἴαχον (4.506 = 17.317); ἐπὶ δ᾽ ἴαχε λαὸς (3x, 5.5-9.5); ἤϋσεν δὲ διαπρύσιον (6x, 1-7) and μακρὸν ἄϋσε (4x, 3-5.5) for a single voice; ἀλαλητῷ 7x (6 at 9.5-12). Approval: ἐπευφήμησαν Ἀχαιοί (2x, 6-12), ἐπῄνησαν βασιλῆες (2x) and ἐπῄνησαν γὰρ Ἀχαιοί (23.540), ἐπὶ δ᾽ ᾔνεον ἄλλοι (3x, 5.5-8); laughter ἐπ᾽ αὐτῷ ἡδὺ γέλασσαν (4x, 9-12); groans ἐπὶ δὲ στενάχοντο (6x, 5.5-9.5); wonder θάμβος δ᾽ ἔχεν εἰσορόωντας (2x) and θαῦμα ἰδέσθαι (8x, 9-12); prayer λαοὶ δ᾽ ἠρήσαντο, θεοῖσι δὲ χεῖρας ἀνέσχον (3.318 = 7.177). The umpire's "Please": κήρυκες δ᾽ ἄρα λαὸν ἐρήτυον (18.503).
 
@@ -1270,77 +1381,7 @@ Method: all n-grams of 2-3 words (within a line, loose form, count >= 2 in homer
 
 (The vocative Αἶαν is omitted from the Ajax query: in loose form it coincides with αἶαν "earth"; the vocative formula Αἶαν διογενὲς Τελαμώνιε is checked directly below.)
 
-Direct checks of the classic formulae (positions and counts):
-`--ngram "πόδας ὠκὺς ἀχιλλεύς"` : **30 hit(s)**; positions {'7.5-12': 30}
-```
-Il. 1.58     [7.5-12]  τοῖσι δʼ ἀνιστάμενος μετέφη πόδας ὠκὺς Ἀχιλλεύς·    <πόδας ὠκὺς Ἀχιλλεύς>  shape SS LS SLL
-... 29 more
-```
-`--ngram "ποδάρκης δῖος ἀχιλλεύς"` : **21 hit(s)**; positions {'6-12': 21}
-```
-Il. 1.121    [6-12]  τὸν δʼ ἠμείβετʼ ἔπειτα ποδάρκης δῖος Ἀχιλλεύς·    <ποδάρκης δῖος Ἀχιλλεύς>  shape SLL LS SLL
-... 20 more
-```
-`--ngram "πολύμητις ὀδυσσεύς"` : **80 hit(s)**; positions {'7.5-12': 80}
-```
-Il. 1.311    [7.5-12]  εἷσεν ἄγων· ἐν δʼ ἀρχὸς ἔβη πολύμητις Ὀδυσσεύς.    <πολύμητις Ὀδυσσεύς>  shape SSLS SLL
-... 79 more
-```
-`--ngram "πολύτλας δῖος ὀδυσσεύς"` : **42 hit(s)**; positions {'6-12': 42}
-```
-Il. 8.97     [6-12]  ὣς ἔφατʼ, οὐδʼ ἐσάκουσε πολύτλας δῖος Ὀδυσσεύς,    <πολύτλας δῖος Ὀδυσσεύς>  shape SLL LS SLL
-... 41 more
-```
-`--ngram "διογενὴς ὀδυσεύς"` : **6 hit(s)**; positions {'1-5': 4, '3-7': 2}
-```
-Il. 10.340   [1-5]  διογενὴς Ὀδυσεύς, Διομήδεα δὲ προσέειπεν·    <διογενὴς Ὀδυσεύς>  shape LSSL SSL
-... 5 more
-```
-`--ngram "κορυθαίολος ἕκτωρ"` : **37 hit(s)**; positions {'7.5-12': 37}
-```
-Il. 2.816    [7.5-12]  Τρωσὶ μὲν ἡγεμόνευε μέγας κορυθαίολος Ἕκτωρ    <κορυθαίολος Ἕκτωρ>  shape SSLSS LL
-... 36 more
-```
-`--ngram "φαίδιμος ἕκτωρ"` : **29 hit(s)**; positions {'9-12': 29}
-```
-Il. 4.505    [9-12]  χώρησαν δʼ ὑπό τε πρόμαχοι καὶ φαίδιμος Ἕκτωρ·    <φαίδιμος Ἕκτωρ>  shape LSS LL
-... 28 more
-```
-`--ngram "ἕκτωρ πριαμίδης"` : **7 hit(s)**; positions {'1-5': 7}
-```
-Il. 8.216    [1-5]  Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.    <Ἕκτωρ Πριαμίδης>  shape LL LSSL
-... 6 more
-```
-`--ngram "βοὴν ἀγαθὸς διομήδης"` : **21 hit(s)**; positions {'6-12': 21}
-```
-Il. 2.563    [6-12]  τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης    <βοὴν ἀγαθὸς Διομήδης>  shape SL SSL SSLL
-... 20 more
-```
-`--ngram "κρατερὸς διομήδης"` : **20 hit(s)**; positions {'7.5-12': 19, '3.5-8': 1}
-```
-Il. 4.401    [7.5-12]  ὣς φάτο, τὸν δʼ οὔ τι προσέφη κρατερὸς Διομήδης    <κρατερὸς Διομήδης>  shape SSL SSLL
-... 19 more
-```
-`--ngram "τελαμώνιος αἴας"` : **21 hit(s)**; positions {'7.5-12': 21}
-```
-Il. 2.528    [7.5-12]  μείων, οὔ τι τόσος γε ὅσος Τελαμώνιος Αἴας    <Τελαμώνιος Αἴας>  shape SSLSS LX
-... 20 more
-```
-`--ngram "ξανθὸς μενέλαος"` : **27 hit(s)**; positions {'8-12': 27}
-```
-Il. 3.284    [8-12]  εἰ δέ κʼ Ἀλέξανδρον κτείνῃ ξανθὸς Μενέλαος,    <ξανθὸς Μενέλαος>  shape LL SSLX
-... 26 more
-```
-`--ngram "βοὴν ἀγαθὸς μενέλαος"` : **20 hit(s)**; positions {'6-12': 20}
-```
-Il. 2.408    [6-12]  αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος·    <βοὴν ἀγαθὸς Μενέλαος>  shape SL SSL SSLX
-... 19 more
-```
-`--ngram "πηληϊάδεω ἀχιλῆος"` : **8 hit(s)**; positions {'6-12': 8}
-```
-Il. 1.1      [6-12]  μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος    <Πηληϊάδεω Ἀχιλῆος>  shape LLSSL SSLX
-... 7 more
-```
+Generic epithet formulae usable for either player (positions and counts):
 `--ngram "ἰσόθεος φώς"` : **14 hit(s)**; positions {'9-12': 14}
 ```
 Il. 2.565    [9-12]  τοῖσι δʼ ἅμʼ Εὐρύαλος τρίτατος κίεν ἰσόθεος φὼς    <ἰσόθεος φὼς>  shape LSSL L
@@ -1355,6 +1396,11 @@ Il. 2.837    [9-12]  τῶν αὖθʼ Ὑρτακίδης ἦρχʼ Ἄσιος
 ```
 Il. 1.263    [9-12]  οἷον Πειρίθοόν τε Δρύαντά τε ποιμένα λαῶν    <ποιμένα λαῶν>  shape LSS LL
 ... 27 more
+```
+`--ngram "ἄναξ ἀνδρῶν"` : **52 hit(s)**; positions {'6-9': 51, '4-7': 1}
+```
+Il. 1.7      [4-7]  Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.    <ἄναξ ἀνδρῶν>  shape SL LL
+... 51 more
 ```
 **Reading of (h).** The tables reproduce Parry's economy: one formula per hero per slot, with few duplicates. Achilles: δῖος Ἀχιλλεύς 55x (9-12), πόδας ὠκὺς Ἀχιλλεύς 30x (7.5-12; ὠκὺς Ἀχιλλεύς 36x includes these 30), ποδάρκης δῖος Ἀχιλλεύς 21x (6-12); genitive Πηληϊάδεω Ἀχιλῆος 8x (6-12), vocative φαίδιμ᾽ Ἀχιλλεῦ 5x (9-12), θεοῖς ἐπιείκελ᾽ Ἀχιλλεῦ 6x (6-12). Odysseus: δῖος Ὀδυσσεύς 102x (9-12), πολύμητις Ὀδυσσεύς 80x (7.5-12), πολύτλας δῖος Ὀδυσσεύς 42x (6-12); the single-sigma Ὀδυσεύς (SSL) serves the slots 3.5-5 and 1-3 (διογενὴς Ὀδυσεύς 6x, ἀλλ᾽ Ὀδυσεὺς 6x); πτολίπορθος Ὀδυσσεύς (5x) duplicates the shape of πολύμητις; genitive Ὀδυσσῆος θείοιο 27x (6-12), Λαερτιάδεω Ὀδυσῆος 11x (6-12), vocative πολυμήχαν᾽ Ὀδυσσεῦ 22x. Hector: κορυθαίολος Ἕκτωρ 37x (7.5-12), φαίδιμος Ἕκτωρ 29x (9-12), μέγας κορυθαίολος Ἕκτωρ 12x (6-12), ὄβριμος Ἕκτωρ 4x (same shape as φαίδιμος), Ἕκτωρ Πριαμίδης 7x (1-5); oblique Ἕκτορα δῖον 27x, Ἕκτορι δίῳ 11x, Ἕκτορος ἀνδροφόνοιο 11x. Diomedes: βοὴν ἀγαθὸς Διομήδης 21x (6-12), κρατερὸς Διομήδης 20x (7.5-12), Τυδεΐδης at 1-3; Διομήδεος ἱπποδάμοιο 8x (5.5-12). Ajax: Τελαμώνιος Αἴας 21x (7.5-12), μέγας Τελαμώνιος Αἴας 12x (6-12), φαίδιμος Αἴας 6x (9-12), Ὀϊλῆος ταχὺς Αἴας 7x (6-12), Αἶαν διογενὲς Τελαμώνιε 3x (1-8). Menelaus: ξανθὸς Μενέλαος 27x (8-12), βοὴν ἀγαθὸς Μενέλαος 20x (6-12), ἀρηΐφιλος Μενέλαος 8x (6-12), Μενελάου κυδαλίμοιο 14x (5.5-12), Μενέλαε διοτρεφές 15x (3.5-8). The shapes a player's name must supply are therefore: a line-end nominative with its epithet filling 9-12 (LS SLL, LSS LL, SSL SSLL), 7.5-12 (SSLS SLL, SSLSS LL, SSL SSLL) and 6-12 (SLL LS SLL, SL SSL SSLL, SL SSLSS LL); a line-opening nominative at 1-3 (LSSL) or 1-5 (LL LSSL); a genitive at 6-12 (LLSSL SSLX) or 5.5-12 (SSLL LSSLX); a vocative at 7.5-12 or 3.5-8.
 
@@ -1792,7 +1838,7 @@ Word-form anchors with shapes:
 `--loose "σφαιρη" --word` : **2 hit(s)**; positions {'1-2': 1, '5-5.5': 1}
 ```
 Od. 6.100    [1-2]  σφαίρῃ ταὶ δʼ ἄρʼ ἔπαιζον, ἀπὸ κρήδεμνα βαλοῦσαι·    <σφαίρῃ>  shape LL
-... 1 more
+Od. 8.377    [5-5.5]  αὐτὰρ ἐπεὶ δὴ σφαίρῃ ἀνʼ ἰθὺν πειρήσαντο,    <σφαίρῃ>  shape LS
 ```
 `--loose "σφαιραν" --word` : **2 hit(s)**; positions {'1-1.5': 1, '4-5': 1}
 ```
@@ -1831,9 +1877,6 @@ Il. 14.347   [11-12]  τοῖσι δʼ ὑπὸ χθὼν δῖα φύεν νε�
 Il. 5.91     [11-12]  ἐλθόντʼ ἐξαπίνης ὅτʼ ἐπιβρίσῃ Διὸς ὄμβρος·    <ὄμβρος>  shape LX
 ... 7 more
 ```
-`--loose "υετοσ" --word` : **0 hit(s)**
-```
-```
 `--loose "δεπασ" --word` : **30 hit(s)**; positions {'7.5-8': 11, '6-7': 8, '2-3': 4, '1.5-2': 3}
 ```
 Il. 1.584    [7.5-8]  ὣς ἄρʼ ἔφη καὶ ἀναΐξας δέπας ἀμφικύπελλον    <δέπας>  shape SS
@@ -1854,19 +1897,48 @@ Il. 1.284    [1-1.5]  ἕρκος Ἀχαιοῖσιν πέλεται πολέμ
 Il. 4.230    [3.5-5]  γυῖα λάβῃ κάματος πολέας διὰ κοιρανέοντα·    <κάματος>  shape SSL
 ... 6 more
 ```
-`--loose "καυμα" --word` : **0 hit(s)**
+`--regex "ὑετ"` : **1 hit(s)**; positions {'7-8': 1} -- ὑετός (the loose substring υετ also matches ἐδεύετο etc.)
 ```
+Il. 12.133   [7-8]  αἵ τʼ ἄνεμον μίμνουσι καὶ ὑετὸν ἤματα πάντα    <ὑετ>  shape LSS
 ```
-`--ngram "οἶδ᾽ ἐπὶ δεξιά"` : **1 hit(s)**; positions {'1-4': 1}
+`--regex "καῦμα|καύματ"` : **1 hit(s)**; positions {'1-2': 1}
 ```
-Il. 7.238    [1-4]  οἶδʼ ἐπὶ δεξιά, οἶδʼ ἐπʼ ἀριστερὰ νωμῆσαι βῶν    <οἶδʼ ἐπὶ δεξιά>  shape L SS LSS
+Il. 5.865    [1-2]  καύματος ἐξ ἀνέμοιο δυσαέος ὀρνυμένοιο,    <καύματ>  shape LSS
+```
+`--ngram "χρύσεον δέπας"` : **1 hit(s)**; positions {'6-8': 1}
+```
+Il. 6.220    [6-8]  Βελλεροφόντης δὲ χρύσεον δέπας ἀμφικύπελλον    <χρύσεον δέπας>  shape LL SS
+```
+`--loose "στιχ"` : **61 hit(s)**; positions {'7.5-8': 15, '9.5-10': 15, '9-12': 8, '3.5-4': 7} -- στίχες, the ranks
+```
+Il. 1.522    [6-8]  ἀλλὰ σὺ μὲν νῦν αὖτις ἀπόστιχε μή τι νοήσῃ    <στιχ>  shape SLSS
+Il. 2.92     [9-12]  ἠϊόνος προπάροιθε βαθείης ἐστιχόωντο    <στιχ>  shape LSSLX
+... 59 more
+```
+`--loose "χλο"` : **9 hit(s)**; positions {'9-9.5': 2, '5-5.5': 2, '4-5': 1, '7-9': 1} -- no χλόη; the substring hits are other words
+```
+Il. 9.539    [4-5]  ὦρσεν ἔπι χλούνην σῦν ἄγριον ἀργιόδοντα,    <χλο>  shape LL
+Il. 24.30    [7-9]  τὴν δʼ ᾔνησʼ ἥ οἱ πόρε μαχλοσύνην ἀλεγεινήν.    <χλο>  shape LSSL
+Od. 5.261    [1-3]  μοχλοῖσιν δʼ ἄρα τήν γε κατείρυσεν εἰς ἅλα δῖαν.    <χλο>  shape LLL
+Od. 9.332    [9-9.5]  ὅς τις τολμήσειεν ἐμοὶ σὺν μοχλὸν ἀείρας    <χλὸ>  shape LS
+Od. 9.375    [5-5.5]  καὶ τότʼ ἐγὼ τὸν μοχλὸν ὑπὸ σποδοῦ ἤλασα πολλῆς,    <χλὸ>  shape LS
+Od. 9.378    [5-5.5]  ἀλλʼ ὅτε δὴ τάχʼ ὁ μοχλὸς ἐλάινος ἐν πυρὶ μέλλεν    <χλὸ>  shape LS
+Od. 9.382    [3-3.5]  οἱ μὲν μοχλὸν ἑλόντες ἐλάινον, ὀξὺν ἐπʼ ἄκρῳ,    <χλὸ>  shape LS
+Od. 9.387    [9-9.5]  ὣς τοῦ ἐν ὀφθαλμῷ πυριήκεα μοχλὸν ἑλόντες    <χλὸ>  shape LS
+Od. 9.396    [11-12]  ἡμεῖς δὲ δείσαντες ἀπεσσύμεθʼ· αὐτὰρ ὁ μοχλὸν    <χλὸ>  shape LX
+```
+Il. 7.237-239 (Hector: shield-work to right and left):
+```
+Il. 7.237    αὐτὰρ ἐγὼν εὖ οἶδα μάχας τʼ ἀνδροκτασίας τε·    [DSDSDS; 1-1.5 2-3 4-4 5-5.5 6-7 8-8 8-11 12-12]
+Il. 7.238    οἶδʼ ἐπὶ δεξιά, οἶδʼ ἐπʼ ἀριστερὰ νωμῆσαι βῶν    [DDDDSS; 1-1 1.5-2 3-4 5-5 5.5-5.5 6-8 9-11 12-12]
+Il. 7.239    ἀζαλέην, τό μοι ἔστι ταλαύρινον πολεμίζειν·    [DDDSDS; 1-3 3.5-3.5 4-4 5-5.5 6-9 9.5-12]
 ```
 `--ngram "ὗε δ᾽ ἄρα"` : **2 hit(s)**; positions {'9-11': 2}
 ```
 Il. 12.25    [9-11]  ἐννῆμαρ δʼ ἐς τεῖχος ἵει ῥόον· ὗε δʼ ἄρα Ζεὺς    <ὗε δʼ ἄρα>  shape LS 0 SL
 Od. 14.457   [9-11]  νὺξ δʼ ἄρʼ ἐπῆλθε κακὴ σκοτομήνιος, ὗε δʼ ἄρα Ζεὺς    <ὗε δʼ ἄρα>  shape LS 0 SL
 ```
-**Reading of (j).** Recommended renderings, all attested above: *racket* — ῥόπαλον (club, SSL, Od. 9.319, 11.575, 17.195) or κορύνη (iron mace, Il. 7.141, 7.143); ῥάβδος is a wand or fishing rod (Od. 5.47, Il. 24.343); best is often to let the spear formulae stand metaphorically (ἔγχος, δόρυ). *Ball* — σφαῖρα: σφαίρῃ (Od. 6.100, 8.377), σφαῖραν (6.115, 8.372 σφαῖραν καλὴν), and Od. 8.374-376, the ball thrown to the clouds and caught before it touches the ground, is a ready-made volley; σφαιρηδόν (Il. 13.204) "like a ball". *Net* — δίκτυον only once (Od. 22.386 δικτύῳ ... πολυωπῷ), so prefer ἕρκος, "fence, barrier" (21x; 16 at 9-9.5; ἕρκος Ἀχαιῶν), and λίνον for the cord. *Court* — ἀγών (ἐν ἀγῶνι 13x; εὐρὺν ἀγῶνα 23.258), χῶρος (διαμετρητῷ ἐνὶ χώρῳ 3.344), αὐλή for the enclosure (38x); *lines* — τέρματα, νύσσα, σῆμα/σήματα (Od. 8.192 σήματα πάντων); γραμμή does not occur. *Serve* — προΐει/προέηκε (29 + 32 hits; προΐει δολιχόσκιον ἔγχος), ἧκε (38x), ἀφέηκε (Il. 23.841, the shot), ἔρριψε (Od. 6.115 of the ball; Il. 23.842, 845 of the shot), ἀκόντισε (34 hits); *miss/hit* — ἀφάμαρτε, ἤμβροτες, ἔτυχες, σκοπός. *Forehand/backhand* — ἐπὶ δεξιά (Il. 7.238) and ἐπ᾽ ἀριστερά (14x, 5.5-8); the whole couplet Il. 7.238-239 (οἶδ᾽ ἐπὶ δεξιά, οἶδ᾽ ἐπ᾽ ἀριστερὰ νωμῆσαι βῶν) is Hector's boast of shield-work on both sides, the nearest Homeric statement of two-handed skill. *Grass* — ποίη (Il. 14.347 νεοθηλέα ποίην; Od. 18.368, 370), λειμών (16 hits); χλόη is absent (the stem gives only χλωρός, χλούνης). *Umpire* — ἴστωρ, the arbiter of a dispute or wager (ἴστορι Il. 18.501, ἴστορα 23.486; the nominative is unattested), σκοπός (23.359, the race observer), ἐπίσκοπος (3x), δικασπόλος (2x); the challenge: ἀληθείην ἀποείποι (23.361). *Applause and silence* — ἐπευφήμησαν, ἐπίαχον, ἐπῄνησαν, ἡδὺ γέλασσαν, κελάδησαν (23.869), βόησαν (23.847); ἀκὴν ἐγένοντο σιωπῇ. *Trophy* — ἄεθλον (22x at 10-12), δέπας (30x; δέπας ἀμφικύπελλον, χρύσεον δέπας Il. 6.220), γέρας (39x), τρίπους/λέβης (23.259, 23.264), κρητήρ (23.778). *Crowd and queue* — λαοί, ὅμιλος, πληθύς, δῆμος, στίχες (61 hits). *Rain and roof* — ὄμβρος (8x; Διὸς ὄμβρος at 11-12), ὗε δ᾽ ἄρα Ζεύς (Il. 12.25 = Od. 14.457, 9-11), ὑετός (Il. 12.133); ὄροφος (Il. 24.451, of reeds), ὀροφή (Od. 22.298), μέλαθρον (8x), τέγεος; στέγη is absent. *Sun and shade* — ἠέλιος (135 stem hits), σκιόεις/σκιόωντο; *heat* — καῦμα (Il. 5.865). *Time* — ἦμαρ, δηρόν (47x), δηθά (16x), δείελον. *Fatigue* — κάματος (7x nom.), ἱδρώς (28 stem hits), γυῖα λέλυνται (Od. 8.233), κεκμηώς (7x), ἀσθμαίνων (9x). **No Homeric equivalent** (the composer must paraphrase or use the Greek numerals): ace (use οὐδ᾽ ἀφάμαρτε or ὑπέρπτατο σήματα πάντων), deuce/advantage (ἶσα, ἐπὶ ἶσα, ἰσάζουσ᾽, ἐρίζητον περὶ ἴσης), tie-break and the 12-12 rule (the heralds and νὺξ δ᾽ ἤδη τελέθει, Il. 7.282), set and game (no words; ἄεθλος, δρόμος at most), love/fifteen/thirty/forty, let, volley, topspin and slice, double fault (δὶς ... ἥμαρτε), break of serve, Hawk-Eye and the challenge (ἀληθείην ἀποείποι), ball kids, the umpire's chair (θρόνος), scoreboard, new balls, towel, changeover (the turn at the τέρμα of the chariot race is the nearest), the roof (ὄροφος of reeds), the Royal Box (βασιλῆες in the ἀγών: Il. 23.448-451 ἧστο γὰρ ἐκτὸς ἀγῶνος ὑπέρτατος ἐν περιωπῇ, the viewer "seated highest, apart from the ring, on a lookout").
+**Reading of (j).** Recommended renderings, all attested above: *racket* — ῥόπαλον (club, SSL, Od. 9.319, 11.575, 17.195) or κορύνη (iron mace, Il. 7.141, 7.143); ῥάβδος is a wand or fishing rod (Od. 5.47, Il. 24.343); best is often to let the spear formulae stand metaphorically (ἔγχος, δόρυ). *Ball* — σφαῖρα: σφαίρῃ (Od. 6.100, 8.377), σφαῖραν (6.115, 8.372 σφαῖραν καλὴν), and Od. 8.374-376, the ball thrown to the clouds and caught before it touches the ground, is a ready-made volley; σφαιρηδόν (Il. 13.204) "like a ball". *Net* — δίκτυον only once (Od. 22.386 δικτύῳ ... πολυωπῷ), so prefer ἕρκος, "fence, barrier" (21x; 16 at 9-9.5; ἕρκος Ἀχαιῶν), and λίνον for the cord. *Court* — ἀγών (ἐν ἀγῶνι 13x; εὐρὺν ἀγῶνα 23.258), χῶρος (διαμετρητῷ ἐνὶ χώρῳ 3.344), αὐλή for the enclosure (38x); *lines* — τέρματα, νύσσα, σῆμα/σήματα (Od. 8.192 σήματα πάντων); γραμμή does not occur. *Serve* — προΐει/προέηκε (29 + 32 hits; προΐει δολιχόσκιον ἔγχος), ἧκε (38x), ἀφέηκε (Il. 23.841, the shot), ἔρριψε (Od. 6.115 of the ball; Il. 23.842, 845 of the shot), ἀκόντισε (34 hits); *miss/hit* — ἀφάμαρτε, ἤμβροτες, ἔτυχες, σκοπός. *Forehand/backhand* — ἐπὶ δεξιά (Il. 7.238) and ἐπ᾽ ἀριστερά (14x, 5.5-8); Il. 7.238-239 (printed above) is Hector's boast of shield-work to right and to left, the nearest Homeric statement of two-sided skill. *Grass* — ποίη (Il. 14.347 νεοθηλέα ποίην; Od. 18.368, 370), λειμών (16 hits); χλόη is absent (the nine substring hits are other words, printed above). *Umpire* — ἴστωρ, the arbiter of a dispute or wager (ἴστορι Il. 18.501, ἴστορα 23.486; the nominative is unattested), σκοπός (23.359, the race observer), ἐπίσκοπος (3x), δικασπόλος (2x); the challenge: ἀληθείην ἀποείποι (23.361). *Applause and silence* — ἐπευφήμησαν, ἐπίαχον, ἐπῄνησαν, ἡδὺ γέλασσαν, κελάδησαν (23.869), βόησαν (23.847); ἀκὴν ἐγένοντο σιωπῇ. *Trophy* — ἄεθλον (22x at 10-12), δέπας (30x; δέπας ἀμφικύπελλον, χρύσεον δέπας Il. 6.220), γέρας (39x), τρίπους/λέβης (23.259, 23.264), κρητήρ (23.778). *Crowd and queue* — λαοί, ὅμιλος, πληθύς, δῆμος, στίχες (61 hits). *Rain and roof* — ὄμβρος (8x; Διὸς ὄμβρος at 11-12), ὗε δ᾽ ἄρα Ζεύς (Il. 12.25 = Od. 14.457, 9-11), ὑετός (see the regex hits); ὄροφος (Il. 24.451, of reeds), ὀροφή (Od. 22.298), μέλαθρον (8x), τέγεος; στέγη is absent. *Sun and shade* — ἠέλιος (135 stem hits), σκιόεις/σκιόωντο; *heat* — καῦμα (Il. 5.865). *Time* — ἦμαρ, δηρόν (47x), δηθά (16x), δείελον. *Fatigue* — κάματος (7x nom.), ἱδρώς (28 stem hits), γυῖα λέλυνται (Od. 8.233), κεκμηώς (7x), ἀσθμαίνων (9x). **No Homeric equivalent** (the composer must paraphrase or use the Greek numerals): ace (use οὐδ᾽ ἀφάμαρτε or ὑπέρπτατο σήματα πάντων), deuce/advantage (ἶσα, ἐπὶ ἶσα, ἰσάζουσ᾽, ἐρίζητον περὶ ἴσης), tie-break and the 12-12 rule (the heralds and νὺξ δ᾽ ἤδη τελέθει, Il. 7.282), set and game (no words; ἄεθλος, δρόμος at most), love/fifteen/thirty/forty, let, volley, topspin and slice, double fault (δὶς ... ἥμαρτε), break of serve, Hawk-Eye and the challenge (ἀληθείην ἀποείποι), ball kids, the umpire's chair (θρόνος), scoreboard, new balls, towel, changeover (the turn at the τέρμα of the chariot race is the nearest), the roof (ὄροφος of reeds), the Royal Box (βασιλῆες in the ἀγών: Il. 23.448-451 ἧστο γὰρ ἐκτὸς ἀγῶνος ὑπέρτατος ἐν περιωπῇ, the viewer "seated highest, apart from the ring, on a lookout").
 
 
 ---

@@ -49,7 +49,7 @@ Conventions used throughout:
 | unforced errors (R `UnfErr`) | Federer 62, Djokovic 52 | T3 |
 | break points | Federer 7 of 13 converted; Djokovic 3 of 8 | T4 |
 | fastest serve | Federer 202 km/h (3:35:36), Djokovic 199 km/h (3:07:13) | T5 |
-| longest rally | 35 shots (M; R RallyCount 35; TennisVL 34 shots, 43.4 s), point 242 at **2:47:12**, set 4 game 8, 40-30 Dj-Fe with Federer serving at 2-5; won by Federer | T6 |
+| longest rally | 35 shots (M; R RallyCount 35; TennisVL 34 shots, 43.4 s), point 242 at **2:47:12**, set 4 game 8, Federer serving at 5-2 up, break point down (40-30 Dj-Fe); won by Federer | T6 |
 | championship points | two, Federer serving at 8-7 in set 5: **4:10:58** (40-15) and **4:11:30** (40-30); both won by Djokovic | T10 |
 | the break back | Djokovic breaks in that game at **4:12:40** (point 362, AD-40) for 8-8 | T10, T11 |
 | 12-12 tie-break | **4:48:30 to 4:56:59**, Djokovic 7-3 | T12 |
@@ -564,7 +564,7 @@ MCP matches file: date 20190714, tournament Wimbledon, round F, time 14:10, cour
 
 1. **Opening (0:00:00).** Federer serves the first point (R PointServer = 2 at point 1; T1). Set 1 has no break of serve
    (T4) and one break point, for Federer, at 0:15:23 (T15: "Just over a quarter of an hour played and Federer with the first
-   break point."). The tie-break (T7) runs 0:49:06-0:57:50: Federer leads 5-3 after a 197 km/h serve winner and an ace, then
+   break point."). The tie-break (T7) runs 0:49:06-0:57:50: Federer leads 5-3 after an ace (0:52:44) and a 197 km/h serve winner (0:55:41), then
    loses four points in a row — three Federer unforced errors and one forced error (R flags, points 84-87) — 7-5 Djokovic.
 2. **Set 2 (1:00:23-1:22:54).** Federer breaks in games 1, 3 and 7 (T4, T18), 6-1 in 22½ minutes; 38 points, Federer 26-12
    (T2). Commentary at the second break: "and that will do nicely probably for the set three loud two breaks" (T18).
@@ -572,8 +572,8 @@ MCP matches file: date 20190714, tournament Wimbledon, round F, time 14:10, cour
    to Federer (T6: "justifies logic 26 shots and at the end Federer able to come up with the …"). Tie-break (T8): Djokovic
    5-1 up (a 24-shot rally at 2:11:04 ends in a Federer forced error), Federer back to 5-4 with a volley winner and an ace,
    Djokovic 7-4 at 2:15:24.
-4. **Set 4 (2:20:29-2:55:08).** Federer breaks in games 5 (2:36:11) and 7 (2:42:40) to lead 5-2 (T18). Serving at 5-2
-   40-30 he wins the 35-shot rally of the match at 2:47:12 (T6; TennisVL 34 shots, 43.4 s; R distance run Djokovic 104.2,
+4. **Set 4 (2:20:29-2:55:08).** Federer breaks in games 5 (2:36:11) and 7 (2:42:40) to lead 5-2 (T18). Serving at 5-2, a break
+   point down (40-30 Dj-Fe), he wins the 35-shot rally of the match at 2:47:12 (T6; TennisVL 34 shots, 43.4 s; R distance run Djokovic 104.2,
    Federer 85.5; commentary "35 shots every one of them right out of the middle yes") but is broken in that same game at
    2:49:12 (T18: "And it's a break. Djokovic breaks the Federer Reserve. That is news. And after losing …", where
    "Reserve" is the ASR's hearing of "serve"). Federer
@@ -589,24 +589,24 @@ MCP matches file: date 20190714, tournament Wimbledon, round F, time 14:10, cour
    return, Federer forehand approach inside-in, Djokovic forehand cross-court passing winner (M `6r28f+1f1*`, S shot 3
    "winner"; "And just as Federer passed Djokovic to get the break in the previous game, Djokovic …"). Deuce at 4:11:58: a
    seven-shot backhand exchange, Federer forehand slice forced error. Break point and **break at 4:12:40** (AD-40): first
-   serve 189 km/h, Djokovic forehand slice return, Federer forehand into the net (M `6r18f1f1f2n@`, 5 shots, server hit last):
+   serve 189 km/h, Djokovic forehand slice return, three forehands, Federer's forehand into the net (M `6r18f1f1f2n@`, 5 shots, server hit last):
    8-8 ("Amazing, isn't it? That is guts from Djokovic. It almost reminds me of the semi-final, …").
 7. **8-8 to 12-12 (4:13:27-4:47:47).** Djokovic holds for 9-8 at 4:17:15 ("Djokovic finding the mark just when he needed to
    he takes the lead 9-8 …"); the crowd "deflated" at 4:18:51 (T15). Game 23 (Djokovic serving at 11-11, 4:35:09-4:44:50,
-   14 points) contains the second-longest rally of the set (24 shots at 4:38:36, Federer) and two break points saved
+   14 points) contains the longest rally of the fifth set (24 shots at 4:38:36, won by Federer; T6 rank 4) and two break points saved
    ("And the game ends. A brutal game. 41 up, one second. Two break points down, …"). Federer holds to love for 12-12 at
    4:47:47 as the clock passes the 2008 record ("… four hours and 48 minutes matching the longest final of all time …").
 8. **The 12-12 tie-break (T12; 4:48:30-4:56:59).** Djokovic wins the first point from a second serve after a 12-shot rally
    (Federer backhand error; the last transcribed clip: "1-0 Djokovic. Djokovic has won the two tie breaks that have been played
    between these …"); Federer 1-1 with a forehand winner; Djokovic 4-1 (a Federer half-volley error, two forced errors);
-   Federer 4-3 (drop-shot winner, serve winner); Djokovic 5-3 with a 194 km/h serve and forehand winner, 6-3 after a 13-shot
-   rally ending in a Djokovic forehand winner; **7-3 at 4:56:59**: Federer second serve 143 km/h, Djokovic backhand return,
+   Federer 4-3 (drop-shot winner; an unreturned second serve); Djokovic 5-3 with a 194 km/h serve and forehand winner, 6-3 after a 13-shot
+   rally ending in a Djokovic backhand winner (M `...f3b1*`, 13 shots, server hit last); **7-3 at 4:56:59**: Federer second serve 143 km/h, Djokovic backhand return,
    Federer forehand unforced error (T13). No clip or commentary exists for points 414-422.
 9. **Scene inventory from the transcript (T15-T17).** Available: the umpire's calls and "Please" (0:09:28, 4:08:51), the sun
    on the ball toss (1:18:38), the new Court One roof and "no need for the roof" (1:34:40, 2:02:19), the sun getting lower at
    the southern end (3:49:23), the Royal Box, the chairman and "the duchess" (1:34:40, 3:31:55, 3:56:54), the player boxes
-   (1:05:55, 2:26:44, 2:31:53, 3:07:58, 3:24:06), the crowd engaging, cheering "for the other guy", deflated (0:44:03,
-   2:38:06, 4:18:51), new balls (0:28:xx clip 0050, 2:22:20, 3:43:05, 4:22:01), challenges and line calls (0:32:57, 0:41:23,
+   (1:05:55, 2:26:44, 2:31:53, 3:07:58), the crowd engaging, cheering "for the other guy", deflated (0:44:03,
+   2:38:06, 4:18:51), new balls (clip tv_2019wimF:0050, video 1734 s, no PBP clock; 2:22:20, 3:43:05, 4:22:01), challenges and line calls (0:32:57, 0:41:23,
    1:28:22, 4:38:36, 4:43:27), fatigue ("Both players are feeling their arms getting heavy", 3:29:35; "His fatigue is
    cumulative", 4:27:58). Absent: walk-on, warm-up, coin toss, trophy, speeches, the final point.
 
