@@ -1,0 +1,29 @@
+{
+ "T2": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": false,
+  "opposite_direction_sig_2019": false
+ },
+ "T3": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": false,
+  "opposite_direction_sig_2019": false
+ },
+ "T4": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": null,
+  "opposite_direction_sig_2019": false
+ },
+ "T1_precondition_2019": {
+  "significant_holm": true,
+  "positive": true
+ },
+ "H1_supported_2019": false,
+ "H1_supported_and_replicated": false
+}

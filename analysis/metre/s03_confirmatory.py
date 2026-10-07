@@ -297,7 +297,7 @@ def run_match(tag):
     A = U.A.to_numpy(float)
     words = U.words.to_numpy(float)
     rate = words / A
-    idx = block_bootstrap_indices(n, B, L_BLOCK, SEED + 5)
+    idx = block_bootstrap_indices(n, B, L_BLOCK, SEED)
 
     def q90_ratio(A2, R2):
         s, l = tercile_masks(A2)
@@ -319,13 +319,17 @@ def run_match(tag):
     X = sm.add_constant(A)
     qr = sm.QuantReg(words, X).fit(q=0.9, max_iter=5000)
     bcoef = []
+    n_warn = 0
     for b in range(B):
         ii = idx[b]
-        try:
-            fb = sm.QuantReg(words[ii], X[ii]).fit(q=0.9, max_iter=2000)
-            bcoef.append(fb.params)
-        except Exception:
-            bcoef.append([np.nan, np.nan])
+        with warnings.catch_warnings(record=True) as wlist:
+            warnings.simplefilter("always")
+            try:
+                fb = sm.QuantReg(words[ii], X[ii]).fit(q=0.9, max_iter=2000)
+                bcoef.append(fb.params)
+            except Exception:
+                bcoef.append([np.nan, np.nan])
+            n_warn += int(len(wlist) > 0)
     bcoef = np.array(bcoef)
     t5 = {"n_units": n, "rate_words_per_s": {"median": rnd(np.median(rate)), "q90": rnd(np.quantile(rate, 0.9)),
                                              "max": rnd(rate.max()), "mean": rnd(rate.mean())},
@@ -336,7 +340,9 @@ def run_match(tag):
           "equivalence_bounds_log": [rnd(-bound), rnd(bound)], "decision": decision,
           "quantreg_0.9": {"intercept": rnd(qr.params[0]), "intercept_ci": [rnd(v) for v in ci(bcoef[:, 0])],
                            "slope_words_per_s": rnd(qr.params[1]), "slope_ci": [rnd(v) for v in ci(bcoef[:, 1])]},
-          "bootstrap": f"circular block, L={L_BLOCK}, B={B}"}
+          "bootstrap": f"circular block, L={L_BLOCK}, B={B}",
+          "quantreg_bootstrap_fits_with_warning": n_warn,
+          "quantreg_bootstrap_fits_failed": int(np.isnan(bcoef[:, 0]).sum())}
     json.dump(t5, open(RES / f"t5_{tag}.json", "w"), indent=1)
 
     # ---- details (without null arrays) and nulls for figures

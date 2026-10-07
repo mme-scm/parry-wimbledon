@@ -1,0 +1,47 @@
+{
+ "n_units": 219,
+ "rate_words_per_s": {
+  "median": 0.45,
+  "q90": 1.522,
+  "max": 3.9583,
+  "mean": 0.6067
+ },
+ "q90_rate_short_tercile": 1.5455,
+ "q90_rate_short_ci": [
+  1.3062,
+  1.9857
+ ],
+ "q90_rate_long_tercile": 1.3393,
+ "q90_rate_long_ci": [
+  1.0909,
+  1.5614
+ ],
+ "log_ratio_long_over_short": -0.1432,
+ "log_ratio_ci": [
+  -0.4293,
+  0.0386
+ ],
+ "ratio_long_over_short": 0.8666,
+ "ratio_ci": [
+  0.651,
+  1.0393
+ ],
+ "equivalence_bounds_log": [
+  -0.4055,
+  0.4055
+ ],
+ "decision": "inconclusive",
+ "quantreg_0.9": {
+  "intercept": 13.1111,
+  "intercept_ci": [
+   -1.2609,
+   45.2013
+  ],
+  "slope_words_per_s": 1.1481,
+  "slope_ci": [
+   0.2973,
+   1.5758
+  ]
+ },
+ "bootstrap": "circular block, L=10, B=10000"
+}
