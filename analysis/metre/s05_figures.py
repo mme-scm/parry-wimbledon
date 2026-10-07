@@ -84,16 +84,24 @@ plt.close(fig)
 
 # ---- fig3
 fig, axes = plt.subplots(1, 2, figsize=(10, 4), sharey=True)
+bins = [(2, 2, "2"), (3, 3, "3"), (4, 4, "4"), (5, 5, "5"), (6, 999, "6+")]
 for ax, tag in zip(axes, TAGS):
     U = pd.read_csv(RES / f"units_{tag}.csv")
     S = pd.read_csv(RES / f"strings_{tag}.csv")
     S = S[S.variant == "base"].merge(U[["point_idx", "A"]], on="point_idx")
     q1, q2 = np.quantile(U.A, [1 / 3, 2 / 3])
     groups = [S.syll[S.A <= q1], S.syll[(S.A > q1) & (S.A <= q2)], S.syll[S.A > q2]]
-    ax.boxplot(groups, showfliers=False)
-    ax.set_xticks([1, 2, 3], [f"short A\n(n={len(groups[0])})", f"middle A\n(n={len(groups[1])})", f"long A\n(n={len(groups[2])})"])
+    bottom = np.zeros(3)
+    for lo, hi, lab in bins:
+        frac = np.array([((g >= lo) & (g <= hi)).mean() for g in groups])
+        ax.bar(range(3), frac, bottom=bottom, label=f"{lab} syllables")
+        bottom += frac
+    ax.set_xticks(range(3), [f"short A\n(n={len(groups[0])}, mean {groups[0].mean():.2f})",
+                             f"middle A\n(n={len(groups[1])}, mean {groups[1].mean():.2f})",
+                             f"long A\n(n={len(groups[2])}, mean {groups[2].mean():.2f})"], fontsize=8)
     ax.set_title(LABEL[tag], fontsize=10)
-axes[0].set_ylabel("syllables per formulaic string")
+axes[0].set_ylabel("proportion of formulaic strings")
+axes[1].legend(fontsize=8, loc="lower right")
 fig.tight_layout()
 fig.savefig(FIG / "fig3_formula_syllables.png", dpi=150)
 plt.close(fig)

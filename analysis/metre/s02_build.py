@@ -68,6 +68,7 @@ def analyse_clip(tokens, variant, sn, names):
     return n_tok, n_cov, strings, texts
 
 
+WD = {}
 for tag in TAGS:
     U, flow, clips_by_point = build_units(tag)
     sn, names = surnames(tag), full_names(tag)
@@ -116,6 +117,17 @@ for tag in TAGS:
                       "dedup_action": r["dedup_action"], "clip_start_s": r["clip_start_s"], "clip_end_s": r["clip_end_s"],
                       "first_hit_s": r["first_hit_s"], "last_hit_s": r["last_hit_s"], "n_tok": nt, "n_cov": nc,
                       "n_tok_R1": nt1, "n_cov_R1": nc1, "in_units": r["point_idx_pbp"] in unit_set})
-    pd.DataFrame(crows).to_csv(RES / f"clips_{tag}.csv", index=False)
+    CL = pd.DataFrame(crows)
+    CL.to_csv(RES / f"clips_{tag}.csv", index=False)
+    # transcript-window diagnostics (structure only; plan section 9)
+    recs = {r["utt_id"]: r for r in read_jsonl(TR / f"tv_{tag}.jsonl")}
+    gaps = [r["clip_start_s"] - recs[r["dedup_of"]]["clip_end_s"] for r in recs.values()
+            if r["dedup_action"] == "exact_repeat" and r["dedup_of"] in recs]
+    WD[tag] = {"n_clips": len(CL), "median_clip_duration_s": round(float((CL.clip_end_s - CL.clip_start_s).median()), 2),
+               "median_first_hit_minus_clip_start_s": round(float((CL.first_hit_s - CL.clip_start_s).median()), 2),
+               "median_clip_end_minus_last_hit_s": round(float((CL.clip_end_s - CL.last_hit_s).median()), 2),
+               "n_exact_repeat_clips": len(gaps),
+               "median_gap_source_clip_end_to_repeat_clip_start_s": round(float(np.median(gaps)), 1) if gaps else None}
     print(tag, dict(flow), "units", len(U), "tokens", int(U.words.sum()), "share_base",
           round(U.n_cov_base.sum() / max(1, U.n_tok_base.sum()), 3))
+json.dump(WD, open(RES / "window_diagnostics.json", "w"), indent=1)

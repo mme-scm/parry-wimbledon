@@ -9,7 +9,7 @@
  "q90_rate_short_tercile": 1.5455,
  "q90_rate_short_ci": [
   1.3062,
-  1.9857
+  1.9656
  ],
  "q90_rate_long_tercile": 1.3393,
  "q90_rate_long_ci": [
@@ -18,13 +18,13 @@
  ],
  "log_ratio_long_over_short": -0.1432,
  "log_ratio_ci": [
-  -0.4293,
-  0.0386
+  -0.416,
+  0.0449
  ],
  "ratio_long_over_short": 0.8666,
  "ratio_ci": [
-  0.651,
-  1.0393
+  0.6597,
+  1.046
  ],
  "equivalence_bounds_log": [
   -0.4055,
@@ -34,8 +34,8 @@
  "quantreg_0.9": {
   "intercept": 13.1111,
   "intercept_ci": [
-   -1.2609,
-   45.2013
+   -1.4138,
+   46.3077
   ],
   "slope_words_per_s": 1.1481,
   "slope_ci": [
@@ -43,5 +43,7 @@
    1.5758
   ]
  },
- "bootstrap": "circular block, L=10, B=10000"
+ "bootstrap": "circular block, L=10, B=10000",
+ "quantreg_bootstrap_fits_with_warning": 59,
+ "quantreg_bootstrap_fits_failed": 0
 }

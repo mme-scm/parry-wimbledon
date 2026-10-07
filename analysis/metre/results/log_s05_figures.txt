@@ -1,0 +1,1 @@
+figures written: ['fig1_words_vs_available_time.png', 'fig2_formula_share.png', 'fig3_formula_syllables.png', 'fig4_shift_nulls.png', 'fig5_lengths_by_medium_exploratory.png']

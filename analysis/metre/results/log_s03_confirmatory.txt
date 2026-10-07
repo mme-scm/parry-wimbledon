@@ -1,0 +1,79 @@
+2019wimF
+  test  testable  n_units  n_strings  estimate   ci_lo   ci_hi  p_shift  n_shifts   p_holm  significant_holm  direction_as_H1 note
+0   T1      True      353        NaN    0.2485  0.1359  0.3591  0.00496       402  0.01984              True             True     
+1   T2      True      353        NaN   -0.0289 -0.0599  0.0131  0.10918       402  0.31266             False            False     
+2   T3      True      353     3460.0   -0.0399 -0.0882  0.0086  0.10422       402  0.31266             False            False     
+3   T4      True      353        NaN    0.0099 -0.0255  0.0439  0.74938       402  0.74938             False             True     
+                                                           check test  testable  n_units  n_strings  estimate   ci_lo   ci_hi  p_shift  n_shifts  ci_excludes_0 note
+0                                   R1 score-call tokens removed   T2      True      353        NaN   -0.0349 -0.0659  0.0089  0.04963       402          False     
+1                                   R1 score-call tokens removed   T3      True      353     3343.0   -0.0225 -0.0685  0.0222  0.31762       402          False     
+2                                   R1 score-call tokens removed   T4      True      353        NaN    0.0036 -0.0326  0.0375  0.86849       402          False     
+3                R2 strict formulas (n>=3, count>=5, streams>=3)   T2      True      353        NaN   -0.0071 -0.0351  0.0327  0.67494       402          False     
+4                R2 strict formulas (n>=3, count>=5, streams>=3)   T3      True      353      509.0   -0.0569 -0.1584  0.0478  0.32258       402          False     
+5                R2 strict formulas (n>=3, count>=5, streams>=3)   T4      True      353        NaN    0.0046 -0.0271  0.0365  0.84367       402          False     
+6   R3 predictor D (last hit to next serve), unit-sequence shift   T1      True      353        NaN    0.1977  0.0888  0.3061  0.00597       334           True     
+7   R3 predictor D (last hit to next serve), unit-sequence shift   T2      True      353        NaN   -0.0214 -0.0568  0.0161  0.22090       334          False     
+8   R3 predictor D (last hit to next serve), unit-sequence shift   T3      True      353     3460.0   -0.0480 -0.0989  0.0002  0.04179       334          False     
+9            R4 T3 partial Spearman controlling unit token count   T3      True      353     3460.0    0.0119 -0.0304  0.0515  0.57072       402          False     
+10                R5 units in cross-point exact repeats excluded   T1      True      278        NaN    0.2367  0.1050  0.3635  0.00496       402           True     
+11                R5 units in cross-point exact repeats excluded   T2      True      278        NaN   -0.0032 -0.0566  0.0401  0.89826       402          False     
+12                R5 units in cross-point exact repeats excluded   T3      True      278     2853.0   -0.0485 -0.0959 -0.0005  0.05955       402           True     
+13                R5 units in cross-point exact repeats excluded   T4      True      278        NaN    0.0130 -0.0239  0.0477  0.69975       402          False     
+14                     R6 continuous time-shift null (1-s steps)   T1      True      353        NaN    0.2485  0.1359  0.3591  0.00012     17220           True     
+15                     R6 continuous time-shift null (1-s steps)   T2      True      353        NaN   -0.0289 -0.0599  0.0131  0.09941     17220          False     
+16                     R6 continuous time-shift null (1-s steps)   T3      True      353     3460.0   -0.0399 -0.0882  0.0086  0.07073     17220          False     
+17                     R6 continuous time-shift null (1-s steps)   T4      True      353        NaN    0.0099 -0.0255  0.0439  0.52390     17220          False     
+2023wimF
+  test  testable  n_units  n_strings  estimate   ci_lo   ci_hi  p_shift  n_shifts   p_holm significant_holm direction_as_H1                                                      note
+0   T1      True    219.0        NaN    0.1630  0.0303  0.2854  0.03175     314.0  0.09525            False            True                                                          
+1   T2      True    219.0        NaN   -0.0434 -0.0960  0.0109  0.12063     314.0  0.24126            False           False                                                          
+2   T3      True    219.0     2255.0    0.0209 -0.0247  0.0650  0.43175     314.0  0.43175            False            True                                                          
+3   T4     False      NaN        NaN       NaN     NaN     NaN      NaN       NaN      NaN              NaN             NaN  not testable: 1 changeover units after exclusions (< 15)
+                                                           check test  testable  n_units  n_strings  estimate   ci_lo   ci_hi  p_shift  n_shifts ci_excludes_0                note
+0                                   R1 score-call tokens removed   T2      True    219.0        NaN   -0.0454 -0.0992  0.0098  0.11429     314.0         False                    
+1                                   R1 score-call tokens removed   T3      True    219.0     2196.0    0.0245 -0.0235  0.0717  0.39365     314.0         False                    
+2                                   R1 score-call tokens removed   T4     False      NaN        NaN       NaN     NaN     NaN      NaN       NaN           NaN  1 changeover units
+3                R2 strict formulas (n>=3, count>=5, streams>=3)   T2      True    219.0        NaN   -0.0036 -0.0730  0.0506  0.88254     314.0         False                    
+4                R2 strict formulas (n>=3, count>=5, streams>=3)   T3      True    219.0      357.0   -0.0201 -0.1270  0.0826  0.70476     314.0         False                    
+5                R2 strict formulas (n>=3, count>=5, streams>=3)   T4     False      NaN        NaN       NaN     NaN     NaN      NaN       NaN           NaN  1 changeover units
+6   R3 predictor D (last hit to next serve), unit-sequence shift   T1      True    217.0        NaN   -0.0070 -0.1488  0.1249  0.99497     198.0         False                    
+7   R3 predictor D (last hit to next serve), unit-sequence shift   T2      True    217.0        NaN   -0.0385 -0.0924  0.0136  0.13065     198.0         False                    
+8   R3 predictor D (last hit to next serve), unit-sequence shift   T3      True    217.0     2220.0    0.0309 -0.0258  0.0833  0.25126     198.0         False                    
+9            R4 T3 partial Spearman controlling unit token count   T3      True    219.0     2255.0    0.0255 -0.0210  0.0673  0.33016     314.0         False                    
+10                R5 units in cross-point exact repeats excluded   T1      True    195.0        NaN    0.1245 -0.0175  0.2583  0.12063     314.0         False                    
+11                R5 units in cross-point exact repeats excluded   T2      True    195.0        NaN   -0.0478 -0.1201  0.0018  0.10794     314.0         False                    
+12                R5 units in cross-point exact repeats excluded   T3      True    195.0     2008.0    0.0249 -0.0238  0.0709  0.38730     314.0         False                    
+13                R5 units in cross-point exact repeats excluded   T4     False      NaN        NaN       NaN     NaN     NaN      NaN       NaN           NaN  1 changeover units
+14                     R6 continuous time-shift null (1-s steps)   T1      True    219.0        NaN    0.1630  0.0303  0.2854  0.01236   16348.0          True                    
+15                     R6 continuous time-shift null (1-s steps)   T2      True    219.0        NaN   -0.0434 -0.0960  0.0109  0.08649   16348.0         False                    
+16                     R6 continuous time-shift null (1-s steps)   T3      True    219.0     2255.0    0.0209 -0.0247  0.0650  0.42437   16348.0         False                    
+17                     R6 continuous time-shift null (1-s steps)   T4     False      NaN        NaN       NaN     NaN     NaN      NaN       NaN           NaN  1 changeover units
+{
+ "T2": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": false,
+  "opposite_direction_sig_2019": false
+ },
+ "T3": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": false,
+  "opposite_direction_sig_2019": false
+ },
+ "T4": {
+  "holm_sig_in_H1_direction_2019": false,
+  "R1_same_sign_ci_excl_0": false,
+  "supports_H1_2019": false,
+  "replicated_2023": null,
+  "opposite_direction_sig_2019": false
+ },
+ "T1_precondition_2019": {
+  "significant_holm": true,
+  "positive": true
+ },
+ "H1_supported_2019": false,
+ "H1_supported_and_replicated": false
+}

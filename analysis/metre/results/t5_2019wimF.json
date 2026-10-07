@@ -8,23 +8,23 @@
  },
  "q90_rate_short_tercile": 2.0,
  "q90_rate_short_ci": [
-  1.4821,
-  2.2222
+  1.4929,
+  2.2701
  ],
  "q90_rate_long_tercile": 1.5422,
  "q90_rate_long_ci": [
-  1.1689,
-  1.9238
+  1.1649,
+  1.9257
  ],
  "log_ratio_long_over_short": -0.2599,
  "log_ratio_ci": [
-  -0.5453,
-  0.1203
+  -0.5531,
+  0.1206
  ],
  "ratio_long_over_short": 0.7711,
  "ratio_ci": [
-  0.5797,
-  1.1279
+  0.5752,
+  1.1282
  ],
  "equivalence_bounds_log": [
   -0.4055,
@@ -34,14 +34,16 @@
  "quantreg_0.9": {
   "intercept": 0.2857,
   "intercept_ci": [
-   -22.4286,
-   12.9892
+   -23.1096,
+   13.4545
   ],
   "slope_words_per_s": 1.5714,
   "slope_ci": [
-   1.1538,
-   2.32
+   1.1327,
+   2.3372
   ]
  },
- "bootstrap": "circular block, L=10, B=10000"
+ "bootstrap": "circular block, L=10, B=10000",
+ "quantreg_bootstrap_fits_with_warning": 77,
+ "quantreg_bootstrap_fits_failed": 0
 }

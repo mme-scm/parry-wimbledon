@@ -1,0 +1,18 @@
+{
+ "2019wimF": {
+  "n_clips": 481,
+  "median_clip_duration_s": 6.2,
+  "median_first_hit_minus_clip_start_s": 1.04,
+  "median_clip_end_minus_last_hit_s": 2.0,
+  "n_exact_repeat_clips": 55,
+  "median_gap_source_clip_end_to_repeat_clip_start_s": 17.2
+ },
+ "2023wimF": {
+  "n_clips": 368,
+  "median_clip_duration_s": 6.6,
+  "median_first_hit_minus_clip_start_s": 1.04,
+  "median_clip_end_minus_last_hit_s": 1.96,
+  "n_exact_repeat_clips": 26,
+  "median_gap_source_clip_end_to_repeat_clip_start_s": 17.2
+ }
+}

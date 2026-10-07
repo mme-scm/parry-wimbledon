@@ -1,0 +1,30 @@
+{
+"dev_acc": 0.9939,
+"heldout_acc": 0.9667,
+"heldout_ci": [
+0.9174,
+0.987
+],
+"heldout_errors": [
+{
+"word": "rafael",
+"gold": 3,
+"counted": 2
+},
+{
+"word": "cameraman",
+"gold": 3,
+"counted": 4
+},
+{
+"word": "interested",
+"gold": 3,
+"counted": 4
+},
+{
+"word": "rpm",
+"gold": 3,
+"counted": 1
+}
+]
+}

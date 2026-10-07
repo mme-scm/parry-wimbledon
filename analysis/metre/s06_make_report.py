@@ -19,6 +19,10 @@ ver = json.load(open(RES / "verdict.json"))
 syl = json.load(open(RES / "syllable_check.json"))
 pool = json.load(open(RES / "pool_formulas_summary.json"))
 top19 = pd.read_csv(RES / "top_strings_2019wimF.tsv", sep="\t")
+wd = json.load(open(RES / "window_diagnostics.json"))
+_s19 = pd.read_csv(RES / "strings_2019wimF.csv").query("variant == 'base'")
+bigram_share_19 = float((_s19.ntok == 2).mean())
+from metre_lib import SEED  # noqa: E402
 
 
 def f(x, k=3):
@@ -35,6 +39,11 @@ def pp(x):
 
 def ppci(lo, hi):
     return f"[{100 * lo:+.1f}, {100 * hi:+.1f}]"
+
+
+def cats(d):
+    c = d["descriptives"]["category_counts"]
+    return f"{c.get('within_game', 0)} within-game, {c.get('changeover', 0)} changeover/set-break, {c.get('other_game_end', 0)} other game-end units"
 
 
 def pfmt(p):
@@ -56,7 +65,7 @@ def conf_rows():
         for t in ["T1", "T2", "T3", "T4"]:
             r = conf[tag].loc[t]
             if not bool(r.testable):
-                out.append(f"| {tag} | {t} | {pred[t]} | not testable ({r.note}) | | | | | |")
+                out.append(f"| {tag} | {t} | {pred[t]} | {r.note} | | | | | |")
                 continue
             if isdiff[t]:
                 est = f"{pp(r.estimate)} pp {ppci(r.ci_lo, r.ci_hi)}"
@@ -127,6 +136,15 @@ r3_23 = rob["2023wimF"].query("check.str.startswith('R3') and test == 'T1'", eng
 r1t2 = rob["2019wimF"].query("check.str.startswith('R1') and test == 'T2'", engine="python").iloc[0]
 r4 = rob["2019wimF"].query("check.str.startswith('R4')", engine="python").iloc[0]
 supported = ver["H1_supported_2019"]
+flag_rows = []
+for tag in T:
+    for _, r in rob[tag].iterrows():
+        if bool(r.testable) and r.test in ("T2", "T3", "T4") and (bool(r.ci_excludes_0) or r.p_shift < 0.05):
+            val = f"{pp(r.estimate)} pp" if r.test in ("T2", "T4") else f"rho = {f(r.estimate)}"
+            flag_rows.append(f"{tag} {r.check.split(' ')[0]} {r.test} ({val}, CI {ppci(r.ci_lo, r.ci_hi) if r.test in ('T2', 'T4') else ci(r.ci_lo, r.ci_hi)}, "
+                             f"unadjusted p = {pfmt(r.p_shift)}; {'H1 direction' if r.estimate > 0 else 'opposite to H1'})")
+n_h1dir = sum("H1 direction" in x for x in flag_rows)
+flag_text = ("; ".join(flag_rows)) if flag_rows else "none"
 any_opposite = any(ver[t]["opposite_direction_sig_2019"] for t in ("T2", "T3", "T4"))
 t2_19, t3_19, t4_19 = C19.loc["T2"], C19.loc["T3"], C19.loc["T4"]
 t2_23, t3_23 = C23.loc["T2"], C23.loc["T3"]
@@ -145,7 +163,8 @@ All numbers below are read from `analysis/metre/results/` by `s06_make_report.py
   and as unit the **clip-level transcript aggregated per point**. The strike-level version of H1 remains **untested**.
 * **Precondition (T1).** In the 2019 final the number of tokens attached to a point rises with the time available:
   Spearman rho = {f(t1_19.estimate)} {ci(t1_19.ci_lo, t1_19.ci_hi)}, shift-null p = {pfmt(t1_19.p_shift)} (Holm {pfmt(t1_19.p_holm)}); about
-  {f(D19['OLS']['estimate'], 2)} {ci(D19['OLS']['ci_lo'], D19['OLS']['ci_hi'], 2)} extra tokens per extra second. In the held-out 2023 final
+  {f(D19['OLS']['estimate'], 2)} {ci(D19['OLS']['ci_lo'], D19['OLS']['ci_hi'], 2)} extra tokens per extra second (OLS slope, secondary; shift-null
+  p = {pfmt(D19['OLS']['p_shift'])}). In the held-out 2023 final
   rho = {f(t1_23.estimate)} {ci(t1_23.ci_lo, t1_23.ci_hi)} (Holm p = {pfmt(t1_23.p_holm)}, **not significant**), and the association there is
   carried by points that have an extra fault clip (EXPLORATORY X7: rho = {f(x7_23['T1_rho_single_clip_units'])} among single-clip units).
   Both H1' and H0 predict T1 (section 2), so T1 is not evidence for a frame.
@@ -157,7 +176,7 @@ All numbers below are read from `analysis/metre/results/` by `s06_make_report.py
   None is significant after Holm correction.
 * **Verdict under the pre-registered rules (plan section 7): H1' is {'SUPPORTED' if supported else 'NOT SUPPORTED'}** in the 2019 final
   and {'replicated' if ver['H1_supported_and_replicated'] else 'not replicated'} in 2023.
-  {'At least one effect is significant in the direction opposite to H1.' if any_opposite else 'No effect is significant in the direction opposite to H1 either.'}
+  {'At least one confirmatory effect is Holm-significant in the direction opposite to H1.' if any_opposite else 'No confirmatory effect is Holm-significant in the direction opposite to H1 either.'}
   The 2019 CIs are narrow enough to exclude a short-interval excess in formula share larger than {100 * t2_19.ci_hi:.1f} pp and a positive
   syllable-time correlation larger than rho = {f(t3_19.ci_hi)}, **for formulas as defined here and for clip-level text**.
 
@@ -168,9 +187,12 @@ length is constrained by the time available; between points, composition is free
 pause distribution predict.
 
 **Why re-specified.** The corpus (corpus/README.md sections 0, 4, 6, 8) consists of WhisperX transcripts attached to TennisVL rally clips
-(median clip {6.2} s in 2019; see plan section 9), with no audio, no word timestamps and no speaker labels. A clip's text window is
-undocumented and reaches beyond the clip: identical texts recur on clips a median 17 s apart, and score calls in a clip are usually
-the score *after* its point. Speech during rallies cannot therefore be separated from speech between points, and the corpus cannot show
+(median clip {wd['2019wimF']['median_clip_duration_s']} s in 2019, starting a median {wd['2019wimF']['median_first_hit_minus_clip_start_s']} s before the
+first hit and ending {wd['2019wimF']['median_clip_end_minus_last_hit_s']} s after the last), with no audio, no word timestamps and no speaker labels.
+A clip's text window is undocumented and reaches beyond the clip: {wd['2019wimF']['n_exact_repeat_clips']} clips repeat the text of an earlier
+clip that ended a median {wd['2019wimF']['median_gap_source_clip_end_to_repeat_clip_start_s']} s before they start (2023:
+{wd['2023wimF']['n_exact_repeat_clips']} clips, {wd['2023wimF']['median_gap_source_clip_end_to_repeat_clip_start_s']} s), and score calls in a clip are
+usually the score *after* its point (README section 4). Speech during rallies cannot therefore be separated from speech between points, and the corpus cannot show
 how much speech occurs during rallies. As the brief requires in that case, the frame was moved to the **interval between points**.
 
 **H1' (tested).** The time available around a point, `A` = serve-to-serve cycle of the point (PBP match clock: rally + dead-ball time to
@@ -204,8 +226,8 @@ Sample flow (exclusion rules E1-E5 of the plan):
 
 Analysed units: 2019 n = {D19['descriptives']['n_units']} ({D19['descriptives']['tokens']} tokens, {D19['descriptives']['zero_word_units']}
 with no text; median `A` {f(D19['descriptives']['A_median'], 0)} s, IQR {f(D19['descriptives']['A_q25'], 0)}-{f(D19['descriptives']['A_q75'], 0)} s;
-categories {D19['descriptives']['category_counts']}). 2023 n = {D23['descriptives']['n_units']} ({D23['descriptives']['tokens']} tokens,
-{D23['descriptives']['zero_word_units']} with no text; median `A` {f(D23['descriptives']['A_median'], 0)} s; categories {D23['descriptives']['category_counts']}).
+{cats(D19)}). 2023 n = {D23['descriptives']['n_units']} ({D23['descriptives']['tokens']} tokens,
+{D23['descriptives']['zero_word_units']} with no text; median `A` {f(D23['descriptives']['A_median'], 0)} s; {cats(D23)}).
 In 2023 E5 removes the units whose interval contains a video cut (the source video omits changeovers), so only
 {D23['descriptives']['category_counts'].get('changeover', 0)} changeover unit remains and T4 is not testable there (pre-registered threshold: 15).
 
@@ -245,7 +267,8 @@ Group shares behind T2 and T4 (token-pooled, 95% CI):
 {share_rows()}
 
 **What H1' predicted and what was observed.**
-* T1 (P1): predicted rho > 0. Observed in 2019 (significant); in 2023 rho > 0 with a CI excluding 0 but not significant after Holm, and not
+* T1 (P1): predicted rho > 0. Observed in 2019 (significant; OLS slope {f(D19['OLS']['estimate'], 2)} {ci(D19['OLS']['ci_lo'], D19['OLS']['ci_hi'], 2)}
+  tokens per second, p = {pfmt(D19['OLS']['p_shift'])}; 2023: {f(D23['OLS']['estimate'], 2)} {ci(D23['OLS']['ci_lo'], D23['OLS']['ci_hi'], 2)}, p = {pfmt(D23['OLS']['p_shift'])}); in 2023 rho > 0 with a CI excluding 0 but not significant after Holm, and not
   present among single-clip units (X7). Because H0 predicts the same when the text window spans the interval, this only establishes
   (for 2019) that clip-level text carries point-level timing information.
 * T2 (P2): predicted more formulaic text in short intervals. Not observed: the point estimates go the other way in both finals
@@ -255,7 +278,7 @@ Group shares behind T2 and T4 (token-pooled, 95% CI):
   {f(D19['T4']['share_changeover'])}. Not testable in 2023.
 
 Figures: `figures/fig1_words_vs_available_time.png` (tokens vs `A`), `figures/fig2_formula_share.png` (shares by tercile and by
-category), `figures/fig3_formula_syllables.png` (string syllables by tercile), `figures/fig4_shift_nulls.png` (null distributions).
+category), `figures/fig3_formula_syllables.png` (distribution of string syllables by tercile), `figures/fig4_shift_nulls.png` (null distributions).
 
 ## 6. Pre-registered descriptive measure T5: speech-rate ceiling
 
@@ -281,10 +304,10 @@ R6 continuous time-shift null.
 |---|---|---|---|---|---|---|
 {rob_rows()}
 
-Reading: no check produces an effect in H1's direction with a CI excluding 0 for T2-T4. The R1 version of T2 in 2019
-({pp(r1t2.estimate)} pp, unadjusted p = {pfmt(r1t2.p_shift)}) points, if anything, the other way. R3 confirms T1 in 2019
-(rho = {f(r3_19.estimate)}) but not in 2023 (rho = {f(r3_23.estimate)}). R4 (rho = {f(r4.estimate)} {ci(r4.ci_lo, r4.ci_hi)}) shows that T3 stays near 0
-once text length is controlled for.
+Reading: checks on T2-T4 with a CI excluding 0 or an unadjusted p < 0.05: {flag_text}. {'None of them is in the direction H1 predicts' if n_h1dir == 0 else str(n_h1dir) + ' of them in the direction H1 predicts'};
+these are uncorrected secondary analyses and are not evidence for the opposite hypothesis either, but they give no sign of an H1 effect
+masked in the primary analysis. R3 confirms T1 in 2019 (rho = {f(r3_19.estimate)}) but not in 2023 (rho = {f(r3_23.estimate)}). R4
+(rho = {f(r4.estimate)} {ci(r4.ci_lo, r4.ci_hi)}) shows that T3 stays near 0 once the unit's text length is controlled for.
 
 ## 8. Held-out replication (2023 final)
 
@@ -334,15 +357,16 @@ to a point tracks that point's own interval beyond match-level drift (T1, robust
 to both nulls), which shows that the clip text is time-locked at the level of points. Given that, the formula measures could have shown
 the pattern H1' predicts, but they did not: formula share does not rise in short intervals (the point estimate falls), formula length in
 syllables does not grow with the time available, and changeover talk is not less formulaic than within-game talk. At this resolution,
-the commentary behaves as H0 describes: more time yields more text, with the same composition. In Parry's terms, the data give no
-support for a temporal analogue of metrical conditioning at the between-point level. They say nothing about the strike level, where
-the brief located the metrical frame and which this corpus cannot reach.
+the commentary behaves as H0 describes: more time yields more text, with no detectable change in formula share or formula length.
+For the analogy with oral-formulaic verse, the data give no support for the idea that the time between points conditions the length
+or density of formulas as a metrical slot would. They say nothing about the strike level, where the brief located the metrical frame
+and which this corpus cannot reach; nor about formulaic systems, which were not measured here.
 
 ## 11. Limitations
 
 1. **No audio, no word times, no speakers**: IUs, pitch resets, IU phase, rally-internal speech and production speed are unmeasurable;
    the hypothesis tested is the re-specified H1', not H1.
-2. **Undocumented text window**: texts are attributed to clips by an unknown rule; identical texts recur on clips about 17 s apart; a
+2. **Undocumented text window**: texts are attributed to clips by an unknown rule; identical texts recur on clips a median {wd['2019wimF']['median_gap_source_clip_end_to_repeat_clip_start_s']} s apart; a
    unit's text can include talk from before the point and miss talk late in long intervals. This blurs the time-text link and biases
    all T-tests toward 0.
 3. **Mixed voices**: umpire calls, Hawk-Eye and announcements are in the text (R1 removes score calls only).
@@ -354,15 +378,19 @@ the brief located the metrical frame and which this corpus cannot reach.
    within-broadcaster formulas) were not tested here.
 6. **Timing**: `A` has 1 s resolution and includes the fault interval; `D` depends on the TennisVL parser and the video offset.
    The 2023 video omits changeovers, so the held-out test covers a narrower range of intervals and no T4.
-7. **Power and dependence**: 353 (2019) and 219 (2023) units; formulaic strings are clustered in units (the bootstrap resamples units).
-   The index-shift null has a p-value floor of about 0.005.
-8. **One broadcaster per match**: commentator identity, broadcaster and match are confounded; the medium contrast (X1) is across
+7. **Short formulaic strings**: maximal formulaic strings are mostly bigrams ({100 * bigram_share_19:.0f}% have two tokens in 2019; mean {f(D19['T3']['mean_syll'], 2)} syllables, median
+   {f(D19['T3']['median_syll'], 0)} in 2019; mean {f(D23['T3']['mean_syll'], 2)} in 2023), so T3 works on a narrow range of lengths and could miss
+   effects confined to long formulas (R2, with n >= 3, covers {int(rob['2019wimF'].query("check.str.startswith('R2') and test == 'T3'", engine='python').n_strings.iloc[0])} strings in 2019 and is also null).
+8. **Power and dependence**: 353 (2019) and 219 (2023) units; formulaic strings are clustered in units (the bootstrap resamples units).
+   The index-shift null has a two-sided p-value floor of {2 / (int(C19.loc['T1'].n_shifts) + 1):.4f} (2019) and {2 / (int(C23.loc['T1'].n_shifts) + 1):.4f} (2023).
+9. **One broadcaster per match**: commentator identity, broadcaster and match are confounded; the medium contrast (X1) is across
    different matches and is descriptive.
-9. Robustness checks and exploratory analyses are not multiplicity-corrected; they are used for interpretation only.
+10. Robustness checks and exploratory analyses are not multiplicity-corrected; they are used for interpretation only.
 
 ## 12. Deviations from the plan
 
-* T5 bootstrap uses the plan's seed {20190714}; no other change. X7 was added after the robustness results were seen and is
+* The brief's ">= 5,000 shifts" is met only by the pre-registered secondary null R6; the primary null is the exhaustive index shift, as the plan states.
+* All bootstraps use the plan's seed {SEED}. Quantile-regression bootstrap fits that raised a convergence warning are kept (counts in section 6). X7 was added after the robustness results were seen and is
   exploratory. No confirmatory definition, test, exclusion rule or threshold was changed after the plan commit.
 
 ## 13. Files
