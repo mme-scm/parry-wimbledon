@@ -17,9 +17,9 @@
  "pooled_majority_types": 2606,
  "cornell_tokens_full": 178770,
  "press_tokens_full": 5435611,
- "runtime_jobs_s": 501.5,
+ "runtime_jobs_s": 562.3,
  "runtime_scan_s": 3.3,
- "runtime_total_s": 511.8,
+ "runtime_total_s": 573.0,
  "seeds": {
   "jobs": "[SEED, 108, target index, r, token variant index]",
   "bootstrap": "[SEED, 109]"
