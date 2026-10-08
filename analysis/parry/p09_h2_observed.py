@@ -8,7 +8,7 @@
     placeholder (and the same for the unshuffled subsamples).
 (3) H1 as a check: share of the TV -> TV excess reached by press -> TV and Cornell -> TV; press-speaker yardstick.
 
-Outputs (results/): h2_observed.csv, unigram_concentration.csv, shuffled_inventory_composition.csv, h1_check.json
+Outputs (results/): h2_observed.csv, unigram_concentration.csv, shuffled_inventory_composition.csv, h1_check.json, corpus_facts.json
 Run: python -I analysis/parry/p09_h2_observed.py
 """
 import sys
@@ -145,6 +145,15 @@ def main():
     chk["press_speakers_mean_excess_S1500_base"] = float(np.mean([float(agg[("1500", "norm", "cov_base", f"{x}->{y} excess")]["estimate"])
                                                                    for x in sp for y in sp if x != y]))
     L.write_json(L.RESULTS / "h1_check.json", chk)
+    # ---------------------------------------------------------------- corpus facts used in the report's limitations (no literals there)
+    pr = L.C.load_press_answers()
+    dates = sorted(r["date"] for r in pr if r["date"])
+    crec = L.C.load_stream(L.C.TEXT)
+    years = sorted({L.stream_meta(s)["year"] for s in L.TV})
+    L.write_json(L.RESULTS / "corpus_facts.json", {
+        "press_first_date": dates[0], "press_last_date": dates[-1], "press_interviewees": len({r["group"] for r in pr}),
+        "press_answers": len(pr), "cornell_records_have_dates": any(any("date" in k for k in r) for r in crec[:50]),
+        "cornell_outlet": crec[0].get("broadcaster"), "tv_first_year": years[0], "tv_last_year": years[-1]})
     print("done")
 
 
