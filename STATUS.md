@@ -47,6 +47,8 @@ Repeated-n-gram coverage of the 2019 final (9,791 tokens; n ≥ 2, exact strings
 
 - 2026-10-07: the human approved Phase 2b (exploratory): cross-broadcast sharing, Parry calibration with two blind coders, thrift per slot across the pool. Its plan is committed before any test runs.
 
+- 2026-10-08 03:10 UTC: the human instructed a PAUSE after Phases 2b and 4 are closed, to assess usage limits. Resume point: Phase 5 (translator on composition/final/), then Phase 6 (assemble paper: 2b exploratory section, composition section 5, weaving section 7 from paper/weaving_section_draft.md with the link paragraph, appendices; trim; critic), then Finish (README).
+
 ## Open issues
 (see FOR_HUMAN.md for items needing human judgment)
 
