@@ -1,2 +1,2 @@
-clusters done 10.1 s
-all done 172.9 s
+clusters done 7.9 s
+all done 322.3 s

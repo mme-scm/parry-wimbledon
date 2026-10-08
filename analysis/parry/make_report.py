@@ -8,8 +8,15 @@ rules below from the results files:
   coverage at that S is below 2% of tokens.
 * weak-proxy rule (addendum M3): an automatic measure is a 'weak proxy' if its kappa against every reference set is below 0.40.
 * thrift verdicts (addendum M5) are read from results/h4_verdicts.json (rule in p10_h4_robust.py).
-* composition rule (addendum A1): the TV-only stock is described as 'mainly the official register and score/time frames' if OFFICIAL +
-  SCORE + STAT tokens are >= 50% of its tokens, otherwise as 'mainly commentary'.
+* composition rule (addendum A1): OFFICIAL + SCORE + STAT tokens are 'the majority' of the TV-only stock if >= 50% of its tokens, otherwise
+  'a minority'; the strict part is said to hold a larger share of umpire/score-call tokens only if its share is more than twice that of all
+  TV-only tokens; 'the classifier puts some score frames in OTHER' is printed only if a top-40 string with modal slot OTHER contains
+  game(s)/set(s).
+* base-rate rule (addendum M3): the 2019-vs-other precision difference is 'mostly a base rate' if the groups' precision-minus-chance values
+  differ by less than half the difference of their raw precisions, otherwise 'only partly a base rate'.
+* conditional explanations: the Cornell-null explanation (H2) only if the excess exceeds the observed difference, the shuffled Cornell inventory
+  is larger than every TV stream's and Cornell's Simpson index exceeds the TV mean; 'no sign that the hinted pair shares more' only if p >= 0.05;
+  the slot-noise caveat only if every classifier kappa is below 0.6.
 * significance wording for exploratory tests: 'p < 0.05' / 'p >= 0.05' as computed; Bonferroni bounds where stated.
 Run: python -I analysis/parry/make_report.py
 """
@@ -200,8 +207,10 @@ def main():
     w("")
     w("**Revision 1.** This version adds the analyses of plan addendum 1 (dated, committed before they were run, and **post hoc**: written after "
       "the first report and the critic's review `review/critic_parry_v1.md`, whose own reruns the addendum adopts). The pre-registered analyses are "
-      "rerun unchanged" + (f" and reproduce: {rr['identical']} of {rr['files_compared']} pre-registered results files are identical to commit "
-                          f"{rr['reference_commit']} (run-time fields excluded; `results/rerun_check.csv`)" if rr else "") + ". "
+      "rerun unchanged" + ((f" and reproduce: all {rr['files_compared']} pre-registered results files are identical to commit {rr['reference_commit']}"
+                            if rr["identical"] == rr["files_compared"] else
+                            f"; {rr['identical']} of {rr['files_compared']} pre-registered results files are identical to commit {rr['reference_commit']} "
+                            f"(differing: {', '.join(rr['different'])})") + " (run-time fields excluded; `results/rerun_check.csv`)" if rr else "") + ". "
       "The cross-corpus comparison now rests on 100,000-token identification sets (section 2.0); the 1,500-token matched design is kept as the secondary "
       "design. No verdict sentence in this report is typed by hand: each is chosen by a rule stated in `make_report.py` from the results files. "
       "Post hoc changes are listed in section 7.")
@@ -247,23 +256,28 @@ def main():
     off_share = sum(comp[s] for s in OFFICIAL_LIKE)
     top40 = tvp[:40]
     n_off40 = sum(1 for r in top40 if r["modal_slot"] in OFFICIAL_LIKE)
+    missed_score = [r["ngram"] for r in top40 if r["modal_slot"] == "OTHER" and any(t in ("games", "game", "sets", "set") for t in r["ngram"].split())]
     ex_off = [r["ngram"] for r in top40 if r["modal_slot"] in OFFICIAL_LIKE][:6]
     ex_com = [r["ngram"] for r in top40 if r["modal_slot"] not in OFFICIAL_LIKE][:6]
     order = sorted(L.SLOTS, key=lambda s: -comp[s])
     strict_frac = np.mean([f(r["share_strict"]) for r in tvo.values()]) / np.mean(sh_only)
-    if off_share >= 0.5:
-        comp_verdict = "By token it is mainly the official register and score/time frames"
-    else:
-        comp_verdict = "By token it is mainly commentary"
+    sj = comp["SHOT"] + comp["JUDGE"]
+    sck = L.read_json(R / "calibration_slot_context.json") if (R / "calibration_slot_context.json").exists() else {}
+    span_k = (f"kappa {num(sck['coder_spans_A_span']['kappa'], 2)} / {num(sck['coder_spans_B_span']['kappa'], 2)} against the two coders"
+              if "coder_spans_A_span" in sck else "not validated")
+    comp_verdict = (f"By the span-mode slot classifier ({span_k}), SCORE, STAT and OFFICIAL frames are "
+                    + ("the majority" if off_share >= 0.5 else "a minority") + f" ({pc(off_share, 0)}%) of its tokens, SHOT and JUDGE {pc(sj, 0)}% and OTHER "
+                    f"{pc(comp['OTHER'], 0)}%")
     w(f"* **What the TV-specific n >= 3 stock consists of (post hoc; Tables 2.D-2.G).** In the 2019 final {pc(m19['share_only'])}% of tokens lie in n >= 3 strings that "
       f"the TV sample shares with it and that neither the Cornell nor the press sample repeats ('TV-only'), and {pc(m19['share_shared'])}% in n >= 3 strings that a "
       f"baseline sample also has (2023 final: {pc(m23['share_only'])}% / {pc(m23['share_shared'])}%; mean over the 20 targets {pc(np.mean(sh_only))}%, range "
-      f"{pc(min(sh_only))}-{pc(max(sh_only))}%). {comp_verdict}: pooled over the 20 targets its tokens fall in "
+      f"{pc(min(sh_only))}-{pc(max(sh_only))}%). {comp_verdict} (pooled over the 20 targets; by slot "
       + ", ".join(f"{s} {pc(comp[s], 0)}%" for s in order)
-      + f" (situational slot of the longest covering string); {pc(slot_share('ALL_TV', 'tv_only', '_umpire_mask'), 0)}% of them lie inside umpire or score-call "
+      + f"; slot of the longest covering string); {pc(slot_share('ALL_TV', 'tv_only', '_umpire_mask'), 0)}% of them lie inside umpire or score-call "
       f"patterns ({pc(slot_share(L.MAIN, 'tv_only', '_umpire_mask'), 0)}% and {pc(slot_share(L.HELDOUT, 'tv_only', '_umpire_mask'), 0)}% in the 2019 and 2023 "
-      f"finals). The commonest TV-only strings are another matter: {n_off40} of the 40 most frequent are SCORE, STAT or OFFICIAL frames by modal slot ("
-      + ", ".join(f"`{x}`" for x in ex_off) + "), the others commentary (" + ", ".join(f"`{x}`" for x in ex_com) + "). "
+      f"finals). Among the 40 most frequent TV-only strings, {n_off40} are SCORE, STAT or OFFICIAL by modal slot ("
+      + ", ".join(f"`{x}`" for x in ex_off) + "), the others SHOT, JUDGE or OTHER (" + ", ".join(f"`{x}`" for x in ex_com)
+      + (f"; the classifier puts some score frames in OTHER, e.g. " + ", ".join(f"`{x}`" for x in missed_score[:2]) if missed_score else "") + "). "
       + share_word(np.mean([f(r['share_cross']) for r in tvo.values()]) / np.mean(sh_only)).capitalize() + " of the TV-only tokens "
       f"({pc(np.mean([f(r['share_cross']) for r in tvo.values()]))}% of tokens on average, against {pc(np.mean(sh_only))}%) are in strings attested in at least two "
       f"other TV streams. Under the strictest reading (no covering string is repeated anywhere in the whole Cornell text or the "
@@ -272,7 +286,8 @@ def main():
       "patterns. " + (f"So {share_word(1 - strict_frac)} of the TV-only stock consists of strings the other registers also use, less often (a difference of "
                       "frequency; rates in Table 2.F)" if strict_frac < 0.5 else f"So {share_word(strict_frac)} of the TV-only stock consists of strings the other "
                       "registers do not repeat at all")
-      + ("; the strictly TV-only part is concentrated in the umpire's and score-call register." if slot_share('ALL_TV', 'tv_only_strict', '_umpire_mask')
+      + (f"; umpire and score-call patterns are a larger part of the strictly TV-only tokens ({pc(slot_share('ALL_TV', 'tv_only_strict', '_umpire_mask'), 0)}%) "
+         f"than of all TV-only tokens ({pc(slot_share('ALL_TV', 'tv_only', '_umpire_mask'), 0)}%)." if slot_share('ALL_TV', 'tv_only_strict', '_umpire_mask')
          > 2 * slot_share('ALL_TV', 'tv_only', '_umpire_mask') else "."))
     # ---- K3 H1 as a check
     h1a, h1b, h2a, h2b = (h12[k] for k in ("H1a", "H1b", "H2a", "H2b"))
@@ -285,8 +300,8 @@ def main():
       f"{ci(h1b['ci_lo'], h1b['ci_hi'], 2)} (n >= 3). The shuffle destroys every collocation, and {h1_word} of this excess is reached by sources that are not TV "
       f"commentary: press answers reach {pc(c15['press_pooled_share_of_tv_tv_excess'], 0)}% and Cornell live text {pc(c15['cornell_share_of_tv_tv_excess'], 0)}% "
       f"of it, and four press speakers share {pc(h1c['press_speakers_mean_excess_S1500_base'], 1)} pp among themselves (TV streams {pc(h1a['estimate'], 1)}). "
-      + ("H1 therefore establishes repetition beyond the lexicon, not a commentary-specific stock; the TV-specific part is in the first two bullets."
-         if min(bshares) > 0.55 else "Less than half of it is reached by the baselines."))
+      + ("H1 therefore establishes repetition beyond the lexicon, not a commentary-specific stock"
+         + ("; the TV-specific part is in the first two bullets." if all_above else ".") if min(bshares) > 0.55 else "Less than half of it is reached by the baselines."))
     # ---- K4 H2 at S = 1,500
     oc, op = ho(1500, "cov_base", "cornell", "observed"), ho(1500, "cov_base", "press_pooled", "observed")
     tv_obs = f(oc["tv_tv_mean"])
@@ -308,7 +323,7 @@ def main():
                 "TV text, and the size of the excess difference is a property of the null. ") if expl_ok else ""
     w(f"* **H2 at 1,500 tokens (pre-registered).** The pre-registered statistic (difference of excess over the shuffled null) is {pc(h2a['estimate'], 2)} pp "
       f"{ci(h2a['ci_lo'], h2a['ci_hi'], 2)} against Cornell and {pc(h2b['estimate'], 2)} pp {ci(h2b['ci_lo'], h2b['ci_hi'], 2)} against press (Holm-rejected: "
-      f"{prim['H2a']['reject_holm_0.05']}, {prim['H2b']['reject_holm_0.05']}). On observed coverage, on which the claim rests, the differences are "
+      f"{'yes' if prim['H2a']['reject_holm_0.05'] == 'True' else 'no'}, {'yes' if prim['H2b']['reject_holm_0.05'] == 'True' else 'no'}). On observed coverage, on which the claim rests, the differences are "
       f"{hoci(1500, 'cov_base', 'cornell', 'observed')} pp ({oc['targets_positive']}/{oc['n_targets']} targets positive) and "
       f"{hoci(1500, 'cov_base', 'press_pooled', 'observed')} pp ({op['targets_positive']}/{op['n_targets']}), so at this size TV sources cover TV targets "
       + " and ".join(h2_verdicts) + ". " + expl_txt
@@ -434,13 +449,13 @@ def main():
       f"{pval(va['p_range_variants'][1])} over {va['variants_checked']} seeds and variants, among them surname, first and full name only: p = "
       f"{pval(vrow('H4a', 'without hypo')['p_one_sided_fewer'])}; leave-one-stream-out p <= {pval(va['loso_p_range'][1])}).")
     w(f"* **Slot-bound form choice (H4b).** Pre-registered: {h4b['D_obs']} distinct stream x player x slot forms against {num(h4b['null_mean'], 1)} expected, "
-      f"p = {pval(h4b['p_one_sided_fewer'])}, Holm p = {pval(prim['H4b']['p_holm'])} (rejected: {prim['H4b']['reject_holm_0.05']}). Verdict after the post hoc "
+      f"p = {pval(h4b['p_one_sided_fewer'])}, Holm p = {pval(prim['H4b']['p_holm'])} ({'rejected' if prim['H4b']['reject_holm_0.05'] == 'True' else 'not rejected'}). Verdict after the post hoc "
       f"checks: **{vb['verdict']}**. With 100,000 permutations at three seeds p = {pval(min(f(r['p_one_sided_fewer']) for r in bigb))}-"
       f"{pval(max(f(r['p_one_sided_fewer']) for r in bigb))} (Holm {pval(min(f(r['holm_p_substituted']) for r in bigb))}-"
       f"{pval(max(f(r['holm_p_substituted']) for r in bigb))}); without hypocoristic and epithet forms p = {pval(vrow('H4b', 'without hypo')['p_one_sided_fewer'])}; "
       f"surname and first name only p = {pval(vrow('H4b', 'surname and first')['p_one_sided_fewer'])}; with the span-mode slot p = "
       f"{pval(vrow('H4b', 'span-mode')['p_one_sided_fewer'])} (span mode lets the reference's own words enter the classifier, e.g. an epithet containing "
-      "`number one` counts as STAT, so this variant can favour rejection); without the {len(h4v['hypocoristic_streams'])} streams with hypocoristics p = "
+      f"`number one` counts as STAT, so this variant can favour rejection); without the {len(h4v['hypocoristic_streams'])} streams with hypocoristics p = "
       f"{pval(vrow('H4b', 'without the')['p_one_sided_fewer'])}; one reference per player per utterance p = {pval(vrow('H4b', 'first reference')['p_one_sided_fewer'])}; "
       f"leaving out one stream at a time p = {pval(vb['loso_p_range'][0])}-{pval(vb['loso_p_range'][1])} ({vb['loso_n_p_below_0.05']} of {vb['loso_runs']} below 0.05). "
       f"Per stream, {pt_sit['p_below_0.05']} of {pt_sit['tests']} situational and {pt_syn['p_below_0.05']} of {pt_syn['tests']} syntactic tests reach p < 0.05 "
@@ -459,7 +474,8 @@ def main():
     w(f"* **Functional equivalents (E2, exploratory).** Of {len(e2p)} tested equivalence classes ({len(__import__('p05_thrift').E2)} declared; the others have one "
       f"attested form), stream choice among the alternatives is more consistent than chance (unadjusted p < 0.05, fewer forms per stream) for "
       + ", ".join(f"{c} (p = {pval(p1)})" for c, p1, _ in sig2) + f"; not for {', '.join(nonsig2)}. Of the {m_e2} E2 p-values {n_below} are below 0.05 "
-      f"({num(0.05 * m_e2, 1)} expected); after a Bonferroni bound over the {m_e2} only {', '.join(bonf) if bonf else 'none'} remain.")
+      f"({num(0.05 * m_e2, 1)} expected); after a Bonferroni bound over the {m_e2}, " + (f"only {', '.join(bonf)} " + ("remains" if len(bonf) == 1 else "remain")
+                                                                                          if bonf else "none remains") + ".")
     loso_sig = [r["slot"] for r in e1l if f(r["p_one_sided_fewer"]) < 0.05]
     e1_all = all(f(r["p_one_sided_fewer"]) < 0.05 for r in e1t)
     w(f"* **Formula economy per slot (E1, exploratory).** With the inventory identified on all 20 streams pooled, "
@@ -467,7 +483,8 @@ def main():
       + " shows fewer distinct formula types per stream than chance; this is guaranteed by construction, because a string repeated inside one stream only "
       "enters the pooled inventory. With the inventory identified on the other 19 streams (post hoc), "
       + (f"{len(loso_sig)} of {len(e1l)} slots still do ({', '.join(loso_sig)})" if loso_sig else f"none of the {len(e1l)} slots does")
-      + " (Table 4.7b).")
+      + (": streams reuse their own selection of strings that other streams also use (a stream being one match and one broadcaster)" if len(loso_sig) == len(e1l)
+         else "") + " (Table 4.7b).")
     hs = h5p[0]
     w(f"* **Extension (H5).** No association was detected between the syllable length of a reference and the time available after its clip: weighted within-stream "
       f"rho = {num(h5['rho_weighted'], 3)} (stream bootstrap {ci(h5['boot_lo'], h5['boot_hi'], 3, 1)}; permutation p = {pval(h5['p_two'])}; {h5['tokens']} references "
@@ -475,8 +492,8 @@ def main():
       f"the corpus correction, rho = {num(hs['rho_weighted'], 3)}, p = {pval(hs['p_two'])} (post hoc).")
     rej = [k for k, r in prim.items() if r["reject_holm_0.05"] == "True"]
     w(f"* **2b-primary family (Holm, 7 tests; section 5).** Rejected as pre-registered: {', '.join(rej) if rej else 'none'}; not rejected: "
-      f"{', '.join(k for k in prim if k not in rej) or 'none'}. Read with the post hoc checks: H1a/H1b detect collocation that {h1_word} of the baseline "
-      f"text also shows; H2a/H2b on observed coverage: {hoci(1500, 'cov_base', 'cornell', 'observed')} and {hoci(1500, 'cov_base', 'press_pooled', 'observed')} pp "
+      f"{', '.join(k for k in prim if k not in rej) or 'none'}. Read with the post hoc checks: H1a/H1b: {h1_word} of the detected excess is also reached by "
+      f"the baseline sources; H2a/H2b on observed coverage: {hoci(1500, 'cov_base', 'cornell', 'observed')} and {hoci(1500, 'cov_base', 'press_pooled', 'observed')} pp "
       f"(" + ("both above 0" if f(oc['ci_lo']) > 0 and f(op['ci_lo']) > 0 else "not both above 0") + f"), {pc(d2c['estimate'], 1)} and {pc(d2p['estimate'], 1)} pp "
       f"with {lmeta['I_size']:,}-token sources; H4a: {va['verdict']}; H4b: {vb['verdict']}; H5: "
       + ("not rejected." if prim["H5"]["reject_holm_0.05"] != "True" else "rejected."))
@@ -526,7 +543,7 @@ def main():
       "times had been computed as frames/25); the corpus has since been corrected (corpus/README.md section 3.3: frame rate detected per stream, frame-derived "
       "times recomputed, hit times unchanged). The pre-registered analyses use the hit clock, which the correction did not touch: **A_after** = first hit of the next "
       "clip minus last hit of this clip (the clip's text runs into the following dead time). The stored field, valid in all 20 streams after the correction, enters "
-      "a post hoc sensitivity of H5 (Table 4.6b).")
+      "a post hoc sensitivity of H5 (last row of Table 4.6).")
     w("")
     # ------------------------------------------------------------------ 2 sharing
     w("## 2. Shared stock: what TV commentary repeats that other registers do not (2b.1)")
@@ -654,7 +671,8 @@ def main():
     w(table(["S", "inventory", "source -> target", "observed", "shuffled", "excess"], rows))
     w("")
     w("**Table 2.3. TV sources minus baseline sources at matched size** (pp; vertex bootstrap 95% CI, B = 10,000; targets with a positive difference). The "
-      "pre-registered H2 statistic is the excess column (n >= 2, S = 1,500: H2a, H2b); the observed column is the basis of the H2 claim (addendum 1, M1).")
+      "pre-registered H2 statistic is the excess column (n >= 2, S = 1,500: H2a, H2b); the observed column is the basis of the H2 claim (addendum 1, M1). "
+      "The excess intervals here come from new bootstrap draws (`p09_h2_observed.py`) and can differ from section 5's in the second decimal.")
     w("")
     rows = []
     for Sv in ("1500", "3000"):
@@ -882,8 +900,8 @@ def main():
         w("")
         w("**Table 3.2. Automatic measures against the coders, with chance levels** (token level, HIGH + MEDIUM spans; 'Pool' = the 18 pool streams minus the "
           "utterance's own; 'in-sample' = the utterance's own stream; bootstrap 95% CI over utterances). Chance precision = the reference's positive share; chance "
-          "recall = the measure's positive share; ceiling = the highest precision possible at that positive share. The last three rows of each measure block "
-          "were exploratory in the plan.")
+          "recall = the measure's positive share; ceiling = the highest precision possible at that positive share. The last three measures (marked "
+          "exploratory) were added in the plan beyond the brief.")
         w("")
         prows = {(r["measure"], r["reference"]): r for r in L.read_csv(R / "calibration_prf.csv") if r["coder_confidence"] == "HIGH+MEDIUM"}
         rows = []
@@ -897,7 +915,7 @@ def main():
         w(table(["automatic measure", "reference", "auto-positive %", "precision", "chance precision", "ceiling", "precision - chance", "recall", "chance recall",
                  "kappa", "F1"], rows))
         w("")
-        w("**Table 3.2b. By sample group** (pool n >= 2 and pool n >= 3 against coder A, coder B and their union). The two halves differ in design: 150 uniform 2019 "
+        w("**Table 3.2b. By sample group** (pool n >= 2, pool n >= 3 and pool systems against coder A, coder B and their union). The two halves differ in design: 150 uniform 2019 "
           "utterances against 150 token-weighted utterances of the other streams, identified against a pool of 17 instead of 18 streams.")
         w("")
         rows = []
@@ -1194,12 +1212,13 @@ def main():
       "they speak in produce the same patterns as slot-conditioned choice (H4b) or as stream-level habits (H4a, E2).")
     w(f"6. **Slot labels are noisy.** Context mode, which gives a reference its slot in H4, agrees with the coders at kappa {num(cv['coder_spans_A_context']['kappa'], 2)} "
       f"/ {num(cv['coder_spans_B_context']['kappa'], 2)} on their spans and {num(rA['kappa'], 2)} / {num(rB['kappa'], 2)} on the {rA['n']} / {rB['n']} commentary "
-      "references inside coded spans; span mode (formula spans) at about 0.49. Random slot errors attenuate H4b and blur the per-slot tables; Tables 2.11, 2.E and 4.7 "
+      f"references inside coded spans; span mode (formula spans) at {num(cv['coder_spans_A_span']['kappa'], 2)} / {num(cv['coder_spans_B_span']['kappa'], 2)}. "
+      "Random slot errors attenuate H4b and blur the per-slot tables; Tables 2.11, 2.E and 4.7 "
       "use span mode on the strings themselves, so their SCORE and OFFICIAL rows are partly defined by the strings' own words.")
     w(f"7. **Sizes and samples.** At 1,500 tokens an n >= 3 inventory has {num(min(inv15), 0)}-{num(max(inv15), 0)} types, too few for n >= 3 comparisons; the "
       f"{lmeta['I_size']:,}-token design fixes that, but its TV source is drawn from 19 streams that overlap between targets, so its bootstrap over targets understates "
-      "between-broadcast uncertainty. 'TV-only' means 'repeated in a 100,000-token TV sample and not in 100,000-token Cornell and press samples': most such strings do "
-      "occur in the whole baselines, at lower rates (Table 2.F).")
+      "between-broadcast uncertainty. 'TV-only' means 'repeated in a 100,000-token TV sample and not in 100,000-token Cornell and press samples': "
+      f"{share_word(1 - strict_frac)} of the TV-only tokens lie in strings that the whole baselines do repeat, at lower rates (Tables 2.D, 2.F).")
     w(f"8. **Baselines are different corpora.** Cornell (one outlet, {facts['cornell_outlet']}; written; other matches; no dates in the records) and the press answers "
       f"({facts['press_first_date'][:4]}-{facts['press_last_date'][:4]}; player answers, first person) differ from the TV streams ({facts['tv_first_year']}-"
       f"{facts['tv_last_year']}) in matches, period, transcription, segmentation and person; TV-minus-baseline differences say that TV commentary repeats strings these "

@@ -1,5 +1,5 @@
 {
- "matched_runtime_s": 36.9,
+ "matched_runtime_s": 31.6,
  "spearman_idiolect_vs_stream_tokens": {
   "full": [
    0.4421052631578947,
@@ -10,7 +10,7 @@
    0.0015370486321183076
   ]
  },
- "total_s": 323.7,
+ "total_s": 287.9,
  "S": 1500,
  "R_matched": 200,
  "R_baseline": 20

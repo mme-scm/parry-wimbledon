@@ -356,3 +356,19 @@ near-empty inventories. The design below is the pooled design of section 8 / Pha
   the original columns only).
 * The report generator contains no verdict literal: every verdict sentence is chosen by a rule from the results (rules above and in
   make_report.py), and every number is read from results/.
+
+### Addendum 1, implementation notes (2026-10-08; POST HOC, written while implementing addendum 1 and after its first outputs)
+* A1 type tables: besides the planned columns, each TV-only string carries its rate per 100,000 tokens in the TV streams, the whole Cornell text
+  and the whole press corpus (descriptive; added because 'not a formula of a 100,000-token sample' and 'never repeated in 5.4 million tokens' are
+  far apart, and the rates show where a string lies between them).
+* A1 composition: the umpire/score-call share is tallied for the strict and cross-broadcast classes too (the first quick test tallied it only for
+  the main TV-only class).
+* M5 variant 'without the streams that carry hypocoristics' removes three streams: the two Nadal streams and the 2019 final, which has one
+  hypocoristic token. The rule was applied as written.
+* M5: H5 with the stored time field uses seed [SEED, 117]. The first run of p10_h4_robust.py wrote h4_robust.csv with the column list of its first
+  row, which dropped the null-distribution columns; fixed (explicit columns) and rerun with the same seeds before any report was written from it.
+* M3: calibrate.py writes calibration_auto_labels.json (the automatic token labels it already computed) so that calibrate_chance.py need not
+  recompute them; no other calibrate.py output changes.
+* Report rules (in make_report.py's docstring): ci_verdict, share_word, near-empty, weak-proxy, the thrift verdict file, the composition rule
+  (OFFICIAL + SCORE + STAT >= 50% of TV-only tokens = 'majority', otherwise 'minority'), and the base-rate rule for the 2019-vs-other precision
+  difference (attributed 'mostly' to the base rate if the groups' precision-minus-chance values differ by less than half their raw precisions).
