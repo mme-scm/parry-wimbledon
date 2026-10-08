@@ -1,0 +1,31 @@
+{
+ "S1500_cov_base": {
+  "tv_tv_excess": 0.0755996,
+  "cornell_to_tv_excess": 0.0571519,
+  "cornell_share_of_tv_tv_excess": 0.7559815131296991,
+  "press_pooled_to_tv_excess": 0.0542263,
+  "press_pooled_share_of_tv_tv_excess": 0.7172828956766967
+ },
+ "S1500_cov_n3": {
+  "tv_tv_excess": 0.0102062,
+  "cornell_to_tv_excess": 0.0104715,
+  "cornell_share_of_tv_tv_excess": 1.0259940036448434,
+  "press_pooled_to_tv_excess": 0.0103883,
+  "press_pooled_share_of_tv_tv_excess": 1.0178420959808743
+ },
+ "S3000_cov_base": {
+  "tv_tv_excess": 0.119442,
+  "cornell_to_tv_excess": 0.0826208,
+  "cornell_share_of_tv_tv_excess": 0.6917231794511143,
+  "press_pooled_to_tv_excess": 0.0892221,
+  "press_pooled_share_of_tv_tv_excess": 0.7469910081880745
+ },
+ "S3000_cov_n3": {
+  "tv_tv_excess": 0.0237071,
+  "cornell_to_tv_excess": 0.0218461,
+  "cornell_share_of_tv_tv_excess": 0.921500310033703,
+  "press_pooled_to_tv_excess": 0.0189658,
+  "press_pooled_share_of_tv_tv_excess": 0.8000050617747427
+ },
+ "press_speakers_mean_excess_S1500_base": 0.10855835000000001
+}
