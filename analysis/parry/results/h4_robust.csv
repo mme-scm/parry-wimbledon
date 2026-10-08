@@ -1,0 +1,19 @@
+test,variant,kind,slot,tokens,streams,D_obs,null_mean,null_lo,null_hi,p_one_sided_fewer,mc_se,permutations,seed,holm_p_substituted,holm_rejected,status
+H4a,"pre-registered run (p05, 10,000 permutations)",pre-registered,slot_sit,2833,20,303,388.388,377,399,9.999e-05,9.999e-05,10000,"[SEED, 5] (p05 sequence)",0.00069993,True,2b-primary
+H4b,"pre-registered run (p05, 10,000 permutations)",pre-registered,slot_sit,2833,20,472,483.268,473,494,0.0220978,0.00147002,10000,"[SEED, 5] (p05 sequence)",0.0441956,True,2b-primary
+H4a,"100,000 permutations, seed 0",seed,slot_sit,2833,20,303,388.289,378,399,9.9999e-06,9.9999e-06,100000,"[20261007, 113, 0]",6.99993e-05,True,"post hoc (addendum 1, M5)"
+H4b,"100,000 permutations, seed 0",seed,slot_sit,2833,20,472,483.278,473,494,0.0236398,0.000480426,100000,"[20261007, 113, 0]",0.0472795,True,"post hoc (addendum 1, M5)"
+H4a,"100,000 permutations, seed 1",seed,slot_sit,2833,20,303,388.258,377,399,9.9999e-06,9.9999e-06,100000,"[20261007, 113, 1]",6.99993e-05,True,"post hoc (addendum 1, M5)"
+H4b,"100,000 permutations, seed 1",seed,slot_sit,2833,20,472,483.233,473,494,0.0236498,0.000480525,100000,"[20261007, 113, 1]",0.0472995,True,"post hoc (addendum 1, M5)"
+H4a,"100,000 permutations, seed 2",seed,slot_sit,2833,20,303,388.278,377,399,9.9999e-06,9.9999e-06,100000,"[20261007, 113, 2]",6.99993e-05,True,"post hoc (addendum 1, M5)"
+H4b,"100,000 permutations, seed 2",seed,slot_sit,2833,20,472,483.261,473,494,0.0232698,0.000476742,100000,"[20261007, 113, 2]",0.0465395,True,"post hoc (addendum 1, M5)"
+H4a,without hypocoristic and epithet forms,variant,slot_sit,2616,20,254,282.333,275,290,4.99975e-05,4.99975e-05,20000,"[20261007, 114, 0]",0.000349983,True,"post hoc (addendum 1, M5)"
+H4b,without hypocoristic and epithet forms,variant,slot_sit,2616,20,401,408.721,399,418,0.0645968,0.00173816,20000,"[20261007, 114, 0]",0.129194,False,"post hoc (addendum 1, M5)"
+H4a,surname and first name only,variant,slot_sit,2413,20,188,206.571,201,212,4.99975e-05,4.99975e-05,20000,"[20261007, 114, 1]",0.000349983,True,"post hoc (addendum 1, M5)"
+H4b,surname and first name only,variant,slot_sit,2413,20,315,319.467,313,326,0.123244,0.00232438,20000,"[20261007, 114, 1]",0.246488,False,"post hoc (addendum 1, M5)"
+H4a,first reference per player per utterance,variant,slot_sit,2171,20,280,350.132,340,360,4.99975e-05,4.99975e-05,20000,"[20261007, 114, 2]",0.000349983,True,"post hoc (addendum 1, M5)"
+H4b,first reference per player per utterance,variant,slot_sit,2171,20,419,431.142,421,441,0.00969952,0.000693016,20000,"[20261007, 114, 2]",0.019399,True,"post hoc (addendum 1, M5)"
+H4a,span-mode slot (classify(span) on the reference),variant,slot_sit_span,2833,20,305,389.791,379,401,4.99975e-05,4.99975e-05,20000,"[20261007, 114, 3]",0.000349983,True,"post hoc (addendum 1, M5)"
+H4b,span-mode slot (classify(span) on the reference),variant,slot_sit_span,2833,20,469,483.367,473,494,0.00549973,0.000522947,20000,"[20261007, 114, 3]",0.0109995,True,"post hoc (addendum 1, M5)"
+H4a,without the 3 streams with hypocoristics,variant,slot_sit,1992,17,239,266.153,258,274,4.99975e-05,4.99975e-05,20000,"[20261007, 114, 4]",0.000349983,True,"post hoc (addendum 1, M5)"
+H4b,without the 3 streams with hypocoristics,variant,slot_sit,1992,17,367,375.786,366,385,0.0442978,0.00145491,20000,"[20261007, 114, 4]",0.0885956,False,"post hoc (addendum 1, M5)"

@@ -1,0 +1,67 @@
+{
+ "coder_kappa_token_level": 0.7740985815419683,
+ "coder_spans_A_context": {
+  "n": 1249,
+  "agreement": 0.2594075260208166,
+  "kappa": 0.14133831786814513
+ },
+ "coder_spans_A_span": {
+  "n": 1249,
+  "agreement": 0.5788630904723779,
+  "kappa": 0.48974002895471014
+ },
+ "coder_spans_B_context": {
+  "n": 1010,
+  "agreement": 0.25742574257425743,
+  "kappa": 0.14566352338513489
+ },
+ "coder_spans_B_span": {
+  "n": 1010,
+  "agreement": 0.5732673267326732,
+  "kappa": 0.48370254928611917
+ },
+ "sample_references": {
+  "all": 420,
+  "commentary_only": 390
+ },
+ "references_A_all_context": {
+  "n": 92,
+  "agreement": 0.6086956521739131,
+  "kappa": 0.5405742821473158
+ },
+ "references_A_all_span": {
+  "n": 92,
+  "agreement": 0.6086956521739131,
+  "kappa": 0.5369774919614149
+ },
+ "references_A_commentary_only_context": {
+  "n": 65,
+  "agreement": 0.46153846153846156,
+  "kappa": 0.3536931818181818
+ },
+ "references_A_commentary_only_span": {
+  "n": 65,
+  "agreement": 0.46153846153846156,
+  "kappa": 0.3432448036951501
+ },
+ "references_B_all_context": {
+  "n": 97,
+  "agreement": 0.6288659793814433,
+  "kappa": 0.5608651911468813
+ },
+ "references_B_all_span": {
+  "n": 97,
+  "agreement": 0.6185567010309279,
+  "kappa": 0.5466144517433047
+ },
+ "references_B_commentary_only_context": {
+  "n": 69,
+  "agreement": 0.4927536231884058,
+  "kappa": 0.38767748478701824
+ },
+ "references_B_commentary_only_span": {
+  "n": 69,
+  "agreement": 0.4782608695652174,
+  "kappa": 0.36438075742067555
+ }
+}

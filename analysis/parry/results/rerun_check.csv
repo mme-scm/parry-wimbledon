@@ -1,0 +1,44 @@
+file,comparison,identical,bytes_identical
+calibration_agreement.json,JSON without run-time fields,True,True
+calibration_meta.json,JSON without run-time fields,True,True
+calibration_prf.csv,sha256,True,
+calibration_slot_classifier.csv,sha256,True,
+calibration_strata.csv,sha256,True,
+cluster_tests.csv,sha256,True,
+core_baselines.csv,sha256,True,
+core_meta.json,JSON without run-time fields,True,True
+core_sizes.csv,sha256,True,
+core_top.csv,sha256,True,
+e1_economy.csv,sha256,True,
+e1_tests.csv,sha256,True,
+e1_top_types.csv,sha256,True,
+e2_classes.csv,sha256,True,
+e2_tests.csv,sha256,True,
+extension_2b.csv,sha256,True,
+extension_per_stream.csv,sha256,True,
+h4_declustered.csv,sha256,True,
+h4b_by_slot.csv,sha256,True,
+idiolect_shares.csv,sha256,True,
+inventory_sizes_full.csv,sha256,True,
+inventory_sizes_matched.csv,sha256,True,
+mde_h4b.csv,sha256,True,
+pair_2019_2023.json,JSON without run-time fields,True,True
+parryan_pattern.csv,sha256,True,
+pool_to_target.csv,sha256,True,
+pool_to_target_meta.json,JSON without run-time fields,True,True
+primary_H1H2.json,JSON without run-time fields,True,True
+primary_H4H5.json,JSON without run-time fields,True,True
+primary_tests.csv,sha256,True,
+qap_regression.csv,sha256,True,
+refexpr_category_shares.csv,sha256,True,
+refexpr_economy.csv,sha256,True,
+refexpr_pool_epithets.csv,sha256,True,
+refexpr_pool_summary.json,JSON without run-time fields,True,True
+refexpr_pool_tokens.csv,"original 19 columns, 2998 rows (post hoc columns: slot_sit_span, t_next_stored_all)",True,
+sharing_aggregates.csv,sha256,True,
+sharing_meta.json,JSON without run-time fields,True,True
+sharing_pairs.csv,sha256,True,
+sharing_per_team.csv,sha256,True,
+slot_token_counts.csv,sha256,True,
+thrift_meta.json,JSON without run-time fields,True,True
+thrift_tests_2b.csv,sha256,True,

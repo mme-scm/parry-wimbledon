@@ -1,0 +1,8 @@
+analysis,slot,occurrences,D_obs,null_mean,null_lo,null_hi,p_one_sided_fewer,modal_share_obs,modal_share_null_mean,p_one_sided_modal_higher,permutations,null,status
+"E1 formula expressions, leave-one-stream-out inventory",SCORE,2112,1842,1883.62,1869,1898,9.999e-05,0.0666788,0.0748719,0.9979,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",OFFICIAL,496,376,409.807,401,418,9.999e-05,0.233985,0.174679,9.999e-05,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",SHOT,7069,6455,6623.9,6592,6656,9.999e-05,0.0135241,0.0102505,9.999e-05,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",JUDGE,6401,5882,5994.61,5964,6024.02,9.999e-05,0.0134277,0.0113243,0.00059994,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",STAT,2238,2055,2131.25,2115,2147,9.999e-05,0.0350134,0.026214,0.00019998,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",CROWD,537,502,519.417,513,526,9.999e-05,0.108999,0.0905462,0.00279972,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"
+"E1 formula expressions, leave-one-stream-out inventory",OTHER,8993,8297,8483.69,8447,8520,9.999e-05,0.00968209,0.00769918,9.999e-05,10000,team labels permuted among occurrences within slot,"post hoc (addendum 1), exploratory"

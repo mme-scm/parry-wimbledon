@@ -1,0 +1,6 @@
+slot,classes,n_classes,occurrences,D_obs,null_mean,null_lo,null_hi,p_one_sided_fewer,permutations,status
+SCORE,"tied_at_forty, match_point, break_chance",3,169,60,63.4162,60,66,0.040396,10000,"post hoc (addendum 1), exploratory"
+SHOT,"net_error, along_the_line, serve_centre, serve_body, serve_wide",5,210,94,104.178,99,110,0.00019998,10000,"post hoc (addendum 1), exploratory"
+JUDGE,"small_degree, praise_stroke, well_played, obligation, opinion_hedge",5,1340,264,270.631,262,279,0.0721928,10000,"post hoc (addendum 1), exploratory"
+STAT,"speed_unit, major_titles",2,62,37,43.738,40,47,0.00069993,10000,"post hoc (addendum 1), exploratory"
+CROWD,audience,1,101,39,39.639,37,42,0.443056,10000,"post hoc (addendum 1), exploratory"

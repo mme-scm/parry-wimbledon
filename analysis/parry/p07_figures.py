@@ -226,7 +226,7 @@ def fig_largeI():
         ax.set_xticks(range(3))
         ax.set_xticklabels([sl for _, sl in srcs])
         ax.set_ylabel("% of the TV target's tokens covered")
-        ax.set_title(f"{lab_}: identification set 100,000 tokens (mean of 5 subsamples)")
+        ax.set_title(f"{lab_} (I = 100,000 tokens; mean of 5 samples)")
     fig.suptitle("Coverage of each of the 20 TV streams (whole text) by sources of equal size; lines join one target")
     fig.tight_layout()
     fig.savefig(FIG / "fig9_largeI_coverage.png", dpi=150)

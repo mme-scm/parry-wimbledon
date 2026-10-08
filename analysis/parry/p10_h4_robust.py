@@ -52,11 +52,14 @@ def main():
                          "null_hi": d["null_hi"], "p_one_sided_fewer": p, "mc_se": float(np.sqrt(p * (1 - p) / n_perm)), "permutations": n_perm,
                          "seed": seed, "holm_p_substituted": hp, "holm_rejected": hp < ALPHA, "status": "post hoc (addendum 1, M5)"})
     # pre-registered run, as stored
+    h45 = L.read_json(L.RESULTS / "primary_H4H5.json")
     for k in ("H4a", "H4b"):
-        pr = prim[k]
+        pr, d = prim[k], h45[k]
+        p = float(pr["p"])
         rows.append({"test": k, "variant": "pre-registered run (p05, 10,000 permutations)", "kind": "pre-registered", "slot": "slot_sit",
-                     "tokens": len(comm), "streams": len({r["stream"] for r in comm}), "D_obs": pr["estimate"], "p_one_sided_fewer": float(pr["p"]),
-                     "permutations": 10000, "seed": "[SEED, 5] (p05 sequence)", "holm_p_substituted": float(pr["p_holm"]),
+                     "tokens": len(comm), "streams": len({r["stream"] for r in comm}), "D_obs": d["D_obs"], "null_mean": d["null_mean"],
+                     "null_lo": d["null_lo"], "null_hi": d["null_hi"], "p_one_sided_fewer": p, "mc_se": float(np.sqrt(p * (1 - p) / d["permutations"])),
+                     "permutations": d["permutations"], "seed": "[SEED, 5] (p05 sequence)", "holm_p_substituted": float(pr["p_holm"]),
                      "holm_rejected": pr["reject_holm_0.05"] == "True", "status": "2b-primary"})
     for k in range(SEEDS_BIG):
         seed = [L.SEED, 113, k]
@@ -79,7 +82,8 @@ def main():
         seed = [L.SEED, 114, vi]
         add(lab, rs, T.h4(rs, np.random.default_rng(seed), slot_key=sk, n_perm=N_VAR), str(seed), N_VAR, "variant", sk)
         print(lab, rows[-1]["p_one_sided_fewer"], flush=True)
-    L.write_csv(L.RESULTS / "h4_robust.csv", rows)
+    L.write_csv(L.RESULTS / "h4_robust.csv", rows, ["test", "variant", "kind", "slot", "tokens", "streams", "D_obs", "null_mean", "null_lo", "null_hi",
+                                                    "p_one_sided_fewer", "mc_se", "permutations", "seed", "holm_p_substituted", "holm_rejected", "status"])
     loso = []
     for si, s in enumerate(L.TV):
         rs = [r for r in comm if r["stream"] != s]

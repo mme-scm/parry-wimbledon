@@ -49,6 +49,11 @@ Repeated-n-gram coverage of the 2019 final (9,791 tokens; n ≥ 2, exact strings
 
 - 2026-10-08 03:10 UTC: the human instructed a PAUSE after Phases 2b and 4 are closed, to assess usage limits. Resume point: Phase 5 (translator on composition/final/), then Phase 6 (assemble paper: 2b exploratory section, composition section 5, weaving section 7 from paper/weaving_section_draft.md with the link paragraph, appendices; trim; critic), then Finish (README).
 
+## Phase 4 summary (DONE 2026-10-08)
+Final poem: composition/final/poem.txt and poem.jsonl, 64 hexameters (brief target about 50; v1 55, v2 60, v3 60, v4 64). Rounds: three verifier rounds (scansion, provenance, philology; round 1 24/55 PASS, round 2 52/60, round 3 60/60), then the poem critic (0 critical, 8 major, all answered in v4), then a fourth verifier round on v4 (scansion 64/64, philology 64/64, provenance 55/64 with 9 record-only items, applied without touching the text). Every line passes check_line.py with no flags (two spondaic fifth feet flagged and modelled on Il. 22.164–165 and Il. 10.259/14.4; Hermann's bridge respected throughout).
+Formulaic density of the poem (review/poem_density_v4.json; method: the Greek analogue of analysis/formulas, coverage of the poem's tokens by word n-grams attested in Homer, accent-insensitive; "base" excludes function-word-only strings; "min2" requires two attestations; CIs by line bootstrap): n ≥ 2 any attested string 81.9% [77.2, 86.2] (shuffled baseline 15.9%; a Homeric line against the rest of Homer 70.0%); n ≥ 3 69.7% [62.3, 76.6] (Homer 43.8%); n ≥ 2 base min2 53.8% [46.1, 61.5] (Homer 43.0%). Without the 19 verbatim Homeric lines: 74.7%, 57.8%, 54.0%.
+Lines containing at least one ATTESTED-EXACT formula of two or more words: 64/64 = 100% (95.3% excluding function-word-only formulas). Source entries: 279 (148 ATTESTED-EXACT, 131 ATTESTED-MODIFIED, 0 NOT-ATTESTED; 32 coined-name substitutions into attested slots). Enjambment: none 37, unperiodic 18, necessary 9 (14.1%). Decisions needing a human are in FOR_HUMAN.md (the Djokovic renderings, Ῥογῆρος before ἰσόθεος φώς, ἐξεναρίζω, δίς).
+
 ## Open issues
 (see FOR_HUMAN.md for items needing human judgment)
 

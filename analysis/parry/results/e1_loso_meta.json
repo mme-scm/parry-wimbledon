@@ -1,0 +1,106 @@
+{
+ "occurrences": 27846,
+ "per_stream": {
+  "tv_2019wimF": {
+   "occurrences": 2276,
+   "formulas_other19": 21143,
+   "open_systems_other19": 6407
+  },
+  "tv_2023wimF": {
+   "occurrences": 1727,
+   "formulas_other19": 21466,
+   "open_systems_other19": 6531
+  },
+  "tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova": {
+   "occurrences": 1479,
+   "formulas_other19": 21763,
+   "open_systems_other19": 6636
+  },
+  "tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem": {
+   "occurrences": 1917,
+   "formulas_other19": 21256,
+   "open_systems_other19": 6514
+  },
+  "tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin": {
+   "occurrences": 394,
+   "formulas_other19": 22757,
+   "open_systems_other19": 7029
+  },
+  "tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady": {
+   "occurrences": 799,
+   "formulas_other19": 22411,
+   "open_systems_other19": 6910
+  },
+  "tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic": {
+   "occurrences": 1838,
+   "formulas_other19": 21423,
+   "open_systems_other19": 6509
+  },
+  "tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez": {
+   "occurrences": 773,
+   "formulas_other19": 22474,
+   "open_systems_other19": 6928
+  },
+  "tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev": {
+   "occurrences": 2641,
+   "formulas_other19": 20666,
+   "open_systems_other19": 6269
+  },
+  "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
+   "occurrences": 1886,
+   "formulas_other19": 21442,
+   "open_systems_other19": 6525
+  },
+  "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
+   "occurrences": 1407,
+   "formulas_other19": 21831,
+   "open_systems_other19": 6683
+  },
+  "tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova": {
+   "occurrences": 906,
+   "formulas_other19": 22222,
+   "open_systems_other19": 6824
+  },
+  "tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev": {
+   "occurrences": 1402,
+   "formulas_other19": 21799,
+   "open_systems_other19": 6690
+  },
+  "tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev": {
+   "occurrences": 2105,
+   "formulas_other19": 21139,
+   "open_systems_other19": 6422
+  },
+  "tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini": {
+   "occurrences": 585,
+   "formulas_other19": 22488,
+   "open_systems_other19": 6950
+  },
+  "tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova": {
+   "occurrences": 865,
+   "formulas_other19": 22270,
+   "open_systems_other19": 6838
+  },
+  "tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner": {
+   "occurrences": 1251,
+   "formulas_other19": 22070,
+   "open_systems_other19": 6757
+  },
+  "tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton": {
+   "occurrences": 1673,
+   "formulas_other19": 21514,
+   "open_systems_other19": 6549
+  },
+  "tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek": {
+   "occurrences": 557,
+   "formulas_other19": 22626,
+   "open_systems_other19": 6979
+  },
+  "tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz": {
+   "occurrences": 1365,
+   "formulas_other19": 21893,
+   "open_systems_other19": 6682
+  }
+ },
+ "runtime_s": 87.9
+}

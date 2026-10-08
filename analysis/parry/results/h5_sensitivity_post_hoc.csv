@@ -1,0 +1,2 @@
+analysis,references,time,tokens,streams,rho_weighted,boot_lo,boot_hi,null_lo,null_hi,null_sd,p_two,mde_rho_approx,permutations,status
+H5 sensitivity (post hoc),commentary_only,t_to_next_first_hit_s (stored; all 20 streams after the corpus frame-rate correction),2811,20,0.024871,-0.0154338,0.0624988,-0.036943,0.0370877,0.0189464,0.189081,0.0530499,10000,post hoc (addendum 1)
