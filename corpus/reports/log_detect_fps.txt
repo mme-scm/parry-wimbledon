@@ -1,0 +1,21 @@
+stream                                                                 n  share25 share29.97 share30 share29.0 slope fps feasible_interval flag
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz               254 0.000 1.000 0.209 0.000 29.97 29.97 [29.9687, 29.9723] ok
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek              91 1.000 0.000 0.000 0.000 25.00 25.0 [24.9993, 25.0043] ok
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton         231 0.000 1.000 0.264 0.004 29.97 29.97 [29.9695, 29.9727] ok
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner                 187 0.000 1.000 0.283 0.005 29.97 29.97 [29.97, 29.9722] ok
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova       176 1.000 0.000 0.000 0.000 25.00 25.0 [24.9987, 25.0021] ok
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini          109 1.000 0.000 0.000 0.000 25.00 25.0 [24.9988, 25.0043] ok
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev      339 1.000 0.000 0.000 0.000 25.00 25.0 [24.999, 25.0006] ok
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev             193 0.000 1.000 0.244 0.000 29.97 29.97 [29.97, 29.9704] ok
+tv_2023wimF                                                             368 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0002] ok
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova         233 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0006] ok
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz                 218 0.000 0.005 0.005 1.000 29.00 29.0 [29.0, 29.0004] NONSTANDARD
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal         271 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0003] ok
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev       389 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0002] ok
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez             165 0.000 1.000 0.364 0.000 29.97 29.97 [29.9652, 29.9714] ok
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic    298 1.000 0.000 0.000 0.000 25.00 25.0 [24.9998, 25.0009] ok
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady         164 1.000 0.000 0.000 0.000 25.00 25.0 [24.9999, 25.0029] ok
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin               68 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0019] ok
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem       344 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0013] ok
+tv_2019wimF                                                             481 1.000 0.000 0.000 0.000 25.00 25.0 [25.0, 25.0002] ok
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova          257 1.000 0.000 0.000 0.000 25.00 25.0 [24.9994, 25.0016] ok

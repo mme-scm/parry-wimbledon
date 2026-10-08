@@ -1,0 +1,562 @@
+{
+ "tv_2019wimF": {
+  "fps": 25.0,
+  "n_records": 481,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_2023wimF": {
+  "fps": 25.0,
+  "n_records": 368,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova": {
+  "fps": 25.0,
+  "n_records": 257,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem": {
+  "fps": 25.0,
+  "n_records": 344,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin": {
+  "fps": 25.0,
+  "n_records": 68,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady": {
+  "fps": 25.0,
+  "n_records": 164,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic": {
+  "fps": 25.0,
+  "n_records": 298,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez": {
+  "fps": 29.97002997002997,
+  "n_records": 165,
+  "clip_start_s": {
+   "n_changed": 165,
+   "max_abs_change_s": 1153.344,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 165,
+   "max_abs_change_s": 1154.737,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 164,
+   "max_abs_change_s": 1153.344,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 164,
+   "max_abs_change_s": 1148.184,
+   "frac_negative_before": 0.9817,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev": {
+  "fps": 25.0,
+  "n_records": 389,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
+  "fps": 25.0,
+  "n_records": 271,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
+  "fps": 29.0,
+  "n_records": 218,
+  "clip_start_s": {
+   "n_changed": 218,
+   "max_abs_change_s": 1976.342,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 218,
+   "max_abs_change_s": 1976.828,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 217,
+   "max_abs_change_s": 1976.342,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 217,
+   "max_abs_change_s": 1971.741,
+   "frac_negative_before": 0.9585,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova": {
+  "fps": 25.0,
+  "n_records": 233,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev": {
+  "fps": 29.97002997002997,
+  "n_records": 193,
+  "clip_start_s": {
+   "n_changed": 193,
+   "max_abs_change_s": 1858.196,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 193,
+   "max_abs_change_s": 1858.779,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 192,
+   "max_abs_change_s": 1858.196,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 192,
+   "max_abs_change_s": 1829.361,
+   "frac_negative_before": 0.9896,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev": {
+  "fps": 25.0,
+  "n_records": 339,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini": {
+  "fps": 25.0,
+  "n_records": 109,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova": {
+  "fps": 25.0,
+  "n_records": 176,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner": {
+  "fps": 29.97002997002997,
+  "n_records": 187,
+  "clip_start_s": {
+   "n_changed": 187,
+   "max_abs_change_s": 1507.604,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 187,
+   "max_abs_change_s": 1508.188,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 186,
+   "max_abs_change_s": 1507.604,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 186,
+   "max_abs_change_s": 1501.09,
+   "frac_negative_before": 0.9677,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton": {
+  "fps": 29.97002997002997,
+  "n_records": 231,
+  "clip_start_s": {
+   "n_changed": 231,
+   "max_abs_change_s": 1815.974,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 231,
+   "max_abs_change_s": 1816.558,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 230,
+   "max_abs_change_s": 1815.974,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 230,
+   "max_abs_change_s": 1815.172,
+   "frac_negative_before": 0.9826,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek": {
+  "fps": 25.0,
+  "n_records": 91,
+  "clip_start_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 0,
+   "max_abs_change_s": 0.0,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  }
+ },
+ "tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz": {
+  "fps": 29.97002997002997,
+  "n_records": 254,
+  "clip_start_s": {
+   "n_changed": 254,
+   "max_abs_change_s": 1610.978,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "clip_end_s": {
+   "n_changed": 254,
+   "max_abs_change_s": 1612.192,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_since_prev_last_hit_s": {
+   "n_changed": 253,
+   "max_abs_change_s": 1610.978,
+   "frac_negative_before": 0.0,
+   "frac_negative_after": 0.0
+  },
+  "t_to_next_first_hit_s": {
+   "n_changed": 253,
+   "max_abs_change_s": 1605.008,
+   "frac_negative_before": 0.9842,
+   "frac_negative_after": 0.0
+  }
+ }
+}

@@ -1,0 +1,766 @@
+{
+ "method": "share of clips whose hit_timestamp_second values all fall inside [start_frame/fps, end_frame/fps]; decision: candidate in {25, 29.97, 30} with the highest share",
+ "tolerance_s": 0.01,
+ "streams": {
+  "tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz": {
+   "match_id": "20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz",
+   "n_clips": 254,
+   "fps": 29.97,
+   "fps_exact": 29.97002997002997,
+   "fps_nominal": "29.97",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 1.0,
+    "30.000": 0.20866141732283464,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 254,
+    "30.000": 53,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.972,
+   "feasible_fps_interval_all_clips": [
+    29.9687,
+    29.9723
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 201,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek": {
+   "match_id": "20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek",
+   "n_clips": 91,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.02197802197802198,
+    "23.976": 0.01098901098901099,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 91,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 2,
+    "23.976": 1,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.005,
+   "feasible_fps_interval_all_clips": [
+    24.9993,
+    25.0043
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 91,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton": {
+   "match_id": "20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton",
+   "n_clips": 231,
+   "fps": 29.97,
+   "fps_exact": 29.97002997002997,
+   "fps_nominal": "29.97",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 1.0,
+    "30.000": 0.26406926406926406,
+    "29.000": 0.004329004329004329,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 231,
+    "30.000": 61,
+    "29.000": 1,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.971,
+   "feasible_fps_interval_all_clips": [
+    29.9695,
+    29.9727
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 170,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner": {
+   "match_id": "20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner",
+   "n_clips": 187,
+   "fps": 29.97,
+   "fps_exact": 29.97002997002997,
+   "fps_nominal": "29.97",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 1.0,
+    "30.000": 0.28342245989304815,
+    "29.000": 0.0053475935828877,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 187,
+    "30.000": 53,
+    "29.000": 1,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.971,
+   "feasible_fps_interval_all_clips": [
+    29.97,
+    29.9722
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 134,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova": {
+   "match_id": "20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova",
+   "n_clips": 176,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.005681818181818182,
+    "23.976": 0.005681818181818182,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 176,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 1,
+    "23.976": 1,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.005,
+   "feasible_fps_interval_all_clips": [
+    24.9987,
+    25.0021
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 176,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini": {
+   "match_id": "20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini",
+   "n_clips": 109,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 109,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.001,
+   "feasible_fps_interval_all_clips": [
+    24.9988,
+    25.0043
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 109,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev": {
+   "match_id": "20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev",
+   "n_clips": 339,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 339,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.0,
+   "feasible_fps_interval_all_clips": [
+    24.999,
+    25.0006
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 339,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev": {
+   "match_id": "20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev",
+   "n_clips": 193,
+   "fps": 29.97,
+   "fps_exact": 29.97002997002997,
+   "fps_nominal": "29.97",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 1.0,
+    "30.000": 0.24352331606217617,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 193,
+    "30.000": 47,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.97,
+   "feasible_fps_interval_all_clips": [
+    29.97,
+    29.9704
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 146,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_2023wimF": {
+   "match_id": "20230716-M-Wimbledon-F-Novak_Djokovic-Carlos_Alcaraz",
+   "n_clips": 368,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.005434782608695652,
+    "23.976": 0.005434782608695652,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 368,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 2,
+    "23.976": 2,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.002,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0002
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 368,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova": {
+   "match_id": "20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova",
+   "n_clips": 233,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 233,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.0,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0006
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 233,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
+   "match_id": "20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz",
+   "n_clips": 218,
+   "fps": 29.0,
+   "fps_exact": 29.0,
+   "fps_nominal": "29.0",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 0.0045871559633027525,
+    "30.000": 0.0045871559633027525,
+    "29.000": 1.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 1,
+    "30.000": 1,
+    "29.000": 218,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.0,
+   "feasible_fps_interval_all_clips": [
+    29.0,
+    29.0004
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 0,
+   "share_best": 1.0,
+   "flag": "NONSTANDARD"
+  },
+  "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
+   "match_id": "20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal",
+   "n_clips": 271,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 271,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.001,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0003
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 271,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev": {
+   "match_id": "20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev",
+   "n_clips": 389,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.002570694087403599,
+    "23.976": 0.002570694087403599,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 389,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 1,
+    "23.976": 1,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.0,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0002
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 389,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez": {
+   "match_id": "20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez",
+   "n_clips": 165,
+   "fps": 29.97,
+   "fps_exact": 29.97002997002997,
+   "fps_nominal": "29.97",
+   "share_consistent": {
+    "25.000": 0.0,
+    "29.970": 1.0,
+    "30.000": 0.36363636363636365,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 0,
+    "29.970": 165,
+    "30.000": 60,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 29.971,
+   "feasible_fps_interval_all_clips": [
+    29.9652,
+    29.9714
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 105,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic": {
+   "match_id": "20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic",
+   "n_clips": 298,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 298,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.001,
+   "feasible_fps_interval_all_clips": [
+    24.9998,
+    25.0009
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 298,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady": {
+   "match_id": "20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady",
+   "n_clips": 164,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 164,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.004,
+   "feasible_fps_interval_all_clips": [
+    24.9999,
+    25.0029
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 164,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin": {
+   "match_id": "20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin",
+   "n_clips": 68,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 68,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.0,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0019
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 68,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem": {
+   "match_id": "20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem",
+   "n_clips": 344,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 344,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.0,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0013
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 344,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_2019wimF": {
+   "match_id": "20190714-M-Wimbledon-F-Roger_Federer-Novak_Djokovic",
+   "n_clips": 481,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 481,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.001,
+   "feasible_fps_interval_all_clips": [
+    25.0,
+    25.0002
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 481,
+   "share_best": 1.0,
+   "flag": "ok"
+  },
+  "tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova": {
+   "match_id": "20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova",
+   "n_clips": 257,
+   "fps": 25.0,
+   "fps_exact": 25.0,
+   "fps_nominal": "25.0",
+   "share_consistent": {
+    "25.000": 1.0,
+    "29.970": 0.0,
+    "30.000": 0.0,
+    "29.000": 0.0,
+    "24.000": 0.0,
+    "23.976": 0.0,
+    "50.000": 0.0,
+    "59.940": 0.0,
+    "60.000": 0.0
+   },
+   "n_consistent": {
+    "25.000": 257,
+    "29.970": 0,
+    "30.000": 0,
+    "29.000": 0,
+    "24.000": 0,
+    "23.976": 0,
+    "50.000": 0,
+    "59.940": 0,
+    "60.000": 0
+   },
+   "slope_frames_per_s_start_vs_first_hit": 25.002,
+   "feasible_fps_interval_all_clips": [
+    24.9994,
+    25.0016
+   ],
+   "feasible_interval_nonempty": true,
+   "margin_clips_over_runner_up": 257,
+   "share_best": 1.0,
+   "flag": "ok"
+  }
+ }
+}

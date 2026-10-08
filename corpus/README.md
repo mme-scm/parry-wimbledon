@@ -24,19 +24,19 @@ The only hand-made inputs are the correction rules (`corpus/corrections_rules.ts
 | `tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin` | tv | 68 | 55 | 1981 | 1582 | 1582 | ca81bd324ed9 |
 | `tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady` | tv | 164 | 127 | 4031 | 3255 | 3255 | c7ae8bbab485 |
 | `tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic` | tv | 298 | 254 | 8918 | 7761 | 7761 | 2ce28a316016 |
-| `tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez` | tv | 165 | 131 | 4153 | 3473 | 3473 | dbf02067961b |
+| `tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez` | tv | 165 | 131 | 4153 | 3473 | 3473 | 3cd710827281 |
 | `tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev` | tv | 389 | 337 | 13625 | 11437 | 11437 | 346ca4066090 |
 | `tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal` | tv | 271 | 244 | 9447 | 7961 | 7964 | bbc471d04bfd |
-| `tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz` | tv | 218 | 167 | 9907 | 6190 | 6190 | e76d4fc30975 |
+| `tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz` | tv | 218 | 167 | 9907 | 6190 | 6190 | f0928bcba7d3 |
 | `tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova` | tv | 233 | 183 | 4348 | 3775 | 3776 | 4a833636649e |
-| `tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev` | tv | 193 | 170 | 7994 | 5961 | 5961 | 6a97915bce5c |
+| `tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev` | tv | 193 | 170 | 7994 | 5961 | 5961 | b0da636efe8b |
 | `tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev` | tv | 339 | 287 | 11042 | 9231 | 9231 | 4ee179ee7687 |
 | `tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini` | tv | 109 | 93 | 2637 | 2342 | 2342 | d3df32a74f1a |
 | `tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova` | tv | 176 | 151 | 4551 | 3796 | 3796 | 8a524011e347 |
-| `tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner` | tv | 187 | 155 | 8224 | 5744 | 5744 | ba00dcee0102 |
-| `tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton` | tv | 231 | 197 | 8349 | 7068 | 7070 | 4746fcb5f8db |
+| `tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner` | tv | 187 | 155 | 8224 | 5744 | 5744 | c58d82362225 |
+| `tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton` | tv | 231 | 197 | 8349 | 7068 | 7070 | 06663598a365 |
 | `tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek` | tv | 91 | 76 | 2862 | 2581 | 2581 | 71df81f6b398 |
-| `tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz` | tv | 254 | 214 | 8856 | 6073 | 6073 | a2d9914b2776 |
+| `tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz` | tv | 254 | 214 | 8856 | 6073 | 6073 | 5ec10b043363 |
 
   Roles: `tv_2019wimF` MAIN (in-sample); `tv_2023wimF` HELD-OUT; the 18 `tv_pool_<match_id>` streams are an exploratory REFERENCE POOL
   for cross-match formula identification only (together 3987 records, 3352 with text,
@@ -57,7 +57,8 @@ Steps and their outputs (all scripts are run with `python -I`):
 |---|---|---|
 | 1 | `build_timing.py` | `timing/points_{2019wimF,2023wimF}.csv`, `timing/shots_*.csv`, `reports/timing_report_*.json`, `reports/unmatched_*.tsv`, `reports/clip_alignment_*.json` |
 | 2 | `validate_timing.py` | `reports/timing_validation_2019wimF.{json,tsv}` |
-| 3 | `build_transcripts.py` | `transcripts/<stream>.jsonl` (raw + de-duplicated text, alignment) |
+| 3 | `build_transcripts.py` | `transcripts/<stream>.jsonl` (raw + de-duplicated text, alignment; frame-derived times at nominal 25 fps) |
+| 3a | `detect_fps.py`, `apply_fps_correction.py` | `fps_by_stream.json`; frame-derived times recomputed at the detected fps; `timing_corrections.log`, `reports/timing_corrections_summary.json` (section 3.3) |
 | 4 | `apply_corrections.py` | `corrections.tsv`, `corrections.log`, `text_corrected` |
 | 5 | `tag_phase.py` | `phase*`, `speaker_cues` fields; `reports/phase_summary.json` |
 | 6 | `make_manifest.py` | `transcripts/manifest.json`, `transcripts/meta_<stream>.csv` |
@@ -179,6 +180,40 @@ The TennisVL time is seconds in the (unnamed) source video; PBP `ElapsedTime` is
 `rally_duration_s` = last hit minus first hit of the point-proper clip (TennisVL). `dead_time_before_s` = (ElapsedTime of this point - ElapsedTime of the previous point) - previous rally duration; null when the previous point
 has no point-proper clip. `gap_video_prev_last_hit_to_first_attempt_s` = video-clock gap between the previous point's last hit and this point's first serve attempt (both TennisVL).
 Hit times for every shot are in `shots_*.csv` (`inter_shot_interval_s` = interval to the previous shot in the same clip).
+
+### 3.3 Video frame rate per stream and the frame-rate correction
+
+`clip_start_frame`/`clip_end_frame` come from the clip file names; `hit_timestamp_second` is seconds in the source video. The first build converted frames at a nominal 25 fps for every stream (Phase 1 had verified 25 fps for the 2019 final only).
+The Phase 2b analyst found that this is wrong for some pool streams. `detect_fps.py` now detects the rate per stream from the raw TennisVL data: for each clip, a rate is consistent if all hit times lie inside
+[start_frame/fps, end_frame/fps] (tolerance 0.01 s, the rounding of the hit times). The table gives the share of clips consistent with each candidate; the decision is the candidate (25, 29.97 = 30000/1001, 30) with the highest share if that share is >= 0.95.
+`feasible interval` = the range of fps consistent with every clip of the stream (max of start/first-hit, min of end/last-hit). Stream 20220911 (0.5% of clips consistent with each of 25, 29.97 and 30 at best) is consistent with 29.0 for 100% of clips
+(feasible interval [29.0, 29.0004]); 29.0 is not a broadcast standard rate, so that value is an empirical rate of the file as TennisVL cut it [cause unverified]; it is used as detected and flagged NONSTANDARD.
+Frame-derived fields are then recomputed in a separate, logged step (`apply_fps_correction.py`; per-stream before/after summary in `timing_corrections.log`, machine-readable in `reports/timing_corrections_summary.json`):
+`clip_start_s`, `clip_end_s`, `t_since_prev_last_hit_s`, `t_to_next_first_hit_s`. Not frame-derived and therefore unchanged: `first_hit_s`, `last_hit_s`, `rally_duration_s`, `dead_time_before_s`,
+`gap_video_prev_last_hit_to_first_attempt_s`, and all of `timing/*.csv` (hit-time and PBP based; `build_timing.py` never uses frames). The step asserts this. Raw data in `raw/` is untouched; the per-stream fps is also in `transcripts/manifest.json` (`video_fps`).
+
+| stream | n clips | share @25 | share @29.97 | share @30 | decided fps | feasible interval | flag | clip times changed | max abs change t_to_next (s) | share t_to_next < 0 before -> after |
+|---|---|---|---|---|---|---|---|---|---|---|
+| pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz | 254 | 0.000 | 1.000 | 0.209 | 29.97 | [29.9687, 29.9723] | ok | 254 | 1605.008 | 0.984 -> 0.000 |
+| pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek | 91 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9993, 25.0043] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton | 231 | 0.000 | 1.000 | 0.264 | 29.97 | [29.9695, 29.9727] | ok | 231 | 1815.172 | 0.983 -> 0.000 |
+| pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner | 187 | 0.000 | 1.000 | 0.283 | 29.97 | [29.97, 29.9722] | ok | 187 | 1501.09 | 0.968 -> 0.000 |
+| pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova | 176 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9987, 25.0021] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini | 109 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9988, 25.0043] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev | 339 | 1.000 | 0.000 | 0.000 | 25.0 | [24.999, 25.0006] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev | 193 | 0.000 | 1.000 | 0.244 | 29.97 | [29.97, 29.9704] | ok | 193 | 1829.361 | 0.990 -> 0.000 |
+| tv_2023wimF | 368 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0002] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova | 233 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0006] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz | 218 | 0.000 | 0.005 | 0.005 | 29.0 | [29.0, 29.0004] | NONSTANDARD | 218 | 1971.741 | 0.959 -> 0.000 |
+| pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal | 271 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0003] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev | 389 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0002] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez | 165 | 0.000 | 1.000 | 0.364 | 29.97 | [29.9652, 29.9714] | ok | 165 | 1148.184 | 0.982 -> 0.000 |
+| pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic | 298 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9998, 25.0009] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady | 164 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9999, 25.0029] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin | 68 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0019] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem | 344 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0013] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| tv_2019wimF | 481 | 1.000 | 0.000 | 0.000 | 25.0 | [25.0, 25.0002] | ok | 0 | 0.0 | 0.000 -> 0.000 |
+| pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova | 257 | 1.000 | 0.000 | 0.000 | 25.0 | [24.9994, 25.0016] | ok | 0 | 0.0 | 0.000 -> 0.000 |
 
 ## 4. De-duplication (text_raw -> text_dedup)
 
@@ -342,7 +377,7 @@ Errors found in the hand sample (excerpts, `corpus/validation/asr_sample_errors.
 
 ## 9. Field dictionary (`transcripts/<stream>.jsonl`; `meta_<stream>.csv` has the same fields without the three text fields, plus `n_words_*`)
 
-`stream, medium, broadcaster, broadcaster_hints, match_id, utt_id, clip, clip_i, clip_start_frame, clip_end_frame, clip_start_s, clip_end_s` (frames/25),
+`stream, medium, broadcaster, broadcaster_hints, match_id, utt_id, clip, clip_i, clip_start_frame, clip_end_frame, clip_start_s, clip_end_s` (frames / the stream's detected fps, section 3.3),
 `first_hit_s, last_hit_s, n_shots, clip_role, rally_duration_s` (this clip's TennisVL hits), `score_before` (server, sets, games, points before the point; TennisVL), `point_outcome`,
 `set_no, game_in_set, tiebreak_state` (derived from score_before, or from PBP when aligned), `text_raw` (untouched ASR), `text_dedup` (section 4), `text_corrected` (section 5), `dedup_action, dedup_k_removed, dedup_of`,
 `phase, phase_heuristic, phase_tags, speaker_role, speaker_cues` (section 6), `t_since_prev_last_hit_s, t_to_next_first_hit_s`,

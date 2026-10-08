@@ -18,6 +18,7 @@ def sha(path):
     return h.hexdigest()
 
 
+FPS_BY = json.load(open(CORPUS / "fps_by_stream.json"))["streams"]
 manifest = {"note": "jsonl files are gitignored (full source text); this manifest and meta_<stream>.csv are committed",
             "word_definition": "regex [A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*  (digits count as words)", "streams": {}}
 for f in sorted(TR.glob("*.jsonl")):
@@ -42,7 +43,12 @@ for f in sorted(TR.glob("*.jsonl")):
         w.writerows(flat)
     manifest["streams"][f.stem] = {"medium": recs[0]["medium"], "n_records": len(recs), "n_records_nonempty_text": nonempty,
                                    "n_words_raw": nw["raw"], "n_words_dedup": nw["dedup"], "n_words_corrected": nw["corrected"],
-                                   "sha256_jsonl": sha(f), "fields": [k for k in recs[0].keys()]}
+                                   "sha256_jsonl": sha(f),
+                                   **({"video_fps": FPS_BY[f.stem]["fps"],
+                                       "fps_share_clips_consistent": round(FPS_BY[f.stem]["share_best"], 4),
+                                       "fps_source": "detect_fps.py: hit_timestamp_second inside [start_frame/fps, end_frame/fps] (corpus/fps_by_stream.json); frame-derived times corrected by apply_fps_correction.py (corpus/timing_corrections.log)"}
+                                      if f.stem in FPS_BY else {"video_fps": None, "fps_source": "not applicable (written text)"}),
+                                   "fields": [k for k in recs[0].keys()]}
 manifest["inputs_sha256"] = {
     "tennis_data_test_stats_.json": sha(TV_JSON),
     "2019-wimbledon-points.csv": sha(PBP_DIR / "2019-wimbledon-points.csv"),

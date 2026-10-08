@@ -80,6 +80,20 @@ segtab = [{"start point": s["start_point"], "level s": s["level_s"], "jump s": "
            "cut interval (points)": "-" if s["cut_interval_points"] is None else s["cut_interval_points"], "changeover/set break inside": "-" if s["changeover_or_set_break_in_interval"] is None else s["changeover_or_set_break_in_interval"]}
           for s in seg23]
 
+FPSD = json.load(open(CORPUS / "fps_by_stream.json"))["streams"]
+TC = J("timing_corrections_summary.json")
+FPSROWS = []
+for _s, _d in FPSD.items():
+    _sh = _d["share_consistent"]; _t = TC[_s]
+    FPSROWS.append({"stream": _s.replace("tv_pool_", "pool_"), "n clips": _d["n_clips"], "share @25": f"{_sh['25.000']:.3f}", "share @29.97": f"{_sh['29.970']:.3f}",
+                    "share @30": f"{_sh['30.000']:.3f}", "decided fps": _d["fps"], "feasible interval": str(_d["feasible_fps_interval_all_clips"]), "flag": _d["flag"],
+                    "clip times changed": _t["clip_start_s"]["n_changed"],
+                    "max abs change t_to_next (s)": _t["t_to_next_first_hit_s"]["max_abs_change_s"],
+                    "share t_to_next < 0 before -> after": f"{_t['t_to_next_first_hit_s']['frac_negative_before']:.3f} -> {_t['t_to_next_first_hit_s']['frac_negative_after']:.3f}"})
+_ns = FPSD[[k for k in FPSD if "20220911" in k][0]]
+NS_share = "{:.1%}".format(max(_ns["share_consistent"][k] for k in ("25.000", "29.970", "30.000")))
+NS_29 = "{:.0%}".format(_ns["share_consistent"]["29.000"])
+NS_int = str(_ns["feasible_fps_interval_all_clips"])
 txt = f"""# corpus/: commentary corpus for the 2019 Wimbledon final (and held-out / reference / written streams)
 
 Built by `bash corpus/scripts/build_corpus.sh` from the downloads in `corpus/raw/` (never edited). Every number in this file is
@@ -117,7 +131,8 @@ Steps and their outputs (all scripts are run with `python -I`):
 |---|---|---|
 | 1 | `build_timing.py` | `timing/points_{{2019wimF,2023wimF}}.csv`, `timing/shots_*.csv`, `reports/timing_report_*.json`, `reports/unmatched_*.tsv`, `reports/clip_alignment_*.json` |
 | 2 | `validate_timing.py` | `reports/timing_validation_2019wimF.{{json,tsv}}` |
-| 3 | `build_transcripts.py` | `transcripts/<stream>.jsonl` (raw + de-duplicated text, alignment) |
+| 3 | `build_transcripts.py` | `transcripts/<stream>.jsonl` (raw + de-duplicated text, alignment; frame-derived times at nominal 25 fps) |
+| 3a | `detect_fps.py`, `apply_fps_correction.py` | `fps_by_stream.json`; frame-derived times recomputed at the detected fps; `timing_corrections.log`, `reports/timing_corrections_summary.json` (section 3.3) |
 | 4 | `apply_corrections.py` | `corrections.tsv`, `corrections.log`, `text_corrected` |
 | 5 | `tag_phase.py` | `phase*`, `speaker_cues` fields; `reports/phase_summary.json` |
 | 6 | `make_manifest.py` | `transcripts/manifest.json`, `transcripts/meta_<stream>.csv` |
@@ -205,6 +220,19 @@ The TennisVL time is seconds in the (unnamed) source video; PBP `ElapsedTime` is
 `rally_duration_s` = last hit minus first hit of the point-proper clip (TennisVL). `dead_time_before_s` = (ElapsedTime of this point - ElapsedTime of the previous point) - previous rally duration; null when the previous point
 has no point-proper clip. `gap_video_prev_last_hit_to_first_attempt_s` = video-clock gap between the previous point's last hit and this point's first serve attempt (both TennisVL).
 Hit times for every shot are in `shots_*.csv` (`inter_shot_interval_s` = interval to the previous shot in the same clip).
+
+### 3.3 Video frame rate per stream and the frame-rate correction
+
+`clip_start_frame`/`clip_end_frame` come from the clip file names; `hit_timestamp_second` is seconds in the source video. The first build converted frames at a nominal 25 fps for every stream (Phase 1 had verified 25 fps for the 2019 final only).
+The Phase 2b analyst found that this is wrong for some pool streams. `detect_fps.py` now detects the rate per stream from the raw TennisVL data: for each clip, a rate is consistent if all hit times lie inside
+[start_frame/fps, end_frame/fps] (tolerance 0.01 s, the rounding of the hit times). The table gives the share of clips consistent with each candidate; the decision is the candidate (25, 29.97 = 30000/1001, 30) with the highest share if that share is >= 0.95.
+`feasible interval` = the range of fps consistent with every clip of the stream (max of start/first-hit, min of end/last-hit). Stream 20220911 ({NS_share} of clips consistent with each of 25, 29.97 and 30 at best) is consistent with 29.0 for {NS_29} of clips
+(feasible interval {NS_int}); 29.0 is not a broadcast standard rate, so that value is an empirical rate of the file as TennisVL cut it [cause unverified]; it is used as detected and flagged NONSTANDARD.
+Frame-derived fields are then recomputed in a separate, logged step (`apply_fps_correction.py`; per-stream before/after summary in `timing_corrections.log`, machine-readable in `reports/timing_corrections_summary.json`):
+`clip_start_s`, `clip_end_s`, `t_since_prev_last_hit_s`, `t_to_next_first_hit_s`. Not frame-derived and therefore unchanged: `first_hit_s`, `last_hit_s`, `rally_duration_s`, `dead_time_before_s`,
+`gap_video_prev_last_hit_to_first_attempt_s`, and all of `timing/*.csv` (hit-time and PBP based; `build_timing.py` never uses frames). The step asserts this. Raw data in `raw/` is untouched; the per-stream fps is also in `transcripts/manifest.json` (`video_fps`).
+
+{md(FPSROWS, ["stream", "n clips", "share @25", "share @29.97", "share @30", "decided fps", "feasible interval", "flag", "clip times changed", "max abs change t_to_next (s)", "share t_to_next < 0 before -> after"])}
 
 ## 4. De-duplication (text_raw -> text_dedup)
 
@@ -314,7 +342,7 @@ Errors found in the hand sample (excerpts, `corpus/validation/asr_sample_errors.
 
 ## 9. Field dictionary (`transcripts/<stream>.jsonl`; `meta_<stream>.csv` has the same fields without the three text fields, plus `n_words_*`)
 
-`stream, medium, broadcaster, broadcaster_hints, match_id, utt_id, clip, clip_i, clip_start_frame, clip_end_frame, clip_start_s, clip_end_s` (frames/25),
+`stream, medium, broadcaster, broadcaster_hints, match_id, utt_id, clip, clip_i, clip_start_frame, clip_end_frame, clip_start_s, clip_end_s` (frames / the stream's detected fps, section 3.3),
 `first_hit_s, last_hit_s, n_shots, clip_role, rally_duration_s` (this clip's TennisVL hits), `score_before` (server, sets, games, points before the point; TennisVL), `point_outcome`,
 `set_no, game_in_set, tiebreak_state` (derived from score_before, or from PBP when aligned), `text_raw` (untouched ASR), `text_dedup` (section 4), `text_corrected` (section 5), `dedup_action, dedup_k_removed, dedup_of`,
 `phase, phase_heuristic, phase_tags, speaker_role, speaker_cues` (section 6), `t_since_prev_last_hit_s, t_to_next_first_hit_s`,

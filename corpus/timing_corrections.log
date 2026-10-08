@@ -1,0 +1,263 @@
+# timing_corrections.log: frame-derived time fields recomputed at the per-stream fps detected by detect_fps.py (fps_by_stream.json).
+# Raw TennisVL data is untouched. 'before' = frames/25 as written by build_transcripts.py; 'after' = frames/fps_detected.
+# Per stream: fps, then for each field: n records changed, max |after-before| (s), and a before/after distribution summary.
+tv_2019wimF	fps=25.00000	n_records=481	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=481 min=65.04 median=9214.28 max=17349.28 frac_neg=0.000
+		after:  n=481 min=65.04 median=9214.28 max=17349.28 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=481 min=69.68 median=9222.60 max=17366.44 frac_neg=0.000
+		after:  n=481 min=69.68 median=9222.60 max=17366.44 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=480 min=4.20 median=21.32 max=769.28 frac_neg=0.000
+		after:  n=480 min=4.20 median=21.32 max=769.28 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=480 min=3.08 median=20.72 max=768.24 frac_neg=0.000
+		after:  n=480 min=3.08 median=20.72 max=768.24 frac_neg=0.000
+tv_2023wimF	fps=25.00000	n_records=368	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=368 min=27.64 median=7467.76 max=14497.24 frac_neg=0.000
+		after:  n=368 min=27.64 median=7467.76 max=14497.24 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=368 min=39.08 median=7476.64 max=14500.84 frac_neg=0.000
+		after:  n=368 min=39.08 median=7476.64 max=14500.84 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=367 min=4.76 median=27.48 max=711.20 frac_neg=0.000
+		after:  n=367 min=4.76 median=27.48 max=711.20 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=367 min=3.08 median=27.08 max=710.28 frac_neg=0.000
+		after:  n=367 min=3.08 median=27.08 max=710.28 frac_neg=0.000
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova	fps=25.00000	n_records=257	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=257 min=642.48 median=5077.48 max=9460.04 frac_neg=0.000
+		after:  n=257 min=642.48 median=5077.48 max=9460.04 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=257 min=648.76 median=5082.84 max=9463.72 frac_neg=0.000
+		after:  n=257 min=648.76 median=5082.84 max=9463.72 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=256 min=5.24 median=22.76 max=451.48 frac_neg=0.000
+		after:  n=256 min=5.24 median=22.76 max=451.48 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=256 min=4.64 median=21.80 max=449.12 frac_neg=0.000
+		after:  n=256 min=4.64 median=21.80 max=449.12 frac_neg=0.000
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem	fps=25.00000	n_records=344	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=344 min=620.76 median=7695.26 max=14948.76 frac_neg=0.000
+		after:  n=344 min=620.76 median=7695.26 max=14948.76 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=344 min=623.76 median=7701.22 max=14969.12 frac_neg=0.000
+		after:  n=344 min=623.76 median=7701.22 max=14969.12 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=343 min=6.60 median=25.68 max=335.16 frac_neg=0.000
+		after:  n=343 min=6.60 median=25.68 max=335.16 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=343 min=4.40 median=25.12 max=334.00 frac_neg=0.000
+		after:  n=343 min=4.40 median=25.12 max=334.00 frac_neg=0.000
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin	fps=25.00000	n_records=68	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=68 min=790.88 median=2663.54 max=5562.48 frac_neg=0.000
+		after:  n=68 min=790.88 median=2663.54 max=5562.48 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=68 min=793.88 median=2668.98 max=5565.48 frac_neg=0.000
+		after:  n=68 min=793.88 median=2668.98 max=5565.48 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=67 min=9.20 median=42.04 max=476.60 frac_neg=0.000
+		after:  n=67 min=9.20 median=42.04 max=476.60 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=67 min=6.04 median=41.12 max=475.28 frac_neg=0.000
+		after:  n=67 min=6.04 median=41.12 max=475.28 frac_neg=0.000
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady	fps=25.00000	n_records=164	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=164 min=119.52 median=2385.74 max=4607.64 frac_neg=0.000
+		after:  n=164 min=119.52 median=2385.74 max=4607.64 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=164 min=122.52 median=2390.68 max=4611.40 frac_neg=0.000
+		after:  n=164 min=122.52 median=2390.68 max=4611.40 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=163 min=4.08 median=19.48 max=105.04 frac_neg=0.000
+		after:  n=163 min=4.08 median=19.48 max=105.04 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=163 min=3.72 median=18.00 max=104.08 frac_neg=0.000
+		after:  n=163 min=3.72 median=18.00 max=104.08 frac_neg=0.000
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic	fps=25.00000	n_records=298	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=298 min=587.76 median=7260.08 max=14641.84 frac_neg=0.000
+		after:  n=298 min=587.76 median=7260.08 max=14641.84 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=298 min=609.08 median=7273.56 max=14650.16 frac_neg=0.000
+		after:  n=298 min=609.08 median=7273.56 max=14650.16 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=297 min=4.08 median=25.32 max=825.80 frac_neg=0.000
+		after:  n=297 min=4.08 median=25.32 max=825.80 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=297 min=3.28 median=25.44 max=826.44 frac_neg=0.000
+		after:  n=297 min=3.28 median=25.44 max=826.44 frac_neg=0.000
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez	fps=29.97003	n_records=165	detected_share_consistent=1.000
+	clip_start_s	n_changed=165	max_abs_change_s=1153.344
+		before: n=165 min=50.48 median=3406.36 max=6954.84 frac_neg=0.000
+		after:  n=165 min=42.11 median=2841.47 max=5801.50 frac_neg=0.000
+	clip_end_s	n_changed=165	max_abs_change_s=1154.737
+		before: n=165 min=61.64 median=3414.36 max=6963.24 frac_neg=0.000
+		after:  n=165 min=51.42 median=2848.14 max=5808.50 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=164	max_abs_change_s=1153.344
+		before: n=164 min=50.83 median=591.20 max=1449.85 frac_neg=0.000
+		after:  n=164 min=6.17 median=24.19 max=322.02 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=164	max_abs_change_s=1148.184
+		before: n=164 min=-1124.92 median=-539.67 max=24.68 frac_neg=0.982
+		after:  n=164 min=4.64 median=23.26 max=322.46 frac_neg=0.000
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev	fps=25.00000	n_records=389	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=389 min=53.92 median=9589.84 max=18522.04 frac_neg=0.000
+		after:  n=389 min=53.92 median=9589.84 max=18522.04 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=389 min=61.72 median=9608.16 max=18529.32 frac_neg=0.000
+		after:  n=389 min=61.72 median=9608.16 max=18529.32 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=388 min=4.60 median=28.84 max=811.44 frac_neg=0.000
+		after:  n=388 min=4.60 median=28.84 max=811.44 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=388 min=3.00 median=27.82 max=809.12 frac_neg=0.000
+		after:  n=388 min=3.00 median=27.82 max=809.12 frac_neg=0.000
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal	fps=25.00000	n_records=271	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=271 min=790.64 median=7331.68 max=14787.72 frac_neg=0.000
+		after:  n=271 min=790.64 median=7331.68 max=14787.72 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=271 min=825.80 median=7334.68 max=14822.56 frac_neg=0.000
+		after:  n=271 min=825.80 median=7334.68 max=14822.56 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=270 min=7.44 median=31.38 max=454.84 frac_neg=0.000
+		after:  n=270 min=7.44 median=31.38 max=454.84 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=270 min=4.32 median=31.28 max=447.88 frac_neg=0.000
+		after:  n=270 min=4.32 median=31.28 max=447.88 frac_neg=0.000
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz	fps=29.00000	n_records=218	detected_share_consistent=1.000
+	clip_start_s	n_changed=218	max_abs_change_s=1976.342
+		before: n=218 min=48.88 median=6756.24 max=14328.48 frac_neg=0.000
+		after:  n=218 min=42.14 median=5824.35 max=12352.14 frac_neg=0.000
+	clip_end_s	n_changed=218	max_abs_change_s=1976.828
+		before: n=218 min=66.08 median=6763.84 max=14332.00 frac_neg=0.000
+		after:  n=218 min=56.97 median=5830.90 max=12355.17 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=217	max_abs_change_s=1976.342
+		before: n=217 min=38.33 median=991.02 max=2124.57 frac_neg=0.000
+		after:  n=217 min=7.27 median=31.79 max=496.62 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=217	max_abs_change_s=1971.741
+		before: n=217 min=-1941.95 median=-887.77 max=37.50 frac_neg=0.959
+		after:  n=217 min=8.00 median=30.72 max=494.83 frac_neg=0.000
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova	fps=25.00000	n_records=233	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=233 min=731.16 median=5500.60 max=10253.12 frac_neg=0.000
+		after:  n=233 min=731.16 median=5500.60 max=10253.12 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=233 min=739.00 median=5513.04 max=10256.12 frac_neg=0.000
+		after:  n=233 min=739.00 median=5513.04 max=10256.12 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=232 min=11.24 median=31.76 max=152.44 frac_neg=0.000
+		after:  n=232 min=11.24 median=31.76 max=152.44 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=232 min=5.24 median=30.68 max=151.64 frac_neg=0.000
+		after:  n=232 min=5.24 median=30.68 max=151.64 frac_neg=0.000
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev	fps=29.97003	n_records=193	detected_share_consistent=1.000
+	clip_start_s	n_changed=193	max_abs_change_s=1858.196
+		before: n=193 min=111.20 median=4732.04 max=11205.20 frac_neg=0.000
+		after:  n=193 min=92.76 median=3947.31 max=9347.00 frac_neg=0.000
+	clip_end_s	n_changed=193	max_abs_change_s=1858.779
+		before: n=193 min=114.72 median=4739.36 max=11208.72 frac_neg=0.000
+		after:  n=193 min=95.70 median=3953.42 max=9349.94 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=192	max_abs_change_s=1858.196
+		before: n=192 min=74.45 median=806.12 max=2160.90 frac_neg=0.000
+		after:  n=192 min=4.38 median=28.34 max=659.19 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=192	max_abs_change_s=1829.361
+		before: n=192 min=-1801.67 median=-739.05 max=76.03 frac_neg=0.990
+		after:  n=192 min=5.14 median=27.45 max=660.26 frac_neg=0.000
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev	fps=25.00000	n_records=339	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=339 min=62.52 median=5317.36 max=10714.52 frac_neg=0.000
+		after:  n=339 min=62.52 median=5317.36 max=10714.52 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=339 min=71.92 median=5321.12 max=10725.28 frac_neg=0.000
+		after:  n=339 min=71.92 median=5321.12 max=10725.28 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=338 min=5.68 median=24.72 max=84.68 frac_neg=0.000
+		after:  n=338 min=5.68 median=24.72 max=84.68 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=338 min=3.68 median=24.36 max=83.84 frac_neg=0.000
+		after:  n=338 min=3.68 median=24.36 max=83.84 frac_neg=0.000
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini	fps=25.00000	n_records=109	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=109 min=728.08 median=2804.84 max=4647.00 frac_neg=0.000
+		after:  n=109 min=728.08 median=2804.84 max=4647.00 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=109 min=742.28 median=2812.24 max=4650.84 frac_neg=0.000
+		after:  n=109 min=742.28 median=2812.24 max=4650.84 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=108 min=4.04 median=25.30 max=114.76 frac_neg=0.000
+		after:  n=108 min=4.04 median=25.30 max=114.76 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=108 min=3.60 median=24.40 max=113.84 frac_neg=0.000
+		after:  n=108 min=3.60 median=24.40 max=113.84 frac_neg=0.000
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova	fps=25.00000	n_records=176	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=176 min=58.44 median=3776.90 max=6987.40 frac_neg=0.000
+		after:  n=176 min=58.44 median=3776.90 max=6987.40 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=176 min=84.24 median=3788.96 max=6990.40 frac_neg=0.000
+		after:  n=176 min=84.24 median=3788.96 max=6990.40 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=175 min=4.68 median=22.84 max=377.36 frac_neg=0.000
+		after:  n=175 min=4.68 median=22.84 max=377.36 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=175 min=3.60 median=23.08 max=376.48 frac_neg=0.000
+		after:  n=175 min=3.60 median=23.08 max=376.48 frac_neg=0.000
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner	fps=29.97003	n_records=187	detected_share_consistent=1.000
+	clip_start_s	n_changed=187	max_abs_change_s=1507.604
+		before: n=187 min=34.32 median=4327.24 max=9091.08 frac_neg=0.000
+		after:  n=187 min=28.63 median=3609.64 max=7583.48 frac_neg=0.000
+	clip_end_s	n_changed=187	max_abs_change_s=1508.188
+		before: n=187 min=56.44 median=4337.60 max=9094.60 frac_neg=0.000
+		after:  n=187 min=47.08 median=3618.28 max=7586.41 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=186	max_abs_change_s=1507.604
+		before: n=186 min=34.86 median=755.27 max=1555.37 frac_neg=0.000
+		after:  n=186 min=4.14 median=25.81 max=372.71 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=186	max_abs_change_s=1501.090
+		before: n=186 min=-1467.32 median=-682.20 max=80.04 frac_neg=0.968
+		after:  n=186 min=3.34 median=25.77 max=371.84 frac_neg=0.000
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton	fps=29.97003	n_records=231	detected_share_consistent=1.000
+	clip_start_s	n_changed=231	max_abs_change_s=1815.974
+		before: n=231 min=42.08 median=5631.72 max=10950.60 frac_neg=0.000
+		after:  n=231 min=35.10 median=4697.79 max=9134.63 frac_neg=0.000
+	clip_end_s	n_changed=231	max_abs_change_s=1816.558
+		before: n=231 min=70.56 median=5640.88 max=10954.12 frac_neg=0.000
+		after:  n=231 min=58.86 median=4705.43 max=9137.56 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=230	max_abs_change_s=1815.974
+		before: n=230 min=50.03 median=972.18 max=1875.12 frac_neg=0.000
+		after:  n=230 min=7.54 median=27.16 max=363.10 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=230	max_abs_change_s=1815.172
+		before: n=230 min=-1810.13 median=-903.90 max=22.20 frac_neg=0.983
+		after:  n=230 min=4.24 median=26.54 max=361.16 frac_neg=0.000
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek	fps=25.00000	n_records=91	detected_share_consistent=1.000
+	clip_start_s	n_changed=0	max_abs_change_s=0.000
+		before: n=91 min=25.12 median=1495.12 max=3414.76 frac_neg=0.000
+		after:  n=91 min=25.12 median=1495.12 max=3414.76 frac_neg=0.000
+	clip_end_s	n_changed=0	max_abs_change_s=0.000
+		before: n=91 min=28.92 median=1501.08 max=3419.96 frac_neg=0.000
+		after:  n=91 min=28.92 median=1501.08 max=3419.96 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=90 min=9.64 median=23.94 max=145.36 frac_neg=0.000
+		after:  n=90 min=9.64 median=23.94 max=145.36 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=0	max_abs_change_s=0.000
+		before: n=90 min=6.88 median=24.02 max=144.44 frac_neg=0.000
+		after:  n=90 min=6.88 median=24.02 max=144.44 frac_neg=0.000
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz	fps=29.97003	n_records=254	detected_share_consistent=1.000
+	clip_start_s	n_changed=254	max_abs_change_s=1610.978
+		before: n=254 min=42.60 median=4952.08 max=9714.44 frac_neg=0.000
+		after:  n=254 min=35.53 median=4130.86 max=8103.46 frac_neg=0.000
+	clip_end_s	n_changed=254	max_abs_change_s=1612.192
+		before: n=254 min=52.00 median=4965.76 max=9721.76 frac_neg=0.000
+		after:  n=254 min=43.38 median=4142.27 max=8109.57 frac_neg=0.000
+	t_since_prev_last_hit_s	n_changed=253	max_abs_change_s=1610.978
+		before: n=253 min=26.59 median=860.52 max=1642.78 frac_neg=0.000
+		after:  n=253 min=4.81 median=25.63 max=141.40 frac_neg=0.000
+	t_to_next_first_hit_s	n_changed=253	max_abs_change_s=1605.008
+		before: n=253 min=-1573.84 median=-784.99 max=20.97 frac_neg=0.984
+		after:  n=253 min=4.31 median=25.09 max=140.78 frac_neg=0.000
