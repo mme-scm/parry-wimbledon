@@ -1,0 +1,7 @@
+/home/user/parry-wimbledon/.venv/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/home/user/parry-wimbledon/analysis/parry/p01_sharing.py:112: RuntimeWarning: Mean of empty slice
+  est = float(np.nanmean(Mtv[~np.eye(len(tvp), dtype=bool)]))
+S=1500: R=500, 26 teams, 638.6 s
+S=3000: R=200, 23 teams, 238.4 s
+done 909.3 s

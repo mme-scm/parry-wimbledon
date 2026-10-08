@@ -1,0 +1,50 @@
+{
+ "H2a": {
+  "statistic": "mean over TV targets of [mean TV-source excess - cornell excess], base coverage, S = 1500",
+  "estimate": 0.01844776016978706,
+  "ci_lo": 0.014181720536827053,
+  "ci_hi": 0.023310688382032783,
+  "p_two": 0.00019998000199980003,
+  "p_floor": 0.00019998000199980003,
+  "B": 10000,
+  "n_targets_positive": 20,
+  "n_targets": 20
+ },
+ "H2b": {
+  "statistic": "mean over TV targets of [mean TV-source excess - press_pooled excess], base coverage, S = 1500",
+  "estimate": 0.021373322807683934,
+  "ci_lo": 0.01661813046193252,
+  "ci_hi": 0.02708515139855872,
+  "p_two": 0.00019998000199980003,
+  "p_floor": 0.00019998000199980003,
+  "B": 10000,
+  "n_targets_positive": 20,
+  "n_targets": 20
+ },
+ "H1a": {
+  "statistic": "mean over ordered TV pairs of excess coverage (base), S = 1500",
+  "estimate": 0.07559963174156864,
+  "ci_lo": 0.06988726725462402,
+  "ci_hi": 0.08231612467535643,
+  "p_two": 0.00019998000199980003,
+  "p_floor": 0.00019998000199980003,
+  "B": 10000,
+  "n_targets_positive": 20,
+  "n_targets": 20,
+  "obs_mean": 0.08699492108232658,
+  "null_mean": 0.011395289340757942
+ },
+ "H1b": {
+  "statistic": "mean over ordered TV pairs of excess coverage (n3), S = 1500",
+  "estimate": 0.01020617813571346,
+  "ci_lo": 0.008749418997278999,
+  "ci_hi": 0.011839074221876992,
+  "p_two": 0.00019998000199980003,
+  "p_floor": 0.00019998000199980003,
+  "B": 10000,
+  "n_targets_positive": 20,
+  "n_targets": 20,
+  "obs_mean": 0.010218171775978726,
+  "null_mean": 1.1993640265265819e-05
+ }
+}

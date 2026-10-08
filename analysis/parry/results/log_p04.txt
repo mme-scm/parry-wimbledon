@@ -1,0 +1,1 @@
+{'check_phase2_totals_all_references': {'tv_2019wimF': {'djokovic': 188, 'federer': 164}, 'tv_2023wimF': {'djokovic': 121, 'alcaraz': 80}}, 'n_references': 3021, 'n_unresolved_epithets': 42, 'n_umpire_pattern': 123, 'spacy_model': 'en_core_web_sm 3.8.0'}

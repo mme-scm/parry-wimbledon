@@ -1,0 +1,350 @@
+{
+ "streams": {
+  "tv_2019wimF": {
+   "players": [
+    "federer",
+    "djokovic"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "djokovic:epithet_descriptive": 8,
+    "djokovic:epithet_nationality": 1,
+    "djokovic:first_name": 29,
+    "djokovic:full_name": 17,
+    "djokovic:hypocoristic": 1,
+    "djokovic:surname": 127,
+    "djokovic:title_surname": 5,
+    "federer:epithet_descriptive": 2,
+    "federer:epithet_nationality": 4,
+    "federer:first_name": 17,
+    "federer:full_name": 8,
+    "federer:surname": 127,
+    "federer:title_surname": 6
+   }
+  },
+  "tv_2023wimF": {
+   "players": [
+    "djokovic",
+    "alcaraz"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "alcaraz:epithet_descriptive": 3,
+    "alcaraz:epithet_nationality": 1,
+    "alcaraz:first_name": 5,
+    "alcaraz:full_name": 10,
+    "alcaraz:surname": 61,
+    "djokovic:epithet_descriptive": 4,
+    "djokovic:epithet_nationality": 1,
+    "djokovic:first_name": 18,
+    "djokovic:full_name": 12,
+    "djokovic:surname": 86
+   }
+  },
+  "tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova": {
+   "players": [
+    "osaka",
+    "kvitova"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 3,
+    "kvitova:epithet_nationality": 2,
+    "kvitova:first_name": 22,
+    "kvitova:full_name": 10,
+    "kvitova:surname": 55,
+    "osaka:first_name": 8,
+    "osaka:full_name": 17,
+    "osaka:surname": 59
+   }
+  },
+  "tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem": {
+   "players": [
+    "djokovic",
+    "thiem"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "djokovic:epithet_nationality": 1,
+    "djokovic:first_name": 59,
+    "djokovic:full_name": 5,
+    "djokovic:surname": 55,
+    "djokovic:title_surname": 1,
+    "thiem:epithet_nationality": 5,
+    "thiem:first_name": 10,
+    "thiem:full_name": 22,
+    "thiem:surname": 11,
+    "thiem:title_surname": 2
+   }
+  },
+  "tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin": {
+   "players": [
+    "swiatek",
+    "kenin"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "kenin:surname": 23,
+    "swiatek:full_name": 1,
+    "swiatek:surname": 17
+   }
+  },
+  "tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady": {
+   "players": [
+    "osaka",
+    "brady"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "brady:surname": 61,
+    "osaka:first_name": 1,
+    "osaka:full_name": 8,
+    "osaka:surname": 63
+   }
+  },
+  "tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic": {
+   "players": [
+    "tsitsipas",
+    "djokovic"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 12,
+    "djokovic:epithet_nationality": 4,
+    "djokovic:first_name": 2,
+    "djokovic:full_name": 11,
+    "djokovic:surname": 119,
+    "tsitsipas:epithet_nationality": 7,
+    "tsitsipas:surname": 97
+   }
+  },
+  "tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez": {
+   "players": [
+    "raducanu",
+    "fernandez"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 2,
+    "fernandez:first_name": 2,
+    "fernandez:full_name": 3,
+    "fernandez:surname": 35,
+    "raducanu:first_name": 2,
+    "raducanu:full_name": 2,
+    "raducanu:surname": 16
+   }
+  },
+  "tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev": {
+   "players": [
+    "nadal",
+    "medvedev"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "medvedev:epithet_nationality": 12,
+    "medvedev:first_name": 4,
+    "medvedev:full_name": 6,
+    "medvedev:surname": 99,
+    "medvedev:title_surname": 1,
+    "nadal:epithet_nationality": 7,
+    "nadal:hypocoristic": 83,
+    "nadal:surname": 30
+   }
+  },
+  "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
+   "players": [
+    "djokovic",
+    "nadal"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 4,
+    "djokovic:epithet_nationality": 1,
+    "djokovic:first_name": 6,
+    "djokovic:full_name": 1,
+    "djokovic:hypocoristic": 3,
+    "djokovic:surname": 142,
+    "nadal:hypocoristic": 58,
+    "nadal:surname": 84
+   }
+  },
+  "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
+   "players": [
+    "ruud",
+    "alcaraz"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 3,
+    "alcaraz:first_name": 2,
+    "alcaraz:full_name": 5,
+    "alcaraz:surname": 56,
+    "ruud:epithet_nationality": 2,
+    "ruud:first_name": 3,
+    "ruud:full_name": 5,
+    "ruud:surname": 9
+   }
+  },
+  "tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova": {
+   "players": [
+    "swiatek",
+    "muchova"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 5,
+    "muchova:epithet_nationality": 3,
+    "muchova:full_name": 1,
+    "muchova:surname": 36,
+    "swiatek:surname": 69
+   }
+  },
+  "tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev": {
+   "players": [
+    "djokovic",
+    "medvedev"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "djokovic:first_name": 14,
+    "djokovic:full_name": 2,
+    "djokovic:surname": 71,
+    "medvedev:first_name": 2,
+    "medvedev:surname": 57
+   }
+  },
+  "tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev": {
+   "players": [
+    "sinner",
+    "medvedev"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "medvedev:first_name": 8,
+    "medvedev:full_name": 1,
+    "medvedev:surname": 112,
+    "sinner:epithet_nationality": 7,
+    "sinner:first_name": 22,
+    "sinner:full_name": 7,
+    "sinner:surname": 41
+   }
+  },
+  "tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini": {
+   "players": [
+    "swiatek",
+    "paolini"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 5,
+    "paolini:epithet_nationality": 1,
+    "paolini:surname": 32,
+    "swiatek:full_name": 1,
+    "swiatek:surname": 32
+   }
+  },
+  "tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova": {
+   "players": [
+    "paolini",
+    "krejcikova"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "krejcikova:epithet_nationality": 2,
+    "krejcikova:first_name": 9,
+    "krejcikova:full_name": 1,
+    "krejcikova:surname": 18,
+    "paolini:epithet_nationality": 2,
+    "paolini:first_name": 4,
+    "paolini:full_name": 5,
+    "paolini:surname": 37
+   }
+  },
+  "tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner": {
+   "players": [
+    "fritz",
+    "sinner"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 1,
+    "fritz:epithet_nationality": 2,
+    "fritz:first_name": 24,
+    "fritz:full_name": 18,
+    "fritz:surname": 27,
+    "sinner:epithet_nationality": 5,
+    "sinner:first_name": 18,
+    "sinner:full_name": 4,
+    "sinner:surname": 8
+   }
+  },
+  "tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton": {
+   "players": [
+    "sinner",
+    "shelton"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 4,
+    "shelton:epithet_nationality": 4,
+    "shelton:first_name": 21,
+    "shelton:full_name": 20,
+    "shelton:surname": 39,
+    "sinner:epithet_nationality": 1,
+    "sinner:first_name": 9,
+    "sinner:full_name": 2,
+    "sinner:surname": 34
+   }
+  },
+  "tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek": {
+   "players": [
+    "anisimova",
+    "swiatek"
+   ],
+   "fps_valid": true,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 1,
+    "anisimova:epithet_nationality": 1,
+    "anisimova:first_name": 4,
+    "anisimova:full_name": 7,
+    "anisimova:surname": 8,
+    "swiatek:epithet_nationality": 1,
+    "swiatek:first_name": 4,
+    "swiatek:full_name": 1,
+    "swiatek:surname": 15
+   }
+  },
+  "tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz": {
+   "players": [
+    "sinner",
+    "alcaraz"
+   ],
+   "fps_valid": false,
+   "counts": {
+    "UNRESOLVED:epithet_descriptive": 2,
+    "alcaraz:epithet_nationality": 1,
+    "alcaraz:first_name": 15,
+    "alcaraz:full_name": 3,
+    "alcaraz:surname": 65,
+    "sinner:epithet_nationality": 3,
+    "sinner:first_name": 11,
+    "sinner:full_name": 1,
+    "sinner:surname": 16
+   }
+  }
+ },
+ "check_phase2_totals_all_references": {
+  "tv_2019wimF": {
+   "djokovic": 188,
+   "federer": 164
+  },
+  "tv_2023wimF": {
+   "djokovic": 121,
+   "alcaraz": 80
+  }
+ },
+ "n_references": 3021,
+ "n_unresolved_epithets": 42,
+ "n_umpire_pattern": 123,
+ "spacy_model": "en_core_web_sm 3.8.0"
+}

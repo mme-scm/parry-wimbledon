@@ -479,4 +479,4 @@ def fps_valid(stream) -> bool:
     x = np.array([a for a, _ in rows], float)
     y = np.array([b for _, b in rows], float)
     slope = np.polyfit(x, y, 1)[0]
-    return abs(1 / slope - 25.0) < 0.5
+    return bool(abs(1 / slope - 25.0) < 0.5)

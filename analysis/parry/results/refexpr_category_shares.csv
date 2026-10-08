@@ -1,0 +1,43 @@
+team,label,references,resolved_tokens,unresolved_epithets,share_surname,share_first_name,share_full_name,share_title_surname,share_hypocoristic,share_epithet,share_epithet_upper
+tv_2019wimF,2019 WIM M F Federer-Djokovic,commentary_only,321,0,0.728972,0.143302,0.0778816,0,0.00311526,0.046729,0.046729
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,commentary_only,170,0,0.776471,0.135294,0.0352941,0,0,0.0529412,0.0529412
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,commentary_only,173,3,0.65896,0.17341,0.156069,0,0,0.0115607,0.0284091
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,commentary_only,165,0,0.387879,0.412121,0.163636,0,0,0.0363636,0.0363636
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,commentary_only,41,0,0.97561,0,0.0243902,0,0,0,0
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,commentary_only,132,0,0.931818,0.00757576,0.0606061,0,0,0,0
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,commentary_only,237,12,0.898734,0.00843882,0.0464135,0,0,0.0464135,0.0923695
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,commentary_only,55,2,0.836364,0.0727273,0.0909091,0,0,0,0.0350877
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,commentary_only,237,0,0.540084,0.0168776,0.021097,0,0.341772,0.0801688,0.0801688
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,commentary_only,293,4,0.767918,0.0204778,0.00341297,0,0.204778,0.00341297,0.016835
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,commentary_only,80,3,0.7875,0.0625,0.125,0,0,0.025,0.060241
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,commentary_only,109,5,0.963303,0,0.00917431,0,0,0.0275229,0.0701754
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,commentary_only,140,0,0.871429,0.114286,0.0142857,0,0,0,0
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,commentary_only,194,0,0.768041,0.154639,0.0412371,0,0,0.0360825,0.0360825
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,commentary_only,66,5,0.969697,0,0.0151515,0,0,0.0151515,0.084507
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,commentary_only,68,0,0.705882,0.191176,0.0441176,0,0,0.0588235,0.0588235
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,commentary_only,105,1,0.32381,0.4,0.209524,0,0,0.0666667,0.0754717
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,commentary_only,119,4,0.521008,0.252101,0.184874,0,0,0.0420168,0.0731707
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,commentary_only,40,1,0.55,0.2,0.2,0,0,0.05,0.0731707
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,commentary_only,111,2,0.693694,0.234234,0.036036,0,0,0.036036,0.0530973
+ALL_TV,all 20 TV streams,commentary_only,2856,42,0.723039,0.12395,0.0689776,0,0.0497199,0.0343137,0.0483092
+tv_2019wimF,2019 WIM M F Federer-Djokovic,all_references,352,0,0.721591,0.130682,0.0710227,0.03125,0.00284091,0.0426136,0.0426136
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,all_references,201,0,0.731343,0.114428,0.109453,0,0,0.0447761,0.0447761
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,all_references,173,3,0.65896,0.17341,0.156069,0,0,0.0115607,0.0284091
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,all_references,171,0,0.385965,0.403509,0.157895,0.0175439,0,0.0350877,0.0350877
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,all_references,41,0,0.97561,0,0.0243902,0,0,0,0
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,all_references,133,0,0.932331,0.0075188,0.0601504,0,0,0,0
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,all_references,240,12,0.9,0.00833333,0.0458333,0,0,0.0458333,0.0912698
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,all_references,60,2,0.85,0.0666667,0.0833333,0,0,0,0.0322581
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,all_references,242,0,0.533058,0.0165289,0.0247934,0.00413223,0.342975,0.0785124,0.0785124
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,all_references,295,4,0.766102,0.020339,0.00338983,0,0.20678,0.00338983,0.0167224
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,all_references,82,3,0.792683,0.0609756,0.121951,0,0,0.0243902,0.0588235
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,all_references,109,5,0.963303,0,0.00917431,0,0,0.0275229,0.0701754
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,all_references,146,0,0.876712,0.109589,0.0136986,0,0,0,0
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,all_references,198,0,0.772727,0.151515,0.040404,0,0,0.0353535,0.0353535
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,all_references,66,5,0.969697,0,0.0151515,0,0,0.0151515,0.084507
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,all_references,78,0,0.705128,0.166667,0.0769231,0,0,0.0512821,0.0512821
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,all_references,106,1,0.330189,0.396226,0.207547,0,0,0.0660377,0.0747664
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,all_references,130,4,0.561538,0.230769,0.169231,0,0,0.0384615,0.0671642
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,all_references,41,1,0.560976,0.195122,0.195122,0,0,0.0487805,0.0714286
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,all_references,115,2,0.704348,0.226087,0.0347826,0,0,0.0347826,0.0512821
+ALL_TV,all 20 TV streams,all_references,2979,42,0.721383,0.119168,0.0728432,0.00503525,0.0486741,0.0328969,0.0463423
