@@ -415,7 +415,7 @@ def main():
           f"and {pc(sA['touching'], 0)}% touch it (chance {pc(sA['touching_chance_mean'], 0)}%).")
         cv = {k: csc[k] for k in csc if k.startswith("coder_spans_") or k.startswith("references_")}
         rA, rB = csc.get("references_A_commentary_only_context"), csc.get("references_B_commentary_only_context")
-        w(f"* **Slot classifier.** In span mode (used for formula spans: Tables 2.11, 2.G, 4.7) it agrees with the coders' slot labels on "
+        w(f"* **Slot classifier.** In span mode (used for formula spans: Tables 2.11, 2.E-2.G, 4.7) it agrees with the coders' slot labels on "
           f"{pc(cv['coder_spans_A_span']['agreement'], 0)}% / {pc(cv['coder_spans_B_span']['agreement'], 0)}% of their spans (kappa "
           f"{num(cv['coder_spans_A_span']['kappa'], 2)} / {num(cv['coder_spans_B_span']['kappa'], 2)}); in context mode (used for the situational slot of a reference in "
           f"H4) on {pc(cv['coder_spans_A_context']['agreement'], 0)}% / {pc(cv['coder_spans_B_context']['agreement'], 0)}% of coder spans (kappa "
@@ -484,7 +484,7 @@ def main():
       "enters the pooled inventory. With the inventory identified on the other 19 streams (post hoc), "
       + (f"{len(loso_sig)} of {len(e1l)} slots still do ({', '.join(loso_sig)})" if loso_sig else f"none of the {len(e1l)} slots does")
       + (": streams reuse their own selection of strings that other streams also use (a stream being one match and one broadcaster)" if len(loso_sig) == len(e1l)
-         else "") + " (Table 4.7b).")
+         else "") + "; Table 4.7b.")
     hs = h5p[0]
     w(f"* **Extension (H5).** No association was detected between the syllable length of a reference and the time available after its clip: weighted within-stream "
       f"rho = {num(h5['rho_weighted'], 3)} (stream bootstrap {ci(h5['boot_lo'], h5['boot_hi'], 3, 1)}; permutation p = {pval(h5['p_two'])}; {h5['tokens']} references "

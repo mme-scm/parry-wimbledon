@@ -6,3 +6,5 @@ ok fig_targets
 ok fig_refexpr
 ok fig_extension
 ok fig_calibration
+ok fig_largeI
+ok fig_tvonly_slots
