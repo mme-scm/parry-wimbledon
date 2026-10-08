@@ -1,0 +1,1632 @@
+{
+ "input": "composition/drafts/v4.jsonl",
+ "verses": 64,
+ "tokens": 485,
+ "verses_identical_to_a_homeric_verse": 19,
+ "verbatim_verse_numbers": [
+  3,
+  6,
+  8,
+  9,
+  11,
+  13,
+  16,
+  17,
+  18,
+  27,
+  35,
+  42,
+  44,
+  45,
+  46,
+  47,
+  50,
+  51,
+  53
+ ],
+ "tokens_unattested_in_homer": 34,
+ "unattested_forms": [
+  "δαιφρονε",
+  "δαμασεν",
+  "ελβετιοσ",
+  "ελβετιου",
+  "ζοκοβειδησ",
+  "νοβηκοσ",
+  "νοβηκου",
+  "παρελασσε",
+  "ρογηροσ",
+  "σερβον",
+  "σερβοσ",
+  "σερβου",
+  "σερβω",
+  "φεδερευ",
+  "φεδερευσ",
+  "φεδερηρον",
+  "φεδερηροσ"
+ ],
+ "func_words": 186,
+ "B": 2000,
+ "R": 200,
+ "coverage": {
+  "n2_all_min1": {
+   "coverage": 81.9,
+   "ci95": [
+    77.2,
+    86.2
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 74.7,
+    "ci95": [
+     69.5,
+     80.1
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 88.0,
+   "shuffled_mean": 15.9,
+   "shuffled_2.5_97.5": [
+    12.4,
+    19.4
+   ],
+   "excess_pp": 66.0
+  },
+  "n2_base_min1": {
+   "coverage": 73.2,
+   "ci95": [
+    65.8,
+    79.8
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 62.6,
+    "ci95": [
+     54.7,
+     70.5
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 78.7,
+   "shuffled_mean": 6.2,
+   "shuffled_2.5_97.5": [
+    3.5,
+    8.9
+   ],
+   "excess_pp": 66.9
+  },
+  "n3_all_min1": {
+   "coverage": 69.7,
+   "ci95": [
+    62.3,
+    76.6
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 57.8,
+    "ci95": [
+     50.0,
+     65.7
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 74.9,
+   "shuffled_mean": 0.3,
+   "shuffled_2.5_97.5": [
+    0.0,
+    1.2
+   ],
+   "excess_pp": 69.4
+  },
+  "n3_base_min1": {
+   "coverage": 63.1,
+   "ci95": [
+    54.6,
+    71.1
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 48.6,
+    "ci95": [
+     40.1,
+     57.5
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 67.8,
+   "shuffled_mean": 0.0,
+   "shuffled_2.5_97.5": [
+    0.0,
+    0.6
+   ],
+   "excess_pp": 63.0
+  },
+  "n2_base_min2": {
+   "coverage": 53.8,
+   "ci95": [
+    46.1,
+    61.5
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 54.0,
+    "ci95": [
+     45.6,
+     62.6
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 57.9,
+   "shuffled_mean": 3.8,
+   "shuffled_2.5_97.5": [
+    1.6,
+    6.0
+   ],
+   "excess_pp": 50.0
+  },
+  "n3_base_min2": {
+   "coverage": 37.3,
+   "ci95": [
+    28.6,
+    46.5
+   ],
+   "excluding_verbatim_verses": {
+    "coverage": 38.5,
+    "ci95": [
+     29.7,
+     48.2
+    ],
+    "verses": 45,
+    "tokens": 348
+   },
+   "excluding_tokens_unattested_in_homer": 40.1,
+   "shuffled_mean": 0.0,
+   "shuffled_2.5_97.5": [
+    0.0,
+    0.0
+   ],
+   "excess_pp": 37.3
+  }
+ },
+ "per_verse": [
+  {
+   "n": 1,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἔννεπε Μοῦσα",
+     "position": "3-5.5"
+    },
+    {
+     "formula": "περὶ νίκης",
+     "position": "9.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 2,
+   "tokens": 5,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 4,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 3,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἔριδος πέρι θυμοβόροιο",
+     "position": "5.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 3,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 4,
+   "tokens": 6,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 3,
+   "n2_base_min1": 3,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 3,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τε καὶ ἀντίθεος",
+     "position": "5.5-9"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 5,
+   "tokens": 6,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἐδύσετο τεύχεα καλά",
+     "position": "6-12"
+    },
+    {
+     "formula": "δ᾽ ἑτέρωθεν",
+     "position": "3.5-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 6,
+   "tokens": 6,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 6,
+   "n3_base_min2": 6,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "κνημῖδας μὲν πρῶτα περὶ κνήμῃσιν ἔθηκε",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 7,
+   "tokens": 6,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 4,
+   "n2_base_min1": 4,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 4,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "περὶ στήθεσσιν ἔδυνε",
+     "position": "6-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 8,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 4,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἂν δ᾽ ἕλετ᾽ ἀμφιβρότην πολυδαίδαλον ἀσπίδα θοῦριν",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 9,
+   "tokens": 8,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 8,
+   "n3_base_min2": 8,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "εἵλετο δ᾽ ἄλκιμον ἔγχος, ὅ οἱ παλάμηφιν ἀρήρει",
+     "position": "1-12"
+    },
+    {
+     "formula": "εἵλετο δ᾽ ἄλκιμον ἔγχος",
+     "position": "1-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 10,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 6,
+   "n3_base_min2": 6,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "αὖθ᾽ ἑτέρωθεν",
+     "position": "3-5.5"
+    },
+    {
+     "formula": "ἐδύσετο νώροπα χαλκόν",
+     "position": "6-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 11,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καί ῥ᾽ ἐγγὺς στήτην διαμετρητῷ ἐνὶ χώρῳ",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 12,
+   "tokens": 6,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 5,
+   "n3_base_min2": 5,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἀκόντισε δουρὶ φαεινῷ",
+     "position": "6-12"
+    },
+    {
+     "formula": "δὲ πρῶτος",
+     "position": "4-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 13,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἔνθά σφιν κατὰ ἶσα μάχην ἐτάνυσσε Κρονίων",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 14,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τρὶς μὲν ἔπειτ᾽",
+     "position": "1-3"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 15,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 5,
+   "n3_base_min2": 5,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἀλλ᾽ ὅτε δὴ τὸ τέταρτον",
+     "position": "1-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 16,
+   "tokens": 9,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 9,
+   "n2_base_min1": 9,
+   "n3_all_min1": 9,
+   "n3_base_min1": 9,
+   "n2_base_min2": 9,
+   "n3_base_min2": 9,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὡς δ᾽ ὅτε τις στατὸς ἵππος ἀκοστήσας ἐπὶ φάτνῃ",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 17,
+   "tokens": 5,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 5,
+   "n3_base_min2": 5,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "δεσμὸν ἀπορρήξας θείῃ πεδίοιο κροαίνων",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 18,
+   "tokens": 4,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 4,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "εἰωθὼς λούεσθαι ἐϋρρεῖος ποταμοῖο",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 19,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 7,
+   "n2_base_min1": 3,
+   "n3_all_min1": 7,
+   "n3_base_min1": 3,
+   "n2_base_min2": 3,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὣς ἄρ᾽ ὅ γ᾽",
+     "position": "1-3"
+    },
+    {
+     "formula": "ἐπέσσυτο δαίμονι ἶσος",
+     "position": "6-12"
+    },
+    {
+     "formula": "δαίμονι ἶσος",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 20,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τρὶς δέ",
+     "position": "1-1.5"
+    },
+    {
+     "formula": "ἐσσυμένως λάβ᾽ ἄεθλον",
+     "position": "7-12"
+    },
+    {
+     "formula": "λάβ᾽ ἄεθλον",
+     "position": "9.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 21,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 9,
+   "n2_base_min1": 9,
+   "n3_all_min1": 9,
+   "n3_base_min1": 9,
+   "n2_base_min2": 9,
+   "n3_base_min2": 9,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τὸ τρίτον αὖτ᾽",
+     "position": "1-3"
+    },
+    {
+     "formula": "ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε",
+     "position": "3.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 22,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 3,
+   "n2_base_min1": 0,
+   "n3_all_min1": 3,
+   "n3_base_min1": 0,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἔνθα καὶ ἔνθα",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": false
+  },
+  {
+   "n": 23,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καὶ βάλεν, οὐδ᾽ ἀφάμαρτε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "κέρδεα εἰδώς",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 24,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 3,
+   "n2_base_min1": 0,
+   "n3_all_min1": 3,
+   "n3_base_min1": 0,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἀλλ᾽ ὅ γε",
+     "position": "1-2"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": false
+  },
+  {
+   "n": 25,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 2,
+   "n3_all_min1": 3,
+   "n3_base_min1": 0,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τὸν δ᾽ αὖθ᾽",
+     "position": "1-2"
+    },
+    {
+     "formula": "δεύτερον αὖτις",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 26,
+   "tokens": 6,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "δεύτερον αὖ",
+     "position": "1-3"
+    },
+    {
+     "formula": "προΐει δολιχόσκιον ἔγχος",
+     "position": "5.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 27,
+   "tokens": 9,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 9,
+   "n2_base_min1": 9,
+   "n3_all_min1": 9,
+   "n3_base_min1": 9,
+   "n2_base_min2": 4,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "πολλὰ δ᾽ ἄναντα κάταντα πάραντά τε δόχμιά τ᾽ ἦλθον",
+     "position": "1-12"
+    },
+    {
+     "formula": "πολλὰ δ᾽ ἄναντα κάταντα",
+     "position": "1-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 28,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καὶ βάλεν, οὐδ᾽ ἀφάμαρτε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "κέρδεα εἰδώς",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 29,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 2,
+   "n3_all_min1": 3,
+   "n3_base_min1": 0,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἀλλὰ καὶ ὧς",
+     "position": "1-3"
+    },
+    {
+     "formula": "ὑπὸ χερσὶ",
+     "position": "7.5-9.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 30,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 4,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "πέμπτον δ᾽ ὑπελείπετ᾽ ἄεθλον",
+     "position": "6-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 31,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 4,
+   "n2_base_min1": 2,
+   "n3_all_min1": 0,
+   "n3_base_min1": 0,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "βοὴν ἀγαθὸν",
+     "position": "6-9"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 32,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 8,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "αὐτὰρ ὅ γ᾽ ἂψ",
+     "position": "1-3"
+    },
+    {
+     "formula": "αὐτὰρ ὅ γ᾽",
+     "position": "1-3"
+    },
+    {
+     "formula": "ἐπόρουσε καὶ",
+     "position": "3.5-6"
+    },
+    {
+     "formula": "ἀμφήριστον ἔθηκεν",
+     "position": "7-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 33,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 4,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τοῖιν δ᾽",
+     "position": "1-3"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 34,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὀψὲ δὲ δὴ",
+     "position": "1-3"
+    },
+    {
+     "formula": "βοὴν ἀγαθὸς",
+     "position": "6-9"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 35,
+   "tokens": 6,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 3,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "λαοὶ δ᾽ ἀμφοτέροισιν ἐπήπυον ἀμφὶς ἀρωγοί",
+     "position": "1-12"
+    },
+    {
+     "formula": "ἀμφὶς ἀρωγοί",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 36,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 8,
+   "n2_base_min1": 5,
+   "n3_all_min1": 8,
+   "n3_base_min1": 5,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "κήρυκες δ᾽ ἄρα λαὸν ἐρήτυον",
+     "position": "1-8"
+    },
+    {
+     "formula": "ἔνθα καὶ ἔνθα",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 37,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 6,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καὶ βάλεν, οὐδ᾽ ἀφάμαρτε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "οὐδ᾽ ἀφάμαρτε",
+     "position": "3-5.5"
+    },
+    {
+     "formula": "καὶ βάλεν",
+     "position": "1-2"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 38,
+   "tokens": 10,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 9,
+   "n2_base_min1": 5,
+   "n3_all_min1": 9,
+   "n3_base_min1": 5,
+   "n2_base_min2": 5,
+   "n3_base_min2": 5,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καί νύ κεν ἔνθ᾽",
+     "position": "1-3"
+    },
+    {
+     "formula": "καί νύ κεν",
+     "position": "1-2"
+    },
+    {
+     "formula": "τε καὶ ἄσπετον ἤρατο κῦδος",
+     "position": "5.5-12"
+    },
+    {
+     "formula": "ἄσπετον ἤρατο κῦδος",
+     "position": "7-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 39,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 8,
+   "n2_base_min1": 6,
+   "n3_all_min1": 8,
+   "n3_base_min1": 6,
+   "n2_base_min2": 6,
+   "n3_base_min2": 6,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "εἰ μή οἱ",
+     "position": "1-3"
+    },
+    {
+     "formula": "βέλος ὠκὺ ἐτώσιον ἔκφυγε χειρός",
+     "position": "3.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 40,
+   "tokens": 11,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 11,
+   "n2_base_min1": 10,
+   "n3_all_min1": 11,
+   "n3_base_min1": 10,
+   "n2_base_min2": 8,
+   "n3_base_min2": 8,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "στῆ δὲ μάλ᾽ ἐγγὺς ἰών",
+     "position": "1-5"
+    },
+    {
+     "formula": "ὃ δέ μιν",
+     "position": "5.5-7"
+    },
+    {
+     "formula": "οὐδ᾽ ἀφάμαρτε",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 41,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 6,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τρὶς μὲν ἔπειτ᾽ ἐπόρουσε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "βοὴν ἀγαθὸς",
+     "position": "6-9"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 42,
+   "tokens": 8,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 8,
+   "n3_base_min2": 8,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἀλλ᾽ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 43,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 7,
+   "n3_base_min2": 7,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἐναντίον ὦρτο λέων ὣς",
+     "position": "6-12"
+    },
+    {
+     "formula": "αὖθ᾽ ἑτέρωθεν",
+     "position": "3-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 44,
+   "tokens": 8,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὅν ῥά τε ποιμὴν ἀγρῷ ἐπ᾽ εἰροπόκοις ὀΐεσσι",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 45,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "χραύσῃ μέν τ᾽ αὐλῆς ὑπεράλμενον οὐδὲ δαμάσσῃ",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 46,
+   "tokens": 10,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 10,
+   "n2_base_min1": 10,
+   "n3_all_min1": 10,
+   "n3_base_min1": 10,
+   "n2_base_min2": 3,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τοῦ μέν τε σθένος ὦρσεν, ἔπειτα δέ τ᾽ οὐ προσαμύνει",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 47,
+   "tokens": 6,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "αὐτὰρ ὃ ἐμμεμαὼς βαθέης ἐξάλλεται αὐλῆς",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 48,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὣς τότε",
+     "position": "1-2"
+    },
+    {
+     "formula": "μένος καὶ θυμὸς ἀγήνωρ",
+     "position": "6-12"
+    },
+    {
+     "formula": "θυμὸς ἀγήνωρ",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 49,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 3,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὃ δ᾽ ἐπέσσυτο",
+     "position": "5.5-8"
+    },
+    {
+     "formula": "τυτθὸν ὀπίσσω",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 50,
+   "tokens": 8,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὡς δ᾽ ὅτ᾽ ἀεθλοφόροι περὶ τέρματα μώνυχες ἵπποι",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 51,
+   "tokens": 8,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 2,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ῥίμφα μάλα τρωχῶσι· τὸ δὲ μέγα κεῖται ἄεθλον",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 52,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 4,
+   "n3_all_min1": 0,
+   "n3_base_min1": 0,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὣς τὼ",
+     "position": "1-2"
+    },
+    {
+     "formula": "περὶ τέρματα",
+     "position": "5.5-8"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 53,
+   "tokens": 7,
+   "verbatim_homeric_verse": true,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 7,
+   "n3_base_min1": 7,
+   "n2_base_min2": 7,
+   "n3_base_min2": 7,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα",
+     "position": "1-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 54,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 7,
+   "n2_base_min1": 7,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 7,
+   "n3_base_min2": 5,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἐν δ᾽ ἐτίθει δύο κῆρε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "θαλερῶν αἰζηῶν",
+     "position": "7.5-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 55,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 0,
+   "n3_all_min1": 6,
+   "n3_base_min1": 0,
+   "n2_base_min2": 0,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τὴν μὲν ἄρ᾽",
+     "position": "1-2"
+    },
+    {
+     "formula": "δ᾽ αὖ",
+     "position": "7-7"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": false
+  },
+  {
+   "n": 56,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 6,
+   "n3_base_min1": 6,
+   "n2_base_min2": 6,
+   "n3_base_min2": 6,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἕλκε δὲ μέσσα λαβών· ῥέπε δ᾽",
+     "position": "1-7"
+    },
+    {
+     "formula": "ἕλκε δὲ μέσσα λαβών",
+     "position": "1-5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 57,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 4,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τρὶς μὲν ἔπειτ᾽ ἐπόρουσε",
+     "position": "1-5.5"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 58,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 4,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 4,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τὸν δ᾽",
+     "position": "1-1.5"
+    },
+    {
+     "formula": "μάλα σχεδὸν ἦλθε διώκων",
+     "position": "6-12"
+    },
+    {
+     "formula": "μάλα σχεδὸν",
+     "position": "6-8"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 59,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 4,
+   "n3_base_min1": 4,
+   "n2_base_min2": 6,
+   "n3_base_min2": 4,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "καὶ βάλεν, οὐδ᾽ ἀφάμαρτε",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "οὐδ᾽ ἀφάμαρτε",
+     "position": "3-5.5"
+    },
+    {
+     "formula": "καὶ βάλεν",
+     "position": "1-2"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 60,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 3,
+   "n2_base_min1": 3,
+   "n3_all_min1": 0,
+   "n3_base_min1": 0,
+   "n2_base_min2": 3,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "βάλε δ᾽",
+     "position": "7.5-9"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 61,
+   "tokens": 7,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 6,
+   "n2_base_min1": 6,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 5,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ἤμβροτες οὐδ᾽ ἔτυχες",
+     "position": "1-5"
+    },
+    {
+     "formula": "μάλα πολλὰ",
+     "position": "7.5-9.5"
+    },
+    {
+     "formula": "πολλὰ μογήσας",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 62,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 5,
+   "n3_base_min1": 5,
+   "n2_base_min2": 4,
+   "n3_base_min2": 0,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "τότε δὴ",
+     "position": "5.5-7"
+    },
+    {
+     "formula": "Ζεὺς κῦδος ἔδωκε",
+     "position": "8-12"
+    },
+    {
+     "formula": "κῦδος ἔδωκε",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 63,
+   "tokens": 8,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 8,
+   "n2_base_min1": 8,
+   "n3_all_min1": 8,
+   "n3_base_min1": 8,
+   "n2_base_min2": 8,
+   "n3_base_min2": 8,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὣς οἳ μὲν μάρναντο",
+     "position": "1-5.5"
+    },
+    {
+     "formula": "ὣς οἳ μὲν",
+     "position": "1-3"
+    },
+    {
+     "formula": "Διὸς δ᾽ ἐτελείετο βουλή",
+     "position": "6-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  },
+  {
+   "n": 64,
+   "tokens": 9,
+   "verbatim_homeric_verse": false,
+   "n2_all_min1": 5,
+   "n2_base_min1": 5,
+   "n3_all_min1": 3,
+   "n3_base_min1": 3,
+   "n2_base_min2": 3,
+   "n3_base_min2": 3,
+   "claimed_exact_formulas_ge2": [
+    {
+     "formula": "ὀψὲ δὲ δὴ",
+     "position": "1-3"
+    },
+    {
+     "formula": "δείελον ἦμαρ",
+     "position": "9-12"
+    }
+   ],
+   "has_claimed_exact_ge2": true,
+   "has_any_attested_ngram_at_homeric_position": true
+  }
+ ],
+ "homeric_reference_verse_vs_rest_of_homer": {
+  "n2_all_min1": 70.0,
+  "n2_base_min1": 59.4,
+  "n3_all_min1": 43.8,
+  "n3_base_min1": 39.5,
+  "n2_base_min2": 43.0,
+  "n3_base_min2": 22.8
+ },
+ "homeric_reference_note": "min1: n-gram in >= 1 other Homeric verse; min2: >= 2 occurrences outside the verse; token-weighted over all 27794 verses",
+ "lines_with_claimed_exact_formula_ge2_words_pct": 100.0,
+ "lines_with_claimed_exact_formula_ge2_words": 64,
+ "lines_without_claimed_exact_formula_ge2_words": [],
+ "lines_with_claimed_exact_formula_ge2_words_not_function_only_pct": 95.3,
+ "lines_without_claimed_exact_formula_ge2_words_not_function_only": [
+  22,
+  24,
+  55
+ ],
+ "lines_with_any_attested_ngram_at_homeric_position_pct": 95.3,
+ "lines_without_any_attested_ngram_at_homeric_position": [
+  22,
+  24,
+  55
+ ]
+}
