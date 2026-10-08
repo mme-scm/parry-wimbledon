@@ -1,0 +1,44 @@
+{
+ "agreement": {
+  "primary_HIGH_MEDIUM": {
+   "token_kappa": 0.25,
+   "token_kappa_ci": [
+    0.06250000000000006,
+    0.4444444444444444
+   ],
+   "positive_token_share_A": 0.5,
+   "positive_token_share_B": 0.5,
+   "span_F1_exact": 0.4,
+   "span_F1_exact_ci": [
+    0.0,
+    0.6666666666666666
+   ],
+   "span_F1_overlap": 0.8,
+   "span_F1_overlap_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "spans_A": 3,
+   "spans_B": 2,
+   "matched_spans": 2,
+   "slot_agreement": 1.0,
+   "slot_kappa": 1.0,
+   "type_agreement": 1.0,
+   "type_kappa": 1.0
+  }
+ },
+ "classifier": {
+  "A": {
+   "spans": 3,
+   "agreement": 1.0,
+   "kappa": 1.0
+  },
+  "B": {
+   "spans": 3,
+   "agreement": 1.0,
+   "kappa": 1.0
+  }
+ }
+}
+coding files absent; calibration not run
+ok test_calibrate

@@ -445,7 +445,7 @@ def main():
     w(f"The 2019-2023 pair (both Wimbledon men's finals with Djokovic; hint 'Tim' in both): symmetric excess {pc(pe['value'], 2)} pp, rank {pe['rank_among_190_pairs']} "
       f"of {pe['n_pairs']} (mean of all pairs {pc(pe['mean_all_pairs'], 2)}); Jaccard rank {pair['jaccard_obs']['rank_among_190_pairs']}. The most similar pairs are "
       + "; ".join(f"{x} / {y} ({pc(v, 2)})" for x, y, v in pe["top5_pairs"][:3]) + ", i.e. Roland Garros women's finals with Swiatek "
-      "(same slam, same gender, same player, and probably the same host broadcaster).")
+      "(same slam, same gender, same player; whether they share a broadcaster or commentators is unknown [unverified]).")
     w("")
     # ---- pool to target
     w("### 2.3 Pool -> target coverage for every stream (exploratory, for the record)")
@@ -764,6 +764,7 @@ def main():
     w(f"2. Hypocoristic + surname ('rafa nadal', 'nole djokovic') counted as one full-name reference ({rsum['post_hoc_hypocoristic_full_names']} cases), not two.")
     w("3. Added beyond the plan's text: the full-size inventory table includes Cornell but not the press corpus (too large to index whole); the E2 extension uses "
       f"{tmeta['E2_extension_permutations']} permutations (it has about 300 strata).")
+    w("3b. Calibration: the plan's 2019-versus-other split is reported for overall precision / recall / F1 (Table 3.3), not within each slot or confidence stratum.")
     w("4. H4b power simulation corrected: the first run planted slot-specific forms on the observed data, which already carries the observed effect, so its "
       "'power' at theta = 0 was the rejection rate of the observed data (0.995); the corrected simulation starts every data set from the observed forms with slot labels "
       "permuted within team x player, so H0 holds at theta = 0 (Table 4.5 reports the corrected run).")

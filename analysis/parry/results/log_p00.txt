@@ -1,0 +1,1 @@
+22 players written to /home/user/parry-wimbledon/analysis/parry/hand/players.tsv

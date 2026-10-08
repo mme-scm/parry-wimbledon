@@ -1,0 +1,4 @@
+ok test_norm
+ok test_inventory_coverage
+ok test_shuffle
+ok test_classifier

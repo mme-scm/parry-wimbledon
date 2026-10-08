@@ -2,6 +2,6 @@
   return fnb._ureduce(a,
 /home/user/parry-wimbledon/analysis/parry/p01_sharing.py:112: RuntimeWarning: Mean of empty slice
   est = float(np.nanmean(Mtv[~np.eye(len(tvp), dtype=bool)]))
-S=1500: R=500, 26 teams, 638.6 s
-S=3000: R=200, 23 teams, 238.4 s
-done 909.3 s
+S=1500: R=500, 26 teams, 703.0 s
+S=3000: R=200, 23 teams, 272.8 s
+done 1009.0 s

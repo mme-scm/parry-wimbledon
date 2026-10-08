@@ -1,1 +1,1 @@
-done {'matched_runtime_s': 76.7, 'spearman_idiolect_vs_stream_tokens': {'full': [0.4421052631578947, 0.05096470340964165], 'matched': [-0.6601503759398496, 0.0015370486321183076]}, 'total_s': 349.4, 'S': 1500, 'R_matched': 200, 'R_baseline': 20}
+done {'matched_runtime_s': 36.9, 'spearman_idiolect_vs_stream_tokens': {'full': [0.4421052631578947, 0.05096470340964165], 'matched': [-0.6601503759398496, 0.0015370486321183076]}, 'total_s': 323.7, 'S': 1500, 'R_matched': 200, 'R_baseline': 20}

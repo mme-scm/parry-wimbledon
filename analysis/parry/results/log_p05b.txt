@@ -1,0 +1,11 @@
+H4a all commentary-only references (as in H4) 2833 303 388.2 9.999000099990002e-05
+H4b all commentary-only references (as in H4) 2833 472 483.2 0.026797320267973202
+H4a first reference per player per utterance 2171 280 350.3 9.999000099990002e-05
+H4b first reference per player per utterance 2171 419 431.1 0.009999000099990002
+{'slot': 'CROWD', 'references': 55, 'distinct_obs': np.float64(32.0), 'null_mean': np.float64(30.3057), 'obs_minus_null': np.float64(1.6942999999999984), 'null_lo': np.float64(27.0), 'null_hi': np.float64(34.0)}
+{'slot': 'JUDGE', 'references': 535, 'distinct_obs': np.float64(89.0), 'null_mean': np.float64(94.3041), 'obs_minus_null': np.float64(-5.304100000000005), 'null_lo': np.float64(87.0), 'null_hi': np.float64(102.0)}
+{'slot': 'OFFICIAL', 'references': 37, 'distinct_obs': np.float64(20.0), 'null_mean': np.float64(19.5722), 'obs_minus_null': np.float64(0.4278000000000013), 'null_lo': np.float64(17.0), 'null_hi': np.float64(23.0)}
+{'slot': 'OTHER', 'references': 1252, 'distinct_obs': np.float64(122.0), 'null_mean': np.float64(119.7782), 'obs_minus_null': np.float64(2.2218000000000018), 'null_lo': np.float64(113.0), 'null_hi': np.float64(127.0)}
+{'slot': 'SCORE', 'references': 194, 'distinct_obs': np.float64(66.0), 'null_mean': np.float64(64.4975), 'obs_minus_null': np.float64(1.5024999999999977), 'null_lo': np.float64(58.0), 'null_hi': np.float64(71.0)}
+{'slot': 'SHOT', 'references': 618, 'distinct_obs': np.float64(81.0), 'null_mean': np.float64(96.0401), 'obs_minus_null': np.float64(-15.040099999999995), 'null_lo': np.float64(88.0), 'null_hi': np.float64(104.0)}
+{'slot': 'STAT', 'references': 142, 'distinct_obs': np.float64(62.0), 'null_mean': np.float64(58.6811), 'obs_minus_null': np.float64(3.3188999999999993), 'null_lo': np.float64(53.0), 'null_hi': np.float64(65.0)}

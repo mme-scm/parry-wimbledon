@@ -371,7 +371,7 @@ Pair similarity = symmetric excess coverage (n >= 2, S = 1,500) or observed Jacc
 | jaccard_obs | |year difference| | 0.0001 | 0.8469 |
 | jaccard_obs | same hint (2019-2023 only) | 0.0018 | 0.8465 |
 
-The 2019-2023 pair (both Wimbledon men's finals with Djokovic; hint 'Tim' in both): symmetric excess 8.22 pp, rank 44 of 190 (mean of all pairs 7.56); Jaccard rank 11. The most similar pairs are 2020 RG W F Swiatek-Kenin / 2023 RG W F Swiatek-Muchova (12.67); 2023 RG W F Swiatek-Muchova / 2024 RG W F Swiatek-Paolini (12.50); 2020 RG W F Swiatek-Kenin / 2024 RG W F Swiatek-Paolini (11.73), i.e. Roland Garros women's finals with Swiatek (same slam, same gender, same player, and probably the same host broadcaster).
+The 2019-2023 pair (both Wimbledon men's finals with Djokovic; hint 'Tim' in both): symmetric excess 8.22 pp, rank 44 of 190 (mean of all pairs 7.56); Jaccard rank 11. The most similar pairs are 2020 RG W F Swiatek-Kenin / 2023 RG W F Swiatek-Muchova (12.67); 2023 RG W F Swiatek-Muchova / 2024 RG W F Swiatek-Paolini (12.50); 2020 RG W F Swiatek-Kenin / 2024 RG W F Swiatek-Paolini (11.73), i.e. Roland Garros women's finals with Swiatek (same slam, same gender, same player; whether they share a broadcaster or commentators is unknown [unverified]).
 
 ### 2.3 Pool -> target coverage for every stream (exploratory, for the record)
 
@@ -856,6 +856,7 @@ Exploratory tests reported with p-values in sections 2 and 4: 99 (cluster, QAP, 
 1. Nationality epithets: a match whose demonym modifies a following non-person noun ('the greek fans', 'the czech republic', 'the italian riviera') is not counted as a player reference (spaCy dependency rule; 17 matches excluded, each listed with its excerpt in `results/refexpr_pool_epithets.csv`; a few exclusions are parser errors, e.g. 'the pole powers on').
 2. Hypocoristic + surname ('rafa nadal', 'nole djokovic') counted as one full-name reference (6 cases), not two.
 3. Added beyond the plan's text: the full-size inventory table includes Cornell but not the press corpus (too large to index whole); the E2 extension uses 2000 permutations (it has about 300 strata).
+3b. Calibration: the plan's 2019-versus-other split is reported for overall precision / recall / F1 (Table 3.3), not within each slot or confidence stratum.
 4. H4b power simulation corrected: the first run planted slot-specific forms on the observed data, which already carries the observed effect, so its 'power' at theta = 0 was the rejection rate of the observed data (0.995); the corrected simulation starts every data set from the observed forms with slot labels permuted within team x player, so H0 holds at theta = 0 (Table 4.5 reports the corrected run).
 5. Table 4.5b (H4 with one reference per player per utterance, and the per-slot contribution to D_b) was added after the H4b result was seen, to check whether clustering of references within utterances drives it (`p05b_h4_declustered.py`).
 

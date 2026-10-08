@@ -9,7 +9,7 @@
  "rank_2019_matched_raw_base": 12,
  "median_matched_raw_base": 0.556615896615094,
  "check_phase2_pool18_2019_raw_base": 0.5503012971095904,
- "runtime_s": 239.3,
+ "runtime_s": 162.6,
  "B": 2000,
  "R_matched": 20
 }
