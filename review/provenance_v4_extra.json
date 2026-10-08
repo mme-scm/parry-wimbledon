@@ -1,0 +1,6014 @@
+{
+ "forms_with_0_homeric_hits": [
+  {
+   "n": 1,
+   "form": "δαΐφρονε",
+   "loose": "δαιφρονε",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true,
+   "named_in_modifications": true
+  },
+  {
+   "n": 4,
+   "form": "Φεδερεύς",
+   "loose": "φεδερευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 4,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 5,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 10,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 12,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 14,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 15,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 19,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 23,
+   "form": "Ῥογῆρος",
+   "loose": "ρογηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 24,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 25,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 25,
+   "form": "δάμασεν",
+   "loose": "δαμασεν",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true,
+   "named_in_modifications": false
+  },
+  {
+   "n": 26,
+   "form": "Φεδερεὺς",
+   "loose": "φεδερευσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 28,
+   "form": "Ῥογῆρος",
+   "loose": "ρογηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 29,
+   "form": "Νοβήκου",
+   "loose": "νοβηκου",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 31,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true,
+   "named_in_modifications": false
+  },
+  {
+   "n": 31,
+   "form": "Φεδερῆρον",
+   "loose": "φεδερηρον",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true,
+   "named_in_modifications": false
+  },
+  {
+   "n": 34,
+   "form": "παρέλασσε",
+   "loose": "παρελασσε",
+   "in_coinages": false,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 34,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true,
+   "named_in_modifications": false
+  },
+  {
+   "n": 37,
+   "form": "Ῥογῆρος",
+   "loose": "ρογηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 41,
+   "form": "Φεδερῆρος",
+   "loose": "φεδερηροσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 43,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 48,
+   "form": "Σέρβον",
+   "loose": "σερβον",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 49,
+   "form": "Σέρβος",
+   "loose": "σερβοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 55,
+   "form": "Ἑλβετίου",
+   "loose": "ελβετιου",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 55,
+   "form": "Σέρβου",
+   "loose": "σερβου",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 56,
+   "form": "Ἑλβετίου",
+   "loose": "ελβετιου",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": true
+  },
+  {
+   "n": 57,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 59,
+   "form": "Νοβῆκος",
+   "loose": "νοβηκοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 60,
+   "form": "Ἑλβέτιος",
+   "loose": "ελβετιοσ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true,
+   "named_in_modifications": true
+  },
+  {
+   "n": 60,
+   "form": "Ζοκοβείδης",
+   "loose": "ζοκοβειδησ",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": false,
+   "named_in_modifications": false
+  },
+  {
+   "n": 61,
+   "form": "Φεδερεῦ",
+   "loose": "φεδερευ",
+   "in_coinages": true,
+   "in_coinage_entry": false,
+   "named_in_modified_entry": true,
+   "named_in_modifications": false
+  },
+  {
+   "n": 62,
+   "form": "Σέρβῳ",
+   "loose": "σερβω",
+   "in_coinages": true,
+   "in_coinage_entry": true,
+   "named_in_modified_entry": true,
+   "named_in_modifications": true
+  }
+ ],
+ "coined_stems_substring_hits": {
+  "φεδερ": 0,
+  "ρογηρ": 0,
+  "ελβετ": 0,
+  "σερβ": 0,
+  "ζοκοβ": 0,
+  "νοβηκ": 0,
+  "νοβακ": 0,
+  "ζοκοβειδα": 0,
+  "ζοκοβειδε": 0
+ },
+ "coinage_forms_in_homer": [
+  {
+   "n": 1,
+   "form": "δαΐφρονε",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "δαΐφρονε (dual; 0 hits)"
+  },
+  {
+   "n": 4,
+   "form": "Φεδερεύς",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερεύς"
+  },
+  {
+   "n": 4,
+   "form": "Ζοκοβείδης",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ζοκοβείδης"
+  },
+  {
+   "n": 5,
+   "form": "Ἑλβέτιος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβέτιος"
+  },
+  {
+   "n": 10,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος"
+  },
+  {
+   "n": 12,
+   "form": "Ἑλβέτιος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβέτιος"
+  },
+  {
+   "n": 14,
+   "form": "Φεδερῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερῆρος"
+  },
+  {
+   "n": 15,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος (at 9-9.5)"
+  },
+  {
+   "n": 19,
+   "form": "Ἑλβέτιος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβέτιος (at 3-5)"
+  },
+  {
+   "n": 23,
+   "form": "Ῥογῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ῥογῆρος"
+  },
+  {
+   "n": 24,
+   "form": "πυμάτῃ",
+   "loose_hits": 1,
+   "exact_hits": 0,
+   "loose_examples": [
+    "Il. 6.118@3.5-5: πυμάτη | ἄντυξ ἣ πυμάτη θέεν ἀσπίδος ὀμφαλοέσσης."
+   ],
+   "coinage_text": "πυμάτῃ (dative feminine; 0 hits)"
+  },
+  {
+   "n": 24,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος (at 3-3.5)"
+  },
+  {
+   "n": 25,
+   "form": "Ἑλβέτιος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβέτιος (at 3-5)"
+  },
+  {
+   "n": 25,
+   "form": "δάμασεν",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "δάμασεν (δάμασε + movable ν; the ν-form has 0 Homeric hits)"
+  },
+  {
+   "n": 26,
+   "form": "Φεδερεύς",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερεύς"
+  },
+  {
+   "n": 28,
+   "form": "Ῥογῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ῥογῆρος"
+  },
+  {
+   "n": 29,
+   "form": "Νοβήκου",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Νοβήκου (gen.)"
+  },
+  {
+   "n": 31,
+   "form": "Φεδερῆρον",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερῆρον (acc.)"
+  },
+  {
+   "n": 31,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος"
+  },
+  {
+   "n": 34,
+   "form": "Φεδερῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερῆρος"
+  },
+  {
+   "n": 37,
+   "form": "Ῥογῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ῥογῆρος"
+  },
+  {
+   "n": 41,
+   "form": "Φεδερῆρος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερῆρος"
+  },
+  {
+   "n": 43,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος"
+  },
+  {
+   "n": 48,
+   "form": "Σέρβον",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβον (acc., at 3-3.5)"
+  },
+  {
+   "n": 49,
+   "form": "Σέρβος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβος"
+  },
+  {
+   "n": 55,
+   "form": "Ἑλβετίου",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβετίου (gen.)"
+  },
+  {
+   "n": 55,
+   "form": "Σέρβου",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβου (gen.)"
+  },
+  {
+   "n": 56,
+   "form": "Ἑλβετίου",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβετίου (gen., at 7-9)"
+  },
+  {
+   "n": 57,
+   "form": "Ζοκοβείδης",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ζοκοβείδης"
+  },
+  {
+   "n": 59,
+   "form": "Νοβῆκος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Νοβῆκος"
+  },
+  {
+   "n": 60,
+   "form": "Ἑλβέτιος",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ἑλβέτιος (at 3-5)"
+  },
+  {
+   "n": 60,
+   "form": "Ζοκοβείδης",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Ζοκοβείδης"
+  },
+  {
+   "n": 61,
+   "form": "Φεδερεῦ",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Φεδερεῦ (vocative; 0 hits)"
+  },
+  {
+   "n": 62,
+   "form": "Σέρβῳ",
+   "loose_hits": 0,
+   "exact_hits": 0,
+   "loose_examples": [],
+   "coinage_text": "Σέρβῳ (dat.)"
+  }
+ ],
+ "patronymic": {
+  "Πηλείδ (diphthong ει)": {
+   "total": 1,
+   "positions": {
+    "3-5": 1
+   },
+   "hits": [
+    "Il. 1.277@3-5: Πηλείδη | μήτε σὺ Πηλείδη ἔθελʼ ἐριζέμεναι βασιλῆϊ"
+   ]
+  },
+  "Πηλεΐδ (ε-ϊ)": {
+   "total": 51,
+   "positions": {
+    "1-3": 33,
+    "3-5": 12,
+    "3-5.5": 4,
+    "7-9.5": 1,
+    "7-9": 1
+   },
+   "hits": [
+    "Il. 1.146@3-5: Πηλεΐδη | ἠὲ σὺ Πηλεΐδη πάντων ἐκπαγλότατʼ ἀνδρῶν,",
+    "Il. 1.223@1-3: Πηλεΐδης | Πηλεΐδης δʼ ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν",
+    "Il. 1.245@3-5: Πηλεΐδης | ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ",
+    "Il. 1.306@1-3: Πηλεΐδης | Πηλεΐδης μὲν ἐπὶ κλισίας καὶ νῆας ἐΐσας",
+    "Il. 15.64@1-3: Πηλεΐδεω | Πηλεΐδεω Ἀχιλῆος· ὃ δʼ ἀνστήσει ὃν ἑταῖρον",
+    "Il. 15.74@3-5.5: Πηλεΐδαο | πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,",
+    "Il. 15.614@7-9.5: Πηλεΐδαο | Παλλὰς Ἀθηναίη ὑπὸ Πηλεΐδαο βίηφιν.",
+    "Il. 16.271@3-5: Πηλεΐδην | ὡς ἂν Πηλεΐδην τιμήσομεν, ὃς μέγʼ ἄριστος",
+    "Il. 17.105@1-3: Πηλεΐδῃ | Πηλεΐδῃ Ἀχιλῆϊ· κακῶν δέ κε φέρτατον εἴη.",
+    "Il. 17.195@1-3: Πηλεΐδεω | Πηλεΐδεω Ἀχιλῆος ἅ οἱ θεοὶ Οὐρανίωνες",
+    "Il. 17.199@3-5.5: Πηλεΐδαο | τεύχεσι Πηλεΐδαο κορυσσόμενον θείοιο,",
+    "Il. 17.641@1-3: Πηλεΐδῃ | Πηλεΐδῃ, ἐπεὶ οὔ μιν ὀΐομαι οὐδὲ πεπύσθαι"
+   ]
+  },
+  "Ἀμαρυγκ-": {
+   "total": 3,
+   "positions": {
+    "1.5-5": 2,
+    "5.5-8": 1
+   },
+   "hits": [
+    "Il. 2.622@1.5-5: Ἀμαρυγκεΐδης | τῶν δʼ Ἀμαρυγκεΐδης ἦρχε κρατερὸς Διώρης·",
+    "Il. 4.517@1.5-5: Ἀμαρυγκείδην | ἔνθʼ Ἀμαρυγκείδην Διώρεα μοῖρα πέδησε·",
+    "Il. 23.630@5.5-8: Ἀμαρυγκέα | ὡς ὁπότε κρείοντʼ Ἀμαρυγκέα θάπτον Ἐπειοὶ"
+   ]
+  },
+  "Ἀτρείδ (diphthong)": {
+   "total": 3,
+   "positions": {
+    "3-5": 1,
+    "3-5.5": 1,
+    "9-12": 1
+   },
+   "hits": [
+    "Od. 15.52@3-5: Ἀτρείδης | ἥρως Ἀτρείδης, δουρικλειτὸς Μενέλαος,",
+    "Od. 19.183@3-5.5: Ἀτρείδῃσιν | ᾤχεθʼ ἅμʼ Ἀτρείδῃσιν, ἐμοὶ δʼ ὄνομα κλυτὸν Αἴθων,",
+    "Od. 24.35@9-12: Ἀτρείδαο | τὸν δʼ αὖτε ψυχὴ προσεφώνεεν Ἀτρείδαο·"
+   ]
+  }
+ },
+ "name_slots": [
+  {
+   "verse": 4,
+   "coined": "Φεδερεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "διογενησ",
+   "verse_next": "τε",
+   "model": "Ὀδυσεύς",
+   "model_citation": "Il. 10.340",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "διογενησ",
+   "model_next": "διομηδεα",
+   "model_line": "διογενὴς Ὀδυσεύς, Διομήδεα δὲ προσέειπεν·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 48,
+    "3.5-5": 32,
+    "5.5-7": 14
+   },
+   "condition": ""
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Γανυμήδης",
+   "model_citation": "Il. 20.232",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Ἶλός τʼ Ἀσσάρακός τε καὶ ἀντίθεος Γανυμήδης,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Θρασυμήδης",
+   "model_citation": "Od. 3.414",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Περσεύς τʼ Ἄρητός τε καὶ ἀντίθεος Θρασυμήδης.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 5,
+    "5.5-8": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 4,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αντιθεοσ",
+   "verse_next": null,
+   "model": "Κλυτόνηος",
+   "model_citation": "Od. 8.119",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αντιθεοσ",
+   "model_next": null,
+   "model_line": "Λαοδάμας θʼ Ἅλιός τε καὶ ἀντίθεος Κλυτόνηος.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 1,
+    "7.5-9.5": 1
+   },
+   "condition": "after τε καὶ ἀντίθεος"
+  },
+  {
+   "verse": 5,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Πηλεΐδης",
+   "model_citation": "Il. 20.164",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "condition": ""
+  },
+  {
+   "verse": 10,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 12,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "1-3",
+   "verse_prev": null,
+   "verse_next": "δε",
+   "model": "Πηλεΐδης",
+   "model_citation": "Il. 20.164",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Πηλεΐδης δʼ ἑτέρωθεν ἐναντίον ὦρτο λέων ὣς",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 15,
+    "3-5": 9
+   },
+   "condition": ""
+  },
+  {
+   "verse": 14,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 15,
+   "coined": "Σέρβος",
+   "verse_position": "9-9.5",
+   "verse_prev": "απημβροτε",
+   "verse_next": "ενικα",
+   "model": "Τεῦκρος",
+   "model_citation": "Il. 8.273",
+   "model_in_line": true,
+   "model_position": "9-9.5",
+   "model_prev": "ελε",
+   "model_next": "αμυμων",
+   "model_line": "ἔνθα τίνα πρῶτον Τρώων ἕλε Τεῦκρος ἀμύμων;",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 10,
+    "3-3.5": 3,
+    "6-7": 2,
+    "9-9.5": 2,
+    "5-5.5": 2
+   },
+   "condition": "before a vowel-initial word"
+  },
+  {
+   "verse": 19,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "γʼ",
+   "verse_next": "τοτʼ",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 23,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 23,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 24,
+   "coined": "Σέρβος",
+   "verse_position": "3-3.5",
+   "verse_prev": "γε",
+   "verse_next": "επειτα",
+   "model": "Ἄδρηστος",
+   "model_citation": "Il. 6.45",
+   "model_in_line": true,
+   "model_position": "1-3",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Ἄδρηστος δʼ ἄρʼ ἔπειτα λαβὼν ἐλίσσετο γούνων·",
+   "same_position": false,
+   "model_form_positions_in_homer": {
+    "5-7": 1,
+    "3-5": 1,
+    "1-3": 1
+   },
+   "condition": "record's model: bare name before (δʼ ἄρʼ) ἔπειτα"
+  },
+  {
+   "verse": 24,
+   "coined": "Σέρβος",
+   "verse_position": "3-3.5",
+   "verse_prev": "γε",
+   "verse_next": "επειτα",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": false,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": "record's model for the name (coinages)"
+  },
+  {
+   "verse": 24,
+   "coined": "Σέρβος",
+   "verse_position": "3-3.5",
+   "verse_prev": "γε",
+   "verse_next": "επειτα",
+   "model": "Τεῦκρος",
+   "model_citation": "Il. 12.350",
+   "model_in_line": true,
+   "model_position": "3-3.5",
+   "model_prev": "οι",
+   "model_next": "αμα",
+   "model_line": "καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 10,
+    "3-3.5": 3,
+    "6-7": 2,
+    "9-9.5": 2,
+    "5-5.5": 2
+   },
+   "condition": "reviewer: LS name at 3-3.5 before a vowel (the model of 48)"
+  },
+  {
+   "verse": 25,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυθʼ",
+   "verse_next": "δαμασεν",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 26,
+   "coined": "Φεδερεύς",
+   "verse_position": "3.5-5",
+   "verse_prev": "αυ",
+   "verse_next": "προιει",
+   "model": "Ἀχιλεύς",
+   "model_citation": "Il. 20.273",
+   "model_in_line": true,
+   "model_position": "3.5-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προιει",
+   "model_line": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 19,
+    "3.5-5": 15,
+    "5.5-7": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 28,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 28,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "κερδεα",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 29,
+   "coined": "Νοβήκου",
+   "verse_position": "10-12",
+   "verse_prev": "χερσι",
+   "verse_next": null,
+   "model": "Αἰακίδαο",
+   "model_citation": "Il. 2.860",
+   "model_in_line": true,
+   "model_position": "9-12",
+   "model_prev": "ποδωκεοσ",
+   "model_next": null,
+   "model_line": "ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+   "same_position": false,
+   "model_form_positions_in_homer": {
+    "9-12": 18,
+    "3-5.5": 3
+   },
+   "condition": "record's whole-line model"
+  },
+  {
+   "verse": 29,
+   "coined": "Νοβήκου",
+   "verse_position": "10-12",
+   "verse_prev": "χερσι",
+   "verse_next": null,
+   "model": "Ἀχιλῆος",
+   "model_citation": "Il. 21.553",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "κρατερου",
+   "model_next": null,
+   "model_line": "ὤ μοι ἐγών· εἰ μέν κεν ὑπὸ κρατεροῦ Ἀχιλῆος",
+   "same_position": false,
+   "model_form_positions_in_homer": {
+    "9.5-12": 18,
+    "3.5-5.5": 12,
+    "7.5-9.5": 2
+   },
+   "condition": "record's model: epithet + name genitive after ὑπό"
+  },
+  {
+   "verse": 29,
+   "coined": "Νοβήκου",
+   "verse_position": "10-12",
+   "verse_prev": "χερσι",
+   "verse_next": null,
+   "model": "Ἀχαιῶν",
+   "model_citation": "Il. 1.12",
+   "model_in_line": true,
+   "model_position": "10-12",
+   "model_prev": "νηασ",
+   "model_next": null,
+   "model_line": "Ἀτρεΐδης· ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 274,
+    "6-8": 96,
+    "2-4": 5
+   },
+   "condition": "reviewer: SLL genitive at 10-12 after a short vowel"
+  },
+  {
+   "verse": 29,
+   "coined": "Νοβήκου",
+   "verse_position": "10-12",
+   "verse_prev": "χερσι",
+   "verse_next": null,
+   "model": "Λυκούργου",
+   "model_citation": "Il. 6.134",
+   "model_in_line": true,
+   "model_position": "10-12",
+   "model_prev": "ανδροφονοιο",
+   "model_next": null,
+   "model_line": "θύσθλα χαμαὶ κατέχευαν ὑπʼ ἀνδροφόνοιο Λυκούργου",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 1
+   },
+   "condition": "reviewer: SLL name genitive in -ου at 10-12, agent after ὑπʼ + epithet"
+  },
+  {
+   "verse": 31,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 31,
+   "coined": "Φεδερῆρον",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθον",
+   "verse_next": null,
+   "model": "Μενέλαον",
+   "model_citation": "Il. 4.220",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθον",
+   "model_next": null,
+   "model_line": "ὄφρα τοὶ ἀμφεπένοντο βοὴν ἀγαθὸν Μενέλαον,",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 20,
+    "3.5-5.5": 10,
+    "7.5-9.5": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 34,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 37,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "και",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 37,
+   "coined": "Ῥογῆρος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "και",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word, before a consonant"
+  },
+  {
+   "verse": 41,
+   "coined": "Φεδερῆρος",
+   "verse_position": "9.5-12",
+   "verse_prev": "αγαθοσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "inside βοὴν ἀγαθός + name at 6-12"
+  },
+  {
+   "verse": 43,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 43,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Τρῶες",
+   "model_citation": "Il. 8.55",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Τρῶες δʼ αὖθʼ ἑτέρωθεν ἀνὰ πτόλιν ὁπλίζοντο",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 33,
+    "4-5": 32,
+    "1-1.5": 22,
+    "5-5.5": 15,
+    "6-7": 13,
+    "8-9": 11,
+    "2-3": 8,
+    "10-11": 4,
+    "9-9.5": 3,
+    "3-3.5": 1
+   },
+   "condition": "before δʼ αὖθʼ ἑτέρωθεν"
+  },
+  {
+   "verse": 48,
+   "coined": "Σέρβον",
+   "verse_position": "3-3.5",
+   "verse_prev": "τοτε",
+   "verse_next": "ανηκε",
+   "model": "Τεῦκρος",
+   "model_citation": "Il. 12.350",
+   "model_in_line": true,
+   "model_position": "3-3.5",
+   "model_prev": "οι",
+   "model_next": "αμα",
+   "model_line": "καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-2": 10,
+    "3-3.5": 3,
+    "6-7": 2,
+    "9-9.5": 2,
+    "5-5.5": 2
+   },
+   "condition": "before a vowel-initial word"
+  },
+  {
+   "verse": 49,
+   "coined": "Σέρβος",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": ""
+  },
+  {
+   "verse": 55,
+   "coined": "Ἑλβετίου",
+   "verse_position": "3-5",
+   "verse_prev": "αρʼ",
+   "verse_next": "την",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 55,
+   "coined": "Σέρβου",
+   "verse_position": "8-9",
+   "verse_prev": "αυ",
+   "verse_next": "κρατεροιο",
+   "model": "κνίσῃ",
+   "model_citation": "Il. 1.460",
+   "model_in_line": true,
+   "model_position": "8-9",
+   "model_prev": "τε",
+   "model_next": "εκαλυψαν",
+   "model_line": "μηρούς τʼ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "8-9": 4,
+    "4-5": 2,
+    "1-2": 1
+   },
+   "condition": "LL at 8-9 before an SSLX verse-end word"
+  },
+  {
+   "verse": 55,
+   "coined": "Σέρβου",
+   "verse_position": "8-9",
+   "verse_prev": "αυ",
+   "verse_next": "κρατεροιο",
+   "model": "ἀνδρῶν",
+   "model_citation": "Il. 1.172",
+   "model_in_line": true,
+   "model_position": "8-9",
+   "model_prev": "αναξ",
+   "model_next": "αγαμεμνων",
+   "model_line": "τὸν δʼ ἠμείβετʼ ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 106,
+    "1-2": 73,
+    "8-9": 71,
+    "6-7": 29,
+    "7-8": 27,
+    "4-5": 17,
+    "2-3": 13,
+    "3-4": 1
+   },
+   "condition": "LL at 8-9 before an SSLX verse-end word"
+  },
+  {
+   "verse": 56,
+   "coined": "Ἑλβετίου",
+   "verse_position": "7-9",
+   "verse_prev": "δʼ",
+   "verse_next": "τοτʼ",
+   "model": "Ἀτρεΐδης",
+   "model_citation": "Il. 14.29",
+   "model_in_line": true,
+   "model_position": "7-9",
+   "model_prev": "και",
+   "model_next": "αγαμεμνων",
+   "model_line": "Τυδεΐδης Ὀδυσεύς τε καὶ Ἀτρεΐδης Ἀγαμέμνων.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 42,
+    "3-5": 34,
+    "7-9": 5,
+    "5-7": 1,
+    "9-11": 1
+   },
+   "condition": ""
+  },
+  {
+   "verse": 56,
+   "coined": "Ἑλβετίου",
+   "verse_position": "7-9",
+   "verse_prev": "δʼ",
+   "verse_next": "τοτʼ",
+   "model": "ἀντιθέου",
+   "model_citation": "Od. 20.369",
+   "model_in_line": true,
+   "model_position": "7-9",
+   "model_prev": "κατʼ",
+   "model_next": "οδυσηοσ",
+   "model_line": "μνηστήρων, οἳ δῶμα κάτʼ ἀντιθέου Ὀδυσῆος",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1-3": 2,
+    "7-9": 1
+   },
+   "condition": "genitive LSSL at 7-9"
+  },
+  {
+   "verse": 57,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "κρατεροσ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 4.401",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "κρατεροσ",
+   "model_next": null,
+   "model_line": "ὣς φάτο, τὸν δʼ οὔ τι προσέφη κρατερὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "after κρατερός"
+  },
+  {
+   "verse": 59,
+   "coined": "Νοβῆκος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "και",
+   "model": "Μελανθώ",
+   "model_citation": "Od. 19.65",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "ενενιπε",
+   "model_next": "δευτερον",
+   "model_line": "ἡ δʼ Ὀδυσῆʼ ἐνένιπε Μελανθὼ δεύτερον αὖτις·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word, before a consonant"
+  },
+  {
+   "verse": 59,
+   "coined": "Νοβῆκος",
+   "verse_position": "6-8",
+   "verse_prev": "αφαμαρτε",
+   "verse_next": "και",
+   "model": "Ὀδυσσεύς",
+   "model_citation": "Il. 2.272",
+   "model_in_line": true,
+   "model_position": "6-8",
+   "model_prev": "μυριʼ",
+   "model_next": "εσθλα",
+   "model_line": "ὢ πόποι ἦ δὴ μυρίʼ Ὀδυσσεὺς ἐσθλὰ ἔοργε",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "10-12": 292,
+    "2-4": 15,
+    "6-8": 2
+   },
+   "condition": "after a vowel-final word"
+  },
+  {
+   "verse": 60,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυθʼ",
+   "verse_next": "προιει",
+   "model": "Ἀντίνοος",
+   "model_citation": "Od. 1.383",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "αυτʼ",
+   "model_next": "προσεφη",
+   "model_line": "τὸν δʼ αὖτʼ Ἀντίνοος προσέφη, Εὐπείθεος υἱός·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 21,
+    "1-3": 13
+   },
+   "condition": "after αὖτʼ"
+  },
+  {
+   "verse": 60,
+   "coined": "Ἑλβέτιος",
+   "verse_position": "3-5",
+   "verse_prev": "αυθʼ",
+   "verse_next": "προιει",
+   "model": "Δαρδανίδης",
+   "model_citation": "Il. 3.303",
+   "model_in_line": true,
+   "model_position": "3-5",
+   "model_prev": "δε",
+   "model_next": "πριαμοσ",
+   "model_line": "τοῖσι δὲ Δαρδανίδης Πρίαμος μετὰ μῦθον ἔειπε·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "3-5": 2,
+    "1-3": 2
+   },
+   "condition": ""
+  },
+  {
+   "verse": 60,
+   "coined": "Ζοκοβείδης",
+   "verse_position": "9.5-12",
+   "verse_prev": "αψ",
+   "verse_next": null,
+   "model": "Διομήδης",
+   "model_citation": "Il. 2.563",
+   "model_in_line": true,
+   "model_position": "9.5-12",
+   "model_prev": "αγαθοσ",
+   "model_next": null,
+   "model_line": "τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "9.5-12": 44,
+    "5.5-8": 1
+   },
+   "condition": "bare name at 9.5-12"
+  },
+  {
+   "verse": 61,
+   "coined": "Φεδερεῦ",
+   "verse_position": "5.5-7",
+   "verse_prev": "ετυχεσ",
+   "verse_next": "μαλα",
+   "model": "Ἀχιλεῦ",
+   "model_citation": "Il. 11.606",
+   "model_in_line": true,
+   "model_position": "5.5-7",
+   "model_prev": "κικλησκεισ",
+   "model_next": "τι",
+   "model_line": "τίπτέ με κικλήσκεις Ἀχιλεῦ; τί δέ σε χρεὼ ἐμεῖο;",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 9,
+    "5.5-7": 3,
+    "3.5-5": 1
+   },
+   "condition": "vocative SSL at 5.5-7"
+  },
+  {
+   "verse": 61,
+   "coined": "Φεδερεῦ",
+   "verse_position": "5.5-7",
+   "verse_prev": "ετυχεσ",
+   "verse_next": "μαλα",
+   "model": "Ἀχιλεῦ",
+   "model_citation": "Il. 24.503",
+   "model_in_line": true,
+   "model_position": "5.5-7",
+   "model_prev": "θεουσ",
+   "model_next": "αυτον",
+   "model_line": "ἀλλʼ αἰδεῖο θεοὺς Ἀχιλεῦ, αὐτόν τʼ ἐλέησον",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 9,
+    "5.5-7": 3,
+    "3.5-5": 1
+   },
+   "condition": "vocative SSL at 5.5-7"
+  },
+  {
+   "verse": 61,
+   "coined": "Φεδερεῦ",
+   "verse_position": "5.5-7",
+   "verse_prev": "ετυχεσ",
+   "verse_next": "μαλα",
+   "model": "Ἀχιλεῦ",
+   "model_citation": "Il. 24.661",
+   "model_in_line": true,
+   "model_position": "5.5-7",
+   "model_prev": "ρεζων",
+   "model_next": "κεχαρισμενα",
+   "model_line": "ὧδέ κέ μοι ῥέζων Ἀχιλεῦ κεχαρισμένα θείης.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "1.5-3": 9,
+    "5.5-7": 3,
+    "3.5-5": 1
+   },
+   "condition": "vocative SSL at 5.5-7"
+  },
+  {
+   "verse": 62,
+   "coined": "Σέρβῳ",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "τῷ",
+   "model_citation": "Il. 1.250",
+   "model_in_line": true,
+   "model_position": "1-1",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "τῷ δʼ ἤδη δύο μὲν γενεαὶ μερόπων ἀνθρώπων",
+   "same_position": false,
+   "model_form_positions_in_homer": {
+    "1-1": 330,
+    "3-3": 63,
+    "6-6": 55,
+    "4-4": 32,
+    "9-9": 25,
+    "5-5": 24,
+    "2-2": 21,
+    "5.5-5.5": 4,
+    "1.5-1.5": 2,
+    "7-7": 2,
+    "10-10": 2,
+    "12-12": 1,
+    "11-11": 1,
+    "8-8": 1
+   },
+   "condition": "record's model: τῷ δʼ"
+  },
+  {
+   "verse": 62,
+   "coined": "Σέρβῳ",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Ἕκτωρ",
+   "model_citation": "Il. 8.216",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "πριαμιδησ",
+   "model_line": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "11-12": 97,
+    "1-2": 65,
+    "2-3": 26,
+    "3-4": 8,
+    "4-5": 6
+   },
+   "condition": "record's model for the name (coinages)"
+  },
+  {
+   "verse": 62,
+   "coined": "Σέρβῳ",
+   "verse_position": "1-2",
+   "verse_prev": null,
+   "verse_next": "δʼ",
+   "model": "Γλαύκῳ",
+   "model_citation": "Il. 16.508",
+   "model_in_line": true,
+   "model_position": "1-2",
+   "model_prev": null,
+   "model_next": "δʼ",
+   "model_line": "Γλαύκῳ δʼ αἰνὸν ἄχος γένετο φθογγῆς ἀΐοντι·",
+   "same_position": true,
+   "model_form_positions_in_homer": {
+    "4-5": 1,
+    "1-2": 1
+   },
+   "condition": "reviewer: LL dative name at 1-2 before δʼ"
+  }
+ ],
+ "position_field_mismatches": [
+  {
+   "n": 1,
+   "k": 7,
+   "text": "τὼ περὶ",
+   "position_field": "1-2",
+   "verse_position": [
+    "9-10"
+   ],
+   "homer_positions": {
+    "1-2": 1
+   }
+  },
+  {
+   "n": 4,
+   "k": 6,
+   "text": "ἀντίθεος Γανυμήδης / Θρασυμήδης / Κλυτόνηος → ἀντίθεος Ζοκοβείδης (SSLL at 9.5-12)",
+   "position_field": "7-12",
+   "verse_position": [
+    "5.5-9"
+   ],
+   "homer_positions": {
+    "5.5-9": 3
+   }
+  },
+  {
+   "n": 22,
+   "k": 0,
+   "text": "σφαῖραν",
+   "position_field": "1-1.5",
+   "verse_position": [
+    "1-2"
+   ],
+   "homer_positions": {
+    "1-1.5": 1,
+    "4-5": 1
+   }
+  },
+  {
+   "n": 22,
+   "k": 2,
+   "text": "βάλλον",
+   "position_field": "1-1.5",
+   "verse_position": [
+    "6-7"
+   ],
+   "homer_positions": {
+    "1-1.5": 4,
+    "1-2": 3,
+    "11-12": 2,
+    "5-5.5": 2
+   }
+  },
+  {
+   "n": 30,
+   "k": 3,
+   "text": "ἔλαβεν",
+   "position_field": "5.5-7",
+   "verse_position": [
+    "3.5-5"
+   ],
+   "homer_positions": {
+    "5.5-7": 2,
+    "1.5-3": 1
+   }
+  },
+  {
+   "n": 52,
+   "k": 2,
+   "text": "πολλάκι δὴ",
+   "position_field": "1-3",
+   "verse_position": [
+    "3-5"
+   ],
+   "homer_positions": {
+    "1-3": 1
+   }
+  },
+  {
+   "n": 52,
+   "k": 3,
+   "text": "πολλάκι",
+   "position_field": "1-2",
+   "verse_position": [
+    "3-4"
+   ],
+   "homer_positions": {
+    "1-2": 9,
+    "7-8": 2
+   }
+  },
+  {
+   "n": 58,
+   "k": 0,
+   "text": "τὸν δ᾽",
+   "position_field": "1-2",
+   "verse_position": [
+    "1-1.5"
+   ],
+   "homer_positions": {
+    "1-2": 262,
+    "1-1.5": 146,
+    "6-7": 26,
+    "3-3.5": 10,
+    "9-9.5": 9,
+    "3-4": 6,
+    "4-5": 6,
+    "5-5.5": 1
+   }
+  },
+  {
+   "n": 64,
+   "k": 1,
+   "text": "τέλος",
+   "position_field": "6-7",
+   "verse_position": [
+    "3.5-4"
+   ],
+   "homer_positions": {
+    "6-7": 17,
+    "7.5-8": 7,
+    "10-11": 2,
+    "2-3": 1,
+    "4-5": 1,
+    "5.5-6": 1
+   }
+  }
+ ],
+ "claims": [
+  {
+   "n": 19,
+   "label": "ἐπέσσυτο δαίμονι ἶσος",
+   "query": "ngram ἐπέσσυτο δαίμονι ἶσος",
+   "total": 7,
+   "positions": {
+    "6-12": 7
+   },
+   "cited": {
+    "Il. 5.438": "6-12",
+    "Il. 5.459": "6-12",
+    "Il. 5.884": "6-12",
+    "Il. 16.705": "6-12",
+    "Il. 16.786": "6-12",
+    "Il. 20.447": "6-12",
+    "Il. 21.227": "6-12"
+   },
+   "cited_lines": {
+    "Il. 5.438": "ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 5.459": "αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος.",
+    "Il. 5.884": "αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος·",
+    "Il. 16.705": "ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 16.786": "ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 20.447": "ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 21.227": "ὣς εἰπὼν Τρώεσσιν ἐπέσσυτο δαίμονι ἶσος·"
+   },
+   "asserted": "7x, all 6-12",
+   "first_hits": [
+    "Il. 5.438@6-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 5.459@6-12: αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος.",
+    "Il. 5.884@6-12: αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος·",
+    "Il. 16.705@6-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 16.786@6-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 20.447@6-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 21.227@6-12: ὣς εἰπὼν Τρώεσσιν ἐπέσσυτο δαίμονι ἶσος·"
+   ]
+  },
+  {
+   "n": 19,
+   "label": "δαίμονι ἶσος",
+   "query": "ngram δαίμονι ἶσος",
+   "total": 9,
+   "positions": {
+    "9-12": 9
+   },
+   "cited": {
+    "Il. 5.438": "9-12"
+   },
+   "cited_lines": {
+    "Il. 5.438": "ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,"
+   },
+   "asserted": "9x, all 9-12",
+   "first_hits": [
+    "Il. 5.438@9-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 5.459@9-12: αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος.",
+    "Il. 5.884@9-12: αὐτὰρ ἔπειτʼ αὐτῷ μοι ἐπέσσυτο δαίμονι ἶσος·",
+    "Il. 16.705@9-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 16.786@9-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 20.447@9-12: ἀλλʼ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "Il. 20.493@9-12: ὣς ὅ γε πάντῃ θῦνε σὺν ἔγχεϊ δαίμονι ἶσος",
+    "Il. 21.18@9-12: κεκλιμένον μυρίκῃσιν, ὃ δʼ ἔσθορε δαίμονι ἶσος"
+   ]
+  },
+  {
+   "n": 19,
+   "label": "ὣς ἄρʼ ὅ γʼ",
+   "query": "ngram ὣς ἄρ᾽ ὅ γ᾽",
+   "total": 2,
+   "positions": {
+    "1-3": 2
+   },
+   "cited": {
+    "Il. 22.143": "1-3",
+    "Od. 20.28": "1-3"
+   },
+   "cited_lines": {
+    "Il. 22.143": "ὣς ἄρʼ ὅ γʼ ἐμμεμαὼς ἰθὺς πέτετο, τρέσε δʼ Ἕκτωρ",
+    "Od. 20.28": "ὣς ἄρʼ ὅ γʼ ἔνθα καὶ ἔνθα ἑλίσσετο, μερμηρίζων"
+   },
+   "asserted": "2x, 1-3 (simile close)",
+   "first_hits": [
+    "Il. 22.143@1-3: ὣς ἄρʼ ὅ γʼ ἐμμεμαὼς ἰθὺς πέτετο, τρέσε δʼ Ἕκτωρ",
+    "Od. 20.28@1-3: ὣς ἄρʼ ὅ γʼ ἔνθα καὶ ἔνθα ἑλίσσετο, μερμηρίζων"
+   ]
+  },
+  {
+   "n": 19,
+   "label": "δεύτερον αὖτε (removed)",
+   "query": "ngram δεύτερον αὖτε",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "0x in Homer (critic m7)",
+   "first_hits": []
+  },
+  {
+   "n": 20,
+   "label": "ἐσσυμένως λάβʼ ἄεθλον",
+   "query": "ngram ἐσσυμένως λάβ᾽ ἄεθλον",
+   "total": 1,
+   "positions": {
+    "7-12": 1
+   },
+   "cited": {
+    "Il. 23.511": "7-12"
+   },
+   "cited_lines": {
+    "Il. 23.511": "ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,"
+   },
+   "asserted": "7-12",
+   "first_hits": [
+    "Il. 23.511@7-12: ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "λάβʼ ἄεθλον",
+   "query": "ngram λάβ᾽ ἄεθλον",
+   "total": 1,
+   "positions": {
+    "9.5-12": 1
+   },
+   "cited": {
+    "Il. 23.511": "9.5-12"
+   },
+   "cited_lines": {
+    "Il. 23.511": "ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,"
+   },
+   "asserted": "its only slot 9.5-12 (M8 restored)",
+   "first_hits": [
+    "Il. 23.511@9.5-12: ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "ἐσσυμένως",
+   "query": "loose εσσυμενως",
+   "total": 12,
+   "positions": {
+    "1-3": 6,
+    "7-9": 4,
+    "3-5": 2
+   },
+   "cited": {
+    "Il. 23.511": "7-9",
+    "Il. 15.698": "7-9",
+    "Il. 21.610": "7-9"
+   },
+   "cited_lines": {
+    "Il. 23.511": "ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,",
+    "Il. 15.698": "ἄντεσθʼ ἐν πολέμῳ, ὡς ἐσσυμένως ἐμάχοντο.",
+    "Il. 21.610": "ὅς τʼ ἔθανʼ ἐν πολέμῳ· ἀλλʼ ἐσσυμένως ἐσέχυντο"
+   },
+   "asserted": "12x: 7 line-initial, 3 at 7-9",
+   "first_hits": [
+    "Il. 3.85@1-3: ἐσσυμένως· Ἕκτωρ δὲ μετʼ ἀμφοτέροισιν ἔειπε·",
+    "Il. 15.698@7-9: ἄντεσθʼ ἐν πολέμῳ, ὡς ἐσσυμένως ἐμάχοντο.",
+    "Il. 21.610@7-9: ὅς τʼ ἔθανʼ ἐν πολέμῳ· ἀλλʼ ἐσσυμένως ἐσέχυντο",
+    "Il. 23.55@1-3: ἐσσυμένως δʼ ἄρα δόρπον ἐφοπλίσσαντες ἕκαστοι",
+    "Il. 23.172@1-3: ἐσσυμένως ἐνέβαλλε πυρῇ μεγάλα στεναχίζων.",
+    "Il. 23.364@1-3: ἐσσυμένως· οἳ δʼ ὦκα διέπρησσον πεδίοιο",
+    "Il. 23.511@7-9: ἴφθιμος Σθένελος, ἀλλʼ ἐσσυμένως λάβʼ ἄεθλον,",
+    "Il. 24.124@1-3: ἐσσυμένως ἐπένοντο καὶ ἐντύνοντο ἄριστον·"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "ἐδάμασσε",
+   "query": "loose εδαμασσε",
+   "total": 7,
+   "positions": {
+    "3.5-5.5": 4,
+    "9.5-12": 2,
+    "7.5-9.5": 1
+   },
+   "cited": {
+    "Od. 11.171": "3.5-5.5",
+    "Od. 11.398": "3.5-5.5",
+    "Od. 22.246": "3.5-5.5",
+    "Od. 22.413": "3.5-5.5",
+    "Il. 6.159": "9.5-12",
+    "Il. 13.434": "9.5-12",
+    "Il. 16.826": "7.5-9.5"
+   },
+   "cited_lines": {
+    "Od. 11.171": "τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 11.398": "τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 22.246": "τοὺς δʼ ἤδη ἐδάμασσε βιὸς καὶ ταρφέες ἰοί.",
+    "Od. 22.413": "τούσδε δὲ μοῖρʼ ἐδάμασσε θεῶν καὶ σχέτλια ἔργα·",
+    "Il. 6.159": "Ἀργείων· Ζεὺς γάρ οἱ ὑπὸ σκήπτρῳ ἐδάμασσε.",
+    "Il. 13.434": "τὸν τόθʼ ὑπʼ Ἰδομενῆϊ Ποσειδάων ἐδάμασσε",
+    "Il. 16.826": "πολλὰ δέ τʼ ἀσθμαίνοντα λέων ἐδάμασσε βίηφιν·"
+   },
+   "asserted": "7x: 4 at 3.5-5.5, 6.159 and 13.434 verse-final, 16.826 fourth-fifth foot",
+   "first_hits": [
+    "Il. 6.159@9.5-12: Ἀργείων· Ζεὺς γάρ οἱ ὑπὸ σκήπτρῳ ἐδάμασσε.",
+    "Il. 13.434@9.5-12: τὸν τόθʼ ὑπʼ Ἰδομενῆϊ Ποσειδάων ἐδάμασσε",
+    "Il. 16.826@7.5-9.5: πολλὰ δέ τʼ ἀσθμαίνοντα λέων ἐδάμασσε βίηφιν·",
+    "Od. 11.171@3.5-5.5: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 11.398@3.5-5.5: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 22.246@3.5-5.5: τοὺς δʼ ἤδη ἐδάμασσε βιὸς καὶ ταρφέες ἰοί.",
+    "Od. 22.413@3.5-5.5: τούσδε δὲ μοῖρʼ ἐδάμασσε θεῶν καὶ σχέτλια ἔργα·"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "κὴρ ἐδάμασσε",
+   "query": "ngram κὴρ ἐδάμασσε",
+   "total": 2,
+   "positions": {
+    "3-5.5": 2
+   },
+   "cited": {
+    "Od. 11.171": "3-5.5"
+   },
+   "cited_lines": {
+    "Od. 11.171": "τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;"
+   },
+   "asserted": "parallel (long monosyllable before ἐδάμασσε)",
+   "first_hits": [
+    "Od. 11.171@3-5.5: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 11.398@3-5.5: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "μοῖρʼ ἐδάμασσε",
+   "query": "ngram μοῖρ᾽ ἐδάμασσε",
+   "total": 1,
+   "positions": {
+    "3-5.5": 1
+   },
+   "cited": {
+    "Od. 22.413": "3-5.5"
+   },
+   "cited_lines": {
+    "Od. 22.413": "τούσδε δὲ μοῖρʼ ἐδάμασσε θεῶν καὶ σχέτλια ἔργα·"
+   },
+   "asserted": "parallel",
+   "first_hits": [
+    "Od. 22.413@3-5.5: τούσδε δὲ μοῖρʼ ἐδάμασσε θεῶν καὶ σχέτλια ἔργα·"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "τρὶς μέν μιν",
+   "query": "ngram τρὶς μέν μιν",
+   "total": 3,
+   "positions": {
+    "1-3": 3
+   },
+   "cited": {
+    "Il. 18.155": "1-3",
+    "Il. 21.176": "1-3",
+    "Od. 21.125": "1-3"
+   },
+   "cited_lines": {
+    "Il. 18.155": "τρὶς μέν μιν μετόπισθε ποδῶν λάβε φαίδιμος Ἕκτωρ",
+    "Il. 21.176": "τρὶς μέν μιν πελέμιξεν ἐρύσσασθαι μενεαίνων,",
+    "Od. 21.125": "τρὶς μέν μιν πελέμιξεν ἐρύσσεσθαι μενεαίνων,"
+   },
+   "asserted": "3x, all line-initial",
+   "first_hits": [
+    "Il. 18.155@1-3: τρὶς μέν μιν μετόπισθε ποδῶν λάβε φαίδιμος Ἕκτωρ",
+    "Il. 21.176@1-3: τρὶς μέν μιν πελέμιξεν ἐρύσσασθαι μενεαίνων,",
+    "Od. 21.125@1-3: τρὶς μέν μιν πελέμιξεν ἐρύσσεσθαι μενεαίνων,"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "τρὶς δέ",
+   "query": "ngram τρὶς δέ",
+   "total": 8,
+   "positions": {
+    "1-1.5": 7,
+    "6-7": 1
+   },
+   "cited": {
+    "Od. 4.277": "1-1.5"
+   },
+   "cited_lines": {
+    "Od. 4.277": "τρὶς δὲ περίστειξας κοῖλον λόχον ἀμφαφόωσα,"
+   },
+   "asserted": "8x (7 line-initial): round-3 correction",
+   "first_hits": [
+    "Il. 5.437@1-1.5: τρὶς δέ οἱ ἐστυφέλιξε φαεινὴν ἀσπίδʼ Ἀπόλλων·",
+    "Il. 18.157@1-1.5: τρὶς δὲ δύʼ Αἴαντες θοῦριν ἐπιειμένοι ἀλκὴν",
+    "Il. 18.229@1-1.5: τρὶς δὲ κυκήθησαν Τρῶες κλειτοί τʼ ἐπίκουροι.",
+    "Il. 21.177@1-1.5: τρὶς δὲ μεθῆκε βίης· τὸ δὲ τέτρατον ἤθελε θυμῷ",
+    "Il. 23.817@6-7: τρὶς μὲν ἐπήϊξαν, τρὶς δὲ σχεδὸν ὁρμήθησαν.",
+    "Od. 4.277@1-1.5: τρὶς δὲ περίστειξας κοῖλον λόχον ἀμφαφόωσα,",
+    "Od. 11.207@1-1.5: τρὶς δέ μοι ἐκ χειρῶν σκιῇ εἴκελον ἢ καὶ ὀνείρῳ",
+    "Od. 21.126@1-1.5: τρὶς δὲ μεθῆκε βίης, ἐπιελπόμενος τό γε θυμῷ,"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "τρὶς δʼ",
+   "query": "ngram τρὶς δ᾽",
+   "total": 9,
+   "positions": {
+    "1-1.5": 4,
+    "6-7": 3,
+    "4-5": 1,
+    "9-9.5": 1
+   },
+   "cited": {
+    "Il. 24.16": "1-1.5",
+    "Il. 24.273": "1-1.5"
+   },
+   "cited_lines": {
+    "Il. 24.16": "τρὶς δʼ ἐρύσας περὶ σῆμα Μενοιτιάδαο θανόντος",
+    "Il. 24.273": "τρὶς δʼ ἑκάτερθεν ἔδησαν ἐπʼ ὀμφαλόν, αὐτὰρ ἔπειτα"
+   },
+   "asserted": "9x: round-3 correction",
+   "first_hits": [
+    "Il. 8.170@1-1.5: τρὶς δʼ ἄρʼ ἀπʼ Ἰδαίων ὀρέων κτύπε μητίετα Ζεὺς",
+    "Il. 11.463@1-1.5: τρὶς δʼ ἄϊεν ἰάχοντος ἄρηι φίλος Μενέλαος.",
+    "Il. 16.703@4-5: Πάτροκλος, τρὶς δʼ αὐτὸν ἀπεστυφέλιξεν Ἀπόλλων",
+    "Il. 16.785@6-7: σμερδαλέα ἰάχων, τρὶς δʼ ἐννέα φῶτας ἔπεφνεν.",
+    "Il. 20.446@6-7: ἔγχεϊ χαλκείῳ, τρὶς δʼ ἠέρα τύψε βαθεῖαν.",
+    "Il. 24.16@1-1.5: τρὶς δʼ ἐρύσας περὶ σῆμα Μενοιτιάδαο θανόντος",
+    "Il. 24.273@1-1.5: τρὶς δʼ ἑκάτερθεν ἔδησαν ἐπʼ ὀμφαλόν, αὐτὰρ ἔπειτα",
+    "Od. 9.361@6-7: τρὶς μὲν ἔδωκα φέρων, τρὶς δʼ ἔκπιεν ἀφραδίῃσιν."
+   ]
+  },
+  {
+   "n": 20,
+   "label": "δεύτερος αὖτʼ",
+   "query": "ngram δεύτερος αὖτ᾽",
+   "total": 6,
+   "positions": {
+    "1-3": 6
+   },
+   "cited": {
+    "Il. 20.273": "1-3"
+   },
+   "cited_lines": {
+    "Il. 20.273": "δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,"
+   },
+   "asserted": "6x, all line-initial",
+   "first_hits": [
+    "Il. 7.268@1-3: δεύτερος αὖτʼ Αἴας πολὺ μείζονα λᾶαν ἀείρας",
+    "Il. 10.283@1-3: δεύτερος αὖτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 20.273@1-3: δεύτερος αὖτʼ Ἀχιλεὺς προΐει δολιχόσκιον ἔγχος,",
+    "Il. 21.169@1-3: δεύτερος αὖτʼ Ἀχιλεὺς μελίην ἰθυπτίωνα",
+    "Il. 23.729@1-3: δεύτερος αὖτʼ ἀνάειρε πολύτλας δῖος Ὀδυσσεύς,",
+    "Il. 23.841@1-3: δεύτερος αὖτʼ ἀφέηκε Λεοντεὺς ὄζος Ἄρηος·"
+   ]
+  },
+  {
+   "n": 20,
+   "label": "εἴρυσσέν τε καὶ",
+   "query": "ngram εἴρυσσέν τε καὶ",
+   "total": 2,
+   "positions": {
+    "3-6": 2
+   },
+   "cited": {
+    "Il. 3.373": "3-6"
+   },
+   "cited_lines": {
+    "Il. 3.373": "καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,"
+   },
+   "asserted": "two verbs joined by τε καί, καί at 6",
+   "first_hits": [
+    "Il. 3.373@3-6: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 18.165@3-6: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "ἀλλʼ ὅ γε",
+   "query": "ngram ἀλλ᾽ ὅ γε",
+   "total": 16,
+   "positions": {
+    "1-2": 16
+   },
+   "cited": {
+    "Il. 1.281": "1-2",
+    "Il. 1.320": "1-2",
+    "Il. 2.3": "1-2",
+    "Il. 2.420": "1-2",
+    "Il. 5.321": "1-2",
+    "Il. 8.311": "1-2"
+   },
+   "cited_lines": {
+    "Il. 1.281": "ἀλλʼ ὅ γε φέρτερός ἐστιν ἐπεὶ πλεόνεσσιν ἀνάσσει.",
+    "Il. 1.320": "ἀλλʼ ὅ γε Ταλθύβιόν τε καὶ Εὐρυβάτην προσέειπε,",
+    "Il. 2.3": "ἀλλʼ ὅ γε μερμήριζε κατὰ φρένα ὡς Ἀχιλῆα",
+    "Il. 2.420": "ἀλλʼ ὅ γε δέκτο μὲν ἱρά, πόνον δʼ ἀμέγαρτον ὄφελλεν.",
+    "Il. 5.321": "ἀλλʼ ὅ γε τοὺς μὲν ἑοὺς ἠρύκακε μώνυχας ἵππους",
+    "Il. 8.311": "ἀλλʼ ὅ γε καὶ τόθʼ ἅμαρτε· παρέσφηλεν γὰρ Ἀπόλλων·"
+   },
+   "asserted": "16x, all 1-2",
+   "first_hits": [
+    "Il. 1.281@1-2: ἀλλʼ ὅ γε φέρτερός ἐστιν ἐπεὶ πλεόνεσσιν ἀνάσσει.",
+    "Il. 1.320@1-2: ἀλλʼ ὅ γε Ταλθύβιόν τε καὶ Εὐρυβάτην προσέειπε,",
+    "Il. 2.3@1-2: ἀλλʼ ὅ γε μερμήριζε κατὰ φρένα ὡς Ἀχιλῆα",
+    "Il. 2.420@1-2: ἀλλʼ ὅ γε δέκτο μὲν ἱρά, πόνον δʼ ἀμέγαρτον ὄφελλεν.",
+    "Il. 5.321@1-2: ἀλλʼ ὅ γε τοὺς μὲν ἑοὺς ἠρύκακε μώνυχας ἵππους",
+    "Il. 8.311@1-2: ἀλλʼ ὅ γε καὶ τόθʼ ἅμαρτε· παρέσφηλεν γὰρ Ἀπόλλων·",
+    "Il. 12.394@1-2: ἀλλʼ ὅ γε Θεστορίδην Ἀλκμάονα δουρὶ τυχήσας",
+    "Il. 13.518@1-2: ἀλλʼ ὅ γε καὶ τόθʼ ἅμαρτεν, ὃ δʼ Ἀσκάλαφον βάλε δουρὶ"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "ἀλλʼ ὅ γʼ … ἐνίκα (frame)",
+   "query": "ngram ἀλλ᾽ ὅ γ᾽ ἀεθλεύειν",
+   "total": 1,
+   "positions": {
+    "1-5": 1
+   },
+   "cited": {
+    "Il. 4.389": "1-5"
+   },
+   "cited_lines": {
+    "Il. 4.389": "ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα"
+   },
+   "asserted": "the contest line whose frame is used",
+   "first_hits": [
+    "Il. 4.389@1-5: ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "δʼ ἄρʼ ἔπειτα",
+   "query": "ngram δ᾽ ἄρ᾽ ἔπειτα",
+   "total": 12,
+   "positions": {
+    "3.5-5.5": 12
+   },
+   "cited": {
+    "Il. 6.45": "3.5-5.5"
+   },
+   "cited_lines": {
+    "Il. 6.45": "Ἄδρηστος δʼ ἄρʼ ἔπειτα λαβὼν ἐλίσσετο γούνων·"
+   },
+   "asserted": "12x, all 3.5-5.5",
+   "first_hits": [
+    "Il. 4.148@3.5-5.5: ῥίγησεν δʼ ἄρʼ ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων",
+    "Il. 6.37@3.5-5.5: Ἄδρηστον δʼ ἄρʼ ἔπειτα βοὴν ἀγαθὸς Μενέλαος",
+    "Il. 6.45@3.5-5.5: Ἄδρηστος δʼ ἄρʼ ἔπειτα λαβὼν ἐλίσσετο γούνων·",
+    "Il. 17.84@3.5-5.5: πάπτηνεν δʼ ἄρʼ ἔπειτα κατὰ στίχας, αὐτίκα δʼ ἔγνω",
+    "Il. 23.820@3.5-5.5: Τυδεΐδης δʼ ἄρʼ ἔπειτα ὑπὲρ σάκεος μεγάλοιο",
+    "Od. 15.134@3.5-5.5: ἑζέσθην δʼ ἄρʼ ἔπειτα κατὰ κλισμούς τε θρόνους τε.",
+    "Od. 15.285@3.5-5.5: ἐν πρύμνῃ δʼ ἄρʼ ἔπειτα καθέζετο, πὰρ δὲ οἷ αὐτῷ",
+    "Od. 17.61@3.5-5.5: Τηλέμαχος δʼ ἄρʼ ἔπειτα διὲκ μεγάροιο βεβήκει"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "Ἄδρηστος (Il. 6.45)",
+   "query": "ngram Ἄδρηστος δ᾽ ἄρ᾽ ἔπειτα",
+   "total": 1,
+   "positions": {
+    "1-5.5": 1
+   },
+   "cited": {
+    "Il. 6.45": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 6.45": "Ἄδρηστος δʼ ἄρʼ ἔπειτα λαβὼν ἐλίσσετο γούνων·"
+   },
+   "asserted": "bare name before ἔπειτα, 1-5.5",
+   "first_hits": [
+    "Il. 6.45@1-5.5: Ἄδρηστος δʼ ἄρʼ ἔπειτα λαβὼν ἐλίσσετο γούνων·"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "Τεῦκρος at 3-3.5 (reviewer)",
+   "query": "ngram καί οἱ Τεῦκρος",
+   "total": 3,
+   "positions": {
+    "1-3.5": 3
+   },
+   "cited": {
+    "Il. 12.350": "1-3.5"
+   },
+   "cited_lines": {
+    "Il. 12.350": "καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς."
+   },
+   "asserted": "LS name at 3-3.5 before a vowel",
+   "first_hits": [
+    "Il. 12.350@1-3.5: καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς.",
+    "Il. 12.363@1-3.5: καί οἱ Τεῦκρος ἅμα σπέσθω τόξων ἐῢ εἰδώς.",
+    "Il. 12.371@1-3.5: καί οἱ Τεῦκρος ἅμʼ ᾖε κασίγνητος καὶ ὄπατρος·"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "μάχῃ",
+   "query": "loose μαχη",
+   "total": 28,
+   "positions": {
+    "6-7": 24,
+    "4-5": 3,
+    "8-9": 1
+   },
+   "cited": {
+    "Il. 7.113": "6-7",
+    "Il. 8.448": "6-7",
+    "Od. 4.497": "6-7"
+   },
+   "cited_lines": {
+    "Il. 7.113": "καὶ δʼ Ἀχιλεὺς τούτῳ γε μάχῃ ἔνι κυδιανείρῃ",
+    "Il. 8.448": "οὐ μέν θην κάμετόν γε μάχῃ ἔνι κυδιανείρῃ",
+    "Od. 4.497": "ἐν νόστῳ ἀπόλοντο· μάχῃ δέ τε καὶ σὺ παρῆσθα."
+   },
+   "asserted": "26x; at 6-7",
+   "first_hits": [
+    "Il. 1.521@6-7: νεικεῖ, καί τέ μέ φησι μάχῃ Τρώεσσιν ἀρήγειν.",
+    "Il. 4.400@6-7: γείνατο εἷο χέρεια μάχῃ, ἀγορῇ δέ τʼ ἀμείνω.",
+    "Il. 5.507@6-7: θοῦρος Ἄρης ἐκάλυψε μάχῃ Τρώεσσιν ἀρήγων",
+    "Il. 5.701@6-7: οὔτε ποτʼ ἀντεφέροντο μάχῃ, ἀλλʼ αἰὲν ὀπίσσω",
+    "Il. 6.2@8-9: πολλὰ δʼ ἄρʼ ἔνθα καὶ ἔνθʼ ἴθυσε μάχη πεδίοιο",
+    "Il. 6.124@6-7: οὐ μὲν γάρ ποτʼ ὄπωπα μάχῃ ἔνι κυδιανείρῃ",
+    "Il. 7.113@6-7: καὶ δʼ Ἀχιλεὺς τούτῳ γε μάχῃ ἔνι κυδιανείρῃ",
+    "Il. 8.448@6-7: οὐ μέν θην κάμετόν γε μάχῃ ἔνι κυδιανείρῃ"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πύματον",
+   "query": "ngram πύματον",
+   "total": 8,
+   "positions": {
+    "3.5-5": 6,
+    "5.5-7": 2
+   },
+   "cited": {
+    "Il. 23.373": "3.5-5",
+    "Il. 23.768": "3.5-5"
+   },
+   "cited_lines": {
+    "Il. 23.373": "ἀλλʼ ὅτε δὴ πύματον τέλεον δρόμον ὠκέες ἵπποι",
+    "Il. 23.768": "ἀλλʼ ὅτε δὴ πύματον τέλεον δρόμον, αὐτίκʼ Ὀδυσσεὺς"
+   },
+   "asserted": "8x: 3.5-5 and 5.5-7 (entry 3); 6x (coinages); 5x at 3.5-5 + 2x at 5.5-7 (modifications)",
+   "first_hits": [
+    "Il. 11.759@5.5-7: ἔνθʼ ἄνδρα κτείνας πύματον λίπον· αὐτὰρ Ἀχαιοὶ",
+    "Il. 22.66@3.5-5: αὐτὸν δʼ ἂν πύματόν με κύνες πρώτῃσι θύρῃσιν",
+    "Il. 22.203@3.5-5: εἰ μή οἱ πύματόν τε καὶ ὕστατον ἤντετʼ Ἀπόλλων",
+    "Il. 23.373@3.5-5: ἀλλʼ ὅτε δὴ πύματον τέλεον δρόμον ὠκέες ἵπποι",
+    "Il. 23.768@3.5-5: ἀλλʼ ὅτε δὴ πύματον τέλεον δρόμον, αὐτίκʼ Ὀδυσσεὺς",
+    "Od. 2.20@5.5-7: ἐν σπῆι γλαφυρῷ, πύματον δʼ ὡπλίσσατο δόρπον.",
+    "Od. 9.369@3.5-5: Οὖτιν ἐγὼ πύματον ἔδομαι μετὰ οἷς ἑτάροισιν,",
+    "Od. 20.116@3.5-5: μνηστῆρες πύματόν τε καὶ ὕστατον ἤματι τῷδε"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πυμάτην",
+   "query": "ngram πυμάτην",
+   "total": 1,
+   "positions": {
+    "3.5-5": 1
+   },
+   "cited": {
+    "Il. 18.608": "3.5-5"
+   },
+   "cited_lines": {
+    "Il. 18.608": "ἄντυγα πὰρ πυμάτην σάκεος πύκα ποιητοῖο."
+   },
+   "asserted": "3.5-5",
+   "first_hits": [
+    "Il. 18.608@3.5-5: ἄντυγα πὰρ πυμάτην σάκεος πύκα ποιητοῖο."
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πυμάτῳ",
+   "query": "ngram πυμάτῳ",
+   "total": 1,
+   "positions": {
+    "1.5-3": 1
+   },
+   "cited": {
+    "Od. 7.138": "1.5-3"
+   },
+   "cited_lines": {
+    "Od. 7.138": "ᾧ πυμάτῳ σπένδεσκον, ὅτε μνησαίατο κοίτου."
+   },
+   "asserted": "the dative masc.",
+   "first_hits": [
+    "Od. 7.138@1.5-3: ᾧ πυμάτῳ σπένδεσκον, ὅτε μνησαίατο κοίτου."
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πυμάτῃ (loose: = πυμάτη)",
+   "query": "loose πυματη",
+   "total": 1,
+   "positions": {
+    "3.5-5": 1
+   },
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "'0 hits' (coinages)",
+   "first_hits": [
+    "Il. 6.118@3.5-5: ἄντυξ ἣ πυμάτη θέεν ἀσπίδος ὀμφαλοέσσης."
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πυμάτῃ (exact NFC)",
+   "query": "exact πυμάτῃ",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "'0 hits' (coinages)",
+   "first_hits": []
+  },
+  {
+   "n": 24,
+   "label": "ἐνίκα",
+   "query": "loose ενικα",
+   "total": 8,
+   "positions": {
+    "10-12": 5,
+    "6-8": 3
+   },
+   "cited": {
+    "Il. 23.756": "10-12",
+    "Il. 4.389": "10-12",
+    "Il. 23.680": "6-8"
+   },
+   "cited_lines": {
+    "Il. 23.756": "Ἀντίλοχος· ὃ γὰρ αὖτε νέους ποσὶ πάντας ἐνίκα.",
+    "Il. 4.389": "ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 23.680": "ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας."
+   },
+   "asserted": "8x: 5 at 10-12, 3 at 6-8",
+   "first_hits": [
+    "Il. 4.389@10-12: ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 5.807@10-12: κούρους Καδμείων προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 18.252@10-12: ἀλλʼ ὃ μὲν ἂρ μύθοισιν, ὃ δʼ ἔγχεϊ πολλὸν ἐνίκα·",
+    "Il. 20.410@10-12: καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα",
+    "Il. 23.680@6-8: ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας.",
+    "Il. 23.742@6-8: χάνδανεν, αὐτὰρ κάλλει ἐνίκα πᾶσαν ἐπʼ αἶαν",
+    "Il. 23.756@10-12: Ἀντίλοχος· ὃ γὰρ αὖτε νέους ποσὶ πάντας ἐνίκα.",
+    "Od. 3.121@6-8: ἤθελʼ, ἐπεὶ μάλα πολλὸν ἐνίκα δῖος Ὀδυσσεὺς"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πόδεσσι δὲ πάντας ἐνίκα",
+   "query": "ngram πόδεσσι δὲ πάντας ἐνίκα",
+   "total": 1,
+   "positions": {
+    "6-12": 1
+   },
+   "cited": {
+    "Il. 20.410": "6-12"
+   },
+   "cited_lines": {
+    "Il. 20.410": "καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα"
+   },
+   "asserted": "dative of the contest",
+   "first_hits": [
+    "Il. 20.410@6-12: καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "κάλλει ἐνίκα",
+   "query": "ngram κάλλει ἐνίκα",
+   "total": 1,
+   "positions": {
+    "5-8": 1
+   },
+   "cited": {
+    "Il. 23.742": "5-8"
+   },
+   "cited_lines": {
+    "Il. 23.742": "χάνδανεν, αὐτὰρ κάλλει ἐνίκα πᾶσαν ἐπʼ αἶαν"
+   },
+   "asserted": "dative of the contest",
+   "first_hits": [
+    "Il. 23.742@5-8: χάνδανεν, αὐτὰρ κάλλει ἐνίκα πᾶσαν ἐπʼ αἶαν"
+   ]
+  },
+  {
+   "n": 24,
+   "label": "πάντας ἐνίκα",
+   "query": "ngram πάντας ἐνίκα",
+   "total": 3,
+   "positions": {
+    "9-12": 2,
+    "5-8": 1
+   },
+   "cited": {
+    "Il. 23.680": "5-8"
+   },
+   "cited_lines": {
+    "Il. 23.680": "ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας."
+   },
+   "asserted": "accusative of the man beaten",
+   "first_hits": [
+    "Il. 20.410@9-12: καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα",
+    "Il. 23.680@5-8: ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας.",
+    "Il. 23.756@9-12: Ἀντίλοχος· ὃ γὰρ αὖτε νέους ποσὶ πάντας ἐνίκα."
+   ]
+  },
+  {
+   "n": 29,
+   "label": "ἀλλὰ καὶ ὧς",
+   "query": "ngram ἀλλὰ καὶ ὣς",
+   "total": 17,
+   "positions": {
+    "1-3": 17
+   },
+   "cited": {
+    "Il. 23.516": "1-3"
+   },
+   "cited_lines": {
+    "Il. 23.516": "ἀλλὰ καὶ ὧς Μενέλαος ἔχʼ ἐγγύθεν ὠκέας ἵππους."
+   },
+   "asserted": "17x, all 1-3",
+   "first_hits": [
+    "Il. 1.116@1-3: ἀλλὰ καὶ ὧς ἐθέλω δόμεναι πάλιν εἰ τό γʼ ἄμεινον·",
+    "Il. 3.159@1-3: ἀλλὰ καὶ ὧς τοίη περ ἐοῦσʼ ἐν νηυσὶ νεέσθω,",
+    "Il. 4.322@1-3: ἀλλὰ καὶ ὧς ἱππεῦσι μετέσσομαι ἠδὲ κελεύσω",
+    "Il. 5.482@1-3: ἀλλὰ καὶ ὧς Λυκίους ὀτρύνω καὶ μέμονʼ αὐτὸς",
+    "Il. 11.720@1-3: ἀλλὰ καὶ ὧς ἱππεῦσι μετέπρεπον ἡμετέροισι",
+    "Il. 16.80@1-3: ἀλλὰ καὶ ὧς Πάτροκλε νεῶν ἄπο λοιγὸν ἀμύνων",
+    "Il. 16.363@1-3: ἀλλὰ καὶ ὧς ἀνέμιμνε, σάω δʼ ἐρίηρας ἑταίρους.",
+    "Il. 21.133@1-3: ἀλλὰ καὶ ὧς ὀλέεσθε κακὸν μόρον, εἰς ὅ κε πάντες"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "ἐδάμη",
+   "query": "ngram ἐδάμη",
+   "total": 2,
+   "positions": {
+    "1.5-3": 2
+   },
+   "cited": {
+    "Il. 2.860": "1.5-3",
+    "Il. 2.874": "1.5-3"
+   },
+   "cited_lines": {
+    "Il. 2.860": "ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 2.874": "ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο"
+   },
+   "asserted": "2x, both 1.5-3 (here 3.5-5)",
+   "first_hits": [
+    "Il. 2.860@1.5-3: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 2.874@1.5-3: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "ὑπὸ χερσὶ",
+   "query": "ngram ὑπὸ χερσὶ",
+   "total": 11,
+   "positions": {
+    "3.5-5.5": 9,
+    "7.5-9.5": 2
+   },
+   "cited": {
+    "Il. 3.352": "7.5-9.5",
+    "Il. 2.860": "3.5-5.5",
+    "Il. 6.368": "3.5-5.5",
+    "Il. 10.452": "3.5-5.5",
+    "Il. 16.438": "3.5-5.5"
+   },
+   "cited_lines": {
+    "Il. 3.352": "δῖον Ἀλέξανδρον, καὶ ἐμῇς ὑπὸ χερσὶ δάμασσον,",
+    "Il. 2.860": "ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 6.368": "ἦ ἤδη μʼ ὑπὸ χερσὶ θεοὶ δαμόωσιν Ἀχαιῶν.",
+    "Il. 10.452": "εἰ δέ κʼ ἐμῇς ὑπὸ χερσὶ δαμεὶς ἀπὸ θυμὸν ὀλέσσῃς,",
+    "Il. 16.438": "ἦ ἤδη ὑπὸ χερσὶ Μενοιτιάδαο δαμάσσω."
+   },
+   "asserted": "11x: 3.5-5.5 and 7.5-9.5",
+   "first_hits": [
+    "Il. 2.860@3.5-5.5: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 2.874@3.5-5.5: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 3.352@7.5-9.5: δῖον Ἀλέξανδρον, καὶ ἐμῇς ὑπὸ χερσὶ δάμασσον,",
+    "Il. 6.368@3.5-5.5: ἦ ἤδη μʼ ὑπὸ χερσὶ θεοὶ δαμόωσιν Ἀχαιῶν.",
+    "Il. 10.452@3.5-5.5: εἰ δέ κʼ ἐμῇς ὑπὸ χερσὶ δαμεὶς ἀπὸ θυμὸν ὀλέσσῃς,",
+    "Il. 11.180@3.5-5.5: Ἀτρεΐδεω ὑπὸ χερσί· περὶ πρὸ γὰρ ἔγχεϊ θῦεν.",
+    "Il. 16.438@3.5-5.5: ἦ ἤδη ὑπὸ χερσὶ Μενοιτιάδαο δαμάσσω.",
+    "Il. 16.699@3.5-5.5: Πατρόκλου ὑπὸ χερσί, περὶ πρὸ γὰρ ἔγχεϊ θῦεν,"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "κρατεροῦ",
+   "query": "ngram κρατεροῦ",
+   "total": 3,
+   "positions": {
+    "7.5-9": 2,
+    "3.5-5": 1
+   },
+   "cited": {
+    "Il. 8.279": "3.5-5",
+    "Il. 21.553": "7.5-9",
+    "Od. 8.360": "7.5-9"
+   },
+   "cited_lines": {
+    "Il. 8.279": "τόξου ἄπο κρατεροῦ Τρώων ὀλέκοντα φάλαγγας·",
+    "Il. 21.553": "ὤ μοι ἐγών· εἰ μέν κεν ὑπὸ κρατεροῦ Ἀχιλῆος",
+    "Od. 8.360": "τὼ δʼ ἐπεὶ ἐκ δεσμοῖο λύθεν, κρατεροῦ περ ἐόντος,"
+   },
+   "asserted": "3x: 3.5-5, 7.5-9 (here 5.5-7)",
+   "first_hits": [
+    "Il. 8.279@3.5-5: τόξου ἄπο κρατεροῦ Τρώων ὀλέκοντα φάλαγγας·",
+    "Il. 21.553@7.5-9: ὤ μοι ἐγών· εἰ μέν κεν ὑπὸ κρατεροῦ Ἀχιλῆος",
+    "Od. 8.360@7.5-9: τὼ δʼ ἐπεὶ ἐκ δεσμοῖο λύθεν, κρατεροῦ περ ἐόντος,"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "ὑπὸ κρατεροῦ Ἀχιλῆος",
+   "query": "ngram ὑπὸ κρατεροῦ Ἀχιλῆος",
+   "total": 1,
+   "positions": {
+    "6-12": 1
+   },
+   "cited": {
+    "Il. 21.553": "6-12"
+   },
+   "cited_lines": {
+    "Il. 21.553": "ὤ μοι ἐγών· εἰ μέν κεν ὑπὸ κρατεροῦ Ἀχιλῆος"
+   },
+   "asserted": "'the epithet before ὑπό as ὑπὸ κρατεροῦ Ἀχιλῆος'",
+   "first_hits": [
+    "Il. 21.553@6-12: ὤ μοι ἐγών· εἰ μέν κεν ὑπὸ κρατεροῦ Ἀχιλῆος"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "genitive + ὑπὸ χερσί (name first)",
+   "query": "regex \\S+ ὑπὸ χερσ[ίὶ]",
+   "total": 18,
+   "positions": {
+    "1-5.5": 6,
+    "1.5-5.5": 3,
+    "6-9.5": 2,
+    "2-5.5": 2,
+    "3.5-5.5": 1,
+    "8-12": 1,
+    "7.5-12": 1,
+    "5.5-9.5": 1,
+    "3-5.5": 1
+   },
+   "cited": {
+    "Il. 11.180": "1-5.5",
+    "Il. 16.699": "1-5.5",
+    "Od. 18.156": "1-5.5",
+    "Od. 24.97": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 11.180": "Ἀτρεΐδεω ὑπὸ χερσί· περὶ πρὸ γὰρ ἔγχεϊ θῦεν.",
+    "Il. 16.699": "Πατρόκλου ὑπὸ χερσί, περὶ πρὸ γὰρ ἔγχεϊ θῦεν,",
+    "Od. 18.156": "Τηλεμάχου ὑπὸ χερσὶ καὶ ἔγχεϊ ἶφι δαμῆναι.",
+    "Od. 24.97": "Αἰγίσθου ὑπὸ χερσὶ καὶ οὐλομένης ἀλόχοιο."
+   },
+   "asserted": "(reviewer: what precedes ὑπὸ χερσί in Homer)",
+   "first_hits": [
+    "Il. 2.860@1.5-5.5: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 2.874@1.5-5.5: ἀλλʼ ἐδάμη ὑπὸ χερσὶ ποδώκεος Αἰακίδαο",
+    "Il. 3.352@6-9.5: δῖον Ἀλέξανδρον, καὶ ἐμῇς ὑπὸ χερσὶ δάμασσον,",
+    "Il. 6.368@3.5-5.5: ἦ ἤδη μʼ ὑπὸ χερσὶ θεοὶ δαμόωσιν Ἀχαιῶν.",
+    "Il. 8.344@8-12: φεύγοντες, πολλοὶ δὲ δάμεν Τρώων ὑπὸ χερσίν,",
+    "Il. 10.452@2-5.5: εἰ δέ κʼ ἐμῇς ὑπὸ χερσὶ δαμεὶς ἀπὸ θυμὸν ὀλέσσῃς,",
+    "Il. 11.180@1-5.5: Ἀτρεΐδεω ὑπὸ χερσί· περὶ πρὸ γὰρ ἔγχεϊ θῦεν.",
+    "Il. 15.2@7.5-12: φεύγοντες, πολλοὶ δὲ δάμεν Δαναῶν ὑπὸ χερσίν,"
+   ]
+  },
+  {
+   "n": 32,
+   "label": "αὐτὰρ ὅ γʼ ἂψ",
+   "query": "ngram αὐτὰρ ὅ γ᾽ ἂψ",
+   "total": 1,
+   "positions": {
+    "1-3": 1
+   },
+   "cited": {
+    "Od. 11.599": "1-3"
+   },
+   "cited_lines": {
+    "Od. 11.599": "αὐτὰρ ὅ γʼ ἂψ ὤσασκε τιταινόμενος, κατὰ δʼ ἱδρὼς"
+   },
+   "asserted": "1-3",
+   "first_hits": [
+    "Od. 11.599@1-3: αὐτὰρ ὅ γʼ ἂψ ὤσασκε τιταινόμενος, κατὰ δʼ ἱδρὼς"
+   ]
+  },
+  {
+   "n": 32,
+   "label": "ἐπόρουσε καὶ",
+   "query": "ngram ἐπόρουσε καὶ",
+   "total": 2,
+   "positions": {
+    "3.5-6": 2
+   },
+   "cited": {
+    "Il. 11.580": "3.5-6",
+    "Il. 13.550": "3.5-6"
+   },
+   "cited_lines": {
+    "Il. 11.580": "Εὐρύπυλος δʼ ἐπόρουσε καὶ αἴνυτο τεύχεʼ ἀπʼ ὤμων.",
+    "Il. 13.550": "Ἀντίλοχος δʼ ἐπόρουσε, καὶ αἴνυτο τεύχεʼ ἀπʼ ὤμων"
+   },
+   "asserted": "3.5-6",
+   "first_hits": [
+    "Il. 11.580@3.5-6: Εὐρύπυλος δʼ ἐπόρουσε καὶ αἴνυτο τεύχεʼ ἀπʼ ὤμων.",
+    "Il. 13.550@3.5-6: Ἀντίλοχος δʼ ἐπόρουσε, καὶ αἴνυτο τεύχεʼ ἀπʼ ὤμων"
+   ]
+  },
+  {
+   "n": 32,
+   "label": "ἀμφήριστον ἔθηκεν",
+   "query": "ngram ἀμφήριστον ἔθηκεν",
+   "total": 2,
+   "positions": {
+    "7-12": 2
+   },
+   "cited": {
+    "Il. 23.382": "7-12",
+    "Il. 23.527": "7-12"
+   },
+   "cited_lines": {
+    "Il. 23.382": "καί νύ κεν ἢ παρέλασσʼ ἢ ἀμφήριστον ἔθηκεν,",
+    "Il. 23.527": "τώ κέν μιν παρέλασσʼ οὐδʼ ἀμφήριστον ἔθηκεν."
+   },
+   "asserted": "7-12",
+   "first_hits": [
+    "Il. 23.382@7-12: καί νύ κεν ἢ παρέλασσʼ ἢ ἀμφήριστον ἔθηκεν,",
+    "Il. 23.527@7-12: τώ κέν μιν παρέλασσʼ οὐδʼ ἀμφήριστον ἔθηκεν."
+   ]
+  },
+  {
+   "n": 32,
+   "label": "ἂψ ἐπόρουσε (unclaimed)",
+   "query": "ngram ἂψ ἐπόρουσε",
+   "total": 2,
+   "positions": {
+    "3-5.5": 2
+   },
+   "cited": {
+    "Il. 3.379": "3-5.5",
+    "Il. 21.33": "3-5.5"
+   },
+   "cited_lines": {
+    "Il. 3.379": "αὐτὰρ ὃ ἂψ ἐπόρουσε κατακτάμεναι μενεαίνων",
+    "Il. 21.33": "αὐτὰρ ὃ ἂψ ἐπόρουσε δαϊζέμεναι μενεαίνων."
+   },
+   "asserted": "(reviewer: αὐτὰρ ὃ ἂψ ἐπόρουσε)",
+   "first_hits": [
+    "Il. 3.379@3-5.5: αὐτὰρ ὃ ἂψ ἐπόρουσε κατακτάμεναι μενεαίνων",
+    "Il. 21.33@3-5.5: αὐτὰρ ὃ ἂψ ἐπόρουσε δαϊζέμεναι μενεαίνων."
+   ]
+  },
+  {
+   "n": 32,
+   "label": "αὐτὰρ ὃ ἂψ ἐπόρουσε (unclaimed)",
+   "query": "ngram αὐτὰρ ὃ ἂψ ἐπόρουσε",
+   "total": 2,
+   "positions": {
+    "1-5.5": 2
+   },
+   "cited": {
+    "Il. 3.379": "1-5.5",
+    "Il. 21.33": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 3.379": "αὐτὰρ ὃ ἂψ ἐπόρουσε κατακτάμεναι μενεαίνων",
+    "Il. 21.33": "αὐτὰρ ὃ ἂψ ἐπόρουσε δαϊζέμεναι μενεαίνων."
+   },
+   "asserted": "(reviewer)",
+   "first_hits": [
+    "Il. 3.379@1-5.5: αὐτὰρ ὃ ἂψ ἐπόρουσε κατακτάμεναι μενεαίνων",
+    "Il. 21.33@1-5.5: αὐτὰρ ὃ ἂψ ἐπόρουσε δαϊζέμεναι μενεαίνων."
+   ]
+  },
+  {
+   "n": 33,
+   "label": "τοῖιν δʼ",
+   "query": "ngram τοῖιν δ᾽",
+   "total": 1,
+   "positions": {
+    "1-3": 1
+   },
+   "cited": {
+    "Il. 13.66": "1-3"
+   },
+   "cited_lines": {
+    "Il. 13.66": "τοῖιν δʼ ἔγνω πρόσθεν Ὀϊλῆος ταχὺς Αἴας,"
+   },
+   "asserted": "count 2 (Il. 13.66; Od. 18.34 τοῖϊν δέ)",
+   "first_hits": [
+    "Il. 13.66@1-3: τοῖιν δʼ ἔγνω πρόσθεν Ὀϊλῆος ταχὺς Αἴας,"
+   ]
+  },
+  {
+   "n": 33,
+   "label": "τοῖιν δέ (unelided)",
+   "query": "ngram τοῖιν δέ",
+   "total": 1,
+   "positions": {
+    "1-3": 1
+   },
+   "cited": {
+    "Od. 18.34": "1-3"
+   },
+   "cited_lines": {
+    "Od. 18.34": "τοῖϊν δὲ ξυνέηχʼ ἱερὸν μένος Ἀντινόοιο,"
+   },
+   "asserted": "Od. 18.34",
+   "first_hits": [
+    "Od. 18.34@1-3: τοῖϊν δὲ ξυνέηχʼ ἱερὸν μένος Ἀντινόοιο,"
+   ]
+  },
+  {
+   "n": 33,
+   "label": "τοῖιν",
+   "query": "loose τοιιν",
+   "total": 4,
+   "positions": {
+    "5-5.5": 2,
+    "1-2": 2
+   },
+   "cited": {
+    "Il. 11.110": "5-5.5",
+    "Il. 13.66": "1-2",
+    "Il. 23.336": "5-5.5",
+    "Od. 18.34": "1-2"
+   },
+   "cited_lines": {
+    "Il. 11.110": "σπερχόμενος δʼ ἀπὸ τοῖιν ἐσύλα τεύχεα καλὰ",
+    "Il. 13.66": "τοῖιν δʼ ἔγνω πρόσθεν Ὀϊλῆος ταχὺς Αἴας,",
+    "Il. 23.336": "ἦκʼ ἐπʼ ἀριστερὰ τοῖιν· ἀτὰρ τὸν δεξιὸν ἵππον",
+    "Od. 18.34": "τοῖϊν δὲ ξυνέηχʼ ἱερὸν μένος Ἀντινόοιο,"
+   },
+   "asserted": "4x",
+   "first_hits": [
+    "Il. 11.110@5-5.5: σπερχόμενος δʼ ἀπὸ τοῖιν ἐσύλα τεύχεα καλὰ",
+    "Il. 13.66@1-2: τοῖιν δʼ ἔγνω πρόσθεν Ὀϊλῆος ταχὺς Αἴας,",
+    "Il. 23.336@5-5.5: ἦκʼ ἐπʼ ἀριστερὰ τοῖιν· ἀτὰρ τὸν δεξιὸν ἵππον",
+    "Od. 18.34@1-2: τοῖϊν δὲ ξυνέηχʼ ἱερὸν μένος Ἀντινόοιο,"
+   ]
+  },
+  {
+   "n": 33,
+   "label": "φίλα γυῖα λέλυνται",
+   "query": "ngram φίλα γυῖα λέλυνται",
+   "total": 2,
+   "positions": {
+    "7.5-12": 2
+   },
+   "cited": {
+    "Od. 8.233": "7.5-12",
+    "Od. 18.242": "7.5-12"
+   },
+   "cited_lines": {
+    "Od. 8.233": "ἦεν ἐπηετανός· τῷ μοι φίλα γυῖα λέλυνται.",
+    "Od. 18.242": "οἴκαδʼ, ὅπη οἱ νόστος, ἐπεὶ φίλα γυῖα λέλυνται."
+   },
+   "asserted": "2x",
+   "first_hits": [
+    "Od. 8.233@7.5-12: ἦεν ἐπηετανός· τῷ μοι φίλα γυῖα λέλυνται.",
+    "Od. 18.242@7.5-12: οἴκαδʼ, ὅπη οἱ νόστος, ἐπεὶ φίλα γυῖα λέλυνται."
+   ]
+  },
+  {
+   "n": 33,
+   "label": "δʼ ἀργαλέῳ (unclaimed)",
+   "query": "ngram δ᾽ ἀργαλέῳ",
+   "total": 2,
+   "positions": {
+    "3-5": 2
+   },
+   "cited": {
+    "Il. 15.10": "3-5",
+    "Il. 16.109": "3-5"
+   },
+   "cited_lines": {
+    "Il. 15.10": "εἵαθʼ, ὃ δʼ ἀργαλέῳ ἔχετʼ ἄσθματι κῆρ ἀπινύσσων",
+    "Il. 16.109": "αἰεὶ δʼ ἀργαλέῳ ἔχετʼ ἄσθματι, κὰδ δέ οἱ ἱδρὼς"
+   },
+   "asserted": "(reviewer)",
+   "first_hits": [
+    "Il. 15.10@3-5: εἵαθʼ, ὃ δʼ ἀργαλέῳ ἔχετʼ ἄσθματι κῆρ ἀπινύσσων",
+    "Il. 16.109@3-5: αἰεὶ δʼ ἀργαλέῳ ἔχετʼ ἄσθματι, κὰδ δέ οἱ ἱδρὼς"
+   ]
+  },
+  {
+   "n": 34,
+   "label": "ὀψὲ δὲ δὴ",
+   "query": "ngram ὀψὲ δὲ δὴ",
+   "total": 12,
+   "positions": {
+    "1-3": 12
+   },
+   "cited": {
+    "Il. 7.94": "1-3",
+    "Il. 7.399": "1-3",
+    "Il. 8.30": "1-3"
+   },
+   "cited_lines": {
+    "Il. 7.94": "ὀψὲ δὲ δὴ Μενέλαος ἀνίστατο καὶ μετέειπε",
+    "Il. 7.399": "ὀψὲ δὲ δὴ μετέειπε βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 8.30": "ὀψὲ δὲ δὴ μετέειπε θεὰ γλαυκῶπις Ἀθήνη·"
+   },
+   "asserted": "12x, all line-initial",
+   "first_hits": [
+    "Il. 7.94@1-3: ὀψὲ δὲ δὴ Μενέλαος ἀνίστατο καὶ μετέειπε",
+    "Il. 7.399@1-3: ὀψὲ δὲ δὴ μετέειπε βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 8.30@1-3: ὀψὲ δὲ δὴ μετέειπε θεὰ γλαυκῶπις Ἀθήνη·",
+    "Il. 9.31@1-3: ὀψὲ δὲ δὴ μετέειπε βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 9.432@1-3: ὀψὲ δὲ δὴ μετέειπε γέρων ἱππηλάτα Φοῖνιξ",
+    "Il. 9.696@1-3: ὀψὲ δὲ δὴ μετέειπε βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 17.466@1-3: ὀψὲ δὲ δή μιν ἑταῖρος ἀνὴρ ἴδεν ὀφθαλμοῖσιν",
+    "Od. 3.168@1-3: ὀψὲ δὲ δὴ μετὰ νῶι κίε ξανθὸς Μενέλαος,"
+   ]
+  },
+  {
+   "n": 34,
+   "label": "παρέλασσʼ",
+   "query": "ngram παρέλασσ᾽",
+   "total": 2,
+   "positions": {
+    "3.5-5": 2
+   },
+   "cited": {
+    "Il. 23.382": "3.5-5",
+    "Il. 23.527": "3.5-5"
+   },
+   "cited_lines": {
+    "Il. 23.382": "καί νύ κεν ἢ παρέλασσʼ ἢ ἀμφήριστον ἔθηκεν,",
+    "Il. 23.527": "τώ κέν μιν παρέλασσʼ οὐδʼ ἀμφήριστον ἔθηκεν."
+   },
+   "asserted": "2x, both 3.5-5",
+   "first_hits": [
+    "Il. 23.382@3.5-5: καί νύ κεν ἢ παρέλασσʼ ἢ ἀμφήριστον ἔθηκεν,",
+    "Il. 23.527@3.5-5: τώ κέν μιν παρέλασσʼ οὐδʼ ἀμφήριστον ἔθηκεν."
+   ]
+  },
+  {
+   "n": 34,
+   "label": "παρέλασσε (verse form)",
+   "query": "loose παρελασσε",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "(written unelided in the verse)",
+   "first_hits": []
+  },
+  {
+   "n": 34,
+   "label": "παρελασ- (all)",
+   "query": "loose_sub παρελασ",
+   "total": 3,
+   "positions": {
+    "3.5-5": 2,
+    "9.5-12": 1
+   },
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "(reviewer)",
+   "first_hits": [
+    "Il. 23.382@3.5-5: καί νύ κεν ἢ παρέλασσʼ ἢ ἀμφήριστον ἔθηκεν,",
+    "Il. 23.427@9.5-12: στεινωπὸς γὰρ ὁδός, τάχα δʼ εὐρυτέρη παρελάσσαι·",
+    "Il. 23.527@3.5-5: τώ κέν μιν παρέλασσʼ οὐδʼ ἀμφήριστον ἔθηκεν."
+   ]
+  },
+  {
+   "n": 34,
+   "label": "βοὴν ἀγαθὸς",
+   "query": "ngram βοὴν ἀγαθὸς",
+   "total": 43,
+   "positions": {
+    "6-9": 43
+   },
+   "cited": {
+    "Il. 2.408": "6-9"
+   },
+   "cited_lines": {
+    "Il. 2.408": "αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος·"
+   },
+   "asserted": "43x",
+   "first_hits": [
+    "Il. 2.408@6-9: αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος·",
+    "Il. 2.563@6-9: τῶν αὖθʼ ἡγεμόνευε βοὴν ἀγαθὸς Διομήδης",
+    "Il. 2.567@6-9: συμπάντων δʼ ἡγεῖτο βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 2.586@6-9: τῶν οἱ ἀδελφεὸς ἦρχε βοὴν ἀγαθὸς Μενέλαος",
+    "Il. 3.96@6-9: τοῖσι δὲ καὶ μετέειπε βοὴν ἀγαθὸς Μενέλαος·",
+    "Il. 5.114@6-9: δὴ τότʼ ἔπειτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης·",
+    "Il. 5.320@6-9: τάων ἃς ἐπέτελλε βοὴν ἀγαθὸς Διομήδης,",
+    "Il. 5.347@6-9: τῇ δʼ ἐπὶ μακρὸν ἄϋσε βοὴν ἀγαθὸς Διομήδης·"
+   ]
+  },
+  {
+   "n": 34,
+   "label": "δὴ τότʼ ἔπειτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης",
+   "query": "ngram δὴ τότ᾽ ἔπειτ᾽ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης",
+   "total": 1,
+   "positions": {
+    "1-12": 1
+   },
+   "cited": {
+    "Il. 5.114": "1-12"
+   },
+   "cited_lines": {
+    "Il. 5.114": "δὴ τότʼ ἔπειτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης·"
+   },
+   "asserted": "aorist at 4-5.5 + name formula 6-12",
+   "first_hits": [
+    "Il. 5.114@1-12: δὴ τότʼ ἔπειτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης·"
+   ]
+  },
+  {
+   "n": 35,
+   "label": "λαοὶ δʼ ἀμφοτέροισιν ἐπήπυον ἀμφὶς ἀρωγοί",
+   "query": "ngram λαοὶ δ᾽ ἀμφοτέροισιν ἐπήπυον ἀμφὶς ἀρωγοί",
+   "total": 1,
+   "positions": {
+    "1-12": 1
+   },
+   "cited": {
+    "Il. 18.502": "1-12"
+   },
+   "cited_lines": {
+    "Il. 18.502": "λαοὶ δʼ ἀμφοτέροισιν ἐπήπυον ἀμφὶς ἀρωγοί·"
+   },
+   "asserted": "Il. 18.502 verbatim",
+   "first_hits": [
+    "Il. 18.502@1-12: λαοὶ δʼ ἀμφοτέροισιν ἐπήπυον ἀμφὶς ἀρωγοί·"
+   ]
+  },
+  {
+   "n": 36,
+   "label": "κήρυκες δʼ ἄρα λαὸν ἐρήτυον",
+   "query": "ngram κήρυκες δ᾽ ἄρα λαὸν ἐρήτυον",
+   "total": 1,
+   "positions": {
+    "1-8": 1
+   },
+   "cited": {
+    "Il. 18.503": "1-8"
+   },
+   "cited_lines": {
+    "Il. 18.503": "κήρυκες δʼ ἄρα λαὸν ἐρήτυον· οἳ δὲ γέροντες"
+   },
+   "asserted": "1-8",
+   "first_hits": [
+    "Il. 18.503@1-8: κήρυκες δʼ ἄρα λαὸν ἐρήτυον· οἳ δὲ γέροντες"
+   ]
+  },
+  {
+   "n": 36,
+   "label": "ἔνθα καὶ ἔνθα",
+   "query": "ngram ἔνθα καὶ ἔνθα",
+   "total": 32,
+   "positions": {
+    "9-12": 21,
+    "3-5.5": 9,
+    "1-3.5": 2
+   },
+   "cited": {
+    "Il. 2.476": "9-12",
+    "Il. 2.812": "9-12",
+    "Il. 7.156": "9-12",
+    "Il. 10.264": "9-12"
+   },
+   "cited_lines": {
+    "Il. 2.476": "ὣς τοὺς ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα",
+    "Il. 2.812": "ἐν πεδίῳ ἀπάνευθε περίδρομος ἔνθα καὶ ἔνθα,",
+    "Il. 7.156": "πολλὸς γάρ τις ἔκειτο παρήορος ἔνθα καὶ ἔνθα.",
+    "Il. 10.264": "ἀργιόδοντος ὑὸς θαμέες ἔχον ἔνθα καὶ ἔνθα"
+   },
+   "asserted": "32x; 21 at 9-12",
+   "first_hits": [
+    "Il. 2.462@1-3.5: ἔνθα καὶ ἔνθα ποτῶνται ἀγαλλόμενα πτερύγεσσι",
+    "Il. 2.476@9-12: ὣς τοὺς ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα",
+    "Il. 2.779@3-5.5: φοίτων ἔνθα καὶ ἔνθα κατὰ στρατὸν οὐδὲ μάχοντο.",
+    "Il. 2.812@9-12: ἐν πεδίῳ ἀπάνευθε περίδρομος ἔνθα καὶ ἔνθα,",
+    "Il. 5.223@3-5.5: κραιπνὰ μάλʼ ἔνθα καὶ ἔνθα διωκέμεν ἠδὲ φέβεσθαι·",
+    "Il. 7.156@9-12: πολλὸς γάρ τις ἔκειτο παρήορος ἔνθα καὶ ἔνθα.",
+    "Il. 8.107@3-5.5: κραιπνὰ μάλʼ ἔνθα καὶ ἔνθα διωκέμεν ἠδὲ φέβεσθαι,",
+    "Il. 10.264@9-12: ἀργιόδοντος ὑὸς θαμέες ἔχον ἔνθα καὶ ἔνθα"
+   ]
+  },
+  {
+   "n": 36,
+   "label": "ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα",
+   "query": "ngram ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα",
+   "total": 1,
+   "positions": {
+    "3-12": 1
+   },
+   "cited": {
+    "Il. 2.476": "3-12"
+   },
+   "cited_lines": {
+    "Il. 2.476": "ὣς τοὺς ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα"
+   },
+   "asserted": "parallel",
+   "first_hits": [
+    "Il. 2.476@3-12: ὣς τοὺς ἡγεμόνες διεκόσμεον ἔνθα καὶ ἔνθα"
+   ]
+  },
+  {
+   "n": 36,
+   "label": "λαὸν ἐρήτυον τὼ (rejected test)",
+   "query": "ngram ἐρήτυον",
+   "total": 4,
+   "positions": {
+    "6-8": 4
+   },
+   "cited": {
+    "Il. 18.503": "6-8"
+   },
+   "cited_lines": {
+    "Il. 18.503": "κήρυκες δʼ ἄρα λαὸν ἐρήτυον· οἳ δὲ γέροντες"
+   },
+   "asserted": "(the verb's Homeric uses)",
+   "first_hits": [
+    "Il. 2.97@6-8: κήρυκες βοόωντες ἐρήτυον, εἴ ποτʼ ἀϋτῆς",
+    "Il. 18.503@6-8: κήρυκες δʼ ἄρα λαὸν ἐρήτυον· οἳ δὲ γέροντες",
+    "Od. 9.493@6-8: μειλιχίοις ἐπέεσσιν ἐρήτυον ἄλλοθεν ἄλλος·",
+    "Od. 10.442@6-8: μειλιχίοις ἐπέεσσιν ἐρήτυον ἄλλοθεν ἄλλος·"
+   ]
+  },
+  {
+   "n": 38,
+   "label": "καί νύ κεν ἔνθʼ",
+   "query": "ngram καί νύ κεν ἔνθ᾽",
+   "total": 3,
+   "positions": {
+    "1-3": 2,
+    "3-5": 1
+   },
+   "cited": {
+    "Il. 5.311": "1-3",
+    "Il. 5.388": "1-3",
+    "Il. 8.90": "3-5"
+   },
+   "cited_lines": {
+    "Il. 5.311": "καί νύ κεν ἔνθʼ ἀπόλοιτο ἄναξ ἀνδρῶν Αἰνείας,",
+    "Il. 5.388": "καί νύ κεν ἔνθʼ ἀπόλοιτο Ἄρης ἆτος πολέμοιο,",
+    "Il. 8.90": "Ἕκτορα· καί νύ κεν ἔνθʼ ὁ γέρων ἀπὸ θυμὸν ὄλεσσεν"
+   },
+   "asserted": "3x, 1-3",
+   "first_hits": [
+    "Il. 5.311@1-3: καί νύ κεν ἔνθʼ ἀπόλοιτο ἄναξ ἀνδρῶν Αἰνείας,",
+    "Il. 5.388@1-3: καί νύ κεν ἔνθʼ ἀπόλοιτο Ἄρης ἆτος πολέμοιο,",
+    "Il. 8.90@3-5: Ἕκτορα· καί νύ κεν ἔνθʼ ὁ γέρων ἀπὸ θυμὸν ὄλεσσεν"
+   ]
+  },
+  {
+   "n": 38,
+   "label": "καί νύ κεν",
+   "query": "ngram καί νύ κεν",
+   "total": 16,
+   "positions": {
+    "1-2": 14,
+    "3-4": 1,
+    "7-8": 1
+   },
+   "cited": {
+    "Il. 3.373": "1-2",
+    "Il. 5.311": "1-2"
+   },
+   "cited_lines": {
+    "Il. 3.373": "καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 5.311": "καί νύ κεν ἔνθʼ ἀπόλοιτο ἄναξ ἀνδρῶν Αἰνείας,"
+   },
+   "asserted": "16x, 14 at 1-2",
+   "first_hits": [
+    "Il. 3.373@1-2: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 5.311@1-2: καί νύ κεν ἔνθʼ ἀπόλοιτο ἄναξ ἀνδρῶν Αἰνείας,",
+    "Il. 5.388@1-2: καί νύ κεν ἔνθʼ ἀπόλοιτο Ἄρης ἆτος πολέμοιο,",
+    "Il. 8.90@3-4: Ἕκτορα· καί νύ κεν ἔνθʼ ὁ γέρων ἀπὸ θυμὸν ὄλεσσεν",
+    "Il. 11.311@1-2: καί νύ κεν ἐν νήεσσι πέσον φεύγοντες Ἀχαιοί,",
+    "Il. 11.750@1-2: καί νύ κεν Ἀκτορίωνε Μολίονε παῖδʼ ἀλάπαξα,",
+    "Il. 18.165@1-2: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 18.454@1-2: καί νύ κεν αὐτῆμαρ πόλιν ἔπραθον, εἰ μὴ Ἀπόλλων"
+   ]
+  },
+  {
+   "n": 38,
+   "label": "ἄσπετον ἤρατο κῦδος",
+   "query": "ngram ἄσπετον ἤρατο κῦδος",
+   "total": 2,
+   "positions": {
+    "7-12": 2
+   },
+   "cited": {
+    "Il. 3.373": "7-12",
+    "Il. 18.165": "7-12"
+   },
+   "cited_lines": {
+    "Il. 3.373": "καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 18.165": "καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,"
+   },
+   "asserted": "2x, both in καί νύ κεν … εἰ μή",
+   "first_hits": [
+    "Il. 3.373@7-12: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,",
+    "Il. 18.165@7-12: καί νύ κεν εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος,"
+   ]
+  },
+  {
+   "n": 38,
+   "label": "ἔλαβεν",
+   "query": "ngram ἔλαβεν",
+   "total": 3,
+   "positions": {
+    "5.5-7": 2,
+    "1.5-3": 1
+   },
+   "cited": {
+    "Il. 17.620": "5.5-7",
+    "Od. 6.81": "1.5-3",
+    "Od. 17.326": "5.5-7"
+   },
+   "cited_lines": {
+    "Il. 17.620": "καὶ τά γε Μηριόνης ἔλαβεν χείρεσσι φίλῃσι",
+    "Od. 6.81": "ἡ δʼ ἔλαβεν μάστιγα καὶ ἡνία σιγαλόεντα,",
+    "Od. 17.326": "Ἄργον δʼ αὖ κατὰ μοῖρʼ ἔλαβεν μέλανος θανάτοιο,"
+   },
+   "asserted": "3x: 5.5-7 2x, 1.5-3 1x",
+   "first_hits": [
+    "Il. 17.620@5.5-7: καὶ τά γε Μηριόνης ἔλαβεν χείρεσσι φίλῃσι",
+    "Od. 6.81@1.5-3: ἡ δʼ ἔλαβεν μάστιγα καὶ ἡνία σιγαλόεντα,",
+    "Od. 17.326@5.5-7: Ἄργον δʼ αὖ κατὰ μοῖρʼ ἔλαβεν μέλανος θανάτοιο,"
+   ]
+  },
+  {
+   "n": 40,
+   "label": "στῆ δὲ μάλʼ ἐγγὺς ἰών",
+   "query": "ngram στῆ δὲ μάλ᾽ ἐγγὺς ἰών",
+   "total": 5,
+   "positions": {
+    "1-5": 5
+   },
+   "cited": {
+    "Il. 4.496": "1-5",
+    "Il. 5.611": "1-5",
+    "Il. 11.429": "1-5",
+    "Il. 12.457": "1-5",
+    "Il. 17.347": "1-5"
+   },
+   "cited_lines": {
+    "Il. 4.496": "στῆ δὲ μάλʼ ἐγγὺς ἰὼν καὶ ἀκόντισε δουρὶ φαεινῷ",
+    "Il. 5.611": "στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἀκόντισε δουρὶ φαεινῷ,",
+    "Il. 11.429": "στῆ δὲ μάλʼ ἐγγὺς ἰὼν καί μιν πρὸς μῦθον ἔειπεν",
+    "Il. 12.457": "στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἐρεισάμενος βάλε μέσσας",
+    "Il. 17.347": "στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἀκόντισε δουρὶ φαεινῷ,"
+   },
+   "asserted": "5x, all 1-5",
+   "first_hits": [
+    "Il. 4.496@1-5: στῆ δὲ μάλʼ ἐγγὺς ἰὼν καὶ ἀκόντισε δουρὶ φαεινῷ",
+    "Il. 5.611@1-5: στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἀκόντισε δουρὶ φαεινῷ,",
+    "Il. 11.429@1-5: στῆ δὲ μάλʼ ἐγγὺς ἰὼν καί μιν πρὸς μῦθον ἔειπεν",
+    "Il. 12.457@1-5: στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἐρεισάμενος βάλε μέσσας",
+    "Il. 17.347@1-5: στῆ δὲ μάλʼ ἐγγὺς ἰών, καὶ ἀκόντισε δουρὶ φαεινῷ,"
+   ]
+  },
+  {
+   "n": 40,
+   "label": "ὃ δέ μιν",
+   "query": "ngram ὃ δέ μιν",
+   "total": 9,
+   "positions": {
+    "5.5-7": 8,
+    "3.5-5": 1
+   },
+   "cited": {
+    "Il. 5.304": "5.5-7",
+    "Il. 13.176": "5.5-7",
+    "Il. 13.387": "5.5-7",
+    "Il. 15.551": "5.5-7"
+   },
+   "cited_lines": {
+    "Il. 5.304": "οἷοι νῦν βροτοί εἰσʼ· ὃ δέ μιν ῥέα πάλλε καὶ οἶος.",
+    "Il. 13.176": "ναῖε δὲ πὰρ Πριάμῳ· ὃ δέ μιν τίεν ἶσα τέκεσσι.",
+    "Il. 13.387": "Ἰδομενῆα βαλεῖν· ὃ δέ μιν φθάμενος βάλε δουρὶ",
+    "Il. 15.551": "ναῖε δὲ πὰρ Πριάμῳ, ὃ δέ μιν τίεν ἶσα τέκεσσι·"
+   },
+   "asserted": "9x, 8 at 5.5-7",
+   "first_hits": [
+    "Il. 5.304@5.5-7: οἷοι νῦν βροτοί εἰσʼ· ὃ δέ μιν ῥέα πάλλε καὶ οἶος.",
+    "Il. 8.272@3.5-5: εἰς Αἴανθʼ· ὃ δέ μιν σάκεϊ κρύπτασκε φαεινῷ.",
+    "Il. 12.449@5.5-7: οἷοι νῦν βροτοί εἰσʼ· ὃ δέ μιν ῥέα πάλλε καὶ οἶος.",
+    "Il. 13.176@5.5-7: ναῖε δὲ πὰρ Πριάμῳ· ὃ δέ μιν τίεν ἶσα τέκεσσι.",
+    "Il. 13.387@5.5-7: Ἰδομενῆα βαλεῖν· ὃ δέ μιν φθάμενος βάλε δουρὶ",
+    "Il. 15.551@5.5-7: ναῖε δὲ πὰρ Πριάμῳ, ὃ δέ μιν τίεν ἶσα τέκεσσι·",
+    "Il. 20.287@5.5-7: οἷοι νῦν βροτοί εἰσʼ· ὃ δέ μιν ῥέα πάλλε καὶ οἶος.",
+    "Il. 20.480@5.5-7: αἰχμῇ χαλκείῃ· ὃ δέ μιν μένε χεῖρα βαρυνθεὶς"
+   ]
+  },
+  {
+   "n": 40,
+   "label": "βάλεν οὐδʼ ἀφάμαρτε",
+   "query": "ngram βάλεν οὐδ᾽ ἀφάμαρτε",
+   "total": 2,
+   "positions": {
+    "1.5-5.5": 2
+   },
+   "cited": {
+    "Il. 11.350": "1.5-5.5",
+    "Il. 13.160": "1.5-5.5"
+   },
+   "cited_lines": {
+    "Il. 11.350": "καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 13.160": "καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην"
+   },
+   "asserted": "2x, 1.5-5.5 (here 7.5-12)",
+   "first_hits": [
+    "Il. 11.350@1.5-5.5: καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 13.160@1.5-5.5: καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην"
+   ]
+  },
+  {
+   "n": 40,
+   "label": "οὐδʼ ἀφάμαρτε",
+   "query": "ngram οὐδ᾽ ἀφάμαρτε",
+   "total": 4,
+   "positions": {
+    "3-5.5": 2,
+    "9-12": 2
+   },
+   "cited": {
+    "Il. 14.403": "9-12",
+    "Il. 22.290": "9-12",
+    "Il. 11.350": "3-5.5",
+    "Il. 13.160": "3-5.5"
+   },
+   "cited_lines": {
+    "Il. 14.403": "ἔγχει, ἐπεὶ τέτραπτο πρὸς ἰθύ οἱ, οὐδʼ ἀφάμαρτε,",
+    "Il. 22.290": "καὶ βάλε Πηλεΐδαο μέσον σάκος οὐδʼ ἀφάμαρτε·",
+    "Il. 11.350": "καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 13.160": "καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην"
+   },
+   "asserted": "4x: 9-12 2x, 3-5.5 2x",
+   "first_hits": [
+    "Il. 11.350@3-5.5: καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 13.160@3-5.5: καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην",
+    "Il. 14.403@9-12: ἔγχει, ἐπεὶ τέτραπτο πρὸς ἰθύ οἱ, οὐδʼ ἀφάμαρτε,",
+    "Il. 22.290@9-12: καὶ βάλε Πηλεΐδαο μέσον σάκος οὐδʼ ἀφάμαρτε·"
+   ]
+  },
+  {
+   "n": 49,
+   "label": "ἔκφερʼ",
+   "query": "ngram ἔκφερ᾽",
+   "total": 3,
+   "positions": {
+    "3-3.5": 1,
+    "1-1.5": 1,
+    "9-9.5": 1
+   },
+   "cited": {
+    "Il. 23.259": "3-3.5",
+    "Il. 23.759": "1-1.5",
+    "Il. 23.785": "9-9.5"
+   },
+   "cited_lines": {
+    "Il. 23.259": "νηῶν δʼ ἔκφερʼ ἄεθλα λέβητάς τε τρίποδάς τε",
+    "Il. 23.759": "ἔκφερʼ Ὀϊλιάδης· ἐπὶ δʼ ὄρνυτο δῖος Ὀδυσσεὺς",
+    "Il. 23.785": "Ἀντίλοχος δʼ ἄρα δὴ λοισθήϊον ἔκφερʼ ἄεθλον"
+   },
+   "asserted": "3x: 1-1.5, 3-3.5, 9-9.5",
+   "first_hits": [
+    "Il. 23.259@3-3.5: νηῶν δʼ ἔκφερʼ ἄεθλα λέβητάς τε τρίποδάς τε",
+    "Il. 23.759@1-1.5: ἔκφερʼ Ὀϊλιάδης· ἐπὶ δʼ ὄρνυτο δῖος Ὀδυσσεὺς",
+    "Il. 23.785@9-9.5: Ἀντίλοχος δʼ ἄρα δὴ λοισθήϊον ἔκφερʼ ἄεθλον"
+   ]
+  },
+  {
+   "n": 49,
+   "label": "ἔκφερεν",
+   "query": "ngram ἔκφερεν",
+   "total": 1,
+   "positions": {
+    "1-2": 1
+   },
+   "cited": {
+    "Od. 15.470": "1-2"
+   },
+   "cited_lines": {
+    "Od. 15.470": "ἔκφερεν· αὐτὰρ ἐγὼν ἑπόμην ἀεσιφροσύνῃσι."
+   },
+   "asserted": "1x line-initial (here 3-4)",
+   "first_hits": [
+    "Od. 15.470@1-2: ἔκφερεν· αὐτὰρ ἐγὼν ἑπόμην ἀεσιφροσύνῃσι."
+   ]
+  },
+  {
+   "n": 49,
+   "label": "ὃ δʼ ἐπέσσυτο",
+   "query": "ngram ὃ δ᾽ ἐπέσσυτο",
+   "total": 2,
+   "positions": {
+    "5.5-8": 2
+   },
+   "cited": {
+    "Il. 21.234": "5.5-8",
+    "Il. 21.601": "5.5-8"
+   },
+   "cited_lines": {
+    "Il. 21.234": "κρημνοῦ ἀπαΐξας· ὃ δʼ ἐπέσσυτο οἴδματι θύων,",
+    "Il. 21.601": "ἔστη πρόσθε ποδῶν, ὃ δʼ ἐπέσσυτο ποσσὶ διώκειν·"
+   },
+   "asserted": "2x, 5.5-8",
+   "first_hits": [
+    "Il. 21.234@5.5-8: κρημνοῦ ἀπαΐξας· ὃ δʼ ἐπέσσυτο οἴδματι θύων,",
+    "Il. 21.601@5.5-8: ἔστη πρόσθε ποδῶν, ὃ δʼ ἐπέσσυτο ποσσὶ διώκειν·"
+   ]
+  },
+  {
+   "n": 49,
+   "label": "τυτθὸν ὀπίσσω",
+   "query": "ngram τυτθὸν ὀπίσσω",
+   "total": 1,
+   "positions": {
+    "9-12": 1
+   },
+   "cited": {
+    "Il. 5.443": "9-12"
+   },
+   "cited_lines": {
+    "Il. 5.443": "ὣς φάτο, Τυδεΐδης δʼ ἀνεχάζετο τυτθὸν ὀπίσσω"
+   },
+   "asserted": "1x, 9-12",
+   "first_hits": [
+    "Il. 5.443@9-12: ὣς φάτο, Τυδεΐδης δʼ ἀνεχάζετο τυτθὸν ὀπίσσω"
+   ]
+  },
+  {
+   "n": 49,
+   "label": "τυτθὸν",
+   "query": "ngram τυτθὸν",
+   "total": 29,
+   "positions": {
+    "9-9.5": 12,
+    "1-1.5": 8,
+    "5-5.5": 5,
+    "3-3.5": 2,
+    "4-5": 1,
+    "1-2": 1
+   },
+   "cited": {
+    "Il. 5.443": "9-9.5",
+    "Il. 1.354": "9-9.5",
+    "Il. 6.222": "9-9.5"
+   },
+   "cited_lines": {
+    "Il. 5.443": "ὣς φάτο, Τυδεΐδης δʼ ἀνεχάζετο τυτθὸν ὀπίσσω",
+    "Il. 1.354": "Ζεὺς ὑψιβρεμέτης· νῦν δʼ οὐδέ με τυτθὸν ἔτισεν·",
+    "Il. 6.222": "Τυδέα δʼ οὐ μέμνημαι, ἐπεί μʼ ἔτι τυτθὸν ἐόντα"
+   },
+   "asserted": "29x; 9-9.5 the commonest slot",
+   "first_hits": [
+    "Il. 1.354@9-9.5: Ζεὺς ὑψιβρεμέτης· νῦν δʼ οὐδέ με τυτθὸν ἔτισεν·",
+    "Il. 5.443@9-9.5: ὣς φάτο, Τυδεΐδης δʼ ἀνεχάζετο τυτθὸν ὀπίσσω",
+    "Il. 6.222@9-9.5: Τυδέα δʼ οὐ μέμνημαι, ἐπεί μʼ ἔτι τυτθὸν ἐόντα",
+    "Il. 7.334@1-1.5: τυτθὸν ἀπὸ πρὸ νεῶν, ὥς κʼ ὀστέα παισὶν ἕκαστος",
+    "Il. 8.283@9-9.5: πατρί τε σῷ Τελαμῶνι, ὅ σʼ ἔτρεφε τυτθὸν ἐόντα,",
+    "Il. 10.345@1-1.5: τυτθόν· ἔπειτα δέ κʼ αὐτὸν ἐπαΐξαντες ἕλοιμεν",
+    "Il. 11.223@9-9.5: Κισσῆς τόν γʼ ἔθρεψε δόμοις ἔνι τυτθὸν ἐόντα",
+    "Il. 12.406@5-5.5: χώρησεν δʼ ἄρα τυτθὸν ἐπάλξιος· οὐδʼ ὅ γε πάμπαν"
+   ]
+  },
+  {
+   "n": 49,
+   "label": "ὃ δʼ ἕσπετο (removed)",
+   "query": "ngram ὃ δ᾽ ἕσπετο",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "0x (critic m8)",
+   "first_hits": []
+  },
+  {
+   "n": 54,
+   "label": "δύο κῆρε",
+   "query": "ngram δύο κῆρε",
+   "total": 2,
+   "positions": {
+    "3.5-5.5": 2
+   },
+   "cited": {
+    "Il. 8.70": "3.5-5.5",
+    "Il. 22.210": "3.5-5.5"
+   },
+   "cited_lines": {
+    "Il. 8.70": "ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο",
+    "Il. 22.210": "ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο,"
+   },
+   "asserted": "2x",
+   "first_hits": [
+    "Il. 8.70@3.5-5.5: ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο",
+    "Il. 22.210@3.5-5.5: ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο,"
+   ]
+  },
+  {
+   "n": 54,
+   "label": "μάχης",
+   "query": "ngram μάχης",
+   "total": 71,
+   "positions": {
+    "6-7": 58,
+    "4-5": 12,
+    "2-3": 1
+   },
+   "cited": {
+    "Il. 7.26": "6-7",
+    "Il. 8.171": "6-7",
+    "Il. 2.391": "6-7"
+   },
+   "cited_lines": {
+    "Il. 7.26": "ἦ ἵνα δὴ Δαναοῖσι μάχης ἑτεραλκέα νίκην",
+    "Il. 8.171": "σῆμα τιθεὶς Τρώεσσι μάχης ἑτεραλκέα νίκην.",
+    "Il. 2.391": "ὃν δέ κʼ ἐγὼν ἀπάνευθε μάχης ἐθέλοντα νοήσω"
+   },
+   "asserted": "71x; at 6-7",
+   "first_hits": [
+    "Il. 2.391@6-7: ὃν δέ κʼ ἐγὼν ἀπάνευθε μάχης ἐθέλοντα νοήσω",
+    "Il. 2.823@6-7: Ἀρχέλοχός τʼ Ἀκάμας τε μάχης εὖ εἰδότε πάσης.",
+    "Il. 3.84@6-7: ὣς ἔφαθʼ, οἳ δʼ ἔσχοντο μάχης ἄνεῴ τʼ ἐγένοντο",
+    "Il. 4.342@4-5: ἑστάμεν ἠδὲ μάχης καυστείρης ἀντιβολῆσαι·",
+    "Il. 5.11@6-7: Φηγεὺς Ἰδαῖός τε μάχης εὖ εἰδότε πάσης.",
+    "Il. 5.35@4-5: ὣς εἰποῦσα μάχης ἐξήγαγε θοῦρον Ἄρηα·",
+    "Il. 5.157@6-7: λεῖπʼ, ἐπεὶ οὐ ζώοντε μάχης ἐκνοστήσαντε",
+    "Il. 5.355@4-5: εὗρεν ἔπειτα μάχης ἐπʼ ἀριστερὰ θοῦρον Ἄρηα"
+   ]
+  },
+  {
+   "n": 54,
+   "label": "μάχης ἑτεραλκέα νίκην",
+   "query": "ngram μάχης ἑτεραλκέα νίκην",
+   "total": 3,
+   "positions": {
+    "6-12": 3
+   },
+   "cited": {
+    "Il. 7.26": "6-12"
+   },
+   "cited_lines": {
+    "Il. 7.26": "ἦ ἵνα δὴ Δαναοῖσι μάχης ἑτεραλκέα νίκην"
+   },
+   "asserted": "μάχης at 6-7 before a 7.5-12 phrase",
+   "first_hits": [
+    "Il. 7.26@6-12: ἦ ἵνα δὴ Δαναοῖσι μάχης ἑτεραλκέα νίκην",
+    "Il. 8.171@6-12: σῆμα τιθεὶς Τρώεσσι μάχης ἑτεραλκέα νίκην.",
+    "Il. 16.362@6-12: ἦ μὲν δὴ γίγνωσκε μάχης ἑτεραλκέα νίκην·"
+   ]
+  },
+  {
+   "n": 54,
+   "label": "θαλερῶν αἰζηῶν",
+   "query": "ngram θαλερῶν αἰζηῶν",
+   "total": 2,
+   "positions": {
+    "7.5-12": 2
+   },
+   "cited": {
+    "Il. 10.259": "7.5-12",
+    "Il. 14.4": "7.5-12"
+   },
+   "cited_lines": {
+    "Il. 10.259": "κέκληται, ῥύεται δὲ κάρη θαλερῶν αἰζηῶν.",
+    "Il. 14.4": "μείζων δὴ παρὰ νηυσὶ βοὴ θαλερῶν αἰζηῶν."
+   },
+   "asserted": "2x, 7.5-12",
+   "first_hits": [
+    "Il. 10.259@7.5-12: κέκληται, ῥύεται δὲ κάρη θαλερῶν αἰζηῶν.",
+    "Il. 14.4@7.5-12: μείζων δὴ παρὰ νηυσὶ βοὴ θαλερῶν αἰζηῶν."
+   ]
+  },
+  {
+   "n": 54,
+   "label": "αἰζηῶν",
+   "query": "loose αιζηων",
+   "total": 11,
+   "positions": {
+    "10-12": 11
+   },
+   "cited": {
+    "Il. 2.660": "10-12",
+    "Il. 4.280": "10-12",
+    "Il. 5.92": "10-12",
+    "Il. 8.298": "10-12",
+    "Il. 10.259": "10-12",
+    "Il. 14.4": "10-12",
+    "Il. 15.315": "10-12",
+    "Il. 20.167": "10-12"
+   },
+   "cited_lines": {
+    "Il. 2.660": "πέρσας ἄστεα πολλὰ διοτρεφέων αἰζηῶν.",
+    "Il. 4.280": "τοῖαι ἅμʼ Αἰάντεσσι διοτρεφέων αἰζηῶν",
+    "Il. 5.92": "πολλὰ δʼ ὑπʼ αὐτοῦ ἔργα κατήριπε κάλʼ αἰζηῶν·",
+    "Il. 8.298": "πάντες δʼ ἐν χροῒ πῆχθεν ἀρηϊθόων αἰζηῶν·",
+    "Il. 10.259": "κέκληται, ῥύεται δὲ κάρη θαλερῶν αἰζηῶν.",
+    "Il. 14.4": "μείζων δὴ παρὰ νηυσὶ βοὴ θαλερῶν αἰζηῶν.",
+    "Il. 15.315": "ἄλλα μὲν ἐν χροῒ πήγνυτʼ ἀρηϊθόων αἰζηῶν,",
+    "Il. 20.167": "ἔρχεται, ἀλλʼ ὅτε κέν τις ἀρηϊθόων αἰζηῶν"
+   },
+   "asserted": "11x, all verse-final",
+   "first_hits": [
+    "Il. 2.660@10-12: πέρσας ἄστεα πολλὰ διοτρεφέων αἰζηῶν.",
+    "Il. 4.280@10-12: τοῖαι ἅμʼ Αἰάντεσσι διοτρεφέων αἰζηῶν",
+    "Il. 5.92@10-12: πολλὰ δʼ ὑπʼ αὐτοῦ ἔργα κατήριπε κάλʼ αἰζηῶν·",
+    "Il. 8.298@10-12: πάντες δʼ ἐν χροῒ πῆχθεν ἀρηϊθόων αἰζηῶν·",
+    "Il. 10.259@10-12: κέκληται, ῥύεται δὲ κάρη θαλερῶν αἰζηῶν.",
+    "Il. 14.4@10-12: μείζων δὴ παρὰ νηυσὶ βοὴ θαλερῶν αἰζηῶν.",
+    "Il. 15.315@10-12: ἄλλα μὲν ἐν χροῒ πήγνυτʼ ἀρηϊθόων αἰζηῶν,",
+    "Il. 20.167@10-12: ἔρχεται, ἀλλʼ ὅτε κέν τις ἀρηϊθόων αἰζηῶν"
+   ]
+  },
+  {
+   "n": 54,
+   "label": "Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων",
+   "query": "ngram Τρώων θ᾽ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων",
+   "total": 4,
+   "positions": {
+    "1-12": 4
+   },
+   "cited": {
+    "Il. 8.71": "1-12"
+   },
+   "cited_lines": {
+    "Il. 8.71": "Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων,"
+   },
+   "asserted": "the two parties' genitives after the scales line",
+   "first_hits": [
+    "Il. 3.127@1-12: Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων,",
+    "Il. 3.131@1-12: Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων,",
+    "Il. 3.251@1-12: Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων",
+    "Il. 8.71@1-12: Τρώων θʼ ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων,"
+   ]
+  },
+  {
+   "n": 54,
+   "label": "τανηλεγέος θανάτοιο (removed)",
+   "query": "ngram τανηλεγέος θανάτοιο",
+   "total": 8,
+   "positions": {
+    "6-12": 8
+   },
+   "cited": {
+    "Il. 8.70": "6-12",
+    "Il. 22.210": "6-12"
+   },
+   "cited_lines": {
+    "Il. 8.70": "ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο",
+    "Il. 22.210": "ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο,"
+   },
+   "asserted": "(critic M5)",
+   "first_hits": [
+    "Il. 8.70@6-12: ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο",
+    "Il. 22.210@6-12: ἐν δʼ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο,",
+    "Od. 2.100@6-12: μοῖρʼ ὀλοὴ καθέλῃσι τανηλεγέος θανάτοιο,",
+    "Od. 3.238@6-12: μοῖρʼ ὀλοὴ καθέλῃσι τανηλεγέος θανάτοιο.",
+    "Od. 11.171@6-12: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 11.398@6-12: τίς νύ σε κὴρ ἐδάμασσε τανηλεγέος θανάτοιο;",
+    "Od. 19.145@6-12: μοῖρʼ ὀλοὴ καθέλῃσι τανηλεγέος θανάτοιο·",
+    "Od. 24.135@6-12: μοῖρʼ ὀλοὴ καθέλῃσι τανηλεγέος θανάτοιο,"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "ἕλκε δὲ μέσσα λαβών ῥέπε δʼ",
+   "query": "ngram ἕλκε δὲ μέσσα λαβών ῥέπε δ᾽",
+   "total": 2,
+   "positions": {
+    "1-7": 2
+   },
+   "cited": {
+    "Il. 8.72": "1-7",
+    "Il. 22.212": "1-7"
+   },
+   "cited_lines": {
+    "Il. 8.72": "ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ αἴσιμον ἦμαρ Ἀχαιῶν.",
+    "Il. 22.212": "ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ Ἕκτορος αἴσιμον ἦμαρ,"
+   },
+   "asserted": "2x, 1-7",
+   "first_hits": [
+    "Il. 8.72@1-7: ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ αἴσιμον ἦμαρ Ἀχαιῶν.",
+    "Il. 22.212@1-7: ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ Ἕκτορος αἴσιμον ἦμαρ,"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "ῥέπε δʼ αἴσιμον ἦμαρ Ἀχαιῶν",
+   "query": "ngram ῥέπε δ᾽ αἴσιμον ἦμαρ Ἀχαιῶν",
+   "total": 1,
+   "positions": {
+    "5.5-12": 1
+   },
+   "cited": {
+    "Il. 8.72": "5.5-12"
+   },
+   "cited_lines": {
+    "Il. 8.72": "ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ αἴσιμον ἦμαρ Ἀχαιῶν."
+   },
+   "asserted": "the same formula for a defeat",
+   "first_hits": [
+    "Il. 8.72@5.5-12: ἕλκε δὲ μέσσα λαβών· ῥέπε δʼ αἴσιμον ἦμαρ Ἀχαιῶν."
+   ]
+  },
+  {
+   "n": 56,
+   "label": "ἐέλδωρ",
+   "query": "loose εελδωρ",
+   "total": 10,
+   "positions": {
+    "10-12": 9,
+    "6-8": 1
+   },
+   "cited": {
+    "Il. 1.41": "10-12",
+    "Il. 1.455": "10-12",
+    "Il. 1.504": "10-12",
+    "Il. 8.242": "10-12",
+    "Il. 15.74": "10-12",
+    "Il. 16.238": "10-12",
+    "Od. 3.418": "10-12",
+    "Od. 17.242": "10-12"
+   },
+   "cited_lines": {
+    "Il. 1.41": "ταύρων ἠδʼ αἰγῶν, τὸ δέ μοι κρήηνον ἐέλδωρ·",
+    "Il. 1.455": "ἠδʼ ἔτι καὶ νῦν μοι τόδʼ ἐπικρήηνον ἐέλδωρ·",
+    "Il. 1.504": "ἢ ἔπει ἢ ἔργῳ, τόδε μοι κρήηνον ἐέλδωρ·",
+    "Il. 8.242": "ἀλλὰ Ζεῦ τόδε πέρ μοι ἐπικρήηνον ἐέλδωρ·",
+    "Il. 15.74": "πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,",
+    "Il. 16.238": "ἠδʼ ἔτι καὶ νῦν μοι τόδʼ ἐπικρήηνον ἐέλδωρ·",
+    "Od. 3.418": "καρπαλίμως μοι, τέκνα φίλα, κρηήνατʼ ἐέλδωρ,",
+    "Od. 17.242": "ἀρνῶν ἠδʼ ἐρίφων, τόδε μοι κρηήνατʼ ἐέλδωρ,"
+   },
+   "asserted": "10x, all 10-12",
+   "first_hits": [
+    "Il. 1.41@10-12: ταύρων ἠδʼ αἰγῶν, τὸ δέ μοι κρήηνον ἐέλδωρ·",
+    "Il. 1.455@10-12: ἠδʼ ἔτι καὶ νῦν μοι τόδʼ ἐπικρήηνον ἐέλδωρ·",
+    "Il. 1.504@10-12: ἢ ἔπει ἢ ἔργῳ, τόδε μοι κρήηνον ἐέλδωρ·",
+    "Il. 8.242@10-12: ἀλλὰ Ζεῦ τόδε πέρ μοι ἐπικρήηνον ἐέλδωρ·",
+    "Il. 15.74@10-12: πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,",
+    "Il. 16.238@10-12: ἠδʼ ἔτι καὶ νῦν μοι τόδʼ ἐπικρήηνον ἐέλδωρ·",
+    "Od. 3.418@10-12: καρπαλίμως μοι, τέκνα φίλα, κρηήνατʼ ἐέλδωρ,",
+    "Od. 17.242@10-12: ἀρνῶν ἠδʼ ἐρίφων, τόδε μοι κρηήνατʼ ἐέλδωρ,"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "τελευτηθῆναι ἐέλδωρ",
+   "query": "ngram τελευτηθῆναι ἐέλδωρ",
+   "total": 1,
+   "positions": {
+    "6-12": 1
+   },
+   "cited": {
+    "Il. 15.74": "6-12"
+   },
+   "cited_lines": {
+    "Il. 15.74": "πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,"
+   },
+   "asserted": "a hero's ἐέλδωρ with his name in the genitive",
+   "first_hits": [
+    "Il. 15.74@6-12: πρίν γε τὸ Πηλεΐδαο τελευτηθῆναι ἐέλδωρ,"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "τότʼ",
+   "query": "ngram τότ᾽",
+   "total": 105,
+   "positions": {
+    "1.5-1.5": 61,
+    "2-2": 16,
+    "9.5-9.5": 9,
+    "6-6": 8,
+    "3.5-3.5": 7,
+    "5.5-5.5": 3,
+    "4-4": 1
+   },
+   "cited": {
+    "Il. 5.502": "9.5-9.5",
+    "Il. 6.314": "9.5-9.5",
+    "Il. 9.131": "9.5-9.5"
+   },
+   "cited_lines": {
+    "Il. 5.502": "αἳ δʼ ὑπολευκαίνονται ἀχυρμιαί· ὣς τότʼ Ἀχαιοὶ",
+    "Il. 6.314": "καλά, τά ῥʼ αὐτὸς ἔτευξε σὺν ἀνδράσιν οἳ τότʼ ἄριστοι",
+    "Il. 9.131": "τὰς μέν οἱ δώσω, μετὰ δʼ ἔσσεται ἣν τότʼ ἀπηύρων"
+   },
+   "asserted": "at 9.5 before a vowel (count field 3)",
+   "first_hits": [
+    "Il. 1.426@1.5-1.5: καὶ τότʼ ἔπειτά τοι εἶμι Διὸς ποτὶ χαλκοβατὲς δῶ,",
+    "Il. 1.478@1.5-1.5: καὶ τότʼ ἔπειτʼ ἀνάγοντο μετὰ στρατὸν εὐρὺν Ἀχαιῶν·",
+    "Il. 2.221@6-6: τὼ γὰρ νεικείεσκε· τότʼ αὖτʼ Ἀγαμέμνονι δίῳ",
+    "Il. 3.187@2-2: οἵ ῥα τότʼ ἐστρατόωντο παρʼ ὄχθας Σαγγαρίοιο·",
+    "Il. 3.452@5.5-5.5: δεῖξαι Ἀλέξανδρον τότʼ ἀρηϊφίλῳ Μενελάῳ·",
+    "Il. 4.378@2-2: οἳ δὲ τότʼ ἐστρατόωνθʼ ἱερὰ πρὸς τείχεα Θήβης,",
+    "Il. 4.427@1.5-1.5: ὣς τότʼ ἐπασσύτεραι Δαναῶν κίνυντο φάλαγγες",
+    "Il. 5.114@1.5-1.5: δὴ τότʼ ἔπειτʼ ἠρᾶτο βοὴν ἀγαθὸς Διομήδης·"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "Ἀτρεΐδης",
+   "query": "ngram Ἀτρεΐδης",
+   "total": 83,
+   "positions": {
+    "1-3": 42,
+    "3-5": 34,
+    "7-9": 5,
+    "5-7": 1,
+    "9-11": 1
+   },
+   "cited": {
+    "Il. 14.29": "7-9"
+   },
+   "cited_lines": {
+    "Il. 14.29": "Τυδεΐδης Ὀδυσεύς τε καὶ Ἀτρεΐδης Ἀγαμέμνων."
+   },
+   "asserted": "5x at 7-9 (count field 5; the recorded query is `--loose ατρειδης --word`)",
+   "first_hits": [
+    "Il. 1.7@1-3: Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.",
+    "Il. 1.12@1-3: Ἀτρεΐδης· ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν",
+    "Il. 1.102@3-5: ἥρως Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων",
+    "Il. 1.247@1-3: Ἀτρεΐδης δʼ ἑτέρωθεν ἐμήνιε· τοῖσι δὲ Νέστωρ",
+    "Il. 1.308@1-3: Ἀτρεΐδης δʼ ἄρα νῆα θοὴν ἅλα δὲ προέρυσσεν,",
+    "Il. 1.313@3-5: λαοὺς δʼ Ἀτρεΐδης ἀπολυμαίνεσθαι ἄνωγεν·",
+    "Il. 1.355@3-5: ἦ γάρ μʼ Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων",
+    "Il. 1.411@3-5: γνῷ δὲ καὶ Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "ἀντιθέου",
+   "query": "ngram ἀντιθέου",
+   "total": 3,
+   "positions": {
+    "1-3": 2,
+    "7-9": 1
+   },
+   "cited": {
+    "Od. 20.369": "7-9"
+   },
+   "cited_lines": {
+    "Od. 20.369": "μνηστήρων, οἳ δῶμα κάτʼ ἀντιθέου Ὀδυσῆος"
+   },
+   "asserted": "LSSL at 7-9",
+   "first_hits": [
+    "Od. 14.40@1-3: ἀντιθέου γὰρ ἄνακτος ὀδυρόμενος καὶ ἀχεύων",
+    "Od. 20.369@7-9: μνηστήρων, οἳ δῶμα κάτʼ ἀντιθέου Ὀδυσῆος",
+    "Od. 21.254@1-3: ἀντιθέου Ὀδυσῆος, ὅ τʼ οὐ δυνάμεσθα τανύσσαι"
+   ]
+  },
+  {
+   "n": 56,
+   "label": "κακὸν ἦμαρ (removed)",
+   "query": "ngram κακὸν ἦμαρ",
+   "total": 7,
+   "positions": {
+    "9.5-12": 7
+   },
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "(critic M5)",
+   "first_hits": [
+    "Il. 9.251@9.5-12: φράζευ ὅπως Δαναοῖσιν ἀλεξήσεις κακὸν ἦμαρ.",
+    "Il. 9.597@9.5-12: ὣς ὃ μὲν Αἰτωλοῖσιν ἀπήμυνεν κακὸν ἦμαρ",
+    "Il. 20.315@9.5-12: μή ποτʼ ἐπὶ Τρώεσσιν ἀλεξήσειν κακὸν ἦμαρ,",
+    "Il. 21.374@9.5-12: μή ποτʼ ἐπὶ Τρώεσσιν ἀλεξήσειν κακὸν ἦμαρ,",
+    "Od. 10.269@9.5-12: φεύγωμεν· ἔτι γάρ κεν ἀλύξαιμεν κακὸν ἦμαρ.",
+    "Od. 10.288@9.5-12: ἔρχευ, ὅ κέν τοι κρατὸς ἀλάλκῃσιν κακὸν ἦμαρ.",
+    "Od. 15.524@9.5-12: εἴ κέ σφι πρὸ γάμοιο τελευτήσει κακὸν ἦμαρ."
+   ]
+  },
+  {
+   "n": 58,
+   "label": "ἕτερος",
+   "query": "loose ετεροσ",
+   "total": 4,
+   "positions": {
+    "7.5-9": 2,
+    "1.5-3": 1,
+    "5.5-7": 1
+   },
+   "cited": {
+    "Od. 8.374": "1.5-3",
+    "Od. 9.302": "5.5-7",
+    "Il. 5.258": "7.5-9",
+    "Il. 24.528": "7.5-9"
+   },
+   "cited_lines": {
+    "Od. 8.374": "τὴν ἕτερος ῥίπτασκε ποτὶ νέφεα σκιόεντα",
+    "Od. 9.302": "χείρʼ ἐπιμασσάμενος· ἕτερος δέ με θυμὸς ἔρυκεν.",
+    "Il. 5.258": "ἄμφω ἀφʼ ἡμείων, εἴ γʼ οὖν ἕτερός γε φύγῃσιν.",
+    "Il. 24.528": "δώρων οἷα δίδωσι κακῶν, ἕτερος δὲ ἑάων·"
+   },
+   "asserted": "4x: 1.5-3, 5.5-7, 7.5-9 2x",
+   "first_hits": [
+    "Il. 5.258@7.5-9: ἄμφω ἀφʼ ἡμείων, εἴ γʼ οὖν ἕτερός γε φύγῃσιν.",
+    "Il. 24.528@7.5-9: δώρων οἷα δίδωσι κακῶν, ἕτερος δὲ ἑάων·",
+    "Od. 8.374@1.5-3: τὴν ἕτερος ῥίπτασκε ποτὶ νέφεα σκιόεντα",
+    "Od. 9.302@5.5-7: χείρʼ ἐπιμασσάμενος· ἕτερος δέ με θυμὸς ἔρυκεν."
+   ]
+  },
+  {
+   "n": 58,
+   "label": "τὴν ἕτερος",
+   "query": "ngram τὴν ἕτερος",
+   "total": 1,
+   "positions": {
+    "1-3": 1
+   },
+   "cited": {
+    "Od. 8.374": "1-3"
+   },
+   "cited_lines": {
+    "Od. 8.374": "τὴν ἕτερος ῥίπτασκε ποτὶ νέφεα σκιόεντα"
+   },
+   "asserted": "1.5-3",
+   "first_hits": [
+    "Od. 8.374@1-3: τὴν ἕτερος ῥίπτασκε ποτὶ νέφεα σκιόεντα"
+   ]
+  },
+  {
+   "n": 58,
+   "label": "μετέπειτα",
+   "query": "ngram μετέπειτα",
+   "total": 5,
+   "positions": {
+    "5.5-7.5": 3,
+    "3.5-5.5": 1,
+    "9.5-12": 1
+   },
+   "cited": {
+    "Il. 14.310": "3.5-5.5",
+    "Od. 10.519": "5.5-7.5"
+   },
+   "cited_lines": {
+    "Il. 14.310": "μή πώς μοι μετέπειτα χολώσεαι, αἴ κε σιωπῇ",
+    "Od. 10.519": "πρῶτα μελικρήτῳ, μετέπειτα δὲ ἡδέι οἴνῳ,"
+   },
+   "asserted": "5x: 3.5-5.5 1x, 5.5-7.5 3x, 9.5-12 1x",
+   "first_hits": [
+    "Il. 14.310@3.5-5.5: μή πώς μοι μετέπειτα χολώσεαι, αἴ κε σιωπῇ",
+    "Od. 10.519@5.5-7.5: πρῶτα μελικρήτῳ, μετέπειτα δὲ ἡδέι οἴνῳ,",
+    "Od. 11.27@5.5-7.5: πρῶτα μελικρήτῳ, μετέπειτα δὲ ἡδέι οἴνῳ,",
+    "Od. 11.640@5.5-7.5: πρῶτα μὲν εἰρεσίῃ, μετέπειτα δὲ κάλλιμος οὖρος.",
+    "Od. 14.403@9.5-12: εἴη ἐπʼ ἀνθρώπους ἅμα τʼ αὐτίκα καὶ μετέπειτα,"
+   ]
+  },
+  {
+   "n": 58,
+   "label": "μάλα σχεδὸν ἦλθε διώκων",
+   "query": "ngram μάλα σχεδὸν ἦλθε διώκων",
+   "total": 1,
+   "positions": {
+    "6-12": 1
+   },
+   "cited": {
+    "Il. 23.499": "6-12"
+   },
+   "cited_lines": {
+    "Il. 23.499": "ὣς φάτο, Τυδεΐδης δὲ μάλα σχεδὸν ἦλθε διώκων,"
+   },
+   "asserted": "6-12",
+   "first_hits": [
+    "Il. 23.499@6-12: ὣς φάτο, Τυδεΐδης δὲ μάλα σχεδὸν ἦλθε διώκων,"
+   ]
+  },
+  {
+   "n": 58,
+   "label": "μάλα σχεδὸν",
+   "query": "ngram μάλα σχεδὸν",
+   "total": 8,
+   "positions": {
+    "6-8": 6,
+    "4-6": 2
+   },
+   "cited": {
+    "Il. 5.607": "6-8",
+    "Il. 11.116": "6-8",
+    "Il. 23.499": "6-8"
+   },
+   "cited_lines": {
+    "Il. 5.607": "ὣς ἄρʼ ἔφη, Τρῶες δὲ μάλα σχεδὸν ἤλυθον αὐτῶν.",
+    "Il. 11.116": "ἣ δʼ εἴ πέρ τε τύχῃσι μάλα σχεδόν, οὐ δύναταί σφι",
+    "Il. 23.499": "ὣς φάτο, Τυδεΐδης δὲ μάλα σχεδὸν ἦλθε διώκων,"
+   },
+   "asserted": "8x, 6 at 6-8",
+   "first_hits": [
+    "Il. 5.607@6-8: ὣς ἄρʼ ἔφη, Τρῶες δὲ μάλα σχεδὸν ἤλυθον αὐτῶν.",
+    "Il. 11.116@6-8: ἣ δʼ εἴ πέρ τε τύχῃσι μάλα σχεδόν, οὐ δύναταί σφι",
+    "Il. 13.402@4-6: Δηΐφοβος δὲ μάλα σχεδὸν ἤλυθεν Ἰδομενῆος",
+    "Il. 23.499@6-8: ὣς φάτο, Τυδεΐδης δὲ μάλα σχεδὸν ἦλθε διώκων,",
+    "Od. 4.439@6-8: ἧστο μένουσʼ· ἡμεῖς δὲ μάλα σχεδὸν ἤλθομεν αὐτῆς·",
+    "Od. 9.23@6-8: πολλαὶ ναιετάουσι μάλα σχεδὸν ἀλλήλῃσι,",
+    "Od. 10.441@6-8: καὶ πηῷ περ ἐόντι μάλα σχεδόν· ἀλλά μʼ ἑταῖροι",
+    "Od. 13.161@4-6: ἔνθʼ ἔμενʼ· ἡ δὲ μάλα σχεδὸν ἤλυθε ποντοπόρος νηῦς"
+   ]
+  },
+  {
+   "n": 58,
+   "label": "νηλεὲς ἦμαρ (removed)",
+   "query": "ngram νηλεὲς ἦμαρ",
+   "total": 9,
+   "positions": {
+    "9-12": 9
+   },
+   "cited": {
+    "Il. 11.484": "9-12",
+    "Il. 13.514": "9-12"
+   },
+   "cited_lines": {
+    "Il. 11.484": "ἀΐσσων ᾧ ἔγχει ἀμύνετο νηλεὲς ἦμαρ.",
+    "Il. 13.514": "τώ ῥα καὶ ἐν σταδίῃ μὲν ἀμύνετο νηλεὲς ἦμαρ,"
+   },
+   "asserted": "(critic M5)",
+   "first_hits": [
+    "Il. 11.484@9-12: ἀΐσσων ᾧ ἔγχει ἀμύνετο νηλεὲς ἦμαρ.",
+    "Il. 11.588@9-12: στῆτʼ ἐλελιχθέντες καὶ ἀμύνετε νηλεὲς ἦμαρ",
+    "Il. 13.514@9-12: τώ ῥα καὶ ἐν σταδίῃ μὲν ἀμύνετο νηλεὲς ἦμαρ,",
+    "Il. 15.375@9-12: τῶν μνῆσαι καὶ ἄμυνον Ὀλύμπιε νηλεὲς ἦμαρ,",
+    "Il. 17.511@9-12: νῶϊν δὲ ζωοῖσιν ἀμύνετε νηλεὲς ἦμαρ·",
+    "Il. 17.615@9-12: καὶ τῷ μὲν φάος ἦλθεν, ἄμυνε δὲ νηλεὲς ἦμαρ,",
+    "Il. 21.57@9-12: οἷον δὴ καὶ ὅδʼ ἦλθε φυγὼν ὕπο νηλεὲς ἦμαρ",
+    "Od. 8.525@9-12: ἄστεϊ καὶ τεκέεσσιν ἀμύνων νηλεὲς ἦμαρ·"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "ἤμβροτες οὐδʼ ἔτυχες",
+   "query": "ngram ἤμβροτες οὐδ᾽ ἔτυχες",
+   "total": 1,
+   "positions": {
+    "1-5": 1
+   },
+   "cited": {
+    "Il. 5.287": "1-5"
+   },
+   "cited_lines": {
+    "Il. 5.287": "ἤμβροτες οὐδʼ ἔτυχες· ἀτὰρ οὐ μὲν σφῶΐ γʼ ὀΐω"
+   },
+   "asserted": "1-5",
+   "first_hits": [
+    "Il. 5.287@1-5: ἤμβροτες οὐδʼ ἔτυχες· ἀτὰρ οὐ μὲν σφῶΐ γʼ ὀΐω"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "ἤμβροτες",
+   "query": "ngram ἤμβροτες",
+   "total": 2,
+   "positions": {
+    "1-2": 2
+   },
+   "cited": {
+    "Il. 5.287": "1-2",
+    "Il. 22.279": "1-2"
+   },
+   "cited_lines": {
+    "Il. 5.287": "ἤμβροτες οὐδʼ ἔτυχες· ἀτὰρ οὐ μὲν σφῶΐ γʼ ὀΐω",
+    "Il. 22.279": "ἤμβροτες, οὐδʼ ἄρα πώ τι θεοῖς ἐπιείκελʼ Ἀχιλλεῦ"
+   },
+   "asserted": "2x, both 1-2",
+   "first_hits": [
+    "Il. 5.287@1-2: ἤμβροτες οὐδʼ ἔτυχες· ἀτὰρ οὐ μὲν σφῶΐ γʼ ὀΐω",
+    "Il. 22.279@1-2: ἤμβροτες, οὐδʼ ἄρα πώ τι θεοῖς ἐπιείκελʼ Ἀχιλλεῦ"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "Ἀχιλεῦ",
+   "query": "ngram Ἀχιλεῦ",
+   "total": 13,
+   "positions": {
+    "1.5-3": 9,
+    "5.5-7": 3,
+    "3.5-5": 1
+   },
+   "cited": {
+    "Il. 11.606": "5.5-7",
+    "Il. 24.503": "5.5-7",
+    "Il. 24.661": "5.5-7"
+   },
+   "cited_lines": {
+    "Il. 11.606": "τίπτέ με κικλήσκεις Ἀχιλεῦ; τί δέ σε χρεὼ ἐμεῖο;",
+    "Il. 24.503": "ἀλλʼ αἰδεῖο θεοὺς Ἀχιλεῦ, αὐτόν τʼ ἐλέησον",
+    "Il. 24.661": "ὧδέ κέ μοι ῥέζων Ἀχιλεῦ κεχαρισμένα θείης."
+   },
+   "asserted": "13x (coinages); 3 at 5.5-7 (count field 3)",
+   "first_hits": [
+    "Il. 1.74@1.5-3: ὦ Ἀχιλεῦ κέλεαί με Διῒ φίλε μυθήσασθαι",
+    "Il. 9.225@1.5-3: χαῖρʼ Ἀχιλεῦ· δαιτὸς μὲν ἐΐσης οὐκ ἐπιδευεῖς",
+    "Il. 9.496@1.5-3: ἀλλʼ Ἀχιλεῦ δάμασον θυμὸν μέγαν· οὐδέ τί σε χρὴ",
+    "Il. 9.513@1.5-3: ἀλλʼ Ἀχιλεῦ πόρε καὶ σὺ Διὸς κούρῃσιν ἕπεσθαι",
+    "Il. 11.606@5.5-7: τίπτέ με κικλήσκεις Ἀχιλεῦ; τί δέ σε χρεὼ ἐμεῖο;",
+    "Il. 16.21@1.5-3: ὦ Ἀχιλεῦ Πηλῆος υἱὲ μέγα φέρτατʼ Ἀχαιῶν",
+    "Il. 19.216@1.5-3: ὦ Ἀχιλεῦ Πηλῆος υἱὲ μέγα φέρτατʼ Ἀχαιῶν,",
+    "Il. 21.74@3.5-5: γουνοῦμαι σʼ Ἀχιλεῦ· σὺ δέ μʼ αἴδεο καί μʼ ἐλέησον·"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "Φεδερεῦ",
+   "query": "loose φεδερευ",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "0 hits (coinages)",
+   "first_hits": []
+  },
+  {
+   "n": 61,
+   "label": "Ὀδυσεῦ",
+   "query": "ngram Ὀδυσεῦ",
+   "total": 16,
+   "positions": {
+    "3.5-5": 8,
+    "1.5-3": 5,
+    "5.5-7": 3
+   },
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "named in `coinages`",
+   "first_hits": [
+    "Il. 9.346@1.5-3: ἀλλʼ Ὀδυσεῦ σὺν σοί τε καὶ ἄλλοισιν βασιλεῦσι",
+    "Il. 9.673@5.5-7: εἴπʼ ἄγε μʼ ὦ πολύαινʼ Ὀδυσεῦ μέγα κῦδος Ἀχαιῶν",
+    "Il. 10.544@5.5-7: εἴπʼ ἄγε μʼ ὦ πολύαινʼ Ὀδυσεῦ μέγα κῦδος Ἀχαιῶν",
+    "Il. 11.430@1.5-3: ὦ Ὀδυσεῦ πολύαινε δόλων ἆτʼ ἠδὲ πόνοιο",
+    "Il. 14.104@1.5-3: ὦ Ὀδυσεῦ μάλα πώς με καθίκεο θυμὸν ἐνιπῇ",
+    "Od. 9.517@3.5-5: ἀλλʼ ἄγε δεῦρʼ, Ὀδυσεῦ, ἵνα τοι πὰρ ξείνια θείω",
+    "Od. 10.64@3.5-5: πῶς ἦλθες, Ὀδυσεῦ; τίς τοι κακὸς ἔχραε δαίμων;",
+    "Od. 10.378@3.5-5: τίφθʼ οὕτως, Ὀδυσεῦ, κατʼ ἄρʼ ἕζεαι ἶσος ἀναύδῳ,"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "ἔνθʼ ἄρα τοι Πάτροκλε",
+   "query": "ngram ἔνθ᾽ ἄρα τοι Πάτροκλε",
+   "total": 1,
+   "positions": {
+    "1-5.5": 1
+   },
+   "cited": {
+    "Il. 16.787": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 16.787": "ἔνθʼ ἄρα τοι Πάτροκλε φάνη βιότοιο τελευτή·"
+   },
+   "asserted": "the narrator's apostrophe",
+   "first_hits": [
+    "Il. 16.787@1-5.5: ἔνθʼ ἄρα τοι Πάτροκλε φάνη βιότοιο τελευτή·"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "οὐδὲ σέθεν Μενέλαε",
+   "query": "ngram οὐδὲ σέθεν Μενέλαε",
+   "total": 1,
+   "positions": {
+    "1-5.5": 1
+   },
+   "cited": {
+    "Il. 4.127": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 4.127": "οὐδὲ σέθεν Μενέλαε θεοὶ μάκαρες λελάθοντο"
+   },
+   "asserted": "apostrophe",
+   "first_hits": [
+    "Il. 4.127@1-5.5: οὐδὲ σέθεν Μενέλαε θεοὶ μάκαρες λελάθοντο"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "ἐξενάριξας",
+   "query": "ngram ἐξενάριξας",
+   "total": 3,
+   "positions": {
+    "9-12": 3
+   },
+   "cited": {
+    "Il. 16.692": "9-12"
+   },
+   "cited_lines": {
+    "Il. 16.692": "ἔνθα τίνα πρῶτον τίνα δʼ ὕστατον ἐξενάριξας"
+   },
+   "asserted": "apostrophe (16.692-693)",
+   "first_hits": [
+    "Il. 16.573@9-12: τὸ πρίν· ἀτὰρ τότε γʼ ἐσθλὸν ἀνεψιὸν ἐξεναρίξας",
+    "Il. 16.692@9-12: ἔνθα τίνα πρῶτον τίνα δʼ ὕστατον ἐξενάριξας",
+    "Od. 11.273@9-12: γημαμένη ᾧ υἷι· ὁ δʼ ὃν πατέρʼ ἐξεναρίξας"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "Πατρόκλεις",
+   "query": "ngram Πατρόκλεις",
+   "total": 2,
+   "positions": {
+    "1-3": 2
+   },
+   "cited": {
+    "Il. 16.693": "1-3"
+   },
+   "cited_lines": {
+    "Il. 16.693": "Πατρόκλεις, ὅτε δή σε θεοὶ θάνατον δὲ κάλεσσαν;"
+   },
+   "asserted": "apostrophe (16.692-693)",
+   "first_hits": [
+    "Il. 16.693@1-3: Πατρόκλεις, ὅτε δή σε θεοὶ θάνατον δὲ κάλεσσαν;",
+    "Il. 16.859@1-3: Πατρόκλεις τί νύ μοι μαντεύεαι αἰπὺν ὄλεθρον;"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "μάλα πολλὰ",
+   "query": "ngram μάλα πολλὰ",
+   "total": 20,
+   "positions": {
+    "3.5-5.5": 14,
+    "7.5-9.5": 5,
+    "9.5-12": 1
+   },
+   "cited": {
+    "Il. 1.156": "7.5-9.5",
+    "Il. 2.255": "7.5-9.5",
+    "Il. 8.22": "7.5-9.5"
+   },
+   "cited_lines": {
+    "Il. 1.156": "καρπὸν ἐδηλήσαντʼ, ἐπεὶ ἦ μάλα πολλὰ μεταξὺ",
+    "Il. 2.255": "ἧσαι ὀνειδίζων, ὅτι οἱ μάλα πολλὰ διδοῦσιν",
+    "Il. 8.22": "Ζῆνʼ ὕπατον μήστωρʼ, οὐδʼ εἰ μάλα πολλὰ κάμοιτε."
+   },
+   "asserted": "20x: 7.5-9.5, 3.5-5.5",
+   "first_hits": [
+    "Il. 1.156@7.5-9.5: καρπὸν ἐδηλήσαντʼ, ἐπεὶ ἦ μάλα πολλὰ μεταξὺ",
+    "Il. 2.255@7.5-9.5: ἧσαι ὀνειδίζων, ὅτι οἱ μάλα πολλὰ διδοῦσιν",
+    "Il. 2.798@3.5-5.5: ἤδη μὲν μάλα πολλὰ μάχας εἰσήλυθον ἀνδρῶν,",
+    "Il. 5.197@3.5-5.5: ἦ μέν μοι μάλα πολλὰ γέρων αἰχμητὰ Λυκάων",
+    "Il. 8.22@7.5-9.5: Ζῆνʼ ὕπατον μήστωρʼ, οὐδʼ εἰ μάλα πολλὰ κάμοιτε.",
+    "Il. 9.348@3.5-5.5: ἦ μὲν δὴ μάλα πολλὰ πονήσατο νόσφιν ἐμεῖο,",
+    "Il. 9.364@3.5-5.5: ἔστι δέ μοι μάλα πολλά, τὰ κάλλιπον ἐνθάδε ἔρρων·",
+    "Il. 9.492@3.5-5.5: ὣς ἐπὶ σοὶ μάλα πολλὰ πάθον καὶ πολλὰ μόγησα,"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "πολλὰ μογήσας",
+   "query": "ngram πολλὰ μογήσας",
+   "total": 13,
+   "positions": {
+    "9-12": 13
+   },
+   "cited": {
+    "Il. 2.690": "9-12",
+    "Il. 23.607": "9-12",
+    "Od. 2.343": "9-12",
+    "Od. 3.232": "9-12",
+    "Od. 5.449": "9-12",
+    "Od. 6.175": "9-12",
+    "Od. 7.147": "9-12",
+    "Od. 15.489": "9-12"
+   },
+   "cited_lines": {
+    "Il. 2.690": "τὴν ἐκ Λυρνησσοῦ ἐξείλετο πολλὰ μογήσας",
+    "Il. 23.607": "ἀλλὰ σὺ γὰρ δὴ πολλὰ πάθες καὶ πολλὰ μόγησας",
+    "Od. 2.343": "οἴκαδε νοστήσειε καὶ ἄλγεα πολλὰ μογήσας.",
+    "Od. 3.232": "βουλοίμην δʼ ἂν ἐγώ γε καὶ ἄλγεα πολλὰ μογήσας",
+    "Od. 5.449": "σόν τε ῥόον σά τε γούναθʼ ἱκάνω πολλὰ μογήσας.",
+    "Od. 6.175": "ἀλλά, ἄνασσʼ, ἐλέαιρε· σὲ γὰρ κακὰ πολλὰ μογήσας",
+    "Od. 7.147": "σόν τε πόσιν σά τε γούναθʼ ἱκάνω πολλὰ μογήσας",
+    "Od. 15.489": "Ζεύς, ἐπεὶ ἀνδρὸς δώματʼ ἀφίκεο πολλὰ μογήσας"
+   },
+   "asserted": "13x, all 9-12",
+   "first_hits": [
+    "Il. 2.690@9-12: τὴν ἐκ Λυρνησσοῦ ἐξείλετο πολλὰ μογήσας",
+    "Il. 23.607@9-12: ἀλλὰ σὺ γὰρ δὴ πολλὰ πάθες καὶ πολλὰ μόγησας",
+    "Od. 2.343@9-12: οἴκαδε νοστήσειε καὶ ἄλγεα πολλὰ μογήσας.",
+    "Od. 3.232@9-12: βουλοίμην δʼ ἂν ἐγώ γε καὶ ἄλγεα πολλὰ μογήσας",
+    "Od. 5.449@9-12: σόν τε ῥόον σά τε γούναθʼ ἱκάνω πολλὰ μογήσας.",
+    "Od. 6.175@9-12: ἀλλά, ἄνασσʼ, ἐλέαιρε· σὲ γὰρ κακὰ πολλὰ μογήσας",
+    "Od. 7.147@9-12: σόν τε πόσιν σά τε γούναθʼ ἱκάνω πολλὰ μογήσας",
+    "Od. 15.489@9-12: Ζεύς, ἐπεὶ ἀνδρὸς δώματʼ ἀφίκεο πολλὰ μογήσας"
+   ]
+  },
+  {
+   "n": 61,
+   "label": "μάλα πολλὰ μογήσας (verse 7.5-12)",
+   "query": "ngram μάλα πολλὰ μογήσας",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "(reviewer)",
+   "first_hits": []
+  },
+  {
+   "n": 61,
+   "label": "πολλὰ πάθες καὶ πολλὰ μόγησας",
+   "query": "ngram πολλὰ πάθες καὶ πολλὰ μόγησας",
+   "total": 1,
+   "positions": {
+    "5-12": 1
+   },
+   "cited": {
+    "Il. 23.607": "5-12"
+   },
+   "cited_lines": {
+    "Il. 23.607": "ἀλλὰ σὺ γὰρ δὴ πολλὰ πάθες καὶ πολλὰ μόγησας"
+   },
+   "asserted": "2nd person, πολλὰ μόγησας at 9-12",
+   "first_hits": [
+    "Il. 23.607@5-12: ἀλλὰ σὺ γὰρ δὴ πολλὰ πάθες καὶ πολλὰ μόγησας"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "τῷ δʼ",
+   "query": "ngram τῷ δ᾽",
+   "total": 148,
+   "positions": {
+    "1-1.5": 67,
+    "6-7": 29,
+    "1-2": 25,
+    "3-3.5": 10,
+    "4-5": 7,
+    "9-9.5": 7,
+    "3-4": 3
+   },
+   "cited": {
+    "Il. 1.250": "1-2"
+   },
+   "cited_lines": {
+    "Il. 1.250": "τῷ δʼ ἤδη δύο μὲν γενεαὶ μερόπων ἀνθρώπων"
+   },
+   "asserted": "148x",
+   "first_hits": [
+    "Il. 1.250@1-2: τῷ δʼ ἤδη δύο μὲν γενεαὶ μερόπων ἀνθρώπων",
+    "Il. 1.327@1-1.5: τὼ δʼ ἀέκοντε βάτην παρὰ θῖνʼ ἁλὸς ἀτρυγέτοιο,",
+    "Il. 1.338@6-7: καί σφωϊν δὸς ἄγειν· τὼ δʼ αὐτὼ μάρτυροι ἔστων",
+    "Il. 1.347@4-5: δῶκε δʼ ἄγειν· τὼ δʼ αὖτις ἴτην παρὰ νῆας Ἀχαιῶν·",
+    "Il. 2.222@9-9.5: ὀξέα κεκλήγων λέγʼ ὀνείδεα· τῷ δʼ ἄρʼ Ἀχαιοὶ",
+    "Il. 2.244@4-5: Θερσίτης· τῷ δʼ ὦκα παρίστατο δῖος Ὀδυσσεύς,",
+    "Il. 2.534@1-1.5: τῷ δʼ ἅμα τεσσαράκοντα μέλαιναι νῆες ἕποντο",
+    "Il. 2.542@1-1.5: τῷ δʼ ἅμʼ Ἄβαντες ἕποντο θοοὶ ὄπιθεν κομόωντες"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "ἀντιθέῳ",
+   "query": "ngram ἀντιθέῳ",
+   "total": 11,
+   "positions": {
+    "7-9": 5,
+    "3-5": 3,
+    "1-3": 3
+   },
+   "cited": {
+    "Il. 4.377": "3-5",
+    "Il. 5.629": "3-5",
+    "Il. 16.649": "3-5"
+   },
+   "cited_lines": {
+    "Il. 4.377": "ξεῖνος ἅμʼ ἀντιθέῳ Πολυνείκεϊ λαὸν ἀγείρων·",
+    "Il. 5.629": "ὦρσεν ἐπʼ ἀντιθέῳ Σαρπηδόνι μοῖρα κραταιή.",
+    "Il. 16.649": "αὐτοῦ ἐπʼ ἀντιθέῳ Σαρπηδόνι φαίδιμος Ἕκτωρ"
+   },
+   "asserted": "11x: 3-5, 7-9, 1-3",
+   "first_hits": [
+    "Il. 4.377@3-5: ξεῖνος ἅμʼ ἀντιθέῳ Πολυνείκεϊ λαὸν ἀγείρων·",
+    "Il. 5.629@3-5: ὦρσεν ἐπʼ ἀντιθέῳ Σαρπηδόνι μοῖρα κραταιή.",
+    "Il. 11.140@7-9: ἀγγελίην ἐλθόντα σὺν ἀντιθέῳ Ὀδυσῆϊ",
+    "Il. 16.649@3-5: αὐτοῦ ἐπʼ ἀντιθέῳ Σαρπηδόνι φαίδιμος Ἕκτωρ",
+    "Od. 1.21@1-3: ἀντιθέῳ Ὀδυσῆι πάρος ἣν γαῖαν ἱκέσθαι.",
+    "Od. 2.17@7-9: καὶ γὰρ τοῦ φίλος υἱὸς ἅμʼ ἀντιθέῳ Ὀδυσῆι",
+    "Od. 6.331@1-3: ἀντιθέῳ Ὀδυσῆι πάρος ἣν γαῖαν ἱκέσθαι.",
+    "Od. 8.518@7-9: βήμεναι, ἠύτʼ Ἄρηα σὺν ἀντιθέῳ Μενελάῳ."
+   ]
+  },
+  {
+   "n": 62,
+   "label": "τότε δὴ",
+   "query": "ngram τότε δὴ",
+   "total": 43,
+   "positions": {
+    "1.5-3": 37,
+    "3.5-5": 4,
+    "5.5-7": 2
+   },
+   "cited": {
+    "Il. 1.92": "1.5-3",
+    "Il. 8.69": "1.5-3",
+    "Od. 9.52": "3.5-5"
+   },
+   "cited_lines": {
+    "Il. 1.92": "καὶ τότε δὴ θάρσησε καὶ ηὔδα μάντις ἀμύμων·",
+    "Il. 8.69": "καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα·",
+    "Od. 9.52": "ἠέριοι· τότε δή ῥα κακὴ Διὸς αἶσα παρέστη"
+   },
+   "asserted": "43x; at 5.5-7 after a word ending at 5, 'e.g. Od. 9.52'",
+   "first_hits": [
+    "Il. 1.92@1.5-3: καὶ τότε δὴ θάρσησε καὶ ηὔδα μάντις ἀμύμων·",
+    "Il. 1.494@1.5-3: καὶ τότε δὴ πρὸς Ὄλυμπον ἴσαν θεοὶ αἰὲν ἐόντες",
+    "Il. 8.69@1.5-3: καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα·",
+    "Il. 9.590@1.5-3: καὶ τότε δὴ Μελέαγρον ἐΰζωνος παράκοιτις",
+    "Il. 9.712@1.5-3: καὶ τότε δὴ σπείσαντες ἔβαν κλισίην δὲ ἕκαστος,",
+    "Il. 10.366@5.5-7: φεύγων ἐς νῆας, τότε δὴ μένος ἔμβαλʼ Ἀθήνη",
+    "Il. 11.182@3.5-5: ἵξεσθαι, τότε δή ῥα πατὴρ ἀνδρῶν τε θεῶν τε",
+    "Il. 13.206@1.5-3: καὶ τότε δὴ περὶ κῆρι Ποσειδάων ἐχολώθη"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "τότε δὴ at 5.5-7 (reviewer)",
+   "query": "ngram τότε δὴ",
+   "total": 43,
+   "positions": {
+    "1.5-3": 37,
+    "3.5-5": 4,
+    "5.5-7": 2
+   },
+   "cited": {
+    "Il. 10.366": "5.5-7",
+    "Il. 23.374": "5.5-7"
+   },
+   "cited_lines": {
+    "Il. 10.366": "φεύγων ἐς νῆας, τότε δὴ μένος ἔμβαλʼ Ἀθήνη",
+    "Il. 23.374": "ἂψ ἐφʼ ἁλὸς πολιῆς, τότε δὴ ἀρετή γε ἑκάστου"
+   },
+   "asserted": "(reviewer: the two hits at 5.5-7)",
+   "first_hits": [
+    "Il. 1.92@1.5-3: καὶ τότε δὴ θάρσησε καὶ ηὔδα μάντις ἀμύμων·",
+    "Il. 1.494@1.5-3: καὶ τότε δὴ πρὸς Ὄλυμπον ἴσαν θεοὶ αἰὲν ἐόντες",
+    "Il. 8.69@1.5-3: καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα·",
+    "Il. 9.590@1.5-3: καὶ τότε δὴ Μελέαγρον ἐΰζωνος παράκοιτις",
+    "Il. 9.712@1.5-3: καὶ τότε δὴ σπείσαντες ἔβαν κλισίην δὲ ἕκαστος,",
+    "Il. 10.366@5.5-7: φεύγων ἐς νῆας, τότε δὴ μένος ἔμβαλʼ Ἀθήνη",
+    "Il. 11.182@3.5-5: ἵξεσθαι, τότε δή ῥα πατὴρ ἀνδρῶν τε θεῶν τε",
+    "Il. 13.206@1.5-3: καὶ τότε δὴ περὶ κῆρι Ποσειδάων ἐχολώθη"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "τότε δὴ Ζεὺς",
+   "query": "ngram τότε δὴ Ζεὺς",
+   "total": 1,
+   "positions": {
+    "1.5-4": 1
+   },
+   "cited": {
+    "Od. 3.132": "1.5-4"
+   },
+   "cited_lines": {
+    "Od. 3.132": "καὶ τότε δὴ Ζεὺς λυγρὸν ἐνὶ φρεσὶ μήδετο νόστον"
+   },
+   "asserted": "1.5-4",
+   "first_hits": [
+    "Od. 3.132@1.5-4: καὶ τότε δὴ Ζεὺς λυγρὸν ἐνὶ φρεσὶ μήδετο νόστον"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "Ζεὺς κῦδος ἔδωκε",
+   "query": "ngram Ζεὺς κῦδος ἔδωκε",
+   "total": 1,
+   "positions": {
+    "8-12": 1
+   },
+   "cited": {
+    "Il. 8.216": "8-12"
+   },
+   "cited_lines": {
+    "Il. 8.216": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε."
+   },
+   "asserted": "8-12",
+   "first_hits": [
+    "Il. 8.216@8-12: Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε."
+   ]
+  },
+  {
+   "n": 62,
+   "label": "κῦδος ἔδωκε",
+   "query": "ngram κῦδος ἔδωκε",
+   "total": 3,
+   "positions": {
+    "9-12": 3
+   },
+   "cited": {
+    "Il. 8.216": "9-12",
+    "Il. 18.456": "9-12",
+    "Il. 19.414": "9-12"
+   },
+   "cited_lines": {
+    "Il. 8.216": "Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+    "Il. 18.456": "ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε.",
+    "Il. 19.414": "ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε."
+   },
+   "asserted": "3x, all 9-12",
+   "first_hits": [
+    "Il. 8.216@9-12: Ἕκτωρ Πριαμίδης, ὅτε οἱ Ζεὺς κῦδος ἔδωκε.",
+    "Il. 18.456@9-12: ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε.",
+    "Il. 19.414@9-12: ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε."
+   ]
+  },
+  {
+   "n": 62,
+   "label": "Ἕκτορι κῦδος ἔδωκε",
+   "query": "ngram Ἕκτορι κῦδος ἔδωκε",
+   "total": 2,
+   "positions": {
+    "7-12": 2
+   },
+   "cited": {
+    "Il. 18.456": "7-12",
+    "Il. 19.414": "7-12"
+   },
+   "cited_lines": {
+    "Il. 18.456": "ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε.",
+    "Il. 19.414": "ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε."
+   },
+   "asserted": "2x, 7-12",
+   "first_hits": [
+    "Il. 18.456@7-12: ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε.",
+    "Il. 19.414@7-12: ἔκτανʼ ἐνὶ προμάχοισι καὶ Ἕκτορι κῦδος ἔδωκε."
+   ]
+  },
+  {
+   "n": 62,
+   "label": "δὴ Ζεὺς κῦδος (unclaimed)",
+   "query": "ngram δὴ Ζεὺς κῦδος",
+   "total": 1,
+   "positions": {
+    "3-5.5": 1
+   },
+   "cited": {
+    "Il. 12.437": "3-5.5"
+   },
+   "cited_lines": {
+    "Il. 12.437": "πρίν γʼ ὅτε δὴ Ζεὺς κῦδος ὑπέρτερον Ἕκτορι δῶκε"
+   },
+   "asserted": "(reviewer: after ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο, Il. 12.436)",
+   "first_hits": [
+    "Il. 12.437@3-5.5: πρίν γʼ ὅτε δὴ Ζεὺς κῦδος ὑπέρτερον Ἕκτορι δῶκε"
+   ]
+  },
+  {
+   "n": 62,
+   "label": "ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε",
+   "query": "ngram ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε",
+   "total": 2,
+   "positions": {
+    "3.5-12": 2
+   },
+   "cited": {
+    "Il. 12.436": "3.5-12",
+    "Il. 15.413": "3.5-12"
+   },
+   "cited_lines": {
+    "Il. 12.436": "ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε,",
+    "Il. 15.413": "ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε·"
+   },
+   "asserted": "(reviewer: the line before Il. 12.437)",
+   "first_hits": [
+    "Il. 12.436@3.5-12: ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε,",
+    "Il. 15.413@3.5-12: ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε·"
+   ]
+  },
+  {
+   "n": 29,
+   "label": "ὑπʼ ἀνδροφόνοιο Λυκούργου (reviewer)",
+   "query": "ngram ὑπ᾽ ἀνδροφόνοιο Λυκούργου",
+   "total": 1,
+   "positions": {
+    "6-12": 1
+   },
+   "cited": {
+    "Il. 6.134": "6-12"
+   },
+   "cited_lines": {
+    "Il. 6.134": "θύσθλα χαμαὶ κατέχευαν ὑπʼ ἀνδροφόνοιο Λυκούργου"
+   },
+   "asserted": "(reviewer: ὑπό + epithet + name genitive at 10-12)",
+   "first_hits": [
+    "Il. 6.134@6-12: θύσθλα χαμαὶ κατέχευαν ὑπʼ ἀνδροφόνοιο Λυκούργου"
+   ]
+  },
+  {
+   "n": 63,
+   "label": "ὣς οἳ μὲν μάρναντο",
+   "query": "ngram ὣς οἳ μὲν μάρναντο",
+   "total": 5,
+   "positions": {
+    "1-5.5": 5
+   },
+   "cited": {
+    "Il. 11.596": "1-5.5",
+    "Il. 13.673": "1-5.5",
+    "Il. 17.366": "1-5.5",
+    "Il. 17.424": "1-5.5",
+    "Il. 18.1": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 11.596": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 13.673": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 17.366": "ὣς οἳ μὲν μάρναντο δέμας πυρός, οὐδέ κε φαίης",
+    "Il. 17.424": "ὣς οἳ μὲν μάρναντο, σιδήρειος δʼ ὀρυμαγδὸς",
+    "Il. 18.1": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο,"
+   },
+   "asserted": "5x, all 1-5.5",
+   "first_hits": [
+    "Il. 11.596@1-5.5: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 13.673@1-5.5: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 17.366@1-5.5: ὣς οἳ μὲν μάρναντο δέμας πυρός, οὐδέ κε φαίης",
+    "Il. 17.424@1-5.5: ὣς οἳ μὲν μάρναντο, σιδήρειος δʼ ὀρυμαγδὸς",
+    "Il. 18.1@1-5.5: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο,"
+   ]
+  },
+  {
+   "n": 63,
+   "label": "ὣς οἳ μὲν",
+   "query": "ngram ὣς οἳ μὲν",
+   "total": 50,
+   "positions": {
+    "1-3": 49,
+    "4-5.5": 1
+   },
+   "cited": {
+    "Il. 1.318": "1-3",
+    "Il. 5.84": "1-3"
+   },
+   "cited_lines": {
+    "Il. 1.318": "ὣς οἳ μὲν τὰ πένοντο κατὰ στρατόν· οὐδʼ Ἀγαμέμνων",
+    "Il. 5.84": "ὣς οἳ μὲν πονέοντο κατὰ κρατερὴν ὑσμίνην·"
+   },
+   "asserted": "50x",
+   "first_hits": [
+    "Il. 1.318@1-3: ὣς οἳ μὲν τὰ πένοντο κατὰ στρατόν· οὐδʼ Ἀγαμέμνων",
+    "Il. 5.84@1-3: ὣς οἳ μὲν πονέοντο κατὰ κρατερὴν ὑσμίνην·",
+    "Il. 5.274@1-3: ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,",
+    "Il. 5.431@1-3: ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,",
+    "Il. 5.627@1-3: ὣς οἳ μὲν πονέοντο κατὰ κρατερὴν ὑσμίνην·",
+    "Il. 7.442@1-3: ὣς οἳ μὲν πονέοντο κάρη κομόωντες Ἀχαιοί·",
+    "Il. 7.464@1-3: ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,",
+    "Il. 8.212@1-3: ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον·"
+   ]
+  },
+  {
+   "n": 63,
+   "label": "Διὸς δʼ ἐτελείετο βουλή",
+   "query": "ngram Διὸς δ᾽ ἐτελείετο βουλή",
+   "total": 2,
+   "positions": {
+    "6-12": 2
+   },
+   "cited": {
+    "Il. 1.5": "6-12",
+    "Od. 11.297": "6-12"
+   },
+   "cited_lines": {
+    "Il. 1.5": "οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,",
+    "Od. 11.297": "θέσφατα πάντʼ εἰπόντα· Διὸς δʼ ἐτελείετο βουλή."
+   },
+   "asserted": "2x, 6-12",
+   "first_hits": [
+    "Il. 1.5@6-12: οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,",
+    "Od. 11.297@6-12: θέσφατα πάντʼ εἰπόντα· Διὸς δʼ ἐτελείετο βουλή."
+   ]
+  },
+  {
+   "n": 63,
+   "label": "δέμας πυρὸς αἰθομένοιο (removed)",
+   "query": "ngram δέμας πυρὸς αἰθομένοιο",
+   "total": 3,
+   "positions": {
+    "6-12": 3
+   },
+   "cited": {
+    "Il. 11.596": "6-12",
+    "Il. 13.673": "6-12",
+    "Il. 18.1": "6-12"
+   },
+   "cited_lines": {
+    "Il. 11.596": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 13.673": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 18.1": "ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο,"
+   },
+   "asserted": "6-12 (and 17.366)",
+   "first_hits": [
+    "Il. 11.596@6-12: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 13.673@6-12: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
+    "Il. 18.1@6-12: ὣς οἳ μὲν μάρναντο δέμας πυρὸς αἰθομένοιο,"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "καὶ βάλεν",
+   "query": "ngram καὶ βάλεν",
+   "total": 11,
+   "positions": {
+    "1-2": 11
+   },
+   "cited": {
+    "Il. 3.347": "1-2",
+    "Il. 11.350": "1-2",
+    "Il. 13.160": "1-2"
+   },
+   "cited_lines": {
+    "Il. 3.347": "καὶ βάλεν Ἀτρεΐδαο κατʼ ἀσπίδα πάντοσε ἴσην,",
+    "Il. 11.350": "καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 13.160": "καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην"
+   },
+   "asserted": "11x, all 1-2",
+   "first_hits": [
+    "Il. 3.347@1-2: καὶ βάλεν Ἀτρεΐδαο κατʼ ἀσπίδα πάντοσε ἴσην,",
+    "Il. 5.612@1-2: καὶ βάλεν Ἄμφιον Σελάγου υἱόν, ὅς ῥʼ ἐνὶ Παισῷ",
+    "Il. 7.245@1-2: καὶ βάλεν Αἴαντος δεινὸν σάκος ἑπταβόειον",
+    "Il. 11.350@1-2: καὶ βάλεν, οὐδʼ ἀφάμαρτε τιτυσκόμενος κεφαλῆφιν,",
+    "Il. 11.376@1-2: καὶ βάλεν, οὐδʼ ἄρα μιν ἅλιον βέλος ἔκφυγε χειρός,",
+    "Il. 13.160@1-2: καὶ βάλεν, οὐδʼ ἀφάμαρτε, κατʼ ἀσπίδα πάντοσʼ ἐΐσην",
+    "Il. 13.371@1-2: καὶ βάλεν ὕψι βιβάντα τυχών· οὐδʼ ἤρκεσε θώρηξ",
+    "Il. 17.348@1-2: καὶ βάλεν Ἱππασίδην Ἀπισάονα ποιμένα λαῶν"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "καὶ σάκος",
+   "query": "ngram καὶ σάκος",
+   "total": 4,
+   "positions": {
+    "1-2": 2,
+    "9-10": 2
+   },
+   "cited": {
+    "Il. 10.257": "1-2",
+    "Od. 14.277": "1-2",
+    "Il. 15.125": "9-10",
+    "Il. 15.474": "9-10"
+   },
+   "cited_lines": {
+    "Il. 10.257": "καὶ σάκος· ἀμφὶ δέ οἱ κυνέην κεφαλῆφιν ἔθηκε",
+    "Od. 14.277": "καὶ σάκος ὤμοιϊν, δόρυ δʼ ἔκβαλον ἔκτοσε χειρός·",
+    "Il. 15.125": "τοῦ δʼ ἀπὸ μὲν κεφαλῆς κόρυθʼ εἵλετο καὶ σάκος ὤμων,",
+    "Il. 15.474": "αὐτὰρ χερσὶν ἑλὼν δολιχὸν δόρυ καὶ σάκος ὤμῳ"
+   },
+   "asserted": "1-2 (Il. 10.257, Od. 14.277), 9-10 (Il. 15.125, 15.474)",
+   "first_hits": [
+    "Il. 10.257@1-2: καὶ σάκος· ἀμφὶ δέ οἱ κυνέην κεφαλῆφιν ἔθηκε",
+    "Il. 15.125@9-10: τοῦ δʼ ἀπὸ μὲν κεφαλῆς κόρυθʼ εἵλετο καὶ σάκος ὤμων,",
+    "Il. 15.474@9-10: αὐτὰρ χερσὶν ἑλὼν δολιχὸν δόρυ καὶ σάκος ὤμῳ",
+    "Od. 14.277@1-2: καὶ σάκος ὤμοιϊν, δόρυ δʼ ἔκβαλον ἔκτοσε χειρός·"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "ἔνθα δὲ",
+   "query": "ngram ἔνθα δὲ",
+   "total": 44,
+   "positions": {
+    "1-2": 31,
+    "9-10": 8,
+    "3-4": 5
+   },
+   "cited": {
+    "Il. 2.550": "1-2",
+    "Il. 6.245": "9-10",
+    "Il. 6.249": "9-10",
+    "Il. 18.497": "9-10"
+   },
+   "cited_lines": {
+    "Il. 2.550": "ἔνθα δέ μιν ταύροισι καὶ ἀρνειοῖς ἱλάονται",
+    "Il. 6.245": "πλησίον ἀλλήλων δεδμημένοι, ἔνθα δὲ παῖδες",
+    "Il. 6.249": "πλησίον ἀλλήλων δεδμημένοι, ἔνθα δὲ γαμβροὶ",
+    "Il. 18.497": "λαοὶ δʼ εἰν ἀγορῇ ἔσαν ἀθρόοι· ἔνθα δὲ νεῖκος"
+   },
+   "asserted": "1-2 13x (e.g. Il. 2.550), 9-10 (Il. 6.245, 6.249, 18.497)",
+   "first_hits": [
+    "Il. 2.550@1-2: ἔνθα δέ μιν ταύροισι καὶ ἀρνειοῖς ἱλάονται",
+    "Il. 6.153@1-2: ἔνθα δὲ Σίσυφος ἔσκεν, ὃ κέρδιστος γένετʼ ἀνδρῶν,",
+    "Il. 6.245@9-10: πλησίον ἀλλήλων δεδμημένοι, ἔνθα δὲ παῖδες",
+    "Il. 6.249@9-10: πλησίον ἀλλήλων δεδμημένοι, ἔνθα δὲ γαμβροὶ",
+    "Il. 9.88@1-2: ἔνθα δὲ πῦρ κήαντο, τίθεντο δὲ δόρπα ἕκαστος.",
+    "Il. 9.398@1-2: ἔνθα δέ μοι μάλα πολλὸν ἐπέσσυτο θυμὸς ἀγήνωρ",
+    "Il. 9.713@1-2: ἔνθα δὲ κοιμήσαντο καὶ ὕπνου δῶρον ἕλοντο.",
+    "Il. 13.21@3-4: Αἰγάς, ἔνθα δέ οἱ κλυτὰ δώματα βένθεσι λίμνης"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "αἶψα δʼ",
+   "query": "ngram αἶψα δ᾽",
+   "total": 41,
+   "positions": {
+    "1-2": 31,
+    "9-10": 5,
+    "3-4": 5
+   },
+   "cited": {
+    "Il. 1.387": "9-10",
+    "Il. 6.514": "9-10",
+    "Il. 18.532": "9-10"
+   },
+   "cited_lines": {
+    "Il. 1.387": "Ἀτρεΐωνα δʼ ἔπειτα χόλος λάβεν, αἶψα δʼ ἀναστὰς",
+    "Il. 6.514": "καγχαλόων, ταχέες δὲ πόδες φέρον· αἶψα δʼ ἔπειτα",
+    "Il. 18.532": "βάντες ἀερσιπόδων μετεκίαθον, αἶψα δʼ ἵκοντο."
+   },
+   "asserted": "1-2 17x, 9-10 (Il. 1.387, 6.514, 18.532)",
+   "first_hits": [
+    "Il. 1.387@9-10: Ἀτρεΐωνα δʼ ἔπειτα χόλος λάβεν, αἶψα δʼ ἀναστὰς",
+    "Il. 2.808@1-2: αἶψα δʼ ἔλυσʼ ἀγορήν· ἐπὶ τεύχεα δʼ ἐσσεύοντο·",
+    "Il. 3.145@1-2: αἶψα δʼ ἔπειθʼ ἵκανον ὅθι Σκαιαὶ πύλαι ἦσαν.",
+    "Il. 4.118@1-2: αἶψα δʼ ἐπὶ νευρῇ κατεκόσμει πικρὸν ὀϊστόν,",
+    "Il. 5.367@1-2: αἶψα δʼ ἔπειθʼ ἵκοντο θεῶν ἕδος αἰπὺν Ὄλυμπον·",
+    "Il. 6.370@1-2: αἶψα δʼ ἔπειθʼ ἵκανε δόμους εὖ ναιετάοντας,",
+    "Il. 6.497@1-2: αἶψα δʼ ἔπειθʼ ἵκανε δόμους εὖ ναιετάοντας",
+    "Il. 6.514@9-10: καγχαλόων, ταχέες δὲ πόδες φέρον· αἶψα δʼ ἔπειτα"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "αὖτις δὲ μνηστῆρες ἀκόντισαν",
+   "query": "ngram αὖτις δὲ μνηστῆρες ἀκόντισαν",
+   "total": 1,
+   "positions": {
+    "1-8": 1
+   },
+   "cited": {
+    "Od. 22.272": "1-8"
+   },
+   "cited_lines": {
+    "Od. 22.272": "αὖτις δὲ μνηστῆρες ἀκόντισαν ὀξέα δοῦρα"
+   },
+   "asserted": "round-3 correction: αὖτις of a second cast",
+   "first_hits": [
+    "Od. 22.272@1-8: αὖτις δὲ μνηστῆρες ἀκόντισαν ὀξέα δοῦρα"
+   ]
+  },
+  {
+   "n": 37,
+   "label": "καὶ βάλεν αὖτις",
+   "query": "ngram καὶ βάλεν αὖτις",
+   "total": 0,
+   "positions": {},
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "(not claimed as attested)",
+   "first_hits": []
+  },
+  {
+   "n": 55,
+   "label": "τὴν δʼ αὖ",
+   "query": "ngram τὴν δ᾽ αὖ",
+   "total": 13,
+   "positions": {
+    "1-2": 13
+   },
+   "cited": {
+    "Od. 1.213": "1-2",
+    "Od. 1.230": "1-2",
+    "Od. 2.371": "1-2",
+    "Od. 21.343": "1-2"
+   },
+   "cited_lines": {
+    "Od. 1.213": "τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 1.230": "τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 2.371": "τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 21.343": "τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·"
+   },
+   "asserted": "13x, all 1-2 (here 6-7)",
+   "first_hits": [
+    "Od. 1.213@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 1.230@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 1.306@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 1.345@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 2.371@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 3.21@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 3.239@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·",
+    "Od. 15.179@1-2: τὴν δʼ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα·"
+   ]
+  },
+  {
+   "n": 55,
+   "label": "τὴν δʼ (at 6-7)",
+   "query": "ngram τὴν δ᾽",
+   "total": 130,
+   "positions": {
+    "1-2": 61,
+    "1-1.5": 57,
+    "6-7": 5,
+    "4-5": 3,
+    "3-4": 2,
+    "3-3.5": 2
+   },
+   "cited": {
+    "Il. 22.211": "6-7"
+   },
+   "cited_lines": {
+    "Il. 22.211": "τὴν μὲν Ἀχιλλῆος, τὴν δʼ Ἕκτορος ἱπποδάμοιο,"
+   },
+   "asserted": "'τὴν δʼ 130x: 5 at 7' (entry 9); at 6 in Il. 22.211",
+   "first_hits": [
+    "Il. 1.29@1-1.5: τὴν δʼ ἐγὼ οὐ λύσω· πρίν μιν καὶ γῆρας ἔπεισιν",
+    "Il. 1.215@1-1.5: τὴν δʼ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·",
+    "Il. 1.435@4-5: καρπαλίμως, τὴν δʼ εἰς ὅρμον προέρεσσαν ἐρετμοῖς.",
+    "Il. 1.511@3-4: ὣς φάτο· τὴν δʼ οὔ τι προσέφη νεφεληγερέτα Ζεύς,",
+    "Il. 1.544@1-2: τὴν δʼ ἠμείβετʼ ἔπειτα πατὴρ ἀνδρῶν τε θεῶν τε·",
+    "Il. 1.560@1-1.5: τὴν δʼ ἀπαμειβόμενος προσέφη νεφεληγερέτα Ζεύς·",
+    "Il. 2.316@1-1.5: τὴν δʼ ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχυῖαν.",
+    "Il. 3.125@1-2: τὴν δʼ εὗρʼ ἐν μεγάρῳ· ἣ δὲ μέγαν ἱστὸν ὕφαινε"
+   ]
+  },
+  {
+   "n": 55,
+   "label": "τὸν δʼ (at 6-7)",
+   "query": "ngram τὸν δ᾽",
+   "total": 466,
+   "positions": {
+    "1-2": 262,
+    "1-1.5": 146,
+    "6-7": 26,
+    "3-3.5": 10,
+    "9-9.5": 9,
+    "3-4": 6,
+    "4-5": 6,
+    "5-5.5": 1
+   },
+   "cited": {
+    "Il. 2.396": "6-7",
+    "Il. 2.701": "6-7"
+   },
+   "cited_lines": {
+    "Il. 2.396": "προβλῆτι σκοπέλῳ· τὸν δʼ οὔ ποτε κύματα λείπει",
+    "Il. 2.701": "καὶ δόμος ἡμιτελής· τὸν δʼ ἔκτανε Δάρδανος ἀνὴρ"
+   },
+   "asserted": "τὸν δʼ at 6-7 (M8 parallel)",
+   "first_hits": [
+    "Il. 1.84@1-1.5: τὸν δʼ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·",
+    "Il. 1.121@1-2: τὸν δʼ ἠμείβετʼ ἔπειτα ποδάρκης δῖος Ἀχιλλεύς·",
+    "Il. 1.130@1-1.5: τὸν δʼ ἀπαμειβόμενος προσέφη κρείων Ἀγαμέμνων·",
+    "Il. 1.148@1-1.5: τὸν δʼ ἄρʼ ὑπόδρα ἰδὼν προσέφη πόδας ὠκὺς Ἀχιλλεύς·",
+    "Il. 1.172@1-2: τὸν δʼ ἠμείβετʼ ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·",
+    "Il. 1.206@1-2: τὸν δʼ αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·",
+    "Il. 1.285@1-1.5: τὸν δʼ ἀπαμειβόμενος προσέφη κρείων Ἀγαμέμνων·",
+    "Il. 1.292@1-1.5: τὸν δʼ ἄρʼ ὑποβλήδην ἠμείβετο δῖος Ἀχιλλεύς·"
+   ]
+  },
+  {
+   "n": 55,
+   "label": "τὴν δʼ Ἕκτορος",
+   "query": "ngram τὴν δ᾽ Ἕκτορος",
+   "total": 1,
+   "positions": {
+    "6-8": 1
+   },
+   "cited": {
+    "Il. 22.211": "6-8"
+   },
+   "cited_lines": {
+    "Il. 22.211": "τὴν μὲν Ἀχιλλῆος, τὴν δʼ Ἕκτορος ἱπποδάμοιο,"
+   },
+   "asserted": "6-8 (entry 9, labelled ATTESTED-EXACT)",
+   "first_hits": [
+    "Il. 22.211@6-8: τὴν μὲν Ἀχιλλῆος, τὴν δʼ Ἕκτορος ἱπποδάμοιο,"
+   ]
+  },
+  {
+   "n": 55,
+   "label": "* δʼ αὖ (pronoun at 6)",
+   "query": "ngram * δ᾽ αὖ",
+   "total": 110,
+   "positions": {
+    "1-2": 68,
+    "1-3": 27,
+    "3-5": 4,
+    "6-7": 4,
+    "1-1.5": 3,
+    "5.5-7": 2,
+    "2-3": 1,
+    "4-5": 1
+   },
+   "cited": {},
+   "cited_lines": {},
+   "asserted": "'pronoun + δʼ αὖ at 6-7 is Homeric 6x' (modifications); round 3: 4x",
+   "first_hits": [
+    "Il. 1.540@1-2: τίς δʼ αὖ τοι δολομῆτα θεῶν συμφράσσατο βουλάς;",
+    "Il. 2.198@1-2: ὃν δʼ αὖ δήμου τʼ ἄνδρα ἴδοι βοόωντά τʼ ἐφεύροι,",
+    "Il. 3.200@1-3: οὗτος δʼ αὖ Λαερτιάδης πολύμητις Ὀδυσσεύς,",
+    "Il. 3.323@1-3: ἡμῖν δʼ αὖ φιλότητα καὶ ὅρκια πιστὰ γενέσθαι.",
+    "Il. 3.383@1-3: αὐτὴ δʼ αὖ Ἑλένην καλέουσʼ ἴε· τὴν δὲ κίχανε",
+    "Il. 4.17@1-2: εἰ δʼ αὖ πως τόδε πᾶσι φίλον καὶ ἡδὺ γένοιτο,",
+    "Il. 4.270@3-5: Τρῶες· τοῖσιν δʼ αὖ θάνατος καὶ κήδεʼ ὀπίσσω",
+    "Il. 4.417@1-3: τούτῳ δʼ αὖ μέγα πένθος Ἀχαιῶν δῃωθέντων."
+   ]
+  },
+  {
+   "n": 55,
+   "label": "δʼ αὖ",
+   "query": "ngram δ᾽ αὖ",
+   "total": 110,
+   "positions": {
+    "2-2": 68,
+    "3-3": 28,
+    "7-7": 6,
+    "5-5": 5,
+    "1.5-1.5": 3
+   },
+   "cited": {
+    "Il. 8.324": "7-7"
+   },
+   "cited_lines": {
+    "Il. 8.324": "θῆκε δʼ ἐπὶ νευρῇ· τὸν δʼ αὖ κορυθαίολος Ἕκτωρ"
+   },
+   "asserted": "110x: 68 at 2, 28 at 3, 6 at 7, 5 at 5, 3 at 1.5 (notes)",
+   "first_hits": [
+    "Il. 1.540@2-2: τίς δʼ αὖ τοι δολομῆτα θεῶν συμφράσσατο βουλάς;",
+    "Il. 2.198@2-2: ὃν δʼ αὖ δήμου τʼ ἄνδρα ἴδοι βοόωντά τʼ ἐφεύροι,",
+    "Il. 3.200@3-3: οὗτος δʼ αὖ Λαερτιάδης πολύμητις Ὀδυσσεύς,",
+    "Il. 3.323@3-3: ἡμῖν δʼ αὖ φιλότητα καὶ ὅρκια πιστὰ γενέσθαι.",
+    "Il. 3.383@3-3: αὐτὴ δʼ αὖ Ἑλένην καλέουσʼ ἴε· τὴν δὲ κίχανε",
+    "Il. 4.17@2-2: εἰ δʼ αὖ πως τόδε πᾶσι φίλον καὶ ἡδὺ γένοιτο,",
+    "Il. 4.270@5-5: Τρῶες· τοῖσιν δʼ αὖ θάνατος καὶ κήδεʼ ὀπίσσω",
+    "Il. 4.417@3-3: τούτῳ δʼ αὖ μέγα πένθος Ἀχαιῶν δῃωθέντων."
+   ]
+  },
+  {
+   "n": 55,
+   "label": "κρατεροῖο",
+   "query": "loose κρατεροιο",
+   "total": 7,
+   "positions": {
+    "9.5-12": 4,
+    "7.5-9.5": 3
+   },
+   "cited": {
+    "Il. 13.60": "9.5-12",
+    "Il. 13.415": "9.5-12",
+    "Il. 23.848": "9.5-12",
+    "Od. 11.277": "9.5-12"
+   },
+   "cited_lines": {
+    "Il. 13.60": "ἀμφοτέρω κεκοπὼς πλῆσεν μένεος κρατεροῖο,",
+    "Il. 13.415": "εἰς Ἄϊδός περ ἰόντα πυλάρταο κρατεροῖο",
+    "Il. 23.848": "ἀνστάντες δʼ ἕταροι Πολυποίταο κρατεροῖο",
+    "Od. 11.277": "ἡ δʼ ἔβη εἰς Ἀίδαο πυλάρταο κρατεροῖο,"
+   },
+   "asserted": "7x: 9.5-12 4x, 7.5-9.5 3x (round-3 correction)",
+   "first_hits": [
+    "Il. 13.60@9.5-12: ἀμφοτέρω κεκοπὼς πλῆσεν μένεος κρατεροῖο,",
+    "Il. 13.415@9.5-12: εἰς Ἄϊδός περ ἰόντα πυλάρταο κρατεροῖο",
+    "Il. 23.848@9.5-12: ἀνστάντες δʼ ἕταροι Πολυποίταο κρατεροῖο",
+    "Od. 4.335@7.5-9.5: ὡς δʼ ὁπότʼ ἐν ξυλόχῳ ἔλαφος κρατεροῖο λέοντος",
+    "Od. 11.277@9.5-12: ἡ δʼ ἔβη εἰς Ἀίδαο πυλάρταο κρατεροῖο,",
+    "Od. 17.126@7.5-9.5: ὡς δʼ ὁπότʼ ἐν ξυλόχῳ ἔλαφος κρατεροῖο λέοντος",
+    "Od. 24.170@7.5-9.5: οὐδέ τις ἡμείων δύνατο κρατεροῖο βιοῖο"
+   ]
+  },
+  {
+   "n": 55,
+   "label": "Πολυποίταο κρατεροῖο",
+   "query": "ngram Πολυποίταο κρατεροῖο",
+   "total": 1,
+   "positions": {
+    "5.5-12": 1
+   },
+   "cited": {
+    "Il. 23.848": "5.5-12"
+   },
+   "cited_lines": {
+    "Il. 23.848": "ἀνστάντες δʼ ἕταροι Πολυποίταο κρατεροῖο"
+   },
+   "asserted": "5.5-12 (round-3 correction)",
+   "first_hits": [
+    "Il. 23.848@5.5-12: ἀνστάντες δʼ ἕταροι Πολυποίταο κρατεροῖο"
+   ]
+  },
+  {
+   "n": 41,
+   "label": "ἐπόρουσε βοὴν ἀγαθὸς Διομήδης",
+   "query": "ngram ἐπόρουσε βοὴν ἀγαθὸς Διομήδης",
+   "total": 1,
+   "positions": {
+    "3.5-12": 1
+   },
+   "cited": {
+    "Il. 5.432": "3.5-12"
+   },
+   "cited_lines": {
+    "Il. 5.432": "Αἰνείᾳ δʼ ἐπόρουσε βοὴν ἀγαθὸς Διομήδης,"
+   },
+   "asserted": "3.5-12 (round-3 correction)",
+   "first_hits": [
+    "Il. 5.432@3.5-12: Αἰνείᾳ δʼ ἐπόρουσε βοὴν ἀγαθὸς Διομήδης,"
+   ]
+  },
+  {
+   "n": 41,
+   "label": "τρὶς μὲν ὀρέξατʼ ἰών",
+   "query": "ngram τρὶς μὲν ὀρέξατ᾽ ἰών",
+   "total": 1,
+   "positions": {
+    "1-5": 1
+   },
+   "cited": {
+    "Il. 13.20": "1-5"
+   },
+   "cited_lines": {
+    "Il. 13.20": "τρὶς μὲν ὀρέξατʼ ἰών, τὸ δὲ τέτρατον ἵκετο τέκμωρ"
+   },
+   "asserted": "the τρὶς μέν line with τὸ δὲ τέτρατον (round-3 correction)",
+   "first_hits": [
+    "Il. 13.20@1-5: τρὶς μὲν ὀρέξατʼ ἰών, τὸ δὲ τέτρατον ἵκετο τέκμωρ"
+   ]
+  },
+  {
+   "n": 41,
+   "label": "τρὶς μὲν ἔπειτʼ ἐπόρουσε",
+   "query": "ngram τρὶς μὲν ἔπειτ᾽ ἐπόρουσε",
+   "total": 3,
+   "positions": {
+    "1-5.5": 3
+   },
+   "cited": {
+    "Il. 5.436": "1-5.5",
+    "Il. 16.784": "1-5.5",
+    "Il. 20.445": "1-5.5"
+   },
+   "cited_lines": {
+    "Il. 5.436": "τρὶς μὲν ἔπειτʼ ἐπόρουσε κατακτάμεναι μενεαίνων,",
+    "Il. 16.784": "τρὶς μὲν ἔπειτʼ ἐπόρουσε θοῷ ἀτάλαντος Ἄρηϊ",
+    "Il. 20.445": "τρὶς μὲν ἔπειτʼ ἐπόρουσε ποδάρκης δῖος Ἀχιλλεὺς"
+   },
+   "asserted": "3x, 1-5.5",
+   "first_hits": [
+    "Il. 5.436@1-5.5: τρὶς μὲν ἔπειτʼ ἐπόρουσε κατακτάμεναι μενεαίνων,",
+    "Il. 16.784@1-5.5: τρὶς μὲν ἔπειτʼ ἐπόρουσε θοῷ ἀτάλαντος Ἄρηϊ",
+    "Il. 20.445@1-5.5: τρὶς μὲν ἔπειτʼ ἐπόρουσε ποδάρκης δῖος Ἀχιλλεὺς"
+   ]
+  },
+  {
+   "n": 41,
+   "label": "τρὶς δʼ (the intervening line)",
+   "query": "regex τρὶς δ",
+   "total": 17,
+   "positions": {
+    "1-1.5": 11,
+    "6-7": 4,
+    "4-5": 1,
+    "9-9.5": 1
+   },
+   "cited": {
+    "Il. 5.437": "1-1.5",
+    "Il. 16.785": "6-7",
+    "Il. 20.446": "6-7"
+   },
+   "cited_lines": {
+    "Il. 5.437": "τρὶς δέ οἱ ἐστυφέλιξε φαεινὴν ἀσπίδʼ Ἀπόλλων·",
+    "Il. 16.785": "σμερδαλέα ἰάχων, τρὶς δʼ ἐννέα φῶτας ἔπεφνεν.",
+    "Il. 20.446": "ἔγχεϊ χαλκείῳ, τρὶς δʼ ἠέρα τύψε βαθεῖαν."
+   },
+   "asserted": "a τρὶς δέ line between the τρὶς μέν line and ἀλλʼ ὅτε δὴ τὸ τέταρτον",
+   "first_hits": [
+    "Il. 5.437@1-1.5: τρὶς δέ οἱ ἐστυφέλιξε φαεινὴν ἀσπίδʼ Ἀπόλλων·",
+    "Il. 8.170@1-1.5: τρὶς δʼ ἄρʼ ἀπʼ Ἰδαίων ὀρέων κτύπε μητίετα Ζεὺς",
+    "Il. 11.463@1-1.5: τρὶς δʼ ἄϊεν ἰάχοντος ἄρηι φίλος Μενέλαος.",
+    "Il. 16.703@4-5: Πάτροκλος, τρὶς δʼ αὐτὸν ἀπεστυφέλιξεν Ἀπόλλων",
+    "Il. 16.785@6-7: σμερδαλέα ἰάχων, τρὶς δʼ ἐννέα φῶτας ἔπεφνεν.",
+    "Il. 18.157@1-1.5: τρὶς δὲ δύʼ Αἴαντες θοῦριν ἐπιειμένοι ἀλκὴν",
+    "Il. 18.229@1-1.5: τρὶς δὲ κυκήθησαν Τρῶες κλειτοί τʼ ἐπίκουροι.",
+    "Il. 20.446@6-7: ἔγχεϊ χαλκείῳ, τρὶς δʼ ἠέρα τύψε βαθεῖαν."
+   ]
+  },
+  {
+   "n": 60,
+   "label": "αὖθʼ ἱερεὺς",
+   "query": "ngram αὖθ᾽ ἱερεὺς",
+   "total": 1,
+   "positions": {
+    "3-5": 1
+   },
+   "cited": {
+    "Il. 1.370": "3-5"
+   },
+   "cited_lines": {
+    "Il. 1.370": "Χρύσης δʼ αὖθʼ ἱερεὺς ἑκατηβόλου Ἀπόλλωνος"
+   },
+   "asserted": "position 3-5 (round-3 correction)",
+   "first_hits": [
+    "Il. 1.370@3-5: Χρύσης δʼ αὖθʼ ἱερεὺς ἑκατηβόλου Ἀπόλλωνος"
+   ]
+  },
+  {
+   "n": 15,
+   "label": "ἐνίκα",
+   "query": "loose ενικα",
+   "total": 8,
+   "positions": {
+    "10-12": 5,
+    "6-8": 3
+   },
+   "cited": {
+    "Il. 4.389": "10-12",
+    "Il. 5.807": "10-12",
+    "Il. 18.252": "10-12",
+    "Il. 20.410": "10-12",
+    "Il. 23.756": "10-12",
+    "Il. 23.680": "6-8",
+    "Il. 23.742": "6-8",
+    "Od. 3.121": "6-8"
+   },
+   "cited_lines": {
+    "Il. 4.389": "ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 5.807": "κούρους Καδμείων προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 18.252": "ἀλλʼ ὃ μὲν ἂρ μύθοισιν, ὃ δʼ ἔγχεϊ πολλὸν ἐνίκα·",
+    "Il. 20.410": "καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα",
+    "Il. 23.756": "Ἀντίλοχος· ὃ γὰρ αὖτε νέους ποσὶ πάντας ἐνίκα.",
+    "Il. 23.680": "ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας.",
+    "Il. 23.742": "χάνδανεν, αὐτὰρ κάλλει ἐνίκα πᾶσαν ἐπʼ αἶαν",
+    "Od. 3.121": "ἤθελʼ, ἐπεὶ μάλα πολλὸν ἐνίκα δῖος Ὀδυσσεὺς"
+   },
+   "asserted": "8x: 5 verse-final, 3 fourth foot",
+   "first_hits": [
+    "Il. 4.389@10-12: ἀλλʼ ὅ γʼ ἀεθλεύειν προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 5.807@10-12: κούρους Καδμείων προκαλίζετο, πάντα δʼ ἐνίκα",
+    "Il. 18.252@10-12: ἀλλʼ ὃ μὲν ἂρ μύθοισιν, ὃ δʼ ἔγχεϊ πολλὸν ἐνίκα·",
+    "Il. 20.410@10-12: καί οἱ φίλτατος ἔσκε, πόδεσσι δὲ πάντας ἐνίκα",
+    "Il. 23.680@6-8: ἐς τάφον· ἔνθα δὲ πάντας ἐνίκα Καδμείωνας.",
+    "Il. 23.742@6-8: χάνδανεν, αὐτὰρ κάλλει ἐνίκα πᾶσαν ἐπʼ αἶαν",
+    "Il. 23.756@10-12: Ἀντίλοχος· ὃ γὰρ αὖτε νέους ποσὶ πάντας ἐνίκα.",
+    "Od. 3.121@6-8: ἤθελʼ, ἐπεὶ μάλα πολλὸν ἐνίκα δῖος Ὀδυσσεὺς"
+   ]
+  }
+ ],
+ "accent_eta_C_os": {
+  "circumflex_types": 24,
+  "circumflex_tokens": 159,
+  "acute_types": 0,
+  "acute_tokens": 0,
+  "acute_examples": [],
+  "circumflex_examples": [
+   [
+    "ἦμος",
+    38
+   ],
+   [
+    "στῆθος",
+    30
+   ],
+   [
+    "δηϊοτῆτος",
+    9
+   ],
+   [
+    "ποτῆτος",
+    9
+   ],
+   [
+    "τῆμος",
+    8
+   ],
+   [
+    "κρητῆρος",
+    7
+   ],
+   [
+    "δῆμος",
+    7
+   ],
+   [
+    "κλῆρος",
+    6
+   ],
+   [
+    "ζωστῆρος",
+    6
+   ],
+   [
+    "ἦδος",
+    5
+   ]
+  ]
+ },
+ "accent_eta_C_ou": {
+  "circumflex_types": 0,
+  "circumflex_tokens": 0,
+  "acute_types": 12,
+  "acute_tokens": 41,
+  "acute_examples": [
+   [
+    "νήσου",
+    9
+   ],
+   [
+    "δήμου",
+    8
+   ],
+   [
+    "σιδήρου",
+    8
+   ],
+   [
+    "ἀργυροήλου",
+    6
+   ],
+   [
+    "πολυμήλου",
+    2
+   ],
+   [
+    "Ἀδμήτου",
+    2
+   ],
+   [
+    "κλήρου",
+    1
+   ],
+   [
+    "Ῥήσου",
+    1
+   ],
+   [
+    "ἐϋδμήτου",
+    1
+   ],
+   [
+    "Εὐμήλου",
+    1
+   ]
+  ],
+  "circumflex_examples": []
+ },
+ "aspiration": {
+  "αὖθʼ + rough": 33,
+  "αὖτʼ + rough": 0,
+  "ἔνθʼ αὖθʼ": 0,
+  "ἔνθʼ αὖτʼ": 12
+ },
+ "check_line": {
+  "n_verses": 64,
+  "n_flagged": 0,
+  "n_unmetrical": 0,
+  "flagged": [],
+  "warnings": [
+   [
+    1,
+    [
+     "quantity_unattested:δαΐφρονε"
+    ]
+   ],
+   [
+    4,
+    [
+     "quantity_unattested:ἀντίθεος"
+    ]
+   ],
+   [
+    5,
+    [
+     "quantity_unattested:Ἑλβέτιος",
+     "quantity_unattested:τεύχεα"
+    ]
+   ],
+   [
+    12,
+    [
+     "quantity_unattested:Ἑλβέτιος"
+    ]
+   ],
+   [
+    16,
+    [
+     "quantity_unattested:ἀκοστήσας"
+    ]
+   ],
+   [
+    19,
+    [
+     "quantity_unattested:Ἑλβέτιος"
+    ]
+   ],
+   [
+    23,
+    [
+     "quantity_unattested:κέρδεα"
+    ]
+   ],
+   [
+    24,
+    [
+     "quantity_unattested:πυμάτῃ",
+     "quantity_unattested:πυμάτῃ"
+    ]
+   ],
+   [
+    25,
+    [
+     "quantity_unattested:Ἑλβέτιος",
+     "quantity_unattested:δάμασεν",
+     "quantity_unattested:δάμασεν"
+    ]
+   ],
+   [
+    28,
+    [
+     "quantity_unattested:κέρδεα"
+    ]
+   ],
+   [
+    33,
+    [
+     "quantity_unattested:ἀργαλέῳ"
+    ]
+   ],
+   [
+    34,
+    [
+     "quantity_unattested:παρέλασσε"
+    ]
+   ],
+   [
+    47,
+    [
+     "quantity_unattested:βαθέης"
+    ]
+   ],
+   [
+    55,
+    [
+     "quantity_unattested:Ἑλβετίου"
+    ]
+   ],
+   [
+    56,
+    [
+     "quantity_unattested:Ἑλβετίου"
+    ]
+   ],
+   [
+    60,
+    [
+     "quantity_unattested:Ἑλβέτιος"
+    ]
+   ],
+   [
+    62,
+    [
+     "quantity_unattested:ἀντιθέῳ"
+    ]
+   ]
+  ]
+ },
+ "slot_gen_ou_10_12_capitalised": {
+  "types": 3,
+  "tokens": 5,
+  "examples": [
+   "Il. 1.532: Ὀλύμπου",
+   "Il. 5.77: Σκαμάνδρου",
+   "Il. 6.134: Λυκούργου",
+   "Il. 13.243: Ὀλύμπου",
+   "Od. 20.103: Ὀλύμπου"
+  ],
+  "by_type": [
+   [
+    "Ὀλύμπου",
+    3
+   ],
+   [
+    "Σκαμάνδρου",
+    1
+   ],
+   [
+    "Λυκούργου",
+    1
+   ]
+  ]
+ },
+ "slot_dat_omega_1_2_before_de": {
+  "count": 20,
+  "examples": [
+   "Il. 3.416: μέσσῳ δʼ | μέσσῳ δʼ ἀμφοτέρων μητίσομαι ἔχθεα λυγρὰ",
+   "Il. 3.445: νήσῳ δʼ | νήσῳ δʼ ἐν Κραναῇ ἐμίγην φιλότητι καὶ εὐνῇ,",
+   "Il. 4.417: τούτῳ δʼ | τούτῳ δʼ αὖ μέγα πένθος Ἀχαιῶν δῃωθέντων.",
+   "Il. 5.387: χαλκέῳ δʼ | χαλκέῳ δʼ ἐν κεράμῳ δέδετο τρισκαίδεκα μῆνας·",
+   "Il. 6.352: τούτῳ δʼ | τούτῳ δʼ οὔτʼ ἂρ νῦν φρένες ἔμπεδοι οὔτʼ ἄρʼ ὀπίσσω",
+   "Il. 7.277: μέσσῳ δʼ | μέσσῳ δʼ ἀμφοτέρων σκῆπτρα σχέθον, εἶπέ τε μῦθον",
+   "Il. 13.731: ἄλλῳ δʼ | ἄλλῳ δʼ ὀρχηστύν, ἑτέρῳ κίθαριν καὶ ἀοιδήν,",
+   "Il. 13.732: ἄλλῳ δʼ | ἄλλῳ δʼ ἐν στήθεσσι τιθεῖ νόον εὐρύοπα Ζεὺς",
+   "Il. 16.508: Γλαύκῳ δʼ | Γλαύκῳ δʼ αἰνὸν ἄχος γένετο φθογγῆς ἀΐοντι·",
+   "Il. 18.414: σπόγγῳ δʼ | σπόγγῳ δʼ ἀμφὶ πρόσωπα καὶ ἄμφω χεῖρʼ ἀπομόργνυ",
+   "Il. 20.224: ἵππῳ δʼ | ἵππῳ δʼ εἰσάμενος παρελέξατο κυανοχαίτῃ·",
+   "Il. 23.270: πέμπτῳ δʼ | πέμπτῳ δʼ ἀμφίθετον φιάλην ἀπύρωτον ἔθηκε.",
+   "Od. 1.350: τούτῳ δʼ | τούτῳ δʼ οὐ νέμεσις Δαναῶν κακὸν οἶτον ἀείδειν·",
+   "Od. 2.253: τούτῳ δʼ | τούτῳ δʼ ὀτρυνέει Μέντωρ ὁδὸν ἠδʼ Ἁλιθέρσης,",
+   "Od. 3.241: κείνῳ δʼ | κείνῳ δʼ οὐκέτι νόστος ἐτήτυμος, ἀλλά οἱ ἤδη",
+   "Od. 4.247: ἄλλῳ δʼ | ἄλλῳ δʼ αὐτὸν φωτὶ κατακρύπτων ἤισκε,",
+   "Od. 8.129: δίσκῳ δʼ | δίσκῳ δʼ αὖ πάντων πολὺ φέρτατος ἦεν Ἐλατρεύς,",
+   "Od. 12.80: μέσσῳ δʼ | μέσσῳ δʼ ἐν σκοπέλῳ ἔστι σπέος ἠεροειδές,",
+   "Od. 12.443: μέσσῳ δʼ | μέσσῳ δʼ ἐνδούπησα παρὲξ περιμήκεα δοῦρα,",
+   "Od. 15.479: ἄντλῳ δʼ | ἄντλῳ δʼ ἐνδούπησε πεσοῦσʼ ὡς εἰναλίη κήξ."
+  ]
+ },
+ "mapping": [
+  {
+   "n": 1,
+   "v3_line": 1,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 2,
+   "v3_line": 2,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 3,
+   "v3_line": 3,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 4,
+   "v3_line": 4,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 5,
+   "v3_line": 5,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 6,
+   "v3_line": 6,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 7,
+   "v3_line": 7,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 8,
+   "v3_line": 8,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 9,
+   "v3_line": 9,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 10,
+   "v3_line": 10,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 11,
+   "v3_line": 11,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 12,
+   "v3_line": 12,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 13,
+   "v3_line": 13,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 14,
+   "v3_line": 14,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 15,
+   "v3_line": 15,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 16,
+   "v3_line": 16,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 17,
+   "v3_line": 17,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 18,
+   "v3_line": 18,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 19,
+   "v3_line": 19,
+   "changed": true,
+   "critic_issue": [
+    "M6",
+    "m7"
+   ]
+  },
+  {
+   "n": 20,
+   "v3_line": 20,
+   "changed": true,
+   "critic_issue": [
+    "M4",
+    "M6",
+    "M8"
+   ]
+  },
+  {
+   "n": 21,
+   "v3_line": 21,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 22,
+   "v3_line": 22,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 23,
+   "v3_line": 23,
+   "changed": true,
+   "critic_issue": [
+    "M2",
+    "M8"
+   ]
+  },
+  {
+   "n": 24,
+   "v3_line": null,
+   "changed": true,
+   "critic_issue": [
+    "M2",
+    "M4"
+   ]
+  },
+  {
+   "n": 25,
+   "v3_line": 24,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 26,
+   "v3_line": 25,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 27,
+   "v3_line": 26,
+   "changed": true,
+   "critic_issue": [
+    "m3",
+    "M6"
+   ]
+  },
+  {
+   "n": 28,
+   "v3_line": 27,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 29,
+   "v3_line": null,
+   "changed": true,
+   "critic_issue": [
+    "M3",
+    "M4"
+   ]
+  },
+  {
+   "n": 30,
+   "v3_line": 28,
+   "changed": false,
+   "critic_issue": [
+    "M3"
+   ]
+  },
+  {
+   "n": 31,
+   "v3_line": 29,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 32,
+   "v3_line": 30,
+   "changed": true,
+   "critic_issue": [
+    "M4",
+    "M6"
+   ]
+  },
+  {
+   "n": 33,
+   "v3_line": 31,
+   "changed": true,
+   "critic_issue": [
+    "m4"
+   ]
+  },
+  {
+   "n": 34,
+   "v3_line": 32,
+   "changed": true,
+   "critic_issue": [
+    "M4",
+    "m1"
+   ]
+  },
+  {
+   "n": 35,
+   "v3_line": null,
+   "changed": true,
+   "critic_issue": [
+    "M7"
+   ]
+  },
+  {
+   "n": 36,
+   "v3_line": null,
+   "changed": true,
+   "critic_issue": [
+    "M7"
+   ]
+  },
+  {
+   "n": 37,
+   "v3_line": 33,
+   "changed": false,
+   "critic_issue": [
+    "M8"
+   ]
+  },
+  {
+   "n": 38,
+   "v3_line": 34,
+   "changed": true,
+   "critic_issue": [
+    "M4",
+    "M6"
+   ]
+  },
+  {
+   "n": 39,
+   "v3_line": 35,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 40,
+   "v3_line": null,
+   "changed": true,
+   "critic_issue": [
+    "M1",
+    "M6"
+   ]
+  },
+  {
+   "n": 41,
+   "v3_line": 36,
+   "changed": false,
+   "critic_issue": [
+    "m2"
+   ]
+  },
+  {
+   "n": 42,
+   "v3_line": 37,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 43,
+   "v3_line": 38,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 44,
+   "v3_line": 39,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 45,
+   "v3_line": 40,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 46,
+   "v3_line": 41,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 47,
+   "v3_line": 42,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 48,
+   "v3_line": 43,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 49,
+   "v3_line": 44,
+   "changed": true,
+   "critic_issue": [
+    "M7",
+    "m8"
+   ]
+  },
+  {
+   "n": 50,
+   "v3_line": 45,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 51,
+   "v3_line": 46,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 52,
+   "v3_line": 48,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 53,
+   "v3_line": 49,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 54,
+   "v3_line": 50,
+   "changed": true,
+   "critic_issue": [
+    "M5"
+   ]
+  },
+  {
+   "n": 55,
+   "v3_line": 51,
+   "changed": false,
+   "critic_issue": [
+    "M8"
+   ]
+  },
+  {
+   "n": 56,
+   "v3_line": 52,
+   "changed": true,
+   "critic_issue": [
+    "M5"
+   ]
+  },
+  {
+   "n": 57,
+   "v3_line": 53,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 58,
+   "v3_line": 54,
+   "changed": true,
+   "critic_issue": [
+    "M5",
+    "M6"
+   ]
+  },
+  {
+   "n": 59,
+   "v3_line": 55,
+   "changed": true,
+   "critic_issue": [
+    "M8"
+   ]
+  },
+  {
+   "n": 60,
+   "v3_line": 56,
+   "changed": false,
+   "critic_issue": []
+  },
+  {
+   "n": 61,
+   "v3_line": 57,
+   "changed": true,
+   "critic_issue": [
+    "M7",
+    "M6",
+    "M5"
+   ]
+  },
+  {
+   "n": 62,
+   "v3_line": 58,
+   "changed": true,
+   "critic_issue": [
+    "M4"
+   ]
+  },
+  {
+   "n": 63,
+   "v3_line": 59,
+   "changed": true,
+   "critic_issue": [
+    "m5",
+    "M4"
+   ]
+  },
+  {
+   "n": 64,
+   "v3_line": 60,
+   "changed": false,
+   "critic_issue": []
+  }
+ ]
+}
