@@ -253,6 +253,8 @@ def run(sample_path, a_path, b_path, out_dir, auto=None, B_=B, seed=L.SEED + 22)
     both = [r for r in sample if r["utt_id"] in A and r["utt_id"] in Bc]
     if auto is None:
         auto = automatic_labels(both)
+        # POST HOC (plan addendum 1, M3): keep the automatic token labels for calibrate_chance.py (new file; no other output changes)
+        L.write_json(out_dir / "calibration_auto_labels.json", {u: {m: np.asarray(v, int).tolist() for m, v in d.items()} for u, d in auto.items()})
     units = []
     for r in both:
         toks = tokens_with_offsets(r["text"])

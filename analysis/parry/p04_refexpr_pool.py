@@ -165,7 +165,10 @@ def main():
                              "slot_syn": slot, "spacy_dep": dep, "slot_sit": sc.classify_context(k0, k1),
                              "syllables": R.syllables(expr, poss), "umpire_pattern": umpire(words, k0, k1, cat),
                              "A_after": g.get("A_after"), "A_before": g.get("A_before"),
-                             "t_next_stored_valid": g.get("t_next_stored") if valid else None, "fps_valid": valid})
+                             "t_next_stored_valid": g.get("t_next_stored") if valid else None, "fps_valid": valid,
+                             # POST HOC (plan addendum 1, M4/M5): span-mode slot of the reference itself, and the stored time field for
+                             # every stream (valid in all 20 after the corpus frame-rate correction, corpus/README.md 3.3)
+                             "slot_sit_span": sc.classify(k0, k1), "t_next_stored_all": g.get("t_next_stored")})
                 cnt[(player, cat)] += 1
         summary["streams"][stream] = {"players": sur, "fps_valid": valid,
                                       "counts": {f"{p}:{c}": n for (p, c), n in sorted(cnt.items())}}
