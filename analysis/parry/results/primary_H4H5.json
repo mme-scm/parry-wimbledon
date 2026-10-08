@@ -22,7 +22,7 @@
   "tokens": 2833,
   "statistic": "D_b = sum over team x player x situational slot of distinct forms",
   "references": "commentary-only, resolved",
-  "mde_theta_80pct_power": 0.11071428571428574
+  "mde_theta_80pct_power": 0.32820512820512826
  },
  "H5": {
   "tokens": 2811,

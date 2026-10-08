@@ -96,6 +96,9 @@ def main():
     e1top = L.read_csv(R / "e1_top_types.csv")
     e2 = L.read_csv(R / "e2_classes.csv")
     e2t = L.read_csv(R / "e2_tests.csv")
+    e1t = L.read_csv(R / "e1_tests.csv")
+    h4d = L.read_csv(R / "h4_declustered.csv")
+    h4s = L.read_csv(R / "h4b_by_slot.csv")
     tmeta = L.read_json(R / "thrift_meta.json")
     inv_full = L.read_csv(R / "inventory_sizes_full.csv")
     inv_m = L.read_csv(R / "inventory_sizes_matched.csv")
@@ -138,9 +141,12 @@ def main():
       f"At 3,000 tokens: excess {est_ci(3000, 'cov_base', 'TV->TV mean excess')} pp (n >= 2), {est_ci(3000, 'cov_n3', 'TV->TV mean excess', d=2)} pp (n >= 3).")
     w(f"* **Is the stock specific to TV commentary (H2)?** For n >= 2, TV sources exceed the written live-text source by {pc(h2a['estimate'], 2)} pp "
       f"{ci(h2a['ci_lo'], h2a['ci_hi'], 2)} and the press-answer source by {pc(h2b['estimate'], 2)} pp {ci(h2b['ci_lo'], h2b['ci_hi'], 2)} in excess coverage of TV "
-      f"targets (all 20 targets positive in both). For n >= 3 the differences are {est_ci(1500, 'cov_n3', 'TV->TV minus cornell->TV excess', d=2)} and "
-      f"{est_ci(1500, 'cov_n3', 'TV->TV minus press_pooled->TV excess', d=2)} pp: the units that TV teams share with one another more than with written or press "
-      "text are two-word units; longer shared units are as available from the Cornell or press texts as from another broadcast.")
+      f"targets ({h2a['n_targets_positive']} and {h2b['n_targets_positive']} of 20 targets positive), i.e. by about a quarter of the TV-TV excess. For n >= 3 the "
+      f"differences are {est_ci(1500, 'cov_n3', 'TV->TV minus cornell->TV excess', d=2)} (Cornell) and {est_ci(1500, 'cov_n3', 'TV->TV minus press_pooled->TV excess', d=2)} "
+      f"(press) pp at 1,500 tokens and {est_ci(3000, 'cov_n3', 'TV->TV minus cornell->TV excess', d=2)} and {est_ci(3000, 'cov_n3', 'TV->TV minus press_pooled->TV excess', d=2)} "
+      "pp at 3,000: the TV-specific part of the shared stock is almost entirely two-word units. Without the `<name>`/`<num>` normalisation the n >= 2 differences shrink to "
+      f"{est_ci(1500, 'cov_base', 'TV->TV minus cornell->TV excess', 'raw', 2)} and {est_ci(1500, 'cov_base', 'TV->TV minus press_pooled->TV excess', 'raw', 2)} pp, "
+      "so a large part of it consists of frames around player names and numbers (score calls, `from <name>`, `for <name>`).")
     k20 = next(r for r in core if r["size"] == "full" and r["tokens"] == "norm" and r["k"] == "20")
     k10 = next(r for r in core if r["size"] == "full" and r["tokens"] == "norm" and r["k"] == "10")
     cb10 = {r["baseline"]: r for r in cbase if r["k"] == "10"}
@@ -179,8 +185,9 @@ def main():
         x = cp[("pool_n2", "A_or_B", "HIGH+MEDIUM")]
         y = cp[("pool_n3", "A_and_B", "HIGH+MEDIUM")]
         w(f"* **Calibration (2b.2; coders are LLM agents).** Token-level agreement between the two coders on 'inside a HIGH/MEDIUM formula span': "
-          f"kappa = {num(pm['token_kappa'], 2)} {ci(pm['token_kappa_ci'][0], pm['token_kappa_ci'][1], 2, 1)}; span F1 {num(pm['span_F1_overlap'], 2)} (overlap) and "
-          f"{num(pm['span_F1_exact'], 2)} (exact boundaries). The Phase 2 measure (pool n >= 2) has precision {num(x['precision'], 2)} and recall {num(x['recall'], 2)} "
+          f"kappa = {num(pm['token_kappa'], 2)} {ci(pm['token_kappa_ci'][0], pm['token_kappa_ci'][1], 2, 1)}; they mark {pc(pm['positive_token_share_A'], 0)}% and "
+          f"{pc(pm['positive_token_share_B'], 0)}% of tokens; span F1 {num(pm['span_F1_overlap'], 2)} (overlap) and "
+          f"{num(pm['span_F1_exact'], 2)} (exact boundaries). The Phase 2 measure (pool n >= 2) marks {pc(x['auto_positive_share'], 0)}% of tokens and has precision {num(x['precision'], 2)} and recall {num(x['recall'], 2)} "
           f"against the union of the coders; pool n >= 3 against their intersection: precision {num(y['precision'], 2)}, recall {num(y['recall'], 2)}. "
           f"The slot classifier agrees with coder A's slot labels on {pc(cm['classifier_vs_coder']['A']['agreement'], 0)}% of spans "
           f"(kappa {num(cm['classifier_vs_coder']['A']['kappa'], 2)}) and with coder B's on {pc(cm['classifier_vs_coder']['B']['agreement'], 0)}% "
@@ -190,16 +197,37 @@ def main():
     allc = next(r for r in cats if r["team"] == "ALL_TV" and r["references"] == "commentary_only")
     pat = Counter(r["verdict"] for r in parr if r["slot_type"] == "situational")
     h4a, h4b, h5 = h45["H4a"], h45["H4b"], h45["H5"]
+    d_dec = next(r for r in h4d if r["test"] == "H4b" and r["token_set"].startswith("first"))
+    sl_sorted = sorted(h4s, key=lambda r: f(r["obs_minus_null"]))
+    h4b_rej = prim["H4b"]["reject_holm_0.05"] == "True"
+    mde_txt = (f"a planted slot-specific form in {pc(h4b['mde_theta_80pct_power'], 0)}% of references is detected with 80% power"
+               if h4b.get("mde_theta_80pct_power") is not None else "the power simulation did not reach 80% on its grid")
+    if h4b_rej:
+        h4b_txt = (f"Within a team, the form depends weakly on the situational slot: H4b {h4b['D_obs']} distinct team x player x slot forms against "
+                   f"{num(h4b['null_mean'], 1)} expected (p = {pval(h4b['p_one_sided_fewer'])}, Holm p = {pval(prim['H4b']['p_holm'])}; post hoc with one reference per "
+                   f"player per utterance {d_dec['D_obs']} vs {num(d_dec['null_mean'], 1)}, p = {pval(d_dec['p_one_sided_fewer'])}); the deficit is "
+                   f"{100 * (1 - h4b['D_obs'] / h4b['null_mean']):.1f}% of the expected count and lies mainly in "
+                   + ", ".join(f"{r['slot']} ({num(r['distinct_obs'], 0)} vs {num(r['null_mean'], 1)})" for r in sl_sorted[:2])
+                   + f" contexts ({mde_txt}).")
+    else:
+        h4b_txt = (f"Within a team, form choice does not depend on the situational slot beyond chance (H4b {h4b['D_obs']} vs {num(h4b['null_mean'], 1)}, "
+                   f"p = {pval(h4b['p_one_sided_fewer'])}; {mde_txt}).")
     w(f"* **Naming and thrift (H4).** Over {allc['resolved_tokens']} commentary-only references to the players, the bare surname is "
       f"{pc(allc['share_surname'], 0)}%, the first name {pc(allc['share_first_name'], 0)}%, the full name {pc(allc['share_full_name'], 0)}%, hypocoristics "
       f"{pc(allc['share_hypocoristic'], 0)}% and descriptive epithets {pc(allc['share_epithet'], 0)}% (at most {pc(allc['share_epithet_upper'], 0)}% if every "
       f"unresolved epithet referred to a player). Teams differ in their naming habits (H4a: {h4a['D_obs']} distinct team x slot x category cells against "
-      f"{num(h4a['null_mean'], 1)} expected if categories were assigned to teams at random; p = {pval(h4a['p_one_sided_fewer'])}). Within a team, the form does "
-      f"not depend on the situational slot beyond chance (H4b: {h4b['D_obs']} vs {num(h4b['null_mean'], 1)}, p = {pval(h4b['p_one_sided_fewer'])}; "
-      + (f"a planted slot-specific form in {pc(h4b['mde_theta_80pct_power'], 0)}% of references would be detected with 80% power). " if h4b.get('mde_theta_80pct_power') is not None
-         else "the power simulation did not reach 80% on its grid). ")
-      + f"Teams classified by the one-form-per-slot criterion (situational slots): " + "; ".join(f"{k}: {v}" for k, v in sorted(pat.items())) + ".")
-    w(f"* **Extension (H5).** Syllables of a reference do not track the time available after its clip: weighted within-stream rho = {num(h5['rho_weighted'], 3)} "
+      f"{num(h4a['null_mean'], 1)} expected if categories were assigned to teams at random; p = {pval(h4a['p_one_sided_fewer'])}; e.g. first names are "
+      f"{pc(min(f(r['share_first_name']) for r in cats if r['references'] == 'commentary_only' and r['team'] != 'ALL_TV'), 0)}-"
+      f"{pc(max(f(r['share_first_name']) for r in cats if r['references'] == 'commentary_only' and r['team'] != 'ALL_TV'), 0)}% of references by team). "
+      + h4b_txt + " No team shows the Parryan pattern of one form per slot with different forms in different slots (situational slots: "
+      + "; ".join(f"{k}: {v} teams" for k, v in sorted(pat.items())) + "); the economy that exists is the surname used almost everywhere.")
+    sig2 = sorted([r for r in e2t if r.get("D_obs") and f(r["p_one_sided_fewer"]) < 0.05], key=lambda r: f(r["p_one_sided_fewer"]))
+    nonsig2 = [r["class"] for r in e2t if r.get("D_obs") and f(r["p_one_sided_fewer"]) >= 0.05]
+    w(f"* **Functional equivalents (E2, exploratory).** Of {sum(1 for r in e2t if r.get('D_obs'))} declared equivalence classes, team choice among the "
+      f"alternatives is more consistent within teams than chance (unadjusted p < 0.05) for " + ", ".join(f"{r['class']} (p = {pval(r['p_one_sided_fewer'])})" for r in sig2)
+      + f"; not for {', '.join(nonsig2)}. Unit choice for serve speed (miles vs kilometres per hour) is the clearest broadcaster habit; the commonest "
+      "evaluative and hedging alternants are shared across teams.")
+    w(f"* **Extension (H5).** No association was detected between the syllable length of a reference and the time available after its clip: weighted within-stream rho = {num(h5['rho_weighted'], 3)} "
       f"(stream bootstrap {ci(h5['boot_lo'], h5['boot_hi'], 3, 1)}; permutation p = {pval(h5['p_two'])}; {h5['tokens']} references in {h5['streams']} streams); "
       f"the minimum detectable rho at this N is about {num(h5['mde_rho_approx'], 3)}.")
     rej = [k for k, r in prim.items() if r["reject_holm_0.05"] == "True"]
@@ -291,7 +319,7 @@ def main():
                 rows.append([Sv, mlab, slab, f"{pc(o['estimate'], 2)} {ci(o['ci_lo'], o['ci_hi'], 2)}", pc(n_["estimate"], 2), pc(e["estimate"], 2)])
     w(table(["S", "inventory", "pair type", "observed", "shuffled", "excess"], rows))
     w("")
-    w("The shuffled Cornell texts keep a large inventory of chance bigrams (its vocabulary is concentrated), so Cornell's Jaccard excess is negative while its "
+    w("'-' = undefined (both shuffled inventories empty). The shuffled Cornell texts keep a large inventory of chance bigrams (its vocabulary is concentrated), so Cornell's Jaccard excess is negative while its "
       "coverage excess is positive; coverage, not Jaccard, carries the tests.")
     w("")
     w("**Table 2.5. Raw-token sensitivity** (no `<num>`/`<name>` normalisation; S = 1,500).")
@@ -324,7 +352,10 @@ def main():
     w(table(["source \\ target"] + [lab(y) for y in sp], rows))
     w("")
     sp_ex = [f(A[("1500", "norm", "cov_base", f"{x}->{y} excess")]["estimate"]) for x in sp for y in sp if x != y]
-    w(f"Mean excess between press speakers: {100 * np.mean(sp_ex):.2f} pp, against {pc(h1a['estimate'], 2)} pp between TV teams.")
+    w(f"Mean excess between press speakers: {100 * np.mean(sp_ex):.2f} pp, against {pc(h1a['estimate'], 2)} pp between TV teams. The yardstick is not matched: "
+      "a speaker's 1,500 tokens are drawn from answers given over many years and press conferences (topic-diverse, so their repeats are generic), the texts are "
+      "edited transcripts without ASR errors, while a TV team's 1,500 tokens come from one match in raw ASR. Cross-team sharing among TV streams is therefore not "
+      "shown to be unusually high or low for a genre.")
     w("")
     w("**Table 2.7. Each TV stream as target and as source** (S = 1,500, n >= 2, 2b normalisation; % ; mean over the other 19 TV streams).")
     w("")
@@ -489,6 +520,32 @@ def main():
                  r["value"] if "/" in r["value"] else num(r["value"], 3)] for r in st if r["measure"] in ("pool_n2", "pool_n3")]
         w(table(["measure", "coder", "kind", "stratum", "numerator", "denominator", "value"], rows))
         w("")
+        def strat(meas, kind):
+            vals = defaultdict(list)
+            for r in st:
+                if r["measure"] == meas and r["stratum_kind"] == kind:
+                    vals[r["stratum"]].append(f(r["value"]))
+            return {k: (min(v), max(v)) for k, v in vals.items()}
+        rs_ = strat("pool_n2", "recall by coder slot")
+        ps_ = strat("pool_n2", "precision by classifier slot")
+        def rng_(d, k):
+            return f"{num(d[k][0], 2)}-{num(d[k][1], 2)}" if k in d else "-"
+        hi_r = sorted(rs_, key=lambda k: -rs_[k][0])[:2]
+        lo_r = sorted(rs_, key=lambda k: rs_[k][0])[:2]
+        hi_p = sorted(ps_, key=lambda k: -ps_[k][0])[:2]
+        lo_p = sorted(ps_, key=lambda k: ps_[k][0])[:2]
+        g19 = [r for r in st if r["measure"] == "pool_n2" and r["stratum_kind"].startswith("precision / recall") and r["stratum"] == "2019"]
+        goth = [r for r in st if r["measure"] == "pool_n2" and r["stratum_kind"].startswith("precision / recall") and r["stratum"] == "other"]
+        w("**Reading.** The pool n >= 2 measure (Phase 2's) marks "
+          f"{pc(next(r for r in prows if r['measure'] == 'pool_n2')['auto_positive_share'], 0)}% of tokens, the coders "
+          f"{pc(ca['primary_HIGH_MEDIUM']['positive_token_share_B'], 0)}-{pc(ca['primary_HIGH_MEDIUM']['positive_token_share_A'], 0)}%. Its recall (range over the two "
+          f"coders) is highest for " + ", ".join(f"{k} ({rng_(rs_, k)})" for k in hi_r) + " spans and lowest for " + ", ".join(f"{k} ({rng_(rs_, k)})" for k in lo_r)
+          + "; its precision is highest where the classifier places a token in " + ", ".join(f"{k} ({rng_(ps_, k)})" for k in hi_p) + " and lowest in "
+          + ", ".join(f"{k} ({rng_(ps_, k)})" for k in lo_p) + ". Precision is higher on the 2019 utterances than on the other streams' ("
+          + " vs ".join(x[0]["value"].split(" / ")[0] if x else "-" for x in (g19[:1], goth[:1])) + " for coder A). The repetition statistic thus recovers the "
+          "score-call and umpire formulas that the coders also recognise, and over-counts ordinary collocations in evaluative and other talk; no automatic variant "
+          "reaches a precision above about 0.45 against either coder.")
+        w("")
         w("**Table 3.4. Slot classifier against the coders' slot labels** (every coder span; rows = coder, columns = classifier).")
         w("")
         cl = L.read_csv(R / "calibration_slot_classifier.csv")
@@ -539,8 +596,12 @@ def main():
     w("")
     w("**Table 4.3. One form per slot?** (cells = player x slot with >= 5 commentary references; criterion in plan section 9).")
     w("")
-    w(table(["team", "slot type", "cells >= 5", "cells with modal share >= 0.9", "lowest modal share", "verdict"],
-            [[r["label"], r["slot_type"], r["cells_ge5"], r["cells_modal_ge_0.9"], num(r["min_modal_share"], 2), r["verdict"]] for r in parr]))
+    def team_econ(t, st):
+        cs = [r for r in econ if r["team"] == t and r["slot_type"] == st and int(r["references"]) >= 5]
+        return (num(np.mean([f(r["modal_share"]) for r in cs]), 2), num(np.mean([f(r["distinct_per_100_refs"]) for r in cs]), 1)) if cs else ("-", "-")
+    w(table(["team", "slot type", "cells >= 5", "mean modal share", "distinct forms per 100 refs", "cells with modal share >= 0.9", "lowest modal share", "verdict"],
+            [[r["label"], r["slot_type"], r["cells_ge5"], *team_econ(r["team"], r["slot_type"]), r["cells_modal_ge_0.9"], num(r["min_modal_share"], 2),
+              r["verdict"]] for r in parr]))
     w("")
     w("**Table 4.4. Thrift tests** (D = sum over cells of distinct categories (H4a) or forms (H4b); one-sided p for fewer than under the null).")
     w("")
@@ -552,6 +613,17 @@ def main():
       f"{mde[0]['simulations']} data sets per theta, {mde[0]['permutations']} permutations each).")
     w("")
     w(table(["theta", "power at alpha 0.05"], [[r["theta"], num(r["power_at_0.05"], 3)] for r in mde]))
+    w("")
+    w("**Table 4.5b. POST HOC: H4 with de-clustered references, and the contribution of each slot to H4b** (one reference per player per utterance; "
+      "slot rows: distinct forms observed vs the mean under the H4b permutation, all commentary-only references).")
+    w("")
+    w(table(["test", "token set", "tokens", "D", "null mean", "null 95%", "p (fewer)"],
+            [[r["test"], r["token_set"], r["tokens"], r["D_obs"], num(r["null_mean"], 1), f"[{num(r['null_lo'], 0)}, {num(r['null_hi'], 0)}]",
+              pval(r["p_one_sided_fewer"])] for r in h4d]))
+    w("")
+    w(table(["slot", "references", "distinct forms (sum over team x player)", "null mean", "observed - null", "null 95%"],
+            [[r["slot"], r["references"], num(r["distinct_obs"], 0), num(r["null_mean"], 1), num(r["obs_minus_null"], 1),
+              f"[{num(r['null_lo'], 0)}, {num(r['null_hi'], 0)}]"] for r in h4s]))
     w("")
     w("**Table 4.6. Extension: syllables vs available time** (weighted mean of within-stream Spearman rho; permutation of the time values among utterances within stream; "
       "MDE = 2.80 x the null SD, normal approximation).")
@@ -573,20 +645,36 @@ def main():
       f"longest-first segmentation gives {em['occurrences']:,} occurrences. Per stream x slot: occurrences, distinct types per 100 tokens of the slot and modal-type share; "
       "null: team labels permuted among the slot's occurrences (10,000 permutations).")
     w("")
-    e1t = [r for r in e2t if r["analysis"] == "E1 formula expressions"]
     rows = []
     for r in e1t:
         sl = r["slot"]
         cells = [x for x in e1 if x["slot"] == sl]
         rows.append([sl, r["occurrences"], num(np.mean([f(x["distinct_per_100_slot_tokens"]) for x in cells if x["distinct_per_100_slot_tokens"]]), 1),
-                     pc(np.mean([f(x["modal_share"]) for x in cells if x["modal_share"]])), r["D_obs"], num(r["null_mean"], 1), pval(r["p_one_sided_fewer"]),
+                     r["D_obs"], num(r["null_mean"], 1), pval(r["p_one_sided_fewer"]),
                      pc(r["modal_share_obs"]), pc(r["modal_share_null_mean"]), pval(r["p_one_sided_modal_higher"])])
-    w(table(["slot", "occurrences", "distinct types per 100 slot tokens (mean over teams)", "modal share % (mean)", "D (sum of distinct types)", "null D",
-             "p (fewer)", "mean modal share %", "null", "p (higher)"], rows))
+    w("**Table 4.7. E1 economy and across-team null by slot.**")
+    w("")
+    w(table(["slot", "occurrences", "distinct types per 100 slot tokens (mean over teams)", "D (sum over teams of distinct types)", "null D",
+             "p (fewer)", "modal-type share % (mean over teams)", "null", "p (higher)"], rows))
     w("")
     w("Commonest types per slot (all teams): " + "; ".join(
         f"{sl}: " + ", ".join([f"`{r['type']}` {pc(r['share_of_slot_occurrences'], 1)}% ({r['teams_using']} teams)" for r in e1top if r["slot"] == sl][:4])
         for sl in L.SLOTS if any(r["slot"] == sl for r in e1top)) + ".")
+    w("")
+    w("Every slot shows fewer distinct types per team than if occurrences were dealt to teams at random: each stream reuses its own formula types. "
+      "Because a stream is one match, this is stream-specific repetition (team and match topic together; e.g. `the wind predictor`, `in the box`), not "
+      "evidence of a team idiolect independent of the match.")
+    w("")
+    w("**Table 4.8. Economy per team and slot (E1)**: distinct formula types per 100 tokens of the slot / modal-type share %.")
+    w("")
+    rows = []
+    for t in L.TV:
+        row = [lab(t)]
+        for sl in L.SLOTS:
+            x = next((r for r in e1 if r["team"] == t and r["slot"] == sl), None)
+            row.append(f"{num(x['distinct_per_100_slot_tokens'], 1)} / {pc(x['modal_share'], 0)}" if x and x["occurrences"] != "0" else "-")
+        rows.append(row)
+    w(table(["team"] + list(L.SLOTS), rows))
     w("")
     w("Slot share of all tokens (token-level classifier), mean over the 20 TV streams: " + ", ".join(
         f"{sl} {pc(np.mean([f(r['share']) for r in slot_tok if r['slot'] == sl]))}%" for sl in L.SLOTS) + ".")
@@ -616,6 +704,8 @@ def main():
                      f"{corn['modal_form']} ({pc(corn['modal_share'], 0)}%, n {corn['occurrences']})" if corn["occurrences"] != "0" else "-",
                      f"{pres['modal_form']} ({pc(pres['modal_share'], 0)}%, n {pres['occurrences']})" if pres["occurrences"] != "0" else "-",
                      f"{t.get('D_obs', '-')} / {num(t.get('null_mean'), 1)}", pval(t.get("p_one_sided_fewer")), pval(t.get("p_one_sided_modal_higher"))])
+    w("**Table 4.9. Functional-equivalence classes.**")
+    w("")
     w(table(["class", "slot", "TV occurrences", "TV teams using", "TV forms (pooled)", "Cornell modal form", "press modal form", "D / null D", "p (fewer)",
              "p (modal higher)"], rows))
     w("")
@@ -629,11 +719,16 @@ def main():
       "that no bootstrap draw crossed zero.")
     w("")
     w(table(["id", "claim", "estimate", "interval", "p", "kind of p", "Holm p", "rejected", "detail"],
-            [[r["id"], r["claim"], num(r["estimate"], 4), r["interval"], pval(r["p"]), r["p_kind"], pval(r["p_holm"]), r["reject_holm_0.05"], r["detail"]]
+            [[r["id"], r["claim"], num(r["estimate"], 0 if r["id"].startswith("H4") else 4), r["interval"], pval(r["p"]), r["p_kind"], pval(r["p_holm"]), r["reject_holm_0.05"], r["detail"]]
              for r in prim.values()]))
     w("")
     n_expl = (sum(1 for r in thr if r["status"] != "2b-primary") + sum(1 for r in ext if r["status"] != "2b-primary")
-              + sum(1 for r in e2t if r.get("D_obs")) + len(clus) + len(qap))
+              + len(e1t) + sum(1 for r in e2t if r.get("D_obs")) + len(clus) + len(qap) + len(h4d))
+    w(f"H4b is rejected only narrowly after Holm (p = {pval(prim['H4b']['p_holm'])}); the effect is small ({h4b['D_obs']} distinct forms against "
+      f"{num(h4b['null_mean'], 1)} expected), and the slot is a keyword classification of a clip-level window (section 3, Table 3.4: about 58% agreement with "
+      "the coders), so H4b shows that name forms vary a little less within some contexts than chance would give, not that commentators keep a form per metrical "
+      "or situational slot. H1 and H2 are large relative to their intervals; their p-values are at the bootstrap floor.")
+    w("")
     w(f"Exploratory tests reported with p-values in sections 2 and 4: {n_expl} (cluster, QAP, thrift, extension, E1 and E2 rows), unadjusted; with this many, "
       "several values below 0.05 are expected by chance.")
     w("")
@@ -669,12 +764,17 @@ def main():
     w(f"2. Hypocoristic + surname ('rafa nadal', 'nole djokovic') counted as one full-name reference ({rsum['post_hoc_hypocoristic_full_names']} cases), not two.")
     w("3. Added beyond the plan's text: the full-size inventory table includes Cornell but not the press corpus (too large to index whole); the E2 extension uses "
       f"{tmeta['E2_extension_permutations']} permutations (it has about 300 strata).")
+    w("4. H4b power simulation corrected: the first run planted slot-specific forms on the observed data, which already carries the observed effect, so its "
+      "'power' at theta = 0 was the rejection rate of the observed data (0.995); the corrected simulation starts every data set from the observed forms with slot labels "
+      "permuted within team x player, so H0 holds at theta = 0 (Table 4.5 reports the corrected run).")
+    w("5. Table 4.5b (H4 with one reference per player per utterance, and the per-slot contribution to D_b) was added after the H4b result was seen, to check "
+      "whether clustering of references within utterances drives it (`p05b_h4_declustered.py`).")
     w("")
     # ------------------------------------------------------------------ 8 files
     w("## 8. Files")
     w("")
     w("Code: `lib2b.py`, `p00_players.py`, `p01_sharing.py`, `p02_core.py`, `p03_clusters_targets.py`, `p04_refexpr_pool.py`, `p05_thrift.py`, `calibrate.py`, "
-      "`p06_primary.py`, `p07_figures.py`, `make_report.py`, `run_all.sh`, `tests/`. Hand input: `hand/players.tsv`. Results: `results/*.csv|json` (runtimes in "
+      "`p05b_h4_declustered.py`, `p06_primary.py`, `p07_figures.py`, `make_report.py`, `run_all.sh`, `tests/`. Hand input: `hand/players.tsv`. Results: `results/*.csv|json` (runtimes in "
       "`sharing_meta.json`, `core_meta.json`, `pool_to_target_meta.json`, `thrift_meta.json`). Figures: `figures/fig1_sharing_heatmap.png` (pair matrix), "
       "`fig2_sharing_summary.png`, `fig3_core_curve.png`, `fig4_idiolect_by_slot.png`, `fig5_pool_to_target.png`, `fig6_refexpr_categories.png`, "
       "`fig7_extension.png`" + (", `fig8_calibration.png`" if cal_ok else "") + ".")

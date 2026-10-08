@@ -1,0 +1,8 @@
+ok fig_heatmap
+ok fig_summary
+ok fig_core
+ok fig_idiolect
+ok fig_targets
+ok fig_refexpr
+ok fig_extension
+ok fig_calibration

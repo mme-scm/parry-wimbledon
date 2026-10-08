@@ -1,2 +1,2 @@
-done 924.2 s
+done 1001.1 s
 p05 exit 0

@@ -8,7 +8,7 @@ team x slot / class with across-team permutation nulls. All E1/E2 results and ev
 
 Outputs: results/slot_token_counts.csv, results/refexpr_category_shares.csv, results/refexpr_economy.csv, results/parryan_pattern.csv,
 results/thrift_tests_2b.csv, results/extension_2b.csv, results/mde_h4b.csv, results/e1_economy.csv, results/e1_top_types.csv,
-results/e2_classes.csv, results/e2_tests.csv, results/primary_H4H5.json, results/thrift_meta.json
+results/e1_tests.csv, results/e2_classes.csv, results/e2_tests.csv, results/primary_H4H5.json, results/thrift_meta.json
 Run: python -I analysis/parry/p05_thrift.py
 """
 import re
@@ -182,9 +182,11 @@ def h4b_per_team(rows, rng, slot_key="slot_sit", n_perm=N_PERM):
 
 def mde_h4b(rows, rng):
     """Plan section 9: with probability theta a reference takes a designated form of its team x player x slot cell
-    (drawn from the team-player's observed forms in proportion to frequency); power of the H4b test at alpha 0.05."""
+    (drawn from the team-player's observed forms in proportion to frequency); power of the H4b test at alpha 0.05.
+    Each simulated data set starts from the observed forms with the slot labels permuted within team x player (so H0 holds
+    exactly at theta = 0; the first run planted on the observed data, which already carries any real effect: corrected, see report)."""
     tp, _ = enc([(r["stream"], r["player"]) for r in rows])
-    slot, _ = enc([r["slot_sit"] for r in rows])
+    slot0, _ = enc([r["slot_sit"] for r in rows])
     form0, keys = enc([(r["stream"], r["player"], r["expression"]) for r in rows])
     forms_of = defaultdict(list)
     for i in range(len(rows)):
@@ -194,6 +196,7 @@ def mde_h4b(rows, rng):
         rej = 0
         for _ in range(MDE_SIMS):
             form = form0.copy()
+            slot = permute_within(slot0, tp, rng)
             designated = {}
             for c in np.unique(tp * 100 + slot):
                 t = c // 100
@@ -541,7 +544,10 @@ def main():
     ext_rows.append({"analysis": "E2 extension", "references": "E2 class occurrences (TV)", "time": "A_after (hit clock)", **e2_ext,
                      "status": "exploratory (strata = stream x class)"})
     L.write_csv(L.RESULTS / "e2_classes.csv", e2_rows)
-    L.write_csv(L.RESULTS / "e2_tests.csv", e1_tests + e2_tests)
+    L.write_csv(L.RESULTS / "e1_tests.csv", e1_tests)
+    L.write_csv(L.RESULTS / "e2_tests.csv", e2_tests,
+                ["analysis", "class", "slot", "occurrences", "teams", "D_obs", "null_mean", "null_lo", "null_hi", "p_one_sided_fewer",
+                 "modal_share_obs", "modal_share_null_mean", "p_one_sided_modal_higher", "permutations", "null", "status", "note"])
     L.write_csv(L.RESULTS / "thrift_tests_2b.csv", tests,
                 ["test", "references", "slot_type", "team", "tokens", "D_obs", "null_mean", "null_lo", "null_hi", "null_sd",
                  "p_one_sided_fewer", "permutations", "status"])

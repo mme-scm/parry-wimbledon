@@ -1,0 +1,8 @@
+analysis,slot,occurrences,D_obs,null_mean,null_lo,null_hi,p_one_sided_fewer,modal_share_obs,modal_share_null_mean,p_one_sided_modal_higher,permutations,null,status
+E1 formula expressions,SCORE,2171,1946,1985.34,1974,1996,9.999e-05,0.064668,0.0717214,0.992001,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,OFFICIAL,507,439,454.504,448,461,9.999e-05,0.166765,0.137775,0.00239976,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,SHOT,7754,7419,7554.22,7530,7578,9.999e-05,0.00850238,0.0072649,0.00569943,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,JUDGE,7208,6882,7018.93,6995,7042,9.999e-05,0.00928497,0.00753647,9.999e-05,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,STAT,2488,2379,2437.74,2425,2449,9.999e-05,0.0252514,0.020011,0.00149985,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,CROWD,634,610,624.932,619,630,9.999e-05,0.082034,0.0682896,0.00259974,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,OTHER,10015,9559,9762.75,9735,9790,9.999e-05,0.00683148,0.00579147,0.00089991,10000,team labels permuted among occurrences within slot,exploratory
