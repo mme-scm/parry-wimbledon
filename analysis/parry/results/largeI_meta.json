@@ -1,0 +1,27 @@
+{
+ "I_size": 100000,
+ "R": 5,
+ "B": 10000,
+ "sources": [
+  "tv_other19",
+  "cornell",
+  "press_pooled"
+ ],
+ "token_variants": [
+  "norm",
+  "raw"
+ ],
+ "targets": 20,
+ "candidates_tv_only_types": 3237,
+ "strict_types": 686,
+ "pooled_majority_types": 2606,
+ "cornell_tokens_full": 178770,
+ "press_tokens_full": 5435611,
+ "runtime_jobs_s": 501.5,
+ "runtime_scan_s": 3.3,
+ "runtime_total_s": 511.8,
+ "seeds": {
+  "jobs": "[SEED, 108, target index, r, token variant index]",
+  "bootstrap": "[SEED, 109]"
+ }
+}

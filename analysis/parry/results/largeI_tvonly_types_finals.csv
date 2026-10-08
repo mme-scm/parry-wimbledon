@@ -1,0 +1,401 @@
+target,label,ngram,n,occurrences_in_target,replicates_tv_only,modal_slot,modal_slot_share,other_tv_streams_attesting,cornell_utterances_full,press_utterances_full,strict,per_100k_tv_other19,per_100k_cornell,per_100k_press
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by,3,7,5,SCORE,0.857143,4,0,0,True,9.91965,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> is challenging,3,5,5,OFFICIAL,1,1,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,and <num> minutes,3,5,4,STAT,1,6,2,43,False,13.5268,1.11876,0.809477
+tv_2019wimF,2019 WIM M F Federer-Djokovic,hours and <num>,3,5,4,STAT,1,5,0,21,False,10.8214,0,0.386341
+tv_2019wimF,2019 WIM M F Federer-Djokovic,hours and <num> minutes,4,5,4,STAT,1,5,0,20,False,10.8214,0,0.367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the semi final,3,5,5,STAT,1,2,1,1,True,1.80357,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has two challenges,4,4,5,OFFICIAL,1,2,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has two challenges remaining,5,4,5,OFFICIAL,1,2,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> miles an,3,4,5,STAT,1,6,0,32,False,16.2322,0,0.643902
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> miles an hour,4,4,5,STAT,1,6,0,32,False,16.2322,0,0.643902
+tv_2019wimF,2019 WIM M F Federer-Djokovic,ball was called,3,4,5,OFFICIAL,1,3,0,3,False,11.7232,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,games to one,3,4,5,SCORE,0.75,6,0,1,True,9.91965,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,has two challenges,3,4,5,OFFICIAL,1,4,0,0,True,6.31251,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,has two challenges remaining,4,4,5,OFFICIAL,1,3,0,0,True,5.41072,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,in the <name>,3,4,5,OTHER,0.5,2,1,0,True,1.80357,0.559378,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,miles an hour,3,4,5,STAT,1,6,0,40,False,16.2322,0,0.791079
+tv_2019wimF,2019 WIM M F Federer-Djokovic,on their feet,3,4,3,OTHER,0.5,2,4,4,False,1.80357,2.23751,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,please thank you,3,4,5,OFFICIAL,1,3,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,thank you please,3,4,5,OFFICIAL,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,two challenges remaining,3,4,5,OFFICIAL,1,3,0,0,True,5.41072,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> the,3,3,4,SCORE,0.333333,2,0,3,False,1.80357,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> able to,3,3,5,SHOT,0.666667,3,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> trying to,3,3,5,OTHER,0.333333,4,0,1,True,4.50893,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,by two games,3,3,5,SCORE,0.666667,3,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,by two games to,4,3,5,SCORE,0.666667,3,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,by two games to one,5,3,5,SCORE,0.666667,3,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,game <num> <num>,3,3,5,SCORE,0.333333,4,0,14,False,4.50893,0,0.257561
+tv_2019wimF,2019 WIM M F Federer-Djokovic,of all time,3,3,3,SHOT,0.666667,3,0,83,False,2.70536,0,1.65575
+tv_2019wimF,2019 WIM M F Federer-Djokovic,thank you players,3,3,5,OFFICIAL,1,3,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,that <name> <name>,3,3,5,OTHER,0.333333,7,1,4,False,7.21429,0.559378,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the backhand side,3,3,3,SHOT,1,7,3,36,False,10.8214,1.67813,0.680696
+tv_2019wimF,2019 WIM M F Federer-Djokovic,two games to,3,3,5,SCORE,0.666667,6,0,6,False,9.01786,0,0.110383
+tv_2019wimF,2019 WIM M F Federer-Djokovic,two games to one,4,3,5,SCORE,0.666667,3,0,1,True,3.60715,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by two,4,2,5,SCORE,1,4,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by two games,5,2,5,SCORE,1,3,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by two games to,6,2,5,SCORE,1,3,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by two games to one,7,2,5,SCORE,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> of course,3,2,5,OTHER,1,3,0,12,False,2.70536,0,0.220766
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <name> <name>,3,2,5,OTHER,1,3,0,2,False,2.70536,0,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <name> <name> has,4,2,5,OTHER,0.5,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> first serves,3,2,3,SHOT,1,3,2,18,False,2.70536,1.11876,0.33115
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> hours and,3,2,5,STAT,1,2,0,15,False,4.50893,0,0.275958
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> hours and <num>,4,2,5,STAT,1,2,0,9,False,4.50893,0,0.165575
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> hours and <num> minutes,5,2,5,STAT,1,2,0,8,False,4.50893,0,0.147178
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> years of age,4,2,4,STAT,1,2,0,4,False,1.80357,0,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a fifth set,3,2,3,JUDGE,0.5,4,3,40,False,3.60715,1.67813,0.827874
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a final set,3,2,4,SCORE,1,1,1,1,True,1.80357,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an hour and,3,2,3,STAT,1,6,2,64,False,7.21429,1.11876,1.23261
+tv_2019wimF,2019 WIM M F Federer-Djokovic,at the end of the second,6,2,3,JUDGE,1,3,0,52,False,3.60715,0,0.975051
+tv_2019wimF,2019 WIM M F Federer-Djokovic,at the end of the second set,7,2,4,JUDGE,1,3,0,35,False,3.60715,0,0.662299
+tv_2019wimF,2019 WIM M F Federer-Djokovic,ball was called in,4,2,5,OFFICIAL,1,2,0,1,True,4.50893,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,ball was called out,4,2,5,OFFICIAL,1,3,0,2,False,7.21429,0,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,beat him in,3,2,3,OTHER,1,2,0,44,False,1.80357,0,0.846271
+tv_2019wimF,2019 WIM M F Federer-Djokovic,by four games,3,2,5,SCORE,1,3,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,by four games to,4,2,5,SCORE,1,3,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,do you think,3,2,3,JUDGE,1,7,0,75,False,9.91965,0,1.41658
+tv_2019wimF,2019 WIM M F Federer-Djokovic,fact that he,3,2,4,JUDGE,0.5,3,0,31,False,2.70536,0,0.58871
+tv_2019wimF,2019 WIM M F Federer-Djokovic,four games to,3,2,5,SCORE,1,8,0,2,False,8.11608,0,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,go to a,3,2,3,SCORE,1,2,3,49,False,2.70536,1.67813,0.91986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,he beat <name>,3,2,4,SHOT,0.5,2,0,24,False,1.80357,0,0.45993
+tv_2019wimF,2019 WIM M F Federer-Djokovic,he needed to,3,2,4,JUDGE,1,2,1,56,False,2.70536,0.559378,1.04864
+tv_2019wimF,2019 WIM M F Federer-Djokovic,head to head,3,2,5,STAT,1,3,0,27,False,3.60715,0,0.551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,in his career,3,2,3,STAT,1,4,1,68,False,3.60715,0.559378,1.25101
+tv_2019wimF,2019 WIM M F Federer-Djokovic,in terms of the,4,2,4,JUDGE,1,4,0,87,False,3.60715,0,1.63735
+tv_2019wimF,2019 WIM M F Federer-Djokovic,into the backhand,3,2,5,SHOT,1,3,0,3,False,2.70536,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,into this final,3,2,5,JUDGE,0.5,3,0,3,False,2.70536,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,it's a break,3,2,3,OTHER,1,2,2,2,False,2.70536,1.11876,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,it's got to,3,2,5,JUDGE,1,3,0,27,False,2.70536,0,0.515121
+tv_2019wimF,2019 WIM M F Federer-Djokovic,it's the right,3,2,4,SHOT,1,2,0,37,False,1.80357,0,0.717491
+tv_2019wimF,2019 WIM M F Federer-Djokovic,ladies and gentlemen,3,2,5,OFFICIAL,1,5,0,0,True,9.91965,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,last time he,3,2,5,OTHER,1,3,0,5,False,2.70536,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,leads by two,3,2,5,SCORE,1,4,1,0,True,5.41072,0.559378,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,leads by two games,4,2,5,SCORE,1,3,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,leads by two games to,5,2,5,SCORE,1,3,0,0,True,4.50893,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,leads by two games to one,6,2,5,SCORE,1,3,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,look at <name>,3,2,4,OTHER,1,2,0,5,False,1.80357,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,man in the,3,2,5,OTHER,1,3,1,5,False,3.60715,0.559378,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,men's singles final,3,2,5,OTHER,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,now <num> <num>,3,2,4,SCORE,1,3,2,3,False,2.70536,1.11876,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,number one ranking,3,2,5,STAT,1,3,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,of <name> <name>,3,2,5,JUDGE,0.5,8,0,6,False,8.11608,0,0.110383
+tv_2019wimF,2019 WIM M F Federer-Djokovic,of his game,3,2,3,JUDGE,0.5,2,2,54,False,2.70536,1.11876,1.03024
+tv_2019wimF,2019 WIM M F Federer-Djokovic,of the <name>,3,2,4,OTHER,0.5,2,0,5,False,1.80357,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,of the match <num>,4,2,4,SCORE,1,2,2,4,False,1.80357,1.11876,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,on that backhand,3,2,5,SHOT,1,4,0,3,False,4.50893,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,on the left,3,2,5,JUDGE,0.5,7,1,15,False,10.8214,0.559378,0.294355
+tv_2019wimF,2019 WIM M F Federer-Djokovic,on top of his,4,2,3,OTHER,1,2,0,12,False,1.80357,0,0.220766
+tv_2019wimF,2019 WIM M F Federer-Djokovic,one game all,3,2,5,SCORE,1,2,1,1,True,1.80357,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,return by <name>,3,2,5,SHOT,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,sets to one,3,2,3,SCORE,1,5,2,37,False,8.11608,1.11876,0.717491
+tv_2019wimF,2019 WIM M F Federer-Djokovic,shot <num> <num>,3,2,4,SCORE,1,2,0,1,True,1.80357,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,slice back and,3,2,5,SHOT,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,stage of the,3,2,3,SCORE,0.5,4,1,75,False,4.50893,0.559378,1.41658
+tv_2019wimF,2019 WIM M F Federer-Djokovic,talked about the,3,2,5,OTHER,1,3,0,17,False,3.60715,0,0.312752
+tv_2019wimF,2019 WIM M F Federer-Djokovic,terms of the,3,2,4,JUDGE,1,4,0,88,False,3.60715,0,1.65575
+tv_2019wimF,2019 WIM M F Federer-Djokovic,thank you please thank,4,2,4,OFFICIAL,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,thank you please thank you,5,2,4,OFFICIAL,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,that second serve,3,2,5,SHOT,1,10,0,11,False,14.4286,0,0.202369
+tv_2019wimF,2019 WIM M F Federer-Djokovic,that's what <name>,3,2,5,OTHER,0.5,3,0,2,False,3.60715,0,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the <name> return,3,2,4,SHOT,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the end of the second set,6,2,3,JUDGE,1,3,0,110,False,3.60715,0,2.04209
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the fact that he,4,2,4,JUDGE,0.5,3,0,31,False,2.70536,0,0.58871
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the quality of,3,2,3,JUDGE,1,3,2,56,False,3.60715,1.11876,1.12223
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the right shot,3,2,4,SHOT,1,2,0,42,False,1.80357,0,0.772682
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the royal box,3,2,5,CROWD,1,2,1,19,False,1.80357,0.559378,0.423136
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the slice back,3,2,5,SHOT,1,2,0,1,True,1.80357,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,the tournament he's,3,2,4,STAT,1,2,0,11,False,1.80357,0,0.202369
+tv_2019wimF,2019 WIM M F Federer-Djokovic,these two players,3,2,5,JUDGE,0.5,2,0,7,False,2.70536,0,0.165575
+tv_2019wimF,2019 WIM M F Federer-Djokovic,this point but,3,2,4,SHOT,0.5,2,0,12,False,1.80357,0,0.220766
+tv_2019wimF,2019 WIM M F Federer-Djokovic,three games all,3,2,4,SCORE,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,three hours and,3,2,4,STAT,1,3,0,31,False,4.50893,0,0.570313
+tv_2019wimF,2019 WIM M F Federer-Djokovic,three hours and <num>,4,2,5,STAT,1,3,0,3,False,3.60715,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,three hours and <num> minutes,5,2,5,STAT,1,3,0,3,False,3.60715,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,to a final,3,2,3,SCORE,1,2,0,10,False,1.80357,0,0.183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,to his backhand,3,2,4,SHOT,1,1,2,38,False,1.80357,1.11876,0.754285
+tv_2019wimF,2019 WIM M F Federer-Djokovic,top of his,3,2,3,OTHER,1,2,1,18,False,1.80357,0.559378,0.33115
+tv_2019wimF,2019 WIM M F Federer-Djokovic,two sets to one,4,2,3,SCORE,1,5,1,37,False,8.11608,0.559378,0.717491
+tv_2019wimF,2019 WIM M F Federer-Djokovic,was called in,3,2,5,OFFICIAL,1,2,1,1,True,4.50893,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,was called out,3,2,3,OFFICIAL,1,3,2,5,False,8.11608,1.11876,0.12878
+tv_2019wimF,2019 WIM M F Federer-Djokovic,we talked about,3,2,5,OTHER,1,3,0,40,False,2.70536,0,0.772682
+tv_2019wimF,2019 WIM M F Federer-Djokovic,with a little,3,2,3,JUDGE,1,6,1,95,False,5.41072,0.559378,1.78453
+tv_2019wimF,2019 WIM M F Federer-Djokovic,years of age,3,2,4,STAT,1,2,0,4,False,1.80357,0,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,you please thank,3,2,4,OFFICIAL,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,you please thank you,4,2,4,OFFICIAL,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> leads,3,1,5,SCORE,1,4,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> needs,3,1,5,JUDGE,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> needs to,4,1,5,JUDGE,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> so,3,1,5,OTHER,1,2,0,5,False,1.80357,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> <name> will,3,1,4,STAT,1,1,1,0,True,1.80357,0.559378,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> couldn't quite,3,1,3,JUDGE,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> got the,3,1,4,SHOT,1,2,2,0,False,1.80357,1.11876,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has got,3,1,3,JUDGE,1,3,2,2,False,2.70536,1.11876,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has one,3,1,4,OFFICIAL,1,1,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has one challenge,4,1,4,OFFICIAL,1,1,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> has one challenge remaining,5,1,4,OFFICIAL,1,1,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> he was,3,1,5,SHOT,1,7,0,8,False,6.31251,0,0.147178
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> i think,3,1,4,JUDGE,1,9,1,59,False,8.11608,0.559378,1.12223
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> is trying,3,1,3,SHOT,1,2,1,1,True,1.80357,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> is trying to,4,1,3,SHOT,1,2,1,1,True,1.80357,0.559378,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> it was,3,1,3,STAT,1,3,2,20,False,2.70536,1.11876,0.367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leading <num>,3,1,5,OTHER,1,4,0,0,True,3.60715,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by three,4,1,4,SCORE,1,2,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by three games,5,1,4,SCORE,1,1,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by three games to,6,1,4,SCORE,1,1,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> leads by three games to two,7,1,4,SCORE,1,1,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> thank you,3,1,4,OFFICIAL,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> to play,3,1,4,SHOT,1,2,1,3,False,1.80357,0.559378,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> was going,3,1,5,OTHER,1,4,0,5,False,4.50893,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> was going to,4,1,5,OTHER,1,3,0,5,False,3.60715,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> was in,3,1,3,OTHER,1,3,3,2,False,3.60715,1.67813,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> when he's,3,1,5,OTHER,1,3,0,5,False,2.70536,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> with the,3,1,5,SCORE,1,6,1,3,False,9.01786,0.559378,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name> would have,3,1,5,OTHER,1,3,0,0,True,2.70536,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<name>'s going to,3,1,5,SHOT,1,3,1,3,False,2.70536,0.559378,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <name> leads,3,1,5,OTHER,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> <name> <name>,4,1,3,OTHER,1,2,0,0,True,1.80357,0,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> <num> and,4,1,3,OTHER,1,2,0,56,False,1.80357,0,1.03024
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> first,3,1,5,SCORE,1,8,0,13,False,9.01786,0,0.239164
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> in this,4,1,5,SCORE,1,2,0,1,True,1.80357,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> just,3,1,4,SCORE,1,2,1,18,False,2.70536,0.559378,0.33115
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> minutes,3,1,4,STAT,1,2,0,63,False,1.80357,0,1.15902
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> there's,3,1,4,SCORE,1,2,1,4,False,1.80357,0.559378,0.0735888
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> well,3,1,5,SCORE,1,6,0,5,False,8.11608,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> <num> you,3,1,3,SCORE,1,2,2,96,False,2.70536,1.11876,1.76613
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> and it's,3,1,4,OTHER,1,2,2,14,False,1.80357,1.11876,0.257561
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> in this,3,1,4,SCORE,1,5,2,7,False,6.31251,1.11876,0.12878
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> minutes <name>,3,1,4,STAT,1,2,1,0,True,1.80357,0.559378,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> minutes and,3,1,4,STAT,1,5,1,32,False,4.50893,0.559378,0.607107
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> of course,3,1,4,OTHER,1,2,1,27,False,1.80357,0.559378,0.496724
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> second set,3,1,5,SCORE,1,6,0,8,False,9.01786,0,0.147178
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> shot rallies,3,1,5,SHOT,1,1,0,5,False,1.80357,0,0.110383
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> so far,3,1,5,SHOT,1,2,0,2,False,1.80357,0,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,<num> to <num>,3,1,3,OTHER,1,10,3,133,False,14.4286,2.23751,2.85157
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a <name> <name>,3,1,3,CROWD,1,2,2,2,False,1.80357,1.11876,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a different look,3,1,3,SCORE,1,2,0,7,False,1.80357,0,0.12878
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a few more first,4,1,4,SHOT,1,2,0,5,False,1.80357,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a few more first serves,5,1,4,SHOT,1,2,0,5,False,1.80357,0,0.091986
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a fifth and,3,1,3,OTHER,1,2,2,0,False,1.80357,1.11876,0
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a great shot,3,1,5,SHOT,1,3,0,20,False,3.60715,0,0.423136
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a little bit off,4,1,3,JUDGE,1,2,0,29,False,1.80357,0,0.533519
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a little bit quicker,4,1,4,JUDGE,1,3,0,41,False,2.70536,0,0.772682
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a long period,3,1,4,SHOT,1,2,0,63,False,1.80357,0,1.17742
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a long period of,4,1,4,SHOT,1,2,0,52,False,1.80357,0,0.956654
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a long period of time,5,1,4,SHOT,1,2,0,51,False,1.80357,0,0.938257
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a lot longer,3,1,4,OTHER,1,2,0,28,False,1.80357,0,0.533519
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a point for,3,1,3,CROWD,1,2,1,2,False,1.80357,0.559378,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a taste of,3,1,4,OTHER,1,2,1,7,False,1.80357,0.559378,0.12878
+tv_2019wimF,2019 WIM M F Federer-Djokovic,a time to,3,1,5,JUDGE,1,2,1,12,False,2.70536,0.559378,0.220766
+tv_2019wimF,2019 WIM M F Federer-Djokovic,able to find,3,1,4,SHOT,1,5,0,56,False,6.31251,0,1.06704
+tv_2019wimF,2019 WIM M F Federer-Djokovic,about the fact,3,1,5,OTHER,1,2,0,13,False,1.80357,0,0.239164
+tv_2019wimF,2019 WIM M F Federer-Djokovic,about the fact that,4,1,5,OTHER,1,2,0,9,False,1.80357,0,0.165575
+tv_2019wimF,2019 WIM M F Federer-Djokovic,again in the,3,1,3,OTHER,1,2,1,64,False,1.80357,0.559378,1.19582
+tv_2019wimF,2019 WIM M F Federer-Djokovic,against <name> <name>,3,1,4,OTHER,1,6,2,17,False,5.41072,1.11876,0.312752
+tv_2019wimF,2019 WIM M F Federer-Djokovic,almost on the,3,1,5,SCORE,1,2,0,1,True,1.80357,0,0.0183972
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an awful lot,3,1,5,JUDGE,1,4,0,7,False,4.50893,0,0.12878
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an awful lot of,4,1,5,JUDGE,1,3,0,3,False,3.60715,0,0.0551916
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an element of,3,1,3,OTHER,1,1,1,2,False,1.80357,0.559378,0.0367944
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an hour and <num>,4,1,5,STAT,1,3,1,14,False,2.70536,0.559378,0.257561
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an hour and a,4,1,4,STAT,1,2,0,34,False,1.80357,0,0.643902
+tv_2019wimF,2019 WIM M F Federer-Djokovic,an hour and a half,5,1,4,STAT,1,2,0,34,False,1.80357,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,challenging the call,3,10,5,OFFICIAL,1,1,0,1,True,2.64396,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ball was called,3,7,5,OFFICIAL,1,3,0,3,False,8.81321,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ball was called out,4,5,5,OFFICIAL,1,3,0,2,False,4.40661,0,0.0735888
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,have a look,3,5,4,SHOT,0.4,5,0,44,False,6.16925,0,0.846271
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,have a look at,4,5,4,SHOT,0.4,5,0,21,False,5.28793,0,0.404738
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,was called out,3,5,4,OFFICIAL,1,3,2,5,False,5.28793,1.11876,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> has two challenges,4,4,5,OFFICIAL,1,2,0,0,True,4.40661,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> has two challenges remaining,5,4,5,OFFICIAL,1,2,0,0,True,4.40661,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads five,3,4,3,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads five games,4,4,3,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads five games to,5,4,3,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,five games to,3,4,5,SCORE,1,8,0,1,True,7.05057,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,has two challenges,3,4,5,OFFICIAL,1,4,0,0,True,6.16925,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,has two challenges remaining,4,4,5,OFFICIAL,1,3,0,0,True,5.28793,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,leads five games,3,4,5,SCORE,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,leads five games to,4,4,5,SCORE,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,look at this,3,4,4,OTHER,0.5,5,0,18,False,8.81321,0,0.33115
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,two challenges remaining,3,4,5,OFFICIAL,1,3,0,0,True,5.28793,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> miles an,3,3,4,STAT,1,6,0,32,False,16.7451,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> miles an hour,4,3,4,STAT,1,6,0,32,False,16.7451,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first and second,3,3,3,SHOT,1,3,1,118,False,6.16925,0.559378,2.20766
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,games to one,3,3,5,SCORE,1,6,0,1,True,10.5759,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,look at that,3,3,4,OTHER,1,8,0,37,False,8.81321,0,0.680696
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,miles an hour,3,3,4,STAT,1,6,0,40,False,16.7451,0,0.791079
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,new balls please,3,3,4,OFFICIAL,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,throughout the tournament,3,3,4,STAT,1,3,1,28,False,5.28793,0.559378,0.533519
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> <name> in,3,2,3,STAT,0.5,5,2,9,False,4.40661,1.11876,0.165575
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> down in,4,2,4,SCORE,0.5,2,1,20,False,1.76264,0.559378,0.386341
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> well,3,2,5,SCORE,0.5,6,0,5,False,7.05057,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> down in,3,2,5,SCORE,0.5,5,1,41,False,4.40661,0.559378,0.772682
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> miles per,3,2,3,STAT,1,2,0,17,False,1.76264,0,0.33115
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> miles per hour,4,2,3,STAT,1,2,0,17,False,1.76264,0,0.33115
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ball was called in,4,2,5,OFFICIAL,1,2,0,1,True,4.40661,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,between first and,3,2,4,SHOT,1,2,0,8,False,1.76264,0,0.147178
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,between first and second,4,2,4,SHOT,1,2,0,8,False,1.76264,0,0.147178
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,break point saved,3,2,5,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,but look at,3,2,5,JUDGE,0.5,3,0,6,False,2.64396,0,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,final of the,3,2,4,CROWD,0.5,2,0,53,False,3.52529,0,1.03024
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first set <num>,3,2,4,OTHER,0.5,4,1,36,False,3.52529,0.559378,0.662299
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,for the drop,3,2,4,SHOT,0.5,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,for the drop shot,4,2,4,SHOT,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,games to <num>,3,2,5,OTHER,0.5,5,0,7,False,6.16925,0,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,he's got the,3,2,5,JUDGE,0.5,7,0,34,False,7.05057,0,0.717491
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,he's got to,3,2,4,JUDGE,1,8,2,54,False,22.9144,1.11876,1.08543
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,his side of,3,2,4,JUDGE,0.5,1,1,3,False,1.76264,0.559378,0.0551916
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,his side of the,4,2,4,JUDGE,0.5,1,1,2,False,1.76264,0.559378,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,in a final,3,2,4,OTHER,0.5,4,1,59,False,7.05057,0.559378,1.12223
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,into the forehand,3,2,5,SHOT,1,3,0,3,False,3.52529,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,it's a break,3,2,3,SCORE,0.5,2,2,2,False,2.64396,1.11876,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,looking up at,3,2,4,CROWD,0.5,2,0,5,False,1.76264,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,men's singles final,3,2,5,JUDGE,0.5,2,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,miles per hour,3,2,3,STAT,1,2,0,20,False,1.76264,0,0.386341
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,of that point,3,2,3,JUDGE,0.5,2,3,3,False,1.76264,1.67813,0.0551916
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,one third set,3,2,5,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,players are ready,3,2,5,STAT,0.5,5,0,3,False,7.05057,0,0.0551916
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,shot and then,3,2,5,SHOT,1,3,1,16,False,3.52529,0.559378,0.294355
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,talked about the,3,2,5,OTHER,0.5,3,0,17,False,3.52529,0,0.312752
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,the ball just,3,2,5,OTHER,0.5,3,0,29,False,2.64396,0,0.533519
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,the course of,3,2,3,OTHER,1,5,1,76,False,6.16925,0.559378,1.45338
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,the other end,3,2,3,OTHER,0.5,4,2,17,False,4.40661,1.11876,0.312752
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,the return was,3,2,5,SHOT,1,4,0,9,False,3.52529,0,0.165575
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,the slice backhand,3,2,5,SHOT,1,3,0,5,False,3.52529,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,three games to,3,2,5,SCORE,1,5,0,1,True,6.16925,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,time away from,3,2,5,SHOT,1,4,1,34,False,3.52529,0.559378,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,time away from <name>,4,2,5,SHOT,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,to show you,3,2,4,SCORE,0.5,2,0,14,False,2.64396,0,0.257561
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,two games all,3,2,5,SCORE,1,4,0,2,False,3.52529,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,want to give,3,2,5,OFFICIAL,0.5,2,0,98,False,2.64396,0,1.80293
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,was called in,3,2,5,OFFICIAL,1,2,1,1,True,4.40661,0.559378,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,well that was,3,2,3,OTHER,1,3,3,57,False,2.64396,1.67813,1.04864
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,where <name> is,3,2,5,OTHER,0.5,3,1,1,True,2.64396,0.559378,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,with the slice,3,2,4,SHOT,1,2,0,21,False,1.76264,0,0.386341
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> <name> a,3,1,5,CROWD,1,3,0,2,False,2.64396,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> <name> at,3,1,5,JUDGE,1,3,1,2,False,3.52529,0.559378,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> <name> in the,4,1,4,OTHER,1,2,1,2,False,1.76264,0.559378,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> <name> leads,3,1,5,SCORE,1,4,0,0,True,3.52529,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> and that,3,1,5,JUDGE,1,5,1,3,False,4.40661,0.559378,0.0551916
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> and then,3,1,5,SHOT,1,3,0,13,False,2.64396,0,0.239164
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> feels like,3,1,5,JUDGE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> has won,3,1,3,STAT,1,2,3,4,False,6.16925,1.67813,0.0735888
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> have to,3,1,5,JUDGE,1,2,1,2,False,1.76264,0.559378,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> he was,3,1,5,SHOT,1,7,0,8,False,6.16925,0,0.147178
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> here in,3,1,3,JUDGE,1,2,0,5,False,1.76264,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> i mean,3,1,5,SHOT,1,6,0,29,False,7.05057,0,0.533519
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> in the <num>,4,1,5,STAT,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> is feeling,3,1,5,OTHER,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> is going to have,5,1,3,OTHER,1,3,3,2,False,3.52529,1.67813,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> is trying,3,1,5,JUDGE,1,2,1,1,True,1.76264,0.559378,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> is trying to,4,1,5,JUDGE,1,2,1,1,True,1.76264,0.559378,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads four,3,1,5,SCORE,1,2,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads four games,4,1,5,SCORE,1,2,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads four games to,5,1,5,SCORE,1,2,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads two,3,1,4,SCORE,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads two games,4,1,4,SCORE,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads two games to,5,1,4,SCORE,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> leads two games to <num>,6,1,4,SCORE,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> of course,3,1,5,SHOT,1,3,0,12,False,3.52529,0,0.220766
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> right now,3,1,3,OTHER,1,5,3,4,False,4.40661,1.67813,0.0735888
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> this is,3,1,5,SHOT,1,3,1,7,False,3.52529,0.559378,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> to try,3,1,3,SHOT,1,3,3,0,False,2.64396,1.67813,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> to try and,4,1,4,SHOT,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> trying to,3,1,5,OTHER,1,4,0,1,True,6.16925,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> was doing,3,1,4,OTHER,1,1,1,1,True,1.76264,0.559378,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<name> would have,3,1,4,JUDGE,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <name> <name>,3,1,5,OFFICIAL,1,3,0,2,False,3.52529,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <name> <name> has,4,1,5,OFFICIAL,1,2,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <name> leads,3,1,4,SCORE,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> <name> <name>,4,1,4,OFFICIAL,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> <num> all,4,1,5,SCORE,1,2,0,11,False,1.76264,0,0.202369
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> all,3,1,5,SCORE,1,3,1,23,False,2.64396,0.559378,0.423136
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> lead in this,5,1,4,SCORE,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> minutes,3,1,3,STAT,1,2,0,63,False,1.76264,0,1.15902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> so,3,1,3,SCORE,1,4,0,135,False,3.52529,0,2.48362
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> <num> we,3,1,3,SCORE,1,2,1,17,False,1.76264,0.559378,0.312752
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> all <num>,3,1,3,SCORE,1,1,0,42,False,1.76264,0,0.827874
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> all <num> <num>,4,1,3,SCORE,1,1,0,32,False,1.76264,0,0.58871
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> he was,3,1,3,SCORE,1,2,0,35,False,1.76264,0,0.662299
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> lead in this,4,1,4,SCORE,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> minutes and,3,1,4,STAT,1,5,1,32,False,4.40661,0.559378,0.607107
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> minutes into,3,1,5,STAT,1,1,0,2,False,1.76264,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> second set,3,1,5,SCORE,1,6,0,8,False,8.81321,0,0.147178
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,<num> that's a,3,1,5,JUDGE,1,3,0,14,False,2.64396,0,0.257561
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a <num> <num> lead in this,6,1,4,SCORE,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a bad day,3,1,4,JUDGE,1,2,0,77,False,4.40661,0,1.54536
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a drop shot that,4,1,4,SHOT,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a drop shot that was,5,1,4,SHOT,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a fifth set,3,1,3,OTHER,1,4,3,40,False,4.40661,1.67813,0.827874
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a good return,3,1,5,SHOT,1,3,0,39,False,2.64396,0,0.735888
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a great play,3,1,4,JUDGE,1,3,0,1,True,2.64396,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a little bit quicker,4,1,4,JUDGE,1,3,0,41,False,2.64396,0,0.772682
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a little differently,3,1,4,SHOT,1,1,0,4,False,1.76264,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a little off,3,1,5,SHOT,1,5,0,13,False,4.40661,0,0.239164
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a little tight,3,1,4,JUDGE,1,2,0,36,False,1.76264,0,0.717491
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a lot longer,3,1,4,OTHER,1,2,0,28,False,1.76264,0,0.533519
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a taste of,3,1,4,OTHER,1,2,1,7,False,1.76264,0.559378,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a time violation,3,1,5,OFFICIAL,1,2,1,14,False,1.76264,0.559378,0.257561
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,a way to get,4,1,3,OTHER,1,4,1,55,False,3.52529,0.559378,1.04864
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,advantage <name> <name>,3,1,4,SCORE,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,after the serve,3,1,5,SHOT,1,4,0,37,False,4.40661,0,0.754285
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,against <name> <name>,3,1,3,OTHER,1,6,2,17,False,5.28793,1.11876,0.312752
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,against <name> to,3,1,4,SHOT,1,2,0,7,False,1.76264,0,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,all <num> <num>,3,1,3,SCORE,1,1,0,35,False,1.76264,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,all second set,3,1,5,SCORE,1,3,0,1,True,2.64396,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,an example of,3,1,5,OTHER,1,4,0,7,False,3.52529,0,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,an opportunity for,3,1,3,SHOT,1,3,2,25,False,3.52529,1.11876,0.45993
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,and i wonder,3,1,4,OTHER,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,and now he's,3,1,4,JUDGE,1,2,0,22,False,1.76264,0,0.423136
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,and second serve,3,1,4,SHOT,1,2,1,36,False,2.64396,0.559378,0.662299
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,and that's what <name>,4,1,4,OTHER,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,as soon as he,4,1,5,OTHER,1,2,0,17,False,2.64396,0,0.312752
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,as well as he,4,1,4,OTHER,1,3,0,34,False,3.52529,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,as well he's,3,1,5,SHOT,1,2,0,51,False,1.76264,0,0.938257
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ask the question,3,1,4,OTHER,1,2,0,8,False,1.76264,0,0.147178
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,at his box,3,1,5,CROWD,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,away from his,3,1,3,OTHER,1,3,2,6,False,3.52529,1.11876,0.110383
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,back in <num>,3,1,4,SHOT,1,7,0,53,False,10.5759,0,1.03024
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,back into court,3,1,5,OTHER,1,2,0,1,True,1.76264,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,back into play,3,1,5,OTHER,1,3,1,13,False,4.40661,0.559378,0.239164
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ball striking and,3,1,5,OTHER,1,3,0,2,False,2.64396,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,been <num> <num>,3,1,5,SCORE,1,2,0,19,False,2.64396,0,0.349547
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,been able to get,4,1,3,SHOT,1,2,0,18,False,1.76264,0,0.33115
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,both sides of,3,1,4,SHOT,1,1,0,7,False,1.76264,0,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,both sides of the,4,1,4,SHOT,1,1,0,5,False,1.76264,0,0.091986
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,break point that,3,1,4,SCORE,1,2,1,7,False,1.76264,0.559378,0.12878
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,but right now,3,1,4,JUDGE,1,3,0,119,False,2.64396,0,2.22606
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,by <name> he,3,1,5,SHOT,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,can hit it,3,1,4,SHOT,1,2,0,24,False,1.76264,0,0.441533
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,can see <name>,3,1,5,STAT,1,3,0,2,False,4.40661,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,can see it,3,1,4,OFFICIAL,1,2,0,39,False,1.76264,0,0.735888
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,certainly not as,3,1,4,CROWD,1,1,0,2,False,1.76264,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,come in on,3,1,5,SHOT,1,2,0,24,False,1.76264,0,0.45993
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,cool as you,3,1,5,SHOT,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,cool as you like,4,1,5,SHOT,1,2,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,couldn't find a,3,1,4,OTHER,1,2,0,11,False,1.76264,0,0.202369
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,couple of sets,3,1,5,OTHER,1,2,0,34,False,2.64396,0,0.643902
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,course of a,3,1,5,OTHER,1,2,0,16,False,1.76264,0,0.294355
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,didn't need to,3,1,4,JUDGE,1,2,0,19,False,1.76264,0,0.349547
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,do a little,3,1,3,JUDGE,1,3,0,88,False,2.64396,0,1.67414
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,do a little bit,4,1,3,JUDGE,1,2,0,66,False,1.76264,0,1.25101
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,don't see that,3,1,5,JUDGE,1,2,0,28,False,1.76264,0,0.515121
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,don't think <name>,3,1,5,JUDGE,1,3,0,3,False,2.64396,0,0.0551916
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,down the line a,4,1,3,SHOT,1,2,3,2,False,1.76264,1.67813,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,drop shot and then,4,1,3,SHOT,1,2,1,0,True,1.76264,0.559378,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,drop shot that was,4,1,5,SHOT,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,ever so slightly,3,1,4,OTHER,1,1,0,0,True,1.76264,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,final for <name>,3,1,3,STAT,1,2,0,1,True,1.76264,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,find a way to get,5,1,3,OTHER,1,2,0,40,False,1.76264,0,0.772682
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first and second serve,4,1,4,SHOT,1,2,1,28,False,2.64396,0.559378,0.515121
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first game second,3,1,5,SCORE,1,3,0,1,True,2.64396,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first game second set,4,1,4,SCORE,1,2,0,1,True,1.76264,0,0.0183972
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,first serve was,3,1,4,SHOT,1,2,0,23,False,1.76264,0,0.423136
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,for <name> <num>,3,1,5,SCORE,1,3,2,0,False,5.28793,1.11876,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,for <name> <num> <num>,4,1,5,SCORE,1,2,2,0,False,2.64396,1.11876,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,for <name> well,3,1,4,OTHER,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,forehand of <name>,3,1,5,SHOT,1,3,0,0,True,2.64396,0,0
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,forehand that he,3,1,4,SHOT,1,2,0,2,False,1.76264,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,four and a,3,1,3,STAT,1,2,0,25,False,1.76264,0,0.496724
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,four and a half,4,1,3,STAT,1,2,0,25,False,1.76264,0,0.496724
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,four games to,3,1,5,SCORE,1,8,0,2,False,8.81321,0,0.0367944
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,from <name> i,3,1,5,JUDGE,1,4,1,2,False,3.52529,0.559378,0.0367944

@@ -206,8 +206,58 @@ def fig_calibration():
     plt.close(fig)
 
 
+def fig_largeI():
+    """POST HOC (addendum 1, A1): per-target coverage of TV targets by 100,000-token sources (observed, 2b normalisation)."""
+    rows = [r for r in L.read_csv(R / "largeI_coverage.csv") if r["tokens"] == "norm"]
+    srcs = [("tv_other19", "other 19 TV streams"), ("cornell", "Cornell live text"), ("press_pooled", "press answers")]
+    fig, axes = plt.subplots(1, 2, figsize=(11, 4.5), sharey=False)
+    for ax, (m, lab_) in zip(axes, (("obs_n2", "n >= 2"), ("obs_n3", "n >= 3"))):
+        for k, (src, sl) in enumerate(srcs):
+            v = defaultdict(list)
+            for r in rows:
+                if r["source"] == src:
+                    v[r["target"]].append(f(r[m]))
+            y = [100 * np.mean(v[t]) for t in L.TV]
+            ax.scatter(np.full(len(y), k) + np.linspace(-0.15, 0.15, len(y)), y, s=14, label=sl)
+            ax.hlines(np.mean(y), k - 0.3, k + 0.3, color="k", lw=1.2)
+        for t in L.TV:
+            ys = [100 * np.mean([f(r[m]) for r in rows if r["source"] == src and r["target"] == t]) for src, _ in srcs]
+            ax.plot(range(3), ys, color="0.8", lw=0.5, zorder=0)
+        ax.set_xticks(range(3))
+        ax.set_xticklabels([sl for _, sl in srcs])
+        ax.set_ylabel("% of the TV target's tokens covered")
+        ax.set_title(f"{lab_}: identification set 100,000 tokens (mean of 5 subsamples)")
+    fig.suptitle("Coverage of each of the 20 TV streams (whole text) by sources of equal size; lines join one target")
+    fig.tight_layout()
+    fig.savefig(FIG / "fig9_largeI_coverage.png", dpi=150)
+    plt.close(fig)
+
+
+def fig_tvonly_slots():
+    """POST HOC (addendum 1, A1): slot composition of the TV-only and the shared n >= 3 tokens."""
+    rows = L.read_csv(R / "largeI_tvonly_slots.csv")
+    groups = [("ALL_TV", "tv_only", "20 targets: TV-only"), ("ALL_TV", "shared", "20 targets: shared"),
+              ("ALL_TV", "tv_only_strict", "20 targets: TV-only, strict"), (L.MAIN, "tv_only", "2019 final: TV-only"),
+              (L.HELDOUT, "tv_only", "2023 final: TV-only")]
+    fig, ax = plt.subplots(figsize=(10, 4.2))
+    left = np.zeros(len(groups))
+    for sl in L.SLOTS:
+        v = np.array([100 * f(next(r["share_of_class"] for r in rows if r["target"] == t and r["class"] == c and r["slot"] == sl)) for t, c, _ in groups])
+        ax.barh(range(len(groups)), v, left=left, label=sl)
+        left += v
+    ax.set_yticks(range(len(groups)))
+    ax.set_yticklabels([g[2] for g in groups])
+    ax.invert_yaxis()
+    ax.set_xlabel("% of the class's tokens (slot of the longest covering n >= 3 occurrence, classify(span))")
+    ax.legend(ncol=7, fontsize=7, loc="lower center", bbox_to_anchor=(0.5, 1.0))
+    fig.tight_layout()
+    fig.savefig(FIG / "fig10_tvonly_slots.png", dpi=150)
+    plt.close(fig)
+
+
 def main():
-    for fn in (fig_heatmap, fig_summary, fig_core, fig_idiolect, fig_targets, fig_refexpr, fig_extension, fig_calibration):
+    for fn in (fig_heatmap, fig_summary, fig_core, fig_idiolect, fig_targets, fig_refexpr, fig_extension, fig_calibration,
+               fig_largeI, fig_tvonly_slots):
         fn()
         print("ok", fn.__name__)
 
