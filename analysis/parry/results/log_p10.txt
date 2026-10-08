@@ -1,2 +1,9 @@
 seed 0 0.023639763602363976
 seed 1 0.023649763502364977
+seed 2 0.023269767302326976
+without hypocoristic and epithet forms 0.06459677016149193
+surname and first name only 0.12324383780810959
+first reference per player per utterance 0.009699515024248788
+span-mode slot (classify(span) on the reference) 0.005499725013749313
+without the 3 streams with hypocoristics 0.04429778511074446
+{'H4a': {'verdict': 'rejected (robust)', 'pre_registered_holm_rejected': True, 'variants_checked': 8, 'variants_not_rejected': [], 'p_range_variants': [9.99990000099999e-06, 4.999750012499375e-05], 'loso_p_range': [0.0001999600079984003, 0.0001999600079984003], 'loso_n_p_below_0.05': 20, 'loso_runs': 20, 'rule': 'rejected (robust) iff the pre-registered run and every seed/variant are Holm-rejected under substitution'}, 'H4b': {'verdict': 'not robust / inconclusive', 'pre_registered_holm_rejected': True, 'variants_checked': 8, 'variants_not_rejected': ['without hypocoristic and epithet forms', 'surname and first name only', 'without the 3 streams with hypocoristics'], 'p_range_variants': [0.005499725013749313, 0.12324383780810959], 'loso_p_range': [0.010397920415916816, 0.09018196360727855], 'loso_n_p_below_0.05': 17, 'loso_runs': 20, 'rule': 'rejected (robust) iff the pre-registered run and every seed/variant are Holm-rejected under substitution'}, 'H4b_per_team_slot_sit': {'tests': 20, 'p_below_0.05': 2, 'expected_under_H0': 1.0}, 'H4b_per_team_slot_syn': {'tests': 20, 'p_below_0.05': 3, 'expected_under_H0': 1.0}, 'hypocoristic_streams': ['tv_2019wimF', 'tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev', 'tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal'], 'category_counts_commentary_only': {'epithet': 81, 'first_name': 354, 'full_name': 203, 'hypocoristic': 136, 'surname': 2059}}
