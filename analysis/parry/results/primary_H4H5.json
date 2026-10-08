@@ -1,0 +1,51 @@
+{
+ "H4a": {
+  "D_obs": 303,
+  "null_mean": 388.3879,
+  "null_lo": 377.0,
+  "null_hi": 399.0,
+  "null_sd": 5.441694000033445,
+  "p_one_sided_fewer": 9.999000099990002e-05,
+  "permutations": 10000,
+  "tokens": 2833,
+  "statistic": "D_a = sum over team x situational slot of distinct reference categories",
+  "references": "commentary-only, resolved"
+ },
+ "H4b": {
+  "D_obs": 472,
+  "null_mean": 483.2681,
+  "null_lo": 473.0,
+  "null_hi": 494.0,
+  "null_sd": 5.379518787958641,
+  "p_one_sided_fewer": 0.022097790220977902,
+  "permutations": 10000,
+  "tokens": 2833,
+  "statistic": "D_b = sum over team x player x situational slot of distinct forms",
+  "references": "commentary-only, resolved",
+  "mde_theta_80pct_power": 0.11071428571428574
+ },
+ "H5": {
+  "tokens": 2811,
+  "streams": 20,
+  "rho_weighted": 0.027786988749765925,
+  "p_two": 0.1401859814018598,
+  "null_sd": 0.01885936219456434,
+  "null_lo": -0.036462075646844644,
+  "null_hi": 0.03703949565221314,
+  "boot_lo": -0.0116812541278656,
+  "boot_hi": 0.06819178701016237,
+  "mde_rho_approx": 0.05280621414478015,
+  "permutations": 10000,
+  "statistic": "token-weighted mean of within-stream Spearman rho (syllables vs A_after)",
+  "references": "commentary-only, resolved, with A_after",
+  "mixedlm": {
+   "coef_logA": 0.01351735621849396,
+   "ci_lo": -0.032055751356437484,
+   "ci_hi": 0.059090463793425405,
+   "p": 0.5610104249950169,
+   "tokens": 2811,
+   "groups": 20,
+   "model": "syllables ~ log(A_after) + (1 | stream), REML"
+  }
+ }
+}

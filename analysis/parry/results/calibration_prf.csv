@@ -1,0 +1,73 @@
+measure,label,reference,coder_confidence,precision,precision_lo,precision_hi,recall,recall_lo,recall_hi,F1,F1_lo,F1_hi,auto_positive_share,status
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A,HIGH+MEDIUM,0.327298,0.305113,0.350987,0.686221,0.665533,0.708142,0.443206,0.421399,0.465863,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A,all,0.327298,0.305143,0.351504,0.685714,0.666094,0.706799,0.4431,0.421173,0.465558,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),B,HIGH+MEDIUM,0.290383,0.268815,0.313729,0.714699,0.693866,0.735823,0.412974,0.389564,0.436826,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),B,all,0.290854,0.269977,0.316213,0.714822,0.693007,0.737781,0.41347,0.390685,0.439971,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A_and_B,HIGH+MEDIUM,0.262991,0.243165,0.285703,0.719755,0.6971,0.742755,0.385225,0.362394,0.409502,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A_and_B,all,0.263226,0.242199,0.283705,0.719704,0.698789,0.743962,0.38547,0.361513,0.407292,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A_or_B,HIGH+MEDIUM,0.354691,0.331449,0.378516,0.684904,0.665747,0.704089,0.467353,0.444961,0.489114,0.537368,descriptive
+pool_n2,pool exact n >= 2 (Phase 2 (a)),A_or_B,all,0.354926,0.333249,0.378023,0.68458,0.66564,0.703316,0.467482,0.448079,0.488357,0.537368,descriptive
+pool_n3,pool exact n >= 3,A,HIGH+MEDIUM,0.357648,0.32943,0.388385,0.349273,0.323408,0.375679,0.353411,0.330718,0.37704,0.2503,descriptive
+pool_n3,pool exact n >= 3,A,all,0.357648,0.329893,0.386886,0.349015,0.323798,0.377639,0.353278,0.328207,0.376798,0.2503,descriptive
+pool_n3,pool exact n >= 3,B,HIGH+MEDIUM,0.329631,0.300618,0.359769,0.377894,0.350421,0.404252,0.352116,0.326127,0.376649,0.2503,descriptive
+pool_n3,pool exact n >= 3,B,all,0.329631,0.304508,0.357288,0.377348,0.352619,0.401608,0.351879,0.330706,0.374471,0.2503,descriptive
+pool_n3,pool exact n >= 3,A_and_B,HIGH+MEDIUM,0.295558,0.268574,0.324994,0.37677,0.346881,0.4058,0.331259,0.305871,0.355484,0.2503,descriptive
+pool_n3,pool exact n >= 3,A_and_B,all,0.295558,0.265274,0.324349,0.376406,0.34482,0.405843,0.331118,0.302978,0.356239,0.2503,descriptive
+pool_n3,pool exact n >= 3,A_or_B,HIGH+MEDIUM,0.391721,0.361799,0.422689,0.352327,0.326746,0.377069,0.370981,0.347252,0.393503,0.2503,descriptive
+pool_n3,pool exact n >= 3,A_or_B,all,0.391721,0.359951,0.424598,0.351927,0.3265,0.375963,0.37076,0.34771,0.394585,0.2503,descriptive
+pool_systems,pool systems only ((b)),A,HIGH+MEDIUM,0.374333,0.346993,0.402393,0.553611,0.525628,0.582302,0.446654,0.422271,0.471837,0.379051,descriptive
+pool_systems,pool systems only ((b)),A,all,0.374333,0.348607,0.400544,0.553202,0.52874,0.582832,0.446521,0.424432,0.471097,0.379051,descriptive
+pool_systems,pool systems only ((b)),B,HIGH+MEDIUM,0.338833,0.312556,0.366006,0.588252,0.559753,0.616865,0.429992,0.403917,0.455672,0.379051,descriptive
+pool_systems,pool systems only ((b)),B,all,0.339167,0.311566,0.366635,0.58798,0.557117,0.617252,0.430187,0.403508,0.454823,0.379051,descriptive
+pool_systems,pool systems only ((b)),A_and_B,HIGH+MEDIUM,0.307333,0.283382,0.333763,0.593308,0.56238,0.62037,0.404919,0.380547,0.430115,0.379051,descriptive
+pool_systems,pool systems only ((b)),A_and_B,all,0.307333,0.285096,0.33102,0.592735,0.564361,0.622562,0.404785,0.380521,0.429105,0.379051,descriptive
+pool_systems,pool systems only ((b)),A_or_B,HIGH+MEDIUM,0.405833,0.377715,0.437011,0.552781,0.525605,0.578346,0.468044,0.443834,0.492353,0.379051,descriptive
+pool_systems,pool systems only ((b)),A_or_B,all,0.406167,0.377802,0.437477,0.552608,0.525737,0.579664,0.468204,0.443053,0.493864,0.379051,descriptive
+pool_n2_or_systems,pool (a) or (b),A,HIGH+MEDIUM,0.321067,0.29889,0.344709,0.780626,0.760438,0.801176,0.454996,0.430985,0.47933,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),A,all,0.321067,0.299482,0.346693,0.780049,0.760431,0.801292,0.454898,0.432314,0.481402,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),B,HIGH+MEDIUM,0.283658,0.262901,0.306985,0.809606,0.790487,0.828146,0.42012,0.396071,0.445737,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),B,all,0.284063,0.261812,0.307609,0.809593,0.790019,0.829267,0.420563,0.394246,0.447454,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),A_and_B,HIGH+MEDIUM,0.256083,0.236677,0.276221,0.812741,0.793145,0.831861,0.389454,0.365754,0.412474,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),A_and_B,all,0.256285,0.237015,0.27634,0.8126,0.791955,0.832108,0.389672,0.36614,0.413003,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),A_or_B,HIGH+MEDIUM,0.348642,0.324625,0.37388,0.780704,0.761591,0.799682,0.482024,0.457365,0.507098,0.62316,descriptive
+pool_n2_or_systems,pool (a) or (b),A_or_B,all,0.348844,0.323698,0.37281,0.780272,0.761496,0.799223,0.482135,0.45599,0.50661,0.62316,descriptive
+insample_n2,in-sample exact n >= 2,A,HIGH+MEDIUM,0.356272,0.331617,0.382643,0.561499,0.536736,0.586434,0.435939,0.413885,0.458483,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,A,all,0.356272,0.333104,0.380579,0.561084,0.537595,0.58588,0.435814,0.41379,0.455745,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,B,HIGH+MEDIUM,0.324367,0.300436,0.350184,0.600116,0.575393,0.625728,0.421117,0.39763,0.444718,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,B,all,0.324992,0.297386,0.350729,0.600405,0.573239,0.62776,0.421715,0.395139,0.446724,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,A_and_B,HIGH+MEDIUM,0.29559,0.272955,0.320837,0.608108,0.582136,0.634033,0.397811,0.375608,0.42176,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,A_and_B,all,0.295902,0.272289,0.31834,0.608165,0.581905,0.637128,0.398106,0.37385,0.420591,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,A_or_B,HIGH+MEDIUM,0.385048,0.359251,0.411387,0.55891,0.534268,0.582179,0.455968,0.433605,0.477674,0.403942,descriptive
+insample_n2,in-sample exact n >= 2,A_or_B,all,0.385361,0.361909,0.410972,0.55873,0.53494,0.582186,0.456127,0.434124,0.477842,0.403942,descriptive
+insample_n3,in-sample exact n >= 3,A,HIGH+MEDIUM,0.398282,0.36254,0.434432,0.285679,0.259623,0.313379,0.332711,0.305435,0.360714,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,A,all,0.398282,0.364095,0.430893,0.285468,0.256796,0.30969,0.332568,0.305999,0.358222,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,B,HIGH+MEDIUM,0.379725,0.345205,0.417365,0.319734,0.28886,0.34834,0.347157,0.318307,0.376612,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,B,all,0.379725,0.347271,0.412609,0.319272,0.289941,0.346609,0.346884,0.317213,0.373767,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,A_and_B,HIGH+MEDIUM,0.341924,0.308269,0.375086,0.320142,0.288364,0.351602,0.330675,0.302149,0.358093,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,A_and_B,all,0.341924,0.30932,0.374385,0.319833,0.290396,0.350152,0.33051,0.303792,0.356089,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,A_or_B,HIGH+MEDIUM,0.436082,0.399875,0.472385,0.288082,0.26265,0.314074,0.346958,0.32053,0.3727,0.18384,descriptive
+insample_n3,in-sample exact n >= 3,A_or_B,all,0.436082,0.398477,0.474052,0.287755,0.260817,0.311722,0.346721,0.318925,0.373536,0.18384,descriptive
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A,HIGH+MEDIUM,0.3229,0.300992,0.346008,0.732315,0.711262,0.752527,0.448182,0.425171,0.471335,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A,all,0.3229,0.300362,0.345614,0.731773,0.710263,0.753874,0.448081,0.42495,0.47168,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",B,HIGH+MEDIUM,0.287795,0.266502,0.311786,0.766204,0.745262,0.786031,0.418425,0.394586,0.443983,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",B,all,0.28823,0.265199,0.314064,0.766253,0.746755,0.786854,0.418891,0.392897,0.447203,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A_and_B,HIGH+MEDIUM,0.260298,0.24049,0.281704,0.770592,0.7494,0.793037,0.389146,0.365043,0.413322,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A_and_B,all,0.260515,0.239006,0.282861,0.770492,0.747938,0.792359,0.389376,0.364042,0.416064,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A_or_B,HIGH+MEDIUM,0.350397,0.325659,0.374023,0.731896,0.711554,0.751578,0.473909,0.4492,0.497091,0.581275,exploratory
+pool_n2_normalised,"pool exact n >= 2, 2b normalisation (exploratory)",A_or_B,all,0.350614,0.32621,0.376399,0.731519,0.711031,0.751341,0.474028,0.449516,0.498528,0.581275,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A,HIGH+MEDIUM,0.31616,0.294208,0.337748,0.630762,0.60705,0.654112,0.4212,0.399772,0.441673,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A,all,0.31616,0.295778,0.343201,0.630296,0.607105,0.652828,0.421096,0.400104,0.44445,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),B,HIGH+MEDIUM,0.278972,0.256776,0.303719,0.653356,0.62912,0.677114,0.390996,0.367382,0.417021,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),B,all,0.279466,0.256266,0.300333,0.653568,0.627984,0.675933,0.391519,0.366046,0.412528,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A_and_B,HIGH+MEDIUM,0.251544,0.231032,0.273178,0.655084,0.629513,0.680896,0.363507,0.340058,0.386898,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A_and_B,all,0.251791,0.231517,0.274753,0.655095,0.628099,0.679498,0.363766,0.34093,0.389022,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A_or_B,HIGH+MEDIUM,0.343588,0.321836,0.3693,0.631328,0.609559,0.653337,0.444996,0.424285,0.468261,0.51134,exploratory
+pool_content_n2,pool content n >= 2 (exploratory),A_or_B,all,0.343835,0.319816,0.369598,0.631066,0.610072,0.654173,0.445138,0.422831,0.466564,0.51134,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A,HIGH+MEDIUM,0.362559,0.334817,0.392743,0.377126,0.354308,0.401476,0.369699,0.346583,0.392615,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A,all,0.362559,0.335933,0.388828,0.376847,0.35089,0.399144,0.369565,0.347795,0.390484,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),B,HIGH+MEDIUM,0.337678,0.310429,0.366868,0.412326,0.38631,0.437659,0.371287,0.346906,0.39497,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),B,all,0.338626,0.311091,0.369402,0.412886,0.388037,0.438504,0.372087,0.348121,0.395227,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A_and_B,HIGH+MEDIUM,0.309479,0.283496,0.338449,0.420206,0.392411,0.446926,0.356441,0.33324,0.380259,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A_and_B,all,0.309953,0.282289,0.340328,0.420444,0.396473,0.447669,0.356841,0.333879,0.381405,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A_or_B,HIGH+MEDIUM,0.390758,0.362872,0.420959,0.374347,0.350845,0.397893,0.382377,0.360675,0.406491,0.266599,exploratory
+core_K5_loo,genre core: in >= 5 other streams' inventories (exploratory),A_or_B,all,0.391232,0.363727,0.41889,0.374376,0.350024,0.396287,0.382619,0.360352,0.403717,0.266599,exploratory

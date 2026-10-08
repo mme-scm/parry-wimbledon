@@ -1,0 +1,70 @@
+{
+ "excess_cov_sym": {
+  "value": 0.0822329,
+  "rank_among_190_pairs": 44,
+  "n_pairs": 190,
+  "mean_all_pairs": 0.07559962947368422,
+  "median_all_pairs": 0.07388887499999999,
+  "top5_pairs": [
+   [
+    "2020 RG W F Swiatek-Kenin",
+    "2023 RG W F Swiatek-Muchova",
+    0.126708
+   ],
+   [
+    "2023 RG W F Swiatek-Muchova",
+    "2024 RG W F Swiatek-Paolini",
+    0.12501500000000002
+   ],
+   [
+    "2020 RG W F Swiatek-Kenin",
+    "2024 RG W F Swiatek-Paolini",
+    0.117314
+   ],
+   [
+    "2020 AO M F Djokovic-Thiem",
+    "2023 RG W F Swiatek-Muchova",
+    0.101514
+   ],
+   [
+    "2023 WIM M F Alcaraz-Djokovic",
+    "2023 RG W F Swiatek-Muchova",
+    0.1008475
+   ]
+  ]
+ },
+ "jaccard_obs": {
+  "value": 0.104095,
+  "rank_among_190_pairs": 11,
+  "n_pairs": 190,
+  "mean_all_pairs": 0.08769784263157894,
+  "median_all_pairs": 0.08698715,
+  "top5_pairs": [
+   [
+    "2020 RG W F Swiatek-Kenin",
+    "2023 RG W F Swiatek-Muchova",
+    0.141256
+   ],
+   [
+    "2020 RG W F Swiatek-Kenin",
+    "2024 RG W F Swiatek-Paolini",
+    0.127005
+   ],
+   [
+    "2020 AO M F Djokovic-Thiem",
+    "2024 AO M F Sinner-Medvedev",
+    0.117808
+   ],
+   [
+    "2020 RG W F Swiatek-Kenin",
+    "2021 USO W F Raducanu-Fernandez",
+    0.116488
+   ],
+   [
+    "2023 RG W F Swiatek-Muchova",
+    "2024 RG W F Swiatek-Paolini",
+    0.114634
+   ]
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "classifier_vs_coder": {
+  "A": {
+   "spans": 1249,
+   "agreement": 0.5788630904723779,
+   "kappa": 0.48974002895471014
+  },
+  "B": {
+   "spans": 1010,
+   "agreement": 0.5732673267326732,
+   "kappa": 0.48370254928611917
+  }
+ },
+ "measures": [
+  "pool_n2",
+  "pool_n3",
+  "pool_systems",
+  "pool_n2_or_systems",
+  "insample_n2",
+  "insample_n3",
+  "pool_n2_normalised",
+  "pool_content_n2",
+  "core_K5_loo"
+ ],
+ "B": 2000,
+ "utterances_both": 300,
+ "groups": {
+  "2019": 150,
+  "other": 150
+ }
+}

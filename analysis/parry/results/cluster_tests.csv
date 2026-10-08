@@ -1,0 +1,13 @@
+similarity,label,within_pairs,within_minus_between,null_mean,null_lo,null_hi,p_one_sided_higher_within,permutations,status
+excess_cov_sym,slam,41,0.00654082,9.78544e-06,-0.00199338,0.00287925,9.999e-05,10000,exploratory
+excess_cov_sym,year,20,-0.00130685,6.12023e-06,-0.00304401,0.00380885,0.759824,10000,exploratory
+excess_cov_sym,gender,94,0.00144985,-2.48561e-05,-0.00237503,0.00375528,0.167983,10000,exploratory
+excess_cov_sym,hint ('Tim' = 2019 and 2023 finals; other hints single streams),1,0.00666837,,,,0.231579,"exact, 190 pairs",exploratory
+excess_cov_sym,Mantel r with shared players,,0.14609,0.000649828,-0.148767,0.17813,0.0505949,10000,exploratory (one-sided: more sharing with more shared players / closer years)
+excess_cov_sym,Mantel r with |year difference|,,-0.103741,-0.00110737,-0.21462,0.21071,0.186281,10000,exploratory (one-sided: more sharing with more shared players / closer years)
+jaccard_obs,slam,41,0.011243,-1.51077e-05,-0.00273927,0.00358032,9.999e-05,10000,exploratory
+jaccard_obs,year,20,-0.00273591,1.3963e-06,-0.00393115,0.00488334,0.89741,10000,exploratory
+jaccard_obs,gender,94,0.00564986,-1.69025e-05,-0.00252321,0.00345643,0.00139986,10000,exploratory
+jaccard_obs,hint ('Tim' = 2019 and 2023 finals; other hints single streams),1,0.0164839,,,,0.0578947,"exact, 190 pairs",exploratory
+jaccard_obs,Mantel r with shared players,,0.289034,-0.00168808,-0.141821,0.156213,0.00079992,10000,exploratory (one-sided: more sharing with more shared players / closer years)
+jaccard_obs,Mantel r with |year difference|,,0.0237807,0.000717432,-0.186065,0.167421,0.588241,10000,exploratory (one-sided: more sharing with more shared players / closer years)

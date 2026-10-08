@@ -1,0 +1,15 @@
+{
+ "rank_2019_loo19_raw_base": 13,
+ "n_targets": 20,
+ "median_loo19_raw_base": 0.5726864839974916,
+ "range_loo19_raw_base": [
+  0.5023148148148148,
+  0.6440033783783784
+ ],
+ "rank_2019_matched_raw_base": 12,
+ "median_matched_raw_base": 0.556615896615094,
+ "check_phase2_pool18_2019_raw_base": 0.5503012971095904,
+ "runtime_s": 239.3,
+ "B": 2000,
+ "R_matched": 20
+}

@@ -1,0 +1,57 @@
+slot,type,occurrences,share_of_slot_occurrences,teams_using
+SCORE,<num> <num>,154,0.0709351,19
+SCORE,<num> <num> <num> <num>,22,0.0101336,10
+SCORE,advantage <name>,20,0.00921234,9
+SCORE,out <num> <num>,10,0.00460617,3
+SCORE,game <name>,7,0.00322432,2
+SCORE,break point,6,0.0027637,6
+SCORE,a double break,5,0.00230309,4
+SCORE,third set,5,0.00230309,3
+OFFICIAL,thank you,55,0.108481,15
+OFFICIAL,thank you thank you,8,0.0157791,7
+OFFICIAL,new balls,8,0.0157791,6
+OFFICIAL,thank you very much,6,0.0118343,5
+OFFICIAL,the umpire,5,0.00986193,3
+OFFICIAL,with the new balls,5,0.00986193,4
+OFFICIAL,thank you <num> <num>,4,0.00788955,4
+OFFICIAL,the ball was called out,4,0.00788955,3
+SHOT,drop shot,17,0.00219242,11
+SHOT,cross court,15,0.00193449,7
+SHOT,down the line,12,0.00154759,8
+SHOT,second serve,11,0.00141862,6
+SHOT,first serve,10,0.00128966,7
+SHOT,the forehand,9,0.00116069,6
+SHOT,a <_> forehand,9,0.00116069,9
+SHOT,his forehand,9,0.00116069,7
+JUDGE,i think,17,0.00235849,11
+JUDGE,you know,14,0.00194229,10
+JUDGE,a little bit,14,0.00194229,7
+JUDGE,under pressure,11,0.00152608,9
+JUDGE,i feel like,11,0.00152608,7
+JUDGE,need to,10,0.00138735,8
+JUDGE,needs to,9,0.00124861,8
+JUDGE,i think that,9,0.00124861,5
+STAT,last year,14,0.00562701,10
+STAT,this year,10,0.00401929,9
+STAT,over the years,9,0.00361736,5
+STAT,at times,9,0.00361736,6
+STAT,miles an hour,8,0.00321543,5
+STAT,grand slam,7,0.0028135,4
+STAT,<num> year old,7,0.0028135,3
+STAT,for the first time,7,0.0028135,7
+CROWD,the crowd,6,0.00946372,4
+CROWD,in the box,5,0.00788644,4
+CROWD,the wind predictor,5,0.00788644,3
+CROWD,right now,4,0.00630915,4
+CROWD,the fans,4,0.00630915,3
+CROWD,the roar,4,0.00630915,2
+CROWD,this stadium,4,0.00630915,2
+CROWD,the crowd is,3,0.00473186,3
+OTHER,as well,19,0.00189715,10
+OTHER,for <name>,19,0.00189715,14
+OTHER,<num> <num>,16,0.0015976,11
+OTHER,of course,12,0.0011982,8
+OTHER,sort of,12,0.0011982,7
+OTHER,a bit,11,0.00109835,7
+OTHER,right now,11,0.00109835,6
+OTHER,second set,9,0.000898652,6

@@ -1,0 +1,6 @@
+analysis,references,time,tokens,streams,rho_weighted,boot_lo,boot_hi,null_lo,null_hi,null_sd,p_two,mde_rho_approx,permutations,status
+H5,commentary_only,A_after (hit clock),2811,20,0.027787,-0.0116813,0.0681918,-0.0364621,0.0370395,0.0188594,0.140186,0.0528062,10000,2b-primary
+H5 sensitivity,all_references,A_after (hit clock),2933,20,0.0251934,-0.0161954,0.0647352,-0.0368919,0.0363384,0.0185616,0.174083,0.0519726,10000,exploratory
+H5 sensitivity,commentary_only,A_before (hit clock),2821,20,0.00895209,-0.0319034,0.0489915,-0.0374238,0.0364666,0.0190154,0.637636,0.053243,10000,exploratory
+H5 sensitivity,commentary_only,t_to_next_first_hit_s (stored; 25-fps streams only),2205,14,0.0290265,-0.0134901,0.0640622,-0.041543,0.0431766,0.0214984,0.174883,0.0601956,10000,exploratory
+E2 extension,E2 class occurrences (TV),A_after (hit clock),1881,255,0.0176231,-0.0386053,0.078344,-0.0629908,0.0623383,0.0324181,0.576712,0.0907707,2000,exploratory (strata = stream x class)

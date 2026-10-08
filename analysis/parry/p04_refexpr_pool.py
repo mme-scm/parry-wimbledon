@@ -22,6 +22,12 @@ import lib2b as L
 import refexpr as R   # analysis/formulas/refexpr.py (on sys.path via lib2b)
 
 HYPO = {"nole": "djokovic", "rog": "federer", "rafa": "nadal", "carlitos": "alcaraz"}
+# POST HOC (after inspecting the first run; logged in the report): (1) a nationality-epithet match whose demonym modifies a following
+# noun that is not a person noun ('the greek fans', 'the czech republic', 'the italian riviera') is not a reference to a player;
+# (2) hypocoristic + surname ('rafa nadal', 'nole djokovic') is one full-name reference, not two.
+PERSON_NOUNS = {"man", "champion", "maestro", "seed", "player", "king", "legend", "veteran", "youngster", "teenager", "kid", "boy",
+                "warrior", "magician", "genius", "master", "great", "greatest", "one", "challenger", "favourite", "favorite", "winner",
+                "server", "returner", "star", "superstar", "woman", "girl", "lady", "queen", "number"}
 DESCRIPTIVE = [
     r"the man from (?:basel|belgrade|murcia|el palmar|switzerland|serbia|spain)",
     r"the maestro",
@@ -47,7 +53,9 @@ def patterns_for(stream, ptab):
     sur = [p["surname"] for p in ps]
     pats = []
     for p in ps:
-        pats.append((rf"{p['first']} {p['surname']}", "full_name", p["surname"]))
+        hy = [h for h, s_ in HYPO.items() if s_ == p["surname"]]
+        firsts = "|".join([p["first"]] + hy)
+        pats.append((rf"(?:{firsts}) {p['surname']}", "full_name", p["surname"]))
     pats.append((r"(?:mr|miss|ms|mrs) (?:" + "|".join(sur) + ")", "title_surname", None))
     for p in ps:
         pats.append((rf"the (?:young |younger |great |big )?(?:{p['demonyms']})", "epithet_nationality", p["surname"]))
@@ -100,6 +108,7 @@ def main():
         for r in csv.DictReader(fh, delimiter="\t"):
             hand[(r["utt_id"], int(r["token_start"]))] = r["referent"]
     rows, ep_rows = [], []
+    excluded_adj = 0
     summary = {"streams": {}}
     for stream in L.TV:
         pats, sur, f2s = patterns_for(stream, ptab)
@@ -117,6 +126,15 @@ def main():
             for k0, k1, expr, cat, ref in found:
                 t0, t1 = idx[k0], idx[k1 - 1] + 1
                 resolution = ""
+                if cat == "epithet_nationality":
+                    dem = doc[idx[k1 - 1]]
+                    if dem.dep_ in ("amod", "compound") and dem.head.i > dem.i and dem.head.lemma_.lower() not in PERSON_NOUNS:
+                        a = max(0, k0 - 6)
+                        ep_rows.append({"stream": stream, "utt_id": r["utt_id"], "token_start": t0, "expression": expr, "category": cat,
+                                        "excerpt_max15w": " ".join(words[a:a + 15]), "referent": "",
+                                        "resolution": f"excluded: adjectival (modifies '{dem.head.text.lower()}')"})
+                        excluded_adj += 1
+                        continue
                 if cat in ("full_name",):
                     player = ref
                 elif cat in ("surname", "title_surname"):
@@ -161,6 +179,8 @@ def main():
         p2[s] = dict(c)
     summary["check_phase2_totals_all_references"] = p2
     summary["n_references"] = len(rows)
+    summary["post_hoc_excluded_adjectival_nationality_matches"] = excluded_adj
+    summary["post_hoc_hypocoristic_full_names"] = sum(1 for r in rows if r["category"] == "full_name" and r["expression"].split()[0] in HYPO)
     summary["n_unresolved_epithets"] = sum(1 for r in rows if r["player"] == "UNRESOLVED")
     summary["n_umpire_pattern"] = sum(1 for r in rows if r["umpire_pattern"])
     summary["spacy_model"] = f"en_core_web_sm {nlp.meta['version']}"

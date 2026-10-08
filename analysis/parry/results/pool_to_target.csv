@@ -1,0 +1,63 @@
+target,label,tokens,mode,r,I_tokens,M_tokens,base,base_lo,base_hi,n3,n3_lo,n3_hi
+tv_2019wimF,2019 WIM M F Federer-Djokovic,raw,loo19,0,110891,9791,0.564089,0.5462,0.584131,0.256869,0.239778,0.274601
+tv_2019wimF,2019 WIM M F Federer-Djokovic,norm,loo19,0,110891,9791,0.619344,0.599496,0.641495,0.321622,0.30343,0.342706
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,raw,loo19,0,113466,7216,0.610033,0.592536,0.628185,0.289496,0.269448,0.309056
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,norm,loo19,0,113466,7216,0.642045,0.623338,0.65977,0.341325,0.319018,0.362578
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,raw,loo19,0,114155,6527,0.537613,0.515206,0.562069,0.26061,0.238086,0.283431
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,norm,loo19,0,114155,6527,0.590624,0.566849,0.61643,0.301517,0.277849,0.32438
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,raw,loo19,0,112311,8371,0.589894,0.572749,0.606786,0.294469,0.273066,0.315114
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,norm,loo19,0,112311,8371,0.617131,0.600978,0.633958,0.331741,0.309943,0.353315
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,raw,loo19,0,119085,1597,0.634314,0.593071,0.678594,0.313087,0.279065,0.351018
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,norm,loo19,0,119085,1597,0.670632,0.625347,0.715742,0.35191,0.315348,0.391529
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,raw,loo19,0,117406,3276,0.562576,0.529759,0.59571,0.268926,0.241165,0.2945
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,norm,loo19,0,117406,3276,0.631868,0.59645,0.669182,0.325397,0.292595,0.358668
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,raw,loo19,0,112845,7837,0.583769,0.566174,0.60143,0.286334,0.267494,0.304678
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,norm,loo19,0,112845,7837,0.626388,0.606628,0.645423,0.328314,0.30767,0.348698
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raw,loo19,0,117184,3498,0.527158,0.498773,0.556325,0.238708,0.208356,0.270403
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,norm,loo19,0,117184,3498,0.569754,0.539138,0.602673,0.272156,0.239482,0.30515
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,raw,loo19,0,109177,11505,0.588353,0.571072,0.60486,0.293698,0.276717,0.30989
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,norm,loo19,0,109177,11505,0.609822,0.592863,0.625586,0.328466,0.311393,0.345509
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,raw,loo19,0,112636,8046,0.596445,0.579041,0.614939,0.283868,0.264925,0.304048
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,norm,loo19,0,112636,8046,0.630624,0.610274,0.650715,0.329605,0.308655,0.352034
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,raw,loo19,0,114451,6231,0.56235,0.540315,0.584198,0.264965,0.244364,0.285374
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,norm,loo19,0,114451,6231,0.595571,0.575191,0.615989,0.300433,0.280243,0.320575
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,raw,loo19,0,116882,3800,0.613158,0.58881,0.636868,0.295789,0.268915,0.322196
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,norm,loo19,0,116882,3800,0.653421,0.628992,0.677164,0.350263,0.32301,0.37917
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,raw,loo19,0,114690,5992,0.585948,0.564434,0.60875,0.282543,0.260835,0.30336
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,norm,loo19,0,114690,5992,0.621829,0.598961,0.645285,0.325768,0.302473,0.348111
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,raw,loo19,0,111426,9256,0.566011,0.547827,0.583519,0.2836,0.265396,0.300152
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,norm,loo19,0,111426,9256,0.598315,0.579606,0.617579,0.316551,0.29667,0.33437
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,raw,loo19,0,118314,2368,0.644003,0.618028,0.6699,0.305743,0.275875,0.336927
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,norm,loo19,0,118314,2368,0.680743,0.653314,0.707534,0.348818,0.314078,0.383327
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,raw,loo19,0,116857,3825,0.564706,0.531211,0.595246,0.28183,0.247762,0.314356
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,norm,loo19,0,116857,3825,0.60183,0.567543,0.632639,0.318693,0.282771,0.354917
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,raw,loo19,0,114926,5756,0.510598,0.484912,0.538079,0.226894,0.204504,0.247716
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,norm,loo19,0,114926,5756,0.555073,0.527653,0.584868,0.260945,0.23752,0.284719
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,raw,loo19,0,113569,7113,0.579362,0.559806,0.5984,0.292282,0.271163,0.313306
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,norm,loo19,0,113569,7113,0.627583,0.606359,0.647565,0.334177,0.311819,0.355822
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,raw,loo19,0,118090,2592,0.502315,0.468073,0.535065,0.21875,0.186401,0.251074
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,norm,loo19,0,118090,2592,0.552855,0.516145,0.587759,0.258873,0.222562,0.295793
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,raw,loo19,0,114597,6085,0.555464,0.534516,0.576846,0.260148,0.234745,0.285257
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,norm,loo19,0,114597,6085,0.588168,0.566911,0.610338,0.297453,0.271757,0.32328
+tv_2019wimF,2019 WIM M F Federer-Djokovic,raw,pool18,0,103675,9791,0.550301,0.531807,0.571204,0.243897,0.227989,0.260415
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,raw,pool18,0,103675,7216,0.594512,0.575997,0.613398,0.273143,0.252978,0.292781
+tv_2019wimF,2019 WIM M F Federer-Djokovic,raw,matched I = 100000,20,100033,9791,0.550393,0.547442,0.553225,0.245904,0.242023,0.248869
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,raw,matched I = 100000,20,100029,7216,0.591948,0.588061,0.595094,0.273787,0.269803,0.278101
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,raw,matched I = 100000,20,100033,6527,0.522284,0.519373,0.525364,0.246346,0.241888,0.250287
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,raw,matched I = 100000,20,100032,8371,0.574262,0.57021,0.57758,0.281824,0.278739,0.285005
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,raw,matched I = 100000,20,100040,1597,0.614402,0.608312,0.619912,0.290764,0.278256,0.301518
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,raw,matched I = 100000,20,100017,3276,0.538904,0.529838,0.545368,0.251175,0.245681,0.255991
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,raw,matched I = 100000,20,100038,7837,0.566805,0.563347,0.570827,0.27166,0.267733,0.27464
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raw,matched I = 100000,20,100037,3498,0.505532,0.499971,0.50987,0.222584,0.217689,0.227466
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,raw,matched I = 100000,20,100038,11505,0.575415,0.572823,0.577451,0.282243,0.280441,0.284383
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,raw,matched I = 100000,20,100036,8046,0.581948,0.578023,0.58525,0.268146,0.261301,0.272322
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,raw,matched I = 100000,20,100039,6231,0.545169,0.541867,0.549025,0.250907,0.246943,0.254634
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,raw,matched I = 100000,20,100040,3800,0.593868,0.588342,0.598849,0.278842,0.273671,0.284428
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,raw,matched I = 100000,20,100034,5992,0.567415,0.56414,0.570928,0.264845,0.258094,0.270544
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,raw,matched I = 100000,20,100033,9256,0.550762,0.548504,0.553171,0.2701,0.267229,0.272699
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,raw,matched I = 100000,20,100028,2368,0.621537,0.613735,0.626531,0.286318,0.278896,0.293718
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,raw,matched I = 100000,20,100015,3825,0.54366,0.536719,0.549444,0.262078,0.254176,0.267614
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,raw,matched I = 100000,20,100037,5756,0.492286,0.488599,0.496569,0.211805,0.206997,0.214941
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,raw,matched I = 100000,20,100037,7113,0.56247,0.558372,0.56511,0.276072,0.271816,0.279337
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,raw,matched I = 100000,20,100027,2592,0.479649,0.472348,0.486613,0.20216,0.197714,0.20815
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,raw,matched I = 100000,20,100039,6085,0.537716,0.533135,0.54272,0.246138,0.242514,0.24963

@@ -1,0 +1,5 @@
+test,token_set,D_obs,null_mean,null_lo,null_hi,null_sd,p_one_sided_fewer,permutations,tokens,status
+H4a,all commentary-only references (as in H4),303,388.207,377,399,5.48237,9.999e-05,10000,2833,post hoc sensitivity (exploratory)
+H4b,all commentary-only references (as in H4),472,483.22,472,494,5.47425,0.0267973,10000,2833,post hoc sensitivity (exploratory)
+H4a,first reference per player per utterance,280,350.253,340,360,5.27867,9.999e-05,10000,2171,post hoc sensitivity (exploratory)
+H4b,first reference per player per utterance,419,431.063,421,441,4.93832,0.009999,10000,2171,post hoc sensitivity (exploratory)

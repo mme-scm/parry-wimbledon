@@ -1,0 +1,109 @@
+{
+ "coders": "two LLM agents (not humans), blind to the automatic inventory; kappa = their mutual reliability, not validity",
+ "utterances_both": 300,
+ "tokens": 15829,
+ "file_stats": {
+  "A": {
+   "spans_in_file": 1249,
+   "utterances": 300
+  },
+  "B": {
+   "spans_in_file": 1010,
+   "utterances": 300
+  }
+ },
+ "primary_HIGH_MEDIUM": {
+  "token_kappa": 0.7740985815419683,
+  "token_kappa_ci": [
+   0.7536555402877905,
+   0.795789160871341
+  ],
+  "positive_token_share_A": 0.2563017246825447,
+  "positive_token_share_B": 0.218333438625308,
+  "span_F1_exact": 0.7101063829787234,
+  "span_F1_exact_ci": [
+   0.6854883033233523,
+   0.7355727292506987
+  ],
+  "span_F1_overlap": 0.8439716312056738,
+  "span_F1_overlap_ci": [
+   0.827064054366686,
+   0.8610217207036144
+  ],
+  "spans_A": 1248,
+  "spans_B": 1008,
+  "matched_spans": 952,
+  "slot_agreement": 0.8781512605042017,
+  "slot_kappa": 0.846674182638106,
+  "type_agreement": 0.9758403361344538,
+  "type_kappa": 0.9468517889217922
+ },
+ "all_confidences": {
+  "token_kappa": 0.7739126752736158,
+  "token_kappa_ci": [
+   0.7533107947905785,
+   0.7959161588348566
+  ],
+  "positive_token_share_A": 0.25649125023690694,
+  "positive_token_share_B": 0.21864931454924505,
+  "span_F1_exact": 0.7100486941124391,
+  "span_F1_exact_ci": [
+   0.6846352334565585,
+   0.7354614595738929
+  ],
+  "span_F1_overlap": 0.8437361664453298,
+  "span_F1_overlap_ci": [
+   0.8261899645244917,
+   0.8608832814335908
+  ],
+  "spans_A": 1249,
+  "spans_B": 1010,
+  "matched_spans": 953,
+  "slot_agreement": 0.8782791185729276,
+  "slot_kappa": 0.8468972413305985,
+  "type_agreement": 0.9758656873032528,
+  "type_kappa": 0.9468817021895333
+ },
+ "span_counts": {
+  "A": {
+   "by_confidence": {
+    "MEDIUM": 671,
+    "HIGH": 577,
+    "LOW": 1
+   },
+   "by_slot": {
+    "SHOT": 260,
+    "STAT": 165,
+    "SCORE": 275,
+    "OTHER": 52,
+    "JUDGE": 392,
+    "OFFICIAL": 62,
+    "CROWD": 43
+   },
+   "by_type": {
+    "FRAME": 369,
+    "FIXED": 880
+   }
+  },
+  "B": {
+   "by_confidence": {
+    "HIGH": 428,
+    "MEDIUM": 580,
+    "LOW": 2
+   },
+   "by_slot": {
+    "SHOT": 227,
+    "SCORE": 219,
+    "OTHER": 43,
+    "JUDGE": 267,
+    "STAT": 167,
+    "OFFICIAL": 53,
+    "CROWD": 34
+   },
+   "by_type": {
+    "FIXED": 659,
+    "FRAME": 351
+   }
+  }
+ }
+}

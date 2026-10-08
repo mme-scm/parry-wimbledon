@@ -1,0 +1,47 @@
+test,references,slot_type,team,tokens,D_obs,null_mean,null_lo,null_hi,null_sd,p_one_sided_fewer,permutations,status
+H4a,commentary_only,situational,,2833,303,388.388,377,399,5.44169,9.999e-05,10000,2b-primary
+H4b,commentary_only,situational,,2833,472,483.268,473,494,5.37952,0.0220978,10000,2b-primary
+H4a,all_references,situational,,2956,310,402.692,391,414,5.63662,9.999e-05,10000,exploratory (sensitivity)
+H4b,all_references,situational,,2956,486,510.074,499,521,5.64485,9.999e-05,10000,exploratory (sensitivity)
+H4a,commentary_only,syntactic,,2833,297,387.773,377,398,5.49902,9.999e-05,10000,exploratory
+H4b,commentary_only,syntactic,,2833,474,495.688,485,506.025,5.53474,9.999e-05,10000,exploratory
+H4b per team,commentary_only,slot_sit,2019 WIM M F Federer-Djokovic,321,48,47.9332,,,,0.629537,10000,exploratory
+H4b per team,commentary_only,slot_sit,2023 WIM M F Alcaraz-Djokovic,170,32,33.5883,,,,0.250575,10000,exploratory
+H4b per team,commentary_only,slot_sit,2019 AO W F Osaka-Kvitova,173,28,28.8905,,,,0.381962,10000,exploratory
+H4b per team,commentary_only,slot_sit,2020 AO M F Djokovic-Thiem,164,26,28.2907,,,,0.0930907,10000,exploratory
+H4b per team,commentary_only,slot_sit,2020 RG W F Swiatek-Kenin,41,11,10.9503,,,,1,10000,exploratory
+H4b per team,commentary_only,slot_sit,2021 AO W F Osaka-Brady,132,17,16.5264,,,,0.929407,10000,exploratory
+H4b per team,commentary_only,slot_sit,2021 RG M F Tsitsipas-Djokovic,233,24,24.69,,,,0.438356,10000,exploratory
+H4b per team,commentary_only,slot_sit,2021 USO W F Raducanu-Fernandez,55,14,17.3819,,,,0.00079992,10000,exploratory
+H4b per team,commentary_only,slot_sit,2022 AO M F Nadal-Medvedev,232,32,31.937,,,,0.631537,10000,exploratory
+H4b per team,commentary_only,slot_sit,2022 RG M QF Djokovic-Nadal,288,25,27.5425,,,,0.0285971,10000,exploratory
+H4b per team,commentary_only,slot_sit,2022 USO M F Ruud-Alcaraz,80,21,21.4058,,,,0.520748,10000,exploratory
+H4b per team,commentary_only,slot_sit,2023 RG W F Swiatek-Muchova,109,14,14.9541,,,,0.20198,10000,exploratory
+H4b per team,commentary_only,slot_sit,2023 USO M F Djokovic-Medvedev,140,19,19.1418,,,,0.620238,10000,exploratory
+H4b per team,commentary_only,slot_sit,2024 AO M F Sinner-Medvedev,192,26,27.8097,,,,0.173683,10000,exploratory
+H4b per team,commentary_only,slot_sit,2024 RG W F Swiatek-Paolini,65,10,9.9708,,,,1,10000,exploratory
+H4b per team,commentary_only,slot_sit,2024 WIM W F Paolini-Krejcikova,65,19,19.4794,,,,0.493451,10000,exploratory
+H4b per team,commentary_only,slot_sit,2024 USO M F Fritz-Sinner,104,31,29.7375,,,,0.89581,10000,exploratory
+H4b per team,commentary_only,slot_sit,2025 AO M SF Sinner-Shelton,119,28,28.4431,,,,0.507149,10000,exploratory
+H4b per team,commentary_only,slot_sit,2025 WIM W F Anisimova-Swiatek,39,19,17.4026,,,,0.982102,10000,exploratory
+H4b per team,commentary_only,slot_sit,2025 USO M F Sinner-Alcaraz,111,28,27.1861,,,,0.852715,10000,exploratory
+H4b per team,commentary_only,slot_syn,2019 WIM M F Federer-Djokovic,321,45,45.8117,,,,0.421958,10000,exploratory
+H4b per team,commentary_only,slot_syn,2023 WIM M F Alcaraz-Djokovic,170,28,29.2325,,,,0.313069,10000,exploratory
+H4b per team,commentary_only,slot_syn,2019 AO W F Osaka-Kvitova,173,30,33.3631,,,,0.030197,10000,exploratory
+H4b per team,commentary_only,slot_syn,2020 AO M F Djokovic-Thiem,164,32,32.2958,,,,0.556344,10000,exploratory
+H4b per team,commentary_only,slot_syn,2020 RG W F Swiatek-Kenin,41,11,10.9462,,,,1,10000,exploratory
+H4b per team,commentary_only,slot_syn,2021 AO W F Osaka-Brady,132,18,17.0131,,,,0.973603,10000,exploratory
+H4b per team,commentary_only,slot_syn,2021 RG M F Tsitsipas-Djokovic,233,23,22.8122,,,,0.69743,10000,exploratory
+H4b per team,commentary_only,slot_syn,2021 USO W F Raducanu-Fernandez,55,19,19.5751,,,,0.433757,10000,exploratory
+H4b per team,commentary_only,slot_syn,2022 AO M F Nadal-Medvedev,232,31,32.7429,,,,0.237176,10000,exploratory
+H4b per team,commentary_only,slot_syn,2022 RG M QF Djokovic-Nadal,288,27,26.6254,,,,0.79862,10000,exploratory
+H4b per team,commentary_only,slot_syn,2022 USO M F Ruud-Alcaraz,80,19,22.9897,,,,0.00789921,10000,exploratory
+H4b per team,commentary_only,slot_syn,2023 RG W F Swiatek-Muchova,109,13,13.8802,,,,0.251775,10000,exploratory
+H4b per team,commentary_only,slot_syn,2023 USO M F Djokovic-Medvedev,140,18,18.8491,,,,0.364064,10000,exploratory
+H4b per team,commentary_only,slot_syn,2024 AO M F Sinner-Medvedev,192,27,29.4225,,,,0.0940906,10000,exploratory
+H4b per team,commentary_only,slot_syn,2024 RG W F Swiatek-Paolini,65,13,12.9443,,,,1,10000,exploratory
+H4b per team,commentary_only,slot_syn,2024 WIM W F Paolini-Krejcikova,65,19,20.3061,,,,0.225177,10000,exploratory
+H4b per team,commentary_only,slot_syn,2024 USO M F Fritz-Sinner,104,25,28.9259,,,,0.0069993,10000,exploratory
+H4b per team,commentary_only,slot_syn,2025 AO M SF Sinner-Shelton,119,30,32.7075,,,,0.0557944,10000,exploratory
+H4b per team,commentary_only,slot_syn,2025 WIM W F Anisimova-Swiatek,39,19,18.8229,,,,0.727627,10000,exploratory
+H4b per team,commentary_only,slot_syn,2025 USO M F Sinner-Alcaraz,111,27,26.3936,,,,0.806719,10000,exploratory

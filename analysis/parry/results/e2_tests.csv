@@ -1,0 +1,25 @@
+analysis,slot,occurrences,D_obs,null_mean,null_lo,null_hi,p_one_sided_fewer,modal_share_obs,modal_share_null_mean,p_one_sided_modal_higher,permutations,null,status
+E1 formula expressions,SCORE,2171,1946,1985.34,1974,1996,9.999e-05,0.064668,0.0717214,0.992001,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,OFFICIAL,507,439,454.504,448,461,9.999e-05,0.166765,0.137775,0.00239976,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,SHOT,7754,7419,7554.22,7530,7578,9.999e-05,0.00850238,0.0072649,0.00569943,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,JUDGE,7208,6882,7018.93,6995,7042,9.999e-05,0.00928497,0.00753647,9.999e-05,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,STAT,2488,2379,2437.74,2425,2449,9.999e-05,0.0252514,0.020011,0.00149985,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,CROWD,634,610,624.932,619,630,9.999e-05,0.082034,0.0682896,0.00259974,10000,team labels permuted among occurrences within slot,exploratory
+E1 formula expressions,OTHER,10015,9559,9762.75,9735,9790,9.999e-05,0.00683148,0.00579147,0.00089991,10000,team labels permuted among occurrences within slot,exploratory
+E2 class,SCORE,40,15,14.8941,14,15,1,0.97619,0.982272,0.949505,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SCORE,35,17,20.3347,18,23,0.0206979,0.91369,0.800998,0.0138986,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SCORE,94,28,28.1766,26,29,0.60454,0.900179,0.924316,0.914609,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,OFFICIAL,8,,,,,,,,,,,
+E2 class,SHOT,17,13,13.3967,11,15,0.523248,0.814815,0.792574,0.419358,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SHOT,93,23,27.6465,25,30,0.00179982,0.869369,0.80973,0.0155984,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SHOT,32,24,24.8248,22,28,0.40306,0.788889,0.778066,0.407459,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SHOT,22,16,17.9909,16,20,0.0834917,0.946429,0.885478,0.0464954,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,SHOT,46,18,20.3305,18,22,0.0380962,0.936224,0.869287,0.0029997,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,JUDGE,506,72,73.6493,70,77,0.247375,0.491954,0.442894,0.00219978,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,JUDGE,85,50,51.9035,48,56,0.253875,0.538094,0.54437,0.549845,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,JUDGE,31,16,18.0473,16,20,0.0823918,0.848485,0.789062,0.0815918,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,JUDGE,374,73,70.1576,66,74,0.967603,0.47344,0.476924,0.565943,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,JUDGE,344,53,56.8082,52,62,0.0870913,0.841187,0.843138,0.571843,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,STAT,33,15,20.2764,18,22,9.999e-05,0.95,0.822322,9.999e-05,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,STAT,29,22,23.5092,21,26,0.237176,0.816667,0.791731,0.273073,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory
+E2 class,CROWD,101,39,39.6572,37,42,0.434857,0.706683,0.688013,0.265973,10000,team labels permuted among the class's occurrences (20 TV teams),exploratory

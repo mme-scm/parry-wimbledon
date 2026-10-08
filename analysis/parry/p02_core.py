@@ -4,7 +4,7 @@ K(g) = number of the 20 TV streams whose inventory contains g. Core_k = {g : K(g
 by its own inventory) are split by a(t) = max K over the own formulas covering t: idiolect (a = 1) vs core-k (a >= k). Slot of a formula
 token = slot of the longest own-inventory occurrence covering it (classifier, plan section 5).
 
-Outputs: results/core_sizes.csv, results/core_top.csv, results/idiolect_shares.csv, results/core_baselines.csv, results/core_meta.json
+Outputs: results/inventory_sizes_full.csv, results/core_sizes.csv, results/core_top.csv, results/idiolect_shares.csv, results/core_baselines.csv, results/core_meta.json
 Run: python -I analysis/parry/p02_core.py
 """
 import sys
@@ -115,6 +115,16 @@ def main():
     names = [t.name for t in TVT]
     size_rows, share_rows, top_rows, base_rows = [], [], [], []
     meta = {}
+    # ---------------- full-size inventory sizes (plan section 2): 20 TV streams and Cornell (press is too large to index whole)
+    inv_rows = []
+    for t in TVT + [L.load_cornell()]:
+        for tokvar in ("norm", "raw"):
+            _, F, nt = L.index_inventory(t.norm if tokvar == "norm" else t.raw)
+            n3 = sum(1 for g in F if len(g) >= 3)
+            inv_rows.append({"team": t.name, "label": L.short(t.name), "tokens": tokvar, "text_tokens": nt, "utterances": len(t.raw),
+                             "types_n2": len(F), "types_n3": n3, "types_n2_per_1000_tokens": 1000 * len(F) / nt,
+                             "types_n3_per_1000_tokens": 1000 * n3 / nt})
+    L.write_csv(L.RESULTS / "inventory_sizes_full.csv", inv_rows)
     # ---------------- full size
     full_K = {}
     for tokvar in ("norm", "raw"):

@@ -1,0 +1,61 @@
+formula,n,streams_K,utterances_all_streams,modal_slot,modal_slot_share
+<num> <num>,2,20,591,SCORE,0.725974
+a little,2,20,303,JUDGE,0.490305
+for <name>,2,20,240,OTHER,0.393701
+going to,2,20,218,OTHER,0.428
+the first,2,20,215,OTHER,0.333333
+the ball,2,20,191,OTHER,0.455399
+the court,2,20,154,OTHER,0.610778
+so far,2,20,72,OTHER,0.310811
+i think,2,19,245,JUDGE,1
+from <name>,2,19,238,SHOT,0.391304
+to get,2,19,188,OTHER,0.474227
+a lot,2,19,151,OTHER,0.426036
+able to,2,19,117,OTHER,0.460938
+trying to,2,19,114,OTHER,0.503817
+first serve,2,19,110,SHOT,1
+second set,2,19,94,OTHER,0.5
+a good,2,19,93,JUDGE,1
+couple of,2,19,93,OTHER,0.340206
+first set,2,19,84,OTHER,0.478723
+<name> <name>,2,18,245,OTHER,0.408759
+<name> is,2,18,162,OTHER,0.383234
+as well,2,18,148,OTHER,0.5
+the line,2,18,135,SHOT,0.986667
+that <name>,2,18,119,OTHER,0.504065
+lot of,2,18,102,OTHER,0.307018
+a lot of,3,18,98,SHOT,0.311927
+and <name>,2,18,93,SHOT,0.336842
+a few,2,18,74,OTHER,0.341772
+of the court,3,18,72,OTHER,0.671233
+little bit,2,17,164,JUDGE,1
+a little bit,3,17,160,JUDGE,1
+the second,2,17,121,OTHER,0.445312
+i mean,2,17,118,OTHER,0.430657
+thank you,2,17,117,OFFICIAL,1
+this match,2,17,98,OTHER,0.564356
+got to,2,17,87,JUDGE,1
+to go,2,17,80,OTHER,0.352941
+a couple,2,17,79,OTHER,0.268293
+<name> was,2,17,76,OTHER,0.4125
+to take,2,17,76,SHOT,0.341772
+the baseline,2,17,72,SHOT,1
+going to be,3,17,70,OTHER,0.5
+second serve,2,16,122,SHOT,1
+one of,2,16,93,OTHER,0.397959
+bit of,2,16,87,JUDGE,0.41573
+the match,2,16,84,OTHER,0.636364
+the last,2,16,80,OTHER,0.421687
+the net,2,16,80,SHOT,1
+<name> to,2,16,72,OTHER,0.333333
+a couple of,3,16,67,SHOT,0.3
+<name> has,2,15,103,OTHER,0.354545
+the forehand,2,15,85,SHOT,1
+of <name>,2,15,74,OTHER,0.421053
+to play,2,15,74,OTHER,0.3625
+look at,2,15,73,OTHER,0.525
+to see,2,15,65,OTHER,0.470588
+to come,2,15,52,OTHER,0.403846
+<name> and,2,14,80,OTHER,0.506024
+the backhand,2,14,72,SHOT,1
+of course,2,14,68,OTHER,0.527027

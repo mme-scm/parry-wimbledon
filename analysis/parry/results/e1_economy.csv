@@ -1,0 +1,141 @@
+team,label,slot,slot_tokens,occurrences,distinct_types,distinct_per_100_slot_tokens,distinct_per_100_occurrences,modal_type,modal_share
+tv_2019wimF,2019 WIM M F Federer-Djokovic,SCORE,972,287,227,23.3539,79.0941,<num> <num>,0.111498
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,SCORE,677,203,169,24.9631,83.2512,<num> <num>,0.123153
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,SCORE,231,57,53,22.9437,92.9825,<num> <num>,0.0701754
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,SCORE,326,88,83,25.4601,94.3182,<num> <num>,0.0568182
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,SCORE,100,29,29,29,100,but <num>,0.0344828
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,SCORE,182,58,55,30.2198,94.8276,<num> <num>,0.0344828
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,SCORE,591,162,149,25.2115,91.9753,<num> <num>,0.0555556
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,SCORE,216,61,57,26.3889,93.4426,<num> <num>,0.0491803
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,SCORE,641,177,159,24.805,89.8305,<num> <num>,0.0677966
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,SCORE,468,142,133,28.4188,93.662,<num> <num>,0.028169
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,SCORE,351,101,96,27.3504,95.0495,<num> <num>,0.039604
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,SCORE,180,50,48,26.6667,96,<num> <num>,0.06
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,SCORE,396,125,115,29.0404,92,<num> <num>,0.056
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,SCORE,322,93,82,25.4658,88.172,<num> <num>,0.0967742
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,SCORE,158,44,39,24.6835,88.6364,<num> <num>,0.0909091
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,SCORE,324,97,88,27.1605,90.7216,<num> <num>,0.0824742
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,SCORE,259,77,73,28.1853,94.8052,<num> <num>,0.0649351
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,SCORE,530,155,142,26.7925,91.6129,<num> <num>,0.0451613
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,SCORE,185,60,56,30.2703,93.3333,<num> <num>,0.05
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,SCORE,373,105,93,24.933,88.5714,<num> <num>,0.0761905
+tv_2019wimF,2019 WIM M F Federer-Djokovic,OFFICIAL,394,95,80,20.3046,84.2105,thank you,0.0842105
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,OFFICIAL,303,72,66,21.7822,91.6667,the umpire's chair,0.0277778
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,OFFICIAL,35,10,10,28.5714,100,now it's,0.1
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,OFFICIAL,220,49,45,20.4545,91.8367,mr <_> is sharing the,0.0612245
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,OFFICIAL,32,9,8,25,88.8889,thank you very much,0.222222
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,OFFICIAL,29,9,9,31.0345,100,just <_> <name>,0.111111
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,OFFICIAL,73,21,21,28.7671,100,thank you thank you,0.047619
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,OFFICIAL,79,21,16,20.2532,76.1905,thank you,0.285714
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,OFFICIAL,104,33,23,22.1154,69.697,thank you,0.333333
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,OFFICIAL,113,30,28,24.7788,93.3333,the umpire,0.1
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,OFFICIAL,116,26,22,18.9655,84.6154,thank you,0.115385
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,OFFICIAL,54,14,12,22.2222,85.7143,thank you,0.214286
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,OFFICIAL,40,10,9,22.5,90,thank you,0.2
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,OFFICIAL,100,29,22,22,75.8621,thank you,0.206897
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,OFFICIAL,24,6,5,20.8333,83.3333,the umpire's,0.333333
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,OFFICIAL,112,26,24,21.4286,92.3077,the ball was called out,0.0769231
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,OFFICIAL,24,6,6,25,100,thank you <_> a,0.166667
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,OFFICIAL,35,11,11,31.4286,100,from center and,0.0909091
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,OFFICIAL,25,4,4,16,100,really <_> the,0.25
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,OFFICIAL,90,26,18,20,69.2308,thank you,0.307692
+tv_2019wimF,2019 WIM M F Federer-Djokovic,SHOT,1764,557,522,29.5918,93.7163,second serve,0.00718133
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,SHOT,1577,470,455,28.8523,96.8085,the ball,0.00638298
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,SHOT,1506,448,429,28.4861,95.7589,her <_> serve,0.00892857
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,SHOT,1720,480,461,26.8023,96.0417,didn't hit,0.00416667
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,SHOT,431,129,128,29.6984,99.2248,continuing to,0.0155039
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,SHOT,754,224,217,28.7798,96.875,that's wide,0.00892857
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,SHOT,1510,459,438,29.0066,95.4248,up the line,0.00653595
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,SHOT,608,188,182,29.9342,96.8085,that shot,0.0106383
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,SHOT,2545,767,729,28.6444,95.0456,to the backhand,0.00391134
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,SHOT,2223,667,623,28.0252,93.4033,cross court,0.0104948
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,SHOT,1341,379,359,26.7711,94.723,his backhand,0.00791557
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,SHOT,1264,371,356,28.1646,95.9569,the return,0.00808625
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,SHOT,1658,477,454,27.3824,95.1782,serve and volley,0.0104822
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,SHOT,1934,548,529,27.3526,96.5328,his serve,0.00547445
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,SHOT,609,184,180,29.5567,97.8261,the backhand,0.0108696
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,SHOT,621,190,188,30.2738,98.9474,can do so much damage,0.0105263
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,SHOT,1229,345,325,26.4443,94.2029,this guy,0.00869565
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,SHOT,1403,420,404,28.7954,96.1905,a winner,0.00714286
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,SHOT,290,78,78,26.8966,100,can <_> <name>,0.0128205
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,SHOT,1316,373,362,27.5076,97.0509,change of,0.00536193
+tv_2019wimF,2019 WIM M F Federer-Djokovic,JUDGE,1899,552,526,27.6988,95.2899,aggressive on the,0.00543478
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,JUDGE,1313,399,382,29.0937,95.7393,to <_> <name>,0.00501253
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,JUDGE,1355,387,371,27.3801,95.8656,she needs to,0.00775194
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,JUDGE,1991,601,563,28.2772,93.6772,him he's got,0.00665557
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,JUDGE,322,97,96,29.8137,98.9691,the nerves,0.0206186
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,JUDGE,838,245,232,27.685,94.6939,self belief,0.0122449
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,JUDGE,1363,403,393,28.8335,97.5186,how important is this,0.00496278
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,JUDGE,624,170,163,26.1218,95.8824,virginia wade,0.0117647
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,JUDGE,2726,795,744,27.2927,93.5849,a little bit,0.00628931
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,JUDGE,1254,377,365,29.1069,96.817,maybe <_> to,0.00530504
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,JUDGE,1154,323,311,26.9497,96.2848,an incredible,0.00928793
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,JUDGE,879,257,246,27.9863,95.7198,such a good point,0.0116732
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,JUDGE,994,296,293,29.4769,98.9865,he knows he has to,0.00675676
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,JUDGE,2141,626,585,27.3237,93.4505,you know,0.00479233
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,JUDGE,511,166,163,31.8982,98.1928,well played,0.0180723
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,JUDGE,852,255,242,28.4038,94.902,she can <_> the ball,0.0117647
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,JUDGE,1030,293,284,27.5728,96.9283,i think that,0.0102389
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,JUDGE,1624,475,448,27.5862,94.3158,<name> <name>,0.00631579
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,JUDGE,633,180,177,27.9621,98.3333,i know,0.0111111
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,JUDGE,1121,311,298,26.5834,95.8199,plenty of,0.0096463
+tv_2019wimF,2019 WIM M F Federer-Djokovic,STAT,946,259,243,25.6871,93.8224,grand slam,0.011583
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,STAT,448,128,123,27.4554,96.0938,the tournament in,0.015625
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,STAT,523,153,146,27.9159,95.4248,throughout the,0.0130719
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,STAT,449,138,131,29.1759,94.9275,times <_> a,0.0144928
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,STAT,60,16,15,25,93.75,speed and,0.125
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,STAT,208,62,59,28.3654,95.1613,grand slam title,0.0483871
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,STAT,781,233,215,27.5288,92.2747,for the world number one,0.0128755
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,STAT,292,86,83,28.4247,96.5116,her career,0.0232558
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,STAT,571,161,153,26.7951,95.0311,over the years,0.0124224
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,STAT,521,163,156,29.9424,95.7055,last year,0.0122699
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,STAT,635,198,189,29.7638,95.4545,all tournament,0.020202
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,STAT,116,32,32,27.5862,100,so far <_> the tournament,0.03125
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,STAT,347,99,98,28.2421,98.9899,when <_> beat him,0.020202
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,STAT,437,139,136,31.1213,97.8417,this tournament i,0.0143885
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,STAT,121,34,34,28.0992,100,compared to,0.0294118
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,STAT,171,50,50,29.2398,100,how lucky,0.02
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,STAT,398,117,113,28.392,96.5812,this year,0.017094
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,STAT,548,159,150,27.3723,94.3396,at times,0.0251572
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,STAT,342,104,100,29.2398,96.1538,belinda bencic,0.0192308
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,STAT,503,157,153,30.4175,97.4522,<num> year old,0.0191083
+tv_2019wimF,2019 WIM M F Federer-Djokovic,CROWD,224,57,56,25,98.2456,the crowd <_> to,0.0350877
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,CROWD,225,56,54,24,96.4286,center court,0.0357143
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,CROWD,105,25,25,23.8095,100,after <_> <name>,0.04
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,CROWD,161,36,36,22.3602,100,well he,0.0277778
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,CROWD,13,3,3,23.0769,100,at <_> one,0.333333
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,CROWD,122,30,28,22.9508,93.3333,in the commentary box,0.0666667
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,CROWD,211,51,49,23.2227,96.0784,the greek fans,0.0392157
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,CROWD,87,23,21,24.1379,91.3043,tennis fan,0.130435
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,CROWD,245,59,56,22.8571,94.9153,the wind predictor,0.0508475
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,CROWD,220,53,50,22.7273,94.3396,this stadium,0.0566038
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,CROWD,123,30,29,23.5772,96.6667,take your seats,0.0666667
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,CROWD,40,12,12,30,100,crowd <_> to,0.0833333
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,CROWD,143,41,39,27.2727,95.122,the fans,0.0487805
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,CROWD,191,45,43,22.5131,95.5556,there towards his,0.0444444
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,CROWD,30,8,8,26.6667,100,fans i,0.125
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,CROWD,64,17,13,20.3125,76.4706,the crowd,0.176471
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,CROWD,122,28,28,22.9508,100,so funny,0.0357143
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,CROWD,127,33,33,25.9843,100,have a look at,0.030303
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,CROWD,35,6,6,17.1429,100,the family,0.166667
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,CROWD,83,21,21,25.3012,100,<name> <_> in the,0.047619
+tv_2019wimF,2019 WIM M F Federer-Djokovic,OTHER,3592,665,629,17.5111,94.5865,second set,0.00451128
+tv_2023wimF,2023 WIM M F Alcaraz-Djokovic,OTHER,2673,528,507,18.9675,96.0227,fergus murphy,0.00568182
+tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka-Kvitova,OTHER,2772,556,522,18.8312,93.8849,of course,0.00719424
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,OTHER,3504,739,707,20.1769,95.6698,right now,0.00541272
+tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,OTHER,639,142,140,21.9092,98.5915,well that's what,0.0140845
+tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,OTHER,1143,239,236,20.6474,98.7448,<num> <num>,0.0083682
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,OTHER,3308,696,663,20.0423,95.2586,this final,0.00431034
+tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,OTHER,1592,328,316,19.8492,96.3415,these two have,0.00609756
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,OTHER,4673,974,918,19.6448,94.2505,from rafa,0.00513347
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,OTHER,3247,655,619,19.0638,94.5038,right <_> the,0.00458015
+tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,OTHER,2511,530,500,19.9124,94.3396,sort of,0.00943396
+tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,OTHER,1267,262,256,20.2052,97.7099,the ball,0.00763359
+tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,OTHER,2414,501,483,20.0083,96.4072,in <num>,0.00598802
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,OTHER,4131,825,779,18.8574,94.4242,a bit,0.00363636
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,OTHER,915,194,188,20.5464,96.9072,ah montage <name>,0.0103093
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,OTHER,1681,333,322,19.1553,96.6967,father ugo,0.00600601
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,OTHER,2694,540,517,19.1908,95.7407,because he's playing,0.00555556
+tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,OTHER,2846,586,563,19.7822,96.0751,back of the court,0.00682594
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,OTHER,1082,197,192,17.7449,97.4619,and <_> see,0.0101523
+tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,OTHER,2599,525,502,19.3151,95.619,darren cahill,0.00571429

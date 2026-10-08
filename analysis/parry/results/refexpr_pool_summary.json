@@ -70,7 +70,7 @@
     "djokovic:full_name": 5,
     "djokovic:surname": 55,
     "djokovic:title_surname": 1,
-    "thiem:epithet_nationality": 5,
+    "thiem:epithet_nationality": 4,
     "thiem:first_name": 10,
     "thiem:full_name": 22,
     "thiem:surname": 11,
@@ -110,11 +110,11 @@
    "fps_valid": true,
    "counts": {
     "UNRESOLVED:epithet_descriptive": 12,
-    "djokovic:epithet_nationality": 4,
+    "djokovic:epithet_nationality": 3,
     "djokovic:first_name": 2,
     "djokovic:full_name": 11,
     "djokovic:surname": 119,
-    "tsitsipas:epithet_nationality": 7,
+    "tsitsipas:epithet_nationality": 4,
     "tsitsipas:surname": 97
    }
   },
@@ -141,14 +141,15 @@
    ],
    "fps_valid": true,
    "counts": {
-    "medvedev:epithet_nationality": 12,
+    "medvedev:epithet_nationality": 10,
     "medvedev:first_name": 4,
     "medvedev:full_name": 6,
     "medvedev:surname": 99,
     "medvedev:title_surname": 1,
-    "nadal:epithet_nationality": 7,
-    "nadal:hypocoristic": 83,
-    "nadal:surname": 30
+    "nadal:epithet_nationality": 6,
+    "nadal:full_name": 2,
+    "nadal:hypocoristic": 81,
+    "nadal:surname": 28
    }
   },
   "tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal": {
@@ -159,13 +160,13 @@
    "fps_valid": true,
    "counts": {
     "UNRESOLVED:epithet_descriptive": 4,
-    "djokovic:epithet_nationality": 1,
     "djokovic:first_name": 6,
-    "djokovic:full_name": 1,
-    "djokovic:hypocoristic": 3,
-    "djokovic:surname": 142,
-    "nadal:hypocoristic": 58,
-    "nadal:surname": 84
+    "djokovic:full_name": 3,
+    "djokovic:hypocoristic": 1,
+    "djokovic:surname": 140,
+    "nadal:full_name": 2,
+    "nadal:hypocoristic": 56,
+    "nadal:surname": 82
    }
   },
   "tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz": {
@@ -223,7 +224,7 @@
     "medvedev:first_name": 8,
     "medvedev:full_name": 1,
     "medvedev:surname": 112,
-    "sinner:epithet_nationality": 7,
+    "sinner:epithet_nationality": 5,
     "sinner:first_name": 22,
     "sinner:full_name": 7,
     "sinner:surname": 41
@@ -237,7 +238,6 @@
    "fps_valid": true,
    "counts": {
     "UNRESOLVED:epithet_descriptive": 5,
-    "paolini:epithet_nationality": 1,
     "paolini:surname": 32,
     "swiatek:full_name": 1,
     "swiatek:surname": 32
@@ -250,11 +250,10 @@
    ],
    "fps_valid": true,
    "counts": {
-    "krejcikova:epithet_nationality": 2,
     "krejcikova:first_name": 9,
     "krejcikova:full_name": 1,
     "krejcikova:surname": 18,
-    "paolini:epithet_nationality": 2,
+    "paolini:epithet_nationality": 1,
     "paolini:first_name": 4,
     "paolini:full_name": 5,
     "paolini:surname": 37
@@ -272,7 +271,7 @@
     "fritz:first_name": 24,
     "fritz:full_name": 18,
     "fritz:surname": 27,
-    "sinner:epithet_nationality": 5,
+    "sinner:epithet_nationality": 4,
     "sinner:first_name": 18,
     "sinner:full_name": 4,
     "sinner:surname": 8
@@ -308,7 +307,6 @@
     "anisimova:first_name": 4,
     "anisimova:full_name": 7,
     "anisimova:surname": 8,
-    "swiatek:epithet_nationality": 1,
     "swiatek:first_name": 4,
     "swiatek:full_name": 1,
     "swiatek:surname": 15
@@ -343,7 +341,9 @@
    "alcaraz": 80
   }
  },
- "n_references": 3021,
+ "n_references": 2998,
+ "post_hoc_excluded_adjectival_nationality_matches": 17,
+ "post_hoc_hypocoristic_full_names": 6,
  "n_unresolved_epithets": 42,
  "n_umpire_pattern": 123,
  "spacy_model": "en_core_web_sm 3.8.0"

@@ -5,15 +5,15 @@ tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,situational,6,0,0.363636,2,not one form per slot
 tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,situational,4,4,1,1,one form throughout (economy without slot conditioning)
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,situational,8,6,0.827586,1,not one form per slot
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,situational,11,6,0.666667,1,not one form per slot
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,situational,11,7,0.666667,1,not one form per slot
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,situational,4,2,0.6,1,not one form per slot
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,situational,8,0,0.535714,1,not one form per slot
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,situational,12,4,0.428571,2,not one form per slot
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,situational,8,0,0.555556,1,not one form per slot
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,situational,11,4,0.612245,2,not one form per slot
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,situational,5,2,0.3,1,not one form per slot
 tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,situational,6,5,0.866667,1,not one form per slot
 tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,situational,9,4,0.702703,1,not one form per slot
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,situational,6,2,0.4375,2,not one form per slot
-tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,situational,5,5,0.9375,1,one form throughout (economy without slot conditioning)
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,situational,5,5,0.941176,1,one form throughout (economy without slot conditioning)
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,situational,5,1,0.5,2,not one form per slot
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,situational,6,0,0.410256,2,not one form per slot
 tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,situational,8,0,0.333333,2,not one form per slot
@@ -25,17 +25,17 @@ tv_pool_20190126-W-Australian_Open-F-Naomi_Osaka-Petra_Kvitova,2019 AO W F Osaka
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,syntactic,9,0,0.4,2,not one form per slot
 tv_pool_20201010-W-Roland_Garros-F-Iga_Swiatek-Sofia_Kenin,2020 RG W F Swiatek-Kenin,syntactic,4,3,0.888889,1,not one form per slot
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,syntactic,8,5,0.6,1,not one form per slot
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,syntactic,11,6,0.571429,1,not one form per slot
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,syntactic,11,6,0.666667,1,not one form per slot
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,syntactic,5,3,0.8,1,not one form per slot
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,syntactic,12,3,0.571429,1,not one form per slot
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,syntactic,12,3,0.545455,2,not one form per slot
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,syntactic,12,4,0.545455,2,not one form per slot
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,syntactic,5,2,0.5,1,not one form per slot
 tv_pool_20230610-W-Roland_Garros-F-Iga_Swiatek-Karolina_Muchova,2023 RG W F Swiatek-Muchova,syntactic,7,6,0.826087,1,not one form per slot
 tv_pool_20230910-M-US_Open-F-Novak_Djokovic-Daniil_Medvedev,2023 USO M F Djokovic-Medvedev,syntactic,10,6,0.5,1,not one form per slot
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,syntactic,10,3,0.391304,2,not one form per slot
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,syntactic,6,6,0.923077,1,one form throughout (economy without slot conditioning)
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,syntactic,6,2,0.555556,1,not one form per slot
-tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,syntactic,7,0,0.333333,3,not one form per slot
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,syntactic,7,1,0.333333,3,not one form per slot
 tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,syntactic,9,0,0.346154,3,not one form per slot
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,syntactic,3,0,0.545455,1,not one form per slot
 tv_pool_20250907-M-US_Open-F-Jannik_Sinner-Carlos_Alcaraz,2025 USO M F Sinner-Alcaraz,syntactic,7,0,0.5,2,not one form per slot

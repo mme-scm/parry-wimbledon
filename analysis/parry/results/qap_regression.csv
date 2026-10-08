@@ -1,0 +1,13 @@
+similarity,term,beta,p_two_sided_node_permutation,permutations,status
+excess_cov_sym,intercept,0.0750841,0.79822,10000,exploratory
+excess_cov_sym,same slam,0.0065657,0.00039996,10000,exploratory
+excess_cov_sym,same gender,0.000605038,0.720828,10000,exploratory
+excess_cov_sym,shared players,0.00286572,0.309269,10000,exploratory
+excess_cov_sym,|year difference|,-0.000765477,0.376762,10000,exploratory
+excess_cov_sym,same hint (2019-2023 only),0.000174277,0.9963,10000,exploratory
+jaccard_obs,intercept,0.0821391,0.00049995,10000,exploratory
+jaccard_obs,same slam,0.0110238,9.999e-05,10000,exploratory
+jaccard_obs,same gender,0.00418448,0.0235976,10000,exploratory
+jaccard_obs,shared players,0.00452674,0.0692931,10000,exploratory
+jaccard_obs,|year difference|,0.000106449,0.846915,10000,exploratory
+jaccard_obs,same hint (2019-2023 only),0.00179508,0.846515,10000,exploratory

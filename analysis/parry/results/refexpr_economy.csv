@@ -46,7 +46,7 @@ tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Dj
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,djokovic,situational,SCORE,2,1,novak djokovic,1,50,326,0.306748,novak djokovic:2
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,djokovic,situational,SHOT,20,2,novak,0.6,10,1720,0.116279,novak:12; djokovic:8
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,djokovic,situational,STAT,1,1,novak,1,100,449,0.222717,novak:1
-tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,situational,JUDGE,13,4,dominic thiem,0.538462,30.7692,1991,0.200904,dominic thiem:7; thiem:3; dominic:2; the austrian:1
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,situational,JUDGE,12,3,dominic thiem,0.583333,25,1991,0.150678,dominic thiem:7; thiem:3; dominic:2
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,situational,OTHER,22,5,dominic thiem,0.363636,22.7273,3504,0.142694,dominic thiem:8; dominic:7; the austrian:3; thiem:3; the young austrian:1
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,situational,SCORE,4,2,thiem,0.5,50,326,0.613497,thiem:2; dominic thiem:2
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,situational,SHOT,7,2,dominic thiem,0.571429,28.5714,1720,0.116279,dominic thiem:4; thiem:3
@@ -73,15 +73,15 @@ tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osak
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,osaka,situational,SCORE,7,1,osaka,1,14.2857,182,0.549451,osaka:7
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,osaka,situational,SHOT,17,3,osaka,0.882353,17.6471,754,0.397878,osaka:15; naomi osaka:1; naomi:1
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,osaka,situational,STAT,2,2,osaka,0.5,100,208,0.961538,osaka:1; naomi osaka:1
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,CROWD,3,2,djokovic,0.666667,66.6667,211,0.947867,djokovic:2; the serbian:1
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,CROWD,2,1,djokovic,1,50,211,0.473934,djokovic:2
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,JUDGE,24,4,djokovic,0.833333,16.6667,1363,0.29347,djokovic:20; novak djokovic:2; the serb:1; novak:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,OFFICIAL,1,1,djokovic,1,100,73,1.36986,djokovic:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,OTHER,64,4,djokovic,0.90625,6.25,3308,0.120919,djokovic:58; novak djokovic:3; the serb:2; novak:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,SCORE,9,2,djokovic,0.777778,22.2222,591,0.338409,djokovic:7; novak djokovic:2
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,SHOT,20,1,djokovic,1,5,1510,0.0662252,djokovic:20
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,situational,STAT,12,2,djokovic,0.666667,16.6667,781,0.256082,djokovic:8; novak djokovic:4
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,CROWD,4,2,the greek,0.5,50,211,0.947867,the greek:2; tsitsipas:2
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,JUDGE,9,2,tsitsipas,0.888889,22.2222,1363,0.146735,tsitsipas:8; the greek:1
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,CROWD,2,1,tsitsipas,1,50,211,0.473934,tsitsipas:2
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,JUDGE,8,1,tsitsipas,1,12.5,1363,0.0733676,tsitsipas:8
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,OFFICIAL,5,1,tsitsipas,1,20,73,1.36986,tsitsipas:5
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,OTHER,47,2,tsitsipas,0.978723,4.25532,3308,0.0604595,tsitsipas:46; the greek:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,situational,SCORE,12,1,tsitsipas,1,8.33333,591,0.169205,tsitsipas:12
@@ -98,30 +98,30 @@ tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducan
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raducanu,situational,SCORE,1,1,raducanu,1,100,216,0.462963,raducanu:1
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raducanu,situational,SHOT,3,1,raducanu,1,33.3333,608,0.164474,raducanu:3
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raducanu,situational,STAT,4,1,raducanu,1,25,292,0.342466,raducanu:4
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,JUDGE,29,4,medvedev,0.862069,13.7931,2726,0.146735,medvedev:25; daniil:2; the russian:1; daniil medvedev:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,JUDGE,28,3,medvedev,0.892857,10.7143,2726,0.110051,medvedev:25; daniil:2; daniil medvedev:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,OFFICIAL,2,1,medvedev,1,50,104,0.961538,medvedev:2
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,OTHER,52,4,medvedev,0.807692,7.69231,4673,0.0855981,medvedev:42; the russian:7; daniil:2; daniil medvedev:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,OTHER,51,4,medvedev,0.823529,7.84314,4673,0.0855981,medvedev:42; the russian:6; daniil:2; daniil medvedev:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,SCORE,9,3,medvedev,0.777778,33.3333,641,0.468019,medvedev:7; daniil medvedev:1; the russian:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,SHOT,23,3,medvedev,0.869565,13.0435,2545,0.117878,medvedev:20; the russian:2; daniil medvedev:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,situational,STAT,4,3,medvedev,0.5,75,571,0.525394,medvedev:2; daniil medvedev:1; the big russian:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,CROWD,2,1,rafa,1,50,245,0.408163,rafa:2
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,JUDGE,23,2,rafa,0.869565,8.69565,2726,0.0733676,rafa:20; nadal:3
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,OTHER,54,3,rafa,0.666667,5.55556,4673,0.0641986,rafa:36; nadal:15; the spaniard:3
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,OTHER,53,4,rafa,0.660377,7.54717,4673,0.0855981,rafa:35; nadal:14; the spaniard:3; rafa nadal:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,SCORE,4,2,rafa,0.75,50,641,0.312012,rafa:3; nadal:1
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,SHOT,28,3,rafa,0.535714,10.7143,2545,0.117878,rafa:15; nadal:9; the spaniard:4
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,STAT,7,2,rafa,0.714286,28.5714,571,0.350263,rafa:5; nadal:2
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,CROWD,7,3,djokovic,0.428571,42.8571,220,1.36364,djokovic:3; nole:3; the serbian:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,SHOT,27,3,rafa,0.555556,11.1111,2545,0.117878,rafa:15; nadal:9; the spaniard:3
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,situational,STAT,6,3,rafa,0.666667,50,571,0.525394,rafa:4; nadal:1; rafa nadal:1
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,CROWD,4,3,nole djokovic,0.5,75,220,1.36364,nole djokovic:2; djokovic:1; nole:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,JUDGE,25,1,djokovic,1,4,1254,0.0797448,djokovic:25
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,OFFICIAL,6,1,djokovic,1,16.6667,113,0.884956,djokovic:6
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,OTHER,69,2,djokovic,0.927536,2.89855,3247,0.0615953,djokovic:64; novak:5
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,SCORE,7,3,djokovic,0.714286,42.8571,468,0.641026,djokovic:5; novak:1; novak djokovic:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,SHOT,34,1,djokovic,1,2.94118,2223,0.0449843,djokovic:34
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,situational,STAT,4,1,djokovic,1,25,521,0.191939,djokovic:4
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,CROWD,9,2,rafa,0.888889,22.2222,220,0.909091,rafa:8; nadal:1
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,JUDGE,17,2,nadal,0.705882,11.7647,1254,0.15949,nadal:12; rafa:5
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,CROWD,8,2,rafa,0.875,25,220,0.909091,rafa:7; rafa nadal:1
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,JUDGE,16,2,nadal,0.75,12.5,1254,0.15949,nadal:12; rafa:4
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,OTHER,53,2,nadal,0.622642,3.77358,3247,0.0615953,nadal:33; rafa:20
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,SCORE,7,2,nadal,0.714286,28.5714,468,0.42735,nadal:5; rafa:2
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,SHOT,49,2,nadal,0.632653,4.08163,2223,0.0899685,nadal:31; rafa:18
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,SHOT,49,3,nadal,0.612245,6.12245,2223,0.134953,nadal:30; rafa:18; rafa nadal:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,situational,STAT,6,2,rafa,0.666667,33.3333,521,0.383877,rafa:4; nadal:2
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,alcaraz,situational,CROWD,1,1,alcaraz,1,100,123,0.813008,alcaraz:1
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,alcaraz,situational,JUDGE,11,1,alcaraz,1,9.09091,1154,0.0866551,alcaraz:11
@@ -164,14 +164,13 @@ tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F S
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,medvedev,situational,SCORE,4,1,medvedev,1,25,322,0.310559,medvedev:4
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,medvedev,situational,SHOT,22,2,medvedev,0.954545,9.09091,1934,0.103413,medvedev:21; daniil:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,medvedev,situational,STAT,3,2,medvedev,0.666667,66.6667,437,0.457666,medvedev:2; daniil:1
-tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,CROWD,1,1,the italian,1,100,191,0.52356,the italian:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,JUDGE,16,4,jannik,0.4375,25,2141,0.186829,jannik:7; sinner:6; the italian:2; jannik sinner:1
-tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,OTHER,38,5,sinner,0.473684,13.1579,4131,0.121036,sinner:18; jannik:10; jannik sinner:6; the italian:3; the young italian:1
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,OTHER,37,5,sinner,0.486486,13.5135,4131,0.121036,sinner:18; jannik:10; jannik sinner:6; the italian:2; the young italian:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,SCORE,4,2,sinner,0.75,50,322,0.621118,sinner:3; jannik:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,SHOT,14,2,sinner,0.714286,14.2857,1934,0.103413,sinner:10; jannik:4
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,situational,STAT,4,1,sinner,1,25,437,0.228833,sinner:4
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,situational,JUDGE,8,1,paolini,1,12.5,511,0.195695,paolini:8
-tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,situational,OTHER,16,2,paolini,0.9375,12.5,915,0.218579,paolini:15; the italian:1
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,situational,OTHER,15,1,paolini,1,6.66667,915,0.10929,paolini:15
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,situational,SCORE,2,1,paolini,1,50,158,0.632911,paolini:2
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,situational,SHOT,7,1,paolini,1,14.2857,609,0.164204,paolini:7
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,swiatek,situational,JUDGE,4,1,swiatek,1,25,511,0.195695,swiatek:4
@@ -179,14 +178,13 @@ tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiat
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,swiatek,situational,SCORE,4,1,swiatek,1,25,158,0.632911,swiatek:4
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,swiatek,situational,SHOT,7,1,swiatek,1,14.2857,609,0.164204,swiatek:7
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,swiatek,situational,STAT,1,1,swiatek,1,100,121,0.826446,swiatek:1
-tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,CROWD,1,1,the czech,1,100,64,1.5625,the czech:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,JUDGE,2,2,krejcikova,0.5,100,852,0.234742,krejcikova:1; barbora:1
-tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,OTHER,10,3,krejcikova,0.5,30,1681,0.178465,krejcikova:5; barbora:4; the czech:1
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,OTHER,9,2,krejcikova,0.555556,22.2222,1681,0.118977,krejcikova:5; barbora:4
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,SCORE,4,1,krejcikova,1,25,324,0.308642,krejcikova:4
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,situational,SHOT,8,3,barbora,0.5,37.5,621,0.483092,barbora:4; krejcikova:3; barbora krejcikova:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,JUDGE,10,1,paolini,1,10,852,0.117371,paolini:10
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,OFFICIAL,2,2,paolini,0.5,100,112,1.78571,paolini:1; jasmine:1
-tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,OTHER,21,4,paolini,0.809524,19.0476,1681,0.237954,paolini:17; jasmine paolini:2; the italian:1; jasmine:1
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,OTHER,20,3,paolini,0.85,15,1681,0.178465,paolini:17; jasmine paolini:2; jasmine:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,SCORE,4,2,paolini,0.75,50,324,0.617284,paolini:3; jasmine:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,SHOT,5,2,paolini,0.8,40,621,0.322061,paolini:4; the italian:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,situational,STAT,1,1,jasmine,1,100,171,0.584795,jasmine:1
@@ -197,7 +195,7 @@ tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinne
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,fritz,situational,SHOT,10,2,fritz,0.6,20,1229,0.162734,fritz:6; taylor fritz:4
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,fritz,situational,STAT,3,2,taylor,0.666667,66.6667,398,0.502513,taylor:2; fritz:1
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,JUDGE,8,4,jannik,0.625,50,1030,0.38835,jannik:5; the italian:1; jannik sinner:1; sinner:1
-tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,OTHER,13,4,jannik,0.538462,30.7692,2694,0.148478,jannik:7; sinner:2; jannik sinner:2; the italian:2
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,OTHER,12,4,jannik,0.583333,33.3333,2694,0.148478,jannik:7; sinner:2; jannik sinner:2; the italian:1
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,SCORE,2,2,the italian,0.5,100,259,0.772201,the italian:1; jannik:1
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,SHOT,10,4,jannik,0.5,40,1229,0.325468,jannik:5; sinner:3; jannik sinner:1; the italian:1
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,situational,STAT,1,1,sinner,1,100,398,0.251256,sinner:1
@@ -216,7 +214,7 @@ tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimo
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,anisimova,situational,SHOT,2,2,anisimova,0.5,100,290,0.689655,anisimova:1; amanda anisimova:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,anisimova,situational,STAT,1,1,amanda,1,100,342,0.292398,amanda:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,JUDGE,5,2,swiatek,0.8,40,633,0.315956,swiatek:4; iga:1
-tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,OTHER,8,4,swiatek,0.5,50,1082,0.369686,swiatek:4; iga:2; iga swiatek:1; the pole:1
+tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,OTHER,7,3,swiatek,0.571429,42.8571,1082,0.277264,swiatek:4; iga:2; iga swiatek:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,SCORE,3,1,swiatek,1,33.3333,185,0.540541,swiatek:3
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,SHOT,2,1,swiatek,1,50,290,0.344828,swiatek:2
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,situational,STAT,2,2,iga,0.5,100,342,0.584795,iga:1; swiatek:1
@@ -276,7 +274,7 @@ tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Dj
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,djokovic,syntactic,vocative_exclamation,6,3,novak,0.5,50,,,novak:3; djokovic:2; novak djokovic:1
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,after_preposition,26,5,dominic thiem,0.461538,19.2308,,,dominic thiem:12; thiem:8; dominic:3; the austrian:2; the young austrian:1
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,object,4,1,dominic thiem,1,25,,,dominic thiem:4
-tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,other,4,2,dominic,0.75,50,,,dominic:3; the austrian:1
+tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,other,3,1,dominic,1,33.3333,,,dominic:3
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,possessive,5,4,dominic thiem,0.4,80,,,dominic thiem:2; the austrian:1; dominic:1; thiem:1
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,subject,7,3,dominic thiem,0.428571,42.8571,,,dominic thiem:3; thiem:2; dominic:2
 tv_pool_20200202-M-Australian_Open-F-Novak_Djokovic-Dominic_Thiem,2020 AO M F Djokovic-Thiem,thiem,syntactic,vocative_exclamation,1,1,dominic thiem,1,100,,,dominic thiem:1
@@ -304,13 +302,13 @@ tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osak
 tv_pool_20210220-W-Australian_Open-F-Naomi_Osaka-Jennifer_Brady,2021 AO W F Osaka-Brady,osaka,syntactic,vocative_exclamation,12,2,osaka,0.916667,16.6667,,,osaka:11; naomi osaka:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,after_preposition,40,4,djokovic,0.8,10,,,djokovic:32; novak djokovic:4; the serb:3; novak:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,object,7,2,djokovic,0.857143,28.5714,,,djokovic:6; novak djokovic:1
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,other,7,4,djokovic,0.571429,57.1429,,,djokovic:4; the serbian:1; novak djokovic:1; novak:1
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,other,6,3,djokovic,0.666667,50,,,djokovic:4; novak djokovic:1; novak:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,possessive,10,2,djokovic,0.8,20,,,djokovic:8; novak djokovic:2
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,subject,58,2,djokovic,0.965517,3.44828,,,djokovic:56; novak djokovic:2
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,djokovic,syntactic,vocative_exclamation,11,2,djokovic,0.909091,18.1818,,,djokovic:10; novak djokovic:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,after_preposition,34,2,tsitsipas,0.970588,5.88235,,,tsitsipas:33; the greek:1
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,object,7,1,tsitsipas,1,14.2857,,,tsitsipas:7
-tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,other,15,2,tsitsipas,0.6,13.3333,,,tsitsipas:9; the greek:6
+tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,other,12,2,tsitsipas,0.75,16.6667,,,tsitsipas:9; the greek:3
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,possessive,2,1,tsitsipas,1,50,,,tsitsipas:2
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,subject,32,1,tsitsipas,1,3.125,,,tsitsipas:32
 tv_pool_20210613-M-Roland_Garros-F-Stefanos_Tsitsipas-Novak_Djokovic,2021 RG M F Tsitsipas-Djokovic,tsitsipas,syntactic,vocative_exclamation,14,1,tsitsipas,1,7.14286,,,tsitsipas:14
@@ -328,27 +326,27 @@ tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducan
 tv_pool_20210911-W-US_Open-F-Emma_Raducanu-Leylah_Fernandez,2021 USO W F Raducanu-Fernandez,raducanu,syntactic,vocative_exclamation,2,1,raducanu,1,50,,,raducanu:2
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,after_preposition,43,5,medvedev,0.767442,11.6279,,,medvedev:33; the russian:6; daniil:2; daniil medvedev:1; the big russian:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,object,9,3,medvedev,0.777778,33.3333,,,medvedev:7; the russian:1; daniil medvedev:1
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,other,11,2,medvedev,0.727273,18.1818,,,medvedev:8; the russian:3
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,other,9,2,medvedev,0.888889,22.2222,,,medvedev:8; the russian:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,possessive,7,1,medvedev,1,14.2857,,,medvedev:7
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,subject,44,4,medvedev,0.863636,9.09091,,,medvedev:38; daniil medvedev:3; daniil:2; the russian:1
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,medvedev,syntactic,vocative_exclamation,5,1,medvedev,1,20,,,medvedev:5
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,after_preposition,34,3,rafa,0.617647,8.82353,,,rafa:21; nadal:8; the spaniard:5
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,object,14,3,rafa,0.571429,21.4286,,,rafa:8; nadal:5; the spaniard:1
-tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,other,10,3,rafa,0.6,30,,,rafa:6; nadal:3; the spaniard:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,after_preposition,34,4,rafa,0.617647,11.7647,,,rafa:21; nadal:7; the spaniard:5; rafa nadal:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,object,14,4,rafa,0.571429,28.5714,,,rafa:8; nadal:4; the spaniard:1; rafa nadal:1
+tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,other,7,2,rafa,0.571429,28.5714,,,rafa:4; nadal:3
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,possessive,6,1,rafa,1,16.6667,,,rafa:6
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,subject,49,2,rafa,0.755102,4.08163,,,rafa:37; nadal:12
 tv_pool_20220130-M-Australian_Open-F-Rafael_Nadal-Daniil_Medvedev,2022 AO M F Nadal-Medvedev,nadal,syntactic,vocative_exclamation,5,2,rafa,0.6,40,,,rafa:3; nadal:2
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,after_preposition,58,4,djokovic,0.896552,6.89655,,,djokovic:52; nole:3; novak:2; novak djokovic:1
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,after_preposition,56,4,djokovic,0.928571,7.14286,,,djokovic:52; novak:2; novak djokovic:1; nole:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,object,6,1,djokovic,1,16.6667,,,djokovic:6
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,other,14,3,djokovic,0.785714,21.4286,,,djokovic:11; novak:2; the serbian:1
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,other,13,3,djokovic,0.692308,23.0769,,,djokovic:9; novak:2; nole djokovic:2
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,possessive,9,2,djokovic,0.888889,22.2222,,,djokovic:8; novak:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,subject,56,2,djokovic,0.982143,3.57143,,,djokovic:55; novak:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,djokovic,syntactic,vocative_exclamation,9,1,djokovic,1,11.1111,,,djokovic:9
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,after_preposition,42,2,nadal,0.571429,4.7619,,,nadal:24; rafa:18
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,after_preposition,41,2,nadal,0.585366,4.87805,,,nadal:24; rafa:17
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,object,11,2,rafa,0.545455,18.1818,,,rafa:6; nadal:5
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,other,15,2,nadal,0.6,13.3333,,,nadal:9; rafa:6
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,other,14,3,nadal,0.571429,21.4286,,,nadal:8; rafa:5; rafa nadal:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,possessive,15,2,rafa,0.6,13.3333,,,rafa:9; nadal:6
-tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,subject,50,2,nadal,0.66,4,,,nadal:33; rafa:17
+tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,subject,50,3,nadal,0.64,6,,,nadal:32; rafa:17; rafa nadal:1
 tv_pool_20220531-M-Roland_Garros-QF-Novak_Djokovic-Rafael_Nadal,2022 RG M QF Djokovic-Nadal,nadal,syntactic,vocative_exclamation,8,2,nadal,0.875,25,,,nadal:7; rafa:1
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,alcaraz,syntactic,after_preposition,21,2,alcaraz,0.857143,9.52381,,,alcaraz:18; carlos alcaraz:3
 tv_pool_20220911-M-US_Open-F-Casper_Ruud-Carlos_Alcaraz,2022 USO M F Ruud-Alcaraz,alcaraz,syntactic,object,6,1,alcaraz,1,16.6667,,,alcaraz:6
@@ -391,13 +389,13 @@ tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F S
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,medvedev,syntactic,vocative_exclamation,12,1,medvedev,1,8.33333,,,medvedev:12
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,after_preposition,23,5,jannik,0.391304,21.7391,,,jannik:9; sinner:6; jannik sinner:5; the italian:2; the young italian:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,object,3,2,sinner,0.666667,66.6667,,,sinner:2; the italian:1
-tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,other,11,3,sinner,0.545455,27.2727,,,sinner:6; jannik:3; the italian:2
+tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,other,9,2,sinner,0.666667,22.2222,,,sinner:6; jannik:3
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,possessive,7,2,sinner,0.857143,28.5714,,,sinner:6; jannik:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,subject,28,4,sinner,0.642857,14.2857,,,sinner:18; jannik:7; jannik sinner:2; the italian:1
 tv_pool_20240128-M-Australian_Open-F-Jannik_Sinner-Daniil_Medvedev,2024 AO M F Sinner-Medvedev,sinner,syntactic,vocative_exclamation,5,2,sinner,0.6,40,,,sinner:3; jannik:2
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,after_preposition,11,1,paolini,1,9.09091,,,paolini:11
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,object,3,1,paolini,1,33.3333,,,paolini:3
-tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,other,4,2,paolini,0.75,50,,,paolini:3; the italian:1
+tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,other,3,1,paolini,1,33.3333,,,paolini:3
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,possessive,4,1,paolini,1,25,,,paolini:4
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,subject,5,1,paolini,1,20,,,paolini:5
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,paolini,syntactic,vocative_exclamation,6,1,paolini,1,16.6667,,,paolini:6
@@ -409,13 +407,13 @@ tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiat
 tv_pool_20240608-W-Roland_Garros-F-Iga_Swiatek-Jasmine_Paolini,2024 RG W F Swiatek-Paolini,swiatek,syntactic,vocative_exclamation,5,1,swiatek,1,20,,,swiatek:5
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,after_preposition,9,3,krejcikova,0.555556,33.3333,,,krejcikova:5; barbora:3; barbora krejcikova:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,object,1,1,barbora,1,100,,,barbora:1
-tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,other,3,2,the czech,0.666667,66.6667,,,the czech:2; barbora:1
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,other,1,1,barbora,1,100,,,barbora:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,possessive,2,1,barbora,1,50,,,barbora:2
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,subject,8,2,krejcikova,0.875,25,,,krejcikova:7; barbora:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,krejcikova,syntactic,vocative_exclamation,2,2,barbora,0.5,100,,,barbora:1; krejcikova:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,after_preposition,13,3,paolini,0.846154,23.0769,,,paolini:11; the italian:1; jasmine paolini:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,object,5,2,paolini,0.8,40,,,paolini:4; jasmine paolini:1
-tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,other,4,2,jasmine,0.75,50,,,jasmine:3; the italian:1
+tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,other,3,1,jasmine,1,33.3333,,,jasmine:3
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,subject,16,2,paolini,0.9375,12.5,,,paolini:15; jasmine:1
 tv_pool_20240713-W-Wimbledon-F-Jasmine_Paolini-Barbora_Krejcikova,2024 WIM W F Paolini-Krejcikova,paolini,syntactic,vocative_exclamation,5,1,paolini,1,20,,,paolini:5
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,fritz,syntactic,after_preposition,15,4,taylor fritz,0.466667,26.6667,,,taylor fritz:7; fritz:4; taylor:3; the american:1
@@ -426,7 +424,7 @@ tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinne
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,fritz,syntactic,vocative_exclamation,3,1,taylor,1,33.3333,,,taylor:3
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,syntactic,after_preposition,12,4,the italian,0.333333,33.3333,,,the italian:4; jannik sinner:3; sinner:3; jannik:2
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,syntactic,object,1,1,jannik,1,100,,,jannik:1
-tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,syntactic,other,17,3,jannik,0.882353,17.6471,,,jannik:15; the italian:1; sinner:1
+tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,syntactic,other,16,2,jannik,0.9375,12.5,,,jannik:15; sinner:1
 tv_pool_20240908-M-US_Open-F-Taylor_Fritz-Jannik_Sinner,2024 USO M F Fritz-Sinner,sinner,syntactic,subject,4,2,sinner,0.75,50,,,sinner:3; jannik sinner:1
 tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,shelton,syntactic,after_preposition,26,4,ben shelton,0.346154,15.3846,,,ben shelton:9; shelton:8; ben:6; the american:3
 tv_pool_20250124-M-Australian_Open-SF-Jannik_Sinner-Ben_Shelton,2025 AO M SF Sinner-Shelton,shelton,syntactic,object,11,4,shelton,0.363636,36.3636,,,shelton:4; ben shelton:3; ben:3; the american:1
@@ -447,7 +445,6 @@ tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimo
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,anisimova,syntactic,subject,11,4,anisimova,0.545455,36.3636,,,anisimova:6; amanda anisimova:3; the american:1; amanda:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,after_preposition,7,3,swiatek,0.714286,42.8571,,,swiatek:5; iga:1; iga swiatek:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,object,3,1,swiatek,1,33.3333,,,swiatek:3
-tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,other,1,1,the pole,1,100,,,the pole:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,possessive,1,1,iga,1,100,,,iga:1
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,subject,7,2,swiatek,0.714286,28.5714,,,swiatek:5; iga:2
 tv_pool_20250712-W-Wimbledon-F-Amanda_Anisimova-Iga_Swiatek,2025 WIM W F Anisimova-Swiatek,swiatek,syntactic,vocative_exclamation,1,1,swiatek,1,100,,,swiatek:1
