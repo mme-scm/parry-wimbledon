@@ -262,3 +262,97 @@ my own specification; their validity is checked only against two LLM coders. All
 lib2b.py (normalisation, inventories, coverage, slot classifier, vertex bootstrap); p01_sharing.py (sections 3, 7 H1-H2); p02_core.py (section 4);
 p03_clusters_targets.py (section 8); p04_refexpr_pool.py (E3 inventory); p05_thrift.py (E1-E3, H4, H5, MDE); calibrate.py (section 6);
 p06_primary.py (Holm); p07_figures.py; make_report.py; run_all.sh; tests/; hand/players.tsv.
+
+---
+
+## Addendum 1 (2026-10-08): revisions after review/critic_parry_v1.md. ALL OF THIS ADDENDUM IS POST HOC.
+
+Written after the 2b results and the critic's review (1 critical, 6 major, 12 minor) had been read, including the critic's own
+reruns (its large-identification-set numbers, its observed-difference bootstrap, its kappa table and its H4b variants). Nothing
+below is pre-registered. The seven 2b-primary tests of section 7, their statistics, nulls, seeds and permutation counts are
+unchanged and are rerun exactly as before (their outputs must reproduce byte for byte; a script checks this against commit 476a088,
+the last full 2b rerun). Every new analysis writes new files; no pre-registered output file is overwritten with different content,
+except that `refexpr_pool_tokens.csv` gains two columns (its existing columns are unchanged and are checked).
+
+### A1. Cross-corpus comparison with a large identification set (new primary cross-corpus design; `p08_largeI.py`)
+Reason: at S = 1,500 an n >= 3 inventory has 17-49 types and covers about 1% of a target, so the n >= 3 rows of Table 2.3 compare
+near-empty inventories. The design below is the pooled design of section 8 / Phase 2, applied to three kinds of source.
+* Targets: each of the 20 TV streams, whole text. Sources, each subsampled to I = 100,000 tokens (whole utterances, random order,
+  `common.subsample`): (a) the other 19 TV streams pooled; (b) Cornell live text; (c) press answers pooled. R = 5 subsamples per source and
+  target; seed `[SEED, 108, target index, r, token variant]`, sources drawn in the order TV, Cornell, press.
+* Tokens: 2b normalisation (primary) and raw Phase 2 tokens (sensitivity). Inventory = `common.formula_set_fast(subsample, m = 2)` (n-grams
+  2..12 in >= 2 utterances, not stop-only). Coverage of the target at n >= 2 and n >= 3 (token share).
+* Null: in each replicate the target is unigram-shuffled once (utterance lengths kept) and each source subsample once; identification and
+  coverage repeated. Excess = observed - shuffled. Reported beside the observed values; **claims rest on the observed differences**.
+* Commentary-only variant: target tokens inside `common.official_mask_v2` patterns (computed on raw tokens; umpire calls, Hawk-Eye announcements
+  and point-score calls) are dropped from numerator and denominator.
+* Statistics: per target, mean over R of each coverage; TV minus Cornell and TV minus press, per target; mean over the 20 targets; 95%
+  percentile bootstrap over targets (B = 10,000, seed `[SEED, 109]`); number of targets with a positive difference. The targets' TV sources
+  overlap (18 of 19 streams in common), so the bootstrap treats targets as exchangeable and understates between-broadcast uncertainty; the
+  per-target signs are reported for that reason.
+* Verdict rule (generated, not typed): a TV-minus-baseline difference is reported as "TV sources cover TV targets more than <baseline>
+  sources of the same size" if its 95% CI lies above 0, "less" if below 0, "no difference detected" otherwise.
+* **TV-only n >= 3 stock.** For target M and replicate r with inventories F_TV, F_C, F_P (2b-normalised): an occurrence in M of an n-gram
+  g in F_TV with n >= 3 is *shared* if g is in F_C or F_P, else *TV-only*. A target token covered by some n >= 3 F_TV occurrence is *shared* if
+  any covering occurrence is shared, else *TV-only*. Reported: share of M's tokens that are shared / TV-only (mean over R), all tokens and
+  commentary-only. Two stricter readings of TV-only, as robustness: (i) *strict*: every covering TV-only n-gram is also not a formula
+  (>= 2 utterances) of the **whole** Cornell text (178,770 tokens) nor of the **whole** press corpus (5.4 million tokens); (ii)
+  *cross-broadcast*: every covering TV-only n-gram occurs in >= 2 of the other 19 TV streams (so it is not repeated inside one broadcast only).
+* Composition of the TV-only tokens: each TV-only token takes the slot of the longest TV-only occurrence covering it (ties: leftmost),
+  classified by `SlotClassifier.classify(span)` on raw tokens (the mode validated against the coders in section 6); also the share of TV-only
+  tokens inside `official_mask_v2` patterns. Per target, pooled over the 20 targets, and for the two finals. Type lists: n-grams that are TV-only
+  in at least 3 of the 5 replicates, with their occurrences in the target, modal slot, number of other TV streams attesting them and their
+  utterance counts in the whole Cornell and press texts.
+* The S = 1,500 / 3,000 rows of Tables 2.2-2.3 are kept as the secondary, matched-small-size design. Rule for their n >= 3 rows: if the mean
+  TV -> TV n >= 3 coverage at that S is below 2% of tokens they are printed with the label "near-empty inventories (not informative)".
+
+### M1/M2. H1 and H2 at their real strength (`p09_h2_observed.py`)
+* The H2-type statistic of section 7 recomputed on observed coverage, on shuffled coverage and on excess, for S = 1,500 and 3,000, base, n3 and
+  content, normalised and raw tokens, from `sharing_pairs.csv`, with the same vertex bootstrap (`lib2b.vertex_boot_vs_baseline`, B = 10,000,
+  seed `[SEED, 110]`) and the number of targets > 0. The H2a/H2b rows of the 2b-primary table stay as pre-registered (excess); the report states
+  the observed difference beside them and bases the H2 claim on the observed difference and its CI.
+* Why the Cornell shuffled null is larger: per corpus, unigram concentration (share of `<name>` and `<num>` tokens, Simpson index sum p^2,
+  share of the 10 commonest types), and, over 50 shuffled 1,500-token subsamples per team (seed `[SEED, 111, team]`), the size of the shuffled
+  inventory and the share of its types containing `<name>` or `<num>`.
+* H1 is reported as a check that the pipeline detects collocation: the share of the TV -> TV excess reached by press -> TV and Cornell -> TV
+  (Table 2.2 numbers, computed by the generator) and the press-speaker yardstick.
+
+### M3/M4. Calibration at chance level; the slot classifier in the mode used (`calibrate_chance.py`)
+* For every automatic measure x reference (A, B, A and B, A or B; HIGH + MEDIUM): auto share a, coder share c; chance precision = c, chance
+  recall = a (labels placed at random with the same shares), precision ceiling = min(1, c / a); precision - c, recall - a; Cohen's kappa
+  (automatic vs coder), 95% bootstrap CI over utterances (B = 2,000, seed `[SEED, 112]`). The same by sample group (2019 / other), with the
+  groups' median utterance length and token weighting stated. Span level: share of HIGH spans of each coder fully inside / touching the automatic
+  positive set, against a chance level from 200 random circular shifts of the automatic labels within each utterance.
+* Rule for the report: an automatic measure is called a "weak proxy" for the coders' judgement if its kappa against every reference set is
+  below 0.40 (about half the coders' mutual kappa).
+* Slot classifier, context mode (the mode that assigns the situational slot of a reference in H4): (i) `classify_context(span)` on every coder
+  span vs the coder's slot; (ii) the referring expressions of the 300 sampled utterances (p04's extraction) that lie inside a coder span, with
+  `classify_context` and `classify(span)` slots vs that span's coder slot (longest covering span). Agreement and kappa per coder.
+* H4a/H4b rerun with the span-mode slot of each reference (`classify(span)` on the reference; new column `slot_sit_span` written by p04) as a
+  sensitivity (`p10_h4_robust.py`).
+
+### M5. Robustness of H4a and H4b (`p10_h4_robust.py`)
+* The pre-registered statistics with 100,000 permutations at three seeds (`[SEED, 113, k]`, k = 0, 1, 2), Monte Carlo SE of p.
+* Variants (20,000 permutations each, seed `[SEED, 114, variant]`): without hypocoristic and epithet forms; surname and first name only;
+  first reference per player per utterance; span-mode slot; without the two streams that carry hypocoristics; leave-one-stream-out
+  (20 runs, 5,000 permutations each; range of p and count of p < 0.05).
+* Holm under substitution: each variant's p replaces the primary p in the seven-test family and Holm is recomputed.
+* **Verdict rule:** a thrift test is reported as "rejected (robust)" if the pre-registered run is Holm-rejected and every variant above
+  (three 100,000-permutation seeds, each listed variant; leave-one-stream-out excluded because it changes the population) is Holm-rejected under
+  substitution; "not robust / inconclusive" if the pre-registered run is rejected but at least one variant is not; "not rejected" otherwise.
+  The speaker-role confound (no speaker labels: a play-by-play voice and an analyst voice that differ in naming and in typical slot produce the
+  same deficit) cannot be tested and is stated beside the verdict.
+* H5 sensitivity with the stored `t_to_next_first_hit_s` on all 20 streams (valid after the corpus frame-rate correction of 3.3 in
+  corpus/README.md; new column `t_next_stored_all` written by p04), beside the pre-registered 14-stream row.
+
+### Minor items
+* E1 economy: the pooled-inventory null rejects by construction (a type repeated inside one stream only is in the inventory and belongs to one
+  team). Added: E1 with the inventory identified leave-one-stream-out (each stream segmented with the formulas and open systems of the other 19
+  streams pooled), same null (`p11_e1_loso.py`, 10,000 permutations, seed `[SEED, 115]`). E2 nulls summed per slot (plan section 9 promised them):
+  per slot, the sum of D over the slot's classes, null = sum of independent within-class permutations (10,000, seed `[SEED, 116]`).
+* Exploratory p-values are counted per p-value, not per row, by the generator from the results files; E2's are also given with a Bonferroni
+  bound over the E2 p-values.
+* `p12_rerun_check.py`: sha256 of every pre-registered results file against the version in commit 476a088 (for `refexpr_pool_tokens.csv`,
+  the original columns only).
+* The report generator contains no verdict literal: every verdict sentence is chosen by a rule from the results (rules above and in
+  make_report.py), and every number is read from results/.
