@@ -131,7 +131,7 @@
    "medium": "press"
   }
  },
- "load_s": 6.0,
+ "load_s": 4.7,
  "configs": [
   {
    "S": 1500,
@@ -169,7 +169,7 @@
     "press_nadal"
    ],
    "tv_streams_included": 20,
-   "runtime_s": 630.6
+   "runtime_s": 598.3
   },
   {
    "S": 3000,
@@ -203,8 +203,8 @@
     "press_nadal"
    ],
    "tv_streams_included": 17,
-   "runtime_s": 232.9
+   "runtime_s": 222.6
   }
  ],
- "total_s": 895.2
+ "total_s": 848.6
 }
