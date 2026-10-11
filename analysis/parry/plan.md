@@ -372,3 +372,96 @@ near-empty inventories. The design below is the pooled design of section 8 / Pha
 * Report rules (in make_report.py's docstring): ci_verdict, share_word, near-empty, weak-proxy, the thrift verdict file, the composition rule
   (OFFICIAL + SCORE + STAT >= 50% of TV-only tokens = 'majority', otherwise 'minority'), and the base-rate rule for the 2019-vs-other precision
   difference (attributed 'mostly' to the base rate if the groups' precision-minus-chance values differ by less than half their raw precisions).
+
+---
+
+## Addendum 2 (2026-10-11): final revisions after review/critic_parry_v2.md. ALL OF THIS ADDENDUM IS POST HOC.
+
+Written after the revised report (addendum 1) and the critic's second review (0 critical, 2 major, 9 minor) had been read, including the
+critic's own numbers (occurrence-weighted TV / baseline rate ratio of the 300 commonest TV-only strings, median 12.4, quartiles 8.1-40.5;
+confusion-adjusted SCORE + STAT + OFFICIAL share 37.7% / 39.1%; same-slam / same-player share of the TV advantage 15-19% for the two finals).
+It was written before any code below. Nothing in it is pre-registered. The seven 2b-primary tests and every pre-registered output are
+unchanged (`p12_rerun_check.py` must still report all pre-registered files identical to commit 476a088). The addendum-1 outputs of
+`p08_largeI.py` keep their content; p08 only writes additional rows, columns and files, from the replicate inventories it already builds
+(no new random draws, so its existing outputs reproduce byte for byte).
+
+### N1. TV-only strings: rates at matched sample size (`p13_rate_ratio.py`)
+Reason: the 'strict' class compares a 100,000-token TV sample with the whole Cornell text (1.8 x larger) and the whole press corpus (54 x
+larger), so 'not strict' does not mean 'used by the other registers' in any sense relevant to a formula, and the sentence built on it gave no
+magnitude.
+* Strings: every n >= 3 string that p08 classes as TV-only in a majority (>= 3 of 5) of a target's samples, pooled over the 20 targets
+  (p08 now writes the full list, `largeI_tvonly_types_pooled_all.csv`; the 300-row file is unchanged), weighted by its occurrences in those
+  targets (primary; it is the token-level quantity of Table 2.D) and unweighted (by type, secondary); the 300 commonest strings (the
+  critic's set) as a check. Yardstick: the n >= 3 strings that p08 classes as *shared* in a majority of a target's samples (new file
+  `largeI_shared_types_pooled_all.csv`), same statistics.
+* Matched-size rates: R = 100 replicates; in each, one 100,000-token sample (whole utterances, `common.subsample`) of the 20 TV streams
+  pooled, of the Cornell text and of the press answers (seed `[SEED, 118, r]`, drawn in that order; 2b normalisation). For each string and
+  source: occurrences per 100,000 tokens in each sample; the matched-size rate is the mean over the R samples; also the share of samples in
+  which the string is a formula of the sample (>= 2 utterances), i.e. the share of equal-size samples whose inventory contains it.
+  The TV pool has 120,682 tokens, so the TV samples overlap heavily (83% of the pool each); Cornell samples hold 56% of Cornell; press
+  samples are nearly independent.
+* Statistics: for each baseline (Cornell, press) and for the larger of the two rates, among strings with a positive matched-size baseline
+  rate: TV rate / baseline rate, weighted median and quartiles; share of these strings (weighted) with baseline rate below 1 per 100,000
+  tokens (expected count below 1 in a sample of the design's size) and below 0.5; share of TV-only occurrences in strings with zero
+  matched-size rate in both baselines; mean share of samples in which a string is a formula of a TV / Cornell / press sample. Uncertainty:
+  percentile bootstrap over the R replicates (B = 2,000, seed `[SEED, 119]`), which covers the sampling of rates only; the strings are a
+  selected set, not a random sample. Whole-corpus rates (p08's columns) give the same statistics as a check.
+* Caveat stated with the numbers: the strings were selected for being repeated in a TV sample and not in equal-size baseline samples, and
+  the TV rate is measured on the text they were selected from, so the ratio describes the selected stock and is inflated, relative to an
+  unselected string, by that selection; the shared-string yardstick is selected by the same TV criterion.
+* Report: the symmetric statement (equal-size samples: TV-only share of Table 2.D and the matched-size rate ratio) becomes the primary
+  reading; the 'strict' class is kept, labelled "asymmetric: a 100,000-token TV sample against the whole baselines".
+* Wording rule (replaces the `share_word(1 - strict_frac)` rule): with m = the occurrence-weighted median TV / max(Cornell, press)
+  matched-size ratio among attested strings, the stock is called "register-specific by rate (typically more than tenfold)" if m >= 10,
+  "(typically more than k-fold)" with k = floor(m) if 2 <= m < 10, and "not clearly register-specific by rate" if m < 2; "not by absolute
+  absence" is added if less than half of the TV-only occurrences lie in strings unattested in both baselines.
+* Minor 10 (normalisation): the rate per 100,000 tokens of the bigram `<name> <name>` (full names) in the TV streams, Cornell and press
+  (whole texts), and the number of `<name>`-containing strings among the 40 commonest TV-only strings, printed beside Table 2.F.
+
+### N2. Confusion-adjusted slot composition of the TV-only stock (`p14_slot_adjust.py`)
+* Classifier composition q (span mode, Table 2.E; per target counts from `largeI_tvonly_slots.csv`) for the classes TV-only, cross-
+  broadcast, strict and shared, pooled over the 20 targets, and for the two finals.
+* Confusion: span mode (`SlotClassifier.classify(span)`, the mode that produced q) on every HIGH + MEDIUM ... coder span of the calibration
+  sample against the coder's slot, per coder (the counts of Table 3.4, recomputed and asserted equal to
+  `calibration_slot_context_confusion.csv`). Context mode is not used: it is not the mode that produced q.
+* Estimators: (i) primary, the critic's: p_k = sum_j q_j P(coder slot k | classifier slot j) (assumes that P(true | classified) transfers
+  from coder spans to TV-only occurrences); (ii) sensitivity: p minimising || q - p P(classifier slot | coder slot) ||^2 subject to p >= 0,
+  sum p = 1 (assumes that the classifier's error rates given the true slot transfer; robust to a different slot mix). Each per coder (A,
+  B); spans weighted equally (primary) and by their token length (sensitivity).
+* Uncertainty: percentile bootstrap (B = 2,000, seed `[SEED, 120]`) resampling the calibration utterances (with all their spans) and,
+  independently, the 20 targets.
+* Composition rule (replaces the addendum-1 rule): SCORE + STAT + OFFICIAL is "a minority" of the TV-only tokens if the upper 95% bound
+  of the adjusted share (estimator (i), both coders) is below 50%, "the majority" if the lower bound is above 50%, otherwise "about half
+  (not determined)"; the raw classifier share is printed beside it, with the classifier's kappa, wherever the composition is cited
+  (Key results, Table 2.E, fig10 caption, limitations). Table 2.E says that OTHER is the classifier's residual class.
+* Minor 3: reference-level kappa of the context mode (the 65 / 69 commentary references inside a coder span) with a percentile bootstrap
+  CI over references (B = 2,000, seed `[SEED, 121]`; references treated as independent although they cluster in utterances). The coder-
+  span context-mode row (labels assigned from the very words the context mode excludes) leaves the Key results and limitation 6; it stays
+  in Table 3.4 with that note.
+
+### Minor items
+* Minor 4 (umpire game announcements). Check first: `common.official_mask_v2` calls `common.official_mask`, whose patterns include
+  `game <name>`, `<name> leads (by) N games/sets to M` and `N games all`, applied to raw tokens. p08 writes `largeI_umpire_check.csv`: per
+  TV stream, occurrences of `leads (by)`, `N games/sets to M` and `N games all` in raw text and how many lie wholly inside
+  `official_mask_v2`. If the mask covers them, the report says so (the commentary-only rows already exclude them) instead of changing the
+  mask. In addition p08 tallies, for each TV-only class, the tokens inside umpire game announcements (the three patterns above), and a
+  composition variant in which those tokens are labelled OFFICIAL instead of the classifier's slot (Table 2.E, extra column), since the
+  frozen classifier files `<name> leads by N games to M` under SCORE. `common.py` is not changed.
+* Minor 7 (same slam, same player; `p15_sameslam.py`). Targets: the 20 TV streams; sources at a common size I = 30,000 tokens (the
+  smallest restricted pool has 31,098 tokens), R = 5, seed `[SEED, 122, target index, r]`, drawn in this order: (a) the other 19 TV
+  streams; (b) other streams of a different slam; (c) other streams sharing no player with the target; (d) both restrictions; (e) control:
+  the other 19 streams minus k streams drawn at random, k = the number removed in (d); (f) Cornell; (g) press. Inventory and coverage as in
+  A1 (n >= 2 and n >= 3, observed, 2b normalisation). Statistics: mean over targets with percentile bootstrap over targets (B = 10,000,
+  seed `[SEED, 124]`) of each coverage, of (d) minus each baseline, and of the share of the TV-minus-baseline gap removed by the
+  restriction, (a - d) / (a - baseline) (ratio of the means over targets), with the same share for the random-removal control (e). The two
+  finals also at I = 54,000 (the critic's size; 2023's restricted pool has 54,696 tokens), seed `[SEED, 123, target index, r]`. Reported as a
+  sensitivity row (Table 2.H) and one sentence in section 2.0.
+* Minor 5: the report gains a table of the verdict thresholds, when each rule was fixed, and the observed value with its ratio to the
+  threshold (computed by the generator).
+* Minor 6: E1 is renamed "stream-level reuse per slot"; the report states that within-document burstiness produces the leave-one-stream-out
+  deficit in any collection, so it is not evidence of economy in Parry's sense. No yardstick run (listed as not done).
+* Minor 8: Table 2.A's caption gives the overlap of the TV samples (a 100,000-token draw holds 84-92% of its 109,000-119,000-token pool,
+  computed), so the 5 TV replicates nearly coincide.
+* Minor 9: title "Phase 2b: repetition across broadcasts"; the revision paragraphs say which parts of each addendum were written after
+  first outputs.
+* STATUS.md is the orchestrator's file and is not edited here; its headline on the TV-only stock should follow the new Key results.
