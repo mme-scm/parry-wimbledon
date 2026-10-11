@@ -83,3 +83,7 @@ Conventions: Crossref review records are given as "review: Author, Journal vol (
 - Verified by a direct record of the work (Crossref DOI, publisher page, journal page, catalogue entry, or repository/API): items 1–13, 15–38, 40–62 (with the small gaps flagged inline: subtitles, series numbers, end pages, editor names).
 - Partially verified: 39 (Durante 1960: bookseller record gives year, series/volume and first page; end page from an unfetchable snippet).
 - Not verifiable in this session: Google Books and WorldCat (HTTP 429), Brill online (403), GitHub API for non-session repositories (403). None of the listed works is wholly unverified.
+
+## F. Added in Phase 6 (2026-10-11)
+
+63. **Dukat, Z. 1991.** "Enjambement as a Criterion for Orality in Homeric and South Slavic Epic Poetry." *Oral Tradition* 6/2–3: 303–315. — Record: the PDF fetched from journal.oraltradition.org on 2026-10-07 by the philology reviewer (`review/philology_v1.md` A.7, which quotes pp. 303–305, including Parry's 1929 Iliad figures 48.5 / 24.8 / 26.6% for no / unperiodic / necessary enjambement at p. 305). Not re-fetched for this file; the journal's issue numbering as given in that review. Parry's own article (*TAPA* 60, 1929) was not accessed: cited only as quoted by Dukat.
