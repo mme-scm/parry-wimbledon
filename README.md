@@ -28,7 +28,7 @@ A test of Parry–Lord oral-formulaic theory on live tennis commentary, a 64-lin
 | Final poem and records | `composition/final/poem.txt`, `poem.jsonl`, `README.md` |
 | Translation, interlinear, scanned translation, facing page | `composition/final/translation.md`, `interlinear.md`, `translation_scanned.md`, `facing.md` |
 | Reviews (verifiers, critics, round merges) | `review/` |
-| Paper and figures | `paper/paper.md`, `paper/figures/` (`bash paper/figures/make_all.sh`) |
+| Paper (4,682 words main text, three appendices) and figures | `paper/paper.md`, `paper/figures/` (`bash paper/figures/make_all.sh`); reviews `review/critic_paper_v1.md` |
 | Orchestration log, decisions, validation figures | `STATUS.md` |
 | Items needing a human | `FOR_HUMAN.md` |
 
