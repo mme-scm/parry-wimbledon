@@ -74,12 +74,13 @@ README.md written (what was done, sources, deliverable locations, headline resul
 ## Phase table
 | Phase | Name | Status | Notes |
 |---|---|---|---|
-| 0 | Find the corpus | DONE | 2019 Wimbledon F; held-out 2023 Wimbledon F; see Phase 0 section |
-| 1 | Tools and corpus | DONE | corpus and Homer tools both verified by orchestrator |
-| 2 | Analyses | IN PROGRESS | formula-analyst, metre-analyst running |
-| 3 | Brief | NOT STARTED | |
-| 4 | Composition | IN PROGRESS | composer v1 running |
-| 5 | Translation | NOT STARTED | |
-| 6 | Paper | NOT STARTED | |
-| 7 | Weaving and stitching | NOT STARTED | |
-| F | Finish (README) | NOT STARTED | |
+| 0 | Find the corpus | DONE | 2019 Wimbledon men's final; held-out 2023 final; 18-match reference pool; Cornell written contrast (corpus/SOURCES.md) |
+| 1 | Tools and corpus | DONE | corpus built and verified (alignment 98.3%, timings 20/20 vs raw); Homer tools verified (25/25 hand scansions, 10/10 concordance checks); dichrona and elision checks added; frame-rate correction for 6 pool streams |
+| 2 | Analyses | DONE | formulas and metre, pre-registered; critic v1 (1 critical, 7 major) → revisions → critic v2 (0 critical, 1 major fixed); summary above; analysis/limitations.md 1–10 |
+| 2b | Tradition across broadcasts (added by the human) | DONE | plan committed before tests; two blind coders; critic v1 → revision → critic v2 (0 critical, 2 major) → scripted fixes; limitations 11–17 |
+| 3 | Brief | DONE | composition/brief.md with addenda A1–A2 |
+| 4 | Composition | DONE | four drafts, three verifier rounds, poem critic, final verifier round; composition/final/poem.txt (64 lines) and poem.jsonl; summary above |
+| 5 | Translation | DONE | translation.md, translation_scanned.md, interlinear.md, facing.md; checks 64/64/64 and 27/27 repeated formulae consistent |
+| 6 | Paper | DONE | paper/paper.md, 4,682 words main text, five figures, seven tables, three appendices; critic v1 fixed (f709e59) |
+| 7 | Weaving and stitching | DONE | paper §7: 48 verified primary quotations, dictionary-backed etymologies, link to the poem's records; critic fixed |
+| F | Finish (README) | DONE | README.md; all deliverables exist and are pushed |
