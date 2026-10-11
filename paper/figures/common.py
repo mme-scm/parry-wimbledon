@@ -1,7 +1,8 @@
 """Shared paths, palette and matplotlib style for the paper figures.
 
-Every figure script reads only from analysis/formulas/results/ and analysis/metre/results/
-and writes PNG + SVG into paper/figures/. Palette: the dataviz reference palette (categorical
+Every figure script reads only from analysis/formulas/results/, analysis/metre/results/,
+paper/figures/results/ (written by poem_stats.py) and review/ (the poem's density file), and writes
+PNG + SVG into paper/figures/. Palette: the dataviz reference palette (categorical
 slots 1-3 validated for light mode; blue ordinal ramp validated as an ordinal scale).
 """
 from pathlib import Path
@@ -14,8 +15,10 @@ import matplotlib.pyplot as plt  # noqa: E402
 ROOT = Path(__file__).resolve().parents[2]
 RES_F = ROOT / "analysis" / "formulas" / "results"
 RES_M = ROOT / "analysis" / "metre" / "results"
+REVIEW = ROOT / "review"
 OUT = Path(__file__).resolve().parent
 TABLES = OUT / "tables"
+RES_P = OUT / "results"  # script-generated statistics of the poem's records (poem_stats.py)
 
 # categorical slots (fixed order, never cycled)
 BLUE = "#2a78d6"

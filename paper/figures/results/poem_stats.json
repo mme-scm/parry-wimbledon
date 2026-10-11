@@ -1,0 +1,2115 @@
+{
+ "inputs": {
+  "poem": "composition/final/poem.jsonl",
+  "density": "review/poem_density_v4.json",
+  "density_input": "composition/drafts/v4.jsonl",
+  "density_input_text_identical_to_final_poem": true,
+  "brief": "composition/brief.md"
+ },
+ "n_lines": 64,
+ "n_tokens": 485,
+ "source_entries": {
+  "total": 297,
+  "by_status": {
+   "ATTESTED-EXACT": 151,
+   "ATTESTED-MODIFIED": 115,
+   "COINAGE": 31
+  },
+  "share_by_status_pct": {
+   "ATTESTED-EXACT": 50.8,
+   "ATTESTED-MODIFIED": 38.7,
+   "COINAGE": 10.4
+  },
+  "entries_per_line": {
+   "mean": 4.64,
+   "min": 1,
+   "max": 11
+  },
+  "lines_with_at_least_one": {
+   "ATTESTED-EXACT": 64,
+   "ATTESTED-MODIFIED": 43,
+   "COINAGE": 26
+  },
+  "note": "COINAGE entries are coined names set into an attested slot shown by the cited model line; review/provenance_final.md counts them with ATTESTED-MODIFIED."
+ },
+ "modifications": {
+  "total": 75,
+  "lines_with_a_modification": 46,
+  "by_kind": {
+   "substitution": {
+    "count": 34,
+    "lines": [
+     1,
+     2,
+     4,
+     5,
+     10,
+     12,
+     15,
+     19,
+     20,
+     21,
+     24,
+     25,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     36,
+     38,
+     39,
+     40,
+     41,
+     43,
+     48,
+     49,
+     52,
+     54,
+     56,
+     58,
+     60,
+     61,
+     62,
+     63
+    ],
+    "example": {
+     "line": 1,
+     "citation": "Od. 1.1",
+     "homeric_parallel": "Od. 1.1's relative clause ὃς μάλα πολλὰ (9-12) replaced by τὼ περὶ νίκης; περὶ νίκης keeps its attested slot 9.5-12 (Il. 23.437, 23.496, 23.639); τὼ περὶ is attested only at 1-2 (Il. 16.756): mobility"
+    }
+   },
+   "inflection": {
+    "count": 15,
+    "lines": [
+     1,
+     7,
+     14,
+     20,
+     24,
+     25,
+     26,
+     29,
+     30,
+     31,
+     55,
+     56,
+     60,
+     62,
+     64
+    ],
+    "example": {
+     "line": 1,
+     "citation": "Il. 5.303",
+     "homeric_parallel": "ἄνδρα → ἄνδρε, δαΐφρονα → δαΐφρονε: the dual of a pair, as δύο γ᾽ ἄνδρε (Il. 5.303), ἄνδρε δύω (Il. 23.659) and δύ᾽ ἀνέρε δηριάασθον (Il. 12.421); the -ονε dual of a 3rd-declension adjective is κρατερόφρονε (Od. 11.299), δαήμονε (Od. 16.253)"
+    }
+   },
+   "mobility": {
+    "count": 12,
+    "lines": [
+     22,
+     24,
+     29,
+     30,
+     37,
+     38,
+     40,
+     49,
+     52,
+     55,
+     59,
+     64
+    ],
+    "example": {
+     "line": 29,
+     "citation": "Il. 2.860",
+     "homeric_parallel": "ἐδάμη at 3.5-5 (Homer 1.5-3, 2x) and κρατεροῦ at 5.5-7 (Homer 7.5-9 2x, 3.5-5 1x): single words moved; the hiatus κρατεροῦ ὑπό after a long vowel at the longum 7, as ἐδάμη ὑπό at the longum 3 in Il. 2.860 (check_line: no flag)"
+    }
+   },
+   "expansion": {
+    "count": 8,
+    "lines": [
+     20,
+     22,
+     23,
+     28,
+     37,
+     57,
+     59,
+     61
+    ],
+    "example": {
+     "line": 20,
+     "citation": "Il. 3.373",
+     "homeric_parallel": "the verb clause (1-5.5) joined by καί at 6 to a second verb formula at 7-12, as εἴρυσσέν τε καὶ ἄσπετον ἤρατο κῦδος (Il. 3.373) joins two verbs with καί at 6; the name-epithet formula of v3 (6-12) replaced by the prize formula, the subject carried over from 19 (ὅ γ᾽ Ἑλβέτιος)"
+    }
+   },
+   "separation": {
+    "count": 4,
+    "lines": [
+     23,
+     28,
+     44,
+     60
+    ],
+    "example": {
+     "line": 23,
+     "citation": "Il. 23.709",
+     "homeric_parallel": "κέρδεα εἰδώς detached from ἀνίστατο (Il. 23.709) and attached to the name, as the epithet phrase stays at 9-12"
+    }
+   },
+   "position kept": {
+    "count": 2,
+    "lines": [
+     15,
+     48
+    ],
+    "example": {
+     "line": 15,
+     "citation": "Il. 16.466",
+     "homeric_parallel": "ἀπήμβροτε keeps its only attested slot 6-8 (Il. 16.466, 16.477) and ἐνίκα its commonest (10-12, 5 of 8); no word moves"
+    }
+   }
+  }
+ },
+ "coined_forms": {
+  "distinct_forms": 18,
+  "distinct_lemmata": 11,
+  "coinage_entries": 35,
+  "text_occurrences": 35,
+  "name_forms_per_player": {
+   "Federer": {
+    "lemmata": 4,
+    "forms": 7,
+    "text_occurrences": 17,
+    "lines": [
+     4,
+     5,
+     12,
+     14,
+     19,
+     23,
+     25,
+     26,
+     28,
+     31,
+     34,
+     37,
+     41,
+     55,
+     56,
+     60,
+     61
+    ]
+   },
+   "Djokovic": {
+    "lemmata": 3,
+    "forms": 7,
+    "text_occurrences": 14,
+    "lines": [
+     4,
+     10,
+     15,
+     24,
+     29,
+     31,
+     43,
+     48,
+     49,
+     55,
+     57,
+     59,
+     60,
+     62
+    ]
+   }
+  },
+  "by_name": {
+   "Φεδερεύς": {
+    "player": "Federer",
+    "forms": {
+     "Φεδερεύς": {
+      "loose": "φεδερευσ",
+      "coinage_entries": 2,
+      "coinage_lines": [
+       4,
+       26
+      ],
+      "text_occurrences": 2,
+      "text_lines": [
+       4,
+       26
+      ],
+      "analogical_model": "Ὀδυσεύς (single sigma, SSL) at 3.5-5: διογενὴς Ὀδυσεύς Il. 10.340",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Φεδερεῦ": {
+      "loose": "φεδερευ",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       61
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       61
+      ],
+      "analogical_model": "the -εύς vocative Ἀχιλεῦ (13x; at 5.5-7 Il. 11.606, 24.503, 24.661), Ὀδυσεῦ; brief 4.1 declension voc. Φεδερεῦ; SSL after a word ending at 5",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 3,
+    "text_occurrences": 3,
+    "lines": [
+     4,
+     26,
+     61
+    ],
+    "ungrouped": false
+   },
+   "Ἑλβέτιος": {
+    "player": "Federer",
+    "forms": {
+     "Ἑλβέτιος": {
+      "loose": "ελβετιοσ",
+      "coinage_entries": 5,
+      "coinage_lines": [
+       5,
+       12,
+       19,
+       25,
+       60
+      ],
+      "text_occurrences": 5,
+      "text_lines": [
+       5,
+       12,
+       19,
+       25,
+       60
+      ],
+      "analogical_model": "Πηλεΐδης δ᾽ ἑτέρωθεν (Il. 20.164): LSSL + δ᾽ at 1-3; post-Homeric ethnic (Latin Helvetii) [unverified]",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Ἑλβετίου": {
+      "loose": "ελβετιου",
+      "coinage_entries": 2,
+      "coinage_lines": [
+       55,
+       56
+      ],
+      "text_occurrences": 2,
+      "text_lines": [
+       55,
+       56
+      ],
+      "analogical_model": "Δαρδανίδης LSSL at 3-5 (Il. 3.303); the ethnic as the Trojans/Achaeans of Il. 8.71",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 7,
+    "text_occurrences": 7,
+    "lines": [
+     5,
+     12,
+     19,
+     25,
+     55,
+     56,
+     60
+    ],
+    "ungrouped": false
+   },
+   "Φεδερῆρος": {
+    "player": "Federer",
+    "forms": {
+     "Φεδερῆρος": {
+      "loose": "φεδερηροσ",
+      "coinage_entries": 3,
+      "coinage_lines": [
+       14,
+       34,
+       41
+      ],
+      "text_occurrences": 3,
+      "text_lines": [
+       14,
+       34,
+       41
+      ],
+      "analogical_model": "βοὴν ἀγαθὸς Διομήδης (Il. 5.114 frame δὴ τότ᾽ ἔπειτ᾽ ἠρᾶτο βοὴν ἀγαθὸς Φεδερῆρος tested in brief 4.1)",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Φεδερῆρον": {
+      "loose": "φεδερηρον",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       31
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       31
+      ],
+      "analogical_model": "ἀγαθὸν Μενέλαον Il. 4.181, 4.220",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 4,
+    "text_occurrences": 4,
+    "lines": [
+     14,
+     31,
+     34,
+     41
+    ],
+    "ungrouped": false
+   },
+   "Ῥογῆρος": {
+    "player": "Federer",
+    "forms": {
+     "Ῥογῆρος": {
+      "loose": "ρογηροσ",
+      "coinage_entries": 3,
+      "coinage_lines": [
+       23,
+       28,
+       37
+      ],
+      "text_occurrences": 3,
+      "text_lines": [
+       23,
+       28,
+       37
+      ],
+      "analogical_model": "SLL at 6-8 after a vowel-final word (-τε): Ὀδυσσεὺς Il. 2.272, Μελανθὼ Od. 19.65; Ionic η of the name as brief 4.1",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 3,
+    "text_occurrences": 3,
+    "lines": [
+     23,
+     28,
+     37
+    ],
+    "ungrouped": false
+   },
+   "Ζοκοβείδης": {
+    "player": "Djokovic",
+    "forms": {
+     "Ζοκοβείδης": {
+      "loose": "ζοκοβειδησ",
+      "coinage_entries": 3,
+      "coinage_lines": [
+       4,
+       57,
+       60
+      ],
+      "text_occurrences": 3,
+      "text_lines": [
+       4,
+       57,
+       60
+      ],
+      "analogical_model": "patronymic in -είδης from the eponym Ζοκοβεύς (Đoković = son of Đoko; R10: Ζοκοβεύς is the father's name and never denotes Novak), with the diphthong ει as one long syllable as in Ἀμαρυγκείδην (Il. 4.517, unique scansion) beside Ἀμαρυγκεΐδης (Il. 2.622), both from Ἀμαρυγκεύς (Il. 23.630), the nominative Ἀτρείδης (Od. 15.52, unique scansion) and Πηλείδη (Il. 1.277, multiple scansion) beside Πηλεΐδης with short ι (24x nominative, Πηλεΐδ- 51x in all forms, LSSL); cf. Πηλείωνα (Il. 22.7) beside Πηλεΐων- (48x); slot of Διομήδης (SSLL, 44x at 9.5-12)",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 3,
+    "text_occurrences": 3,
+    "lines": [
+     4,
+     57,
+     60
+    ],
+    "ungrouped": false
+   },
+   "Σέρβος": {
+    "player": "Djokovic",
+    "forms": {
+     "Σέρβος": {
+      "loose": "σερβοσ",
+      "coinage_entries": 6,
+      "coinage_lines": [
+       10,
+       15,
+       24,
+       31,
+       43,
+       49
+      ],
+      "text_occurrences": 6,
+      "text_lines": [
+       10,
+       15,
+       24,
+       31,
+       43,
+       49
+      ],
+      "analogical_model": "Ἕκτωρ Πριαμίδης (Il. 8.216, LL at 1-2); post-Homeric ethnic [unverified]",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Σέρβον": {
+      "loose": "σερβον",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       48
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       48
+      ],
+      "analogical_model": "LS name at 3-3.5 before a vowel: Τεῦκρος Il. 12.350, Ἕκτορ᾽ Il. 7.46; post-Homeric ethnic [unverified]",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Σέρβου": {
+      "loose": "σερβου",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       55
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       55
+      ],
+      "analogical_model": "Ἕκτορος in τὴν δ᾽ Ἕκτορος ἱπποδάμοιο (Il. 22.211) for the function; the shape LL at 8-9 before an SSLX verse-end word as κνίσῃ ἐκάλυψαν (Il. 1.460) and ἀνδρῶν Ἀγαμέμνων (Il. 1.172); Σέρβος itself as Ἕκτωρ Πριαμίδης (Il. 8.216, brief 4.2)",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Σέρβῳ": {
+      "loose": "σερβω",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       62
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       62
+      ],
+      "analogical_model": "Ἕκτορι in καὶ Ἕκτορι κῦδος ἔδωκε (Il. 18.456) for the function; the slot, an LL dative at 1-2 before δ᾽, as Γλαύκῳ δ᾽ (Il. 16.508; 20 Homeric verses open with a dative in -ῳ at 1-2 + δ᾽); τῷ δ᾽ (148x) has τῷ at 1 only, so it shows the function, not the slot; Σέρβος itself as Ἕκτωρ Πριαμίδης (Il. 8.216, brief 4.2)",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 9,
+    "text_occurrences": 9,
+    "lines": [
+     10,
+     15,
+     24,
+     31,
+     43,
+     48,
+     49,
+     55,
+     62
+    ],
+    "ungrouped": false
+   },
+   "Νοβῆκος": {
+    "player": "Djokovic",
+    "forms": {
+     "Νοβήκου": {
+      "loose": "νοβηκου",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       29
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       29
+      ],
+      "analogical_model": "Νοβῆκος (R9/A2: Ionic η, circumflex) declined like δῆμος → δήμου (the accent shifts to acute before a long ultima: 12 Homeric types / 41 tokens in -η + one consonant + -ου carry the acute, e.g. νήσου, δήμου, σιδήρου, none the circumflex; provenance_v4 §5, review/provenance_v4_extra.json accent_eta_C_ou); SLL at 10-12 after a vowel as Ὀδυσσεύς / Ἀχιλλεύς in that slot (brief 4.2); the slot of a name genitive in -ου after ὑπ᾽ + epithet: Λυκούργου (Il. 6.134, 10-12)",
+      "coinage_entries_equal_text_occurrences": true
+     },
+     "Νοβῆκος": {
+      "loose": "νοβηκοσ",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       59
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       59
+      ],
+      "analogical_model": "SLL name at 6-8 after a vowel-final word and before a consonant (final syllable long by position): Μελανθὼ (Od. 19.65), Ὀδυσσεὺς (Il. 2.272); Ionic η for the ᾱ of the name (ruling R3; Ἀθήνη 215x by --loose αθηνη --word; the dialect statement itself is the orchestrator's, [unverified] here); circumflex per R9 / Addendum A2: a long accented penult before short -ος, as πρῶτος (55x), δῆμος (8x), κλῆρος (6x)",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 2,
+    "text_occurrences": 2,
+    "lines": [
+     29,
+     59
+    ],
+    "ungrouped": false
+   }
+  },
+  "other_coined_forms": {
+   "δαΐφρων": {
+    "player": null,
+    "forms": {
+     "δαΐφρονε": {
+      "loose": "δαιφρονε",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       1
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       1
+      ],
+      "analogical_model": "regular -ονε dual of δαΐφρων: κρατερόφρονε Od. 11.299, δαήμονε Od. 16.253; δαΐφρονα 11x, all 6-8 (Il. 4.252)",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 1,
+    "text_occurrences": 1,
+    "lines": [
+     1
+    ],
+    "ungrouped": false
+   },
+   "πύματος": {
+    "player": null,
+    "forms": {
+     "πυμάτῃ": {
+      "loose": "πυματη",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       24
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       24
+      ],
+      "analogical_model": "the feminine πυμάτη (Il. 6.118 ἄντυξ ἣ πυμάτη θέεν ἀσπίδος ὀμφαλοέσσης, nom., 3.5-5: the closest model, identical to the verse's form in the loose comparison), πυμάτην Il. 18.608, πυμάτῳ Od. 7.138 for the dative, πύματον 8x (3.5-5 6x, 5.5-7 2x); quantities υ short, α short by analogy with the attested forms (check_line warns quantity_unattested, analogy)",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 1,
+    "text_occurrences": 1,
+    "lines": [
+     24
+    ],
+    "ungrouped": false
+   },
+   "δαμάζω": {
+    "player": null,
+    "forms": {
+     "δάμασεν": {
+      "loose": "δαμασεν",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       25
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       25
+      ],
+      "analogical_model": "δάμασε Il. 22.446 in the same slot 5.5-7, with the movable ν that Homer adds or omits in one and the same formula: περὶ στήθεσσιν ἔδυνεν Il. 3.332, 19.371 beside περὶ στήθεσσιν ἔδυνε Il. 11.19, 16.133 (--ngram \"περὶ στήθεσσιν ἔδυνεν\" 2x, \"περὶ στήθεσσιν ἔδυνε\" 2x); here the ν makes position before καί",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 1,
+    "text_occurrences": 1,
+    "lines": [
+     25
+    ],
+    "ungrouped": false
+   },
+   "παρελαύνω": {
+    "player": null,
+    "forms": {
+     "παρέλασσε": {
+      "loose": "παρελασσε",
+      "coinage_entries": 1,
+      "coinage_lines": [
+       34
+      ],
+      "text_occurrences": 1,
+      "text_lines": [
+       34
+      ],
+      "analogical_model": "the attested elided παρέλασσ᾽ (Il. 23.382, 23.527, 3.5-5) written out before a consonant, as an aorist in -ε stands unelided before βοὴν ἀγαθ- in Il. 5.432 (Αἰνείᾳ δ᾽ ἐπόρουσε βοὴν ἀγαθὸς Διομήδης) and in 14, 31, 41 (ἀφάμαρτε / ἐδάμασσε / ἐπόρουσε ending at 5.5); the form Cunliffe gives (παρελαύνω 1a); first α short as in παρέλασσ᾽",
+      "coinage_entries_equal_text_occurrences": true
+     }
+    },
+    "coinage_entries": 1,
+    "text_occurrences": 1,
+    "lines": [
+     34
+    ],
+    "ungrouped": false
+   }
+  },
+  "cross_check_with_density_unattested_forms": {
+   "density_unattested_forms": [
+    "δαιφρονε",
+    "δαμασεν",
+    "ελβετιοσ",
+    "ελβετιου",
+    "ζοκοβειδησ",
+    "νοβηκοσ",
+    "νοβηκου",
+    "παρελασσε",
+    "ρογηροσ",
+    "σερβον",
+    "σερβοσ",
+    "σερβου",
+    "σερβω",
+    "φεδερευ",
+    "φεδερευσ",
+    "φεδερηρον",
+    "φεδερηροσ"
+   ],
+   "coined_loose_forms": [
+    "δαιφρονε",
+    "δαμασεν",
+    "ελβετιοσ",
+    "ελβετιου",
+    "ζοκοβειδησ",
+    "νοβηκοσ",
+    "νοβηκου",
+    "παρελασσε",
+    "πυματη",
+    "ρογηροσ",
+    "σερβον",
+    "σερβοσ",
+    "σερβου",
+    "σερβω",
+    "φεδερευ",
+    "φεδερευσ",
+    "φεδερηρον",
+    "φεδερηροσ"
+   ],
+   "coined_but_loosely_attested_in_homer": [
+    "πυματη"
+   ],
+   "unattested_but_not_listed_as_coinage": []
+  },
+  "note": "text_occurrences counts tokens of the verse text in the loose form of homer/concordance.py (accents, breathings, subscripts and case ignored); coinage_entries counts the records' `coinages` entries."
+ },
+ "verbatim_homeric_lines": {
+  "count": 19,
+  "share_pct": 29.7,
+  "lines": [
+   3,
+   6,
+   8,
+   9,
+   11,
+   13,
+   16,
+   17,
+   18,
+   27,
+   35,
+   42,
+   44,
+   45,
+   46,
+   47,
+   50,
+   51,
+   53
+  ],
+  "all_have_whole_line_exact_source": true,
+  "repeated_in_homer": 7,
+  "detail": [
+   {
+    "n": 3,
+    "text": "ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε",
+    "section": "proem",
+    "citation": "Il. 1.6",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 6,
+    "text": "κνημῖδας μὲν πρῶτα περὶ κνήμῃσιν ἔθηκε,",
+    "section": "entry and arming",
+    "citation": "Il. 3.330 = 11.17 = 16.131 = 19.369",
+    "homeric_occurrences": 4
+   },
+   {
+    "n": 8,
+    "text": "ἂν δ᾽ ἕλετ᾽ ἀμφιβρότην πολυδαίδαλον ἀσπίδα θοῦριν,",
+    "section": "entry and arming",
+    "citation": "Il. 11.32",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 9,
+    "text": "εἵλετο δ᾽ ἄλκιμον ἔγχος, ὅ οἱ παλάμηφιν ἀρήρει.",
+    "section": "entry and arming",
+    "citation": "Il. 3.338 = Od. 17.4",
+    "homeric_occurrences": 2
+   },
+   {
+    "n": 11,
+    "text": "καί ῥ᾽ ἐγγὺς στήτην διαμετρητῷ ἐνὶ χώρῳ.",
+    "section": "entry and arming",
+    "citation": "Il. 3.344",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 13,
+    "text": "ἔνθά σφιν κατὰ ἶσα μάχην ἐτάνυσσε Κρονίων.",
+    "section": "set 1",
+    "citation": "Il. 11.336",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 16,
+    "text": "ὡς δ᾽ ὅτε τις στατὸς ἵππος ἀκοστήσας ἐπὶ φάτνῃ",
+    "section": "set 2",
+    "citation": "Il. 6.506 = 15.263",
+    "homeric_occurrences": 2
+   },
+   {
+    "n": 17,
+    "text": "δεσμὸν ἀπορρήξας θείῃ πεδίοιο κροαίνων",
+    "section": "set 2",
+    "citation": "Il. 6.507 = 15.264",
+    "homeric_occurrences": 2
+   },
+   {
+    "n": 18,
+    "text": "εἰωθὼς λούεσθαι ἐϋρρεῖος ποταμοῖο,",
+    "section": "set 2",
+    "citation": "Il. 6.508 = 15.265",
+    "homeric_occurrences": 2
+   },
+   {
+    "n": 27,
+    "text": "πολλὰ δ᾽ ἄναντα κάταντα πάραντά τε δόχμιά τ᾽ ἦλθον,",
+    "section": "set 4",
+    "citation": "Il. 23.116 (the mule-drivers' paths on Ida)",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 35,
+    "text": "λαοὶ δ᾽ ἀμφοτέροισιν ἐπήπυον, ἀμφὶς ἀρωγοί·",
+    "section": "the championship game",
+    "citation": "Il. 18.502 (the trial scene on the shield: the people cheer both parties)",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 42,
+    "text": "ἀλλ᾽ ὅτε δὴ τὸ τέταρτον ἐπέσσυτο δαίμονι ἶσος,",
+    "section": "the championship game",
+    "citation": "Il. 5.438 = 16.705 = 16.786 = 20.447",
+    "homeric_occurrences": 4
+   },
+   {
+    "n": 44,
+    "text": "ὅν ῥά τε ποιμὴν ἀγρῷ ἐπ᾽ εἰροπόκοις ὀΐεσσι",
+    "section": "aristeia (Djokovic)",
+    "citation": "Il. 5.137",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 45,
+    "text": "χραύσῃ μέν τ᾽ αὐλῆς ὑπεράλμενον οὐδὲ δαμάσσῃ·",
+    "section": "aristeia (Djokovic)",
+    "citation": "Il. 5.138",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 46,
+    "text": "τοῦ μέν τε σθένος ὦρσεν, ἔπειτα δέ τ᾽ οὐ προσαμύνει,",
+    "section": "aristeia (Djokovic)",
+    "citation": "Il. 5.139",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 47,
+    "text": "αὐτὰρ ὃ ἐμμεμαὼς βαθέης ἐξάλλεται αὐλῆς·",
+    "section": "aristeia (Djokovic)",
+    "citation": "Il. 5.142",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 50,
+    "text": "ὡς δ᾽ ὅτ᾽ ἀεθλοφόροι περὶ τέρματα μώνυχες ἵπποι",
+    "section": "8-8 to 12-12",
+    "citation": "Il. 22.162",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 51,
+    "text": "ῥίμφα μάλα τρωχῶσι· τὸ δὲ μέγα κεῖται ἄεθλον",
+    "section": "8-8 to 12-12",
+    "citation": "Il. 22.163",
+    "homeric_occurrences": 1
+   },
+   {
+    "n": 53,
+    "text": "καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε τάλαντα,",
+    "section": "the 12-12 tie-break",
+    "citation": "Il. 8.69 = 22.209",
+    "homeric_occurrences": 2
+   }
+  ],
+  "definition": "the verse's loose token sequence equals that of a Homeric verse (review/poem_density.py)"
+ },
+ "enjambment": {
+  "counts": {
+   "none": 37,
+   "unperiodic": 18,
+   "necessary": 9
+  },
+  "share_pct": {
+   "none": 57.8,
+   "unperiodic": 28.1,
+   "necessary": 14.1
+  },
+  "enjambed_pct": 42.2,
+  "lines": {
+   "none": [
+    4,
+    5,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    39,
+    40,
+    45,
+    47,
+    48,
+    49,
+    56,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64
+   ],
+   "unperiodic": [
+    2,
+    6,
+    7,
+    8,
+    14,
+    22,
+    27,
+    31,
+    38,
+    41,
+    43,
+    46,
+    52,
+    53,
+    54,
+    55,
+    57,
+    60
+   ],
+   "necessary": [
+    1,
+    3,
+    16,
+    17,
+    18,
+    42,
+    44,
+    50,
+    51
+   ]
+  },
+  "denominator": 64,
+  "note": "Parry's three classes; the last verse of the poem is counted as the record labels it"
+ },
+ "sections": {
+  "count": 13,
+  "lines_per_section": {
+   "proem": {
+    "n_lines": 4,
+    "first": 1,
+    "last": 4,
+    "contiguous": true
+   },
+   "entry and arming": {
+    "n_lines": 7,
+    "first": 5,
+    "last": 11,
+    "contiguous": true
+   },
+   "set 1": {
+    "n_lines": 4,
+    "first": 12,
+    "last": 15,
+    "contiguous": true
+   },
+   "set 2": {
+    "n_lines": 5,
+    "first": 16,
+    "last": 20,
+    "contiguous": true
+   },
+   "set 3": {
+    "n_lines": 4,
+    "first": 21,
+    "last": 24,
+    "contiguous": true
+   },
+   "set 4": {
+    "n_lines": 6,
+    "first": 25,
+    "last": 30,
+    "contiguous": true
+   },
+   "set 5 to 7-7": {
+    "n_lines": 3,
+    "first": 31,
+    "last": 33,
+    "contiguous": true
+   },
+   "the championship game": {
+    "n_lines": 9,
+    "first": 34,
+    "last": 42,
+    "contiguous": true
+   },
+   "aristeia (Djokovic)": {
+    "n_lines": 7,
+    "first": 43,
+    "last": 49,
+    "contiguous": true
+   },
+   "8-8 to 12-12": {
+    "n_lines": 3,
+    "first": 50,
+    "last": 52,
+    "contiguous": true
+   },
+   "the 12-12 tie-break": {
+    "n_lines": 7,
+    "first": 53,
+    "last": 59,
+    "contiguous": true
+   },
+   "the final point": {
+    "n_lines": 2,
+    "first": 60,
+    "last": 61,
+    "contiguous": true
+   },
+   "ending": {
+    "n_lines": 3,
+    "first": 62,
+    "last": 64,
+    "contiguous": true
+   }
+  }
+ },
+ "commentary_systems": {
+  "systems_in_brief": 10,
+  "realised": 10,
+  "lines_with_commentary_equivalent": 51,
+  "lines_without_commentary_equivalent": [
+   1,
+   3,
+   6,
+   8,
+   9,
+   11,
+   16,
+   17,
+   18,
+   45,
+   46,
+   47,
+   53
+  ],
+  "lines_referring_only_outside_section_3": [
+   {
+    "line": 33,
+    "commentary_equivalent": "fatigue lexicon (5.2); no commentary formula"
+   },
+   {
+    "line": 44,
+    "commentary_equivalent": "2.4 (aristeia simile); tv_2019wimF:0419 'That is guts from Djokovic'"
+   },
+   {
+    "line": 56,
+    "commentary_equivalent": "2.6.2 (the fall of the loser's hope: ῥέπε δ᾽ … ἐέλδωρ)"
+   }
+  ],
+  "by_system": {
+   "3.1": {
+    "commentary_system": "The score-call frame <NUM> 15 / 15 <NUM> / 40 <NUM> / 30 <NUM> / <NUM> love",
+    "homeric_equivalent": "The counting formula",
+    "lines": [
+     14,
+     15,
+     20,
+     25,
+     37,
+     41,
+     42,
+     57,
+     58,
+     59
+    ],
+    "n_lines": 10,
+    "realised": true
+   },
+   "3.2": {
+    "commentary_system": "game <NAME>",
+    "homeric_equivalent": "The prize-award and victory announcements of Il. 23",
+    "lines": [
+     15,
+     20,
+     24,
+     25,
+     29,
+     30,
+     31,
+     32,
+     34,
+     38,
+     42,
+     62
+    ],
+    "n_lines": 12,
+    "realised": true
+   },
+   "3.3": {
+    "commentary_system": "<NAME> leads by / by <_> games to / by <_> games",
+    "homeric_equivalent": "The race-position lines of the chariot race and footrace",
+    "lines": [
+     13,
+     21,
+     24,
+     32,
+     34,
+     48,
+     49,
+     50,
+     52,
+     58
+    ],
+    "n_lines": 10,
+    "realised": true
+   },
+   "3.4": {
+    "commentary_system": "the <_> set / in the <_> set / the first set",
+    "homeric_equivalent": "Ordinal-slot formulae",
+    "lines": [
+     7,
+     12,
+     19,
+     21,
+     30
+    ],
+    "n_lines": 5,
+    "realised": true
+   },
+   "3.5": {
+    "commentary_system": "in <_> fifth",
+    "homeric_equivalent": "πέμπτον δʼ ὑπελείπετʼ ἄεθλον",
+    "lines": [
+     30,
+     31,
+     51,
+     54
+    ],
+    "n_lines": 4,
+    "realised": true
+   },
+   "3.6": {
+    "commentary_system": "a little bit / a little",
+    "homeric_equivalent": "τυτθόν / ὀλίγον / οὐδʼ ἠβαιόν",
+    "lines": [
+     49
+    ],
+    "n_lines": 1,
+    "realised": true
+   },
+   "3.7": {
+    "commentary_system": "the <_> serve / the <_> shot",
+    "homeric_equivalent": "The spear-cast lines",
+    "lines": [
+     12,
+     22,
+     23,
+     26,
+     27,
+     28,
+     37,
+     39,
+     40,
+     41,
+     59,
+     60,
+     61
+    ],
+    "n_lines": 13,
+    "realised": true
+   },
+   "3.8": {
+    "commentary_system": "Name + verb frames djokovic <_> the / federer <_> to / djokovic <_> to / federer <_> the",
+    "homeric_equivalent": "The name-epithet + verb speech and action frames",
+    "lines": [
+     4,
+     5,
+     10,
+     19,
+     23,
+     28,
+     29,
+     36,
+     40,
+     43,
+     55,
+     62
+    ],
+    "n_lines": 12,
+    "realised": true
+   },
+   "3.9": {
+    "commentary_system": "<NUM> minutes / the match",
+    "homeric_equivalent": "Time formulae",
+    "lines": [
+     2,
+     27,
+     34,
+     52,
+     61,
+     63,
+     64
+    ],
+    "n_lines": 7,
+    "realised": true
+   },
+   "3.10": {
+    "commentary_system": "mr <NAME>",
+    "homeric_equivalent": "The vocative address formulae",
+    "lines": [
+     35,
+     36,
+     61
+    ],
+    "n_lines": 3,
+    "realised": true
+   }
+  },
+  "note": "a line counts for every §3 system its commentary_equivalent field cites (3.N; a range 3.a-3.b counts a…b)"
+ },
+ "name_epithet_formulae": {
+  "lines_with_name_formula": 27,
+  "per_player": {
+   "Federer": {
+    "lines": [
+     4,
+     5,
+     12,
+     14,
+     19,
+     23,
+     25,
+     26,
+     28,
+     31,
+     34,
+     37,
+     41,
+     55,
+     56,
+     60,
+     61
+    ],
+    "n_lines": 17,
+    "distinct_formulae": 12,
+    "lines_by_brief_shape": {
+     "1": [
+      14,
+      31,
+      34,
+      41
+     ],
+     "2": [
+      5,
+      12,
+      19,
+      25,
+      60
+     ],
+     "3": [
+      4,
+      23,
+      28,
+      37
+     ],
+     "None": [
+      26,
+      55,
+      56,
+      61
+     ]
+    },
+    "all_three_shapes_used": true,
+    "formulae": {
+     "βοὴν ἀγαθὸς Φεδερῆρος": {
+      "uses": 3,
+      "lines": [
+       14,
+       34,
+       41
+      ],
+      "shape_numbers": [
+       1
+      ],
+      "metrical_shapes": [
+       "SSLX"
+      ],
+      "positions": [
+       "6-12",
+       "9.5-12"
+      ],
+      "detail": [
+       {
+        "line": 14,
+        "shape_number": 1,
+        "metrical_shape": null,
+        "position": "6-12",
+        "description": "6-12; shape 1"
+       },
+       {
+        "line": 34,
+        "shape_number": 1,
+        "metrical_shape": "SSLX",
+        "position": "9.5-12",
+        "description": "SSLX at 9.5-12; shape 1"
+       },
+       {
+        "line": 41,
+        "shape_number": 1,
+        "metrical_shape": "SSLX",
+        "position": "9.5-12",
+        "description": "SSLX at 9.5-12 inside the 6-12 formula; shape 1"
+       }
+      ]
+     },
+     "Ῥογῆρος κέρδεα εἰδώς": {
+      "uses": 2,
+      "lines": [
+       23,
+       28
+      ],
+      "shape_numbers": [
+       3
+      ],
+      "metrical_shapes": [
+       "SLX"
+      ],
+      "positions": [
+       "6-8 + 9-12"
+      ],
+      "detail": [
+       {
+        "line": 23,
+        "shape_number": 3,
+        "metrical_shape": "SLX",
+        "position": "6-8 + 9-12",
+        "description": "SLX at 6-8 + 9-12; shape 3; craft epithet, brief 4.1"
+       },
+       {
+        "line": 28,
+        "shape_number": 3,
+        "metrical_shape": "SLX",
+        "position": "6-8 + 9-12",
+        "description": "SLX at 6-8 + 9-12; shape 3; craft epithet, brief 4.1"
+       }
+      ]
+     },
+     "Ἑλβέτιος": {
+      "uses": 2,
+      "lines": [
+       25,
+       60
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LSSL"
+      ],
+      "positions": [
+       "3-5"
+      ],
+      "detail": [
+       {
+        "line": 25,
+        "shape_number": 2,
+        "metrical_shape": "LSSL",
+        "position": "3-5",
+        "description": "LSSL at 3-5 after θ᾽; shape 2; slot allowed by A1"
+       },
+       {
+        "line": 60,
+        "shape_number": 2,
+        "metrical_shape": "LSSL",
+        "position": "3-5",
+        "description": "LSSL at 3-5; shape 2"
+       }
+      ]
+     },
+     "Ἑλβετίου": {
+      "uses": 2,
+      "lines": [
+       55,
+       56
+      ],
+      "shape_numbers": [],
+      "metrical_shapes": [
+       "LSSL"
+      ],
+      "positions": [
+       "3-5",
+       "7-9"
+      ],
+      "detail": [
+       {
+        "line": 55,
+        "shape_number": null,
+        "metrical_shape": "LSSL",
+        "position": "3-5",
+        "description": "LSSL gen. at 3-5, slot allowed by A1; model Δαρδανίδης Il. 3.303"
+       },
+       {
+        "line": 56,
+        "shape_number": null,
+        "metrical_shape": "LSSL",
+        "position": "7-9",
+        "description": "LSSL gen. at 7-9, after δ᾽, no hiatus; slot allowed by A1; model Ἀτρεΐδης at 7-9, Il. 14.29"
+       }
+      ]
+     },
+     "διογενὴς Φεδερεύς": {
+      "uses": 1,
+      "lines": [
+       4
+      ],
+      "shape_numbers": [
+       3
+      ],
+      "metrical_shapes": [
+       "LSSL + SSL"
+      ],
+      "positions": [
+       "1-5"
+      ],
+      "detail": [
+       {
+        "line": 4,
+        "shape_number": 3,
+        "metrical_shape": "LSSL + SSL",
+        "position": "1-5",
+        "description": "LSSL + SSL at 1-5, shape 3 of brief 4.3, slot of διογενὴς Ὀδυσεύς"
+       }
+      ]
+     },
+     "Ἑλβέτιος δ᾽": {
+      "uses": 1,
+      "lines": [
+       5
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LSSL"
+      ],
+      "positions": [
+       "1-3"
+      ],
+      "detail": [
+       {
+        "line": 5,
+        "shape_number": 2,
+        "metrical_shape": "LSSL",
+        "position": "1-3",
+        "description": "LSSL at 1-3; shape 2; slot of Πηλεΐδης δ᾽ ἑτέρωθεν"
+       }
+      ]
+     },
+     "Ἑλβέτιος δέ": {
+      "uses": 1,
+      "lines": [
+       12
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LSSL"
+      ],
+      "positions": [
+       "1-3"
+      ],
+      "detail": [
+       {
+        "line": 12,
+        "shape_number": 2,
+        "metrical_shape": "LSSL",
+        "position": "1-3",
+        "description": "LSSL at 1-3; shape 2"
+       }
+      ]
+     },
+     "ὅ γ᾽ Ἑλβέτιος": {
+      "uses": 1,
+      "lines": [
+       19
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LSSL"
+      ],
+      "positions": [
+       "3-5"
+      ],
+      "detail": [
+       {
+        "line": 19,
+        "shape_number": 2,
+        "metrical_shape": "LSSL",
+        "position": "3-5",
+        "description": "LSSL at 3-5; shape 2; slot allowed by A1/R1: check_line passes with no flags"
+       }
+      ]
+     },
+     "Φεδερεύς": {
+      "uses": 1,
+      "lines": [
+       26
+      ],
+      "shape_numbers": [],
+      "metrical_shapes": [
+       "SSL"
+      ],
+      "positions": [
+       "3.5-5"
+      ],
+      "detail": [
+       {
+        "line": 26,
+        "shape_number": null,
+        "metrical_shape": "SSL",
+        "position": "3.5-5",
+        "description": "SSL at 3.5-5"
+       }
+      ]
+     },
+     "βοὴν ἀγαθὸν Φεδερῆρον": {
+      "uses": 1,
+      "lines": [
+       31
+      ],
+      "shape_numbers": [
+       1
+      ],
+      "metrical_shapes": [
+       "SSLX"
+      ],
+      "positions": [
+       "9.5-12"
+      ],
+      "detail": [
+       {
+        "line": 31,
+        "shape_number": 1,
+        "metrical_shape": "SSLX",
+        "position": "9.5-12",
+        "description": "SSLX acc. at 9.5-12; shape 1"
+       }
+      ]
+     },
+     "Ῥογῆρος": {
+      "uses": 1,
+      "lines": [
+       37
+      ],
+      "shape_numbers": [
+       3
+      ],
+      "metrical_shapes": [
+       "SLX"
+      ],
+      "positions": [
+       "6-8"
+      ],
+      "detail": [
+       {
+        "line": 37,
+        "shape_number": 3,
+        "metrical_shape": "SLX",
+        "position": "6-8",
+        "description": "SLX at 6-8 after a vowel-final word, before a consonant; shape 3"
+       }
+      ]
+     },
+     "Φεδερεῦ": {
+      "uses": 1,
+      "lines": [
+       61
+      ],
+      "shape_numbers": [],
+      "metrical_shapes": [
+       "SSL"
+      ],
+      "positions": [
+       "5.5-7"
+      ],
+      "detail": [
+       {
+        "line": 61,
+        "shape_number": null,
+        "metrical_shape": "SSL",
+        "position": "5.5-7",
+        "description": "vocative of Φεδερεύς, SSL at 5.5-7; the Φεδερεύς system of 4, 26 declined"
+       }
+      ]
+     }
+    }
+   },
+   "Djokovic": {
+    "lines": [
+     4,
+     10,
+     15,
+     24,
+     29,
+     31,
+     43,
+     48,
+     49,
+     55,
+     57,
+     59,
+     60,
+     62
+    ],
+    "n_lines": 14,
+    "distinct_formulae": 10,
+    "lines_by_brief_shape": {
+     "1": [
+      4,
+      57,
+      60
+     ],
+     "2": [
+      10,
+      24,
+      31,
+      43,
+      49,
+      55,
+      62
+     ],
+     "3": [
+      29,
+      59
+     ],
+     "None": [
+      15,
+      48
+     ]
+    },
+    "all_three_shapes_used": true,
+    "formulae": {
+     "Σέρβος δ᾽": {
+      "uses": 4,
+      "lines": [
+       10,
+       31,
+       43,
+       49
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LX"
+      ],
+      "positions": [
+       "1-2"
+      ],
+      "detail": [
+       {
+        "line": 10,
+        "shape_number": 2,
+        "metrical_shape": "LX",
+        "position": "1-2",
+        "description": "LX at 1-2; shape 2"
+       },
+       {
+        "line": 31,
+        "shape_number": 2,
+        "metrical_shape": "LX",
+        "position": "1-2",
+        "description": "LX at 1-2; shape 2"
+       },
+       {
+        "line": 43,
+        "shape_number": 2,
+        "metrical_shape": null,
+        "position": null,
+        "description": "shape 2"
+       },
+       {
+        "line": 49,
+        "shape_number": 2,
+        "metrical_shape": "LX",
+        "position": "1-2",
+        "description": "LX at 1-2; shape 2"
+       }
+      ]
+     },
+     "Σέρβος": {
+      "uses": 2,
+      "lines": [
+       15,
+       24
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LS"
+      ],
+      "positions": [
+       "3-3.5",
+       "9-9.5"
+      ],
+      "detail": [
+       {
+        "line": 15,
+        "shape_number": null,
+        "metrical_shape": "LS",
+        "position": "9-9.5",
+        "description": "LS at 9-9.5 before a vowel, the final syllable short, a new slot allowed by A1: check_line passes with no flags; model Τεῦκρος Il. 8.273"
+       },
+       {
+        "line": 24,
+        "shape_number": 2,
+        "metrical_shape": "LS",
+        "position": "3-3.5",
+        "description": "LS at 3-3.5 before a vowel, final syllable short; shape 2 in a slot allowed by A1"
+       }
+      ]
+     },
+     "ἀντίθεος Ζοκοβείδης": {
+      "uses": 1,
+      "lines": [
+       4
+      ],
+      "shape_numbers": [
+       1
+      ],
+      "metrical_shapes": [
+       "LSSL + SSLL"
+      ],
+      "positions": [
+       "7-12"
+      ],
+      "detail": [
+       {
+        "line": 4,
+        "shape_number": 1,
+        "metrical_shape": "LSSL + SSLL",
+        "position": "7-12",
+        "description": "LSSL + SSLL at 7-12, shape 1, slot of τε καὶ ἀντίθεος Γανυμήδης Il. 20.232"
+       }
+      ]
+     },
+     "Νοβήκου": {
+      "uses": 1,
+      "lines": [
+       29
+      ],
+      "shape_numbers": [
+       3
+      ],
+      "metrical_shapes": [
+       "SLL"
+      ],
+      "positions": [
+       "10-12"
+      ],
+      "detail": [
+       {
+        "line": 29,
+        "shape_number": 3,
+        "metrical_shape": "SLL",
+        "position": "10-12",
+        "description": "SLL genitive at 10-12 after a vowel; shape 3 declined; his epithet κρατερός in the genitive before it"
+       }
+      ]
+     },
+     "Σέρβον": {
+      "uses": 1,
+      "lines": [
+       48
+      ],
+      "shape_numbers": [],
+      "metrical_shapes": [
+       "LS"
+      ],
+      "positions": [
+       "3-3.5"
+      ],
+      "detail": [
+       {
+        "line": 48,
+        "shape_number": null,
+        "metrical_shape": "LS",
+        "position": "3-3.5",
+        "description": "LS acc. at 3-3.5, a slot allowed by A1: check_line passes with no flags"
+       }
+      ]
+     },
+     "Σέρβου κρατεροῖο": {
+      "uses": 1,
+      "lines": [
+       55
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LL"
+      ],
+      "positions": [
+       "8-9"
+      ],
+      "detail": [
+       {
+        "line": 55,
+        "shape_number": 2,
+        "metrical_shape": "LL",
+        "position": "8-9",
+        "description": "LL genitive at 8-9 + his epithet κρατερός in -οιο at 9.5-12; shape 2 declined; Ζοκοβῆος withdrawn, R10"
+       }
+      ]
+     },
+     "κρατερὸς Ζοκοβείδης": {
+      "uses": 1,
+      "lines": [
+       57
+      ],
+      "shape_numbers": [
+       1
+      ],
+      "metrical_shapes": [
+       "SSLL"
+      ],
+      "positions": [
+       "9.5-12"
+      ],
+      "detail": [
+       {
+        "line": 57,
+        "shape_number": 1,
+        "metrical_shape": "SSLL",
+        "position": "9.5-12",
+        "description": "SSLL at 9.5-12; shape 1; brief 4.2's κρατερὸς Διομήδης slot"
+       }
+      ]
+     },
+     "Νοβῆκος": {
+      "uses": 1,
+      "lines": [
+       59
+      ],
+      "shape_numbers": [
+       3
+      ],
+      "metrical_shapes": [
+       "SLX"
+      ],
+      "positions": [
+       "6-8"
+      ],
+      "detail": [
+       {
+        "line": 59,
+        "shape_number": 3,
+        "metrical_shape": "SLX",
+        "position": "6-8",
+        "description": "SLX at 6-8 after a vowel-final word, before a consonant; shape 3; the Ῥογῆρος slot of 23, 28 and 37: one system, two names"
+       }
+      ]
+     },
+     "Ζοκοβείδης": {
+      "uses": 1,
+      "lines": [
+       60
+      ],
+      "shape_numbers": [
+       1
+      ],
+      "metrical_shapes": [
+       "SSLL"
+      ],
+      "positions": [
+       "9.5-12"
+      ],
+      "detail": [
+       {
+        "line": 60,
+        "shape_number": 1,
+        "metrical_shape": "SSLL",
+        "position": "9.5-12",
+        "description": "SSLL at 9.5-12; shape 1, bare as Διομήδης at 9.5-12"
+       }
+      ]
+     },
+     "Σέρβῳ δ᾽ ἀντιθέῳ": {
+      "uses": 1,
+      "lines": [
+       62
+      ],
+      "shape_numbers": [
+       2
+      ],
+      "metrical_shapes": [
+       "LL"
+      ],
+      "positions": [
+       "1-2"
+      ],
+      "detail": [
+       {
+        "line": 62,
+        "shape_number": 2,
+        "metrical_shape": "LL",
+        "position": "1-2",
+        "description": "shape 2 declined, LL at 1-2 + his epithet ἀντίθεος in the dative at 3-5"
+       }
+      ]
+     }
+    }
+   }
+  },
+  "note": "shape numbers 1-3 are the brief's §4.3 economical systems (1 line-end SSLX/SSLL, 2 line-initial LSSL/LX, 3 mid-line SLX); 'None' = a slot allowed by addendum A1 or a declined form outside the three shapes; metrical shape and position are those stated in the record's name_formula field"
+ },
+ "density": {
+  "verses": 64,
+  "tokens": 485,
+  "verbatim_verses": 19,
+  "tokens_unattested_in_homer": 34,
+  "bootstrap_B": 2000,
+  "shuffles_R": 200,
+  "function_words": 186,
+  "homeric_reference_note": "min1: n-gram in >= 1 other Homeric verse; min2: >= 2 occurrences outside the verse; token-weighted over all 27794 verses",
+  "lines_with_exact_formula_ge2_words_pct": 100.0,
+  "lines_with_exact_formula_ge2_words": 64,
+  "lines_with_exact_formula_ge2_words_not_function_only_pct": 95.3,
+  "lines_without_exact_formula_ge2_words_not_function_only": [
+   22,
+   24,
+   55
+  ],
+  "lines_with_any_attested_ngram_at_homeric_position_pct": 95.3,
+  "lines_without_any_attested_ngram_at_homeric_position": [
+   22,
+   24,
+   55
+  ],
+  "lines_with_an_attested_exact_source_entry_pct": 100.0,
+  "definitions": {
+   "n2_all_min1": {
+    "label": "n ≥ 2, all n-grams, attested ≥ 1× in Homer",
+    "short_label": "n ≥ 2\nall n-grams\nHomer ≥ 1×",
+    "n_min": 2,
+    "filter": "all n-grams",
+    "homer_min": 1,
+    "coverage_pct": 81.9,
+    "ci95": [
+     77.2,
+     86.2
+    ],
+    "excluding_verbatim_pct": 74.7,
+    "excluding_verbatim_ci95": [
+     69.5,
+     80.1
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 88.0,
+    "homeric_reference_pct": 70.0,
+    "shuffled_mean_pct": 15.9,
+    "shuffled_2.5_97.5": [
+     12.4,
+     19.4
+    ],
+    "excess_over_shuffled_pp": 66.0,
+    "excess_over_homeric_reference_pp": 11.9
+   },
+   "n2_base_min1": {
+    "label": "n ≥ 2, not function-word-only, attested ≥ 1× in Homer",
+    "short_label": "n ≥ 2\nnot function-only\nHomer ≥ 1×",
+    "n_min": 2,
+    "filter": "not function-word-only",
+    "homer_min": 1,
+    "coverage_pct": 73.2,
+    "ci95": [
+     65.8,
+     79.8
+    ],
+    "excluding_verbatim_pct": 62.6,
+    "excluding_verbatim_ci95": [
+     54.7,
+     70.5
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 78.7,
+    "homeric_reference_pct": 59.4,
+    "shuffled_mean_pct": 6.2,
+    "shuffled_2.5_97.5": [
+     3.5,
+     8.9
+    ],
+    "excess_over_shuffled_pp": 66.9,
+    "excess_over_homeric_reference_pp": 13.8
+   },
+   "n3_all_min1": {
+    "label": "n ≥ 3, all n-grams, attested ≥ 1× in Homer",
+    "short_label": "n ≥ 3\nall n-grams\nHomer ≥ 1×",
+    "n_min": 3,
+    "filter": "all n-grams",
+    "homer_min": 1,
+    "coverage_pct": 69.7,
+    "ci95": [
+     62.3,
+     76.6
+    ],
+    "excluding_verbatim_pct": 57.8,
+    "excluding_verbatim_ci95": [
+     50.0,
+     65.7
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 74.9,
+    "homeric_reference_pct": 43.8,
+    "shuffled_mean_pct": 0.3,
+    "shuffled_2.5_97.5": [
+     0.0,
+     1.2
+    ],
+    "excess_over_shuffled_pp": 69.4,
+    "excess_over_homeric_reference_pp": 25.9
+   },
+   "n3_base_min1": {
+    "label": "n ≥ 3, not function-word-only, attested ≥ 1× in Homer",
+    "short_label": "n ≥ 3\nnot function-only\nHomer ≥ 1×",
+    "n_min": 3,
+    "filter": "not function-word-only",
+    "homer_min": 1,
+    "coverage_pct": 63.1,
+    "ci95": [
+     54.6,
+     71.1
+    ],
+    "excluding_verbatim_pct": 48.6,
+    "excluding_verbatim_ci95": [
+     40.1,
+     57.5
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 67.8,
+    "homeric_reference_pct": 39.5,
+    "shuffled_mean_pct": 0.0,
+    "shuffled_2.5_97.5": [
+     0.0,
+     0.6
+    ],
+    "excess_over_shuffled_pp": 63.0,
+    "excess_over_homeric_reference_pp": 23.6
+   },
+   "n2_base_min2": {
+    "label": "n ≥ 2, not function-word-only, attested ≥ 2× in Homer",
+    "short_label": "n ≥ 2\nnot function-only\nHomer ≥ 2×",
+    "n_min": 2,
+    "filter": "not function-word-only",
+    "homer_min": 2,
+    "coverage_pct": 53.8,
+    "ci95": [
+     46.1,
+     61.5
+    ],
+    "excluding_verbatim_pct": 54.0,
+    "excluding_verbatim_ci95": [
+     45.6,
+     62.6
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 57.9,
+    "homeric_reference_pct": 43.0,
+    "shuffled_mean_pct": 3.8,
+    "shuffled_2.5_97.5": [
+     1.6,
+     6.0
+    ],
+    "excess_over_shuffled_pp": 50.0,
+    "excess_over_homeric_reference_pp": 10.8
+   },
+   "n3_base_min2": {
+    "label": "n ≥ 3, not function-word-only, attested ≥ 2× in Homer",
+    "short_label": "n ≥ 3\nnot function-only\nHomer ≥ 2×",
+    "n_min": 3,
+    "filter": "not function-word-only",
+    "homer_min": 2,
+    "coverage_pct": 37.3,
+    "ci95": [
+     28.6,
+     46.5
+    ],
+    "excluding_verbatim_pct": 38.5,
+    "excluding_verbatim_ci95": [
+     29.7,
+     48.2
+    ],
+    "excluding_verbatim_verses": 45,
+    "excluding_verbatim_tokens": 348,
+    "excluding_tokens_unattested_in_homer_pct": 40.1,
+    "homeric_reference_pct": 22.8,
+    "shuffled_mean_pct": 0.0,
+    "shuffled_2.5_97.5": [
+     0.0,
+     0.0
+    ],
+    "excess_over_shuffled_pp": 37.3,
+    "excess_over_homeric_reference_pp": 14.5
+   }
+  }
+ }
+}
