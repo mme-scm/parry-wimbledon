@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Word counts of paper/paper.md: main text against appendices.
 
-Main text = everything before the first "## Appendix" heading. Two counts are given for it:
-"all" (every word, tables and quotations included) and "prose" (HTML comments, markdown tables,
-fenced and indented blocks, image lines and headings removed). The appendices are counted whole.
+Main text = sections 1-9 and "Data and code" (everything before the "## References" heading).
+Two counts are given for it: "prose" (HTML comments, markdown tables, fenced and indented quotation
+blocks, image lines and headings removed) and "all" (every word, tables and quotations included).
+The reference list (from "## References" to the first "## Appendix") and the appendices are
+counted whole.
 With --update the counts are written into the HTML comment on the second line of the file
 (the line starting "<!-- word counts"), which this script owns.
 
@@ -49,16 +51,20 @@ def prose_only(text):
 def main():
     text = PAPER.read_text(encoding="utf-8")
     nfc = unicodedata.normalize("NFC", text) == text
-    m = re.search(r"^## Appendix", text, flags=re.M)
-    main_part, app_part = (text[: m.start()], text[m.start():]) if m else (text, "")
+    r = re.search(r"^## References", text, flags=re.M)
+    a = re.search(r"^## Appendix", text, flags=re.M)
+    main_part = text[: r.start()] if r else text
+    ref_part = text[r.start(): a.start()] if (r and a) else ""
+    app_part = text[a.start():] if a else ""
     counts = {
-        "main_all": words(strip_comments(main_part)),
         "main_prose": words(prose_only(main_part)),
+        "main_all": words(strip_comments(main_part)),
+        "references_all": words(strip_comments(ref_part)),
         "appendices_all": words(strip_comments(app_part)),
     }
-    line = (f"{MARK} (paper/wordcount.py): main text {counts['main_prose']} words of prose "
-            f"({counts['main_all']} with tables and quoted passages); appendices {counts['appendices_all']} words; "
-            f"Unicode NFC: {'yes' if nfc else 'NO'} -->")
+    line = (f"{MARK} (paper/wordcount.py): main text (sections 1-9 and Data and code) {counts['main_prose']} words of prose, "
+            f"{counts['main_all']} with tables, captions and quoted passages; references {counts['references_all']} words; "
+            f"appendices A-C {counts['appendices_all']} words; Unicode NFC: {'yes' if nfc else 'NO'} -->")
     print(line)
     if "--update" in sys.argv:
         lines = text.split("\n")
