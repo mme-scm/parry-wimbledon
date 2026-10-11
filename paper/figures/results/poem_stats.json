@@ -171,6 +171,36 @@
      "homeric_parallel": "ἀπήμβροτε keeps its only attested slot 6-8 (Il. 16.466, 16.477) and ἐνίκα its commonest (10-12, 5 of 8); no word moves"
     }
    }
+  },
+  "position": {
+   "frame_kept": 59,
+   "frame_kept_kinds": [
+    "substitution",
+    "inflection",
+    "expansion",
+    "position kept"
+   ],
+   "moved": {
+    "mobility": 12,
+    "separation": 4
+   },
+   "substitutions": {
+    "total": 34,
+    "inserted_words_at_attested_slots": 26,
+    "line_also_carries_a_separate_mobility_entry": [
+     24,
+     29,
+     30,
+     38,
+     40,
+     49,
+     52
+    ],
+    "mobility_recorded_inside_the_substitution_entry": [
+     1
+    ]
+   },
+   "note": "frame_kept counts every modification that is neither a mobility nor a separation; it is an upper bound on position-keeping, since a substitution may insert a piece at a slot Homer does not give it (see substitutions)."
   }
  },
  "coined_forms": {
@@ -850,7 +880,45 @@
     "homeric_occurrences": 2
    }
   ],
-  "definition": "the verse's loose token sequence equals that of a Homeric verse (review/poem_density.py)"
+  "definition": "the verse's loose token sequence equals that of a Homeric verse (review/poem_density.py)",
+  "coverage_by_definition_pct": {
+   "n2_all_min1": {
+    "verbatim_lines": 100.0,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 74.7,
+    "composed_lines_tokens": 348
+   },
+   "n2_base_min1": {
+    "verbatim_lines": 100.0,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 62.6,
+    "composed_lines_tokens": 348
+   },
+   "n3_all_min1": {
+    "verbatim_lines": 100.0,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 57.8,
+    "composed_lines_tokens": 348
+   },
+   "n3_base_min1": {
+    "verbatim_lines": 100.0,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 48.6,
+    "composed_lines_tokens": 348
+   },
+   "n2_base_min2": {
+    "verbatim_lines": 53.3,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 54.0,
+    "composed_lines_tokens": 348
+   },
+   "n3_base_min2": {
+    "verbatim_lines": 34.3,
+    "verbatim_lines_tokens": 137,
+    "composed_lines": 38.5,
+    "composed_lines_tokens": 348
+   }
+  }
  },
  "enjambment": {
   "counts": {

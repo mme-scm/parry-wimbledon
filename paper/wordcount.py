@@ -2,8 +2,9 @@
 """Word counts of paper/paper.md: main text against appendices.
 
 Main text = sections 1-9 and "Data and code" (everything before the "## References" heading).
-Two counts are given for it: "prose" (HTML comments, markdown tables, fenced and indented quotation
-blocks, image lines and headings removed) and "all" (every word, tables and quotations included).
+Two counts are given for it: "prose" (HTML comments, markdown tables, table and figure captions, fenced and
+indented quotation blocks, image lines and headings removed) and "all" (every word, tables, captions and
+quotations included). A caption is a line beginning "**Table" or "*Figure".
 The reference list (from "## References" to the first "## Appendix") and the appendices are
 counted whole.
 With --update the counts are written into the HTML comment on the second line of the file
@@ -41,6 +42,8 @@ def prose_only(text):
         if not s:
             continue
         if s.startswith("|") or s.startswith("![") or s.startswith("#"):
+            continue
+        if s.startswith("**Table") or s.startswith("*Figure"):  # table and figure captions
             continue
         if line.startswith("    "):  # indented quotation block (Greek, Sanskrit, Old English, Latin)
             continue

@@ -71,7 +71,7 @@ write("table1_coverage.md", L)
 # ---------------------------------------------------------------- Table 2: confirmatory C1-C5, R1-R5
 c = pd.read_csv(RES_F / "confirmatory.csv").set_index("id")
 SHORT = {
-    "C1": "coverage, pool → 2019 final, minus press answers (held-out; I ≈ 100k → M 9.8k)",
+    "C1": "coverage, pool → 2019 final, minus press answers (held-out; I ≈ 100k → M 9.7k)",
     "R1": "coverage, pool → 2023 final, minus press answers (held-out)",
     "C2": "split-half coverage at 2019 size: TV pool minus Cornell live text (corpus contrast)",
     "C3a": "coverage (pool-identified), shortest minus longest tercile of dead time before the point",

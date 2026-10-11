@@ -190,6 +190,31 @@ def main():
         "lines_with_a_modification": sum(1 for r in recs if r.get("modifications")),
         "by_kind": mods,
     }
+    # Frame kept against piece moved (review/critic_paper_v1.md M6). Mobility and separation entries move a piece
+    # by definition; the other kinds keep the frame where Homer has it. Inside a substitution the inserted piece
+    # may itself stand at an unattested slot: either the substitution entry says so ("mobility" / "not a Homeric
+    # position" in its parallel) or the line carries a separate mobility entry for a word of the new material.
+    moved_kinds = ("mobility", "separation")
+    mob_re = re.compile(r"mobility|not a Homeric position", re.I)
+    sub_lines = [r["n"] for r in recs for m in r.get("modifications", []) if m["kind"] == "substitution"]
+    mob_lines = {r["n"] for r in recs for m in r.get("modifications", []) if m["kind"] == "mobility"}
+    sub_inside = [r["n"] for r in recs for m in r.get("modifications", [])
+                  if m["kind"] == "substitution" and mob_re.search(m["homeric_parallel"])]
+    sub_with_mob = sorted(n for n in set(sub_lines) if n in mob_lines and n not in sub_inside)
+    out["modifications"]["position"] = {
+        "frame_kept": sum(v["count"] for k, v in mods.items() if k not in moved_kinds),
+        "frame_kept_kinds": [k for k in mods if k not in moved_kinds],
+        "moved": OrderedDict((k, mods[k]["count"]) for k in moved_kinds if k in mods),
+        "substitutions": {
+            "total": len(sub_lines),
+            "inserted_words_at_attested_slots": len(sub_lines) - len(sub_inside) - len(sub_with_mob),
+            "line_also_carries_a_separate_mobility_entry": sub_with_mob,
+            "mobility_recorded_inside_the_substitution_entry": sub_inside,
+        },
+        "note": "frame_kept counts every modification that is neither a mobility nor a separation; it is an upper "
+                "bound on position-keeping, since a substitution may insert a piece at a slot Homer does not give it "
+                "(see substitutions).",
+    }
 
     # ---------------------------------------------------------------- coined forms
     tok_lines = {r["n"]: loose_tokens(r["text"]) for r in recs}
@@ -258,6 +283,21 @@ def main():
         "detail": verbatim,
         "definition": "the verse's loose token sequence equals that of a Homeric verse (review/poem_density.py)",
     }
+    # Coverage of the verbatim lines against the composed lines under each definition, token-weighted from the
+    # per-verse counts of review/poem_density.py (review/critic_paper_v1.md M3): under the once-attested
+    # definitions a verbatim line is covered entirely; under min2 only its sub-n-grams attested twice count.
+    verb_set = set(verb_nums)
+    per_verse = dens["per_verse"]
+    cov_by_def = OrderedDict()
+    for name in DEFS:
+        row = OrderedDict()
+        for grp, keep in (("verbatim_lines", True), ("composed_lines", False)):
+            vs = [v for v in per_verse if (v["n"] in verb_set) == keep]
+            tok = sum(v["tokens"] for v in vs)
+            row[grp] = round(100.0 * sum(v[name] for v in vs) / tok, 1)
+            row[grp + "_tokens"] = tok
+        cov_by_def[name] = row
+    out["verbatim_homeric_lines"]["coverage_by_definition_pct"] = cov_by_def
 
     # ---------------------------------------------------------------- enjambment
     enj = Counter(r["enjambment"] for r in recs)

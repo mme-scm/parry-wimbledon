@@ -1,6 +1,6 @@
 | id | test | estimate | 95% interval | p (pre-registered statistic) | p (Holm) | MDE (80% power, α = 0.05 / Bonferroni) | verdict |
 |---|---|---|---|---|---|---|---|
-| C1 | coverage, pool → 2019 final, minus press answers (held-out; I ≈ 100k → M 9.8k) | 55.0 vs 66.1; diff -11.1 pp | [-13.9, -8.0] pp (replicate differences) | 0.0002 (= floor 2/(R+1); uncalibrated) | — | — | indeterminate pending a WER estimate |
+| C1 | coverage, pool → 2019 final, minus press answers (held-out; I ≈ 100k → M 9.7k) | 55.0 vs 66.1; diff -11.1 pp | [-13.9, -8.0] pp (replicate differences) | 0.0002 (= floor 2/(R+1); uncalibrated) | — | — | indeterminate pending a WER estimate |
 | R1 | coverage, pool → 2023 final, minus press answers (held-out) | 59.5 vs 66.1; diff -6.7 pp | [-9.5, -3.6] pp (replicate differences) | 0.0002 (= floor 2/(R+1); uncalibrated) | — | — | indeterminate pending a WER estimate |
 | C2 | split-half coverage at 2019 size: TV pool minus Cornell live text (corpus contrast) | 16.2 vs 35.3; diff -19.1 pp | [-22.1, -16.3] pp (replicate differences) | 0.0020 (= floor 2/(R+1); uncalibrated) | — | — | corpus difference: 95% interval of differences excludes 0 (not attributable to medium) |
 | C3a | coverage (pool-identified), shortest minus longest tercile of dead time before the point | 55.4 vs 55.1; diff +0.4 pp | [-4.0, +4.6] pp (bootstrap) | 0.8770 (permutation) | 1.0000 | 6.4 / 7.9 pp | not rejected |
