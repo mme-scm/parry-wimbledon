@@ -1,0 +1,2607 @@
+ngram,n,targets_tv_only,occurrences_in_targets,modal_slot,modal_slot_share,tv_streams_attesting,cornell_utterances_full,press_utterances_full,strict,per_100k_tv_all20,per_100k_cornell,per_100k_press
+and <num> minutes,3,6,19,STAT,1,7,2,43,False,16.5725,1.11876,0.809477
+he's trying to,3,9,19,OTHER,0.578947,9,0,30,False,15.7439,0,0.58871
+<name> leads by,3,5,18,SCORE,0.777778,5,0,0,True,14.9152,0,0
+<num> miles an,3,6,18,STAT,1,7,0,32,False,18.2297,0,0.643902
+<num> miles an hour,4,6,18,STAT,1,7,0,32,False,18.2297,0,0.643902
+miles an hour,3,6,18,STAT,1,7,0,40,False,18.2297,0,0.791079
+that second serve,3,11,18,SHOT,1,11,0,11,False,14.9152,0,0.202369
+ball was called,3,4,17,OFFICIAL,1,4,0,3,False,14.0866,0,0.091986
+hours and <num>,3,6,17,STAT,1,6,0,21,False,14.0866,0,0.386341
+hours and <num> minutes,4,6,17,STAT,1,6,0,20,False,14.0866,0,0.367944
+games to two,3,9,16,OTHER,0.5,9,0,0,True,13.258,0,0
+he's got to,3,5,16,JUDGE,1,9,2,54,False,23.2015,1.11876,1.08543
+games to one,3,7,15,SCORE,0.866667,7,0,1,True,12.4294,0,0.0183972
+by the way,3,7,14,OTHER,0.714286,8,0,36,False,12.4294,0,0.680696
+look at this,3,6,14,OTHER,0.5,6,0,18,False,11.6007,0,0.33115
+on the left,3,8,14,OTHER,0.357143,8,1,15,False,11.6007,0.559378,0.294355
+<name> <name> and,3,8,13,OTHER,0.461538,8,1,29,False,10.7721,0.559378,0.533519
+challenging the call,3,2,13,OFFICIAL,1,2,0,1,True,10.7721,0,0.0183972
+do you think,3,8,13,JUDGE,1,8,0,75,False,10.7721,0,1.41658
+ladies and gentlemen,3,6,13,OFFICIAL,0.538462,6,0,0,True,10.7721,0,0
+look at that,3,9,13,OTHER,0.692308,9,0,37,False,10.7721,0,0.680696
+on that forehand,3,9,13,SHOT,1,9,0,4,False,10.7721,0,0.091986
+on the outside,3,4,13,SHOT,0.615385,4,1,51,False,10.7721,0.559378,0.938257
+that first serve,3,10,13,SHOT,1,10,0,11,False,10.7721,0,0.202369
+the back end,3,6,13,SHOT,0.461538,6,2,10,False,10.7721,1.11876,0.183972
+the new balls,3,8,13,OFFICIAL,1,8,0,9,False,10.7721,0,0.202369
+two games to,3,7,13,SCORE,0.692308,7,0,6,False,10.7721,0,0.110383
+back in <num>,3,7,12,OTHER,0.5,8,0,53,False,10.7721,0,1.03024
+five games to,3,9,12,SCORE,0.666667,9,0,1,True,9.94349,0,0.0183972
+have a look,3,6,12,OTHER,0.333333,6,0,44,False,9.94349,0,0.846271
+i just wonder,3,6,12,OTHER,0.75,6,0,0,True,9.94349,0,0
+six games to,3,7,12,OTHER,0.666667,7,0,2,False,9.94349,0,0.0367944
+to the forehand,3,7,12,SHOT,1,7,0,29,False,9.94349,0,0.570313
+with the new,3,7,12,OFFICIAL,0.75,7,0,32,False,9.94349,0,0.625505
+<name> with the,3,7,11,OTHER,0.363636,7,1,3,False,9.11486,0.559378,0.0551916
+<num> <num> first,3,9,11,SCORE,0.636364,9,0,13,False,9.11486,0,0.239164
+<num> second set,3,7,11,SCORE,0.636364,7,0,8,False,9.11486,0,0.147178
+four games to,3,9,11,SCORE,0.727273,9,0,2,False,9.11486,0,0.0367944
+from two sets,3,5,11,SCORE,0.909091,5,0,35,False,9.11486,0,0.662299
+has two challenges,3,5,11,OFFICIAL,1,5,0,0,True,9.11486,0,0
+have a look at,4,6,11,OTHER,0.272727,6,0,21,False,9.11486,0,0.404738
+he can get,3,8,11,JUDGE,0.363636,8,1,39,False,9.11486,0.559378,0.791079
+of <name> <name>,3,9,11,OTHER,0.363636,9,0,6,False,9.11486,0,0.110383
+out <num> <num>,3,3,11,SCORE,0.909091,5,2,3,False,11.6007,1.11876,0.0551916
+that <name> <name>,3,8,11,OTHER,0.727273,8,1,4,False,9.11486,0.559378,0.0735888
+two sets to one,4,6,11,SCORE,1,6,1,37,False,9.11486,0.559378,0.717491
+when he gets,3,6,11,OTHER,0.363636,6,1,25,False,9.11486,0.559378,0.45993
+<name> i think,3,10,10,JUDGE,1,10,1,59,False,8.28624,0.559378,1.12223
+<num> <num> well,3,7,10,SCORE,0.7,7,0,5,False,8.28624,0,0.091986
+ball was called out,4,4,10,OFFICIAL,1,4,0,2,False,8.28624,0,0.0735888
+get to this,3,6,10,STAT,0.4,6,0,36,False,8.28624,0,0.662299
+has two challenges remaining,4,4,10,OFFICIAL,1,4,0,0,True,8.28624,0,0
+he was trying to,4,4,10,SHOT,0.6,4,0,36,False,8.28624,0,0.662299
+he's a little,3,5,10,OTHER,0.4,5,0,27,False,8.28624,0,0.496724
+he's got the,3,8,10,OTHER,0.4,8,0,34,False,8.28624,0,0.717491
+in a final,3,5,10,OTHER,0.4,5,1,59,False,8.28624,0.559378,1.12223
+into the body,3,6,10,SHOT,1,6,2,8,False,8.28624,1.11876,0.147178
+players are ready,3,6,10,OFFICIAL,0.9,6,0,3,False,8.28624,0,0.0551916
+the <num> court,3,6,10,SCORE,1,6,1,5,False,8.28624,0.559378,0.091986
+two challenges remaining,3,4,10,OFFICIAL,1,4,0,0,True,8.28624,0,0
+was called out,3,3,10,OFFICIAL,0.9,4,2,5,False,9.11486,1.11876,0.12878
+<name> has two challenges,4,3,9,OFFICIAL,1,3,0,0,True,7.45762,0,0
+<name> has two challenges remaining,5,3,9,OFFICIAL,1,3,0,0,True,7.45762,0,0
+<name> i mean,3,7,9,SHOT,0.444444,7,0,29,False,7.45762,0,0.533519
+an hour and,3,6,9,STAT,1,7,2,64,False,8.28624,1.11876,1.23261
+behind the first,3,5,9,SHOT,1,5,0,1,True,7.45762,0,0.0183972
+behind the first serve,4,5,9,SHOT,1,5,0,1,True,7.45762,0,0.0183972
+by six games,3,6,9,OTHER,0.666667,6,0,0,True,7.45762,0,0
+by six games to,4,6,9,OTHER,0.666667,6,0,0,True,7.45762,0,0
+close to the baseline,4,7,9,SHOT,1,7,0,42,False,7.45762,0,0.809477
+games to <num>,3,6,9,SCORE,0.888889,6,0,7,False,7.45762,0,0.12878
+he was trying,3,3,9,SHOT,0.555556,4,0,44,False,8.28624,0,0.809477
+here in melbourne,3,4,9,OTHER,0.555556,4,0,22,False,7.45762,0,0.404738
+in the <num> court,4,6,9,SCORE,1,6,0,1,True,7.45762,0,0.0183972
+off the return,3,7,9,SHOT,1,7,1,10,False,7.45762,0.559378,0.183972
+sets to one,3,4,9,SCORE,1,6,2,37,False,9.11486,1.11876,0.717491
+tell you what,3,7,9,JUDGE,0.444444,7,1,25,False,7.45762,0.559378,0.496724
+thank you thank,3,8,9,OFFICIAL,1,8,0,2,False,7.45762,0,0.0367944
+thank you thank you,4,8,9,OFFICIAL,1,8,0,2,False,7.45762,0,0.0367944
+the backhand down,3,7,9,SHOT,1,7,0,5,False,7.45762,0,0.091986
+the backhand down the,4,7,9,SHOT,1,7,0,5,False,7.45762,0,0.091986
+the backhand down the line,5,7,9,SHOT,1,7,0,5,False,7.45762,0,0.091986
+the backhand side,3,3,9,SHOT,1,8,3,36,False,12.4294,1.67813,0.680696
+the course of,3,6,9,STAT,0.444444,6,1,76,False,7.45762,0.559378,1.45338
+the second serve return,4,6,9,SHOT,1,6,0,6,False,7.45762,0,0.110383
+three games to,3,6,9,SCORE,0.777778,6,0,1,True,7.45762,0,0.0183972
+throughout the tournament,3,4,9,STAT,1,4,1,28,False,7.45762,0.559378,0.533519
+to the backhand,3,4,9,SHOT,1,4,0,39,False,7.45762,0,0.791079
+with the new balls,4,6,9,OFFICIAL,1,6,0,9,False,7.45762,0,0.183972
+you thank you,3,8,9,OFFICIAL,1,8,0,2,False,7.45762,0,0.0367944
+<name> able to,3,4,8,SHOT,0.5,4,0,0,True,6.62899,0,0
+<name> he was,3,8,8,SHOT,0.5,8,0,8,False,6.62899,0,0.147178
+<name> trying to,3,5,8,OTHER,0.75,5,0,1,True,6.62899,0,0.0183972
+<num> in this,3,6,8,SHOT,0.5,6,2,7,False,6.62899,1.11876,0.12878
+by two games,3,4,8,SCORE,0.75,4,0,0,True,6.62899,0,0
+by two games to,4,4,8,SCORE,0.75,4,0,0,True,6.62899,0,0
+from two sets to,4,4,8,SCORE,1,4,0,28,False,6.62899,0,0.533519
+game <num> <num>,3,5,8,OTHER,0.5,5,0,14,False,6.62899,0,0.257561
+he tried to,3,3,8,OTHER,0.625,3,0,27,False,6.62899,0,0.533519
+here for <name>,3,6,8,OTHER,0.5,6,1,0,True,6.62899,0.559378,0
+i mean <name>,3,5,8,OTHER,0.625,5,0,39,False,6.62899,0,0.717491
+i tell you,3,6,8,SHOT,0.375,6,0,60,False,6.62899,0,1.17742
+if you're <name>,3,6,8,OTHER,0.375,6,0,3,False,6.62899,0,0.0551916
+in <num> and,3,5,8,OTHER,0.625,7,0,75,False,8.28624,0,1.41658
+in that rally,3,6,8,SHOT,1,6,2,6,False,6.62899,1.11876,0.12878
+just wonder whether,3,5,8,OTHER,0.75,5,0,0,True,6.62899,0,0
+leads by two,3,5,8,SCORE,0.875,5,1,0,True,6.62899,0.559378,0
+many of those,3,6,8,OTHER,0.75,6,1,26,False,6.62899,0.559378,0.478327
+that's a great,3,7,8,JUDGE,1,8,0,62,False,7.45762,0,1.15902
+the service line,3,6,8,SHOT,1,6,1,17,False,6.62899,0.559378,0.33115
+these two have,3,5,8,OTHER,0.5,5,1,0,True,6.62899,0.559378,0
+this is going to,4,7,8,JUDGE,0.5,7,1,66,False,6.62899,0.559378,1.26941
+this stage of,3,6,8,STAT,0.5,6,1,66,False,6.62899,0.559378,1.23261
+through the air,3,5,8,JUDGE,0.5,5,0,57,False,6.62899,0,1.06704
+through the court,3,5,8,JUDGE,0.375,6,0,81,False,7.45762,0,1.58216
+to get to this,4,5,8,STAT,0.5,5,0,25,False,6.62899,0,0.45993
+two of the,3,7,8,OTHER,0.375,7,1,40,False,6.62899,0.559378,0.735888
+two sets to <num>,4,2,8,SCORE,1,7,0,135,False,14.0866,0,2.72278
+<name> is challenging,3,2,7,OFFICIAL,1,2,0,0,True,5.80037,0,0
+<name> leads by two,4,5,7,SCORE,1,5,0,0,True,5.80037,0,0
+<num> down in,3,6,7,SCORE,0.857143,6,1,41,False,5.80037,0.559378,0.772682
+<num> hours and,3,3,7,STAT,1,3,0,15,False,5.80037,0,0.275958
+<num> hours and <num>,4,3,7,STAT,1,3,0,9,False,5.80037,0,0.165575
+<num> hours and <num> minutes,5,3,7,STAT,1,3,0,8,False,5.80037,0,0.147178
+<num> of his,3,5,7,SHOT,0.857143,5,1,2,False,5.80037,0.559378,0.0367944
+a little extra,3,4,7,OTHER,0.571429,4,0,8,False,5.80037,0,0.147178
+and you can see,4,5,7,OTHER,0.571429,5,0,18,False,5.80037,0,0.33115
+ball was called in,4,3,7,OFFICIAL,1,3,0,1,True,5.80037,0,0.0183972
+by two games to one,5,4,7,SCORE,0.714286,4,0,0,True,5.80037,0,0
+coming into this,3,4,7,OTHER,0.571429,6,0,68,False,7.45762,0,1.26941
+for <name> <num>,3,4,7,SCORE,0.285714,4,2,0,False,5.80037,1.11876,0
+games to three,3,7,7,OTHER,0.571429,7,0,0,True,5.80037,0,0
+got away with,3,5,7,SHOT,0.571429,5,0,8,False,5.80037,0,0.147178
+he got to,3,4,7,JUDGE,1,4,0,30,False,5.80037,0,0.58871
+if he can get,4,7,7,JUDGE,0.428571,7,0,9,False,5.80037,0,0.202369
+in his first,3,6,7,SCORE,0.428571,6,1,22,False,5.80037,0.559378,0.404738
+leads by two games,4,4,7,SCORE,0.857143,4,0,0,True,5.80037,0,0
+leads by two games to,5,4,7,SCORE,0.857143,4,0,0,True,5.80037,0,0
+leads five games,3,4,7,SCORE,0.857143,4,0,0,True,5.80037,0,0
+leads five games to,4,4,7,SCORE,0.857143,4,0,0,True,5.80037,0,0
+on his feet,3,5,7,OTHER,0.714286,5,1,1,True,5.80037,0.559378,0.0183972
+on second serves,3,4,7,SHOT,1,4,0,20,False,5.80037,0,0.367944
+on that backhand,3,5,7,SHOT,1,5,0,3,False,5.80037,0,0.0551916
+on that ball,3,4,7,OTHER,0.714286,4,0,3,False,5.80037,0,0.0551916
+on that one,3,5,7,OTHER,0.571429,5,0,42,False,5.80037,0,0.791079
+on the edge,3,5,7,CROWD,0.428571,5,1,15,False,5.80037,0.559378,0.275958
+on the first serve,4,6,7,SHOT,1,6,0,32,False,5.80037,0,0.625505
+one in the,3,5,7,OTHER,0.428571,6,0,43,False,7.45762,0,0.827874
+open up the,3,6,7,OTHER,0.571429,8,2,20,False,7.45762,1.11876,0.367944
+out of <num>,3,4,7,SHOT,0.571429,6,2,33,False,8.28624,1.11876,0.643902
+please thank you,3,4,7,OFFICIAL,1,4,0,0,True,5.80037,0,0
+second serve points,3,4,7,SHOT,1,4,1,7,False,5.80037,0.559378,0.147178
+set in a,3,5,7,OTHER,0.571429,5,2,10,False,5.80037,1.11876,0.183972
+she's able to,3,3,7,OTHER,0.428571,3,0,8,False,5.80037,0,0.165575
+such a good job,4,7,7,JUDGE,1,7,0,4,False,5.80037,0,0.0735888
+thank you players,3,4,7,OFFICIAL,1,4,0,0,True,5.80037,0,0
+thank you please,3,3,7,OFFICIAL,1,3,0,0,True,5.80037,0,0
+thank you very,3,5,7,OFFICIAL,1,5,1,39,False,5.80037,0.559378,0.772682
+thank you very much,4,5,7,OFFICIAL,1,5,1,39,False,5.80037,0.559378,0.772682
+that forehand side,3,4,7,SHOT,1,4,0,2,False,5.80037,0,0.0367944
+the ball was called,4,3,7,OFFICIAL,1,3,0,3,False,5.80037,0,0.091986
+the other thing,3,5,7,OTHER,0.714286,5,0,38,False,5.80037,0,0.717491
+the semi final,3,3,7,STAT,1,3,1,1,True,5.80037,0.559378,0.0183972
+think he's got,3,5,7,JUDGE,1,5,0,37,False,5.80037,0,0.717491
+this is going to be,5,6,7,OTHER,0.571429,6,1,51,False,5.80037,0.559378,0.956654
+three hours and,3,4,7,STAT,1,4,0,31,False,5.80037,0,0.570313
+to change direction,3,7,7,OTHER,0.428571,7,1,8,False,5.80037,0.559378,0.147178
+to come forward,3,6,7,SHOT,0.571429,6,1,22,False,5.80037,0.559378,0.423136
+to hit that,3,7,7,SHOT,1,7,0,7,False,5.80037,0,0.12878
+tried to hit,3,6,7,SHOT,1,6,0,38,False,5.80037,0,0.699093
+two games to one,4,4,7,SCORE,0.714286,4,0,1,True,5.80037,0,0.0183972
+two in the,3,6,7,OTHER,0.714286,6,0,12,False,5.80037,0,0.220766
+u s open,3,4,7,OTHER,0.571429,4,0,11,False,5.80037,0,0.202369
+use of the,3,6,7,JUDGE,0.571429,6,1,2,False,5.80037,0.559378,0.0367944
+was called in,3,3,7,OFFICIAL,1,3,1,1,True,5.80037,0.559378,0.0183972
+when you look,3,6,7,OTHER,0.428571,6,0,49,False,5.80037,0,1.01185
+you very much,3,5,7,OFFICIAL,1,5,1,41,False,5.80037,0.559378,0.809477
+<name> <name> <name>,3,5,6,OFFICIAL,0.333333,5,2,19,False,4.97174,1.11876,0.45993
+<name> <name> he,3,3,6,JUDGE,0.5,3,0,2,False,4.97174,0,0.0367944
+<name> <name> in,3,5,6,STAT,0.5,6,2,9,False,5.80037,1.11876,0.165575
+<name> and that,3,6,6,OTHER,0.833333,6,1,3,False,4.97174,0.559378,0.0551916
+<name> leads by two games,5,4,6,SCORE,1,4,0,0,True,4.97174,0,0
+<name> leads by two games to,6,4,6,SCORE,1,4,0,0,True,4.97174,0,0
+<name> leads five,3,3,6,SCORE,1,3,0,0,True,4.97174,0,0
+<name> leads five games,4,3,6,SCORE,1,3,0,0,True,4.97174,0,0
+<name> leads five games to,5,3,6,SCORE,1,3,0,0,True,4.97174,0,0
+<name> was going,3,5,6,OTHER,0.666667,5,0,5,False,4.97174,0,0.091986
+<num> <num> first set,4,5,6,OTHER,0.333333,5,0,7,False,4.97174,0,0.12878
+<num> <num> second,3,4,6,JUDGE,0.333333,4,0,10,False,4.97174,0,0.183972
+<num> first set,3,5,6,OTHER,0.333333,5,0,10,False,4.97174,0,0.183972
+<num> minutes and,3,6,6,STAT,1,6,1,32,False,4.97174,0.559378,0.607107
+<num> minutes on,3,3,6,STAT,1,3,1,10,False,4.97174,0.559378,0.183972
+<num> of those,3,4,6,STAT,0.666667,4,0,1,True,4.97174,0,0.0183972
+a little off,3,6,6,JUDGE,0.333333,6,0,13,False,4.97174,0,0.239164
+after the serve,3,5,6,SHOT,1,5,0,37,False,4.97174,0,0.754285
+against <name> <name>,3,6,6,OTHER,0.666667,7,2,17,False,5.80037,1.11876,0.312752
+an awful lot,3,5,6,JUDGE,1,5,0,7,False,4.97174,0,0.12878
+as good as <name>,4,5,6,JUDGE,1,5,2,6,False,4.97174,1.11876,0.110383
+at the end of the second,6,4,6,OTHER,0.5,4,0,52,False,4.97174,0,0.975051
+at the end of the second set,7,4,6,OTHER,0.5,4,0,35,False,4.97174,0,0.662299
+back into play,3,4,6,OTHER,0.833333,4,1,13,False,4.97174,0.559378,0.239164
+bit more of,3,6,6,SHOT,0.333333,6,1,43,False,4.97174,0.559378,0.791079
+can get the,3,6,6,SHOT,0.333333,6,1,34,False,4.97174,0.559378,0.625505
+can see <name>,3,4,6,OTHER,0.666667,4,0,2,False,4.97174,0,0.0367944
+closer to the baseline,4,4,6,SHOT,1,4,0,31,False,4.97174,0,0.625505
+feels like he's,3,4,6,JUDGE,1,4,0,2,False,4.97174,0,0.0367944
+final of the,3,3,6,OTHER,0.666667,3,0,53,False,4.97174,0,1.03024
+first serve points,3,4,6,SHOT,1,4,0,6,False,4.97174,0,0.12878
+first set <num>,3,5,6,OTHER,0.333333,5,1,36,False,4.97174,0.559378,0.662299
+for <name> i,3,4,6,JUDGE,0.666667,4,1,9,False,4.97174,0.559378,0.165575
+going to need,3,5,6,JUDGE,1,5,1,46,False,4.97174,0.559378,0.883065
+got out of,3,5,6,JUDGE,0.5,5,0,37,False,4.97174,0,0.699093
+hasn't been able,3,4,6,OTHER,0.5,4,1,7,False,4.97174,0.559378,0.12878
+hasn't been able to,4,4,6,OTHER,0.5,4,1,7,False,4.97174,0.559378,0.12878
+he can get the,4,6,6,JUDGE,0.333333,6,1,0,True,4.97174,0.559378,0
+he doesn't want,3,5,6,SHOT,0.333333,5,0,11,False,4.97174,0,0.220766
+he got to the,4,4,6,JUDGE,1,4,0,9,False,4.97174,0,0.183972
+he was a little,4,5,6,OTHER,0.5,5,0,71,False,4.97174,0,1.343
+he's been able,3,5,6,SHOT,0.5,5,0,26,False,4.97174,0,0.496724
+he's been able to,4,5,6,SHOT,0.5,5,0,26,False,4.97174,0,0.496724
+head to head,3,4,6,STAT,1,4,0,27,False,4.97174,0,0.551916
+here we go,3,4,6,OTHER,0.5,4,1,19,False,4.97174,0.559378,0.349547
+i can't help,3,3,6,OTHER,0.666667,3,0,4,False,4.97174,0,0.0735888
+i wonder if,3,5,6,JUDGE,0.5,5,0,8,False,4.97174,0,0.165575
+i've ever seen,3,5,6,JUDGE,0.5,5,0,13,False,4.97174,0,0.239164
+if he can get the,5,6,6,JUDGE,0.5,6,0,0,True,4.97174,0,0
+if he gets,3,5,6,OTHER,0.833333,5,0,28,False,4.97174,0,0.515121
+in <num> <num>,3,4,6,OTHER,0.666667,4,0,60,False,4.97174,0,1.12223
+in that point,3,4,6,OTHER,1,4,0,14,False,4.97174,0,0.257561
+in the <name>,3,3,6,OTHER,0.5,3,1,0,True,4.97174,0.559378,0
+in the box,3,5,6,CROWD,1,5,0,37,False,4.97174,0,0.699093
+in the open,3,6,6,OTHER,0.5,6,0,10,False,4.97174,0,0.220766
+in the tank,3,5,6,OTHER,0.5,5,1,16,False,4.97174,0.559378,0.294355
+into the forehand,3,4,6,SHOT,1,4,0,3,False,4.97174,0,0.091986
+is so good,3,6,6,JUDGE,1,6,0,24,False,4.97174,0,0.441533
+it's almost like,3,4,6,SHOT,0.666667,5,0,35,False,5.80037,0,0.643902
+kilometers an hour,3,4,6,STAT,1,4,0,13,False,4.97174,0,0.239164
+leads by five,3,5,6,OTHER,0.5,5,0,0,True,4.97174,0,0
+leads by two games to one,6,4,6,SCORE,0.833333,4,0,0,True,4.97174,0,0
+like he's got,3,4,6,JUDGE,1,4,0,3,False,4.97174,0,0.0551916
+looks like he's,3,2,6,OTHER,0.666667,5,2,18,False,9.94349,1.11876,0.349547
+man in the,3,4,6,OTHER,0.833333,4,1,5,False,4.97174,0.559378,0.091986
+new balls please,3,4,6,OFFICIAL,1,4,0,0,True,4.97174,0,0
+not sure what,3,5,6,OTHER,0.666667,5,0,50,False,4.97174,0,0.938257
+of all time,3,4,6,SHOT,0.5,4,0,83,False,4.97174,0,1.65575
+of the great,3,6,6,JUDGE,1,6,1,20,False,4.97174,0.559378,0.386341
+of the middle,3,5,6,OTHER,0.5,5,0,6,False,4.97174,0,0.110383
+of the racket,3,3,6,SHOT,1,3,0,0,True,4.97174,0,0
+oh my goodness,3,4,6,OTHER,0.5,4,0,11,False,4.97174,0,0.202369
+on this court,3,3,6,SHOT,0.333333,4,0,84,False,5.80037,0,1.71094
+one of the things that,5,4,6,OTHER,0.666667,4,0,50,False,4.97174,0,0.938257
+over the course,3,5,6,STAT,0.5,5,0,48,False,4.97174,0,0.91986
+over the course of,4,5,6,STAT,0.5,5,0,47,False,4.97174,0,0.901463
+second set <num>,3,5,6,SCORE,0.666667,5,1,18,False,4.97174,0.559378,0.33115
+see if he,3,4,6,OTHER,0.833333,4,0,24,False,4.97174,0,0.441533
+sets to <num> down,4,3,6,SCORE,1,3,0,26,False,4.97174,0,0.533519
+she's got to,3,4,6,JUDGE,1,4,0,6,False,4.97174,0,0.110383
+shot and then,3,4,6,SHOT,1,4,1,16,False,4.97174,0.559378,0.294355
+six games to two,4,4,6,OTHER,1,4,0,0,True,4.97174,0,0
+something a little,3,4,6,OTHER,0.333333,4,0,24,False,4.97174,0,0.441533
+something that <name>,3,3,6,OTHER,0.5,3,1,3,False,4.97174,0.559378,0.0551916
+stage of the,3,4,6,OTHER,0.333333,5,1,75,False,5.80037,0.559378,1.41658
+stage of the match,4,5,6,OTHER,0.333333,5,0,17,False,4.97174,0,0.312752
+take the ball,3,4,6,OTHER,1,5,1,60,False,5.80037,0.559378,1.14063
+talked about the,3,4,6,OTHER,0.833333,4,0,17,False,4.97174,0,0.312752
+that drop shot,3,5,6,SHOT,1,5,0,1,True,4.97174,0,0.0183972
+that's what <name>,3,4,6,OTHER,0.5,4,0,2,False,4.97174,0,0.0367944
+the ability to,3,5,6,OTHER,0.666667,7,1,48,False,8.28624,0.559378,0.901463
+the call on,3,3,6,OFFICIAL,1,3,0,1,True,4.97174,0,0.0183972
+the call on the,4,3,6,OFFICIAL,1,3,0,1,True,4.97174,0,0.0183972
+the return of,3,4,6,SHOT,1,5,2,25,False,5.80037,1.11876,0.515121
+the return was,3,5,6,SHOT,1,5,0,9,False,4.97174,0,0.165575
+the side of,3,5,6,OTHER,0.666667,5,1,44,False,4.97174,0.559378,0.827874
+the side of the,4,5,6,OTHER,0.5,5,1,24,False,4.97174,0.559378,0.441533
+the slice backhand,3,4,6,SHOT,1,4,0,5,False,4.97174,0,0.091986
+there you go,3,6,6,SHOT,0.333333,6,0,37,False,4.97174,0,0.699093
+those first two,3,3,6,SHOT,0.666667,3,0,19,False,4.97174,0,0.367944
+three hours and <num>,4,4,6,STAT,1,4,0,3,False,4.97174,0,0.0551916
+three hours and <num> minutes,5,4,6,STAT,1,4,0,3,False,4.97174,0,0.0551916
+time away from,3,5,6,OTHER,0.5,5,1,34,False,4.97174,0.559378,0.643902
+to <num> down,3,3,6,SCORE,1,3,0,26,False,4.97174,0,0.533519
+to his right,3,5,6,OTHER,0.833333,5,0,1,True,4.97174,0,0.0183972
+two games all,3,5,6,SCORE,1,5,0,2,False,4.97174,0,0.0367944
+two sets to <num> down,5,3,6,SCORE,1,3,0,26,False,4.97174,0,0.533519
+using the slice,3,4,6,SHOT,1,4,0,1,True,4.97174,0,0.0183972
+was trying to play,4,2,6,SHOT,0.833333,3,0,55,False,5.80037,0,1.01185
+went down the,3,5,6,SHOT,1,5,0,7,False,4.97174,0,0.147178
+what we're seeing,3,6,6,OTHER,0.5,6,0,1,True,4.97174,0,0.0183972
+when you look at,4,5,6,OTHER,0.333333,5,0,37,False,4.97174,0,0.772682
+<name> <name> at,3,4,5,OTHER,0.4,4,1,2,False,4.14312,0.559378,0.0367944
+<name> <name> leads,3,5,5,SCORE,0.8,5,0,0,True,4.14312,0,0
+<name> <name> the,3,3,5,STAT,0.4,3,0,3,False,4.14312,0,0.0551916
+<name> did not,3,5,5,SCORE,0.6,5,0,1,True,4.14312,0,0.0183972
+<name> in the last,4,5,5,SHOT,0.4,5,1,2,False,4.14312,0.559378,0.0367944
+<name> leading <num>,3,5,5,OTHER,0.2,5,0,0,True,4.14312,0,0
+<name> leads by two games to one,7,3,5,SCORE,1,3,0,0,True,4.14312,0,0
+<name> of course,3,4,5,OTHER,0.8,4,0,12,False,4.14312,0,0.220766
+<name> this is,3,4,5,JUDGE,0.4,4,1,7,False,4.14312,0.559378,0.12878
+<name> was going to,4,4,5,OTHER,0.6,4,0,5,False,4.14312,0,0.091986
+<num> <name> <name>,3,4,5,OTHER,0.4,4,0,2,False,4.14312,0,0.0367944
+<num> <num> oh,3,4,5,SCORE,0.8,4,0,1,True,4.14312,0,0.0183972
+<num> <num> second set,4,3,5,JUDGE,0.4,3,0,5,False,4.14312,0,0.091986
+<num> in the opening,4,5,5,SCORE,0.4,5,2,0,False,4.14312,1.11876,0
+<num> kilometers an,3,4,5,STAT,1,4,0,10,False,4.14312,0,0.183972
+<num> kilometers an hour,4,4,5,STAT,1,4,0,10,False,4.14312,0,0.183972
+<num> of them,3,5,5,OTHER,0.4,5,1,15,False,4.14312,0.559378,0.275958
+<num> out of,3,4,5,SHOT,0.4,4,1,23,False,4.14312,0.559378,0.45993
+a bad day,3,2,5,JUDGE,1,3,0,77,False,4.97174,0,1.54536
+a combination of,3,2,5,JUDGE,0.4,3,0,80,False,4.97174,0,1.50857
+a couple of years,4,4,5,STAT,1,4,0,79,False,4.14312,0,1.50857
+a good point,3,3,5,JUDGE,1,3,0,52,False,4.14312,0,0.956654
+a great shot,3,4,5,SHOT,1,4,0,20,False,4.14312,0,0.423136
+a way to get,4,5,5,OTHER,0.8,5,1,55,False,4.14312,0.559378,1.04864
+able to find,3,5,5,OTHER,0.6,6,0,56,False,6.62899,0,1.06704
+an awful lot of,4,4,5,JUDGE,1,4,0,3,False,4.14312,0,0.0551916
+an example of,3,5,5,OTHER,0.6,5,0,7,False,4.14312,0,0.12878
+an opportunity for,3,4,5,SHOT,0.4,4,2,25,False,4.14312,1.11876,0.45993
+and <name> was,3,5,5,SHOT,0.6,5,0,11,False,4.14312,0,0.202369
+as well <name>,3,4,5,OTHER,1,4,0,6,False,4.14312,0,0.110383
+as well as he,4,4,5,OTHER,0.4,4,0,34,False,4.14312,0,0.643902
+at this stage of,4,4,5,OTHER,0.6,4,1,57,False,4.14312,0.559378,1.06704
+australian open title,3,4,5,STAT,1,4,0,1,True,4.14312,0,0.0183972
+away from his,3,4,5,OTHER,0.6,4,2,6,False,4.14312,1.11876,0.110383
+awful lot of,3,4,5,JUDGE,1,4,0,3,False,4.14312,0,0.0551916
+both of these players,4,3,5,SHOT,0.4,3,1,2,False,4.14312,0.559378,0.0367944
+but he's got,3,4,5,SHOT,0.4,4,0,12,False,4.14312,0,0.220766
+but look at,3,4,5,OTHER,0.6,4,0,6,False,4.14312,0,0.12878
+by four games,3,4,5,SCORE,0.6,4,0,0,True,4.14312,0,0
+by four games to,4,4,5,SCORE,0.6,4,0,0,True,4.14312,0,0
+by six games to two,5,3,5,OTHER,1,3,0,0,True,4.14312,0,0
+by the time,3,4,5,OTHER,0.6,4,0,70,False,4.14312,0,1.343
+can't help thinking,3,3,5,OTHER,0.6,3,0,0,True,4.14312,0,0
+coming into this match,4,3,5,OTHER,0.4,3,0,11,False,4.14312,0,0.220766
+cross court and,3,4,5,SHOT,1,4,0,8,False,4.14312,0,0.165575
+down two sets,3,5,5,SCORE,0.8,5,0,49,False,4.14312,0,0.975051
+fact that he,3,4,5,SHOT,0.4,4,0,31,False,4.14312,0,0.58871
+feel like he's,3,3,5,JUDGE,1,3,0,23,False,4.14312,0,0.423136
+feels like it's,3,4,5,JUDGE,1,4,1,21,False,4.14312,0.559378,0.386341
+first set in a,4,3,5,OTHER,0.6,3,1,4,False,4.14312,0.559378,0.0735888
+for <name> in the,4,4,5,STAT,0.4,4,0,1,True,4.14312,0,0.0183972
+for <name> is,3,4,5,SHOT,0.4,4,1,5,False,4.14312,0.559378,0.091986
+for <name> it's,3,5,5,SHOT,0.4,5,1,3,False,4.14312,0.559378,0.0551916
+for the title,3,4,5,STAT,1,4,0,18,False,4.14312,0,0.33115
+from <name> i,3,5,5,JUDGE,0.6,5,1,2,False,4.14312,0.559378,0.0367944
+from two sets to <num>,5,3,5,SCORE,1,3,0,26,False,4.14312,0,0.496724
+from two sets to <num> down,6,3,5,SCORE,1,3,0,12,False,4.14312,0,0.220766
+getting the ball,3,5,5,SHOT,0.4,5,1,12,False,4.14312,0.559378,0.220766
+go down the,3,5,5,SHOT,0.8,5,0,18,False,4.14312,0,0.349547
+goes to the,3,5,5,STAT,0.4,5,0,20,False,4.14312,0,0.386341
+going to get a,4,5,5,SHOT,0.4,5,0,43,False,4.14312,0,0.791079
+had to work,3,4,5,JUDGE,0.6,4,1,62,False,4.14312,0.559378,1.21421
+he can hit,3,4,5,SHOT,1,4,0,47,False,4.14312,0,0.883065
+he had <num>,3,5,5,SCORE,0.6,5,0,13,False,4.14312,0,0.239164
+he needed to,3,3,5,JUDGE,1,3,1,56,False,4.14312,0.559378,1.04864
+he was <num>,3,4,5,OTHER,0.6,5,2,48,False,4.97174,1.11876,0.901463
+he was looking,3,2,5,OTHER,0.6,2,0,14,False,4.14312,0,0.257561
+he's a little bit,4,4,5,JUDGE,1,4,0,13,False,4.14312,0,0.239164
+herself out of trouble,4,3,5,SHOT,0.4,3,1,0,True,4.14312,0.559378,0
+high percentage of,3,4,5,STAT,1,5,0,59,False,4.97174,0,1.10383
+his ground strokes,3,2,5,SHOT,1,2,1,0,True,4.14312,0.559378,0
+how good is,3,3,5,JUDGE,1,3,0,10,False,4.14312,0,0.202369
+i just wonder whether,4,3,5,OTHER,0.6,3,0,0,True,4.14312,0,0
+i think he's got,4,4,5,JUDGE,1,4,0,31,False,4.14312,0,0.58871
+in his career,3,4,5,STAT,1,5,1,68,False,4.97174,0.559378,1.25101
+in terms of the,4,4,5,JUDGE,0.8,5,0,87,False,4.97174,0,1.63735
+in that opening,3,4,5,OTHER,0.4,4,1,0,True,4.14312,0.559378,0
+in the <num>,3,3,5,SCORE,0.6,9,2,80,False,12.4294,1.11876,1.60056
+in the open era,4,5,5,OTHER,0.6,5,0,1,True,4.14312,0,0.0183972
+in this opening set,4,5,5,OTHER,0.6,7,2,0,False,5.80037,1.11876,0
+into the backhand,3,4,5,SHOT,1,4,0,3,False,4.14312,0,0.0551916
+into this final,3,4,5,SCORE,0.4,4,0,3,False,4.14312,0,0.0551916
+is a game,3,4,5,OTHER,0.8,4,1,12,False,4.14312,0.559378,0.220766
+is that <name>,3,4,5,OTHER,0.6,4,1,1,True,4.14312,0.559378,0.0183972
+it was almost,3,5,5,OTHER,0.6,5,0,38,False,4.14312,0,0.699093
+it's a break,3,3,5,OTHER,0.6,3,2,2,False,4.14312,1.11876,0.0367944
+it's got to,3,4,5,JUDGE,1,4,0,27,False,4.14312,0,0.515121
+just to give,3,3,5,SHOT,0.4,3,0,12,False,4.14312,0,0.220766
+last <num> minutes,3,3,5,STAT,1,3,2,5,False,4.14312,1.11876,0.091986
+last time he,3,4,5,OTHER,0.6,4,0,5,False,4.14312,0,0.091986
+leads four games,3,4,5,SCORE,0.8,4,0,0,True,4.14312,0,0
+leads four games to,4,4,5,SCORE,0.8,4,0,0,True,4.14312,0,0
+like to see,3,2,5,SHOT,0.8,7,1,102,False,9.11486,0.559378,2.07888
+looked a little,3,4,5,SHOT,0.4,4,1,13,False,4.14312,0.559378,0.239164
+men's singles final,3,3,5,OTHER,0.6,3,0,0,True,4.14312,0,0
+middle of the court and,5,3,5,SHOT,0.6,3,0,10,False,4.14312,0,0.183972
+needed to be,3,5,5,JUDGE,1,5,0,54,False,4.14312,0,1.08543
+needs to play,3,5,5,JUDGE,1,5,0,9,False,4.14312,0,0.165575
+now in this,3,5,5,OTHER,0.6,5,1,21,False,4.14312,0.559378,0.386341
+number one player,3,4,5,STAT,1,4,0,1,True,4.14312,0,0.0183972
+number one ranking,3,4,5,STAT,1,4,0,0,True,4.14312,0,0
+of course <name>,3,3,5,JUDGE,0.4,3,0,23,False,4.14312,0,0.441533
+of that rally,3,4,5,SHOT,1,4,0,1,True,4.14312,0,0.0183972
+of the court it's,4,5,5,SHOT,0.4,6,2,15,False,4.97174,1.11876,0.275958
+of these players,3,3,5,SHOT,0.4,3,1,22,False,4.14312,0.559378,0.423136
+off the backhand side,4,4,5,SHOT,1,4,0,2,False,4.14312,0,0.0367944
+oh that was,3,3,5,OTHER,0.4,3,0,7,False,4.14312,0,0.12878
+on that first,3,3,5,SHOT,0.8,3,0,12,False,4.14312,0,0.220766
+on that forehand side,4,4,5,SHOT,1,4,0,1,True,4.14312,0,0.0183972
+on that second,3,5,5,SHOT,1,5,0,4,False,4.14312,0,0.0735888
+on that second serve,4,5,5,SHOT,1,5,0,2,False,4.14312,0,0.0367944
+on that shot,3,3,5,SHOT,1,3,0,17,False,4.14312,0,0.312752
+on the clock,3,3,5,STAT,0.6,3,1,1,True,4.14312,0.559378,0.0183972
+on the edge of,4,5,5,CROWD,0.6,5,1,6,False,4.14312,0.559378,0.110383
+on the second serve,4,4,5,SHOT,1,8,2,74,False,8.28624,1.11876,1.37979
+on the side,3,3,5,JUDGE,0.4,5,1,66,False,5.80037,0.559378,1.25101
+on the side of,4,4,5,JUDGE,0.4,4,1,23,False,4.14312,0.559378,0.441533
+on the side of the,5,4,5,JUDGE,0.4,4,1,13,False,4.14312,0.559378,0.239164
+on top of the,4,2,5,SHOT,1,3,1,53,False,6.62899,0.559378,1.03024
+one of the great,4,5,5,JUDGE,1,5,1,12,False,4.14312,0.559378,0.220766
+open in <num>,3,4,5,OTHER,0.8,4,0,14,False,4.14312,0,0.257561
+open up the court,4,5,5,JUDGE,0.6,5,2,17,False,4.14312,1.11876,0.312752
+second serve <num>,3,4,5,SHOT,0.8,4,0,4,False,4.14312,0,0.0735888
+second serve for,3,4,5,SHOT,1,4,1,5,False,4.14312,0.559378,0.091986
+second serve in,3,4,5,SHOT,1,4,2,12,False,4.14312,1.11876,0.220766
+see if he can,4,3,5,OTHER,0.6,3,0,10,False,4.14312,0,0.183972
+she can get,3,4,5,OTHER,0.4,4,0,12,False,4.14312,0,0.220766
+she was <num>,3,4,5,OTHER,0.8,4,1,31,False,4.14312,0.559378,0.607107
+so close to,3,4,5,SHOT,1,5,1,56,False,4.97174,0.559378,1.03024
+so close to the,4,4,5,SHOT,1,4,0,16,False,4.14312,0,0.294355
+spin on it,3,5,5,SHOT,1,5,1,16,False,4.14312,0.559378,0.294355
+take a bit,3,3,5,SHOT,0.6,3,1,27,False,4.14312,0.559378,0.515121
+terms of the,3,4,5,JUDGE,0.8,5,0,88,False,4.97174,0,1.65575
+thank you ladies,3,3,5,OFFICIAL,1,3,0,0,True,4.14312,0,0
+thank you ladies and,4,3,5,OFFICIAL,1,3,0,0,True,4.14312,0,0
+thank you ladies and gentlemen,5,3,5,OFFICIAL,1,3,0,0,True,4.14312,0,0
+that backhand down,3,4,5,SHOT,1,4,0,2,False,4.14312,0,0.0367944
+that backhand down the,4,4,5,SHOT,1,4,0,2,False,4.14312,0,0.0367944
+that backhand down the line,5,4,5,SHOT,1,4,0,2,False,4.14312,0,0.0367944
+that first point,3,5,5,JUDGE,0.4,5,1,7,False,4.14312,0.559378,0.12878
+that forehand and,3,4,5,SHOT,1,4,0,8,False,4.14312,0,0.147178
+that he's got,3,4,5,JUDGE,0.6,4,0,13,False,4.14312,0,0.239164
+that last one,3,5,5,SHOT,0.4,5,0,2,False,4.14312,0,0.0367944
+that opening set,3,4,5,OTHER,0.4,4,1,0,True,4.14312,0.559378,0
+that we've seen,3,5,5,OTHER,0.6,5,0,2,False,4.14312,0,0.0367944
+that's exactly what,3,4,5,OTHER,0.6,6,2,46,False,5.80037,1.11876,0.846271
+that's the one,3,5,5,SHOT,0.4,5,0,47,False,4.14312,0,0.864668
+the <name> <name>,3,5,5,OTHER,0.4,5,1,6,False,4.14312,0.559378,0.110383
+the backhand cross,3,4,5,SHOT,1,4,0,4,False,4.14312,0,0.0735888
+the backhand cross court,4,4,5,SHOT,1,4,0,2,False,4.14312,0,0.0367944
+the ball just,3,4,5,OTHER,0.4,4,0,29,False,4.14312,0,0.533519
+the ball that,3,5,5,OTHER,0.6,5,0,42,False,4.14312,0,0.772682
+the body serve,3,4,5,SHOT,1,4,0,1,True,4.14312,0,0.0183972
+the court he's,3,5,5,OTHER,0.6,5,1,58,False,4.14312,0.559378,1.14063
+the fact that he,4,4,5,SHOT,0.4,4,0,31,False,4.14312,0,0.58871
+the final of the,4,3,5,OTHER,0.8,3,0,37,False,4.14312,0,0.717491
+the first set in a,5,3,5,OTHER,0.6,3,0,1,True,4.14312,0,0.0183972
+the forehand is,3,5,5,SHOT,1,5,0,18,False,4.14312,0,0.33115
+the forehand of,3,4,5,SHOT,1,4,1,0,True,4.14312,0.559378,0
+the forehand to,3,5,5,SHOT,1,5,1,8,False,4.14312,0.559378,0.147178
+the last <num> minutes,4,3,5,STAT,1,3,2,5,False,4.14312,1.11876,0.091986
+the middle of the court and,6,3,5,SHOT,0.6,3,0,10,False,4.14312,0,0.183972
+the one that's,3,4,5,OTHER,0.6,4,0,15,False,4.14312,0,0.275958
+the open era,3,5,5,OTHER,0.6,5,0,2,False,4.14312,0,0.0367944
+the other night,3,4,5,OTHER,1,4,0,33,False,4.14312,0,0.607107
+the pace and,3,3,5,SHOT,1,3,1,20,False,4.14312,0.559378,0.367944
+the return of serve,4,3,5,SHOT,1,3,1,17,False,4.14312,0.559378,0.367944
+the serve to,3,5,5,SHOT,1,5,1,4,False,4.14312,0.559378,0.0735888
+the start of the match,5,4,5,OTHER,0.6,4,1,90,False,4.14312,0.559378,1.69254
+the time he,3,3,5,OTHER,0.6,3,0,31,False,4.14312,0,0.58871
+the two hander,3,4,5,SHOT,0.8,4,0,0,True,4.14312,0,0
+the wind predictor,3,3,5,CROWD,1,3,0,0,True,4.14312,0,0
+these two players,3,3,5,OTHER,0.6,3,0,7,False,4.14312,0,0.165575
+think he's got to,4,3,5,JUDGE,1,3,0,3,False,4.14312,0,0.0551916
+this is going to be a,6,5,5,OTHER,0.6,5,0,17,False,4.14312,0,0.33115
+three games to two,4,4,5,SCORE,0.8,4,0,0,True,4.14312,0,0
+time away from <name>,4,4,5,SHOT,0.4,4,0,0,True,4.14312,0,0
+to face a,3,4,5,SCORE,0.6,4,1,6,False,4.14312,0.559378,0.12878
+to get the ball,4,4,5,JUDGE,0.4,5,2,38,False,4.97174,1.11876,0.699093
+to give you,3,3,5,JUDGE,0.4,3,0,60,False,4.14312,0,1.14063
+to go with,3,4,5,OTHER,0.6,5,1,63,False,4.97174,0.559378,1.19582
+to hit the ball,4,3,5,SHOT,1,5,2,135,False,5.80037,1.11876,2.50202
+to serve and,3,2,5,SHOT,1,4,1,70,False,5.80037,0.559378,1.41658
+to show you,3,3,5,SHOT,0.4,3,0,14,False,4.14312,0,0.257561
+to take that,3,5,5,SHOT,0.4,7,1,72,False,6.62899,0.559378,1.36139
+to this stage,3,4,5,STAT,0.8,4,0,22,False,4.14312,0,0.404738
+to try and get,4,3,5,OTHER,0.8,7,1,73,False,7.45762,0.559378,1.37979
+two service games,3,5,5,OTHER,0.6,6,2,12,False,4.97174,1.11876,0.220766
+want to give,3,3,5,SHOT,0.4,3,0,98,False,4.14312,0,1.80293
+well as he,3,4,5,OTHER,0.4,4,1,34,False,4.14312,0.559378,0.643902
+what a return,3,3,5,SHOT,1,3,0,0,True,4.14312,0,0
+when <name> was,3,3,5,OTHER,0.4,3,0,5,False,4.14312,0,0.091986
+where <name> is,3,4,5,OTHER,0.4,4,1,1,True,4.14312,0.559378,0.0183972
+who's going to,3,3,5,OTHER,0.8,5,1,65,False,5.80037,0.559378,1.343
+with that forehand,3,4,5,SHOT,1,4,0,3,False,4.14312,0,0.0551916
+you can see <name>,4,4,5,OTHER,0.6,4,0,2,False,4.14312,0,0.0367944
+you ladies and,3,3,5,OFFICIAL,1,3,0,0,True,4.14312,0,0
+you ladies and gentlemen,4,3,5,OFFICIAL,1,3,0,0,True,4.14312,0,0
+you see <name>,3,4,5,OTHER,0.6,4,0,14,False,4.14312,0,0.294355
+you talk about,3,4,5,OTHER,0.6,4,0,22,False,4.14312,0,0.45993
+you would expect,3,2,5,OTHER,0.6,2,2,10,False,4.14312,1.11876,0.183972
+<name> <name> a,3,4,4,CROWD,0.25,4,0,2,False,3.3145,0,0.0367944
+<name> <name> here,3,3,4,JUDGE,0.5,3,1,0,True,3.3145,0.559378,0
+<name> <name> needs,3,3,4,JUDGE,1,3,0,0,True,3.3145,0,0
+<name> <name> needs to,4,3,4,JUDGE,1,3,0,0,True,3.3145,0,0
+<name> and it,3,3,4,OTHER,1,3,1,5,False,3.3145,0.559378,0.091986
+<name> and then,3,4,4,OTHER,0.5,4,0,13,False,3.3145,0,0.239164
+<name> has come,3,4,4,SCORE,0.25,4,1,1,True,3.3145,0.559378,0.0183972
+<name> is hitting,3,3,4,SHOT,1,3,2,0,False,3.3145,1.11876,0
+<name> leads <num>,3,3,4,OTHER,1,3,1,0,True,3.3145,0.559378,0
+<name> leads <num> <num>,4,3,4,OTHER,1,3,1,0,True,3.3145,0.559378,0
+<name> leads by three,4,3,4,SCORE,0.75,3,0,0,True,3.3145,0,0
+<name> leads four,3,3,4,SCORE,1,3,0,0,True,3.3145,0,0
+<name> leads four games,4,3,4,SCORE,1,3,0,0,True,3.3145,0,0
+<name> leads four games to,5,3,4,SCORE,1,3,0,0,True,3.3145,0,0
+<name> right now,3,4,4,OTHER,0.5,6,3,4,False,4.97174,1.67813,0.0735888
+<name> was in,3,3,4,OTHER,0.5,4,3,2,False,4.14312,1.67813,0.0367944
+<name> when he's,3,4,4,SHOT,0.5,4,0,5,False,3.3145,0,0.091986
+<name> with the new,4,4,4,OFFICIAL,0.75,4,0,0,True,3.3145,0,0
+<name> would have,3,4,4,OTHER,0.25,4,0,0,True,3.3145,0,0
+<name>'s going to,3,4,4,OTHER,0.5,4,1,3,False,3.3145,0.559378,0.0735888
+<num> <name> <name> has,4,3,4,OFFICIAL,0.5,3,0,0,True,3.3145,0,0
+<num> <num> all,3,4,4,SCORE,0.75,4,1,23,False,3.3145,0.559378,0.423136
+<num> <num> down in,4,3,4,SCORE,0.75,3,1,20,False,3.3145,0.559378,0.386341
+<num> <num> he's,3,3,4,SCORE,0.75,3,0,7,False,3.3145,0,0.12878
+<num> <num> it's a,4,4,4,SCORE,1,4,2,6,False,3.3145,1.11876,0.110383
+<num> <num> there,3,4,4,SCORE,1,4,0,11,False,3.3145,0,0.202369
+<num> in the opening set,5,4,4,SHOT,0.5,4,0,0,True,3.3145,0,0
+<num> minutes on the,4,3,4,STAT,1,3,1,4,False,3.3145,0.559378,0.0735888
+<num> out of <num>,4,3,4,SHOT,0.5,3,1,18,False,3.3145,0.559378,0.367944
+<num> that's a,3,4,4,JUDGE,0.5,4,0,14,False,3.3145,0,0.257561
+<num> to see,3,3,4,SCORE,1,3,0,34,False,3.3145,0,0.662299
+<num> years of age,4,3,4,STAT,1,3,0,4,False,3.3145,0,0.0735888
+a change in,3,2,4,JUDGE,0.75,2,1,12,False,3.3145,0.559378,0.220766
+a few too,3,4,4,SHOT,0.5,4,0,39,False,3.3145,0,0.735888
+a few too many,4,4,4,SHOT,0.5,4,0,39,False,3.3145,0,0.735888
+a fifth set,3,3,4,OTHER,0.5,5,3,40,False,4.97174,1.67813,0.827874
+a final set,3,2,4,SCORE,0.5,2,1,1,True,3.3145,0.559378,0.0183972
+a good job of,4,3,4,JUDGE,1,5,0,92,False,5.80037,0,1.69254
+a good return,3,4,4,SHOT,1,4,0,39,False,3.3145,0,0.735888
+a great play,3,4,4,JUDGE,1,4,0,1,True,3.3145,0,0.0183972
+a hard court,3,3,4,JUDGE,1,3,0,58,False,3.3145,0,1.15902
+a high percentage of,4,4,4,STAT,1,4,0,21,False,3.3145,0,0.404738
+a little short,3,4,4,SHOT,1,4,0,7,False,3.3145,0,0.12878
+a sense of,3,4,4,OTHER,1,4,1,29,False,3.3145,0.559378,0.551916
+a set and three,4,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+a set and three <num>,5,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+after the <name>,3,3,4,SHOT,0.75,3,0,2,False,3.3145,0,0.0367944
+against <name> in,3,4,4,STAT,0.25,5,1,46,False,4.14312,0.559378,0.846271
+all second set,3,4,4,SCORE,1,4,0,1,True,3.3145,0,0.0183972
+allowed him to,3,4,4,OTHER,0.75,4,0,15,False,3.3145,0,0.312752
+an hour and <num>,4,4,4,STAT,1,4,1,14,False,3.3145,0.559378,0.257561
+and gentlemen please,3,3,4,OFFICIAL,0.25,3,0,0,True,3.3145,0,0
+and get the ball,4,4,4,OTHER,0.75,4,0,5,False,3.3145,0,0.091986
+and second serve,3,3,4,SHOT,1,3,1,36,False,3.3145,0.559378,0.662299
+and then <name>,3,4,4,SHOT,0.75,4,0,11,False,3.3145,0,0.202369
+and three <num>,3,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+and time again,3,4,4,JUDGE,0.75,4,0,32,False,3.3145,0,0.58871
+another one of,3,4,4,SHOT,0.5,4,0,8,False,3.3145,0,0.147178
+as soon as he,4,3,4,OTHER,0.5,3,0,17,False,3.3145,0,0.312752
+as well as <name>,4,3,4,OTHER,0.75,3,0,2,False,3.3145,0,0.0367944
+as well when he,4,4,4,OTHER,0.5,4,0,5,False,3.3145,0,0.091986
+at the moment he's,4,3,4,CROWD,0.25,3,2,12,False,3.3145,1.11876,0.220766
+at the start of the match,6,3,4,OTHER,0.5,3,0,36,False,3.3145,0,0.680696
+at this stage of the,5,3,4,OTHER,0.5,3,1,32,False,3.3145,0.559378,0.58871
+back end of,3,3,4,OTHER,0.5,3,2,6,False,3.3145,1.11876,0.110383
+back in behind,3,3,4,SHOT,0.5,3,0,1,True,3.3145,0,0.0183972
+back to that,3,4,4,OTHER,1,4,0,51,False,3.3145,0,0.938257
+ball striking and,3,4,4,JUDGE,0.75,4,0,2,False,3.3145,0,0.0367944
+be a winner,3,4,4,SHOT,1,4,1,20,False,3.3145,0.559378,0.367944
+beat him in,3,3,4,OTHER,0.5,3,0,44,False,3.3145,0,0.846271
+because <name> has,3,3,4,OTHER,0.75,3,1,1,True,3.3145,0.559378,0.0183972
+been <num> <num>,3,3,4,SCORE,0.5,3,0,19,False,3.3145,0,0.349547
+been the case,3,4,4,JUDGE,0.5,4,0,41,False,3.3145,0,0.754285
+beginning of this,3,3,4,OTHER,0.75,3,0,33,False,3.3145,0,0.607107
+between first and,3,3,4,SHOT,1,3,0,8,False,3.3145,0,0.147178
+between first and second,4,3,4,SHOT,1,3,0,8,False,3.3145,0,0.147178
+billie jean king,3,3,4,OTHER,0.75,3,0,25,False,3.3145,0,0.478327
+both of these guys,4,3,4,SHOT,0.5,3,0,3,False,3.3145,0,0.0551916
+break <num> <num>,3,4,4,SCORE,0.25,4,0,3,False,3.3145,0,0.0551916
+break point saved,3,3,4,SCORE,1,3,0,0,True,3.3145,0,0
+but you could see,4,3,4,OTHER,0.5,3,0,6,False,3.3145,0,0.110383
+by <name> <name>,3,4,4,JUDGE,0.5,4,2,1,False,3.3145,1.11876,0.0183972
+by five games,3,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+by five games to,4,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+by two sets,3,3,4,SCORE,1,3,1,0,True,3.3145,0.559378,0
+by two sets to,4,3,4,SCORE,1,3,1,0,True,3.3145,0.559378,0
+by two sets to one,5,3,4,SCORE,1,3,1,0,True,3.3145,0.559378,0
+came into this,3,4,4,STAT,0.5,4,0,17,False,3.3145,0,0.33115
+closer to the,3,2,4,SHOT,1,5,0,92,False,5.80037,0,1.76613
+come into play,3,3,4,OTHER,0.5,3,0,7,False,3.3145,0,0.12878
+come out to,3,3,4,OTHER,0.5,3,0,15,False,3.3145,0,0.294355
+couldn't quite get,3,4,4,JUDGE,1,4,0,12,False,3.3145,0,0.220766
+couple of sets,3,3,4,OTHER,1,3,0,34,False,3.3145,0,0.643902
+court and then,3,4,4,SHOT,0.5,4,0,57,False,3.3145,0,1.04864
+court to the,3,4,4,SHOT,0.75,4,0,14,False,3.3145,0,0.257561
+don't think <name>,3,4,4,JUDGE,1,4,0,3,False,3.3145,0,0.0551916
+down the line backhand,4,4,4,SHOT,1,4,1,3,False,3.3145,0.559378,0.0551916
+drop shot that was,4,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+drop shot was,3,4,4,SHOT,1,4,1,0,True,3.3145,0.559378,0
+few too many,3,4,4,SHOT,0.5,4,0,42,False,3.3145,0,0.809477
+few unforced errors,3,4,4,SHOT,1,4,0,44,False,3.3145,0,0.827874
+first and second,3,2,4,SHOT,1,4,1,118,False,8.28624,0.559378,2.20766
+first and second serve,4,3,4,SHOT,1,3,1,28,False,3.3145,0.559378,0.515121
+first game second,3,4,4,SCORE,0.5,4,0,1,True,3.3145,0,0.0183972
+first one in,3,4,4,OTHER,0.5,4,1,9,False,3.3145,0.559378,0.165575
+first serve from,3,3,4,SHOT,1,3,1,3,False,3.3145,0.559378,0.0551916
+for <name> to get,4,3,4,OTHER,0.5,4,2,0,False,4.14312,1.11876,0
+for <name> well,3,4,4,OTHER,0.5,4,0,0,True,3.3145,0,0
+for an hour,3,3,4,STAT,1,3,0,43,False,3.3145,0,0.827874
+for an hour and,4,3,4,STAT,1,3,0,13,False,3.3145,0,0.239164
+for the drop,3,3,4,SHOT,0.75,3,1,0,True,3.3145,0.559378,0
+for the drop shot,4,3,4,SHOT,1,3,1,0,True,3.3145,0.559378,0
+forehand and it,3,4,4,SHOT,1,4,2,6,False,3.3145,1.11876,0.110383
+forehand he was,3,4,4,SHOT,1,4,0,6,False,3.3145,0,0.110383
+forehand of <name>,3,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+four games all,3,4,4,SCORE,1,4,0,1,True,3.3145,0,0.0183972
+four games to three,4,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+from a set,3,3,4,OTHER,0.75,3,0,7,False,3.3145,0,0.12878
+game <name> <name>,3,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+games to do,3,3,4,JUDGE,0.5,3,0,0,True,3.3145,0,0
+games to four,3,4,4,SCORE,0.75,4,0,0,True,3.3145,0,0
+get that ball,3,4,4,OTHER,0.5,4,0,2,False,3.3145,0,0.0367944
+get the feeling,3,4,4,OTHER,1,5,2,12,False,4.14312,1.11876,0.220766
+get to this stage,4,4,4,STAT,0.75,4,0,14,False,3.3145,0,0.257561
+give him the,3,4,4,SHOT,0.75,4,1,36,False,3.3145,0.559378,0.680696
+going to be a winner,5,4,4,SHOT,1,4,0,7,False,3.3145,0,0.12878
+going to need to,4,4,4,JUDGE,1,4,0,30,False,3.3145,0,0.58871
+going to serve,3,3,4,SHOT,1,4,1,50,False,4.14312,0.559378,0.975051
+going up the,3,2,4,SHOT,0.5,2,0,10,False,3.3145,0,0.183972
+good as <name>,3,3,4,JUDGE,1,5,3,6,False,4.97174,1.67813,0.110383
+good job of,3,3,4,JUDGE,1,7,0,122,False,7.45762,0,2.26286
+got to get,3,3,4,JUDGE,1,8,0,125,False,7.45762,0,2.33644
+got to say,3,4,4,JUDGE,1,4,0,11,False,3.3145,0,0.220766
+had <num> <num>,3,4,4,SCORE,1,5,0,68,False,5.80037,0,1.3062
+had a bit,3,4,4,SHOT,0.5,5,1,74,False,4.14312,0.559378,1.43498
+has come out,3,4,4,OTHER,0.5,4,1,0,True,3.3145,0.559378,0
+has got to,3,4,4,JUDGE,1,4,0,4,False,3.3145,0,0.0735888
+haven't seen that,3,3,4,SHOT,0.5,3,0,12,False,3.3145,0,0.239164
+he gets that,3,4,4,OTHER,0.75,4,0,2,False,3.3145,0,0.0367944
+he goes to,3,4,4,STAT,0.5,4,0,11,False,3.3145,0,0.202369
+he goes to the,4,4,4,STAT,0.5,4,0,5,False,3.3145,0,0.091986
+he hit it,3,4,4,SHOT,1,4,0,14,False,3.3145,0,0.275958
+he i mean,3,4,4,JUDGE,0.75,4,0,3,False,3.3145,0,0.0551916
+he knows how,3,4,4,JUDGE,1,5,1,69,False,4.14312,0.559378,1.39819
+he knows that,3,4,4,JUDGE,1,4,0,33,False,3.3145,0,0.643902
+he lost the,3,3,4,OTHER,0.5,3,0,16,False,3.3145,0,0.294355
+he made it,3,4,4,OTHER,0.75,4,0,24,False,3.3145,0,0.441533
+he was going for,4,4,4,STAT,0.5,4,0,36,False,3.3145,0,0.680696
+he was going to,4,3,4,SHOT,0.5,6,0,100,False,6.62899,0,2.00529
+he's going to have,4,4,4,JUDGE,1,4,0,34,False,3.3145,0,0.625505
+he's got out,3,3,4,OTHER,0.5,3,0,0,True,3.3145,0,0
+he's got out of,4,3,4,JUDGE,0.75,3,0,0,True,3.3145,0,0
+he's got that,3,4,4,JUDGE,0.75,4,0,12,False,3.3145,0,0.220766
+he's got to get,4,4,4,JUDGE,1,4,0,1,True,3.3145,0,0.0183972
+he's just trying,3,4,4,OTHER,0.5,4,0,0,True,3.3145,0,0
+he's just trying to,4,4,4,OTHER,0.5,4,0,0,True,3.3145,0,0
+he's made it,3,3,4,OTHER,1,3,0,2,False,3.3145,0,0.0367944
+he's the one,3,4,4,OTHER,0.75,4,0,29,False,3.3145,0,0.551916
+heck of a,3,3,4,OTHER,0.75,3,0,4,False,3.3145,0,0.0735888
+here in <num>,3,3,4,OTHER,0.5,5,0,48,False,4.97174,0,0.883065
+his ability to,3,3,4,SHOT,0.75,3,0,6,False,3.3145,0,0.110383
+his first major,3,4,4,STAT,1,4,0,4,False,3.3145,0,0.0735888
+his side of,3,2,4,OTHER,0.5,2,1,3,False,3.3145,0.559378,0.0551916
+his side of the,4,2,4,SHOT,0.5,2,1,2,False,3.3145,0.559378,0.0367944
+hour and <num>,3,4,4,STAT,1,4,1,27,False,3.3145,0.559378,0.533519
+hour and a,3,4,4,STAT,1,4,0,63,False,3.3145,0,1.17742
+hour and a half,4,4,4,STAT,1,4,0,63,False,3.3145,0,1.17742
+hours <num> minutes,3,4,4,STAT,1,4,1,17,False,3.3145,0.559378,0.33115
+i can't help thinking,4,3,4,OTHER,0.5,3,0,0,True,3.3145,0,0
+i just wonder if,4,3,4,OTHER,1,3,0,0,True,3.3145,0,0
+i mean that was,4,3,4,SHOT,0.25,3,0,67,False,3.3145,0,1.23261
+i should say,3,4,4,JUDGE,1,4,0,22,False,3.3145,0,0.404738
+i think he's got to,5,3,4,JUDGE,1,3,0,1,True,3.3145,0,0.0183972
+if he's going,3,3,4,OTHER,0.5,3,0,36,False,3.3145,0,0.699093
+if he's going to,4,3,4,OTHER,0.25,3,0,36,False,3.3145,0,0.699093
+in men's tennis,3,4,4,OTHER,0.5,4,0,16,False,3.3145,0,0.294355
+in that opening set,4,3,4,SHOT,0.25,3,1,0,True,3.3145,0.559378,0
+in that second set,4,4,4,OTHER,0.5,4,1,90,False,3.3145,0.559378,1.67414
+in these rallies,3,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+in this match that,4,4,4,SHOT,0.5,4,0,0,True,3.3145,0,0
+in this point,3,3,4,SHOT,0.5,3,0,8,False,3.3145,0,0.147178
+into play and,3,3,4,SHOT,0.5,3,0,9,False,3.3145,0,0.165575
+is a high,3,4,4,JUDGE,0.25,4,1,1,True,3.3145,0.559378,0.0183972
+is bigger than,3,3,4,SHOT,0.5,3,0,8,False,3.3145,0,0.165575
+is going to be a,5,4,4,JUDGE,0.5,7,0,96,False,5.80037,0,1.80293
+it feels like it's,4,3,4,JUDGE,1,3,1,9,False,3.3145,0.559378,0.165575
+it hit the,3,4,4,SHOT,1,4,0,15,False,3.3145,0,0.275958
+it's the right,3,3,4,SHOT,1,3,0,37,False,3.3145,0,0.717491
+just a couple of,4,4,4,SHOT,0.5,5,1,33,False,4.14312,0.559378,0.607107
+just to give you,4,3,4,OTHER,0.5,3,0,1,True,3.3145,0,0.0183972
+just wonder if,3,3,4,OTHER,1,3,0,0,True,3.3145,0,0
+ladies and gentlemen please,4,3,4,OFFICIAL,0.25,3,0,0,True,3.3145,0,0
+leading <num> <num>,3,4,4,OTHER,0.25,4,0,17,False,3.3145,0,0.312752
+leads by five games,4,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+leads by five games to,5,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+leads by four,3,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+leads by four games,4,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+leads by four games to,5,4,4,SCORE,0.5,4,0,0,True,3.3145,0,0
+leads by three,3,3,4,SCORE,0.75,3,0,0,True,3.3145,0,0
+look at <name>,3,3,4,OTHER,0.5,3,0,5,False,3.3145,0,0.091986
+looking up at,3,3,4,CROWD,0.5,3,0,5,False,3.3145,0,0.091986
+mean that was,3,3,4,SHOT,0.25,3,0,67,False,3.3145,0,1.23261
+minutes on the,3,3,4,STAT,1,3,1,6,False,3.3145,0.559378,0.110383
+miss from <name>,3,4,4,SCORE,0.5,4,1,0,True,3.3145,0.559378,0
+missed the backhand,3,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+more of that,3,4,4,OTHER,0.5,4,1,13,False,3.3145,0.559378,0.239164
+more of those,3,4,4,JUDGE,0.5,4,0,13,False,3.3145,0,0.239164
+most of them,3,4,4,SHOT,0.5,4,0,40,False,3.3145,0,0.772682
+not a bad,3,4,4,JUDGE,1,4,1,56,False,3.3145,0.559378,1.04864
+not been able,3,3,4,OTHER,0.75,3,2,1,False,3.3145,1.11876,0.0183972
+not been able to,4,3,4,OTHER,0.75,3,2,1,False,3.3145,1.11876,0.0183972
+not sure that,3,4,4,JUDGE,0.75,4,0,11,False,3.3145,0,0.202369
+not the most,3,3,4,SHOT,0.75,3,0,42,False,3.3145,0,0.791079
+now <num> <num>,3,3,4,SCORE,0.75,4,2,3,False,4.14312,1.11876,0.0551916
+number one in,3,3,4,STAT,1,3,1,2,False,3.3145,0.559378,0.0367944
+of <name>'s game,3,4,4,OTHER,0.5,5,2,0,False,4.14312,1.11876,0
+of his forehand,3,4,4,SHOT,1,4,0,3,False,3.3145,0,0.0551916
+of the <name>,3,3,4,OTHER,0.5,3,0,5,False,3.3145,0,0.091986
+of the match <num>,4,3,4,SCORE,0.5,3,2,4,False,3.3145,1.11876,0.0735888
+of the middle of,4,3,4,OTHER,0.5,3,0,3,False,3.3145,0,0.0551916
+of the middle of the,5,3,4,SHOT,0.75,3,0,3,False,3.3145,0,0.0551916
+of their seats,3,3,4,CROWD,1,3,0,0,True,3.3145,0,0
+of these rallies,3,4,4,SHOT,1,4,1,2,False,3.3145,0.559378,0.0367944
+off both sides,3,3,4,SHOT,0.75,3,1,18,False,3.3145,0.559378,0.33115
+off the backhand,3,3,4,SHOT,1,7,2,7,False,8.28624,1.11876,0.147178
+off the first,3,3,4,SHOT,1,3,2,18,False,3.3145,1.11876,0.33115
+off the first serve,4,3,4,SHOT,1,3,1,7,False,3.3145,0.559378,0.12878
+off the frame,3,3,4,SHOT,0.5,3,0,4,False,3.3145,0,0.0735888
+off the racket,3,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+on a hard,3,3,4,JUDGE,1,3,0,32,False,3.3145,0,0.643902
+on a hard court,4,3,4,JUDGE,1,3,0,27,False,3.3145,0,0.551916
+on the back end,4,2,4,OTHER,0.5,2,0,2,False,3.3145,0,0.0367944
+on the previous,3,3,4,OTHER,0.5,3,1,1,True,3.3145,0.559378,0.0183972
+on the second serve return,5,4,4,SHOT,1,4,0,2,False,3.3145,0,0.0367944
+on the side of the court,6,3,4,JUDGE,0.5,3,0,7,False,3.3145,0,0.12878
+on their feet,3,1,4,OTHER,0.5,3,4,4,False,4.97174,2.23751,0.091986
+on top of his,4,3,4,OTHER,0.75,3,0,12,False,3.3145,0,0.220766
+one for <name>,3,3,4,OTHER,0.5,3,0,0,True,3.3145,0,0
+one game all,3,3,4,SCORE,1,3,1,1,True,3.3145,0.559378,0.0183972
+one handed slice,3,3,4,SHOT,1,3,0,1,True,3.3145,0,0.0183972
+one that he,3,4,4,OTHER,0.5,4,0,8,False,3.3145,0,0.147178
+one third set,3,3,4,SCORE,0.75,3,0,0,True,3.3145,0,0
+opening set and,3,4,4,OTHER,0.75,4,1,1,True,3.3145,0.559378,0.0183972
+opening set that,3,4,4,OTHER,1,4,0,0,True,3.3145,0,0
+out of the middle,4,4,4,OTHER,0.5,4,0,1,True,3.3145,0,0.0183972
+out wide on,3,4,4,SHOT,1,4,0,8,False,3.3145,0,0.183972
+out wide to the,4,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+part of his,3,3,4,OTHER,0.75,3,0,27,False,3.3145,0,0.533519
+part of the net,4,4,4,SHOT,1,4,1,1,True,3.3145,0.559378,0.0183972
+point that was,3,4,4,JUDGE,0.75,4,0,18,False,3.3145,0,0.33115
+position in the,3,3,4,STAT,0.25,3,1,26,False,3.3145,0.559378,0.478327
+return by <name>,3,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+right now you,3,3,4,JUDGE,0.5,4,0,80,False,4.14312,0,1.47178
+said he was,3,4,4,OTHER,0.5,4,0,30,False,3.3145,0,0.551916
+second set first,3,4,4,SCORE,0.75,4,0,5,False,3.3145,0,0.091986
+serve <num> <num>,3,4,4,SCORE,0.75,4,0,10,False,3.3145,0,0.183972
+serve first in,3,4,4,SHOT,1,4,2,3,False,3.3145,1.11876,0.0735888
+serve out wide and,4,4,4,SHOT,1,4,1,3,False,3.3145,0.559378,0.0551916
+set and three,3,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+set and three <num>,4,4,4,SCORE,1,4,0,0,True,3.3145,0,0
+set point down,3,4,4,SCORE,1,4,0,4,False,3.3145,0,0.0735888
+set that was,3,4,4,OTHER,0.75,4,1,29,False,3.3145,0.559378,0.533519
+she was able,3,3,4,OTHER,0.5,3,0,42,False,3.3145,0,0.827874
+she was able to,4,3,4,OTHER,0.5,3,0,42,False,3.3145,0,0.827874
+shot <num> <num>,3,3,4,SCORE,0.75,3,0,1,True,3.3145,0,0.0183972
+shot that was,3,4,4,SHOT,1,4,0,7,False,3.3145,0,0.12878
+since he was,3,4,4,OTHER,0.75,4,0,10,False,3.3145,0,0.183972
+slice back and,3,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+so difficult to,3,4,4,JUDGE,1,4,0,25,False,3.3145,0,0.45993
+so much of,3,4,4,OTHER,0.75,4,0,29,False,3.3145,0,0.533519
+soon as he,3,3,4,OTHER,0.5,3,0,18,False,3.3145,0,0.33115
+start of the fourth,4,3,4,OTHER,0.75,3,2,9,False,3.3145,1.11876,0.165575
+start of the match,4,3,4,OTHER,0.75,4,1,96,False,4.14312,0.559378,1.80293
+still trying to,3,4,4,OTHER,0.75,6,1,85,False,4.97174,0.559378,1.65575
+such a good,3,2,4,JUDGE,1,10,0,125,False,17.4011,0,2.33644
+take it early,3,4,4,OTHER,0.5,4,0,9,False,3.3145,0,0.183972
+taking the ball,3,3,4,SHOT,0.5,3,0,35,False,3.3145,0,0.662299
+talked about <name>,3,4,4,OTHER,0.75,4,0,1,True,3.3145,0,0.0183972
+thank you <num>,3,4,4,OFFICIAL,1,4,0,0,True,3.3145,0,0
+thank you <num> <num>,4,4,4,OFFICIAL,1,4,0,0,True,3.3145,0,0
+thank you please thank,4,3,4,OFFICIAL,1,3,0,0,True,3.3145,0,0
+thank you please thank you,5,3,4,OFFICIAL,1,3,0,0,True,3.3145,0,0
+that <name> is going,4,4,4,JUDGE,0.5,4,0,3,False,3.3145,0,0.0551916
+that <name> is going to,5,4,4,JUDGE,0.5,4,0,3,False,3.3145,0,0.0551916
+that <name> would,3,4,4,SHOT,0.5,4,2,1,False,3.3145,1.11876,0.0183972
+that ability to,3,4,4,SCORE,0.25,4,0,3,False,3.3145,0,0.0551916
+that back end,3,2,4,OTHER,0.5,2,0,0,True,3.3145,0,0
+that ball in,3,4,4,JUDGE,0.25,4,0,3,False,3.3145,0,0.0551916
+that cross court,3,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+that far back,3,3,4,SHOT,1,3,0,5,False,3.3145,0,0.110383
+that forehand that,3,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+that he's played,3,3,4,OTHER,0.75,3,0,3,False,3.3145,0,0.0551916
+that he's won,3,4,4,STAT,0.5,4,0,7,False,3.3145,0,0.12878
+that of course,3,3,4,OTHER,0.5,3,0,86,False,3.3145,0,1.58216
+that was <num>,3,4,4,OFFICIAL,0.25,4,0,15,False,3.3145,0,0.275958
+that's the shot,3,3,4,SHOT,1,3,0,2,False,3.3145,0,0.0367944
+the <name> return,3,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+the <num> side,3,3,4,SCORE,1,3,0,21,False,3.3145,0,0.386341
+the angle off,3,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+the backhand return,3,3,4,SHOT,1,3,0,1,True,3.3145,0,0.0183972
+the ball as,3,3,4,SHOT,0.75,4,1,53,False,4.14312,0.559378,0.993449
+the ball deep,3,4,4,SHOT,1,4,1,14,False,3.3145,0.559378,0.275958
+the baseline he's,3,4,4,SHOT,1,4,0,23,False,3.3145,0,0.441533
+the beginning of this,4,3,4,OTHER,0.75,3,0,23,False,3.3145,0,0.423136
+the biggest of,3,4,4,OTHER,0.75,4,0,3,False,3.3145,0,0.0551916
+the cross court,3,4,4,SHOT,1,4,1,2,False,3.3145,0.559378,0.0367944
+the depth of,3,4,4,SHOT,0.75,4,0,9,False,3.3145,0,0.165575
+the drop shot and,4,4,4,SHOT,1,4,1,0,True,3.3145,0.559378,0
+the head to,3,3,4,STAT,0.75,3,0,7,False,3.3145,0,0.147178
+the head to head,4,3,4,STAT,1,3,0,6,False,3.3145,0,0.12878
+the inside in,3,2,4,SHOT,0.75,2,0,0,True,3.3145,0,0
+the last minute,3,4,4,OTHER,0.75,4,0,20,False,3.3145,0,0.386341
+the last time he,4,4,4,SHOT,0.75,4,0,1,True,3.3145,0,0.0183972
+the line there,3,4,4,SHOT,1,4,1,3,False,3.3145,0.559378,0.0551916
+the moment he's,3,3,4,OTHER,0.75,3,2,13,False,3.3145,1.11876,0.239164
+the moment is,3,4,4,OTHER,0.75,4,1,12,False,3.3145,0.559378,0.239164
+the moment that,3,4,4,OTHER,0.5,4,1,21,False,3.3145,0.559378,0.386341
+the number one player,4,3,4,STAT,1,3,0,1,True,3.3145,0,0.0183972
+the other end,3,2,4,OTHER,0.75,5,2,17,False,5.80037,1.11876,0.312752
+the quality of,3,3,4,JUDGE,1,4,2,56,False,4.97174,1.11876,1.12223
+the rhythm of,3,4,4,JUDGE,1,4,1,48,False,3.3145,0.559378,0.91986
+the right shot,3,3,4,SHOT,1,3,0,42,False,3.3145,0,0.772682
+the royal box,3,3,4,CROWD,1,3,1,19,False,3.3145,0.559378,0.423136
+the shot and,3,3,4,SHOT,1,3,2,14,False,3.3145,1.11876,0.257561
+the shot that,3,4,4,SHOT,1,4,1,12,False,3.3145,0.559378,0.220766
+the side of the court,5,3,4,OTHER,0.75,3,0,13,False,3.3145,0,0.239164
+the slice back,3,3,4,SHOT,1,3,0,1,True,3.3145,0,0.0183972
+the speed of,3,3,4,SHOT,0.5,4,1,45,False,4.14312,0.559378,0.846271
+the start of the fourth,5,3,4,OTHER,0.5,3,2,6,False,3.3145,1.11876,0.110383
+the tournament he's,3,3,4,STAT,1,3,0,11,False,3.3145,0,0.202369
+the type of,3,4,4,SHOT,0.5,4,0,61,False,3.3145,0,1.14063
+the u s open,4,3,4,OTHER,0.75,3,0,8,False,3.3145,0,0.147178
+there i mean,3,3,4,JUDGE,0.75,5,0,87,False,4.97174,0,1.61895
+think she needs,3,3,4,JUDGE,1,3,0,1,True,3.3145,0,0.0183972
+think she needs to,4,3,4,JUDGE,1,3,0,1,True,3.3145,0,0.0183972
+this is going,3,3,4,JUDGE,0.75,7,2,69,False,6.62899,1.11876,1.3246
+this match it,3,4,4,OTHER,1,4,2,16,False,3.3145,1.11876,0.294355
+this match that,3,4,4,OTHER,0.5,4,1,14,False,3.3145,0.559378,0.257561
+this point but,3,3,4,OTHER,0.5,3,0,12,False,3.3145,0,0.220766
+this stage of the,4,3,4,OTHER,0.5,3,1,39,False,3.3145,0.559378,0.717491
+this year <name>,3,4,4,STAT,1,4,0,8,False,3.3145,0,0.147178
+thought it was going,4,3,4,JUDGE,1,3,0,42,False,3.3145,0,0.791079
+three games all,3,3,4,SCORE,1,3,0,0,True,3.3145,0,0
+through the middle,3,3,4,OTHER,0.5,3,0,10,False,3.3145,0,0.202369
+time and time,3,4,4,OTHER,0.5,4,0,33,False,3.3145,0,0.607107
+time and time again,4,4,4,JUDGE,0.75,4,0,32,False,3.3145,0,0.58871
+time to be,3,4,4,OTHER,0.5,5,1,59,False,4.97174,0.559378,1.17742
+to a final,3,3,4,SCORE,0.5,3,0,10,False,3.3145,0,0.183972
+to be a winner,4,4,4,SHOT,1,4,1,17,False,3.3145,0.559378,0.312752
+to beat <name>,3,4,4,OTHER,0.5,4,1,39,False,3.3145,0.559378,0.735888
+to control that,3,4,4,JUDGE,0.5,4,0,7,False,3.3145,0,0.12878
+to do <num>,3,3,4,SCORE,0.75,3,0,5,False,3.3145,0,0.091986
+to finish points,3,3,4,OTHER,0.5,3,0,6,False,3.3145,0,0.12878
+to get that ball,4,4,4,OTHER,0.5,4,0,1,True,3.3145,0,0.0183972
+to get those,3,3,4,JUDGE,0.5,3,0,24,False,3.3145,0,0.45993
+to get up,3,4,4,OTHER,0.75,4,0,85,False,3.3145,0,1.58216
+to give him a,4,3,4,OFFICIAL,0.5,3,2,16,False,3.3145,1.11876,0.294355
+to go down,3,3,4,SHOT,0.75,5,1,61,False,4.97174,0.559378,1.14063
+to go down the,4,4,4,SHOT,1,4,0,4,False,3.3145,0,0.0735888
+to his backhand,3,2,4,SHOT,1,2,2,38,False,3.3145,1.11876,0.754285
+to make that,3,4,4,OTHER,0.25,6,0,88,False,4.97174,0,1.63735
+to need to,3,4,4,JUDGE,1,4,0,30,False,3.3145,0,0.58871
+to one second,3,4,4,SCORE,0.75,4,0,0,True,3.3145,0,0
+to open up the,4,4,4,OTHER,0.5,5,2,12,False,4.14312,1.11876,0.220766
+to pull the,3,3,4,SHOT,0.5,3,0,13,False,3.3145,0,0.239164
+to serve first,3,4,4,SHOT,1,4,1,5,False,3.3145,0.559378,0.110383
+to serve first in,4,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+to take the ball,4,3,4,OTHER,1,3,1,26,False,3.3145,0.559378,0.496724
+to that forehand,3,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+to the <name> forehand,4,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+to the back end,4,3,4,SHOT,0.5,3,0,0,True,3.3145,0,0
+to the center,3,3,4,SHOT,0.5,3,0,6,False,3.3145,0,0.110383
+to the drop,3,3,4,SHOT,0.75,3,0,0,True,3.3145,0,0
+to the drop shot,4,3,4,SHOT,1,3,0,0,True,3.3145,0,0
+to work with,3,2,4,OTHER,0.75,5,0,93,False,8.28624,0,1.80293
+top of his,3,3,4,OTHER,0.75,3,1,18,False,3.3145,0.559378,0.33115
+top spin on,3,4,4,SHOT,1,4,0,0,True,3.3145,0,0
+trying to finish,3,4,4,OTHER,0.75,4,0,23,False,3.3145,0,0.423136
+trying to hit,3,3,4,SHOT,1,4,0,65,False,4.14312,0,1.21421
+two games to <num>,4,3,4,SCORE,1,3,0,3,False,3.3145,0,0.0551916
+two sets of,3,3,4,SCORE,0.5,3,0,7,False,3.3145,0,0.12878
+unforced errors in,3,4,4,SHOT,1,4,2,36,False,3.3145,1.11876,0.680696
+up the court,3,2,4,OTHER,1,8,3,36,False,8.28624,1.67813,0.680696
+up two sets,3,3,4,SCORE,1,3,0,37,False,3.3145,0,0.680696
+up two sets to,4,3,4,SCORE,1,3,0,29,False,3.3145,0,0.533519
+we might see,3,4,4,JUDGE,0.5,4,1,3,False,3.3145,0.559378,0.0551916
+we talked about,3,3,4,OTHER,0.75,4,0,40,False,4.14312,0,0.772682
+we've seen the,3,4,4,SHOT,1,4,1,1,True,3.3145,0.559378,0.0183972
+well as <name>,3,3,4,OTHER,0.75,3,1,2,False,3.3145,0.559378,0.0367944
+well he's just,3,3,4,SHOT,0.5,3,0,4,False,3.3145,0,0.0735888
+well this is,3,4,4,OTHER,0.5,5,0,76,False,4.97174,0,1.39819
+well when he,3,4,4,OTHER,0.5,4,1,39,False,3.3145,0.559378,0.735888
+well you can,3,3,4,OTHER,0.75,3,0,47,False,3.3145,0,0.883065
+well you can see,4,3,4,OTHER,0.75,3,0,4,False,3.3145,0,0.0735888
+were talking about,3,4,4,OTHER,0.75,4,0,46,False,3.3145,0,0.883065
+what <name> does,3,4,4,SCORE,0.5,4,0,4,False,3.3145,0,0.0735888
+what <name> is,3,4,4,JUDGE,0.75,4,1,1,True,3.3145,0.559378,0.0183972
+when he got,3,3,4,SHOT,0.5,3,0,25,False,3.3145,0,0.45993
+who won the,3,4,4,OTHER,1,4,0,12,False,3.3145,0,0.220766
+wide to the,3,4,4,SHOT,1,4,0,1,True,3.3145,0,0.0183972
+winning <num> of,3,4,4,SHOT,1,4,0,4,False,3.3145,0,0.0735888
+with a bit,3,3,4,SHOT,0.75,3,1,22,False,3.3145,0.559378,0.404738
+with a little,3,3,4,JUDGE,1,7,1,95,False,6.62899,0.559378,1.78453
+with so much,3,3,4,SHOT,0.5,3,1,22,False,3.3145,0.559378,0.404738
+with the slice,3,3,4,SHOT,1,3,0,21,False,3.3145,0,0.386341
+wow what a,3,2,4,JUDGE,1,3,2,2,False,4.14312,1.11876,0.0367944
+years of age,3,3,4,STAT,1,3,0,4,False,3.3145,0,0.0735888
+you <num> <num>,3,4,4,OFFICIAL,1,4,0,2,False,3.3145,0,0.0367944
+you can tell,3,3,4,JUDGE,0.5,3,1,41,False,3.3145,0.559378,0.827874
+you please thank,3,3,4,OFFICIAL,1,3,0,0,True,3.3145,0,0
+you please thank you,4,3,4,OFFICIAL,1,3,0,0,True,3.3145,0,0
+you see a,3,4,4,SHOT,0.5,4,0,42,False,3.3145,0,0.809477
+you see him,3,4,4,SHOT,0.5,4,0,17,False,3.3145,0,0.312752
+you think that,3,4,4,JUDGE,1,4,0,34,False,3.3145,0,0.625505
+you're talking about,3,4,4,OTHER,0.75,4,0,59,False,3.3145,0,1.12223
+<name> <name> in the,4,3,3,OTHER,0.666667,3,1,2,False,2.48587,0.559378,0.0367944
+<name> <name> so,3,3,3,OTHER,0.666667,3,0,5,False,2.48587,0,0.091986
+<name> couldn't quite,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+<name> feels like,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+<name> had him,3,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+<name> have to,3,3,3,JUDGE,1,3,1,2,False,2.48587,0.559378,0.0367944
+<name> he doesn't,3,3,3,SHOT,0.333333,3,0,3,False,2.48587,0,0.0551916
+<name> here in,3,3,3,JUDGE,0.333333,3,0,5,False,2.48587,0,0.091986
+<name> i think that,4,3,3,JUDGE,1,3,0,2,False,2.48587,0,0.0367944
+<name> if he,3,3,3,OTHER,0.666667,3,0,11,False,2.48587,0,0.202369
+<name> in the final,4,3,3,OTHER,0.666667,3,0,14,False,2.48587,0,0.257561
+<name> is at,3,3,3,OTHER,0.333333,3,1,2,False,2.48587,0.559378,0.0367944
+<name> is trying,3,3,3,SHOT,0.333333,3,1,1,True,2.48587,0.559378,0.0183972
+<name> is trying to,4,3,3,SHOT,0.333333,3,1,1,True,2.48587,0.559378,0.0183972
+<name> it was,3,3,3,STAT,0.333333,4,2,20,False,3.3145,1.11876,0.367944
+<name> thank you,3,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+<name> to play,3,3,3,SHOT,0.666667,3,1,3,False,2.48587,0.559378,0.0551916
+<name> to try and,4,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+<name> was a,3,3,3,OTHER,0.333333,3,0,7,False,2.48587,0,0.12878
+<name> was asked,3,3,3,JUDGE,0.333333,3,0,0,True,2.48587,0,0
+<name> was there,3,3,3,OTHER,0.333333,3,0,2,False,2.48587,0,0.0551916
+<name> with the new balls,5,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+<num> <name> leads,3,3,3,SCORE,0.666667,3,0,0,True,2.48587,0,0
+<num> <num> in the opening,5,3,3,SCORE,0.666667,3,0,0,True,2.48587,0,0
+<num> <num> in this,4,3,3,SCORE,0.333333,3,0,1,True,2.48587,0,0.0183972
+<num> <num> lead in this,5,3,3,SCORE,0.666667,3,1,0,True,2.48587,0.559378,0
+<num> <num> there's,3,3,3,SCORE,1,3,1,4,False,2.48587,0.559378,0.0735888
+<num> <num> though,3,3,3,SCORE,1,3,1,0,True,2.48587,0.559378,0
+<num> <num> to the,4,3,3,OTHER,0.666667,3,1,2,False,2.48587,0.559378,0.0367944
+<num> <num> we,3,3,3,SCORE,0.666667,3,1,17,False,2.48587,0.559378,0.312752
+<num> and it's,3,3,3,OTHER,0.333333,3,2,14,False,2.48587,1.11876,0.257561
+<num> lead in this,4,3,3,SCORE,0.666667,3,1,0,True,2.48587,0.559378,0
+<num> miles per,3,2,3,STAT,1,3,0,17,False,3.3145,0,0.33115
+<num> miles per hour,4,2,3,STAT,1,3,0,17,False,3.3145,0,0.33115
+<num> of his first,4,3,3,SHOT,1,3,1,1,True,2.48587,0.559378,0.0183972
+<num> so far,3,3,3,SHOT,0.333333,3,0,2,False,2.48587,0,0.0367944
+<num> that was,3,3,3,SHOT,0.333333,3,0,36,False,2.48587,0,0.662299
+<num> to the,3,3,3,OTHER,0.666667,3,1,10,False,2.48587,0.559378,0.183972
+a <num> <num> lead in this,6,3,3,SCORE,0.666667,3,1,0,True,2.48587,0.559378,0
+a <num> match,3,3,3,STAT,1,3,0,0,True,2.48587,0,0
+a bit more of,4,3,3,JUDGE,0.666667,3,1,15,False,2.48587,0.559378,0.275958
+a few of,3,3,3,OTHER,0.666667,4,1,105,False,3.3145,0.559378,2.00529
+a high percentage,3,3,3,STAT,1,4,0,38,False,3.3145,0,0.717491
+a high percentage of first,5,3,3,STAT,1,3,0,15,False,2.48587,0,0.294355
+a high percentage of first serves,6,3,3,STAT,1,3,0,15,False,2.48587,0,0.294355
+a little bit more of,5,3,3,JUDGE,1,3,0,27,False,2.48587,0,0.496724
+a little bit off,4,3,3,JUDGE,1,3,0,29,False,2.48587,0,0.533519
+a little bit quicker,4,3,3,JUDGE,1,4,0,41,False,3.3145,0,0.772682
+a little off balance,4,3,3,STAT,0.333333,3,0,0,True,2.48587,0,0
+a lot longer,3,3,3,OTHER,0.666667,3,0,28,False,2.48587,0,0.533519
+a lot of pace,4,3,3,SHOT,1,3,0,19,False,2.48587,0,0.349547
+a match that,3,2,3,OTHER,0.666667,3,1,78,False,3.3145,0.559378,1.45338
+a point for,3,3,3,CROWD,0.333333,3,1,2,False,2.48587,0.559378,0.0367944
+a point like,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+a pretty good job,4,3,3,JUDGE,1,3,0,49,False,2.48587,0,0.901463
+a sign of,3,3,3,SCORE,0.333333,4,2,6,False,3.3145,1.11876,0.110383
+a time violation,3,3,3,OFFICIAL,1,3,1,14,False,2.48587,0.559378,0.257561
+able to change,3,3,3,SHOT,0.666667,3,0,21,False,2.48587,0,0.386341
+about these two,3,3,3,OTHER,1,3,0,6,False,2.48587,0,0.110383
+about to say,3,3,3,OTHER,1,3,0,4,False,2.48587,0,0.0735888
+add to that,3,3,3,JUDGE,0.666667,3,0,6,False,2.48587,0,0.110383
+against <name> to,3,3,3,SHOT,1,3,0,7,False,2.48587,0,0.12878
+all four grand,3,3,3,STAT,1,3,0,8,False,2.48587,0,0.147178
+all four grand slam,4,3,3,STAT,1,3,0,1,True,2.48587,0,0.0183972
+almost on the,3,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+an hour and <num> minutes,5,3,3,STAT,1,3,1,10,False,2.48587,0.559378,0.183972
+an hour and a,4,3,3,STAT,1,3,0,34,False,2.48587,0,0.643902
+an hour and a half,5,3,3,STAT,1,3,0,34,False,2.48587,0,0.643902
+an hour serve,3,3,3,STAT,1,3,0,4,False,2.48587,0,0.0735888
+and <name> not,3,3,3,SHOT,0.666667,3,0,2,False,2.48587,0,0.0367944
+and back in,3,3,3,STAT,0.666667,3,0,2,False,2.48587,0,0.0367944
+and dealt with,3,3,3,SHOT,0.333333,3,0,2,False,2.48587,0,0.0367944
+and ended up,3,3,3,OTHER,0.666667,4,0,29,False,3.3145,0,0.533519
+and get the,3,3,3,OTHER,1,4,1,80,False,3.3145,0.559378,1.50857
+and he knows,3,3,3,JUDGE,1,3,0,38,False,2.48587,0,0.699093
+and he needs,3,3,3,JUDGE,1,3,1,4,False,2.48587,0.559378,0.0735888
+and i think he's,4,3,3,JUDGE,1,3,0,31,False,2.48587,0,0.570313
+and i wonder,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+and now he's,3,3,3,JUDGE,0.333333,3,0,22,False,2.48587,0,0.423136
+and see if,3,3,3,OTHER,0.666667,4,0,58,False,3.3145,0,1.08543
+and that's exactly,3,3,3,OTHER,0.333333,3,2,13,False,2.48587,1.11876,0.239164
+and that's exactly what,4,3,3,OTHER,0.333333,3,2,9,False,2.48587,1.11876,0.165575
+and that's what <name>,4,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+and the great,3,3,3,JUDGE,1,3,0,6,False,2.48587,0,0.110383
+and we'll see if,4,3,3,OTHER,1,3,0,6,False,2.48587,0,0.110383
+apart from the,3,3,3,SCORE,0.333333,3,0,23,False,2.48587,0,0.423136
+as fast as,3,3,3,SHOT,0.333333,4,0,61,False,3.3145,0,1.12223
+as well the,3,3,3,OTHER,0.666667,5,0,62,False,4.97174,0,1.15902
+as well when,3,3,3,OTHER,0.333333,4,0,60,False,4.14312,0,1.10383
+ask the question,3,3,3,OTHER,1,3,0,8,False,2.48587,0,0.147178
+at <num> he,3,3,3,SCORE,0.666667,3,1,14,False,2.48587,0.559378,0.257561
+at his box,3,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+at the end of that,5,3,3,OFFICIAL,0.333333,3,0,26,False,2.48587,0,0.478327
+at the start of the fourth,6,3,3,OTHER,0.666667,3,1,0,True,2.48587,0.559378,0
+aware of that,3,2,3,OTHER,0.666667,3,0,65,False,3.3145,0,1.23261
+back from two,3,3,3,SCORE,0.666667,3,0,33,False,2.48587,0,0.607107
+back from two sets,4,3,3,SCORE,0.666667,3,0,28,False,2.48587,0,0.515121
+back into court,3,3,3,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+back into this match,4,2,3,OTHER,1,4,3,0,False,4.14312,1.67813,0
+back on that,3,3,3,SCORE,0.333333,3,0,22,False,2.48587,0,0.404738
+backhand side and,3,3,3,SHOT,1,3,1,12,False,2.48587,0.559378,0.220766
+ball and then,3,2,3,OTHER,0.666667,3,0,15,False,3.3145,0,0.275958
+ball back into play,4,3,3,OTHER,1,3,1,3,False,2.48587,0.559378,0.0551916
+ball in the middle,4,3,3,SHOT,0.666667,3,0,12,False,2.48587,0,0.220766
+ball in the middle of,5,3,3,SHOT,0.666667,3,0,9,False,2.48587,0,0.165575
+ball in the middle of the,6,3,3,SHOT,0.666667,3,0,9,False,2.48587,0,0.165575
+ball you just,3,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+be able to do it,5,3,3,OTHER,1,3,0,33,False,2.48587,0,0.607107
+be the first,3,3,3,OTHER,0.666667,5,1,71,False,4.14312,0.559378,1.343
+been a real,3,3,3,SHOT,0.333333,3,0,5,False,2.48587,0,0.091986
+been a set,3,3,3,SCORE,0.666667,3,0,2,False,2.48587,0,0.0551916
+been able to get,4,3,3,SHOT,0.666667,3,0,18,False,2.48587,0,0.33115
+best drop shot,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+better for <name>,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+bit of shape,3,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+bit off the,3,3,3,SHOT,0.666667,3,1,7,False,2.48587,0.559378,0.12878
+both players but,3,3,3,JUDGE,0.666667,3,1,7,False,2.48587,0.559378,0.12878
+both these two,3,3,3,JUDGE,0.333333,3,0,0,True,2.48587,0,0
+break in the fourth,4,3,3,OTHER,1,3,0,5,False,2.48587,0,0.091986
+break point in,3,3,3,SCORE,1,3,1,14,False,2.48587,0.559378,0.257561
+break point that,3,3,3,SCORE,1,3,1,7,False,2.48587,0.559378,0.12878
+breaks in the,3,3,3,SCORE,0.333333,3,0,31,False,2.48587,0,0.570313
+broken in the,3,3,3,SCORE,1,3,0,24,False,2.48587,0,0.45993
+by <name> he,3,3,3,SHOT,0.666667,3,1,0,True,2.48587,0.559378,0
+call on the,3,2,3,OFFICIAL,1,3,2,1,False,4.97174,1.11876,0.0183972
+can get on,3,3,3,SHOT,0.666667,3,1,21,False,2.48587,0.559378,0.404738
+can get on the,4,3,3,SHOT,0.666667,3,0,6,False,2.48587,0,0.110383
+can hit it,3,3,3,SHOT,1,3,0,24,False,2.48587,0,0.441533
+can see it,3,3,3,OFFICIAL,0.333333,3,0,39,False,2.48587,0,0.735888
+can see the,3,2,3,SHOT,0.333333,3,1,66,False,3.3145,0.559378,1.25101
+can see why,3,3,3,JUDGE,0.333333,3,1,13,False,2.48587,0.559378,0.239164
+chose to play,3,3,3,OTHER,0.666667,3,0,4,False,2.48587,0,0.0735888
+come in on,3,3,3,OFFICIAL,0.333333,3,0,24,False,2.48587,0,0.45993
+come out here,3,3,3,OTHER,0.666667,3,0,25,False,2.48587,0,0.45993
+come up with a,4,3,3,SHOT,0.666667,3,0,60,False,2.48587,0,1.12223
+coming off of,3,3,3,SHOT,0.666667,3,0,11,False,2.48587,0,0.202369
+cool as you,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+cool as you like,4,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+couldn't find a,3,3,3,OTHER,1,3,0,11,False,2.48587,0,0.202369
+course of a,3,3,3,SHOT,0.666667,3,0,16,False,2.48587,0,0.294355
+court when he,3,3,3,SHOT,0.666667,3,0,5,False,2.48587,0,0.091986
+cross court with,3,3,3,SHOT,1,3,2,3,False,2.48587,1.11876,0.0551916
+definitely feels like,3,3,3,JUDGE,1,3,0,2,False,2.48587,0,0.0367944
+depth on the,3,3,3,SHOT,0.333333,3,0,9,False,2.48587,0,0.165575
+didn't go for,3,3,3,SHOT,0.666667,3,0,17,False,2.48587,0,0.33115
+didn't need to,3,3,3,JUDGE,1,3,0,19,False,2.48587,0,0.349547
+do you think that,4,3,3,JUDGE,1,3,0,3,False,2.48587,0,0.0551916
+don't often see,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+don't see that,3,3,3,SHOT,0.666667,3,0,28,False,2.48587,0,0.515121
+down a break,3,3,3,OTHER,0.333333,4,0,72,False,3.3145,0,1.37979
+down to <num>,3,3,3,OTHER,0.666667,3,2,10,False,2.48587,1.11876,0.183972
+edge of their,3,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+edge of their seats,4,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+enough on it,3,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+enough with the,3,3,3,SHOT,1,3,0,5,False,2.48587,0,0.091986
+every now and,3,3,3,OTHER,0.666667,3,0,21,False,2.48587,0,0.386341
+fact that <name>,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+fact that he's,3,3,3,OTHER,0.666667,3,0,14,False,2.48587,0,0.257561
+far in the tournament,4,3,3,STAT,1,3,0,33,False,2.48587,0,0.607107
+feel like he,3,3,3,JUDGE,1,3,0,42,False,2.48587,0,0.809477
+feeling the pressure,3,3,3,JUDGE,1,3,0,12,False,2.48587,0,0.220766
+few of those,3,3,3,OTHER,0.333333,3,0,22,False,2.48587,0,0.404738
+fifth set for,3,3,3,STAT,0.666667,3,0,2,False,2.48587,0,0.0367944
+final for <name>,3,3,3,STAT,1,3,0,1,True,2.48587,0,0.0183972
+first game second set,4,3,3,SCORE,0.666667,3,0,1,True,2.48587,0,0.0183972
+first serve he's,3,3,3,SHOT,1,3,0,3,False,2.48587,0,0.0551916
+first serve in the,4,3,3,SHOT,1,3,1,16,False,2.48587,0.559378,0.294355
+first serve was,3,3,3,SHOT,1,3,0,23,False,2.48587,0,0.423136
+first serves out,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+first set so,3,3,3,JUDGE,0.666667,4,0,64,False,3.3145,0,1.17742
+for <name> i think,4,3,3,JUDGE,1,3,0,1,True,2.48587,0,0.0183972
+for that return,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+for two sets,3,3,3,JUDGE,0.333333,3,1,20,False,2.48587,0.559378,0.367944
+forehand that he,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+four first serves,3,3,3,SHOT,1,3,2,5,False,2.48587,1.11876,0.091986
+four games on,3,3,3,OTHER,0.666667,3,1,2,False,2.48587,0.559378,0.0367944
+four grand slam,3,3,3,STAT,1,3,0,9,False,2.48587,0,0.165575
+four hours <num>,3,3,3,STAT,1,3,0,4,False,2.48587,0,0.091986
+from <name> in this,4,3,3,SHOT,0.666667,3,1,0,True,2.48587,0.559378,0
+from <name> that's,3,3,3,OTHER,0.333333,3,0,0,True,2.48587,0,0
+from that position,3,3,3,SHOT,0.666667,3,0,6,False,2.48587,0,0.110383
+full width of,3,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+full width of the,4,3,3,JUDGE,0.666667,3,1,0,True,2.48587,0.559378,0
+full width of the court,5,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+game he's got,3,3,3,JUDGE,1,3,0,16,False,2.48587,0,0.294355
+game second set,3,3,3,SCORE,0.666667,3,0,4,False,2.48587,0,0.0735888
+game to get,3,3,3,JUDGE,1,3,0,20,False,2.48587,0,0.367944
+games all second,3,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+games all second set,4,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+games to one second,4,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+games to one second set,5,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+gave <name> the,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+gem of a,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+get involved in,3,3,3,SHOT,0.666667,3,1,9,False,2.48587,0.559378,0.183972
+get on top,3,3,3,SHOT,0.333333,3,1,34,False,2.48587,0.559378,0.680696
+get out of this,4,3,3,JUDGE,0.666667,3,0,3,False,2.48587,0,0.0551916
+get the first,3,3,3,SHOT,1,3,0,58,False,2.48587,0,1.08543
+gets out of,3,3,3,OTHER,1,3,1,5,False,2.48587,0.559378,0.091986
+gets to the,3,2,3,OTHER,1,3,2,17,False,3.3145,1.11876,0.312752
+give him the opportunity,4,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+give him the opportunity to,5,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+given how much,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+go cross court,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+go with it,3,3,3,OTHER,0.666667,3,0,25,False,2.48587,0,0.496724
+going to come in,4,3,3,OTHER,0.333333,3,0,20,False,2.48587,0,0.386341
+good news for,3,3,3,JUDGE,1,3,1,23,False,2.48587,0.559378,0.423136
+good use of,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+good use of the,4,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+got a couple,3,3,3,OTHER,0.333333,3,1,30,False,2.48587,0.559378,0.551916
+got a couple of,4,3,3,OTHER,0.333333,3,1,14,False,2.48587,0.559378,0.257561
+got out of the,4,2,3,JUDGE,0.666667,3,0,10,False,3.3145,0,0.183972
+got the ball,3,3,3,OTHER,1,3,0,7,False,2.48587,0,0.147178
+got to give,3,3,3,JUDGE,1,3,1,43,False,2.48587,0.559378,0.791079
+got to make,3,3,3,JUDGE,1,3,0,43,False,2.48587,0,0.791079
+had a bit of,4,3,3,SHOT,0.666667,4,1,64,False,3.3145,0.559378,1.19582
+has been broken,3,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+has to go,3,3,3,JUDGE,1,5,2,36,False,4.14312,1.11876,0.699093
+has to hit,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+has to hit a,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+has to win,3,3,3,JUDGE,1,3,1,43,False,2.48587,0.559378,0.791079
+has to win this,4,3,3,JUDGE,1,3,0,2,False,2.48587,0,0.0367944
+he beat <name>,3,2,3,SHOT,0.333333,3,0,24,False,3.3145,0,0.45993
+he can go,3,3,3,SHOT,0.666667,3,0,35,False,2.48587,0,0.680696
+he can hit it,4,3,3,SHOT,1,3,0,7,False,2.48587,0,0.12878
+he doesn't want to,4,3,3,JUDGE,0.666667,3,0,11,False,2.48587,0,0.202369
+he got a,3,3,3,SCORE,0.333333,4,0,57,False,3.3145,0,1.08543
+he got through,3,3,3,OTHER,0.333333,3,0,9,False,2.48587,0,0.165575
+he had <num> <num>,4,3,3,SCORE,1,3,0,6,False,2.48587,0,0.110383
+he had two,3,3,3,SCORE,0.666667,3,1,16,False,2.48587,0.559378,0.294355
+he hits it,3,3,3,SHOT,1,3,0,11,False,2.48587,0,0.239164
+he is going,3,3,3,SHOT,0.666667,3,1,10,False,2.48587,0.559378,0.183972
+he is going to,4,3,3,SHOT,0.666667,3,1,10,False,2.48587,0.559378,0.183972
+he just looks,3,3,3,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+he knows he's,3,3,3,JUDGE,1,3,0,3,False,2.48587,0,0.0551916
+he missed the,3,3,3,SHOT,1,3,0,10,False,2.48587,0,0.202369
+he needs it,3,3,3,JUDGE,1,3,1,2,False,2.48587,0.559378,0.0367944
+he said after,3,3,3,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+he said it,3,3,3,JUDGE,0.333333,3,0,30,False,2.48587,0,0.570313
+he said it was,4,3,3,JUDGE,0.333333,3,0,15,False,2.48587,0,0.294355
+he was actually,3,3,3,OTHER,1,3,0,19,False,2.48587,0,0.349547
+he was going,3,2,3,JUDGE,0.666667,9,0,161,False,10.7721,0,3.18271
+he was well,3,3,3,STAT,0.666667,3,0,1,True,2.48587,0,0.0183972
+he went down,3,3,3,SHOT,0.666667,3,0,3,False,2.48587,0,0.0551916
+he's a game,3,3,3,OTHER,0.333333,3,0,0,True,2.48587,0,0
+he's able to,3,1,3,SHOT,0.666667,5,3,81,False,6.62899,1.67813,1.69254
+he's going to have to,5,3,3,JUDGE,1,3,0,7,False,2.48587,0,0.12878
+he's going to serve,4,3,3,SHOT,1,3,0,10,False,2.48587,0,0.183972
+he's got to be,4,3,3,JUDGE,1,3,0,15,False,2.48587,0,0.275958
+he's looking for,3,3,3,STAT,0.333333,3,0,8,False,2.48587,0,0.147178
+he's lost a,3,3,3,SHOT,0.333333,3,0,4,False,2.48587,0,0.0735888
+he's on top,3,3,3,OTHER,0.666667,3,0,7,False,2.48587,0,0.147178
+he's on top of,4,3,3,OTHER,0.666667,3,0,7,False,2.48587,0,0.147178
+he's only lost,3,3,3,OTHER,0.333333,3,1,2,False,2.48587,0.559378,0.0367944
+high percentage of first,4,3,3,STAT,1,3,0,36,False,2.48587,0,0.680696
+high percentage of first serves,5,3,3,STAT,1,3,0,34,False,2.48587,0,0.643902
+him the opportunity,3,3,3,SHOT,0.666667,3,0,7,False,2.48587,0,0.12878
+him the opportunity to,4,3,3,SHOT,0.666667,3,0,6,False,2.48587,0,0.110383
+his way through,3,3,3,SHOT,0.333333,3,1,4,False,2.48587,0.559378,0.0735888
+hit a second,3,3,3,SHOT,1,3,0,11,False,2.48587,0,0.202369
+hit a second serve,4,3,3,SHOT,1,3,0,9,False,2.48587,0,0.165575
+hole for <name>,3,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+hour and <num> minutes,4,3,3,STAT,1,3,1,19,False,2.48587,0.559378,0.367944
+how good was,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+how well she's,3,3,3,OTHER,0.333333,3,0,5,False,2.48587,0,0.091986
+i just think he's,4,3,3,JUDGE,1,3,0,9,False,2.48587,0,0.165575
+i was wondering,3,3,3,SHOT,0.333333,3,0,10,False,2.48587,0,0.183972
+i'm not sure that,4,3,3,JUDGE,0.666667,3,0,9,False,2.48587,0,0.165575
+i'm wondering if,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+i've got to say,4,3,3,JUDGE,1,3,0,5,False,2.48587,0,0.091986
+if he hits,3,3,3,SHOT,1,3,0,10,False,2.48587,0,0.183972
+if he loses,3,3,3,STAT,0.333333,3,0,6,False,2.48587,0,0.110383
+if he makes,3,3,3,SHOT,0.666667,3,0,11,False,2.48587,0,0.202369
+if he wins,3,3,3,OTHER,0.666667,3,1,43,False,2.48587,0.559378,0.864668
+in <num> and <num>,4,3,3,OTHER,1,3,0,12,False,2.48587,0,0.220766
+in <num> in,3,3,3,STAT,0.666667,3,0,25,False,2.48587,0,0.45993
+in a major,3,3,3,STAT,1,3,0,10,False,2.48587,0,0.202369
+in that first,3,3,3,JUDGE,0.666667,6,0,90,False,4.97174,0,1.69254
+in that second,3,3,3,OTHER,0.666667,6,1,105,False,4.97174,0.559378,1.9501
+in the air,3,3,3,OTHER,0.666667,4,0,42,False,3.3145,0,0.809477
+in the chair,3,3,3,OFFICIAL,0.333333,3,0,3,False,2.48587,0,0.0551916
+in the context,3,3,3,JUDGE,0.666667,3,1,3,False,2.48587,0.559378,0.0551916
+in the last <num> minutes,5,3,3,STAT,1,3,1,2,False,2.48587,0.559378,0.0367944
+in the nick,3,3,3,OFFICIAL,0.333333,3,0,1,True,2.48587,0,0.0183972
+in the nick of,4,3,3,OFFICIAL,0.333333,3,0,1,True,2.48587,0,0.0183972
+in the nick of time,5,3,3,OFFICIAL,0.333333,3,0,1,True,2.48587,0,0.0183972
+in the previous round,4,3,3,JUDGE,0.666667,3,0,3,False,2.48587,0,0.0551916
+in the way that,4,3,3,OTHER,1,3,0,16,False,2.48587,0,0.294355
+in the zone,3,2,3,JUDGE,0.666667,3,2,28,False,3.3145,1.11876,0.570313
+in this opening,3,3,3,SCORE,0.333333,9,3,0,False,8.28624,1.67813,0
+in this stadium,3,3,3,CROWD,1,3,0,3,False,2.48587,0,0.0551916
+interesting to watch,3,3,3,OTHER,0.666667,3,0,8,False,2.48587,0,0.147178
+into a fifth,3,3,3,OTHER,1,4,2,6,False,3.3145,1.11876,0.110383
+into the forehand of,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+into the space,3,3,3,OTHER,0.666667,3,1,0,True,2.48587,0.559378,0
+is a match,3,3,3,STAT,0.333333,3,0,24,False,2.48587,0,0.478327
+is as good as it,5,3,3,JUDGE,1,3,2,2,False,2.48587,1.11876,0.0367944
+is as good as it gets,6,3,3,JUDGE,1,3,2,1,False,2.48587,1.11876,0.0183972
+is as well,3,3,3,JUDGE,0.333333,3,0,11,False,2.48587,0,0.202369
+is going to need,4,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+is the big,3,3,3,JUDGE,1,3,0,11,False,2.48587,0,0.202369
+it feels like he's,4,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+it thank you,3,3,3,OFFICIAL,1,3,0,2,False,2.48587,0,0.0367944
+it was going long,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+it you see,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+it's been successful,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+it's got a,3,3,3,JUDGE,0.666667,3,0,8,False,2.48587,0,0.165575
+just a couple,3,3,3,JUDGE,0.666667,5,1,67,False,4.14312,0.559378,1.25101
+just think he's,3,3,3,JUDGE,1,3,0,9,False,2.48587,0,0.165575
+just to get the,4,3,3,JUDGE,0.333333,3,0,13,False,2.48587,0,0.239164
+knows he's got,3,3,3,JUDGE,1,3,0,1,True,2.48587,0,0.0183972
+landed on the,3,3,3,SHOT,1,3,0,6,False,2.48587,0,0.12878
+last one was,3,3,3,JUDGE,0.666667,3,0,13,False,2.48587,0,0.239164
+last service game,3,2,3,OTHER,1,4,2,11,False,4.14312,1.11876,0.202369
+let's not forget,3,3,3,OTHER,0.333333,3,0,16,False,2.48587,0,0.294355
+lethal loveliness of,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+like that one,3,3,3,JUDGE,0.333333,3,0,12,False,2.48587,0,0.220766
+line with that,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+little bit more of,4,3,3,JUDGE,1,3,0,28,False,2.48587,0,0.515121
+little bit off,3,3,3,JUDGE,1,3,0,29,False,2.48587,0,0.533519
+little bit quicker,3,3,3,JUDGE,1,4,0,41,False,3.3145,0,0.772682
+little off balance,3,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+look at <name>'s,3,3,3,STAT,0.333333,3,0,0,True,2.48587,0,0
+look at how,3,3,3,CROWD,0.666667,3,0,10,False,2.48587,0,0.220766
+look like he's,3,3,3,OTHER,0.666667,3,1,9,False,2.48587,0.559378,0.165575
+looking after <name>,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+lost the first,3,3,3,OTHER,0.666667,7,0,89,False,5.80037,0,1.65575
+lost the first set,4,3,3,OTHER,0.333333,4,0,62,False,3.3145,0,1.15902
+lot of pace,3,3,3,SHOT,1,3,0,20,False,2.48587,0,0.367944
+major final for,3,3,3,STAT,1,3,0,0,True,2.48587,0,0
+make a decision,3,3,3,JUDGE,0.666667,3,0,33,False,2.48587,0,0.643902
+man in the open,4,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+match has been,3,3,3,SCORE,0.333333,3,1,5,False,2.48587,0.559378,0.091986
+miles per hour,3,2,3,STAT,1,3,0,20,False,3.3145,0,0.386341
+more often than,3,3,3,SHOT,0.666667,3,0,27,False,2.48587,0,0.496724
+more time on,3,3,3,OTHER,0.666667,3,0,30,False,2.48587,0,0.607107
+most of his,3,3,3,OTHER,0.666667,3,1,18,False,2.48587,0.559378,0.349547
+move forward and,3,3,3,OTHER,0.666667,3,0,25,False,2.48587,0,0.45993
+moves so well,3,3,3,JUDGE,0.333333,3,0,12,False,2.48587,0,0.220766
+net when he,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+net which is,3,3,3,SHOT,1,3,1,3,False,2.48587,0.559378,0.0551916
+new balls here,3,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+nick of time,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+not sure <name>,3,3,3,JUDGE,0.333333,3,0,0,True,2.48587,0,0
+now he can,3,3,3,OTHER,0.666667,3,0,4,False,2.48587,0,0.0735888
+number one and,3,2,3,STAT,1,3,2,0,False,3.3145,1.11876,0
+of <name> he,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+of a major,3,3,3,STAT,1,3,0,10,False,2.48587,0,0.183972
+of both players,3,3,3,SHOT,0.666667,3,2,3,False,2.48587,1.11876,0.0551916
+of his best,3,3,3,JUDGE,1,3,0,36,False,2.48587,0,0.662299
+of that <name>,3,3,3,SHOT,0.333333,3,1,1,True,2.48587,0.559378,0.0183972
+of that <num>,3,3,3,SCORE,0.666667,3,0,2,False,2.48587,0,0.0367944
+of the court because,4,3,3,SHOT,0.666667,3,0,6,False,2.48587,0,0.110383
+of the french,3,3,3,STAT,0.333333,3,0,41,False,2.48587,0,0.809477
+of the french open,4,3,3,STAT,0.333333,3,0,18,False,2.48587,0,0.349547
+of the italian,3,3,3,OTHER,0.666667,3,1,1,True,2.48587,0.559378,0.0183972
+of the service,3,3,3,OTHER,0.666667,3,0,8,False,2.48587,0,0.147178
+of the things that,4,2,3,OTHER,0.666667,4,0,77,False,4.97174,0,1.43498
+of these points,3,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+of this court,3,3,3,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+of this final,3,3,3,OTHER,0.333333,3,0,1,True,2.48587,0,0.0183972
+of this game,3,3,3,JUDGE,0.333333,8,3,7,False,7.45762,1.67813,0.12878
+of those points,3,3,3,OTHER,0.666667,3,1,18,False,2.48587,0.559378,0.33115
+off the return and,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+on a <num>,3,3,3,STAT,1,3,0,4,False,2.48587,0,0.0735888
+on a <num> match,4,3,3,STAT,1,3,0,0,True,2.48587,0,0
+on a string,3,3,3,OTHER,0.666667,3,1,2,False,2.48587,0.559378,0.0367944
+on its head,3,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+on that occasion,3,3,3,SHOT,0.666667,3,1,0,True,2.48587,0.559378,0
+on that return,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+on that serve,3,3,3,SHOT,1,3,0,8,False,2.48587,0,0.147178
+on the edge of their,5,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+on the edge of their seats,6,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+once at all,3,3,3,OTHER,1,3,0,0,True,2.48587,0,0
+one <num> <num>,3,3,3,SCORE,0.666667,3,1,6,False,2.48587,0.559378,0.110383
+one and two,3,3,3,SHOT,0.333333,3,0,1,True,2.48587,0,0.0183972
+one break in,3,3,3,OTHER,1,3,0,21,False,2.48587,0,0.386341
+one first set,3,3,3,SCORE,0.666667,3,0,0,True,2.48587,0,0
+one of his best,4,3,3,JUDGE,1,3,0,17,False,2.48587,0,0.312752
+one other thing,3,3,3,OTHER,0.333333,3,0,1,True,2.48587,0,0.0183972
+one second set,3,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+one to the,3,3,3,SHOT,0.666667,3,0,8,False,2.48587,0,0.165575
+one was a,3,3,3,SCORE,0.333333,3,0,20,False,2.48587,0,0.367944
+out of the middle of,5,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+out of the middle of the,6,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+out wide in,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+out wide in the,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+out wide to the forehand,5,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+over nine shots,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+part of that,3,2,3,JUDGE,0.666667,5,1,91,False,4.97174,0.559378,1.72934
+past <name> in,3,3,3,OTHER,0.666667,3,1,0,True,2.48587,0.559378,0
+played <num> <num>,3,3,3,SCORE,0.666667,3,0,3,False,2.48587,0,0.0551916
+played and <name>,3,3,3,SCORE,0.333333,3,0,1,True,2.48587,0,0.0183972
+played the whole,3,3,3,OTHER,1,3,0,14,False,2.48587,0,0.257561
+please ladies and,3,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+please ladies and gentlemen,4,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+point like that,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+point of view,3,1,3,OTHER,0.333333,4,1,90,False,5.80037,0.559378,1.72934
+points at the net,4,3,3,SHOT,1,3,0,10,False,2.48587,0,0.183972
+points when he,3,3,3,SCORE,0.333333,3,0,10,False,2.48587,0,0.183972
+pretty good job,3,3,3,JUDGE,1,3,0,51,False,2.48587,0,0.938257
+pretty sure that,3,3,3,SHOT,0.666667,3,0,16,False,2.48587,0,0.294355
+quick look at,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+rafa and <name>,3,3,3,JUDGE,0.666667,3,0,42,False,2.48587,0,0.846271
+return and then,3,3,3,SHOT,1,3,1,9,False,2.48587,0.559378,0.165575
+return in the,3,3,3,SHOT,1,3,0,9,False,2.48587,0,0.183972
+right now he,3,3,3,JUDGE,0.666667,3,1,24,False,2.48587,0.559378,0.441533
+right now is,3,2,3,OTHER,0.666667,3,0,73,False,3.3145,0,1.37979
+s open in,3,3,3,OTHER,1,3,0,3,False,2.48587,0,0.0551916
+say that <name>,3,3,3,OTHER,1,4,2,3,False,4.14312,1.11876,0.0551916
+second serve going,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+second serve it,3,3,3,SHOT,1,3,0,13,False,2.48587,0,0.239164
+second serve that,3,3,3,SHOT,1,4,2,10,False,4.14312,1.11876,0.183972
+second serve was,3,3,3,SHOT,1,3,0,21,False,2.48587,0,0.423136
+second serves in,3,3,3,SHOT,1,3,0,6,False,2.48587,0,0.110383
+second set by,3,3,3,OTHER,0.666667,3,1,0,True,2.48587,0.559378,0
+second set first set,4,3,3,SCORE,1,3,0,2,False,2.48587,0,0.0367944
+see a lot,3,3,3,JUDGE,0.333333,5,0,110,False,4.14312,0,2.09728
+see a lot of,4,3,3,JUDGE,0.333333,5,0,91,False,4.14312,0,1.74773
+see him do,3,3,3,SCORE,0.333333,3,0,9,False,2.48587,0,0.165575
+seen a few,3,3,3,JUDGE,0.333333,3,0,7,False,2.48587,0,0.12878
+serve and he's,3,3,3,SHOT,1,3,1,5,False,2.48587,0.559378,0.091986
+serve at <num> <num> in,5,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+serve first in the,4,3,3,SHOT,1,3,1,1,True,2.48587,0.559378,0.0183972
+serve his way,3,3,3,SHOT,1,3,0,3,False,2.48587,0,0.0551916
+serve into play,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+serve it's a,3,3,3,SHOT,1,3,1,14,False,2.48587,0.559378,0.257561
+serving <num> <num>,3,3,3,SHOT,1,3,0,13,False,2.48587,0,0.239164
+set but he's,3,3,3,SHOT,0.666667,3,1,3,False,2.48587,0.559378,0.0551916
+set first set,3,3,3,SCORE,1,3,0,4,False,2.48587,0,0.0735888
+set of the,3,3,3,STAT,0.666667,4,3,9,False,3.3145,1.67813,0.165575
+set points for the,4,3,3,SCORE,1,3,2,0,False,2.48587,1.11876,0
+she's trying to,3,3,3,OTHER,0.666667,3,0,24,False,2.48587,0,0.478327
+shot and it,3,3,3,SHOT,1,3,1,4,False,2.48587,0.559378,0.0735888
+shot he has,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+shots that <name>,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+shows you how,3,3,3,OTHER,0.666667,3,0,10,False,2.48587,0,0.202369
+sitting on the,3,3,3,SHOT,0.333333,3,0,15,False,2.48587,0,0.275958
+so easy to,3,3,3,JUDGE,1,3,0,31,False,2.48587,0,0.570313
+so far <num>,3,3,3,SHOT,0.666667,3,0,3,False,2.48587,0,0.0551916
+so far in the tournament,5,3,3,STAT,1,3,0,9,False,2.48587,0,0.165575
+so far the,3,3,3,OTHER,0.666667,3,2,13,False,2.48587,1.11876,0.239164
+so good at,3,3,3,JUDGE,1,3,1,5,False,2.48587,0.559378,0.091986
+so off balance,3,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+some first serves,3,3,3,SHOT,1,3,1,6,False,2.48587,0.559378,0.110383
+some free points,3,3,3,SHOT,0.666667,3,0,24,False,2.48587,0,0.45993
+strength and conditioning,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+such a good job of,5,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+such a high,3,3,3,SHOT,0.333333,3,0,37,False,2.48587,0,0.680696
+such a high level,4,3,3,SHOT,0.333333,3,0,28,False,2.48587,0,0.515121
+take a look,3,3,3,SHOT,0.666667,3,1,11,False,2.48587,0.559378,0.202369
+take a look at,4,3,3,SHOT,0.666667,3,1,3,False,2.48587,0.559378,0.0551916
+take that ball,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+taking his time,3,3,3,OTHER,1,3,0,4,False,2.48587,0,0.0735888
+talked about how,3,3,3,OTHER,0.666667,3,0,4,False,2.48587,0,0.0735888
+talking about that,3,3,3,JUDGE,0.666667,3,0,27,False,2.48587,0,0.533519
+thank you i,3,3,3,OFFICIAL,1,3,0,26,False,2.48587,0,0.478327
+thank you players are,4,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+thank you players are ready,5,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+that <name> <name> has,4,3,3,JUDGE,0.333333,3,0,0,True,2.48587,0,0
+that <name> had,3,3,3,STAT,0.666667,4,2,1,False,3.3145,1.11876,0.0183972
+that <name> played,3,3,3,STAT,0.333333,3,0,3,False,2.48587,0,0.0551916
+that a little,3,3,3,JUDGE,0.666667,4,0,87,False,3.3145,0,1.60056
+that approach shot,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+that ball so,3,3,3,JUDGE,0.333333,3,0,2,False,2.48587,0,0.0367944
+that is <name>,3,3,3,STAT,0.333333,3,0,1,True,2.48587,0,0.0183972
+that is so good,4,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+that last point,3,3,3,SHOT,0.333333,3,0,11,False,2.48587,0,0.202369
+that one was,3,3,3,SCORE,0.333333,3,0,25,False,2.48587,0,0.45993
+that part of,3,3,3,JUDGE,0.333333,3,0,46,False,2.48587,0,0.883065
+that racket head,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+that return of,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+that second serve <num>,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+that shot and,3,3,3,SHOT,1,3,0,5,False,2.48587,0,0.091986
+that was going,3,3,3,SHOT,0.666667,3,1,59,False,2.48587,0.559378,1.08543
+that was one of the,5,3,3,OTHER,0.666667,3,0,59,False,2.48587,0,1.08543
+that wide one,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+that will help,3,3,3,SHOT,0.666667,4,0,51,False,4.14312,0,0.975051
+that's a big hold,4,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+that's too good,3,3,3,JUDGE,1,3,0,10,False,2.48587,0,0.183972
+the <name> racket,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the air and,3,3,3,OTHER,0.666667,3,0,8,False,2.48587,0,0.147178
+the back end of,4,3,3,OTHER,0.666667,3,2,6,False,2.48587,1.11876,0.110383
+the backhand side and,4,3,3,SHOT,1,3,1,6,False,2.48587,0.559378,0.110383
+the backhand up,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+the ball back into play,5,3,3,OTHER,0.666667,3,1,2,False,2.48587,0.559378,0.0367944
+the ball early,3,3,3,OTHER,0.666667,4,1,70,False,3.3145,0.559378,1.3246
+the ball it's,3,3,3,OTHER,1,3,0,38,False,2.48587,0,0.735888
+the best drop,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+the best drop shot,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the biggest moments,3,3,3,JUDGE,0.333333,3,0,0,True,2.48587,0,0
+the course of a,4,3,3,SHOT,0.666667,3,0,16,False,2.48587,0,0.294355
+the court up,3,3,3,OTHER,1,3,0,3,False,2.48587,0,0.0551916
+the drop shot was,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the drop shots,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+the edge of their,4,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+the edge of their seats,5,3,3,CROWD,1,3,0,0,True,2.48587,0,0
+the fact that <name>,4,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+the fact that he's,4,3,3,OTHER,0.666667,3,0,13,False,2.48587,0,0.239164
+the first forehand,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+the first serves,3,3,3,SHOT,1,3,0,32,False,2.48587,0,0.607107
+the first set <num>,4,3,3,SCORE,0.333333,4,1,28,False,3.3145,0.559378,0.515121
+the first volley,3,3,3,SHOT,1,3,0,6,False,2.48587,0,0.110383
+the forehand of <name>,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the full width,3,3,3,JUDGE,0.666667,3,1,0,True,2.48587,0.559378,0
+the full width of,4,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+the full width of the,5,3,3,JUDGE,0.666667,3,1,0,True,2.48587,0.559378,0
+the full width of the court,6,3,3,JUDGE,0.666667,3,0,0,True,2.48587,0,0
+the good news,3,3,3,JUDGE,1,3,0,15,False,2.48587,0,0.312752
+the last <num> years,4,3,3,STAT,1,3,0,32,False,2.48587,0,0.643902
+the lethal loveliness,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+the lethal loveliness of,4,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+the line backhand,3,3,3,SHOT,1,4,2,3,False,3.3145,1.11876,0.0551916
+the line is,3,3,3,SHOT,1,3,1,10,False,2.48587,0.559378,0.183972
+the line well,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+the line with that,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the luxury of,3,3,3,OTHER,0.666667,3,0,6,False,2.48587,0,0.110383
+the match right,3,3,3,JUDGE,0.666667,3,1,10,False,2.48587,0.559378,0.183972
+the miss hit,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+the net when he,4,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+the net which is,4,3,3,SHOT,1,3,1,3,False,2.48587,0.559378,0.0551916
+the next shot,3,3,3,SHOT,1,5,3,21,False,4.14312,1.67813,0.386341
+the nick of,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+the nick of time,4,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+the noise from,3,3,3,CROWD,1,3,0,1,True,2.48587,0,0.0183972
+the passing shot,3,3,3,SHOT,1,3,1,21,False,2.48587,0.559378,0.386341
+the point that,3,3,3,OTHER,0.666667,3,1,20,False,2.48587,0.559378,0.367944
+the previous point,3,3,3,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+the previous round,3,3,3,JUDGE,0.666667,3,0,4,False,2.48587,0,0.0735888
+the second court,3,3,3,JUDGE,0.333333,3,0,3,False,2.48587,0,0.0735888
+the second set by,4,3,3,JUDGE,0.666667,3,1,0,True,2.48587,0.559378,0
+the strength of,3,3,3,OTHER,0.666667,3,1,4,False,2.48587,0.559378,0.0735888
+the value of,3,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+the way that <name>,4,3,3,OTHER,1,3,0,4,False,2.48587,0,0.0735888
+then the drop,3,3,3,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+then the drop shot,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+there <num> <num>,3,3,3,SCORE,1,3,0,7,False,2.48587,0,0.12878
+there from <name>,3,3,3,JUDGE,0.666667,7,3,0,False,8.28624,1.67813,0
+there to make,3,3,3,OTHER,0.666667,3,0,6,False,2.48587,0,0.110383
+these guys are,3,3,3,STAT,0.333333,4,1,56,False,3.3145,0.559378,1.03024
+this <num> <num>,3,3,3,OTHER,0.666667,3,0,10,False,2.48587,0,0.183972
+this australian open,3,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+this game he's,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+this is as good,4,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+this is as good as,5,3,3,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+this is as good as it,6,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+this is as good as it gets,7,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+this match for,3,3,3,OTHER,1,3,0,15,False,2.48587,0,0.275958
+this match has,3,3,3,OTHER,0.666667,3,1,3,False,2.48587,0.559378,0.0551916
+this set he's,3,3,3,OTHER,0.666667,3,1,0,True,2.48587,0.559378,0
+this year's australian,3,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+this year's australian open,4,3,3,STAT,0.333333,3,0,3,False,2.48587,0,0.0551916
+though <name> has,3,3,3,OTHER,0.333333,3,1,0,True,2.48587,0.559378,0
+though from <name>,3,3,3,SHOT,0.666667,3,0,0,True,2.48587,0,0
+thought <name> was,3,3,3,JUDGE,1,3,0,1,True,2.48587,0,0.0183972
+time the ball,3,3,3,JUDGE,0.666667,3,1,8,False,2.48587,0.559378,0.147178
+time to be able,4,3,3,JUDGE,0.333333,3,0,8,False,2.48587,0,0.147178
+time to be able to,5,3,3,JUDGE,0.333333,3,0,8,False,2.48587,0,0.147178
+to a degree,3,3,3,OTHER,0.333333,3,0,18,False,2.48587,0,0.33115
+to a fifth,3,3,3,OTHER,1,5,3,12,False,4.14312,1.67813,0.220766
+to about <num>,3,3,3,OTHER,0.666667,3,0,2,False,2.48587,0,0.0367944
+to be serving,3,3,3,SHOT,1,3,0,13,False,2.48587,0,0.257561
+to continue to,3,3,3,JUDGE,1,4,1,94,False,3.3145,0.559378,1.83972
+to finish this,3,3,3,OTHER,1,3,0,26,False,2.48587,0,0.478327
+to get behind,3,3,3,OTHER,0.666667,3,1,8,False,2.48587,0.559378,0.147178
+to get out of this,5,3,3,JUDGE,0.666667,3,0,2,False,2.48587,0,0.0367944
+to get to this stage,5,3,3,STAT,0.666667,3,0,8,False,2.48587,0,0.147178
+to get yourself,3,3,3,JUDGE,0.666667,3,0,31,False,2.48587,0,0.625505
+to go up,3,1,3,SCORE,1,2,1,93,False,4.14312,0.559378,1.80293
+to hit a second,4,3,3,SHOT,1,3,0,3,False,2.48587,0,0.0551916
+to hit a second serve,5,3,3,SHOT,1,3,0,3,False,2.48587,0,0.0551916
+to just change,3,3,3,JUDGE,0.333333,3,0,3,False,2.48587,0,0.0551916
+to make <name>,3,3,3,SHOT,0.666667,3,2,0,False,2.48587,1.11876,0
+to move forward,3,3,3,OTHER,0.333333,5,0,65,False,4.14312,0,1.25101
+to one second set,4,3,3,SCORE,1,3,0,0,True,2.48587,0,0
+to say that he,4,3,3,OTHER,1,3,0,8,False,2.48587,0,0.147178
+to serve first in the,5,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+to serve his,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+to serve his way,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+to step in,3,3,3,SHOT,0.666667,3,1,71,False,2.48587,0.559378,1.39819
+to that last,3,3,3,SHOT,0.666667,3,0,1,True,2.48587,0,0.0183972
+to the stage,3,3,3,OTHER,0.333333,3,0,16,False,2.48587,0,0.294355
+to the table,3,3,3,OTHER,0.666667,3,0,13,False,2.48587,0,0.239164
+to this stage of,4,3,3,STAT,1,3,0,5,False,2.48587,0,0.091986
+to time the,3,3,3,OTHER,0.333333,3,0,5,False,2.48587,0,0.091986
+to time the ball,4,3,3,JUDGE,0.666667,3,0,4,False,2.48587,0,0.0735888
+to try something,3,3,3,JUDGE,0.666667,3,0,18,False,2.48587,0,0.367944
+tough for <name>,3,3,3,JUDGE,1,3,2,3,False,2.48587,1.11876,0.0551916
+tough for <name> to,4,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+tournament he was,3,3,3,STAT,1,3,0,4,False,2.48587,0,0.0735888
+tried to hit the,4,3,3,SHOT,1,3,0,11,False,2.48587,0,0.202369
+trying to take,3,1,3,OTHER,0.666667,3,1,100,False,4.97174,0.559378,1.85812
+two breaks of,3,3,3,SHOT,0.666667,3,0,2,False,2.48587,0,0.0367944
+two breaks of serve,4,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+two great points,3,3,3,JUDGE,1,3,1,2,False,2.48587,0.559378,0.0367944
+two hours and,3,3,3,STAT,1,3,0,24,False,2.48587,0,0.45993
+two in the world,4,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+two service games and,4,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+two sets against,3,3,3,OTHER,0.666667,3,0,9,False,2.48587,0,0.165575
+u s open in,4,3,3,OTHER,1,3,0,3,False,2.48587,0,0.0551916
+unforced errors but,3,3,3,SHOT,1,3,1,32,False,2.48587,0.559378,0.58871
+up for the next,4,3,3,SHOT,0.666667,3,0,6,False,2.48587,0,0.110383
+us open champion,3,3,3,OTHER,1,4,2,3,False,3.3145,1.11876,0.0551916
+very very high,3,3,3,OTHER,0.666667,3,0,27,False,2.48587,0,0.515121
+volley in the,3,3,3,SHOT,1,3,1,3,False,2.48587,0.559378,0.0551916
+volley it was,3,3,3,SHOT,1,3,0,4,False,2.48587,0,0.0735888
+wants to get,3,3,3,OTHER,0.666667,3,0,14,False,2.48587,0,0.257561
+was going long,3,3,3,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+was so good,3,3,3,JUDGE,1,3,0,13,False,2.48587,0,0.257561
+way he was,3,3,3,OTHER,0.333333,3,0,49,False,2.48587,0,0.938257
+way out of,3,3,3,SHOT,0.666667,3,2,31,False,2.48587,1.11876,0.570313
+way that <name>,3,3,3,OTHER,1,3,0,4,False,2.48587,0,0.0735888
+way that she,3,3,3,OTHER,0.666667,3,0,16,False,2.48587,0,0.294355
+we know he's,3,3,3,JUDGE,1,3,0,3,False,2.48587,0,0.0551916
+we saw a,3,3,3,SHOT,0.666667,3,0,2,False,2.48587,0,0.0367944
+we saw some,3,3,3,JUDGE,0.666667,3,0,3,False,2.48587,0,0.0551916
+we were saying,3,3,3,JUDGE,0.333333,3,0,1,True,2.48587,0,0.0183972
+we've seen from,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+went for the,3,3,3,SHOT,1,5,2,37,False,4.14312,1.11876,0.699093
+went into the,3,3,3,STAT,0.333333,3,0,43,False,2.48587,0,0.791079
+went on to win,4,3,3,OTHER,1,3,1,14,False,2.48587,0.559378,0.257561
+what <name> was,3,3,3,OTHER,0.666667,3,1,1,True,2.48587,0.559378,0.0183972
+what a good,3,3,3,JUDGE,1,3,0,3,False,2.48587,0,0.0551916
+what do you say,4,3,3,OTHER,0.666667,3,0,3,False,2.48587,0,0.0551916
+what do you think,4,2,3,JUDGE,1,3,0,41,False,4.14312,0,0.772682
+what he said,3,3,3,OTHER,0.666667,3,0,33,False,2.48587,0,0.643902
+what you're talking,3,3,3,OTHER,1,3,0,14,False,2.48587,0,0.257561
+what you're talking about,4,3,3,OTHER,1,3,0,13,False,2.48587,0,0.239164
+when he gets a,4,3,3,SHOT,0.666667,3,0,3,False,2.48587,0,0.0551916
+whether he is,3,3,3,OTHER,0.333333,3,0,0,True,2.48587,0,0
+whether he should,3,3,3,JUDGE,1,3,0,0,True,2.48587,0,0
+wide to the forehand,4,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+width of the,3,3,3,JUDGE,0.333333,3,2,0,False,2.48587,1.11876,0
+width of the court,4,3,3,JUDGE,0.333333,3,1,0,True,2.48587,0.559378,0
+will become the,3,3,3,STAT,0.666667,3,0,0,True,2.48587,0,0
+with a few,3,3,3,SHOT,0.666667,4,2,55,False,3.3145,1.11876,1.01185
+with some pace,3,3,3,SHOT,1,3,0,0,True,2.48587,0,0
+with that ball,3,3,3,JUDGE,0.333333,3,0,5,False,2.48587,0,0.091986
+won <num> of the,4,3,3,SHOT,0.333333,3,2,4,False,2.48587,1.11876,0.0735888
+won a grand,3,3,3,STAT,1,3,0,70,False,2.48587,0,1.343
+won a grand slam,4,3,3,STAT,1,3,0,70,False,2.48587,0,1.343
+won his first,3,3,3,STAT,0.333333,3,0,20,False,2.48587,0,0.367944
+won the opening,3,3,3,OTHER,0.666667,3,0,1,True,2.48587,0,0.0183972
+wonder whether he,3,3,3,OTHER,0.333333,3,0,0,True,2.48587,0,0
+worked so well,3,3,3,OTHER,0.666667,3,0,0,True,2.48587,0,0
+year at the,3,3,3,STAT,1,3,0,47,False,2.48587,0,0.883065
+year's australian open,3,3,3,OTHER,0.666667,3,0,5,False,2.48587,0,0.091986
+you can see it,4,3,3,OFFICIAL,0.333333,3,0,22,False,2.48587,0,0.404738
+you can see the,4,3,3,SHOT,0.333333,3,1,37,False,2.48587,0.559378,0.699093
+you can see why,4,3,3,JUDGE,0.333333,3,0,4,False,2.48587,0,0.0735888
+you can understand,3,3,3,CROWD,0.333333,3,0,8,False,2.48587,0,0.147178
+you just see,3,3,3,OTHER,0.333333,3,0,8,False,2.48587,0,0.165575
+you know what i'm,4,3,3,JUDGE,1,3,0,22,False,2.48587,0,0.423136
+you players are,3,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+you players are ready,4,3,3,OFFICIAL,1,3,0,0,True,2.48587,0,0
+you say that,3,3,3,OTHER,0.666667,3,0,22,False,2.48587,0,0.423136
+you see that,3,3,3,OTHER,0.666667,3,0,35,False,2.48587,0,0.643902
+you take a,3,3,3,JUDGE,0.333333,3,0,18,False,2.48587,0,0.33115
+you take the,3,3,3,SHOT,0.666667,3,0,17,False,2.48587,0,0.33115
+you will see,3,3,3,OFFICIAL,0.333333,3,1,18,False,2.48587,0.559378,0.349547
+you've got a,3,3,3,OTHER,0.333333,3,0,34,False,2.48587,0,0.643902
+<name> <name> and <name>,4,2,2,SCORE,0.5,3,0,11,False,2.48587,0,0.202369
+<name> <name> there,3,2,2,OTHER,0.5,3,1,0,True,2.48587,0.559378,0
+<name> at his,3,2,2,JUDGE,1,3,0,0,True,2.48587,0,0
+<name> got the,3,2,2,SHOT,0.5,3,2,0,False,2.48587,1.11876,0
+<name> has got,3,2,2,JUDGE,1,4,2,2,False,3.3145,1.11876,0.0367944
+<name> has won,3,2,2,STAT,0.5,3,3,4,False,6.62899,1.67813,0.0735888
+<name> he had,3,2,2,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+<name> in the <num>,4,2,2,STAT,0.5,3,0,0,True,2.48587,0,0
+<name> leading <num> <num>,4,2,2,SHOT,0.5,3,0,0,True,2.48587,0,0
+<name> on a,3,2,2,JUDGE,0.5,3,2,2,False,2.48587,1.11876,0.0367944
+<name> to try,3,2,2,SHOT,0.5,4,3,0,False,3.3145,1.67813,0
+<name>'s ability to,3,2,2,OTHER,0.5,3,1,0,True,3.3145,0.559378,0
+<num> <num> <name> <name>,4,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+<num> <num> <num> all,4,2,2,SCORE,1,3,0,11,False,2.48587,0,0.202369
+<num> <num> <num> and,4,2,2,OTHER,1,3,0,56,False,2.48587,0,1.03024
+<num> <num> just,3,2,2,SCORE,1,3,1,18,False,3.3145,0.559378,0.33115
+<num> <num> minutes,3,2,2,STAT,1,3,0,63,False,2.48587,0,1.15902
+<num> <num> so,3,2,2,SCORE,0.5,5,0,135,False,4.14312,0,2.48362
+<num> first serves,3,1,2,SHOT,1,4,2,18,False,4.14312,1.11876,0.33115
+<num> he was,3,2,2,SCORE,0.5,3,0,35,False,2.48587,0,0.662299
+<num> in the previous,4,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+<num> it's a,3,2,2,SCORE,1,4,3,36,False,3.3145,1.67813,0.662299
+<num> mile an,3,1,2,SHOT,1,2,0,5,False,4.14312,0,0.091986
+<num> mile an hour,4,1,2,STAT,1,2,0,5,False,4.14312,0,0.091986
+<num> minutes <name>,3,2,2,STAT,1,3,1,0,True,2.48587,0.559378,0
+<num> of course,3,2,2,OTHER,1,3,1,27,False,2.48587,0.559378,0.496724
+<num> years of,3,2,2,STAT,1,3,0,23,False,3.3145,0,0.423136
+a <name> <name>,3,2,2,CROWD,0.5,3,2,2,False,2.48587,1.11876,0.0367944
+a ball that,3,2,2,JUDGE,0.5,3,2,13,False,2.48587,1.11876,0.239164
+a couple of days ago,5,2,2,SCORE,0.5,3,0,6,False,2.48587,0,0.110383
+a different look,3,2,2,SCORE,0.5,3,0,7,False,2.48587,0,0.12878
+a drop shot that,4,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+a drop shot that was,5,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+a few more first,4,2,2,SHOT,0.5,3,0,5,False,2.48587,0,0.091986
+a few more first serves,5,2,2,SHOT,1,3,0,5,False,2.48587,0,0.091986
+a fifth and,3,2,2,OTHER,1,3,2,0,False,2.48587,1.11876,0
+a free point,3,2,2,SHOT,0.5,3,1,9,False,2.48587,0.559378,0.165575
+a great job,3,1,2,JUDGE,1,5,0,163,False,4.97174,0,3.21951
+a little tight,3,2,2,JUDGE,1,3,0,36,False,2.48587,0,0.717491
+a long period,3,2,2,SHOT,1,3,0,63,False,2.48587,0,1.17742
+a long period of,4,2,2,SHOT,1,3,0,52,False,2.48587,0,0.956654
+a long period of time,5,2,2,SHOT,1,3,0,51,False,2.48587,0,0.938257
+a taste of,3,2,2,OTHER,1,3,1,7,False,2.48587,0.559378,0.12878
+a third time,3,1,2,OTHER,1,3,3,1,False,3.3145,1.67813,0.0183972
+a time to,3,2,2,JUDGE,1,3,1,12,False,3.3145,0.559378,0.220766
+a very big,3,2,2,JUDGE,1,4,1,76,False,3.3145,0.559378,1.39819
+a way to win,4,2,2,SHOT,0.5,3,0,87,False,2.48587,0,1.65575
+able to find a,4,2,2,OTHER,1,3,0,18,False,2.48587,0,0.33115
+about the fact,3,2,2,OTHER,1,3,0,13,False,2.48587,0,0.239164
+about the fact that,4,2,2,OTHER,1,3,0,9,False,2.48587,0,0.165575
+advantage <name> <name>,3,2,2,SCORE,1,3,1,0,True,2.48587,0.559378,0
+again in the,3,2,2,OTHER,1,3,1,64,False,2.48587,0.559378,1.19582
+against <name> and,3,2,2,OTHER,1,3,1,50,False,2.48587,0.559378,0.91986
+against <name> in the,4,2,2,STAT,0.5,3,1,15,False,2.48587,0.559378,0.275958
+against <name> was,3,2,2,OTHER,0.5,3,0,6,False,2.48587,0,0.110383
+and a little,3,1,2,JUDGE,0.5,3,0,100,False,3.3145,0,1.87651
+and by two,3,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+and i mean,3,2,2,OTHER,1,3,0,93,False,2.48587,0,1.74773
+and keep it,3,2,2,SHOT,1,3,0,29,False,2.48587,0,0.533519
+and second serves,3,2,2,SHOT,1,3,0,10,False,3.3145,0,0.183972
+and take it,3,2,2,SHOT,0.5,3,0,48,False,2.48587,0,0.883065
+and that one,3,2,2,SHOT,1,3,1,6,False,2.48587,0.559378,0.110383
+and we'll see,3,1,2,SHOT,0.5,3,0,115,False,3.3145,0,2.11568
+approach shot and,3,2,2,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+as well he,3,1,2,OTHER,0.5,2,0,68,False,4.14312,0,1.3062
+as well he's,3,2,2,SHOT,0.5,3,0,51,False,2.48587,0,0.938257
+as well on,3,2,2,SHOT,0.5,3,0,47,False,2.48587,0,0.864668
+as you say,3,2,2,SHOT,1,3,0,18,False,2.48587,0,0.33115
+at age <num>,3,2,2,STAT,1,3,0,4,False,2.48587,0,0.0735888
+at that stage,3,2,2,SHOT,0.5,3,0,68,False,2.48587,0,1.26941
+at the last,3,2,2,OTHER,0.5,3,0,33,False,2.48587,0,0.607107
+away with that,3,2,2,SHOT,0.5,3,0,12,False,2.48587,0,0.220766
+back to where,3,2,2,OTHER,1,3,0,36,False,2.48587,0,0.680696
+ball a bit,3,2,2,SHOT,1,3,0,13,False,2.48587,0,0.257561
+be hard to,3,2,2,JUDGE,1,3,0,28,False,2.48587,0,0.515121
+behind the ball,3,2,2,JUDGE,0.5,3,2,12,False,3.3145,1.11876,0.220766
+between the first,3,2,2,SHOT,1,3,0,13,False,2.48587,0,0.239164
+between the first and,4,2,2,SHOT,1,3,0,9,False,2.48587,0,0.165575
+between the first and second,5,2,2,SHOT,1,3,0,8,False,2.48587,0,0.147178
+body of <name>,3,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+but i'm not sure,4,2,2,OTHER,0.5,3,0,29,False,2.48587,0,0.533519
+can open up,3,2,2,JUDGE,1,3,0,8,False,2.48587,0,0.147178
+can open up the,4,2,2,JUDGE,1,3,0,2,False,2.48587,0,0.0367944
+caught the line,3,2,2,SHOT,1,3,1,3,False,2.48587,0.559378,0.0551916
+chance for <name>,3,2,2,SCORE,0.5,3,2,0,False,2.48587,1.11876,0
+come on come,3,2,2,OTHER,0.5,3,0,1,True,3.3145,0,0.0183972
+come on come on,4,2,2,OTHER,0.5,3,0,1,True,3.3145,0,0.0183972
+couple of days ago,4,2,2,SCORE,0.5,3,0,8,False,2.48587,0,0.147178
+court with the,3,2,2,SHOT,0.5,3,2,49,False,2.48587,1.11876,0.901463
+do a little,3,2,2,JUDGE,1,4,0,88,False,3.3145,0,1.67414
+don't think he,3,2,2,JUDGE,1,4,0,95,False,3.3145,0,1.83972
+don't think i've,3,2,2,JUDGE,1,3,0,73,False,2.48587,0,1.37979
+down two sets to,4,2,2,SCORE,1,3,0,36,False,2.48587,0,0.699093
+down two sets to <num>,5,2,2,SCORE,1,3,0,26,False,2.48587,0,0.515121
+drop shot and then,4,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+easy to do,3,2,2,JUDGE,1,3,0,44,False,2.48587,0,0.809477
+face a break,3,2,2,SCORE,1,3,1,3,False,2.48587,0.559378,0.0551916
+face a break point,4,2,2,SCORE,1,3,1,3,False,2.48587,0.559378,0.0551916
+fair to say,3,2,2,OTHER,0.5,3,0,18,False,2.48587,0,0.349547
+feels like it's happening,4,2,2,JUDGE,1,3,0,0,True,2.48587,0,0
+feet on the,3,2,2,OTHER,0.5,3,0,17,False,2.48587,0,0.312752
+few more first,3,2,2,SHOT,0.5,3,0,5,False,2.48587,0,0.091986
+few more first serves,4,2,2,SHOT,1,3,0,5,False,2.48587,0,0.091986
+find a way to get,5,2,2,OTHER,0.5,3,0,40,False,2.48587,0,0.772682
+first and second serves,4,2,2,SHOT,1,3,0,9,False,3.3145,0,0.165575
+first one was,3,2,2,SCORE,0.5,3,0,25,False,2.48587,0,0.496724
+first serve from <name>,4,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+five games to two,4,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+for <name> <name> is,4,2,2,SHOT,1,3,2,0,False,2.48587,1.11876,0
+for <name> was,3,2,2,STAT,0.5,3,0,0,True,2.48587,0,0
+for a couple of years,5,2,2,STAT,1,3,0,35,False,2.48587,0,0.643902
+for a third time,4,1,2,OTHER,1,3,3,0,False,3.3145,1.67813,0
+for both players,3,2,2,OTHER,0.5,6,3,49,False,4.97174,1.67813,0.938257
+for so long,3,2,2,SHOT,1,5,0,128,False,4.14312,0,2.42843
+four and a,3,2,2,STAT,1,3,0,25,False,2.48587,0,0.496724
+four and a half,4,2,2,STAT,1,3,0,25,False,2.48587,0,0.496724
+from the standpoint,3,2,2,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+games to <num> second,4,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+games to <num> second set,5,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+give him a,3,1,2,OTHER,0.5,5,3,68,False,4.97174,1.67813,1.3062
+go to a,3,1,2,SCORE,1,3,3,49,False,4.14312,1.67813,0.91986
+going back to,3,2,2,OTHER,0.5,3,1,45,False,2.48587,0.559378,0.827874
+going to win this,4,2,2,JUDGE,0.5,3,1,18,False,2.48587,0.559378,0.33115
+got the ability,3,2,2,SHOT,0.5,3,0,7,False,2.48587,0,0.12878
+got the ability to,4,2,2,SHOT,0.5,3,0,6,False,2.48587,0,0.110383
+got to get the,4,2,2,JUDGE,1,3,0,4,False,2.48587,0,0.0735888
+got to keep,3,2,2,JUDGE,1,4,0,89,False,3.3145,0,1.67414
+had to take,3,2,2,OTHER,0.5,3,0,102,False,2.48587,0,1.93171
+has to take,3,2,2,JUDGE,1,3,2,2,False,2.48587,1.11876,0.0367944
+have to go back,4,2,2,JUDGE,1,3,0,46,False,2.48587,0,0.864668
+have to hit,3,2,2,SHOT,1,4,0,56,False,3.3145,0,1.04864
+he can win,3,2,2,OTHER,0.5,3,1,54,False,2.48587,0.559378,1.04864
+he ended up,3,2,2,SHOT,0.5,3,0,8,False,2.48587,0,0.147178
+he looks like,3,2,2,OTHER,1,3,1,16,False,4.14312,0.559378,0.294355
+he made a,3,2,2,OTHER,0.5,3,1,78,False,2.48587,0.559378,1.49017
+he said i'm,3,2,2,OTHER,1,3,0,10,False,2.48587,0,0.183972
+he wants to keep,4,2,2,OTHER,0.5,3,0,1,True,2.48587,0,0.0183972
+he's going to do,4,2,2,SCORE,0.5,3,0,34,False,2.48587,0,0.680696
+he's not afraid,3,2,2,SHOT,0.5,3,0,1,True,2.48587,0,0.0183972
+here at <num>,3,2,2,STAT,0.5,3,0,19,False,2.48587,0,0.386341
+here from <name>,3,2,2,JUDGE,0.5,3,0,0,True,2.48587,0,0
+him a couple of,4,2,2,OTHER,0.5,3,0,19,False,2.48587,0,0.349547
+him to get,3,2,2,SHOT,1,3,1,34,False,2.48587,0.559378,0.625505
+his forehand and,3,2,2,SHOT,1,4,2,30,False,4.14312,1.11876,0.551916
+his forehand is,3,2,2,SHOT,1,3,1,36,False,2.48587,0.559378,0.699093
+hit a winner,3,2,2,SHOT,1,3,1,48,False,2.48587,0.559378,0.883065
+how many more,3,2,2,STAT,0.5,3,0,10,False,2.48587,0,0.183972
+how much does,3,2,2,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+i don't think <name>,4,2,2,JUDGE,1,3,0,3,False,2.48587,0,0.0551916
+i don't think he,4,2,2,JUDGE,1,4,0,93,False,3.3145,0,1.80293
+i don't think i've,4,2,2,JUDGE,1,3,0,73,False,2.48587,0,1.37979
+i mean it's just,4,2,2,SHOT,0.5,3,0,93,False,2.48587,0,1.71094
+i think <name>,3,2,2,JUDGE,1,8,1,110,False,6.62899,0.559378,2.09728
+i think there's a,4,2,2,JUDGE,1,3,0,60,False,2.48587,0,1.10383
+i'd like to see,4,2,2,JUDGE,0.5,3,0,16,False,2.48587,0,0.312752
+i'll tell you what,4,2,2,OTHER,0.5,3,0,2,False,2.48587,0,0.0367944
+i've always thought,3,2,2,JUDGE,1,3,0,11,False,2.48587,0,0.202369
+i've seen that,3,2,2,STAT,0.5,3,0,6,False,2.48587,0,0.110383
+in <num> to,3,2,2,SHOT,0.5,3,0,6,False,2.48587,0,0.110383
+in a little,3,2,2,OTHER,0.5,5,0,83,False,4.14312,0,1.54536
+in at the moment,4,2,2,SHOT,0.5,3,2,1,False,2.48587,1.11876,0.0183972
+in that <num>,3,2,2,OTHER,0.5,3,0,9,False,2.48587,0,0.165575
+in that first set,4,2,2,OTHER,0.5,3,0,61,False,2.48587,0,1.15902
+in that fourth,3,2,2,OTHER,0.5,3,0,11,False,2.48587,0,0.202369
+in that fourth set,4,2,2,OTHER,0.5,3,0,10,False,2.48587,0,0.183972
+in that last,3,2,2,SCORE,0.5,6,3,32,False,6.62899,1.67813,0.607107
+in that last game,4,2,2,SCORE,0.5,5,3,22,False,5.80037,1.67813,0.423136
+in the final so,4,2,2,OTHER,1,3,0,28,False,2.48587,0,0.515121
+in the last <num>,4,2,2,STAT,1,5,2,41,False,4.97174,1.11876,0.791079
+in the sport,3,2,2,JUDGE,0.5,3,0,62,False,2.48587,0,1.19582
+into a fifth set,4,2,2,OTHER,0.5,3,0,5,False,2.48587,0,0.091986
+into the <name>,3,2,2,SHOT,1,4,2,2,False,3.3145,1.11876,0.0367944
+into the body of,4,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+into the body of <name>,5,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+is going to go,4,2,2,OTHER,0.5,3,2,35,False,2.48587,1.11876,0.643902
+is not working,3,2,2,OTHER,0.5,3,0,26,False,2.48587,0,0.478327
+is the <name>,3,2,2,SHOT,1,3,2,1,False,2.48587,1.11876,0.0183972
+is the world,3,2,2,STAT,1,3,0,1,True,2.48587,0,0.0183972
+is the world number,4,2,2,STAT,1,3,0,0,True,2.48587,0,0
+is the world number one,5,2,2,STAT,1,3,0,0,True,2.48587,0,0
+is trying to,3,2,2,JUDGE,0.5,3,2,72,False,2.48587,1.11876,1.36139
+isn't he <name>,3,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+it a bit,3,2,2,SHOT,0.5,3,0,94,False,2.48587,0,1.74773
+it in the second,4,2,2,OTHER,1,3,0,12,False,2.48587,0,0.220766
+it in the second set,5,2,2,OTHER,1,3,0,8,False,2.48587,0,0.147178
+it was going to be a,6,2,2,JUDGE,0.5,3,0,81,False,2.48587,0,1.50857
+it's fair to,3,2,2,OTHER,0.5,3,0,8,False,2.48587,0,0.165575
+it's fair to say,4,2,2,OTHER,0.5,3,0,5,False,2.48587,0,0.110383
+it's just one,3,2,2,OTHER,1,3,0,84,False,2.48587,0,1.56376
+just a few,3,2,2,SHOT,0.5,6,0,95,False,5.80037,0,1.85812
+just not giving,3,2,2,STAT,0.5,3,0,1,True,2.48587,0,0.0367944
+just said to,3,2,2,OTHER,1,3,0,29,False,2.48587,0,0.551916
+knows how to,3,2,2,JUDGE,1,4,0,104,False,3.3145,0,2.04209
+last <num> years,3,2,2,STAT,1,3,0,43,False,2.48587,0,0.846271
+like it's happening,3,2,2,SCORE,0.5,3,0,2,False,2.48587,0,0.0367944
+long period of,3,2,2,SHOT,1,3,0,59,False,2.48587,0,1.08543
+long period of time,4,2,2,SHOT,1,3,0,58,False,2.48587,0,1.06704
+looking for a,3,2,2,STAT,0.5,3,2,29,False,2.48587,1.11876,0.533519
+mean it's just,3,2,2,JUDGE,1,3,0,93,False,2.48587,0,1.71094
+mile an hour,3,1,2,STAT,1,2,0,5,False,4.14312,0,0.091986
+miss by much,3,2,2,OTHER,1,3,0,0,True,2.48587,0,0
+more from <name>,3,2,2,JUDGE,0.5,3,1,0,True,2.48587,0.559378,0
+mr <name> is,3,1,2,OFFICIAL,1,2,0,0,True,6.62899,0,0
+nine of the,3,2,2,STAT,0.5,3,0,1,True,2.48587,0,0.0183972
+nine of the last,4,2,2,STAT,0.5,3,0,0,True,2.48587,0,0
+not afraid to,3,2,2,SHOT,0.5,3,1,14,False,2.48587,0.559378,0.257561
+not going to get,4,2,2,CROWD,0.5,3,0,78,False,2.48587,0,1.47178
+not sure if,3,2,2,SHOT,0.5,4,0,88,False,4.14312,0,1.65575
+now i mean,3,2,2,JUDGE,0.5,3,0,93,False,2.48587,0,1.72934
+number of times,3,2,2,STAT,1,3,0,10,False,2.48587,0,0.183972
+of a serve,3,2,2,SHOT,1,3,1,2,False,2.48587,0.559378,0.0367944
+of days ago,3,2,2,OTHER,0.5,3,0,8,False,2.48587,0,0.147178
+of his first,3,2,2,SHOT,1,5,3,9,False,4.14312,1.67813,0.165575
+of his game,3,1,2,JUDGE,0.5,3,2,54,False,4.14312,1.11876,1.03024
+of how well,3,2,2,OTHER,1,3,0,15,False,2.48587,0,0.275958
+of that last,3,2,2,OFFICIAL,0.5,3,2,3,False,2.48587,1.11876,0.0551916
+of that point,3,1,2,JUDGE,0.5,3,3,3,False,3.3145,1.67813,0.0551916
+of the backhand,3,2,2,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+of the tape,3,2,2,SHOT,1,3,1,9,False,3.3145,0.559378,0.183972
+of the us open,4,2,2,SCORE,0.5,3,0,76,False,2.48587,0,1.47178
+of these guys,3,2,2,JUDGE,0.5,3,0,45,False,3.3145,0,0.864668
+off the line,3,2,2,SHOT,1,3,2,2,False,2.48587,1.11876,0.0367944
+on both sides,3,2,2,OTHER,0.5,4,2,34,False,3.3145,1.11876,0.643902
+on come on,3,2,2,OTHER,0.5,3,0,1,True,3.3145,0,0.0183972
+on his backhand,3,2,2,SHOT,1,3,2,27,False,3.3145,1.11876,0.496724
+on the <num> side,4,2,2,SCORE,1,3,0,18,False,2.48587,0,0.33115
+on top of that,4,2,2,OTHER,0.5,3,1,52,False,2.48587,0.559378,0.956654
+on top of the net,5,1,2,SHOT,1,2,0,5,False,4.14312,0,0.091986
+once he gets,3,2,2,JUDGE,0.5,3,0,16,False,2.48587,0,0.294355
+only one break,3,2,2,OTHER,0.5,3,0,20,False,2.48587,0,0.386341
+out wide on the,4,2,2,SHOT,1,3,0,5,False,2.48587,0,0.12878
+play i mean,3,2,2,OTHER,0.5,3,0,77,False,2.48587,0,1.43498
+players that have,3,2,2,OTHER,0.5,3,0,39,False,2.48587,0,0.754285
+point and then,3,1,2,SCORE,1,3,3,37,False,3.3145,1.67813,0.680696
+point at the,3,2,2,SHOT,0.5,3,1,16,False,2.48587,0.559378,0.294355
+points at the,3,2,2,SHOT,1,3,1,38,False,3.3145,0.559378,0.717491
+points like that,3,2,2,OTHER,0.5,3,2,6,False,2.48587,1.11876,0.110383
+say that he,3,2,2,OTHER,1,3,1,31,False,2.48587,0.559378,0.570313
+serve into the body,4,2,2,SHOT,1,3,2,0,False,2.48587,1.11876,0
+serve up the,3,2,2,SHOT,1,3,1,1,True,2.48587,0.559378,0.0183972
+service games and,3,2,2,OTHER,0.5,4,1,56,False,3.3145,0.559378,1.08543
+set <name> leads,3,2,2,SCORE,1,3,0,0,True,4.14312,0,0
+set <name> leads by,4,2,2,SCORE,1,3,0,0,True,4.14312,0,0
+set <name> leads by three,5,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+set and he's,3,2,2,OTHER,1,3,2,2,False,2.48587,1.11876,0.0367944
+set at <num>,3,2,2,OTHER,0.5,3,3,19,False,2.48587,1.67813,0.367944
+set at <num> <num>,4,2,2,OTHER,0.5,3,3,12,False,2.48587,1.67813,0.239164
+set by <name>,3,2,2,JUDGE,0.5,3,2,0,False,2.48587,1.11876,0
+set point in,3,1,2,SCORE,1,2,2,23,False,4.14312,1.11876,0.423136
+set point in the,4,1,2,SCORE,1,2,1,20,False,3.3145,0.559378,0.367944
+set that was a,4,2,2,OTHER,0.5,3,1,2,False,2.48587,0.559378,0.0367944
+she wants to,3,2,2,OTHER,0.5,3,1,38,False,2.48587,0.559378,0.809477
+she won the,3,2,2,STAT,1,3,1,37,False,2.48587,0.559378,0.717491
+she's only lost,3,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+sitting in the,3,2,2,OFFICIAL,0.5,3,0,27,False,2.48587,0,0.515121
+some of the best,4,2,2,JUDGE,1,4,1,65,False,3.3145,0.559378,1.19582
+something that was,3,2,2,SHOT,0.5,3,0,38,False,2.48587,0,0.699093
+take a bit of,4,2,2,SHOT,1,3,1,17,False,2.48587,0.559378,0.33115
+take a few,3,2,2,OTHER,1,3,0,64,False,2.48587,0,1.19582
+take advantage of it,4,2,2,SCORE,1,3,0,35,False,2.48587,0,0.643902
+test of the,3,2,2,JUDGE,0.5,3,0,0,True,2.48587,0,0
+than he normally,3,2,2,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+thank you and,3,2,2,OFFICIAL,1,3,0,4,False,2.48587,0,0.0735888
+that <name> <name> is,4,2,2,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+that a little bit,4,2,2,JUDGE,1,3,0,79,False,2.48587,0,1.45338
+that first game,3,2,2,JUDGE,0.5,3,1,34,False,2.48587,0.559378,0.699093
+that point that,3,2,2,JUDGE,0.5,3,0,14,False,2.48587,0,0.257561
+that the first,3,2,2,STAT,0.5,3,1,38,False,2.48587,0.559378,0.699093
+that third set,3,1,2,SCORE,0.5,3,2,116,False,3.3145,1.11876,2.22606
+that to <name>,3,2,2,OTHER,1,3,0,0,True,2.48587,0,0
+that type of,3,2,2,SHOT,1,3,0,57,False,2.48587,0,1.10383
+that we saw,3,2,2,SHOT,0.5,3,0,1,True,3.3145,0,0.0183972
+that wide serve,3,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+that's <num> <num>,3,2,2,OTHER,0.5,3,0,6,False,2.48587,0,0.110383
+that's a huge,3,2,2,JUDGE,1,3,0,34,False,2.48587,0,0.625505
+the <name> forehand,3,1,2,SHOT,1,7,3,0,False,8.28624,1.67813,0
+the ad court,3,2,2,SHOT,1,3,2,3,False,2.48587,1.11876,0.0551916
+the backhand corner,3,2,2,SHOT,1,3,0,4,False,2.48587,0,0.0735888
+the ball a bit,4,2,2,SHOT,1,3,0,13,False,2.48587,0,0.257561
+the ball away,3,2,2,SHOT,0.5,3,1,13,False,2.48587,0.559378,0.257561
+the ball in the,4,2,2,SHOT,0.5,4,3,79,False,3.3145,1.67813,1.47178
+the ball was called out,5,2,2,OFFICIAL,1,3,0,2,False,3.3145,0,0.0735888
+the ball's going,3,2,2,OTHER,0.5,3,0,5,False,2.48587,0,0.091986
+the best returner,3,1,2,SHOT,1,2,0,7,False,3.3145,0,0.12878
+the big forehand,3,2,2,SHOT,1,3,1,5,False,2.48587,0.559378,0.091986
+the body of <name>,4,2,2,SHOT,1,3,1,0,True,2.48587,0.559378,0
+the difference between,3,2,2,SCORE,0.5,3,0,68,False,2.48587,0,1.26941
+the drop shot and then,5,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+the early days,3,2,2,OTHER,1,3,0,2,False,2.48587,0,0.0367944
+the end of the second set,6,1,2,JUDGE,1,4,0,110,False,4.97174,0,2.04209
+the final so,3,2,2,OTHER,1,3,0,67,False,2.48587,0,1.23261
+the first serve that,4,2,2,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+the first set in,4,2,2,STAT,0.5,5,3,38,False,5.80037,1.67813,0.699093
+the forehand from,3,2,2,SHOT,1,3,2,2,False,2.48587,1.11876,0.0367944
+the net which,3,2,2,SHOT,1,3,2,8,False,2.48587,1.11876,0.147178
+the opening set that,4,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+the pace of,3,2,2,SHOT,1,3,1,36,False,2.48587,0.559378,0.699093
+the previous one,3,2,2,OTHER,1,3,2,4,False,2.48587,1.11876,0.0735888
+the semifinals against,3,2,2,STAT,1,3,0,3,False,2.48587,0,0.0551916
+the top of the tape,5,2,2,SHOT,1,3,1,7,False,3.3145,0.559378,0.147178
+the tram lines,3,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+the whole tournament,3,2,2,STAT,1,3,0,82,False,2.48587,0,1.61895
+the wrong side,3,2,2,OTHER,0.5,3,2,15,False,2.48587,1.11876,0.275958
+there a little,3,2,2,JUDGE,1,3,0,35,False,2.48587,0,0.643902
+there at the moment,4,2,2,SHOT,1,3,2,2,False,2.48587,1.11876,0.0367944
+there we go,3,2,2,OFFICIAL,0.5,3,0,4,False,2.48587,0,0.0735888
+there's a few,3,2,2,CROWD,0.5,3,1,48,False,2.48587,0.559378,0.901463
+there's no doubt,3,1,2,OTHER,0.5,3,0,105,False,3.3145,0,1.9685
+these players are,3,2,2,JUDGE,0.5,3,0,12,False,2.48587,0,0.220766
+things are going,3,2,2,JUDGE,0.5,3,0,106,False,2.48587,0,1.9869
+think he has,3,2,2,JUDGE,1,3,0,94,False,4.97174,0,1.78453
+third set <num>,3,2,2,SCORE,0.5,3,0,11,False,2.48587,0,0.202369
+this fifth set,3,2,2,OTHER,1,3,0,0,True,2.48587,0,0
+this match in,3,2,2,SHOT,0.5,3,2,28,False,2.48587,1.11876,0.515121
+this part of,3,2,2,SHOT,0.5,3,0,41,False,2.48587,0,0.754285
+this part of the,4,2,2,SHOT,0.5,3,0,31,False,2.48587,0,0.570313
+this second serve,3,2,2,SHOT,1,3,0,1,True,2.48587,0,0.0183972
+this week the,3,2,2,SHOT,0.5,3,0,12,False,2.48587,0,0.220766
+three <num> up,3,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+three and a,3,2,2,OTHER,0.5,3,0,47,False,4.97174,0,0.883065
+three out of,3,2,2,JUDGE,0.5,3,0,51,False,2.48587,0,1.03024
+three times in,3,2,2,STAT,1,3,0,47,False,2.48587,0,0.883065
+through a few,3,2,2,OTHER,1,3,0,16,False,2.48587,0,0.294355
+to <num> second,3,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+to <num> second set,4,2,2,SCORE,1,3,0,0,True,2.48587,0,0
+to be the first,4,2,2,OTHER,1,3,0,29,False,2.48587,0,0.551916
+to become a,3,2,2,OTHER,1,3,0,60,False,2.48587,0,1.10383
+to do a little,4,2,2,JUDGE,1,3,0,49,False,2.48587,0,0.901463
+to face a break,4,2,2,SCORE,1,3,1,0,True,2.48587,0.559378,0
+to face a break point,5,2,2,SCORE,1,3,1,0,True,2.48587,0.559378,0
+to get him,3,1,2,SHOT,0.5,4,3,35,False,4.14312,1.67813,0.643902
+to give him,3,1,2,OTHER,0.5,5,3,85,False,4.97174,1.67813,1.58216
+to go big,3,2,2,JUDGE,1,3,0,5,False,2.48587,0,0.091986
+to go for the,4,2,2,JUDGE,0.5,4,1,68,False,3.3145,0.559378,1.26941
+to go off,3,2,2,SHOT,1,3,0,17,False,2.48587,0,0.312752
+to hit it,3,2,2,SHOT,1,5,0,79,False,4.14312,0,1.49017
+to just get,3,2,2,JUDGE,0.5,3,0,38,False,2.48587,0,0.699093
+to look for,3,2,2,SHOT,1,3,1,60,False,2.48587,0.559378,1.12223
+to put that,3,2,2,JUDGE,1,3,1,42,False,2.48587,0.559378,0.772682
+to see more,3,2,2,SCORE,1,3,0,28,False,2.48587,0,0.570313
+to take this,3,1,2,OTHER,0.5,3,4,30,False,4.14312,2.23751,0.551916
+to the crowd,3,2,2,CROWD,1,3,2,29,False,3.3145,1.11876,0.551916
+to the right,3,2,2,OTHER,1,3,2,32,False,2.48587,1.11876,0.58871
+to win <num>,3,2,2,OTHER,0.5,3,1,33,False,2.48587,0.559378,0.625505
+top of that,3,2,2,OTHER,0.5,3,1,52,False,2.48587,0.559378,0.956654
+top of the tape,4,2,2,SHOT,1,3,1,7,False,3.3145,0.559378,0.147178
+try and get,3,1,2,OTHER,1,7,1,146,False,8.28624,0.559378,2.81477
+trying to get the,4,2,2,OTHER,0.5,3,0,51,False,2.48587,0,0.938257
+two sets and,3,2,2,OTHER,1,3,2,70,False,2.48587,1.11876,1.2878
+up the line and,4,2,2,SHOT,1,3,1,8,False,2.48587,0.559378,0.147178
+up two sets to one,5,2,2,SCORE,1,3,0,4,False,2.48587,0,0.0735888
+us open final,3,2,2,SHOT,0.5,3,0,28,False,2.48587,0,0.515121
+very easy to,3,2,2,JUDGE,1,3,0,42,False,2.48587,0,0.791079
+wants to keep,3,2,2,OTHER,0.5,3,0,3,False,2.48587,0,0.0551916
+was an example,3,2,2,OTHER,0.5,3,0,4,False,2.48587,0,0.0735888
+was going to be a,5,2,2,JUDGE,0.5,4,0,110,False,3.3145,0,2.07888
+was going to be a winner,6,2,2,SHOT,1,3,0,0,True,2.48587,0,0
+was talking about,3,2,2,SCORE,0.5,3,0,57,False,2.48587,0,1.08543
+we don't know,3,2,2,JUDGE,1,3,0,42,False,3.3145,0,0.846271
+we talk about,3,2,2,OTHER,1,3,0,66,False,2.48587,0,1.3062
+we'll see if,3,1,2,OTHER,0.5,3,1,48,False,3.3145,0.559378,0.883065
+we're seeing here,3,2,2,SHOT,0.5,3,0,1,True,2.48587,0,0.0183972
+we've got a,3,2,2,OTHER,0.5,3,0,37,False,2.48587,0,0.735888
+we've seen him,3,2,2,OTHER,0.5,3,0,0,True,3.3145,0,0
+weight of shot,3,2,2,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+well he's got,3,2,2,OTHER,1,3,0,23,False,2.48587,0,0.423136
+well he's not,3,2,2,JUDGE,1,3,0,12,False,2.48587,0,0.220766
+well right now,3,2,2,JUDGE,0.5,3,0,65,False,2.48587,0,1.19582
+well she's been,3,2,2,OTHER,0.5,3,0,11,False,2.48587,0,0.202369
+well that was,3,1,2,OTHER,1,4,3,57,False,4.14312,1.67813,1.04864
+went down the line,4,2,2,SHOT,1,3,0,2,False,2.48587,0,0.0367944
+what a great,3,2,2,JUDGE,1,3,0,20,False,3.3145,0,0.367944
+what a time to,4,2,2,JUDGE,1,3,1,0,True,2.48587,0.559378,0
+what we're seeing here,4,2,2,SHOT,0.5,3,0,1,True,2.48587,0,0.0183972
+when you look at the,5,2,2,STAT,0.5,3,0,23,False,2.48587,0,0.45993
+with a little bit,4,2,2,JUDGE,1,3,0,81,False,2.48587,0,1.52697
+won the last,3,2,2,OTHER,0.5,3,1,30,False,2.48587,0.559378,0.570313
+wonder how much,3,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+wonder if he,3,2,2,OTHER,0.5,3,0,0,True,2.48587,0,0
+world number one and,4,2,2,STAT,1,3,2,0,False,2.48587,1.11876,0
+would have played,3,2,2,OTHER,0.5,3,0,41,False,2.48587,0,0.772682
+you can really,3,2,2,JUDGE,1,3,0,78,False,2.48587,0,1.47178
+you hit the,3,2,2,SHOT,1,3,0,47,False,2.48587,0,0.901463
+you look at the,4,2,2,STAT,0.5,5,0,164,False,4.14312,0,3.14592
+<name> <name> as,3,1,1,SHOT,1,3,2,3,False,2.48587,1.11876,0.0551916
+<name> <name> has won,4,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+<name> <name> to,3,1,1,SHOT,1,5,3,1,False,4.97174,1.67813,0.0183972
+<name> <name> will,3,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+<name> and he's,3,1,1,OTHER,1,5,4,4,False,4.14312,2.23751,0.0735888
+<name> at the french,4,1,1,OTHER,1,3,0,3,False,2.48587,0,0.0551916
+<name> at the french open,5,1,1,OTHER,1,3,0,3,False,2.48587,0,0.0551916
+<name> had a,3,1,1,SCORE,1,4,2,9,False,3.3145,1.11876,0.165575
+<name> had the,3,1,1,STAT,1,2,0,2,False,2.48587,0,0.0367944
+<name> has one,3,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+<name> has one challenge,4,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+<name> has one challenge remaining,5,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+<name> i thought,3,1,1,JUDGE,1,2,0,2,False,2.48587,0,0.0367944
+<name> is feeling,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+<name> is going to have,5,1,1,OTHER,1,4,3,2,False,4.14312,1.67813,0.0367944
+<name> is off,3,1,1,OTHER,1,3,1,0,True,2.48587,0.559378,0
+<name> leads by three games,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads by three games to,6,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads by three games to two,7,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads three,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads three games,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads three games to,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads three games to one,6,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads two,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads two games,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads two games to,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> leads two games to <num>,6,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+<name> to be,3,1,1,JUDGE,1,2,1,6,False,3.3145,0.559378,0.110383
+<name> was almost,3,1,1,OTHER,1,2,1,0,True,2.48587,0.559378,0
+<name> was doing,3,1,1,OTHER,1,2,1,1,True,2.48587,0.559378,0.0183972
+<name> when he,3,1,1,OTHER,1,3,3,6,False,2.48587,1.67813,0.110383
+<name> would be,3,1,1,OTHER,1,3,2,4,False,2.48587,1.11876,0.0735888
+<name>'s <num> <num>,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+<name>'s got to,3,1,1,JUDGE,1,2,1,0,True,2.48587,0.559378,0
+<num> <num> <num> <num> <num>,5,1,1,SCORE,1,3,0,53,False,3.3145,0,2.06049
+<num> <num> it was,4,1,1,SCORE,1,3,0,40,False,2.48587,0,0.735888
+<num> <num> people,3,1,1,STAT,1,3,0,65,False,2.48587,0,1.26941
+<num> <num> you,3,1,1,SCORE,1,3,2,96,False,3.3145,1.11876,1.76613
+<num> all <num>,3,1,1,SCORE,1,2,0,42,False,2.48587,0,0.827874
+<num> all <num> <num>,4,1,1,SCORE,1,2,0,32,False,2.48587,0,0.58871
+<num> first serve,3,1,1,SHOT,1,2,0,8,False,2.48587,0,0.147178
+<num> in the second,4,1,1,OTHER,1,3,2,93,False,2.48587,1.11876,1.74773
+<num> minutes into,3,1,1,STAT,1,2,0,2,False,2.48587,0,0.0367944
+<num> minutes on the clock,5,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+<num> of <num>,3,1,1,OTHER,1,2,1,3,False,2.48587,0.559378,0.0551916
+<num> shot rallies,3,1,1,SHOT,1,2,0,5,False,2.48587,0,0.110383
+<num> to <num>,3,1,1,OTHER,1,11,3,133,False,14.0866,2.23751,2.85157
+a cheap point,3,1,1,JUDGE,1,2,0,2,False,2.48587,0,0.0367944
+a couple of days,4,1,1,SCORE,1,3,0,85,False,2.48587,0,1.63735
+a fine line,3,1,1,SHOT,1,2,0,17,False,2.48587,0,0.33115
+a great return,3,1,1,SHOT,1,2,1,17,False,3.3145,0.559378,0.312752
+a high risk,3,1,1,SHOT,1,2,0,4,False,2.48587,0,0.0735888
+a left hander,3,1,1,OTHER,1,2,0,13,False,2.48587,0,0.257561
+a little bit like,4,1,1,JUDGE,1,3,0,71,False,2.48587,0,1.3062
+a little bit more time,5,1,1,JUDGE,1,3,0,62,False,2.48587,0,1.19582
+a little different,3,1,1,SHOT,1,2,0,89,False,3.3145,0,1.65575
+a little differently,3,1,1,SHOT,1,2,0,4,False,2.48587,0,0.091986
+a little nervous,3,1,1,JUDGE,1,2,0,61,False,2.48587,0,1.17742
+a must win game,4,1,1,JUDGE,1,3,3,0,False,2.48587,1.67813,0
+a number of,3,1,1,OTHER,1,4,3,66,False,4.14312,1.67813,1.23261
+a serve that,3,1,1,SHOT,1,3,3,7,False,2.48587,2.23751,0.12878
+a shot that,3,1,1,SHOT,1,3,3,19,False,3.3145,1.67813,0.367944
+a tennis court,3,1,1,OTHER,1,2,0,48,False,2.48587,0,0.91986
+able to generate,3,1,1,JUDGE,1,2,0,3,False,2.48587,0,0.0551916
+able to take,3,1,1,SCORE,1,6,2,96,False,5.80037,1.11876,1.78453
+advantage of it,3,1,1,SCORE,1,3,0,73,False,2.48587,0,1.343
+after the return,3,1,1,SHOT,1,2,0,11,False,3.3145,0,0.202369
+all <num> <num>,3,1,1,SCORE,1,2,0,35,False,2.48587,0,0.643902
+almost feel that,3,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+an element of,3,1,1,OTHER,1,2,1,2,False,2.48587,0.559378,0.0367944
+an important point,3,1,1,JUDGE,1,2,0,14,False,2.48587,0,0.257561
+and <name> and,3,1,1,JUDGE,1,3,0,33,False,2.48587,0,0.717491
+and a few,3,1,1,JUDGE,1,3,0,49,False,2.48587,0,0.938257
+and a final,3,1,1,JUDGE,1,2,0,6,False,2.48587,0,0.110383
+and gentlemen players,3,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+and get herself,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+and get some,3,1,1,OTHER,1,2,0,55,False,2.48587,0,1.01185
+and he continues,3,1,1,SCORE,1,2,1,0,True,2.48587,0.559378,0
+and he said,3,1,1,OTHER,1,2,0,58,False,3.3145,0,1.08543
+and he's got,3,1,1,OTHER,1,2,0,29,False,2.48587,0,0.533519
+and hit a,3,1,1,SHOT,1,2,0,43,False,2.48587,0,0.809477
+and i guess,3,1,1,OTHER,1,3,0,98,False,2.48587,0,1.82132
+and i think he,4,1,1,JUDGE,1,2,0,58,False,2.48587,0,1.08543
+and now he,3,1,1,OTHER,1,3,2,5,False,3.3145,1.11876,0.091986
+and of course <name>,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+and off the court,4,1,1,OTHER,1,3,0,128,False,2.48587,0,2.41003
+are these two,3,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+around in this,3,1,1,CROWD,1,2,0,2,False,2.48587,0,0.0367944
+as <name> does,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+as the match has,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+as the match has gone,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+as the match has gone on,6,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+as well after,3,1,1,SCORE,1,2,0,8,False,2.48587,0,0.147178
+as well by,3,1,1,SHOT,1,2,0,2,False,2.48587,0,0.0367944
+as well that,3,1,1,SHOT,1,3,0,80,False,2.48587,0,1.47178
+as well to,3,1,1,OTHER,1,3,0,79,False,3.3145,0,1.47178
+at <num> first,3,1,1,SHOT,1,2,0,1,True,2.48587,0,0.0183972
+at <num> first serves,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+at some stage,3,1,1,JUDGE,1,2,0,30,False,2.48587,0,0.551916
+at the top of,4,1,1,OTHER,1,3,0,102,False,2.48587,0,1.93171
+at this stage of the match,6,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+at times <name>,3,1,1,STAT,1,2,0,0,True,2.48587,0,0
+away from his first,4,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+ball a little,3,1,1,SHOT,1,3,1,50,False,2.48587,0.559378,0.91986
+ball back into,3,1,1,OTHER,1,4,3,3,False,3.3145,1.67813,0.0551916
+ball in the,3,1,1,SHOT,1,5,3,106,False,4.97174,1.67813,1.9869
+beaten <name> <name>,3,1,1,STAT,1,2,0,0,True,3.3145,0,0
+been a few,3,1,1,SCORE,1,2,1,22,False,2.48587,0.559378,0.404738
+been a little,3,1,1,JUDGE,1,3,0,126,False,3.3145,0,2.39164
+been a little bit,4,1,1,JUDGE,1,2,0,80,False,2.48587,0,1.52697
+been holding serve,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+better with the,3,1,1,JUDGE,1,2,0,29,False,3.3145,0,0.533519
+between these two,3,1,1,STAT,1,2,1,3,False,2.48587,0.559378,0.0551916
+bit more shape,3,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+bit more shape and,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+bit more time,3,1,1,JUDGE,1,5,0,85,False,4.14312,0,1.63735
+bit of that,3,1,1,JUDGE,1,2,0,40,False,2.48587,0,0.735888
+body language there,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+both sides of,3,1,1,SHOT,1,2,0,7,False,2.48587,0,0.12878
+both sides of the,4,1,1,SHOT,1,2,0,5,False,2.48587,0,0.091986
+break thank you,3,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+but <name> was,3,1,1,SCORE,1,3,2,7,False,2.48587,1.11876,0.12878
+but right now,3,1,1,JUDGE,1,4,0,119,False,3.3145,0,2.22606
+by a long,3,1,1,SHOT,1,3,3,4,False,2.48587,1.67813,0.0735888
+by the time he,4,1,1,OTHER,1,2,0,2,False,2.48587,0,0.0367944
+by three games,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+by three games to,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+by three games to two,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+call on the left,4,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+call on the left baseline,5,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+came off the,3,1,1,OTHER,1,2,0,22,False,3.3145,0,0.423136
+can hear the,3,1,1,SCORE,1,2,0,7,False,2.48587,0,0.12878
+certainly not as,3,1,1,CROWD,1,2,0,2,False,2.48587,0,0.0367944
+coach of <name>,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+come from two,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+come from two sets,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+come from two sets to,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+come from two sets to <num>,6,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+come from two sets to <num> down,7,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+coming in here,3,1,1,SHOT,1,3,0,23,False,2.48587,0,0.423136
+coming out of,3,1,1,JUDGE,1,3,0,40,False,2.48587,0,0.735888
+compared to the,3,1,1,STAT,1,3,1,34,False,2.48587,0.559378,0.643902
+defending champion and,3,1,1,SHOT,1,2,1,9,False,2.48587,0.559378,0.165575
+defy the odds,3,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+do a little bit,4,1,1,JUDGE,1,3,0,66,False,2.48587,0,1.25101
+do you feel,3,1,1,JUDGE,1,2,0,10,False,2.48587,0,0.220766
+do you say,3,1,1,OTHER,1,3,0,126,False,2.48587,0,2.53881
+doing a good,3,1,1,JUDGE,1,2,0,49,False,2.48587,0,0.91986
+doing a good job,4,1,1,JUDGE,1,2,0,43,False,2.48587,0,0.791079
+doing a good job of,5,1,1,JUDGE,1,2,0,13,False,2.48587,0,0.239164
+don't see him,3,1,1,OTHER,1,2,0,7,False,2.48587,0,0.12878
+done a good,3,1,1,JUDGE,1,2,0,25,False,2.48587,0,0.45993
+done a good job,4,1,1,JUDGE,1,2,0,22,False,2.48587,0,0.404738
+done so well,3,1,1,OTHER,1,2,0,19,False,2.48587,0,0.349547
+down at <num>,3,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+down the line a,4,1,1,SHOT,1,3,3,2,False,2.48587,1.67813,0.0367944
+early in the fourth,4,1,1,JUDGE,1,2,2,7,False,2.48587,1.11876,0.12878
+early in the second set,5,1,1,SCORE,1,5,3,24,False,4.14312,1.67813,0.441533
+early on in that,4,1,1,SHOT,1,2,0,5,False,2.48587,0,0.091986
+ever so slightly,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+every single point,3,1,1,OTHER,1,3,1,114,False,2.48587,0.559378,2.35484
+expect him to,3,1,1,OTHER,1,3,3,54,False,2.48587,1.67813,1.06704
+far away from,3,1,1,JUDGE,1,3,0,69,False,2.48587,0,1.2878
+feel like it's,3,1,1,JUDGE,1,3,0,160,False,2.48587,0,3.07233
+feel that <name>,3,1,1,JUDGE,1,2,1,1,True,2.48587,0.559378,0.0183972
+feeling the need,3,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+feeling the need to,4,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+fifth and deciding,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+first grand slam final,4,1,1,STAT,1,2,3,21,False,2.48587,1.67813,0.386341
+first serve percentage,3,1,1,SHOT,1,9,3,77,False,9.94349,1.67813,1.41658
+first set was,3,1,1,SCORE,1,4,0,171,False,3.3145,0,3.21951
+five hours and,3,1,1,STAT,1,2,0,14,False,2.48587,0,0.257561
+for <name> <name> he,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+for <name> <num> <num>,4,1,1,SCORE,1,3,2,0,False,3.3145,1.11876,0
+for a double,3,1,1,SCORE,1,2,2,1,False,3.3145,1.11876,0.0183972
+for a double break,4,1,1,SCORE,1,2,2,0,False,3.3145,1.11876,0
+forehand this is,3,1,1,SHOT,1,2,0,3,False,2.48587,0,0.0551916
+fourth set <name>,3,1,1,SHOT,1,3,2,0,False,2.48587,1.11876,0
+free points on,3,1,1,SHOT,1,2,0,58,False,3.3145,0,1.10383
+from <name> center,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+from <num> to,3,1,1,STAT,1,3,1,36,False,2.48587,0.559378,0.735888
+from a set down,4,1,1,OTHER,1,2,0,6,False,2.48587,0,0.110383
+from his first,3,1,1,STAT,1,2,1,2,False,2.48587,0.559378,0.0367944
+from his point,3,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.0735888
+from his point of,4,1,1,JUDGE,1,2,0,3,False,3.3145,0,0.0551916
+from his point of view,5,1,1,JUDGE,1,2,0,3,False,3.3145,0,0.0551916
+from that far,3,1,1,SHOT,1,2,0,4,False,2.48587,0,0.0735888
+from that far back,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+from two sets of,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+frustration from <name>,3,1,1,JUDGE,1,2,1,0,True,2.48587,0.559378,0
+game of the fifth,4,1,1,OTHER,1,2,0,7,False,2.48587,0,0.12878
+game third set,3,1,1,OTHER,1,2,0,2,False,2.48587,0,0.0367944
+games at the,3,1,1,OTHER,1,3,2,10,False,2.48587,1.11876,0.202369
+games in the,3,1,1,OTHER,1,3,2,75,False,2.48587,1.11876,1.43498
+games on the,3,1,1,SHOT,1,2,2,10,False,2.48587,1.11876,0.183972
+games on the run,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+getting a little,3,1,1,OTHER,1,5,0,90,False,4.14312,0,1.69254
+give you an,3,1,1,OTHER,1,2,0,18,False,3.3145,0,0.349547
+going at it,3,1,1,OTHER,1,2,0,10,False,2.48587,0,0.183972
+going to say,3,1,1,OTHER,1,4,0,108,False,4.14312,0,2.06049
+good <num> <num>,3,1,1,SCORE,1,2,0,2,False,2.48587,0,0.0367944
+got so much,3,1,1,SHOT,1,2,0,19,False,2.48587,0,0.349547
+got to it,3,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.091986
+got to the,3,1,1,JUDGE,1,5,0,137,False,5.80037,0,2.57561
+grand slam finals,3,1,1,STAT,1,3,0,52,False,2.48587,0,0.975051
+had to hit,3,1,1,SHOT,1,2,0,22,False,2.48587,0,0.404738
+had to make,3,1,1,SHOT,1,3,0,52,False,2.48587,0,0.956654
+has a little,3,1,1,OTHER,1,2,0,33,False,2.48587,0,0.643902
+has gone on,3,1,1,OTHER,1,2,0,6,False,2.48587,0,0.110383
+has one challenge,3,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+has one challenge remaining,4,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+has the edge,3,1,1,SHOT,1,2,0,1,True,2.48587,0,0.0183972
+haven't seen it,3,1,1,SHOT,1,2,0,23,False,3.3145,0,0.478327
+having to hit,3,1,1,SHOT,1,2,0,6,False,2.48587,0,0.110383
+he didn't get,3,1,1,JUDGE,1,2,0,14,False,2.48587,0,0.257561
+he has absolutely,3,1,1,SHOT,1,2,0,1,True,2.48587,0,0.0183972
+he hasn't broken,3,1,1,SCORE,1,2,1,0,True,2.48587,0.559378,0
+he hit the,3,1,1,SHOT,1,2,1,47,False,3.3145,0.559378,0.864668
+he knew that,3,1,1,OTHER,1,2,0,9,False,2.48587,0,0.165575
+he played the,3,1,1,OTHER,1,2,0,54,False,2.48587,0,1.04864
+he tends to,3,1,1,SCORE,1,2,0,6,False,2.48587,0,0.110383
+he was able,3,1,1,SHOT,1,3,1,126,False,6.62899,0.559378,2.46522
+he was able to,4,1,1,SHOT,1,3,1,126,False,5.80037,0.559378,2.46522
+he was trying to play,5,1,1,OTHER,1,2,0,1,True,4.97174,0,0.0183972
+he went back,3,1,1,SHOT,1,2,0,10,False,2.48587,0,0.183972
+he's going to be,4,1,1,OTHER,1,4,0,140,False,3.3145,0,2.94355
+he's going to win,4,1,1,SHOT,1,2,0,18,False,2.48587,0,0.33115
+he's just got,3,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+he's won <num>,3,1,1,SHOT,1,2,0,5,False,2.48587,0,0.110383
+her return position,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+here a little,3,1,1,JUDGE,1,2,0,23,False,2.48587,0,0.441533
+here a little bit,4,1,1,JUDGE,1,2,0,21,False,2.48587,0,0.404738
+him a couple,3,1,1,OTHER,1,3,0,49,False,2.48587,0,0.938257
+him a little,3,1,1,OTHER,1,4,2,99,False,3.3145,1.11876,1.83972
+him a little bit,4,1,1,JUDGE,1,3,1,85,False,2.48587,0.559378,1.58216
+his ball striking,3,1,1,OTHER,1,2,0,7,False,2.48587,0,0.12878
+his first ever,3,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+his first service game,4,1,1,OTHER,1,3,3,6,False,2.48587,1.67813,0.110383
+his point of,3,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.0735888
+his point of view,4,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.0735888
+his racket face,3,1,1,SHOT,1,2,0,0,True,3.3145,0,0
+his semi final,3,1,1,STAT,1,2,0,0,True,2.48587,0,0
+his teeth into,3,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+hit a drop,3,1,1,SHOT,1,2,0,2,False,2.48587,0,0.0367944
+hit a drop shot,4,1,1,SHOT,1,2,0,1,True,2.48587,0,0.0183972
+hit it down,3,1,1,SHOT,1,2,0,10,False,2.48587,0,0.202369
+hours on court,3,1,1,STAT,1,2,1,19,False,2.48587,0.559378,0.367944
+i agree with,3,1,1,JUDGE,1,2,0,24,False,5.80037,0,0.478327
+i mean how good,4,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+i mean that,3,1,1,SCORE,1,6,0,160,False,7.45762,0,2.94355
+i remember when,3,1,1,OTHER,1,3,0,60,False,2.48587,0,1.10383
+i saw the,3,1,1,STAT,1,3,0,175,False,2.48587,0,3.32989
+i think his,3,1,1,JUDGE,1,3,0,95,False,2.48587,0,1.76613
+i think of,3,1,1,JUDGE,1,4,0,82,False,3.3145,0,1.56376
+i think we're,3,1,1,JUDGE,1,2,0,155,False,2.48587,0,2.94355
+i would think,3,1,1,JUDGE,1,2,0,72,False,2.48587,0,1.39819
+i'll tell you,3,1,1,OTHER,1,3,1,24,False,2.48587,0.559378,0.441533
+i'm not sure if,4,1,1,SHOT,1,2,0,75,False,2.48587,0,1.41658
+if you know,3,1,1,JUDGE,1,3,0,65,False,2.48587,0,1.23261
+important for <name>,3,1,1,JUDGE,1,3,3,1,False,3.3145,1.67813,0.0183972
+important for <name> to,4,1,1,JUDGE,1,2,1,0,True,2.48587,0.559378,0
+in a couple of,4,1,1,STAT,1,3,2,66,False,2.48587,1.11876,1.21421
+in fact he,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+in front of the,4,1,1,SHOT,1,3,0,63,False,2.48587,0,1.17742
+in our sport,3,1,1,OTHER,1,3,0,51,False,2.48587,0,0.956654
+in regards to,3,1,1,OTHER,1,2,0,3,False,3.3145,0,0.0551916
+in the ad,3,1,1,SHOT,1,2,0,2,False,3.3145,0,0.0367944
+in the afternoon,3,1,1,OTHER,1,2,0,54,False,2.48587,0,1.08543
+in the commentary,3,1,1,CROWD,1,2,0,0,True,2.48587,0,0
+in the commentary box,4,1,1,CROWD,1,2,0,0,True,2.48587,0,0
+in the final and,4,1,1,OTHER,1,2,0,44,False,2.48587,0,0.809477
+in the first two,4,1,1,OTHER,1,3,0,92,False,3.3145,0,1.72934
+in the first two sets,5,1,1,SHOT,1,2,0,43,False,2.48587,0,0.809477
+in the front,3,1,1,OTHER,1,2,0,15,False,2.48587,0,0.275958
+in the front row,4,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+in the last couple of games,6,1,1,OTHER,1,2,1,0,True,2.48587,0.559378,0
+in the middle of the,5,1,1,SHOT,1,4,3,140,False,3.3145,1.67813,2.68599
+in the point,3,1,1,SHOT,1,6,2,77,False,5.80037,1.11876,1.43498
+in the quarterfinals,3,1,1,STAT,1,3,0,112,False,2.48587,0,2.15247
+in the semi final,4,1,1,STAT,1,2,0,0,True,2.48587,0,0
+in the stands,3,1,1,CROWD,1,2,0,34,False,2.48587,0,0.625505
+in the way,3,1,1,OTHER,1,3,0,97,False,2.48587,0,1.80293
+in this fifth,3,1,1,OTHER,1,2,0,0,True,3.3145,0,0
+into play but,3,1,1,SHOT,1,3,1,0,True,2.48587,0.559378,0
+is a game away,4,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+is a game away from,5,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+is as good as,4,1,1,JUDGE,1,3,3,9,False,2.48587,1.67813,0.165575
+is the first,3,1,1,OFFICIAL,1,3,2,121,False,3.3145,1.11876,2.24446
+is the one,3,1,1,SHOT,1,2,0,53,False,2.48587,0,0.993449
+is to get,3,1,1,OTHER,1,3,0,59,False,2.48587,0,1.08543
+it is <num>,3,1,1,JUDGE,1,2,0,7,False,2.48587,0,0.12878
+it looked like,3,1,1,SHOT,1,3,3,29,False,2.48587,1.67813,0.533519
+it looks like he's,4,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.0735888
+it so often,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+it's a second,3,1,1,SCORE,1,2,1,2,False,2.48587,0.559378,0.0367944
+it's got to be,4,1,1,JUDGE,1,2,0,19,False,2.48587,0,0.367944
+it's part of,3,1,1,SHOT,1,2,0,121,False,2.48587,0,2.41003
+it's the right shot,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+just a little more,4,1,1,OTHER,1,2,0,5,False,2.48587,0,0.091986
+just needs to,3,1,1,JUDGE,1,3,5,22,False,3.3145,2.79689,0.404738
+just to get,3,1,1,OTHER,1,3,1,129,False,4.14312,0.559378,2.41003
+just two unforced,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+just two unforced errors,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+keep an eye,3,1,1,OTHER,1,2,0,8,False,2.48587,0,0.165575
+kind of stuff,3,1,1,OTHER,1,3,0,51,False,2.48587,0,0.975051
+know about <name>,3,1,1,JUDGE,1,2,0,1,True,3.3145,0,0.0183972
+know what i'm,3,1,1,JUDGE,1,3,0,87,False,3.3145,0,1.61895
+knows he has,3,1,1,JUDGE,1,2,0,3,False,2.48587,0,0.0551916
+knows he has to,4,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+ladies and gentlemen players,4,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+last <num> points,3,1,1,OTHER,1,3,2,0,False,2.48587,1.11876,0
+leads by three games,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads by three games to,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads by three games to two,6,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads three games,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads three games to,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads three games to one,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads two games,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads two games to,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+leads two games to <num>,5,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+left in the,3,1,1,OTHER,1,3,2,34,False,2.48587,1.11876,0.625505
+level of tennis,3,1,1,OFFICIAL,1,3,1,82,False,3.3145,0.559378,1.56376
+likes to play,3,1,1,OTHER,1,3,0,78,False,2.48587,0,1.50857
+line ball was,3,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+line ball was called,4,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+line ball was called out,5,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+line the ball,3,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+line the ball was,4,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+line the ball was called,5,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+little bit like,3,1,1,JUDGE,1,3,0,74,False,2.48587,0,1.37979
+little bit more time,4,1,1,JUDGE,1,3,0,63,False,2.48587,0,1.21421
+looked as though,3,1,1,OTHER,1,2,1,0,True,2.48587,0.559378,0
+looked like he,3,1,1,SHOT,1,2,1,22,False,2.48587,0.559378,0.423136
+looked like he was,4,1,1,SHOT,1,2,0,13,False,2.48587,0,0.257561
+looking up at his,4,1,1,CROWD,1,2,0,0,True,2.48587,0,0
+lot of effort,3,1,1,JUDGE,1,2,1,27,False,2.48587,0.559378,0.515121
+making first serves,3,1,1,SHOT,1,2,0,5,False,2.48587,0,0.091986
+match has gone,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+match has gone on,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+match that was,3,1,1,JUDGE,1,3,1,50,False,2.48587,0.559378,0.91986
+mean how good,3,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+middle of the strings,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+minutes on the clock,4,1,1,STAT,1,2,1,0,True,2.48587,0.559378,0
+more like it,3,1,1,OTHER,1,4,4,1,False,3.3145,2.23751,0.0183972
+more of an,3,1,1,SHOT,1,2,0,32,False,2.48587,0,0.58871
+more of the,3,1,1,JUDGE,1,3,2,60,False,2.48587,1.11876,1.12223
+more shape and,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+more time to,3,1,1,OTHER,1,4,0,118,False,4.14312,0,2.24446
+more traffic to,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+mr <name> has,3,1,1,OFFICIAL,1,2,0,0,True,4.97174,0,0
+mr <name> has two,4,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+mr <name> has two challenges,5,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+mr <name> has two challenges remaining,6,1,1,OFFICIAL,1,2,0,0,True,4.14312,0,0
+much respect for,3,1,1,JUDGE,1,2,0,19,False,2.48587,0,0.386341
+must win game,3,1,1,JUDGE,1,3,3,0,False,2.48587,1.67813,0
+needs to get,3,1,1,JUDGE,1,2,1,21,False,2.48587,0.559378,0.423136
+never been in,3,1,1,OTHER,1,2,1,43,False,2.48587,0.559378,0.809477
+not a lot,3,1,1,STAT,1,4,2,145,False,4.14312,1.11876,2.79637
+not an easy,3,1,1,JUDGE,1,4,0,129,False,3.3145,0,2.42843
+not working for,3,1,1,SHOT,1,2,0,4,False,2.48587,0,0.0735888
+number one in the,4,1,1,STAT,1,2,0,0,True,2.48587,0,0
+number one in the world,5,1,1,STAT,1,2,0,0,True,2.48587,0,0
+of <name>'s racket,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+of <num> first,3,1,1,SHOT,1,2,1,1,True,2.48587,0.559378,0.0183972
+of <num> in,3,1,1,STAT,1,2,0,7,False,2.48587,0,0.12878
+of <num> in the,4,1,1,STAT,1,2,0,4,False,2.48587,0,0.0735888
+of ball coming,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+of course he,3,1,1,STAT,1,3,0,87,False,2.48587,0,1.63735
+of course his,3,1,1,STAT,1,2,0,7,False,2.48587,0,0.12878
+of grass court,3,1,1,STAT,1,2,0,5,False,3.3145,0,0.091986
+of his career,3,1,1,STAT,1,2,0,71,False,2.48587,0,1.37979
+of his matches,3,1,1,OTHER,1,2,0,33,False,2.48587,0,0.607107
+of people who,3,1,1,OTHER,1,2,0,25,False,2.48587,0,0.45993
+of roland garros,3,1,1,STAT,1,3,0,33,False,2.48587,0,0.625505
+of shape on,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+of shots that,3,1,1,SHOT,1,2,0,11,False,2.48587,0,0.202369
+of the biggest,3,1,1,OTHER,1,2,2,136,False,3.3145,1.11876,2.53881
+of the championships,3,1,1,STAT,1,2,0,7,False,2.48587,0,0.12878
+of the first serve,4,1,1,SHOT,1,2,0,24,False,2.48587,0,0.441533
+of the reasons,3,1,1,JUDGE,1,3,0,117,False,2.48587,0,2.22606
+of the scoreboard,3,1,1,JUDGE,1,2,0,0,True,2.48587,0,0
+of the serve,3,1,1,SHOT,1,3,2,40,False,2.48587,1.11876,0.735888
+of the strings,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+off the <name>,3,1,1,SHOT,1,4,2,1,False,3.3145,1.11876,0.0183972
+off the baseline,3,1,1,SHOT,1,2,1,40,False,2.48587,0.559378,0.791079
+off the strings,3,1,1,OTHER,1,2,0,3,False,2.48587,0,0.0551916
+oh that is,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+oh what a,3,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+on a mission,3,1,1,OTHER,1,2,0,1,True,3.3145,0,0.0183972
+on a tennis,3,1,1,OTHER,1,2,0,35,False,2.48587,0,0.643902
+on a tennis court,4,1,1,OTHER,1,2,0,33,False,2.48587,0,0.607107
+on that point,3,1,1,JUDGE,1,2,0,11,False,2.48587,0,0.202369
+on the change,3,1,1,OTHER,1,2,0,5,False,3.3145,0,0.091986
+on the change of,4,1,1,OTHER,1,2,0,5,False,3.3145,0,0.091986
+on the change of ends,5,1,1,OTHER,1,2,0,5,False,3.3145,0,0.091986
+on the left baseline,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+on the other side of,5,1,1,SHOT,1,3,0,100,False,2.48587,0,1.87651
+on the tennis court,4,1,1,OTHER,1,3,0,102,False,2.48587,0,1.9685
+on their feet and,4,1,1,SCORE,1,2,1,0,True,2.48587,0.559378,0
+on top of his game,5,1,1,OTHER,1,2,0,7,False,2.48587,0,0.12878
+one challenge remaining,3,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+one in the world,4,1,1,STAT,1,2,0,2,False,2.48587,0,0.0367944
+one of the biggest,4,1,1,OTHER,1,2,2,128,False,2.48587,1.11876,2.39164
+one of the reasons,4,1,1,JUDGE,1,3,0,113,False,2.48587,0,2.15247
+only lost serve,3,1,1,SHOT,1,2,0,2,False,2.48587,0,0.0367944
+opened the door,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+opening set in,3,1,1,OTHER,1,3,3,1,False,2.48587,1.67813,0.0183972
+other side of the,4,1,1,OTHER,1,4,2,114,False,3.3145,1.11876,2.15247
+over the line,3,1,1,SHOT,1,3,3,28,False,2.48587,1.67813,0.515121
+percentage of first serves,4,1,1,STAT,1,3,0,57,False,2.48587,0,1.06704
+play with a,3,1,1,SHOT,1,3,2,80,False,2.48587,1.11876,1.52697
+player on the,3,1,1,OTHER,1,3,1,71,False,2.48587,0.559378,1.3246
+point and he's,3,1,1,SCORE,1,2,1,1,True,2.48587,0.559378,0.0183972
+point of a,3,1,1,SCORE,1,2,1,3,False,2.48587,0.559378,0.0551916
+points in that,3,1,1,OTHER,1,4,2,20,False,3.3145,1.11876,0.367944
+points to get,3,1,1,JUDGE,1,3,3,21,False,3.3145,1.67813,0.386341
+pull the trigger,3,1,1,OTHER,1,2,0,14,False,2.48587,0,0.257561
+put the ball in,4,1,1,OTHER,1,2,1,55,False,2.48587,0.559378,1.08543
+ready thank you,3,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+regards to the,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+return of serve and,4,1,1,SHOT,1,3,3,4,False,3.3145,1.67813,0.0735888
+right in the,3,1,1,OTHER,1,2,2,39,False,2.48587,1.11876,0.772682
+right now <name>,3,1,1,SCORE,1,5,4,6,False,4.14312,2.23751,0.12878
+said it was,3,1,1,JUDGE,1,5,0,138,False,4.14312,0,2.6124
+second serve for <name>,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+second serve into,3,1,1,SHOT,1,4,4,0,False,3.3145,2.23751,0
+second serve into the,4,1,1,SHOT,1,3,4,0,False,2.48587,2.23751,0
+second set <num> <num>,4,1,1,SCORE,1,2,1,8,False,2.48587,0.559378,0.147178
+seems like he's,3,1,1,SCORE,1,2,0,32,False,2.48587,0,0.58871
+serve and then,3,1,1,SHOT,1,3,0,92,False,2.48587,0,1.71094
+serve percentage is,3,1,1,STAT,1,3,0,6,False,2.48587,0,0.110383
+serve three times,3,1,1,STAT,1,2,0,2,False,2.48587,0,0.0367944
+service line ball,3,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+service line ball was,4,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+service line ball was called,5,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+serving at <num>,3,1,1,SHOT,1,2,1,31,False,2.48587,0.559378,0.607107
+set <name> <name>,3,1,1,OTHER,1,3,2,0,False,2.48587,1.11876,0
+set by six,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+set by six games,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+set by six games to,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+set in this,3,1,1,OTHER,1,2,0,3,False,2.48587,0,0.0551916
+set points for,3,1,1,SCORE,1,3,3,1,False,2.48587,1.67813,0.0183972
+sets to <num> and,4,1,1,SCORE,1,2,0,23,False,2.48587,0,0.423136
+she knows what,3,1,1,JUDGE,1,2,1,30,False,2.48587,0.559378,0.551916
+she loves to,3,1,1,SHOT,1,2,0,12,False,2.48587,0,0.239164
+she's made it,3,1,1,OTHER,1,2,0,0,True,4.14312,0,0
+shot i mean,3,1,1,SHOT,1,2,0,13,False,2.48587,0,0.239164
+shots like that,3,1,1,SHOT,1,2,0,10,False,2.48587,0,0.183972
+sides of the,3,1,1,SHOT,1,2,0,10,False,2.48587,0,0.183972
+since the start,3,1,1,STAT,1,3,2,14,False,2.48587,1.11876,0.257561
+since the start of,4,1,1,STAT,1,3,2,12,False,2.48587,1.11876,0.220766
+since the start of the,5,1,1,STAT,1,3,2,7,False,2.48587,1.11876,0.12878
+six <num> six,3,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+so far for,3,1,1,SHOT,1,3,1,10,False,2.48587,0.559378,0.183972
+so far in the,4,1,1,OTHER,1,4,3,18,False,3.3145,1.67813,0.33115
+so far it's,3,1,1,SCORE,1,3,1,84,False,2.48587,0.559378,1.54536
+so much damage,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+some time and,3,1,1,OTHER,1,2,0,23,False,2.48587,0,0.423136
+something a little different,4,1,1,SHOT,1,2,0,4,False,2.48587,0,0.0735888
+spoke about it,3,1,1,OTHER,1,2,0,10,False,2.48587,0,0.183972
+starting to come,3,1,1,STAT,1,3,2,15,False,2.48587,1.11876,0.275958
+step in and,3,1,1,SHOT,1,2,0,50,False,2.48587,0,0.956654
+still a lot of,4,1,1,OTHER,1,3,1,57,False,2.48587,0.559378,1.06704
+such a good point,4,1,1,JUDGE,1,2,0,0,True,3.3145,0,0
+supposed to be,3,1,1,OTHER,1,3,0,89,False,2.48587,0,1.71094
+supposed to do,3,1,1,OTHER,1,3,0,46,False,2.48587,0,0.846271
+sure that he,3,1,1,SHOT,1,2,1,27,False,3.3145,0.559378,0.496724
+take the legs,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+takes a lot,3,1,1,JUDGE,1,4,0,94,False,3.3145,0,1.85812
+taking a lot,3,1,1,OTHER,1,2,0,14,False,2.48587,0,0.275958
+talk about that,3,1,1,OTHER,1,4,0,76,False,4.14312,0,1.43498
+tell you that,3,1,1,SCORE,1,3,0,69,False,2.48587,0,1.3246
+than <name> <name>,3,1,1,OTHER,1,2,0,3,False,4.14312,0,0.0551916
+thank you ladies and gentlemen players,6,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+thank you players already,4,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+that <name> is starting,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+that <name> is starting to,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+that <name> was,3,1,1,JUDGE,1,6,3,8,False,4.97174,1.67813,0.147178
+that <num> <num>,3,1,1,SCORE,1,7,3,27,False,6.62899,1.67813,0.515121
+that fourth set,3,1,1,SHOT,1,3,0,32,False,2.48587,0,0.607107
+that he played,3,1,1,OTHER,1,2,0,50,False,2.48587,0,0.938257
+that last backhand,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+that last ball,3,1,1,OTHER,1,2,0,2,False,2.48587,0,0.0367944
+that shot to,3,1,1,SHOT,1,2,0,2,False,2.48587,0,0.0367944
+that was good,3,1,1,JUDGE,1,3,0,74,False,2.48587,0,1.37979
+that was one,3,1,1,OTHER,1,4,1,99,False,4.14312,0.559378,1.82132
+that was one of,4,1,1,OTHER,1,4,1,78,False,3.3145,0.559378,1.43498
+that's the ball,3,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+that's the first one,4,1,1,OTHER,1,2,0,2,False,2.48587,0,0.0367944
+that's what it takes,4,1,1,OTHER,1,2,0,15,False,2.48587,0,0.275958
+the backhand pass,3,1,1,SHOT,1,2,1,0,True,2.48587,0.559378,0
+the backhand volley,3,1,1,SHOT,1,2,1,2,False,2.48587,0.559378,0.0367944
+the ball a little,4,1,1,SHOT,1,3,1,46,False,2.48587,0.559378,0.846271
+the ball back into,4,1,1,OTHER,1,3,3,2,False,2.48587,1.67813,0.0367944
+the ball not,3,1,1,JUDGE,1,2,0,15,False,2.48587,0,0.275958
+the big points,3,1,1,JUDGE,1,3,0,134,False,2.48587,0,2.6308
+the body of,3,1,1,SHOT,1,3,3,6,False,2.48587,1.67813,0.110383
+the call on the left,5,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+the call on the left baseline,6,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+the commentary box,3,1,1,CROWD,1,2,0,0,True,2.48587,0,0
+the court because,3,1,1,OTHER,1,3,0,106,False,2.48587,0,1.9685
+the crowd is,3,1,1,CROWD,1,5,1,114,False,4.14312,0.559378,2.22606
+the defending champion and,4,1,1,SHOT,1,2,1,2,False,2.48587,0.559378,0.0367944
+the final and,3,1,1,OTHER,1,3,0,97,False,3.3145,0,1.80293
+the first and second,4,1,1,SHOT,1,3,0,54,False,2.48587,0,0.993449
+the first serve in,4,1,1,SHOT,1,2,1,24,False,2.48587,0.559378,0.441533
+the first serve return,4,1,1,SHOT,1,2,0,3,False,2.48587,0,0.0551916
+the first set was,4,1,1,SCORE,1,3,0,127,False,2.48587,0,2.37324
+the first step,3,1,1,SHOT,1,3,0,9,False,2.48587,0,0.165575
+the first two sets,4,1,1,OTHER,1,4,0,116,False,4.14312,0,2.22606
+the forehand side,3,1,1,SHOT,1,4,4,39,False,3.3145,2.23751,0.717491
+the forehand wing,3,1,1,SHOT,1,3,2,0,False,3.3145,1.11876,0
+the front row,3,1,1,OTHER,1,2,0,5,False,2.48587,0,0.091986
+the great players,3,1,1,JUDGE,1,2,0,11,False,2.48587,0,0.202369
+the half volley,3,1,1,SHOT,1,3,4,2,False,2.48587,2.23751,0.0367944
+the last <num> points,4,1,1,OTHER,1,3,2,0,False,2.48587,1.11876,0
+the left baseline,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+the line judge,3,1,1,OFFICIAL,1,2,1,10,False,2.48587,0.559378,0.239164
+the man in,3,1,1,SCORE,1,2,0,1,True,3.3145,0,0.0183972
+the match <num>,3,1,1,STAT,1,3,3,20,False,3.3145,1.67813,0.367944
+the match clock,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+the match has,3,1,1,OTHER,1,2,1,4,False,2.48587,0.559378,0.0735888
+the match has gone,4,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+the match has gone on,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+the middle of the strings,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+the moment it,3,1,1,SHOT,1,2,0,11,False,2.48587,0,0.202369
+the moment the,3,1,1,OTHER,1,3,3,17,False,2.48587,1.67813,0.312752
+the need to,3,1,1,JUDGE,1,2,0,4,False,3.3145,0,0.0735888
+the net when,3,1,1,SHOT,1,3,3,15,False,3.3145,1.67813,0.33115
+the off backhand,3,1,1,SHOT,1,3,0,0,True,2.48587,0,0
+the one thing,3,1,1,SHOT,1,3,0,96,False,3.3145,0,1.85812
+the one who,3,1,1,STAT,1,4,0,123,False,3.3145,0,2.42843
+the other side of the,5,1,1,OTHER,1,4,2,112,False,3.3145,1.11876,2.11568
+the other way,3,1,1,OTHER,1,4,2,152,False,3.3145,1.11876,2.85157
+the players have,3,1,1,OTHER,1,3,3,31,False,2.48587,1.67813,0.570313
+the point on,3,1,1,JUDGE,1,3,3,13,False,2.48587,1.67813,0.239164
+the second serve is,4,1,1,SHOT,1,2,2,8,False,2.48587,1.11876,0.165575
+the semifinals of,3,1,1,STAT,1,2,0,52,False,2.48587,0,0.993449
+the service box,3,1,1,CROWD,1,2,0,4,False,2.48587,0,0.0735888
+the slice back and,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+the tennis court,3,1,1,OTHER,1,3,0,136,False,2.48587,0,2.6492
+the tournament he,3,1,1,STAT,1,2,1,8,False,2.48587,0.559378,0.147178
+the tournament the,3,1,1,STAT,1,3,0,43,False,2.48587,0,0.791079
+the very best,3,1,1,JUDGE,1,2,0,9,False,2.48587,0,0.165575
+the way <name>,3,1,1,SCORE,1,5,3,9,False,4.14312,1.67813,0.183972
+the way that he,4,1,1,OTHER,1,2,0,38,False,2.48587,0,0.754285
+the way they,3,1,1,OTHER,1,3,0,84,False,2.48587,0,1.61895
+their best tennis,3,1,1,JUDGE,1,3,1,49,False,2.48587,0.559378,0.993449
+their feet and,3,1,1,OTHER,1,2,1,0,True,2.48587,0.559378,0
+there was one,3,1,1,JUDGE,1,2,0,38,False,2.48587,0,0.699093
+there's been a few,4,1,1,SCORE,1,2,0,3,False,2.48587,0,0.0551916
+there's no way,3,1,1,SHOT,1,2,0,37,False,2.48587,0,0.680696
+these big moments,3,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+they need to,3,1,1,JUDGE,1,3,0,55,False,2.48587,0,1.10383
+think she was,3,1,1,JUDGE,1,2,0,144,False,2.48587,0,2.72278
+think that is,3,1,1,JUDGE,1,3,0,61,False,2.48587,0,1.12223
+think there's a,3,1,1,JUDGE,1,3,0,77,False,2.48587,0,1.45338
+third set he's,3,1,1,SHOT,1,2,1,2,False,2.48587,0.559378,0.0367944
+this game <name>,3,1,1,SCORE,1,3,3,1,False,2.48587,1.67813,0.0183972
+this is <name>,3,1,1,OTHER,1,2,0,3,False,2.48587,0,0.0735888
+this match just,3,1,1,OTHER,1,2,2,8,False,2.48587,1.11876,0.147178
+this stage of the match,5,1,1,OTHER,1,2,0,1,True,2.48587,0,0.0183972
+this tournament and,3,1,1,STAT,1,3,1,167,False,2.48587,0.559378,3.12752
+though <name> is,3,1,1,OTHER,1,3,3,0,False,2.48587,1.67813,0
+three championship points,3,1,1,SCORE,1,2,0,0,True,3.3145,0,0
+three games to one,4,1,1,SCORE,1,2,0,0,True,2.48587,0,0
+throughout this tournament,3,1,1,STAT,1,2,0,8,False,2.48587,0,0.147178
+time he was,3,1,1,OTHER,1,2,0,37,False,3.3145,0,0.680696
+to be a little,4,1,1,JUDGE,1,6,0,211,False,5.80037,0,3.9554
+to be a little bit,5,1,1,JUDGE,1,4,0,165,False,3.3145,0,3.09073
+to be more aggressive,4,1,1,JUDGE,1,4,0,94,False,4.14312,0,1.78453
+to beat the,3,1,1,STAT,1,3,2,76,False,2.48587,1.11876,1.41658
+to come in and,4,1,1,SHOT,1,3,0,27,False,2.48587,0,0.496724
+to defy the,3,1,1,STAT,1,2,0,0,True,2.48587,0,0
+to defy the odds,4,1,1,STAT,1,2,0,0,True,2.48587,0,0
+to find solutions,3,1,1,JUDGE,1,3,0,26,False,2.48587,0,0.478327
+to get a little,4,1,1,OTHER,1,4,0,68,False,4.14312,0,1.26941
+to get back on,4,1,1,JUDGE,1,4,4,58,False,3.3145,2.23751,1.08543
+to play it,3,1,1,OTHER,1,5,0,81,False,5.80037,0,1.54536
+to pull the trigger,4,1,1,OTHER,1,2,0,6,False,2.48587,0,0.110383
+to put the ball,4,1,1,JUDGE,1,3,0,59,False,2.48587,0,1.15902
+to say that <name>,4,1,1,OTHER,1,2,1,1,True,2.48587,0.559378,0.0183972
+to see him,3,1,1,JUDGE,1,5,0,141,False,4.14312,0,2.81477
+to see this,3,1,1,OTHER,1,4,3,13,False,3.3145,1.67813,0.239164
+to serve and volley,4,1,1,SHOT,1,2,1,35,False,4.14312,0.559378,0.754285
+to that ball,3,1,1,SHOT,1,2,0,6,False,2.48587,0,0.110383
+to the backhand side,4,1,1,SHOT,1,2,0,2,False,2.48587,0,0.0367944
+to the ball,3,1,1,JUDGE,1,4,3,78,False,3.3145,1.67813,1.50857
+to the first,3,1,1,SHOT,1,5,5,24,False,4.97174,2.79689,0.441533
+to the forehand and,4,1,1,SHOT,1,2,0,4,False,2.48587,0,0.0735888
+to the line,3,1,1,SHOT,1,7,2,100,False,8.28624,1.11876,1.9501
+to two final,3,1,1,SCORE,1,3,0,0,True,2.48587,0,0
+to two final set,4,1,1,SCORE,1,3,0,0,True,2.48587,0,0
+to use the,3,1,1,OTHER,1,3,1,68,False,2.48587,0.559378,1.25101
+to win points,3,1,1,SHOT,1,3,1,30,False,2.48587,0.559378,0.551916
+to work so,3,1,1,JUDGE,1,2,2,12,False,2.48587,1.11876,0.220766
+too many unforced,3,1,1,SHOT,1,3,3,64,False,2.48587,1.67813,1.19582
+too many unforced errors,4,1,1,SHOT,1,3,3,63,False,2.48587,1.67813,1.17742
+too much of,3,1,1,OTHER,1,3,2,81,False,3.3145,1.11876,1.54536
+top of his game,4,1,1,OTHER,1,2,0,11,False,2.48587,0,0.202369
+tournament so far,3,1,1,STAT,1,3,2,31,False,2.48587,1.11876,0.570313
+trying to take the,4,1,1,SHOT,1,2,0,14,False,3.3145,0,0.257561
+two and a,3,1,1,SHOT,1,5,0,105,False,4.14312,0,2.04209
+two and a half,4,1,1,SHOT,1,5,0,103,False,4.14312,0,2.00529
+two championship points,3,1,1,SCORE,1,2,0,0,True,3.3145,0,0
+two final set,3,1,1,SCORE,1,3,0,0,True,2.48587,0,0
+two sets the,3,1,1,SCORE,1,2,0,10,False,2.48587,0,0.183972
+two sets to <num> and,5,1,1,SCORE,1,2,0,23,False,2.48587,0,0.423136
+type of ball,3,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+up on the baseline,4,1,1,SHOT,1,2,0,5,False,2.48587,0,0.091986
+up the middle of,4,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+up the middle of the,5,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+up the middle of the court,6,1,1,OTHER,1,2,0,0,True,2.48587,0,0
+up to <num>,3,1,1,JUDGE,1,3,2,17,False,2.48587,1.11876,0.312752
+waiting for it,3,1,1,SHOT,1,2,0,10,False,2.48587,0,0.183972
+was a little too,4,1,1,JUDGE,1,2,0,8,False,2.48587,0,0.147178
+was always going,3,1,1,JUDGE,1,2,0,85,False,3.3145,0,1.65575
+was always going to,4,1,1,JUDGE,1,2,0,80,False,3.3145,0,1.56376
+was excellent the,3,1,1,JUDGE,1,2,0,1,True,2.48587,0,0.0183972
+was looking for,3,1,1,OTHER,1,3,1,61,False,2.48587,0.559378,1.14063
+way he played,3,1,1,OTHER,1,2,0,42,False,2.48587,0,0.772682
+way that he,3,1,1,OTHER,1,2,0,43,False,2.48587,0,0.846271
+we go <name>,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+we haven't seen,3,1,1,OTHER,1,2,0,3,False,2.48587,0,0.0551916
+we saw in,3,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+we spoke about,3,1,1,OTHER,1,2,0,18,False,4.97174,0,0.33115
+we spoke about it,4,1,1,OTHER,1,2,0,2,False,2.48587,0,0.0367944
+we've talked about,3,1,1,OTHER,1,2,0,4,False,2.48587,0,0.0735888
+well <name> has,3,1,1,SHOT,1,3,2,2,False,2.48587,1.11876,0.0367944
+well he does,3,1,1,SHOT,1,2,0,5,False,2.48587,0,0.110383
+well he has,3,1,1,JUDGE,1,2,0,40,False,2.48587,0,0.735888
+well he has to,4,1,1,JUDGE,1,2,0,3,False,2.48587,0,0.0551916
+well i think that,4,1,1,JUDGE,1,3,0,78,False,2.48587,0,1.43498
+well it was a,4,1,1,JUDGE,1,3,0,90,False,2.48587,0,1.67414
+went on to,3,1,1,OTHER,1,3,2,33,False,2.48587,1.11876,0.625505
+what a time,3,1,1,JUDGE,1,3,2,0,False,2.48587,1.11876,0
+what he wants,3,1,1,SCORE,1,2,0,16,False,2.48587,0,0.294355
+when he hits,3,1,1,SHOT,1,2,1,9,False,2.48587,0.559378,0.165575
+when he lost,3,1,1,STAT,1,2,0,7,False,2.48587,0,0.12878
+where <name> has,3,1,1,OTHER,1,2,1,3,False,2.48587,0.559378,0.0551916
+where his racket,3,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+where his racket face,4,1,1,SHOT,1,2,0,0,True,2.48587,0,0
+where to put,3,1,1,JUDGE,1,2,0,2,False,2.48587,0,0.0367944
+will be hoping,3,1,1,OTHER,1,3,0,1,True,2.48587,0,0.0183972
+with <name> <name>,3,1,1,SHOT,1,3,2,11,False,2.48587,1.11876,0.220766
+with his movement,3,1,1,OTHER,1,2,0,8,False,2.48587,0,0.147178
+with the drop,3,1,1,SHOT,1,3,3,0,False,2.48587,1.67813,0
+won <num> of,3,1,1,SHOT,1,4,3,7,False,3.3145,1.67813,0.12878
+you almost feel,3,1,1,JUDGE,1,2,0,3,False,2.48587,0,0.0551916
+you can hear,3,1,1,OTHER,1,2,0,14,False,2.48587,0,0.257561
+you come in,3,1,1,SHOT,1,2,0,17,False,2.48587,0,0.33115
+you don't see,3,1,1,JUDGE,1,3,0,66,False,2.48587,0,1.23261
+you ladies and gentlemen players,5,1,1,OFFICIAL,1,2,0,0,True,3.3145,0,0
+you players already,3,1,1,OFFICIAL,1,2,0,0,True,2.48587,0,0
+you think of,3,1,1,JUDGE,1,2,0,24,False,2.48587,0,0.551916
+you're not going,3,1,1,CROWD,1,3,0,158,False,2.48587,0,3.07233
+you're not going to,4,1,1,CROWD,1,3,0,155,False,2.48587,0,3.01714

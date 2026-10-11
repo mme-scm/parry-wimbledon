@@ -1,0 +1,1941 @@
+ngram,n,targets_shared,occurrences_in_targets,modal_slot,modal_slot_share
+a little bit,3,20,186,JUDGE,1
+a lot of,3,20,111,SHOT,0.324324
+<num> <num> <num>,3,19,98,SCORE,0.867347
+going to be,3,19,75,OTHER,0.506667
+of the court,3,19,74,OTHER,0.675676
+a couple of,3,19,73,SHOT,0.287671
+down the line,3,15,72,SHOT,1
+one of the,3,16,63,OTHER,0.349206
+at the moment,3,16,62,OTHER,0.483871
+the second set,3,14,53,OTHER,0.528302
+the first set,3,16,48,OTHER,0.333333
+in the second,3,15,44,OTHER,0.522727
+is going to,3,19,44,OTHER,0.340909
+the first serve,3,15,44,SHOT,1
+a bit of,3,13,41,OTHER,0.512195
+for <name> <name>,3,15,40,JUDGE,0.275
+in the first,3,12,40,OTHER,0.45
+<num> <num> <num> <num>,4,15,39,SCORE,0.948718
+little bit of,3,12,38,JUDGE,1
+in this match,3,13,36,OTHER,0.5
+world number one,3,11,35,STAT,1
+you can see,3,14,35,OTHER,0.514286
+<num> in the,3,15,34,OTHER,0.411765
+he's going to,3,10,34,SHOT,0.411765
+the world number,3,10,34,STAT,1
+a little bit more,4,15,33,JUDGE,1
+a little bit of,4,12,33,JUDGE,1
+little bit more,3,15,33,JUDGE,1
+of the match,3,14,33,OTHER,0.454545
+the drop shot,3,12,33,SHOT,1
+at <num> <num>,3,13,32,SCORE,0.46875
+to try and,3,11,32,OTHER,0.4375
+two sets to,3,9,32,SCORE,1
+was going to,3,14,32,OTHER,0.375
+in the second set,4,10,31,OTHER,0.451613
+<name> in the,3,14,30,OTHER,0.4
+bit of a,3,11,30,JUDGE,0.4
+for <name> to,3,15,30,OTHER,0.333333
+i don't think,3,15,30,JUDGE,1
+in this set,3,11,30,OTHER,0.466667
+the second serve,3,15,30,SHOT,1
+in this game,3,13,29,OTHER,0.448276
+and i think,3,14,27,JUDGE,1
+be able to,3,12,27,OTHER,0.555556
+in the last,3,15,27,STAT,0.407407
+<num> <num> <name>,3,11,26,SCORE,0.538462
+i don't know,3,13,26,JUDGE,1
+i think he,3,8,26,JUDGE,1
+it's going to,3,13,26,OTHER,0.5
+the back of,3,13,26,OTHER,0.653846
+the end of,3,15,26,OTHER,0.384615
+the opening set,3,10,26,OTHER,0.461538
+in the third,3,13,25,OTHER,0.52
+at the end,3,13,24,OTHER,0.541667
+in terms of,3,8,24,JUDGE,0.333333
+in the world,3,12,24,OTHER,0.458333
+just a little,3,11,24,JUDGE,0.5
+side of the,3,13,24,OTHER,0.541667
+the first time,3,12,24,STAT,1
+the world number one,4,8,24,STAT,1
+<num> <num> in,3,12,23,OTHER,0.347826
+a bit more,3,12,23,SHOT,0.434783
+going to have,3,12,23,JUDGE,0.565217
+in the fourth,3,12,23,OTHER,0.565217
+the us open,3,10,23,OTHER,0.782609
+to get the,3,13,23,OTHER,0.347826
+a little more,3,12,22,OTHER,0.409091
+and a half,3,12,22,STAT,0.545455
+back of the,3,11,22,OTHER,0.636364
+been able to,3,11,22,OTHER,0.5
+going to be a,4,14,22,JUDGE,0.363636
+the back of the,4,11,22,OTHER,0.636364
+the start of,3,13,22,OTHER,0.363636
+was able to,3,12,22,OTHER,0.363636
+backhand down the,3,8,21,SHOT,1
+backhand down the line,4,8,21,SHOT,1
+close to the,3,13,21,SHOT,0.857143
+i think that,3,12,21,JUDGE,1
+i'm not sure,3,10,21,OTHER,0.428571
+middle of the,3,13,21,SHOT,0.52381
+of the net,3,10,21,SHOT,1
+the middle of,3,12,21,SHOT,0.52381
+to be able,3,12,21,OTHER,0.619048
+to be able to,4,12,21,OTHER,0.571429
+up the line,3,8,21,SHOT,1
+<name> <name> has,3,6,20,OFFICIAL,0.4
+<name> <name> is,3,10,20,OTHER,0.35
+as well as,3,12,20,SHOT,0.4
+at the end of,4,13,20,OTHER,0.35
+from <name> <name>,3,13,20,SHOT,0.35
+the fact that,3,14,20,OTHER,0.55
+the middle of the,4,12,20,SHOT,0.55
+to get to,3,10,20,OTHER,0.45
+a look at,3,12,19,JUDGE,0.315789
+as good as,3,11,19,JUDGE,1
+back of the court,4,11,19,OTHER,0.631579
+early in the,3,12,19,OTHER,0.473684
+from <name> and,3,13,19,SHOT,0.473684
+from the back,3,11,19,OTHER,0.736842
+in the first set,4,12,19,SHOT,0.315789
+look at the,3,10,19,OTHER,0.315789
+part of the,3,10,19,SHOT,0.368421
+that <name> is,3,11,19,OTHER,0.526316
+the back of the court,5,11,19,OTHER,0.631579
+to get a,3,12,19,OTHER,0.526316
+to the net,3,10,19,SHOT,1
+<name> <num> <num>,3,11,18,SCORE,0.555556
+end of the,3,11,18,OTHER,0.5
+for the first,3,11,18,STAT,0.722222
+going to get,3,10,18,OTHER,0.333333
+he needs to,3,10,18,JUDGE,1
+i think he's,3,7,18,JUDGE,1
+i think it's,3,12,18,JUDGE,1
+i think the,3,11,18,JUDGE,1
+in the fifth,3,6,18,OTHER,0.388889
+in the final,3,11,18,OTHER,0.722222
+in the opening,3,8,18,OTHER,0.333333
+is going to be,4,13,18,OTHER,0.444444
+on the ball,3,8,18,OTHER,0.388889
+on the first,3,10,18,SHOT,0.777778
+was a little,3,11,18,JUDGE,0.444444
+in the match,3,10,17,OTHER,0.823529
+in the tournament,3,10,17,STAT,1
+it's going to be,4,11,17,OTHER,0.411765
+return of serve,3,9,17,SHOT,1
+serve and volley,3,5,17,SHOT,1
+sets to <num>,3,7,17,SCORE,1
+such a good,3,8,17,JUDGE,1
+this third set,3,8,17,OTHER,0.647059
+to take the,3,10,17,SHOT,0.470588
+top of the,3,9,17,SHOT,0.764706
+<num> <num> in the,4,11,16,OTHER,0.4375
+<num> to <num>,3,10,16,STAT,0.25
+a break point,3,10,16,SCORE,1
+a second serve,3,10,16,SHOT,1
+i think it,3,12,16,JUDGE,1
+not going to,3,12,16,OTHER,0.3125
+on top of,3,9,16,SHOT,0.4375
+start of the,3,10,16,OTHER,0.5625
+the court and,3,10,16,OTHER,0.6875
+the fifth set,3,5,16,OTHER,0.5625
+the way he,3,11,16,OTHER,0.375
+the way that,3,12,16,OTHER,0.6875
+to hit a,3,9,16,SHOT,1
+to the baseline,3,9,16,SHOT,1
+a <num> <num>,3,11,15,SCORE,0.6
+a chance to,3,7,15,OTHER,0.666667
+a drop shot,3,9,15,SHOT,1
+find a way,3,7,15,OTHER,0.666667
+got to be,3,9,15,JUDGE,1
+he's got a,3,6,15,JUDGE,0.6
+hit the ball,3,9,15,SHOT,1
+i'm going to,3,9,15,OTHER,0.4
+just trying to,3,11,15,OTHER,0.4
+of the second,3,9,15,OTHER,0.533333
+the last <num>,3,11,15,STAT,0.6
+to find a,3,7,15,SHOT,0.4
+to hit the,3,10,15,SHOT,1
+you look at,3,11,15,OTHER,0.4
+you've got to,3,9,15,JUDGE,1
+<name> is going,3,7,14,OTHER,0.357143
+<num> <num> and,3,8,14,SCORE,0.5
+<num> <num> i,3,7,14,SCORE,0.857143
+<num> and <num>,3,9,14,OTHER,0.571429
+a way to,3,7,14,OTHER,0.642857
+at the start,3,9,14,OTHER,0.5
+at the start of,4,9,14,OTHER,0.428571
+at this point,3,7,14,OTHER,0.357143
+break of serve,3,9,14,SHOT,1
+for the first time,4,10,14,STAT,1
+i think that's,3,10,14,JUDGE,1
+in a row,3,7,14,STAT,1
+in the game,3,9,14,OTHER,0.5
+it was going,3,8,14,SHOT,0.428571
+little bit of a,4,8,14,JUDGE,1
+middle of the court,4,9,14,SHOT,0.5
+on the board,3,9,14,OTHER,0.5
+on the forehand,3,10,14,SHOT,1
+on the second,3,10,14,SHOT,0.714286
+that <name> has,3,9,14,OTHER,0.571429
+that first set,3,8,14,OTHER,0.714286
+the australian open,3,7,14,STAT,0.428571
+the middle of the court,5,9,14,SHOT,0.5
+the start of the,4,9,14,OTHER,0.428571
+you want to,3,5,14,OTHER,0.571429
+<num> year old,3,5,13,STAT,1
+a double break,3,6,13,SCORE,1
+a few more,3,10,13,SHOT,0.384615
+a good job,3,9,13,JUDGE,1
+a little bit of a,5,7,13,JUDGE,1
+able to do,3,12,13,OTHER,0.692308
+be a little,3,11,13,JUDGE,0.538462
+from the back of,4,8,13,OTHER,0.692308
+from the back of the,5,8,13,OTHER,0.615385
+from the back of the court,6,8,13,OTHER,0.615385
+get the ball,3,9,13,JUDGE,0.384615
+his first serve,3,8,13,SHOT,1
+i feel like,3,8,13,JUDGE,1
+i mean it's,3,10,13,JUDGE,0.461538
+in the court,3,7,13,SHOT,0.615385
+in the previous,3,7,13,OTHER,0.461538
+into this match,3,8,13,OTHER,0.461538
+it looks like,3,7,13,OTHER,0.692308
+off the court,3,11,13,OTHER,0.615385
+on the court,3,11,13,JUDGE,0.307692
+on the line,3,10,13,SHOT,1
+on the serve,3,9,13,SHOT,1
+so far in,3,11,13,STAT,0.461538
+the end of the,4,10,13,OTHER,0.384615
+the french open,3,9,13,OTHER,0.615385
+the line and,3,10,13,SHOT,1
+thought it was,3,10,13,JUDGE,1
+to come in,3,9,13,OTHER,0.384615
+to stay in,3,9,13,SHOT,0.692308
+trying to get,3,10,13,OTHER,0.538462
+<name> at the,3,8,12,OTHER,0.416667
+<name> is going to,4,7,12,OTHER,0.333333
+<name> to get,3,9,12,OTHER,0.583333
+<num> <num> down,3,7,12,SCORE,0.75
+a bit of a,4,9,12,OTHER,0.666667
+a long way,3,8,12,SHOT,1
+a lot more,3,9,12,OTHER,0.416667
+at the end of the,5,9,12,OTHER,0.333333
+at the net,3,7,12,SHOT,1
+at this stage,3,8,12,OTHER,0.5
+game for <name>,3,7,12,OTHER,0.583333
+going to have to,4,10,12,JUDGE,1
+he's got to,3,4,12,JUDGE,1
+i mean i,3,7,12,OTHER,0.416667
+in this final,3,5,12,OTHER,0.5
+it's a good,3,9,12,JUDGE,1
+of the best,3,8,12,JUDGE,1
+of the second set,4,8,12,OTHER,0.583333
+shot from <name>,3,7,12,SHOT,1
+side of the court,4,10,12,OTHER,0.833333
+the first point,3,8,12,SHOT,0.583333
+the number one,3,6,12,STAT,1
+the third set,3,7,12,OTHER,0.583333
+this opening set,3,9,12,OTHER,0.666667
+to go to,3,9,12,OTHER,0.333333
+to say that,3,8,12,OTHER,0.666667
+was trying to,3,5,12,SHOT,0.5
+yeah i think,3,7,12,JUDGE,1
+<name> has been,3,8,11,OTHER,0.363636
+<name> needs to,3,7,11,JUDGE,1
+<num> <num> it's,3,8,11,SCORE,0.818182
+a couple of times,4,8,11,STAT,1
+a long time,3,8,11,SHOT,1
+all of a sudden,4,6,11,SHOT,0.363636
+as much as,3,7,11,OTHER,0.636364
+back into this,3,7,11,OTHER,0.636364
+break in the,3,8,11,OTHER,0.727273
+but i think,3,8,11,JUDGE,1
+couple of times,3,8,11,STAT,1
+first serve percentage,3,8,11,SHOT,1
+for <name> in,3,8,11,OTHER,0.636364
+get to the,3,7,11,SHOT,0.545455
+he wants to,3,5,11,JUDGE,0.363636
+inside the baseline,3,8,11,SHOT,1
+of a sudden,3,6,11,OTHER,0.454545
+on the baseline,3,8,11,SHOT,1
+out of trouble,3,7,11,OTHER,0.636364
+point for <name>,3,7,11,SCORE,0.545455
+set <num> <num>,3,7,11,SCORE,0.727273
+the first one,3,8,11,OTHER,0.545455
+the first two,3,8,11,OTHER,0.636364
+the net and,3,7,11,SHOT,1
+the top of,3,9,11,SHOT,0.727273
+to get back,3,8,11,JUDGE,0.363636
+well i think,3,7,11,JUDGE,1
+you could see,3,5,11,OTHER,0.636364
+<name> and <name>,3,7,10,OTHER,0.5
+<num> <num> lead,3,7,10,SCORE,0.4
+<num> <num> to,3,9,10,SCORE,0.7
+<num> of the,3,7,10,SHOT,0.4
+a first serve,3,6,10,SHOT,1
+a set and,3,8,10,SCORE,0.5
+able to get,3,9,10,JUDGE,0.3
+and of course,3,5,10,OTHER,0.6
+are going to,3,7,10,OTHER,0.4
+as soon as,3,7,10,OTHER,0.4
+at the back,3,7,10,OTHER,0.6
+away from <name>,3,8,10,OTHER,0.6
+change of ends,3,6,10,OTHER,0.6
+early on in,3,8,10,SHOT,0.3
+first two sets,3,4,10,OTHER,0.7
+from <name> the,3,6,10,SHOT,0.6
+game of the,3,7,10,OTHER,0.5
+going to go,3,7,10,SHOT,0.6
+he gets a,3,6,10,OTHER,0.6
+he was going,3,7,10,OTHER,0.5
+in the <num>,3,6,10,SCORE,0.7
+in the middle,3,7,10,OTHER,0.4
+into the net,3,8,10,SHOT,1
+is one of,3,7,10,SHOT,0.3
+just a little bit,4,7,10,JUDGE,1
+last couple of,3,7,10,STAT,0.4
+of the first,3,7,10,SHOT,0.4
+of the things,3,5,10,OTHER,0.5
+of this match,3,9,10,OTHER,0.6
+on the return,3,8,10,SHOT,1
+one of the things,4,5,10,OTHER,0.5
+one of those,3,7,10,OTHER,0.5
+over the years,3,5,10,STAT,1
+second serve return,3,6,10,SHOT,1
+serve from <name>,3,9,10,SHOT,1
+serve out wide,3,7,10,SHOT,1
+stay in the,3,6,10,SHOT,0.6
+that last game,3,7,10,OTHER,0.6
+that's a good,3,8,10,JUDGE,1
+the ball in,3,9,10,OTHER,0.5
+the first game,3,6,10,OTHER,0.5
+think it was,3,8,10,JUDGE,1
+this second set,3,6,10,OTHER,0.5
+to play the,3,8,10,SHOT,0.7
+to the <name>,3,6,10,SHOT,0.8
+to win the,3,8,10,OTHER,0.5
+was going to be,4,7,10,OTHER,0.5
+<name> as well,3,8,9,OTHER,0.444444
+<name> has two,3,3,9,OFFICIAL,1
+<name> in this,3,8,9,OTHER,0.555556
+<name> on the,3,7,9,OTHER,0.444444
+<num> <num> but,3,6,9,SCORE,0.888889
+<num> shot rally,3,7,9,SHOT,1
+all the time,3,6,9,OTHER,0.444444
+at the start of the,5,7,9,OTHER,0.555556
+back in the,3,5,9,OTHER,0.444444
+back to the,3,7,9,OTHER,0.555556
+ball on the,3,5,9,SHOT,0.555556
+couple of years,3,7,9,STAT,1
+first serves in,3,9,9,SHOT,1
+for <name> and,3,5,9,OTHER,0.333333
+for a second,3,6,9,JUDGE,0.333333
+from <name> he,3,5,9,SHOT,0.444444
+from <name> in,3,8,9,SHOT,0.444444
+get out of,3,7,9,JUDGE,0.444444
+got a lot,3,5,9,JUDGE,0.888889
+had a lot,3,7,9,JUDGE,0.444444
+i mean he,3,6,9,OTHER,0.444444
+i think it was,4,7,9,JUDGE,1
+in front of,3,7,9,SHOT,0.444444
+in new york,3,6,9,OTHER,0.666667
+in that game,3,7,9,OTHER,0.333333
+in the opening set,4,5,9,OTHER,0.333333
+in this third,3,6,9,OTHER,0.555556
+in this third set,4,6,9,OTHER,0.555556
+in this tournament,3,7,9,STAT,1
+is starting to,3,7,9,OTHER,0.555556
+it feels like,3,6,9,JUDGE,1
+it's <num> <num>,3,6,9,OTHER,0.666667
+of the most,3,4,9,JUDGE,0.444444
+of the point,3,4,9,OTHER,0.777778
+of the tournament,3,7,9,STAT,1
+on the right,3,4,9,OTHER,0.444444
+on the run,3,6,9,SHOT,0.444444
+points for <name>,3,7,9,SCORE,0.555556
+serve in the,3,8,9,SHOT,1
+the <name> backhand,3,5,9,SHOT,1
+the ball on,3,6,9,SHOT,0.444444
+the ball was,3,4,9,OFFICIAL,0.777778
+the beginning of,3,5,9,OTHER,0.444444
+the last couple,3,7,9,OTHER,0.444444
+the top of the,4,7,9,SHOT,0.888889
+this match and,3,8,9,OTHER,0.555556
+to be more,3,7,9,JUDGE,0.777778
+to deal with,3,9,9,JUDGE,0.444444
+to stay in the,4,6,9,SHOT,0.666667
+to the line,3,6,9,SHOT,1
+top of the net,4,5,9,SHOT,1
+trying to play,3,5,9,SHOT,0.555556
+two sets to <num>,4,5,9,SCORE,1
+up the middle,3,7,9,SHOT,0.666667
+was <num> <num>,3,6,9,OTHER,0.444444
+was a great,3,4,9,JUDGE,1
+<name> is a,3,5,8,JUDGE,0.5
+<num> <num> that's,3,5,8,SCORE,1
+a lot of the,4,6,8,OTHER,0.375
+and <name> is,3,5,8,OTHER,0.375
+and you know,3,5,8,JUDGE,1
+back on serve,3,8,8,SHOT,1
+before the match,3,7,8,OTHER,1
+behind the baseline,3,6,8,SHOT,1
+down the middle,3,7,8,SHOT,1
+end of that,3,6,8,OTHER,0.5
+feel as though,3,5,8,JUDGE,1
+find a way to,4,5,8,OTHER,0.625
+forehand from <name>,3,8,8,SHOT,1
+game away from,3,6,8,OTHER,0.375
+get a little,3,6,8,JUDGE,0.5
+go for the,3,7,8,SHOT,0.625
+going to win,3,6,8,OTHER,0.375
+got a little,3,7,8,JUDGE,0.5
+got a lot of,4,4,8,JUDGE,0.875
+had a lot of,4,7,8,JUDGE,0.5
+have to say,3,5,8,JUDGE,1
+i mean that,3,5,8,SHOT,0.375
+i think she,3,5,8,JUDGE,1
+i think this,3,5,8,JUDGE,1
+i think you,3,7,8,JUDGE,1
+i want to,3,6,8,OTHER,0.75
+in the early,3,6,8,OTHER,0.625
+in the fifth set,4,4,8,JUDGE,0.375
+is going to have,4,7,8,JUDGE,0.375
+it's hard to,3,6,8,JUDGE,1
+leads <num> <num>,3,5,8,OTHER,0.625
+lot of the,3,6,8,OTHER,0.375
+more and more,3,5,8,OTHER,0.5
+more of a,3,6,8,OTHER,0.5
+need to be,3,6,8,JUDGE,1
+of the ball,3,5,8,OTHER,0.5
+of the court and,4,6,8,OTHER,0.875
+on the <num>,3,6,8,SCORE,0.75
+on the backhand,3,6,8,SHOT,1
+second set and,3,7,8,SCORE,0.5
+serve for the,3,4,8,SHOT,1
+serving to stay,3,7,8,SHOT,1
+serving to stay in,4,7,8,SHOT,1
+she needs to,3,5,8,JUDGE,1
+she's going to,3,3,8,OTHER,0.5
+start to the,3,6,8,JUDGE,0.875
+the <name> forehand,3,6,8,SHOT,1
+the amount of,3,8,8,SHOT,0.25
+the ball back,3,7,8,OTHER,0.5
+the court with,3,8,8,OTHER,0.5
+the fourth set,3,5,8,OTHER,0.5
+the last couple of,4,6,8,OTHER,0.375
+the previous game,3,6,8,SCORE,0.375
+there's a lot,3,6,8,OTHER,0.375
+to <num> <num>,3,7,8,SCORE,0.625
+to get out,3,7,8,JUDGE,0.625
+to get out of,4,7,8,JUDGE,0.5
+to go for,3,6,8,SHOT,0.5
+to make it,3,6,8,JUDGE,0.5
+to open up,3,7,8,OTHER,0.625
+to the final,3,7,8,OTHER,0.5
+to win a,3,5,8,STAT,0.625
+to win this,3,6,8,OTHER,0.5
+try and get,3,6,8,OTHER,0.875
+two set points,3,5,8,SCORE,1
+was one of,3,6,8,OTHER,0.375
+you can get,3,8,8,OTHER,0.75
+you need to,3,7,8,JUDGE,1
+<num> <num> he,3,6,7,SCORE,0.857143
+<num> <num> the,3,6,7,SCORE,0.714286
+a <num> <num> lead,4,6,7,SCORE,0.428571
+a break of,3,7,7,SHOT,1
+a break of serve,4,7,7,SHOT,1
+a grand slam,3,5,7,STAT,1
+a little bit and,4,6,7,JUDGE,1
+a little too,3,5,7,JUDGE,0.428571
+a much better,3,5,7,JUDGE,1
+a pretty good,3,4,7,JUDGE,1
+as far as,3,5,7,SHOT,0.285714
+as you said,3,3,7,JUDGE,0.428571
+at the beginning,3,4,7,SHOT,0.285714
+at the french,3,5,7,OTHER,0.857143
+at the french open,4,5,7,OTHER,0.857143
+at the top,3,6,7,OTHER,0.571429
+at the us open,4,6,7,OTHER,0.857143
+away from the,3,7,7,OTHER,0.571429
+backhand cross court,3,5,7,SHOT,1
+be more aggressive,3,4,7,JUDGE,1
+being able to,3,7,7,SHOT,0.428571
+come up with,3,7,7,SHOT,0.428571
+control of the,3,3,7,OTHER,0.857143
+don't know if,3,4,7,JUDGE,1
+earlier in the,3,5,7,SHOT,0.285714
+end of the second,4,5,7,OTHER,0.428571
+end of the second set,5,5,7,OTHER,0.428571
+far in the,3,7,7,STAT,0.428571
+far in this,3,7,7,OTHER,0.571429
+first serve in,3,5,7,SHOT,1
+first serve that,3,7,7,SHOT,1
+first set in,3,5,7,OTHER,0.571429
+for <num> <num>,3,2,7,OTHER,0.571429
+for a long,3,7,7,SHOT,1
+for the world,3,4,7,STAT,0.571429
+for the world number,4,4,7,STAT,1
+forehand cross court,3,5,7,SHOT,1
+from the baseline,3,5,7,SHOT,1
+get on the,3,7,7,OTHER,0.714286
+go to the,3,5,7,OTHER,0.571429
+going to be the,4,5,7,OTHER,0.857143
+grand slam final,3,6,7,STAT,1
+he was able,3,2,7,OTHER,0.428571
+his second serve,3,6,7,SHOT,1
+i mean the,3,5,7,OTHER,0.571429
+in that match,3,6,7,OTHER,0.428571
+in the first game,4,5,7,OTHER,0.428571
+in this opening,3,6,7,OTHER,0.714286
+is one of the,4,5,7,SHOT,0.428571
+it was <num>,3,6,7,STAT,0.571429
+it was a great,4,3,7,JUDGE,1
+it was going to,4,5,7,SHOT,0.428571
+it's a great,3,6,7,JUDGE,1
+little bit and,3,6,7,JUDGE,1
+now for <name>,3,6,7,OTHER,0.285714
+of course the,3,7,7,OTHER,0.571429
+of serve and,3,5,7,SHOT,1
+of the <num>,3,6,7,STAT,0.571429
+of the fourth,3,5,7,OTHER,0.571429
+of the last,3,5,7,OTHER,0.428571
+of the time,3,5,7,OTHER,0.571429
+of the year,3,4,7,STAT,1
+on the back,3,4,7,SHOT,0.571429
+one of her,3,5,7,SHOT,0.285714
+one of the most,4,3,7,STAT,0.428571
+one of them,3,5,7,SHOT,0.428571
+out wide to,3,6,7,SHOT,1
+point of the,3,6,7,OTHER,0.571429
+points for the,3,7,7,SCORE,0.714286
+set for <name>,3,5,7,OTHER,1
+so far in this,4,7,7,OTHER,0.571429
+that <num> <num>,3,6,7,SCORE,0.857143
+that second set,3,6,7,OTHER,0.714286
+that's going to,3,7,7,JUDGE,0.571429
+that's the first,3,4,7,OTHER,0.571429
+the ball up,3,7,7,SHOT,0.428571
+the change of,3,5,7,OTHER,0.714286
+the court to,3,5,7,OTHER,0.571429
+the defending champion,3,4,7,SHOT,1
+the final of,3,4,7,OTHER,0.857143
+the last time,3,6,7,SHOT,0.428571
+the line to,3,4,7,SHOT,1
+the open court,3,2,7,OTHER,0.571429
+the opportunity to,3,6,7,OTHER,0.428571
+the things that,3,4,7,OTHER,0.571429
+the very first,3,4,7,OTHER,0.428571
+there from <name>,3,4,7,SHOT,0.428571
+there's a lot of,4,6,7,OTHER,0.428571
+think this is,3,5,7,JUDGE,1
+to <name> <name>,3,5,7,OTHER,0.714286
+to come back,3,7,7,OTHER,0.428571
+to find the,3,6,7,SHOT,0.428571
+to get that,3,5,7,SHOT,0.571429
+to keep the,3,4,7,SHOT,0.428571
+to take a,3,6,7,SHOT,0.428571
+to try to,3,5,7,JUDGE,0.571429
+trying to do,3,4,7,OTHER,0.857143
+up a break,3,5,7,OTHER,0.571429
+was a good,3,6,7,JUDGE,1
+you know what,3,4,7,JUDGE,1
+<name> <name> just,3,6,6,OTHER,0.5
+<name> at <num>,3,5,6,SHOT,0.333333
+<name> has won,3,1,6,OTHER,0.5
+<name> in that,3,5,6,OTHER,0.666667
+<num> <num> on,3,5,6,SCORE,0.833333
+<num> <num> that,3,4,6,SCORE,0.666667
+<num> <num> this,3,5,6,SCORE,0.833333
+a break in,3,6,6,OTHER,0.666667
+a few times,3,5,6,STAT,1
+a game away,3,4,6,STAT,0.5
+a really good,3,4,6,JUDGE,1
+a set point,3,4,6,SCORE,1
+able to take,3,5,6,OTHER,0.5
+an early break,3,4,6,OTHER,0.666667
+and <name> has,3,5,6,SHOT,0.333333
+as well and,3,5,6,OTHER,0.5
+at roland garros,3,3,6,OTHER,0.833333
+at the beginning of,4,3,6,SHOT,0.333333
+be a little bit,4,5,6,JUDGE,1
+big second serve,3,4,6,SHOT,1
+break points for,3,5,6,SCORE,1
+but you know,3,5,6,JUDGE,1
+doesn't want to,3,5,6,OTHER,0.5
+don't know what,3,5,6,JUDGE,1
+drop shot and,3,5,6,SHOT,1
+drop shot from,3,4,6,SHOT,1
+early in the second,4,6,6,OTHER,0.5
+early in this,3,5,6,SCORE,0.333333
+error from <name>,3,3,6,SHOT,1
+first and second,3,2,6,SHOT,0.833333
+first game of,3,5,6,OTHER,0.666667
+first of all,3,4,6,OTHER,0.666667
+first point of,3,5,6,OTHER,0.5
+for <name> he,3,5,6,JUDGE,0.5
+for the match,3,5,6,SHOT,0.5
+for the world number one,5,4,6,STAT,1
+from <name> but,3,5,6,JUDGE,0.5
+from <name> just,3,4,6,SHOT,0.833333
+game from <name>,3,5,6,JUDGE,0.666667
+going to come,3,6,6,OTHER,0.5
+going to do,3,5,6,SHOT,0.333333
+going to take,3,4,6,OTHER,0.5
+going to the,3,6,6,SHOT,0.666667
+got to the,3,4,6,JUDGE,1
+grand slam title,3,3,6,STAT,1
+happened in the,3,5,6,OTHER,0.5
+he was able to,4,2,6,OTHER,0.333333
+i don't know what,4,5,6,JUDGE,1
+i just think,3,4,6,JUDGE,1
+i know it's,3,4,6,JUDGE,1
+i mean he's,3,2,6,OTHER,0.5
+i mean you,3,5,6,JUDGE,0.833333
+i think <name>,3,6,6,JUDGE,1
+i think there's,3,4,6,JUDGE,1
+i think this is,4,5,6,JUDGE,1
+i think we,3,5,6,JUDGE,1
+i've got to,3,5,6,JUDGE,1
+in that last,3,4,6,OTHER,0.666667
+in the end,3,4,6,OTHER,0.333333
+in the point,3,5,6,SHOT,0.333333
+in the previous game,4,5,6,SCORE,0.5
+in the rally,3,6,6,SHOT,1
+in the semi,3,4,6,STAT,1
+in the semifinals,3,4,6,STAT,1
+in this first,3,5,6,OTHER,0.833333
+is a little,3,5,6,SHOT,0.333333
+it a little,3,5,6,SHOT,0.333333
+it's a different,3,4,6,OTHER,0.333333
+it's a little,3,5,6,JUDGE,0.666667
+just got to,3,3,6,JUDGE,1
+like to see,3,5,6,OTHER,0.833333
+looks like he's,3,3,6,OTHER,0.5
+match so far,3,5,6,SHOT,0.5
+of <name> and,3,4,6,OTHER,0.5
+of first serves,3,5,6,SHOT,1
+of the game,3,6,6,OTHER,0.5
+of the third,3,5,6,OTHER,0.666667
+of this game,3,5,6,OTHER,0.5
+of this set,3,6,6,OTHER,0.666667
+off the backhand,3,4,6,SHOT,1
+on the front,3,5,6,OTHER,0.833333
+on the front foot,4,5,6,OTHER,0.833333
+one of his,3,4,6,OTHER,0.333333
+one of the best,4,5,6,JUDGE,1
+over the net,3,6,6,SHOT,1
+player in the,3,5,6,STAT,0.5
+point in the,3,3,6,SCORE,0.666667
+serve for <name>,3,4,6,SHOT,1
+serving to stay in the,5,5,6,SHOT,1
+set and a,3,6,6,OTHER,0.833333
+so hard to,3,4,6,JUDGE,1
+that i think,3,6,6,JUDGE,1
+that kind of,3,4,6,SHOT,0.5
+the <num> year,3,3,6,STAT,1
+the <num> year old,4,3,6,STAT,1
+the backhand side,3,5,6,SHOT,1
+the ball a,3,5,6,SHOT,0.5
+the ball and,3,5,6,OTHER,0.833333
+the ball is,3,4,6,OTHER,0.666667
+the ball on the,4,3,6,SHOT,0.5
+the change of ends,4,4,6,OTHER,0.833333
+the court he,3,5,6,OTHER,0.5
+the court it's,3,6,6,OTHER,0.5
+the edge of,3,6,6,CROWD,0.5
+the end of the second,5,4,6,OTHER,0.5
+the forehand and,3,4,6,SHOT,1
+the front foot,3,5,6,OTHER,0.833333
+the kind of,3,4,6,OTHER,0.5
+the last one,3,4,6,SHOT,0.5
+the level of,3,4,6,OTHER,0.666667
+the other side,3,5,6,OTHER,0.666667
+this first set,3,4,6,OTHER,0.833333
+this fourth set,3,4,6,SCORE,0.5
+this match is,3,4,6,JUDGE,0.333333
+three break points,3,6,6,SCORE,1
+to be a little,4,5,6,JUDGE,0.5
+to be aggressive,3,5,6,JUDGE,1
+to come up,3,5,6,SHOT,0.5
+to find a way,4,4,6,OTHER,0.5
+to get on,3,6,6,OTHER,0.5
+to get to the,4,5,6,OTHER,0.5
+to give <name>,3,5,6,JUDGE,0.5
+to hold serve,3,5,6,SCORE,1
+to make the,3,3,6,SHOT,0.5
+to play it,3,4,6,OTHER,0.333333
+to play that,3,4,6,SHOT,0.5
+to see the,3,6,6,OTHER,0.666667
+to take advantage,3,4,6,SCORE,1
+to work with,3,3,6,OTHER,0.5
+trying to be,3,5,6,OTHER,0.666667
+up the court,3,6,6,OTHER,0.5
+well it was,3,5,6,OTHER,0.5
+with a break,3,5,6,SHOT,0.333333
+with a lot,3,5,6,SHOT,1
+with a lot of,4,5,6,SHOT,1
+with the forehand,3,5,6,SHOT,1
+with the return,3,5,6,SHOT,1
+you feel like,3,5,6,JUDGE,1
+<name> <name> to,3,4,5,JUDGE,0.4
+<name> and he,3,4,5,OTHER,0.4
+<name> and that's,3,5,5,SHOT,0.6
+<name> and the,3,5,5,OTHER,0.4
+<name> to the,3,5,5,SHOT,0.6
+<name> will be,3,4,5,OTHER,0.4
+<num> <num> it,3,4,5,SCORE,0.8
+<num> for the,3,5,5,SHOT,0.4
+<num> in the world,4,3,5,OTHER,0.4
+<num> it was,3,4,5,SCORE,0.8
+<num> minutes of,3,5,5,STAT,1
+<num> or <num>,3,3,5,OTHER,0.6
+a chance for,3,5,5,OTHER,0.6
+a game away from,4,3,5,STAT,0.4
+a look at the,4,4,5,JUDGE,0.4
+a lot in,3,5,5,SCORE,0.4
+a very good,3,5,5,JUDGE,1
+and <name> <name>,3,3,5,JUDGE,0.4
+and all of a sudden,5,4,5,SHOT,0.4
+as long as,3,5,5,SHOT,1
+at some point,3,4,5,OTHER,0.6
+at the australian,3,5,5,OTHER,0.4
+at the back of,4,4,5,OTHER,0.6
+at the back of the,5,4,5,SHOT,0.4
+at the back of the court,6,4,5,SHOT,0.4
+back in play,3,3,5,OTHER,0.4
+ball in the,3,4,5,SHOT,0.4
+beginning of the,3,2,5,SHOT,0.4
+break in this,3,5,5,OTHER,0.6
+break point down,3,4,5,SCORE,1
+come back from,3,4,5,OTHER,0.8
+control of the point,4,3,5,OTHER,0.8
+couple of games,3,4,5,OTHER,0.8
+don't want to,3,4,5,OTHER,0.6
+down the line to,4,4,5,SHOT,1
+drop shot from <name>,4,3,5,SHOT,1
+first game of the,4,4,5,OTHER,0.6
+first serve and,3,5,5,SHOT,1
+first set and,3,3,5,OTHER,0.4
+for the second,3,4,5,SHOT,0.6
+from <name> she,3,3,5,JUDGE,0.6
+from <num> <num>,3,4,5,SCORE,1
+from both players,3,5,5,JUDGE,0.8
+going to happen,3,3,5,OTHER,0.4
+good job of,3,4,5,JUDGE,1
+got a little bit,4,4,5,JUDGE,1
+got to get,3,5,5,JUDGE,1
+had to go,3,5,5,OTHER,0.4
+have to go,3,4,5,JUDGE,1
+have to play,3,4,5,JUDGE,1
+he's able to,3,4,5,OTHER,0.4
+her first serve,3,4,5,SHOT,1
+his service games,3,4,5,OTHER,0.8
+hitting the ball,3,5,5,SHOT,1
+i don't see,3,4,5,SHOT,0.8
+i mean it,3,5,5,SHOT,0.6
+i think if,3,3,5,JUDGE,1
+i think so,3,4,5,JUDGE,1
+i thought that,3,3,5,JUDGE,1
+if you want,3,3,5,OTHER,0.6
+in a way,3,4,5,OTHER,0.6
+in that last game,4,3,5,OTHER,0.8
+in the last couple,4,4,5,OTHER,0.4
+in the last couple of,5,4,5,OTHER,0.4
+in the middle of,4,4,5,SHOT,0.8
+in the opening game,4,3,5,OTHER,0.4
+in the past,3,3,5,OTHER,0.6
+in the set,3,4,5,OTHER,0.8
+in the third set,4,3,5,OTHER,0.4
+in this first set,4,4,5,OTHER,0.8
+in this second,3,4,5,OTHER,0.6
+in this second set,4,4,5,OTHER,0.6
+it <num> <num>,3,4,5,SCORE,0.6
+it i think,3,3,5,JUDGE,1
+it was a good,4,5,5,JUDGE,1
+it's going to be a,5,5,5,SHOT,0.6
+it's the first,3,4,5,STAT,0.4
+just a few,3,4,5,OTHER,0.4
+know if you,3,3,5,JUDGE,1
+lead <num> <num>,3,5,5,OTHER,0.8
+looks a little,3,5,5,JUDGE,0.6
+lot of people,3,5,5,JUDGE,0.8
+most of the,3,4,5,OTHER,0.4
+needs to find,3,5,5,JUDGE,1
+not able to,3,4,5,SHOT,0.6
+not going to be,4,5,5,OTHER,0.4
+of the court to,4,4,5,SHOT,0.6
+of the net and,4,5,5,SHOT,1
+of the points,3,5,5,OTHER,0.6
+off the forehand,3,4,5,SHOT,1
+on break point,3,5,5,SCORE,1
+on the grass,3,5,5,OTHER,0.8
+on the second serve,4,4,5,SHOT,1
+other side of,3,5,5,OTHER,0.6
+out wide and,3,4,5,SHOT,1
+point for <num>,3,3,5,OTHER,0.6
+points in the,3,5,5,OTHER,0.4
+put the ball,3,4,5,OTHER,0.4
+return from <name>,3,5,5,SHOT,1
+second serve and,3,5,5,SHOT,1
+second set <name>,3,3,5,SCORE,0.4
+serve a little,3,4,5,SHOT,1
+serve at <num>,3,4,5,SHOT,1
+serve down the,3,5,5,SHOT,1
+serve into the,3,5,5,SHOT,1
+serve it out,3,5,5,SHOT,1
+serve on the,3,4,5,SHOT,1
+serving for the,3,4,5,SHOT,1
+take advantage of,3,5,5,SCORE,1
+that <name> was,3,5,5,OTHER,0.6
+that's going to be,4,5,5,JUDGE,0.6
+the ball to,3,4,5,SHOT,0.8
+the baseline to,3,4,5,SHOT,1
+the final set,3,5,5,SCORE,0.4
+the first break,3,5,5,SCORE,0.6
+the first set in,4,3,5,OTHER,0.6
+the first three,3,5,5,OTHER,0.6
+the grand slams,3,5,5,STAT,1
+the match <name>,3,4,5,OTHER,0.6
+the moment and,3,4,5,OTHER,1
+the net but,3,5,5,SHOT,1
+the opening game,3,3,5,JUDGE,0.4
+the other side of,4,5,5,OTHER,0.6
+the rest of,3,3,5,OTHER,0.4
+the return and,3,5,5,SHOT,1
+the second time,3,4,5,OTHER,0.6
+the u s,3,3,5,OTHER,0.6
+the wrong way,3,5,5,OTHER,0.4
+this kind of,3,4,5,OTHER,0.4
+this match <name>,3,3,5,OTHER,0.4
+three or four,3,3,5,OTHER,0.4
+time for <name>,3,4,5,SHOT,0.4
+to <num> and,3,4,5,SCORE,0.8
+to do something,3,5,5,JUDGE,1
+to get herself,3,4,5,OTHER,0.6
+to get himself,3,5,5,OTHER,0.8
+to get his,3,5,5,OTHER,0.6
+to get it,3,4,5,OTHER,0.4
+to make sure,3,5,5,OTHER,0.4
+to play a,3,5,5,JUDGE,0.6
+to see <name>,3,3,5,OTHER,0.6
+to see a,3,4,5,SHOT,0.4
+to see how,3,5,5,OTHER,0.4
+to serve for,3,5,5,SHOT,1
+to the first,3,4,5,OTHER,0.6
+to this match,3,5,5,OTHER,0.6
+trying to stay,3,5,5,JUDGE,0.8
+up <num> <num>,3,4,5,SCORE,1
+want to see,3,5,5,OTHER,0.8
+was a little bit,4,3,5,JUDGE,1
+was one of the,4,4,5,OTHER,0.4
+with the backhand,3,5,5,SHOT,1
+with the first,3,4,5,SCORE,0.4
+won the first,3,4,5,OTHER,0.4
+yeah it was,3,4,5,OTHER,0.4
+you got to,3,5,5,JUDGE,1
+you know he,3,4,5,JUDGE,1
+you know i,3,3,5,JUDGE,1
+you know if,3,4,5,JUDGE,1
+you know it's,3,3,5,JUDGE,1
+<name> at <num> <num>,4,4,4,SCORE,0.5
+<name> at the moment,4,3,4,OTHER,0.5
+<name> gets a,3,4,4,SHOT,0.5
+<name> has a,3,3,4,SHOT,0.25
+<name> has had,3,4,4,OTHER,0.5
+<name> has to,3,4,4,JUDGE,1
+<name> in a,3,4,4,OTHER,0.5
+<name> is doing,3,3,4,JUDGE,0.5
+<name> is going to have,5,3,4,JUDGE,0.5
+<name> is just,3,4,4,JUDGE,0.5
+<name> is looking,3,4,4,SCORE,0.5
+<name> is playing,3,4,4,OTHER,0.25
+<name> is starting,3,3,4,OTHER,1
+<name> is starting to,4,3,4,OTHER,0.75
+<name> so far,3,4,4,SHOT,0.5
+<name> to serve,3,4,4,SHOT,1
+<name> will serve,3,3,4,SHOT,1
+<num> <num> a,3,4,4,SCORE,0.75
+<num> <num> for,3,4,4,OTHER,0.75
+<num> <num> lead in,4,3,4,SCORE,0.5
+<num> <num> this is,4,4,4,SCORE,1
+<num> <num> with,3,4,4,SCORE,0.5
+<num> <num> with a,4,4,4,SCORE,0.5
+<num> for <name>,3,4,4,OTHER,0.75
+<num> lead in,3,3,4,SCORE,0.5
+<num> miles an,3,1,4,STAT,1
+<num> miles an hour,4,1,4,STAT,1
+<num> on the,3,3,4,STAT,0.25
+<num> this is,3,4,4,SCORE,1
+<num> when he,3,3,4,OTHER,0.5
+<num> with a,3,4,4,SCORE,0.5
+a <num> <num> lead in,5,3,4,SCORE,0.5
+a big hold,3,4,4,JUDGE,1
+a break in the,4,4,4,OTHER,0.75
+a good one,3,3,4,JUDGE,1
+a good start,3,3,4,JUDGE,1
+a great job,3,4,4,JUDGE,1
+a little better,3,4,4,JUDGE,1
+a little bit but,4,3,4,JUDGE,1
+a long way to,4,4,4,SHOT,1
+a lot about,3,4,4,OTHER,1
+a lot of pressure,4,3,4,JUDGE,1
+a must win,3,4,4,JUDGE,1
+a set and a,4,4,4,OTHER,0.75
+able to come,3,4,4,SHOT,0.5
+able to do it,4,4,4,OTHER,0.75
+after the first,3,3,4,SHOT,0.5
+all the way,3,2,4,OTHER,0.5
+an unforced error,3,3,4,SHOT,1
+and a break,3,3,4,OTHER,1
+and i think that's,4,4,4,JUDGE,1
+another break point,3,3,4,SCORE,1
+another chance to,3,4,4,OTHER,1
+as good as it,4,4,4,JUDGE,1
+as good as it gets,5,4,4,JUDGE,1
+as it gets,3,4,4,JUDGE,1
+as the match,3,3,4,OTHER,1
+as though <name>,3,4,4,OTHER,0.5
+at the moment and,4,3,4,OTHER,1
+back to <num>,3,3,4,SCORE,0.75
+ball from <name>,3,4,4,OTHER,0.75
+be able to do,4,4,4,OTHER,1
+bit more time,3,4,4,JUDGE,0.5
+break point for,3,3,4,SCORE,1
+break points for <name>,4,4,4,SCORE,1
+but i mean,3,4,4,JUDGE,0.25
+came up with,3,4,4,JUDGE,0.5
+comes up with,3,3,4,JUDGE,0.75
+cross court forehand,3,4,4,SHOT,1
+didn't want to,3,3,4,OTHER,0.5
+doing a lot,3,4,4,OTHER,0.75
+doing a lot of,4,4,4,OTHER,0.75
+down the line and,4,3,4,SHOT,1
+drop shot that,3,4,4,SHOT,1
+early in the second set,5,4,4,OTHER,0.5
+end of this,3,4,4,OTHER,0.75
+errors from <name>,3,3,4,SHOT,1
+first grand slam,3,2,4,STAT,1
+first in the,3,3,4,SHOT,0.5
+first set <name>,3,3,4,SCORE,0.75
+for <name> as,3,3,4,OTHER,1
+for a long time,4,4,4,SHOT,1
+for a third,3,3,4,SHOT,0.5
+for both players,3,4,4,OTHER,0.5
+for the next,3,4,4,SHOT,0.5
+forehand down the,3,4,4,SHOT,1
+forehand down the line,4,4,4,SHOT,1
+forehand on the,3,3,4,SHOT,1
+forehand up the,3,3,4,SHOT,1
+from <name> a,3,3,4,JUDGE,0.5
+from <name> in the,4,4,4,JUDGE,0.5
+from <name> on,3,4,4,SHOT,0.5
+from <name> on the,4,4,4,SHOT,0.5
+from <name> so,3,4,4,JUDGE,0.5
+from <name> there,3,3,4,OTHER,0.25
+from <name> to,3,4,4,SHOT,0.5
+from <num> <num> down,4,3,4,SCORE,1
+from the first,3,3,4,SHOT,0.5
+game in a,3,4,4,JUDGE,0.5
+get back in,3,3,4,SHOT,0.75
+get back on,3,4,4,OTHER,0.75
+get back to,3,4,4,SCORE,0.25
+get the break,3,4,4,SCORE,0.5
+getting a little,3,4,4,OTHER,0.5
+give him a,3,4,4,OFFICIAL,0.5
+go back to,3,4,4,OTHER,0.75
+going to have a,4,4,4,OTHER,0.5
+going to say,3,3,4,JUDGE,0.75
+good as it,3,4,4,JUDGE,1
+good as it gets,4,4,4,JUDGE,1
+good to see,3,4,4,JUDGE,1
+grand slam champion,3,3,4,STAT,1
+had a chance,3,4,4,OTHER,1
+had a chance to,4,4,4,OTHER,1
+he hits the,3,3,4,SHOT,1
+he was going to,4,3,4,SHOT,0.75
+him <num> <num>,3,4,4,SCORE,0.75
+his first serves,3,4,4,SHOT,1
+i mean i don't,4,3,4,JUDGE,0.5
+i mean i'm,3,4,4,OTHER,0.75
+i mean if,3,3,4,OTHER,0.5
+i still think,3,4,4,JUDGE,1
+i think a,3,4,4,JUDGE,1
+i think it's a,4,4,4,JUDGE,1
+i think that's the,4,4,4,JUDGE,1
+if you want to,4,3,4,OTHER,0.5
+in a few,3,4,4,OTHER,0.75
+in the fourth set,4,3,4,SHOT,0.5
+in the last <num>,4,3,4,STAT,0.75
+in the net,3,3,4,SHOT,1
+in the semis,3,4,4,OTHER,0.75
+into the court,3,4,4,OTHER,0.75
+is a big,3,4,4,JUDGE,1
+is a bit,3,4,4,OTHER,0.75
+is a good,3,4,4,JUDGE,1
+is able to,3,2,4,SHOT,0.5
+it as well,3,3,4,OTHER,0.5
+it i mean,3,3,4,OTHER,0.5
+it was <name>,3,4,4,OTHER,0.75
+just going to,3,3,4,OTHER,0.75
+kind of like,3,3,4,OTHER,0.75
+knew it was,3,3,4,OTHER,0.5
+little bit but,3,3,4,JUDGE,1
+long way to,3,4,4,SHOT,1
+look at it,3,4,4,OTHER,0.5
+looks like he,3,4,4,SCORE,0.25
+lost the first,3,4,4,OTHER,0.75
+lot of pressure,3,3,4,JUDGE,1
+lot of tennis,3,3,4,OTHER,0.5
+match in the,3,3,4,SHOT,0.25
+match it was,3,4,4,OTHER,0.75
+mean i don't,3,3,4,JUDGE,0.5
+mean i think,3,3,4,JUDGE,1
+miles an hour,3,1,4,STAT,1
+more first serves,3,4,4,SHOT,1
+more time to,3,3,4,OTHER,0.5
+much on the,3,4,4,SHOT,0.5
+not a lot,3,3,4,SHOT,0.75
+not easy to,3,3,4,JUDGE,1
+number one seed,3,3,4,STAT,1
+of the baseline,3,3,4,SHOT,1
+of the fifth,3,3,4,OTHER,0.5
+of the night,3,4,4,OTHER,0.25
+off the ground,3,3,4,SHOT,0.75
+on serve <name>,3,4,4,SHOT,0.75
+on the <name>,3,3,4,SHOT,0.75
+on the ground,3,4,4,SHOT,0.5
+on the other side,4,4,4,SHOT,0.5
+on this surface,3,3,4,JUDGE,0.5
+on to win,3,4,4,OTHER,1
+opening service game,3,3,4,SCORE,0.75
+out in front,3,3,4,SHOT,0.5
+period of time,3,4,4,SHOT,1
+player in the world,4,4,4,STAT,0.5
+point for the,3,4,4,SCORE,0.75
+point of the match,4,3,4,OTHER,0.5
+point of view,3,3,4,OTHER,0.5
+points on the,3,4,4,SCORE,0.5
+pressure on <name>,3,4,4,JUDGE,1
+response from <name>,3,3,4,OTHER,0.75
+right now <name>,3,4,4,JUDGE,0.5
+right on the,3,2,4,SHOT,0.5
+said it was,3,4,4,STAT,0.25
+second serve to,3,3,4,SHOT,1
+seem to be,3,4,4,CROWD,0.25
+seems to be,3,4,4,JUDGE,0.5
+seems to have,3,4,4,OTHER,0.5
+service game for,3,3,4,OTHER,0.5
+service game for <name>,4,3,4,OTHER,0.5
+side of the net,4,3,4,SHOT,1
+side to side,3,3,4,OTHER,0.5
+straight into the,3,4,4,OTHER,0.5
+talk about that,3,3,4,OTHER,0.5
+tennis from <name>,3,4,4,OTHER,1
+that <name> will,3,4,4,JUDGE,0.5
+that sort of,3,3,4,STAT,0.5
+that was one,3,3,4,JUDGE,0.5
+that's a big,3,4,4,JUDGE,1
+the <name> serve,3,4,4,SHOT,1
+the ability to,3,2,4,SHOT,0.5
+the baseline and,3,4,4,SHOT,1
+the baseline for,3,4,4,SHOT,1
+the break point,3,4,4,SCORE,1
+the crowd is,3,4,4,CROWD,1
+the double break,3,4,4,SCORE,1
+the end of that,4,4,4,OTHER,0.5
+the end of the second set,6,3,4,OTHER,0.75
+the first two sets,4,3,4,OTHER,0.75
+the grand slam,3,3,4,STAT,1
+the last two,3,4,4,JUDGE,0.25
+the length of,3,2,4,OTHER,1
+the line a,3,4,4,SHOT,1
+the line but,3,4,4,SHOT,1
+the line from,3,4,4,SHOT,1
+the line he,3,4,4,SHOT,1
+the line with,3,4,4,SHOT,1
+the match and,3,4,4,OTHER,0.5
+the match so,3,4,4,SHOT,0.5
+the match with,3,3,4,OTHER,1
+the moment <name>,3,4,4,OTHER,0.5
+the number one seed,4,3,4,STAT,1
+the pressure on,3,4,4,JUDGE,1
+the right time,3,4,4,OTHER,0.75
+the same way,3,4,4,OTHER,0.75
+the semi finals,3,3,4,STAT,1
+the serve and,3,3,4,SHOT,1
+the top of the net,5,3,4,SHOT,1
+the way <name>,3,4,4,JUDGE,0.25
+the world number two,4,3,4,STAT,1
+there's a bit,3,3,4,OTHER,0.5
+think it's a,3,4,4,JUDGE,1
+think that was,3,4,4,JUDGE,1
+think that's the,3,4,4,JUDGE,1
+thinking about the,3,4,4,OTHER,0.5
+this is going,3,4,4,OTHER,0.75
+time for <name> to,4,3,4,OTHER,0.5
+time grand slam,3,3,4,STAT,1
+time grand slam champion,4,3,4,STAT,1
+times in the,3,4,4,STAT,1
+to <num> in,3,4,4,OTHER,0.25
+to be more aggressive,4,3,4,JUDGE,1
+to change the,3,4,4,JUDGE,0.5
+to figure out,3,4,4,OTHER,0.5
+to get back in,4,3,4,SHOT,0.75
+to get in,3,4,4,OTHER,0.75
+to get through,3,4,4,SCORE,0.25
+to give him,3,4,4,OFFICIAL,0.5
+to keep <name>,3,4,4,SHOT,0.5
+to look at,3,3,4,JUDGE,0.5
+to put the,3,4,4,JUDGE,0.5
+to see him,3,4,4,OTHER,0.5
+to the back,3,3,4,SHOT,0.5
+to the second,3,4,4,JUDGE,1
+to try and get,4,4,4,OTHER,0.75
+to win that,3,4,4,OTHER,0.25
+try to get,3,4,4,JUDGE,0.5
+trying to find,3,4,4,OTHER,0.5
+two and a,3,4,4,STAT,0.75
+two and a half,4,4,4,STAT,0.75
+two break points,3,4,4,SCORE,1
+two or three,3,3,4,OTHER,0.75
+up a little,3,4,4,SHOT,0.5
+up a little bit,4,4,4,JUDGE,1
+want to go,3,3,4,OTHER,0.5
+was a big,3,4,4,JUDGE,1
+was able to get,4,4,4,SHOT,0.5
+was going for,3,4,4,STAT,0.5
+was the first,3,4,4,STAT,0.75
+way to get,3,4,4,OTHER,0.75
+we're back on,3,4,4,SHOT,0.75
+we're back on serve,4,4,4,SHOT,1
+we're going to,3,4,4,OTHER,0.75
+well i was,3,4,4,SHOT,0.5
+what a start,3,3,4,JUDGE,1
+when <name> is,3,3,4,SHOT,0.5
+with a little,3,4,4,CROWD,0.5
+with the ball,3,4,4,OTHER,0.5
+world number two,3,3,4,STAT,1
+yeah i don't,3,3,4,OTHER,0.5
+you know a,3,4,4,JUDGE,1
+you know the,3,3,4,JUDGE,1
+you know when,3,3,4,JUDGE,1
+you know you,3,4,4,JUDGE,1
+you try to,3,4,4,OTHER,0.75
+<name> and he's,3,3,3,SHOT,0.666667
+<name> has just,3,3,3,SHOT,0.666667
+<name> is going to have to,6,3,3,JUDGE,1
+<name> is really,3,3,3,JUDGE,1
+<name> is the,3,3,3,STAT,0.333333
+<name> off the,3,3,3,OTHER,0.666667
+<name> the world,3,3,3,STAT,1
+<num> <num> so,3,3,3,SCORE,0.666667
+<num> <num> you,3,2,3,SCORE,1
+a few points,3,3,3,OTHER,1
+a few years,3,3,3,STAT,1
+a few years ago,4,3,3,STAT,1
+a good hold,3,3,3,JUDGE,1
+a good job of,4,2,3,JUDGE,1
+a good shot,3,3,3,SHOT,1
+a high level,3,3,3,SHOT,0.333333
+a lot of pressure on,5,3,3,JUDGE,1
+a lot out,3,2,3,OTHER,0.666667
+a lot out of,4,2,3,OTHER,0.666667
+a match point,3,3,3,SCORE,1
+a service game,3,3,3,OTHER,0.666667
+a shot that,3,2,3,SHOT,1
+a tie break,3,3,3,SCORE,1
+a very difficult,3,3,3,JUDGE,1
+able to find,3,1,3,SHOT,0.666667
+allowing <name> to,3,3,3,OTHER,0.333333
+and he gets,3,3,3,OTHER,1
+as well in,3,3,3,OTHER,0.666667
+as well the,3,2,3,OTHER,0.666667
+at the australian open,4,3,3,SCORE,0.333333
+back in this,3,3,3,OTHER,1
+back on <name>,3,3,3,OFFICIAL,0.333333
+back on the,3,3,3,OTHER,0.666667
+back to <num> <num>,4,3,3,SCORE,0.666667
+back to back,3,3,3,JUDGE,0.333333
+backhand and then,3,3,3,SHOT,1
+ball back into,3,3,3,OTHER,1
+been a little,3,2,3,JUDGE,1
+best in the,3,3,3,JUDGE,1
+break point for <name>,4,3,3,SCORE,1
+breaks of serve,3,3,3,SHOT,1
+brilliant from <name>,3,3,3,JUDGE,1
+but <num> <num>,3,3,3,SCORE,1
+but right now,3,3,3,SHOT,0.333333
+call on the,3,1,3,OFFICIAL,1
+chance to get,3,3,3,OTHER,0.666667
+closer to the,3,3,3,SHOT,1
+continues to be,3,3,3,STAT,0.333333
+court and the,3,3,3,CROWD,0.333333
+don't know but,3,3,3,JUDGE,1
+don't know how,3,3,3,JUDGE,1
+down the line but,4,3,3,SHOT,1
+down the line from,4,3,3,SHOT,1
+drop shot but,3,3,3,SHOT,1
+few years ago,3,3,3,STAT,1
+first break point,3,3,3,SCORE,1
+first point of the,4,3,3,OTHER,1
+first serve but,3,3,3,SHOT,1
+first serve out,3,3,3,SHOT,1
+first serves and,3,3,3,SHOT,1
+first service game,3,3,3,SCORE,0.333333
+first set was,3,3,3,JUDGE,0.666667
+first time in,3,3,3,STAT,1
+for <name> at,3,3,3,SHOT,0.666667
+for a break,3,3,3,OTHER,0.333333
+for so long,3,3,3,SHOT,1
+for the second time,4,3,3,SHOT,0.333333
+for the third,3,3,3,OTHER,0.666667
+forehand into the,3,3,3,SHOT,1
+forehand up the line,4,3,3,SHOT,1
+from <name> he's,3,3,3,OTHER,0.666667
+from <name> it,3,3,3,SHOT,0.666667
+from <name> that,3,3,3,JUDGE,0.666667
+from <name> who,3,3,3,OTHER,0.666667
+front of the,3,3,3,SHOT,0.666667
+get the ball back,4,3,3,SHOT,0.333333
+go to a,3,2,3,STAT,0.666667
+going to see,3,3,3,OTHER,1
+had <num> <num>,3,1,3,SCORE,1
+had a few,3,3,3,JUDGE,0.333333
+he gets to,3,3,3,OTHER,0.333333
+he seems to,3,3,3,SHOT,0.666667
+him a little,3,3,3,JUDGE,1
+his first service,3,3,3,SCORE,0.333333
+his forehand and,3,2,3,SHOT,1
+his serve and,3,3,3,SHOT,1
+i don't care,3,3,3,OTHER,0.666667
+i don't know but,4,3,3,JUDGE,1
+i haven't seen,3,3,3,OTHER,0.666667
+i know that,3,3,3,JUDGE,1
+i know what,3,3,3,JUDGE,1
+i mean she,3,3,3,JUDGE,0.666667
+i mean that's,3,3,3,JUDGE,0.666667
+i mean there's,3,3,3,OTHER,0.333333
+i mean this,3,3,3,OTHER,0.333333
+i need to,3,3,3,JUDGE,1
+i think for,3,3,3,JUDGE,1
+i think of,3,3,3,JUDGE,1
+i think she's,3,3,3,JUDGE,1
+i think that was,4,3,3,JUDGE,1
+i thought it,3,3,3,JUDGE,1
+i thought it was,4,3,3,JUDGE,1
+i was going,3,3,3,JUDGE,0.666667
+i was going to,4,3,3,JUDGE,0.666667
+i was thinking,3,3,3,OTHER,0.666667
+i'm trying to,3,3,3,OTHER,0.666667
+important for <name>,3,2,3,JUDGE,1
+in a little,3,3,3,OTHER,0.666667
+in a long,3,3,3,SHOT,1
+in a rally,3,3,3,SHOT,1
+in straight sets,3,3,3,OTHER,0.666667
+in that first,3,3,3,OTHER,0.666667
+in that second,3,3,3,OTHER,1
+in the final set,4,3,3,SCORE,0.333333
+in the finals,3,3,3,STAT,1
+in the first two,4,2,3,OTHER,0.666667
+in the fourth round,4,2,3,OTHER,1
+in the game but,4,3,3,SHOT,0.666667
+in the middle of the,5,3,3,SHOT,0.666667
+into the match,3,3,3,JUDGE,0.666667
+is as good,3,3,3,JUDGE,1
+is going to be a,5,3,3,JUDGE,0.333333
+is going to have to,5,3,3,JUDGE,1
+is not going,3,3,3,OTHER,0.666667
+is the best,3,3,3,JUDGE,1
+is the first,3,2,3,STAT,0.666667
+it doesn't matter,3,3,3,OTHER,1
+it was important,3,3,3,JUDGE,1
+it's a bit,3,3,3,JUDGE,0.333333
+it's a little bit,4,2,3,JUDGE,1
+it's not easy,3,3,3,JUDGE,1
+it's very difficult,3,3,3,JUDGE,1
+just kind of,3,3,3,OTHER,1
+just needs to,3,2,3,JUDGE,1
+just to get,3,1,3,OTHER,0.666667
+know what i'm,3,2,3,JUDGE,1
+lead in the,3,3,3,OTHER,1
+lead in this,3,3,3,SCORE,0.666667
+line from <name>,3,3,3,SHOT,1
+lot of pressure on,4,3,3,JUDGE,1
+lot out of,3,2,3,OTHER,0.666667
+me a little,3,3,3,JUDGE,1
+more like it,3,3,3,OTHER,0.666667
+now i think,3,3,3,JUDGE,1
+number one <name>,3,2,3,STAT,1
+of drop shots,3,3,3,SHOT,1
+of his first,3,3,3,SHOT,0.666667
+of his game,3,2,3,OTHER,1
+of pressure on,3,3,3,JUDGE,1
+of the match so,4,3,3,SHOT,0.666667
+of the match so far,5,3,3,SHOT,0.666667
+of the matches,3,3,3,OTHER,0.666667
+of the rally,3,3,3,SHOT,1
+of the things that,4,2,3,OTHER,0.666667
+of the way,3,2,3,OTHER,0.666667
+of the world,3,3,3,OTHER,0.666667
+of unforced errors,3,3,3,SHOT,1
+on second serve,3,3,3,SHOT,1
+on serve in,3,3,3,SHOT,1
+on the board in,4,3,3,OTHER,0.666667
+on the first point,4,3,3,SHOT,1
+on top of the,4,1,3,OTHER,0.666667
+one or two,3,3,3,JUDGE,0.666667
+other side of the,4,3,3,SHOT,0.666667
+out <num> <num>,3,2,3,SCORE,1
+out of <num>,3,2,3,STAT,0.666667
+part of that,3,3,3,SHOT,1
+played a very,3,3,3,SHOT,0.666667
+players in the,3,3,3,OTHER,0.666667
+playing a lot,3,3,3,SHOT,0.333333
+point from <name>,3,3,3,OTHER,0.333333
+pressure on him,3,3,3,JUDGE,1
+pretty much the,3,3,3,STAT,0.333333
+quite a few,3,3,3,JUDGE,1
+rally of the,3,3,3,SHOT,1
+rally of the match,4,3,3,SHOT,1
+second serve but,3,3,3,SHOT,1
+second serve into,3,3,3,SHOT,1
+second set he,3,3,3,JUDGE,0.333333
+serve at <num> <num>,4,3,3,SHOT,1
+serve down the t,4,3,3,SHOT,1
+serve to the,3,2,3,SHOT,1
+service game that,3,3,3,SHOT,0.333333
+shots from <name>,3,3,3,SHOT,1
+so far in the,4,3,3,STAT,1
+so i think,3,3,3,JUDGE,1
+start for <name>,3,3,3,OTHER,0.666667
+start of the third,4,3,3,OTHER,0.666667
+start to the second,4,3,3,JUDGE,1
+start to the second set,5,3,3,JUDGE,1
+take control of,3,3,3,OTHER,0.666667
+takes a lot,3,3,3,OTHER,0.666667
+that was one of,4,3,3,SCORE,0.333333
+that's for sure,3,3,3,SHOT,0.666667
+the ball down,3,3,3,OTHER,0.666667
+the board in,3,3,3,OTHER,1
+the court <name>,3,3,3,OTHER,0.666667
+the court for,3,3,3,OTHER,0.666667
+the court is,3,3,3,OTHER,0.333333
+the court so,3,3,3,JUDGE,0.666667
+the final and,3,2,3,OTHER,0.666667
+the first break point,4,3,3,SCORE,1
+the first point of,4,3,3,OTHER,0.333333
+the forehand side,3,3,3,SHOT,1
+the fourth round,3,2,3,OTHER,1
+the game but,3,3,3,SHOT,0.666667
+the game with,3,3,3,SHOT,0.333333
+the last four,3,3,3,STAT,0.333333
+the line for,3,3,3,SHOT,1
+the line from <name>,4,3,3,SHOT,1
+the line that,3,3,3,SHOT,1
+the majority of,3,3,3,OTHER,0.666667
+the match <num>,3,2,3,SCORE,0.666667
+the match so far,4,3,3,SHOT,0.666667
+the match the,3,3,3,OTHER,1
+the net he,3,3,3,SHOT,1
+the net when,3,2,3,SHOT,1
+the one break,3,3,3,SHOT,0.666667
+the one that,3,3,3,OTHER,0.666667
+the only way,3,2,3,OTHER,0.666667
+the other end,3,3,3,OTHER,0.666667
+the other side of the,5,3,3,SHOT,0.666667
+the other way,3,3,3,OTHER,0.666667
+the same thing,3,3,3,SHOT,0.666667
+the whole match,3,3,3,OTHER,0.666667
+think he was,3,3,3,JUDGE,1
+third set and,3,3,3,OTHER,1
+this game and,3,3,3,OTHER,1
+to close out,3,3,3,OTHER,0.333333
+to come up with,4,3,3,SHOT,0.666667
+to find a way to,5,3,3,OTHER,0.333333
+to get back on,4,3,3,OTHER,1
+to get him,3,3,3,JUDGE,0.666667
+to go back,3,3,3,JUDGE,1
+to go to the,4,3,3,OTHER,0.666667
+to hit it,3,3,3,SHOT,1
+to keep it,3,3,3,OTHER,1
+to play against,3,3,3,OTHER,0.666667
+to play tennis,3,3,3,OTHER,1
+to see this,3,3,3,OTHER,0.666667
+to set up,3,3,3,SHOT,0.666667
+to stay on,3,3,3,OTHER,0.666667
+to take it,3,3,3,SHOT,0.666667
+to take that,3,2,3,JUDGE,0.666667
+to take this,3,2,3,OTHER,0.666667
+to the ball,3,3,3,OTHER,0.333333
+to the second set,4,3,3,JUDGE,1
+to win the next,4,3,3,OTHER,1
+too much of,3,2,3,OTHER,0.333333
+trying to take,3,2,3,SHOT,0.666667
+two points from,3,3,3,STAT,0.333333
+unforced error from,3,3,3,SHOT,1
+unforced error from <name>,4,3,3,SHOT,1
+ups and downs,3,3,3,OTHER,0.666667
+very difficult to,3,3,3,JUDGE,1
+very happy with,3,3,3,JUDGE,1
+want to be,3,3,3,OTHER,0.666667
+want to do,3,3,3,JUDGE,0.333333
+way to win,3,3,3,SHOT,0.333333
+well i don't,3,3,3,JUDGE,1
+well that was,3,3,3,OTHER,0.333333
+wide in the,3,3,3,SHOT,1
+win the next,3,3,3,OTHER,1
+win this match,3,3,3,JUDGE,0.333333
+with a couple,3,3,3,SHOT,0.666667
+with a couple of,4,3,3,SHOT,0.666667
+with his forehand,3,3,3,SHOT,1
+yeah that was,3,3,3,SHOT,0.666667
+you know how,3,3,3,JUDGE,1
+you know that,3,3,3,JUDGE,1
+you look at the,4,3,3,JUDGE,0.666667
+you're going to,3,3,3,OTHER,0.666667
+<name> a chance,3,2,2,OTHER,1
+<name> had a,3,2,2,SHOT,0.5
+<name> has got,3,2,2,JUDGE,0.5
+<name> in <num>,3,2,2,OTHER,1
+<name> right now,3,2,2,JUDGE,1
+<name> serving to,3,2,2,SHOT,1
+<name> serving to stay,4,2,2,SHOT,1
+<name> serving to stay in,5,2,2,SHOT,1
+<name> to try,3,2,2,OTHER,0.5
+<name> what a,3,2,2,JUDGE,1
+<name> when he,3,2,2,JUDGE,0.5
+<num> <num> <num> <num> <num>,5,1,2,SCORE,1
+<num> first serves,3,2,2,SHOT,1
+<num> it's a,3,2,2,SCORE,1
+a <num> minute,3,2,2,JUDGE,0.5
+a fifth set,3,2,2,OTHER,0.5
+a little bit on,4,2,2,JUDGE,1
+a little bit too,4,2,2,JUDGE,1
+a lot of balls,4,1,2,SHOT,1
+a lot of people,4,2,2,JUDGE,1
+a lot of work,4,2,2,STAT,0.5
+a number of,3,2,2,STAT,0.5
+a passing shot,3,2,2,SHOT,1
+a set and a break,5,2,2,OTHER,1
+a third time,3,2,2,SHOT,1
+a very big,3,2,2,JUDGE,1
+able to keep,3,2,2,OTHER,1
+all the matches,3,2,2,OTHER,0.5
+and a little,3,2,2,SHOT,0.5
+and i guess,3,2,2,JUDGE,0.5
+and off the court,4,2,2,OTHER,0.5
+and we'll see,3,2,2,OTHER,1
+as well that,3,2,2,JUDGE,0.5
+as well to,3,1,2,STAT,0.5
+as well when,3,1,2,OTHER,1
+at <num> <num> in,4,2,2,SHOT,1
+at <num> all,3,2,2,SCORE,1
+at the start of this,5,2,2,JUDGE,0.5
+at this moment,3,2,2,OTHER,1
+away from him,3,2,2,SHOT,0.5
+back down the,3,2,2,SHOT,0.5
+back into this match,4,2,2,JUDGE,1
+backhand drop shot,3,2,2,SHOT,1
+be one of,3,2,2,JUDGE,0.5
+be ready for,3,2,2,OTHER,0.5
+be the first,3,2,2,STAT,0.5
+by <name> but,3,2,2,JUDGE,0.5
+coming back from,3,2,2,SHOT,0.5
+coming into this,3,2,2,SHOT,0.5
+couple of days,3,2,2,SCORE,0.5
+do a little,3,2,2,JUDGE,1
+doesn't seem to,3,2,2,SHOT,0.5
+error on the,3,2,2,SHOT,1
+every single point,3,2,2,SHOT,0.5
+exactly the same,3,2,2,OTHER,1
+expect him to,3,2,2,OTHER,1
+first set but,3,2,2,OTHER,0.5
+for a couple,3,2,2,STAT,1
+for a couple of,4,2,2,STAT,1
+for a little,3,2,2,OTHER,0.5
+for a third time,4,2,2,SHOT,1
+for the last,3,2,2,CROWD,0.5
+for the moment,3,2,2,JUDGE,0.5
+from <name> and that's,4,2,2,SHOT,1
+game of the second,4,2,2,CROWD,0.5
+game of the second set,5,2,2,CROWD,0.5
+get back into,3,2,2,SCORE,0.5
+going to try,3,2,2,OTHER,0.5
+good as <name>,3,2,2,JUDGE,1
+got to do,3,2,2,JUDGE,1
+got to keep,3,2,2,JUDGE,1
+ground strokes and,3,2,2,SHOT,1
+had to play,3,2,2,JUDGE,0.5
+half an hour,3,1,2,STAT,1
+have to hit,3,2,2,SHOT,1
+he gets it,3,2,2,SCORE,0.5
+he gets the,3,2,2,JUDGE,1
+he's going to be,4,2,2,SHOT,0.5
+here in <num>,3,2,2,STAT,0.5
+i don't know if,4,2,2,JUDGE,1
+i remember when,3,2,2,SHOT,1
+i think his,3,2,2,JUDGE,1
+i think on,3,2,2,JUDGE,1
+if you get,3,2,2,OTHER,1
+impressive from <name>,3,2,2,JUDGE,1
+in <num> and,3,2,2,OTHER,1
+in a couple,3,2,2,OTHER,0.5
+in front of the,4,2,2,CROWD,0.5
+in set two,3,2,2,OTHER,1
+in the big,3,2,2,JUDGE,1
+in the moment,3,2,2,OTHER,0.5
+in this match and,4,2,2,OTHER,1
+in this opening set,4,2,2,SHOT,1
+into the <name>,3,2,2,SHOT,1
+is a great,3,2,2,JUDGE,1
+is as good as,4,2,2,JUDGE,1
+is break point,3,2,2,SCORE,1
+it back in,3,2,2,SHOT,0.5
+it was going to be,5,2,2,JUDGE,0.5
+it was one,3,2,2,JUDGE,0.5
+it's a big,3,2,2,JUDGE,1
+just a couple,3,2,2,STAT,1
+knows how to,3,2,2,JUDGE,1
+little bit on,3,2,2,JUDGE,1
+little bit too,3,2,2,JUDGE,1
+lot of balls,3,1,2,SHOT,1
+lot of work,3,2,2,STAT,0.5
+much better than,3,2,2,JUDGE,1
+needs to do,3,2,2,JUDGE,1
+not an easy,3,2,2,JUDGE,1
+of a game,3,2,2,JUDGE,0.5
+of course he,3,2,2,JUDGE,0.5
+of that point,3,2,2,OTHER,1
+of the court he,4,2,2,OTHER,0.5
+of the day,3,2,2,SHOT,0.5
+of these two,3,2,2,OTHER,1
+oh my god,3,2,2,JUDGE,0.5
+on the ropes,3,2,2,OTHER,1
+on the side,3,2,2,JUDGE,0.5
+on the tennis,3,2,2,OTHER,1
+on the tennis court,4,2,2,OTHER,1
+on their feet,3,2,2,CROWD,0.5
+once you get,3,2,2,CROWD,0.5
+one game away,3,2,2,STAT,0.5
+one game away from,4,2,2,STAT,0.5
+one in the,3,1,2,OTHER,0.5
+open up the,3,2,2,JUDGE,0.5
+out of <name>,3,2,2,JUDGE,1
+outside of the,3,2,2,SCORE,0.5
+over the last,3,2,2,JUDGE,0.5
+point and then,3,2,2,JUDGE,0.5
+point i think,3,2,2,JUDGE,1
+points from the,3,2,2,STAT,0.5
+points in that,3,2,2,SCORE,0.5
+pressure on her,3,2,2,JUDGE,1
+really want to,3,2,2,JUDGE,1
+say that <name>,3,1,2,OTHER,0.5
+second set but,3,2,2,JUDGE,0.5
+see a lot,3,2,2,OTHER,0.5
+see a lot of,4,2,2,OTHER,0.5
+serve in this,3,2,2,SHOT,1
+service games and,3,2,2,SHOT,0.5
+set and a break,4,2,2,OTHER,1
+set points for,3,2,2,SCORE,1
+sets to one,3,2,2,SCORE,1
+sign of a,3,2,2,JUDGE,1
+some of the best,4,2,2,JUDGE,1
+sort of a,3,2,2,SHOT,0.5
+start of this,3,2,2,JUDGE,0.5
+still trying to,3,2,2,STAT,0.5
+such a big,3,2,2,JUDGE,1
+supposed to be,3,2,2,OTHER,1
+take a <num>,3,2,2,OTHER,0.5
+that i mean,3,2,2,JUDGE,1
+that third set,3,2,2,OTHER,1
+that will help,3,1,2,STAT,0.5
+that's exactly what,3,2,2,SHOT,0.5
+the ball in the,4,2,2,CROWD,0.5
+the best of,3,2,2,JUDGE,1
+the break back,3,2,2,SCORE,1
+the court because,3,2,2,SHOT,0.5
+the court in,3,2,2,OTHER,0.5
+the end of this,4,2,2,SHOT,0.5
+the first and,3,2,2,SHOT,1
+the first set but,4,2,2,OTHER,0.5
+the first set was,4,2,2,STAT,0.5
+the last three,3,2,2,OTHER,1
+the match against,3,2,2,OTHER,1
+the middle but,3,2,2,SCORE,0.5
+the moment the,3,2,2,OTHER,0.5
+the next shot,3,2,2,SHOT,1
+the one who,3,2,2,OTHER,1
+the other guy,3,2,2,OTHER,1
+the players have,3,2,2,OTHER,0.5
+the point on,3,2,2,SHOT,1
+the quality of,3,1,2,JUDGE,1
+the second set but,4,2,2,JUDGE,0.5
+the start of this,4,2,2,JUDGE,0.5
+the tennis court,3,2,2,OTHER,1
+the time to,3,2,2,OTHER,1
+the way they,3,2,2,JUDGE,0.5
+there i mean,3,2,2,OTHER,1
+there's no doubt,3,2,2,JUDGE,0.5
+they're going to,3,2,2,OTHER,0.5
+this game <name>,3,2,2,SCORE,1
+this match but,3,2,2,OTHER,0.5
+this set and,3,2,2,OTHER,1
+this tournament and,3,2,2,STAT,1
+three service games,3,1,2,OTHER,1
+time in this,3,2,2,STAT,1
+time to be,3,1,2,OTHER,0.5
+time to get,3,2,2,SHOT,0.5
+to a fifth,3,2,2,OTHER,0.5
+to be a little bit,5,2,2,JUDGE,1
+to do more,3,2,2,JUDGE,1
+to get a little,4,2,2,JUDGE,1
+to get into,3,2,2,SHOT,1
+to get there,3,2,2,JUDGE,0.5
+to give himself,3,2,2,OTHER,1
+to go down,3,2,2,SHOT,1
+to go for the,4,2,2,SHOT,1
+to go up,3,1,2,SHOT,1
+to hit the ball,4,2,2,SHOT,1
+to make that,3,2,2,SHOT,0.5
+to move forward,3,2,2,OTHER,1
+to save the,3,2,2,OTHER,0.5
+to see it,3,2,2,JUDGE,1
+to serve and,3,2,2,SHOT,1
+to take advantage of,4,2,2,SCORE,1
+to take control,3,2,2,SHOT,0.5
+to work on,3,2,2,SHOT,0.5
+trying to make,3,2,2,OTHER,0.5
+two unforced errors,3,2,2,SHOT,1
+was supposed to,3,2,2,OTHER,1
+was the best,3,2,2,JUDGE,1
+well it's a,3,2,2,SHOT,0.5
+well this is,3,1,2,OTHER,0.5
+went for the,3,2,2,SHOT,1
+when you get,3,2,2,SHOT,0.5
+who's going to,3,2,2,JUDGE,0.5
+wide on the,3,2,2,SHOT,1
+with a good,3,2,2,JUDGE,1
+with new balls,3,2,2,OFFICIAL,1
+with the drop,3,2,2,SHOT,1
+won <num> of,3,2,2,SHOT,0.5
+you get the,3,2,2,JUDGE,0.5
+you're not going,3,2,2,JUDGE,0.5
+you're not going to,4,2,2,JUDGE,0.5
+<name> <name> in,3,1,1,STAT,1
+<name> but he,3,1,1,JUDGE,1
+<name> is on,3,1,1,JUDGE,1
+<name> it was,3,1,1,SHOT,1
+<name> that was,3,1,1,SHOT,1
+<name> that was a,4,1,1,SHOT,1
+<name> the chance,3,1,1,OTHER,1
+<name> was in,3,1,1,OTHER,1
+<name> will serve for,4,1,1,SHOT,1
+<num> <num> game,3,1,1,JUDGE,1
+<num> <num> in the third,5,1,1,JUDGE,1
+<num> <num> it was,4,1,1,SCORE,1
+<num> <num> people,3,1,1,JUDGE,1
+<num> in the second,4,1,1,OTHER,1
+<num> in the third,4,1,1,JUDGE,1
+<num> to win,3,1,1,SHOT,1
+a <name> <name>,3,1,1,OTHER,1
+a <num> hold,3,1,1,SCORE,1
+a bad day,3,1,1,JUDGE,1
+a combination of,3,1,1,OTHER,1
+a completely different,3,1,1,OTHER,1
+a few of,3,1,1,SHOT,1
+a good game,3,1,1,JUDGE,1
+a little bit like,4,1,1,JUDGE,1
+a little bit more time,5,1,1,JUDGE,1
+a little bit quicker,4,1,1,JUDGE,1
+a must win game,4,1,1,JUDGE,1
+a second break,3,1,1,OTHER,1
+a sign of,3,1,1,OTHER,1
+a tennis player,3,1,1,JUDGE,1
+a way to win,4,1,1,JUDGE,1
+able to hold,3,1,1,OTHER,1
+advantage of it,3,1,1,SCORE,1
+after <num> minutes,3,1,1,STAT,1
+against <name> <name>,3,1,1,SHOT,1
+against <name> in,3,1,1,STAT,1
+aggressive on the,3,1,1,JUDGE,1
+always going to,3,1,1,JUDGE,1
+an hour and,3,1,1,STAT,1
+and <name> and,3,1,1,JUDGE,1
+and <name> gets,3,1,1,OTHER,1
+and <num> <num>,3,1,1,OTHER,1
+and <num> minutes,3,1,1,STAT,1
+and get the,3,1,1,JUDGE,1
+and i thought,3,1,1,JUDGE,1
+and now he,3,1,1,JUDGE,1
+and see if,3,1,1,OTHER,1
+as i said,3,1,1,SCORE,1
+as well i,3,1,1,OTHER,1
+at that point,3,1,1,JUDGE,1
+at the beginning of the,5,1,1,SHOT,1
+at the time,3,1,1,STAT,1
+at the top of,4,1,1,OTHER,1
+away from taking,3,1,1,OTHER,1
+back in <num>,3,1,1,OTHER,1
+ball a little,3,1,1,SHOT,1
+because <name> is,3,1,1,OTHER,1
+beginning of the third,4,1,1,SCORE,1
+between the two,3,1,1,OTHER,1
+break point and,3,1,1,SCORE,1
+by a long,3,1,1,SHOT,1
+by the way,3,1,1,OTHER,1
+can see the,3,1,1,OTHER,1
+chance for <name>,3,1,1,JUDGE,1
+coming out of,3,1,1,STAT,1
+court and you,3,1,1,OTHER,1
+did well to,3,1,1,OTHER,1
+do a little bit,4,1,1,JUDGE,1
+do you say,3,1,1,OTHER,1
+don't know why,3,1,1,JUDGE,1
+don't think he,3,1,1,JUDGE,1
+don't think i've,3,1,1,JUDGE,1
+down a break,3,1,1,OTHER,1
+down the line a,4,1,1,SHOT,1
+easy to do,3,1,1,JUDGE,1
+far away from,3,1,1,OTHER,1
+feel like it's,3,1,1,JUDGE,1
+first serve return,3,1,1,SHOT,1
+first time i,3,1,1,STAT,1
+for <name> but,3,1,1,OTHER,1
+for <name> to get,4,1,1,OTHER,1
+for the american,3,1,1,OTHER,1
+for the big,3,1,1,JUDGE,1
+for the tournament,3,1,1,STAT,1
+fourth set <name>,3,1,1,SCORE,1
+from the italian,3,1,1,SHOT,1
+from the serb,3,1,1,SCORE,1
+game and <name>,3,1,1,SCORE,1
+game from the,3,1,1,OTHER,1
+game i think,3,1,1,JUDGE,1
+games at the,3,1,1,JUDGE,1
+get a bit,3,1,1,SHOT,1
+get herself back,3,1,1,OTHER,1
+get on the board,4,1,1,OTHER,1
+get the feeling,3,1,1,SHOT,1
+gets to the,3,1,1,OTHER,1
+going to be able,4,1,1,OTHER,1
+going to be able to,5,1,1,OTHER,1
+going to serve,3,1,1,SHOT,1
+good on the,3,1,1,JUDGE,1
+grand slam finals,3,1,1,STAT,1
+had a bit,3,1,1,SHOT,1
+had a bit of,4,1,1,SHOT,1
+had to make,3,1,1,OTHER,1
+had to take,3,1,1,OTHER,1
+has to go,3,1,1,JUDGE,1
+has won the,3,1,1,OTHER,1
+having to work,3,1,1,SHOT,1
+he got a,3,1,1,JUDGE,1
+he knows how,3,1,1,JUDGE,1
+he made a,3,1,1,SHOT,1
+he was <num>,3,1,1,SCORE,1
+he was trying,3,1,1,OTHER,1
+he's going to do,4,1,1,JUDGE,1
+high percentage of,3,1,1,STAT,1
+him a little bit,4,1,1,JUDGE,1
+his first service game,4,1,1,JUDGE,1
+his first three,3,1,1,JUDGE,1
+hitting from <name>,3,1,1,SHOT,1
+i don't think he,4,1,1,JUDGE,1
+i don't think i've,4,1,1,JUDGE,1
+i have to say,4,1,1,JUDGE,1
+i mean i think,4,1,1,JUDGE,1
+i mean it's just,4,1,1,OTHER,1
+i mean we,3,1,1,SHOT,1
+i saw the,3,1,1,SHOT,1
+important game for,3,1,1,JUDGE,1
+in a couple of,4,1,1,OTHER,1
+in his career,3,1,1,STAT,1
+in our sport,3,1,1,OTHER,1
+in terms of the,4,1,1,JUDGE,1
+in the air,3,1,1,OTHER,1
+in the back,3,1,1,OTHER,1
+in the corner,3,1,1,OTHER,1
+in the early stages,4,1,1,JUDGE,1
+in the next,3,1,1,OTHER,1
+in the quarterfinals,3,1,1,STAT,1
+in the right,3,1,1,OTHER,1
+in the semi finals,4,1,1,STAT,1
+in the way,3,1,1,OTHER,1
+in this match <name>,4,1,1,STAT,1
+interesting to see,3,1,1,OTHER,1
+into a fifth,3,1,1,STAT,1
+is looking to,3,1,1,OTHER,1
+is the <name>,3,1,1,OTHER,1
+is to get,3,1,1,JUDGE,1
+it a bit,3,1,1,SHOT,1
+it kind of,3,1,1,SHOT,1
+it seems like,3,1,1,OTHER,1
+it was going to be a,6,1,1,SHOT,1
+it's <name> who,3,1,1,OTHER,1
+it's almost like,3,1,1,OTHER,1
+it's one of,3,1,1,JUDGE,1
+just a bit,3,1,1,OTHER,1
+just a couple of,4,1,1,STAT,1
+kind of a,3,1,1,OTHER,1
+last couple of games,4,1,1,OTHER,1
+last couple of years,4,1,1,STAT,1
+length of the,3,1,1,OTHER,1
+level of tennis,3,1,1,OTHER,1
+like <name> has,3,1,1,OTHER,1
+like you said,3,1,1,OTHER,1
+likes to play,3,1,1,OTHER,1
+little bit like,3,1,1,JUDGE,1
+little bit more time,4,1,1,JUDGE,1
+little bit quicker,3,1,1,JUDGE,1
+looks as though,3,1,1,OTHER,1
+lost the first set,4,1,1,OTHER,1
+many unforced errors,3,1,1,SHOT,1
+mean it's just,3,1,1,OTHER,1
+most of the time,4,1,1,STAT,1
+much in the,3,1,1,OTHER,1
+must win game,3,1,1,JUDGE,1
+needs to be,3,1,1,JUDGE,1
+not going to get,4,1,1,SHOT,1
+not sure if,3,1,1,OTHER,1
+now <num> <num>,3,1,1,OTHER,1
+now i mean,3,1,1,JUDGE,1
+number one and,3,1,1,STAT,1
+of <name> is,3,1,1,JUDGE,1
+of <name>'s game,3,1,1,OTHER,1
+of course when,3,1,1,OTHER,1
+of roland garros,3,1,1,STAT,1
+of that match,3,1,1,SHOT,1
+of the court it's,4,1,1,OTHER,1
+of the first set,4,1,1,JUDGE,1
+of the players,3,1,1,JUDGE,1
+of the reasons,3,1,1,JUDGE,1
+of the serve,3,1,1,SHOT,1
+of this third,3,1,1,OTHER,1
+of this third set,4,1,1,OTHER,1
+off that wing,3,1,1,OTHER,1
+off the <name>,3,1,1,SHOT,1
+on both sides,3,1,1,SHOT,1
+on his serve,3,1,1,SHOT,1
+on our hands,3,1,1,JUDGE,1
+on the backhand side,4,1,1,SHOT,1
+on the hard,3,1,1,JUDGE,1
+on the match,3,1,1,STAT,1
+on the other side of,5,1,1,SHOT,1
+on this court,3,1,1,OTHER,1
+one of the reasons,4,1,1,JUDGE,1
+opening set in,3,1,1,OTHER,1
+out of nowhere,3,1,1,OTHER,1
+part of the game,4,1,1,SHOT,1
+play with a,3,1,1,JUDGE,1
+played each other,3,1,1,STAT,1
+point for <num> <num>,4,1,1,OTHER,1
+points in a,3,1,1,STAT,1
+points in a row,4,1,1,STAT,1
+points on his,3,1,1,OTHER,1
+points to get,3,1,1,OTHER,1
+return of serve and,4,1,1,SHOT,1
+right now you,3,1,1,JUDGE,1
+second serve into the,4,1,1,SHOT,1
+second serve is,3,1,1,SHOT,1
+set of the,3,1,1,STAT,1
+so close to,3,1,1,OTHER,1
+so far he,3,1,1,OTHER,1
+so far it's,3,1,1,JUDGE,1
+stage of the,3,1,1,OTHER,1
+start of the match,4,1,1,JUDGE,1
+starting to get,3,1,1,OTHER,1
+still a lot,3,1,1,OTHER,1
+take the ball,3,1,1,OTHER,1
+tell you that,3,1,1,STAT,1
+terms of the,3,1,1,JUDGE,1
+that <name> had,3,1,1,SHOT,1
+that a little,3,1,1,JUDGE,1
+that a little bit,4,1,1,JUDGE,1
+that game and,3,1,1,OTHER,1
+that's a great,3,1,1,JUDGE,1
+the ad court,3,1,1,SHOT,1
+the back foot,3,1,1,SHOT,1
+the ball as,3,1,1,OTHER,1
+the ball back into,4,1,1,SHOT,1
+the ball but,3,1,1,JUDGE,1
+the ball early,3,1,1,OTHER,1
+the beginning of the,4,1,1,SHOT,1
+the best player,3,1,1,JUDGE,1
+the body of,3,1,1,SHOT,1
+the break in,3,1,1,OTHER,1
+the court i,3,1,1,OTHER,1
+the early break,3,1,1,OTHER,1
+the early stages,3,1,1,JUDGE,1
+the first time i,4,1,1,STAT,1
+the forehand from,3,1,1,SHOT,1
+the half volley,3,1,1,SHOT,1
+the last couple of games,5,1,1,OTHER,1
+the last couple of years,5,1,1,STAT,1
+the last game,3,1,1,OTHER,1
+the length of the,4,1,1,OTHER,1
+the line backhand,3,1,1,SHOT,1
+the next point,3,1,1,JUDGE,1
+the return of,3,1,1,SHOT,1
+the right thing,3,1,1,JUDGE,1
+the second set <name>,4,1,1,SCORE,1
+the speed of,3,1,1,SHOT,1
+the tournament the,3,1,1,STAT,1
+there for <name>,3,1,1,OTHER,1
+there's a bit of,4,1,1,CROWD,1
+these guys are,3,1,1,JUDGE,1
+they want to,3,1,1,OTHER,1
+think that is,3,1,1,JUDGE,1
+think there's a,3,1,1,JUDGE,1
+this time it's,3,1,1,OTHER,1
+through the court,3,1,1,SCORE,1
+to be careful,3,1,1,JUDGE,1
+to continue to,3,1,1,SHOT,1
+to do a little,4,1,1,JUDGE,1
+to get a bit,4,1,1,SHOT,1
+to get on the,4,1,1,OTHER,1
+to get on the board,5,1,1,OTHER,1
+to get the ball,4,1,1,SHOT,1
+to go out,3,1,1,OTHER,1
+to go with,3,1,1,SHOT,1
+to open up the,4,1,1,JUDGE,1
+to pick up,3,1,1,OTHER,1
+to see that,3,1,1,OTHER,1
+to serve well,3,1,1,SHOT,1
+too many unforced,3,1,1,SHOT,1
+too many unforced errors,4,1,1,SHOT,1
+tough to get,3,1,1,JUDGE,1
+tournament so far,3,1,1,STAT,1
+trying to hit,3,1,1,SHOT,1
+trying to keep,3,1,1,SHOT,1
+two service games,3,1,1,STAT,1
+two sets and,3,1,1,OTHER,1
+unforced errors from,3,1,1,SHOT,1
+unforced errors from <name>,4,1,1,SHOT,1
+us open champion,3,1,1,JUDGE,1
+want to say,3,1,1,OTHER,1
+was a little bit of,5,1,1,JUDGE,1
+was called out,3,1,1,OFFICIAL,1
+was going to be a,5,1,1,SHOT,1
+was looking for,3,1,1,OTHER,1
+was talking about,3,1,1,OTHER,1
+was trying to play,4,1,1,OTHER,1
+wasn't able to,3,1,1,SHOT,1
+we need to,3,1,1,JUDGE,1
+we talked about,3,1,1,SHOT,1
+we'll see if,3,1,1,OTHER,1
+well <name> has,3,1,1,SCORE,1
+well right now,3,1,1,JUDGE,1
+well to get,3,1,1,SHOT,1
+went on to,3,1,1,OTHER,1
+when you play,3,1,1,JUDGE,1
+will serve for,3,1,1,SHOT,1
+with a double,3,1,1,SHOT,1
+with a few,3,1,1,SHOT,1
+with his first,3,1,1,SCORE,1
+wow what a,3,1,1,JUDGE,1
+yeah but i,3,1,1,OTHER,1
+you can really,3,1,1,JUDGE,1
+you know he's,3,1,1,JUDGE,1
+you see the,3,1,1,SCORE,1

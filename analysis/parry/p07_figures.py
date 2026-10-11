@@ -226,7 +226,7 @@ def fig_largeI():
         ax.set_xticks(range(3))
         ax.set_xticklabels([sl for _, sl in srcs])
         ax.set_ylabel("% of the TV target's tokens covered")
-        ax.set_title(f"{lab_} (I = 100,000 tokens; mean of 5 samples)")
+        ax.set_title(f"{lab_} (I = 100,000 tokens; mean of 5 samples; TV samples overlap)")
     fig.suptitle("Coverage of each of the 20 TV streams (whole text) by sources of equal size; lines join one target")
     fig.tight_layout()
     fig.savefig(FIG / "fig9_largeI_coverage.png", dpi=150)
@@ -234,21 +234,28 @@ def fig_largeI():
 
 
 def fig_tvonly_slots():
-    """POST HOC (addendum 1, A1): slot composition of the TV-only and the shared n >= 3 tokens."""
+    """POST HOC (addendum 1, A1): slot composition of the TV-only and the shared n >= 3 tokens (classifier output; addendum 2: plus the
+    confusion-corrected TV-only composition of p14_slot_adjust.py)."""
     rows = L.read_csv(R / "largeI_tvonly_slots.csv")
     groups = [("ALL_TV", "tv_only", "20 targets: TV-only"), ("ALL_TV", "shared", "20 targets: shared"),
               ("ALL_TV", "tv_only_strict", "20 targets: TV-only, strict"), (L.MAIN, "tv_only", "2019 final: TV-only"),
               (L.HELDOUT, "tv_only", "2023 final: TV-only")]
-    fig, ax = plt.subplots(figsize=(10, 4.2))
-    left = np.zeros(len(groups))
+    adj_path = R / "slot_adjusted_composition.csv"   # addendum 2: confusion-corrected shares (p14), if present
+    adj = {(r["coder"], r["estimator"], r["slot"]): f(r["adjusted_share"]) for r in L.read_csv(adj_path)
+           if r["target"] == "ALL_TV" and r["class"] == "tv_only" and r["weighting"] == "spans"} if adj_path.exists() else {}
+    corr = [(c_, e_, f"20 targets: TV-only, corrected ({e_}, coder {c_})") for e_ in ("calibration", "inversion") for c_ in ("A", "B")] if adj else []
+    fig, ax = plt.subplots(figsize=(10, 4.2 + 0.45 * len(corr)))
+    nb = len(groups) + len(corr)
+    left = np.zeros(nb)
     for sl in L.SLOTS:
-        v = np.array([100 * f(next(r["share_of_class"] for r in rows if r["target"] == t and r["class"] == c and r["slot"] == sl)) for t, c, _ in groups])
-        ax.barh(range(len(groups)), v, left=left, label=sl)
+        v = np.array([100 * f(next(r["share_of_class"] for r in rows if r["target"] == t and r["class"] == c and r["slot"] == sl)) for t, c, _ in groups]
+                     + [100 * adj[(c_, e_, sl)] for c_, e_, _ in corr])
+        ax.barh(range(nb), v, left=left, label=sl)
         left += v
-    ax.set_yticks(range(len(groups)))
-    ax.set_yticklabels([g[2] for g in groups])
+    ax.set_yticks(range(nb))
+    ax.set_yticklabels([g[2] for g in groups] + [g[2] for g in corr])
     ax.invert_yaxis()
-    ax.set_xlabel("% of the class's tokens (slot of the longest covering n >= 3 occurrence, classify(span))")
+    ax.set_xlabel("% of tokens (span-mode slot of the longest covering string; corrected rows: Table 2.E2)")
     ax.legend(ncol=7, fontsize=7, loc="lower center", bbox_to_anchor=(0.5, 1.0))
     fig.tight_layout()
     fig.savefig(FIG / "fig10_tvonly_slots.png", dpi=150)

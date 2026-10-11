@@ -465,3 +465,28 @@ magnitude.
 * Minor 9: title "Phase 2b: repetition across broadcasts"; the revision paragraphs say which parts of each addendum were written after
   first outputs.
 * STATUS.md is the orchestrator's file and is not edited here; its headline on the TV-only stock should follow the new Key results.
+
+### Addendum 2, implementation notes (2026-10-11; POST HOC, written while implementing addendum 2 and after its first outputs)
+* N2 wording: the confusion uses every coder span (all confidence levels), as Table 3.4 and `calibrate_chance.py` do; the addendum's "HIGH +
+  MEDIUM" in that sentence was a slip.
+* N1 uncertainty: the planned percentile bootstrap over the R = 100 replicates was dropped after its first run, because resampling replicates
+  with replacement leaves about 63% distinct samples, so rare strings lose their attestation and the intervals excluded their own point
+  estimates (first-run output not kept). Replaced by the statistics of the two halves of the replicates (Monte Carlo
+  stability) and a percentile bootstrap over strings (B = 2,000, seed `[SEED, 119]`; descriptive, since the strings are a selected set).
+* N1 check: the critic's figure for the 300 commonest strings (median 12.4, quartiles 8.1-40.5) is the by-type median over whole-text rates;
+  occurrence-weighted it is 14.8. Both rows are in Table 2.F2; the primary statistic is the one fixed above (all 2,606 strings, occurrence-
+  weighted, matched size, TV / max baseline), which is below 10 (Table 2.F2), so the rule prints "more than k-fold", not "tenfold".
+* N2 result: the two estimators disagree (calibration about 38-39%, inversion about 26% with wide intervals; OTHER 5% vs 32-48%). The
+  calibration estimator returns roughly the coders' own OTHER rate for every class, which the report states. The composition verdict uses the
+  rule fixed above (calibration estimator); "under every reading" is added only if the inversion estimator's upper bounds are also below 50%
+  (a wording condition added after the first outputs). The 2019 and 2023 finals' corrected shares (about 50% and 44%) are printed beside the
+  pooled figure.
+* Minor 4: the check confirmed that `official_mask_v2` already contains the umpire's game announcements (32 of 42 `leads (by) N games/sets to M`
+  frames in the TV texts wholly inside; the others have a misrecognised or no player name, or are commentators' sentences, by inspection of
+  the 10 cases), so the mask is unchanged, as foreseen.
+* The Key-results bullet on the TV-only stock is split into three (equal-size shares; rates; composition). The addendum-1 'twice' rule on the
+  umpire share of the strict class is no longer used (its sentence was dropped). The thresholds table also lists the two uses of share_word
+  with their nearest band limit.
+* p13 and p15 first wrote their summaries with the column list of the first row, which dropped columns (`targets_positive`, `target`); fixed
+  (explicit columns) and rerun with the same seeds before the report used them.
+* fig9's title says that the TV samples overlap (minor 8); fig10 adds the four corrected compositions.

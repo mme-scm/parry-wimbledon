@@ -12,8 +12,15 @@ SlotClassifier.classify(span) on the longest covering occurrence.
 
 Outputs (results/): largeI_coverage.csv, largeI_summary.csv, largeI_tvonly_by_target.csv, largeI_tvonly_slots.csv,
 largeI_tvonly_types_finals.csv, largeI_tvonly_types_pooled.csv, largeI_meta.json
+POST HOC (plan.md addendum 2; computed from the same replicate inventories, no new random draws, so the outputs above keep their content):
+largeI_tvonly_types_pooled_all.csv (every majority TV-only string, not only the 300 commonest), largeI_shared_types_pooled_all.csv (every
+string shared with a baseline sample in a majority of a target's samples), largeI_umpire_check.csv (are the umpire's game announcements
+inside official_mask_v2?); largeI_tvonly_slots.csv gains the pseudo-slot '_umpire_game' (tokens inside the umpire's game announcements:
+`game <name>`, `<name> leads (by) N games/sets to M`, `N games all`, the first three patterns of common.official_mask) and the class
+'tv_only_umpire_official' (TV-only tokens, with tokens inside those announcements labelled OFFICIAL instead of the classifier's slot).
 Run: python -I analysis/parry/p08_largeI.py
 """
+import re
 import sys
 import time
 from collections import Counter, defaultdict
@@ -31,9 +38,69 @@ TOKVARS = ("norm", "raw")
 NMAX = 12
 TEAMS = {}
 KEEP = {}          # stream -> list of bool arrays (True = outside umpire/score-call patterns)
+KEEPG = {}         # stream -> list of bool arrays (True = outside the umpire's game announcements; addendum 2)
 PRESS_CHUNKS = []
 CAND = set()
 CAND_FIRST = set()
+
+
+def _umpire_game_pats(names):
+    """The first three patterns of common.official_mask (verbatim): the umpire's game announcements."""
+    nm = "(?:" + "|".join(sorted(re.escape(x) for x in names)) + ")(?:'s)?"
+    ords = "(?:first|second|third|fourth|fifth|final)"
+    return [re.compile(p) for p in (rf"\bgame (?:mr |miss |ms )?{nm}\b",
+                                    rf"\b{nm} leads? (?:by )?\w+ (?:games?|sets?) to \w+(?: {ords} set)?\b",
+                                    rf"\b\w+ games? all(?: {ords} set)?\b")]
+
+
+UG_PATS = _umpire_game_pats(L.NAMES)
+
+
+def umpire_game_mask(toks):
+    """True = keep; False = token inside an umpire game announcement (addendum 2, minor 4)."""
+    s = " ".join(toks)
+    starts, pos = [], 0
+    for t in toks:
+        starts.append(pos)
+        pos += len(t) + 1
+    keep = np.ones(len(toks), dtype=bool)
+    for p in UG_PATS:
+        for mt in p.finditer(s):
+            for ti, st in enumerate(starts):
+                if mt.start() <= st < mt.end():
+                    keep[ti] = False
+    return keep
+
+
+CHECK_PATS = (("leads by", re.compile(r"\bleads? by\b")),
+              ("leads (by) N games/sets to M", re.compile(r"\bleads? (?:by )?\w+ (?:games?|sets?) to \w+\b")),
+              ("N games/sets to M", re.compile(r"\b\w+ (?:games?|sets?) to \w+\b")),
+              ("N games all", re.compile(r"\b\w+ games? all\b")))
+
+
+def umpire_check():
+    """Addendum 2, minor 4: occurrences of the umpire's game-score frames in the raw TV text and whether official_mask_v2 covers them."""
+    rows = []
+    for s in L.TV:
+        cnt = defaultdict(lambda: [0, 0, 0])
+        for u, kp in zip(TEAMS[s].raw, KEEP[s]):
+            txt = " ".join(u)
+            starts, pos = [], 0
+            for t in u:
+                starts.append(pos)
+                pos += len(t) + 1
+            for lab_, p in CHECK_PATS:
+                for mt in p.finditer(txt):
+                    ix = [ti for ti, st in enumerate(starts) if mt.start() <= st < mt.end()]
+                    c = cnt[lab_]
+                    c[0] += 1
+                    c[1] += int(all(not kp[ti] for ti in ix))
+                    c[2] += int(any(not kp[ti] for ti in ix))
+        for lab_, _ in CHECK_PATS:
+            c = cnt[lab_]
+            rows.append({"stream": s, "label": L.short(s), "frame": lab_, "occurrences": c[0], "wholly_inside_official_mask_v2": c[1],
+                         "partly_inside_official_mask_v2": c[2]})
+    return rows
 
 
 def cov_stats(utts, F, keep=None):
@@ -125,6 +192,7 @@ def main():
     for s in L.TV:
         TEAMS[s] = L.load_tv(s)
         KEEP[s] = [L.C.official_mask_v2(u, L.NAMES) for u in TEAMS[s].raw]
+        KEEPG[s] = [umpire_game_mask(u) for u in TEAMS[s].raw]
     TEAMS["cornell"] = L.load_cornell()
     TEAMS["press_pooled"] = L.load_press(None)
     print("loaded", round(time.time() - t0, 1), "s", flush=True)
@@ -202,12 +270,14 @@ def main():
 
     # ---------------------------------------------------------------- token classes, slot composition, type lists
     by_target, slot_rows = [], []
-    slot_pool = {cls: Counter() for cls in ("tv_only", "shared", "tv_only_strict", "tv_only_cross")}
+    slot_pool = {cls: Counter() for cls in ("tv_only", "shared", "tv_only_strict", "tv_only_cross", "tv_only_umpire_official")}
+    shared_pool = defaultdict(lambda: {"targets": 0, "occurrences": 0, "slots": Counter()})   # addendum 2
     types_final = []
     types_pool = defaultdict(lambda: {"targets": 0, "occurrences": 0, "slots": Counter()})
     for t in L.TV:
         raw = TEAMS[t].raw
         keep = KEEP[t]
+        keepg = KEEPG[t]
         ntok = sum(len(u) for u in raw)
         nkeep = int(sum(k_.sum() for k_ in keep))
         cls_cache, span_cache = {}, {}
@@ -224,6 +294,7 @@ def main():
         acc = defaultdict(list)
         slots_t = {cls: Counter() for cls in slot_pool}
         only_reps = Counter()
+        shared_reps = Counter()   # addendum 2
         for r in range(R):
             occ = occ_by[t][r]
             cov_any = [np.zeros(len(u), bool) for u in raw]
@@ -235,6 +306,7 @@ def main():
             best_only = [dict() for _ in raw]                  # token -> (n, -i) of the longest leftmost TV-only occurrence
             best_sh = [dict() for _ in raw]
             seen_only = set()
+            seen_sh = set()
             for ui, i, n, g, inC, inP in occ:
                 sl = slice(i, i + n)
                 cov_any[ui][sl] = True
@@ -244,6 +316,7 @@ def main():
                     cov_noP[ui][sl] = False
                 if inC or inP:
                     cov_sh[ui][sl] = True
+                    seen_sh.add(g)
                     bd = best_sh[ui]
                 else:
                     seen_only.add(g)
@@ -257,6 +330,8 @@ def main():
                         bd[q] = ((n, -i), (i, i + n))
             for g in seen_only:
                 only_reps[g] += 1
+            for g in seen_sh:
+                shared_reps[g] += 1
             tot = {k_: 0 for k_ in ("any", "shared", "only", "strict", "cross", "notC", "notP")}
             totk = dict(tot)
             for ui, u in enumerate(raw):
@@ -267,6 +342,7 @@ def main():
                 notC = anyv & cov_noC[ui]
                 notP = anyv & cov_noP[ui]
                 kp = keep[ui]
+                kg = keepg[ui]
                 for k_, v in (("any", anyv), ("shared", sh), ("only", only), ("strict", stv), ("cross", crv), ("notC", notC), ("notP", notP)):
                     tot[k_] += int(v.sum())
                     totk[k_] += int((v & kp).sum())
@@ -275,16 +351,23 @@ def main():
                     s_ = slot_of(ui, *sp)
                     slots_t["tv_only"][s_] += 1
                     slots_t["tv_only"]["_umpire_mask"] += int(not kp[q])
+                    slots_t["tv_only"]["_umpire_game"] += int(not kg[q])
+                    slots_t["tv_only_umpire_official"]["OFFICIAL" if not kg[q] else s_] += 1
+                    slots_t["tv_only_umpire_official"]["_umpire_mask"] += int(not kp[q])
+                    slots_t["tv_only_umpire_official"]["_umpire_game"] += int(not kg[q])
                     if stv[q]:
                         slots_t["tv_only_strict"][s_] += 1
                         slots_t["tv_only_strict"]["_umpire_mask"] += int(not kp[q])
+                        slots_t["tv_only_strict"]["_umpire_game"] += int(not kg[q])
                     if crv[q]:
                         slots_t["tv_only_cross"][s_] += 1
                         slots_t["tv_only_cross"]["_umpire_mask"] += int(not kp[q])
+                        slots_t["tv_only_cross"]["_umpire_game"] += int(not kg[q])
                 for q in np.where(sh)[0]:
                     sp = best_sh[ui][int(q)][1]
                     slots_t["shared"][slot_of(ui, *sp)] += 1
                     slots_t["shared"]["_umpire_mask"] += int(not kp[q])
+                    slots_t["shared"]["_umpire_game"] += int(not kg[q])
             for k_ in tot:
                 acc[k_].append(tot[k_] / ntok)
                 acc[k_ + "_comm"].append(totk[k_] / nkeep)
@@ -294,7 +377,7 @@ def main():
         by_target.append(row)
         for cls, c in slots_t.items():
             tot_c = sum(v for kk, v in c.items() if not kk.startswith("_"))
-            for sl in list(L.SLOTS) + ["_umpire_mask"]:
+            for sl in list(L.SLOTS) + ["_umpire_mask", "_umpire_game"]:
                 slot_rows.append({"target": t, "label": L.short(t), "class": cls, "slot": sl, "tokens_summed_over_R": c.get(sl, 0),
                                   "share_of_class": c.get(sl, 0) / tot_c if tot_c else float("nan")})
             slot_pool[cls].update(c)
@@ -309,6 +392,11 @@ def main():
             occ_cnt[g] += 1
             occ_slot[g][slot_of(ui, i, i + n)] += 1
         maj = [g for g, k_ in only_reps.items() if 2 * k_ > R]   # TV-only in a majority of the R replicates
+        for g in [g for g, k_ in shared_reps.items() if 2 * k_ > R]:   # addendum 2: shared in a majority of the R replicates
+            sp_ = shared_pool[g]
+            sp_["targets"] += 1
+            sp_["occurrences"] += occ_cnt[g]
+            sp_["slots"].update(occ_slot[g])
         for g in maj:
             tp = types_pool[g]
             tp["targets"] += 1
@@ -324,7 +412,7 @@ def main():
     L.write_csv(OUT / "largeI_tvonly_by_target.csv", by_target)
     for cls, c in slot_pool.items():
         tot_c = sum(v for kk, v in c.items() if not kk.startswith("_"))
-        for sl in list(L.SLOTS) + ["_umpire_mask"]:
+        for sl in list(L.SLOTS) + ["_umpire_mask", "_umpire_game"]:
             slot_rows.append({"target": "ALL_TV", "label": "20 TV targets pooled", "class": cls, "slot": sl, "tokens_summed_over_R": c.get(sl, 0),
                               "share_of_class": c.get(sl, 0) / tot_c if tot_c else float("nan")})
     L.write_csv(OUT / "largeI_tvonly_slots.csv", slot_rows)
@@ -342,8 +430,19 @@ def main():
                        "per_100k_tv_all20": rate_tv(g), "per_100k_cornell": rate_c(g), "per_100k_press": rate_p(g)})
     pooled.sort(key=lambda x: (-x["occurrences_in_targets"], x["ngram"]))
     L.write_csv(OUT / "largeI_tvonly_types_pooled.csv", pooled[:300])
+    # ---------------------------------------------------------------- addendum 2: full lists and the umpire check
+    L.write_csv(OUT / "largeI_tvonly_types_pooled_all.csv", pooled)
+    shared = []
+    for g, d in shared_pool.items():
+        ms, mc = d["slots"].most_common(1)[0]
+        shared.append({"ngram": " ".join(g), "n": len(g), "targets_shared": d["targets"], "occurrences_in_targets": d["occurrences"],
+                       "modal_slot": ms, "modal_slot_share": mc / sum(d["slots"].values())})
+    shared.sort(key=lambda x: (-x["occurrences_in_targets"], x["ngram"]))
+    L.write_csv(OUT / "largeI_shared_types_pooled_all.csv", shared)
+    L.write_csv(OUT / "largeI_umpire_check.csv", umpire_check())
     meta = {"I_size": I_SIZE, "R": R, "B": B, "sources": SOURCES, "token_variants": TOKVARS, "targets": len(L.TV),
             "candidates_tv_only_types": len(CAND), "strict_types": len(strict), "pooled_majority_types": len(pooled),
+            "pooled_majority_shared_types": len(shared),
             "cornell_tokens_full": TEAMS["cornell"].ntok, "press_tokens_full": TEAMS["press_pooled"].ntok,
             "runtime_jobs_s": round(t_jobs, 1), "runtime_scan_s": round(t_scan, 1), "runtime_total_s": round(time.time() - t0, 1),
             "seeds": {"jobs": "[SEED, 108, target index, r, token variant index]", "bootstrap": "[SEED, 109]"}}

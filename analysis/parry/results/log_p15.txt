@@ -1,0 +1,47 @@
+all20 coverage: a_other19 0.1659 0.1587 0.1729
+all20 coverage: b_other_slam 0.1602 0.1537 0.1657
+all20 coverage: c_no_shared_player 0.1629 0.1559 0.1696
+all20 coverage: d_both 0.1575 0.1509 0.1637
+all20 coverage: e_random_control 0.166 0.1585 0.1735
+all20 coverage: f_cornell 0.1084 0.1009 0.1162
+all20 coverage: g_press 0.1026 0.0977 0.1074
+all20 a_other19 minus f_cornell 0.0575 0.0519 0.0629
+all20 a_other19 minus g_press 0.0633 0.0572 0.0691
+all20 d_both minus f_cornell 0.049 0.0447 0.0532
+all20 d_both minus g_press 0.0548 0.049 0.0602
+all20 e_random_control minus f_cornell 0.0576 0.0525 0.0626
+all20 e_random_control minus g_press 0.0634 0.0566 0.0698
+all20 share of the a - f_cornell gap removed by b_other_slam 0.1001 0.0582 0.1415
+all20 share of the a - g_press gap removed by b_other_slam 0.0909 0.0514 0.1313
+all20 share of the a - f_cornell gap removed by c_no_shared_player 0.0532 0.0363 0.072
+all20 share of the a - g_press gap removed by c_no_shared_player 0.0484 0.0335 0.0653
+all20 share of the a - f_cornell gap removed by d_both 0.1476 0.0967 0.197
+all20 share of the a - g_press gap removed by d_both 0.134 0.0843 0.1821
+all20 share of the a - f_cornell gap removed by e_random_control -0.0019 -0.0223 0.0167
+all20 share of the a - g_press gap removed by e_random_control -0.0017 -0.0187 0.017
+all20 share of the a - f_cornell gap removed by d beyond the random control 0.1495 0.1012 0.1994
+all20 share of the a - g_press gap removed by d beyond the random control 0.1357 0.0922 0.1791
+finals coverage: a_other19 0.2388 nan nan
+finals coverage: b_other_slam 0.2325 nan nan
+finals coverage: c_no_shared_player 0.2294 nan nan
+finals coverage: d_both 0.2232 nan nan
+finals coverage: e_random_control 0.2321 nan nan
+finals coverage: f_cornell 0.1478 nan nan
+finals coverage: g_press 0.1358 nan nan
+finals a_other19 minus f_cornell 0.0911 nan nan
+finals a_other19 minus g_press 0.103 nan nan
+finals d_both minus f_cornell 0.0754 nan nan
+finals d_both minus g_press 0.0874 nan nan
+finals e_random_control minus f_cornell 0.0843 nan nan
+finals e_random_control minus g_press 0.0963 nan nan
+finals share of the a - f_cornell gap removed by b_other_slam 0.0693 nan nan
+finals share of the a - g_press gap removed by b_other_slam 0.0613 nan nan
+finals share of the a - f_cornell gap removed by c_no_shared_player 0.1036 nan nan
+finals share of the a - g_press gap removed by c_no_shared_player 0.0916 nan nan
+finals share of the a - f_cornell gap removed by d_both 0.1715 nan nan
+finals share of the a - g_press gap removed by d_both 0.1516 nan nan
+finals share of the a - f_cornell gap removed by e_random_control 0.0737 nan nan
+finals share of the a - g_press gap removed by e_random_control 0.0651 nan nan
+finals share of the a - f_cornell gap removed by d beyond the random control 0.0978 nan nan
+finals share of the a - g_press gap removed by d beyond the random control 0.0865 nan nan
+done 75.6 s

@@ -1,0 +1,83 @@
+{
+ "I_size": 100000,
+ "R": 100,
+ "B": 2000,
+ "sources": [
+  "tv_all20",
+  "cornell",
+  "press_pooled"
+ ],
+ "strings_scanned": 4151,
+ "set_sizes": {
+  "tv_only_all": 2606,
+  "shared_all": 1940,
+  "tv_only_top300": 300
+ },
+ "whole_tokens": {
+  "tv_all20": 120682,
+  "cornell": 178770,
+  "press_pooled": 5435611
+ },
+ "sample_tokens_mean": {
+  "tv_all20": 100031.02,
+  "cornell": 100029.33,
+  "press_pooled": 100047.81
+ },
+ "sample_share_of_pool": {
+  "tv_all20": 0.8288810261679456,
+  "cornell": 0.559542037254573,
+  "press_pooled": 0.01840599152514777
+ },
+ "formula_share_in_samples": {
+  "tv_only_all_occurrences": {
+   "formula_share_tv_all20": 0.968104062722737,
+   "formula_share_cornell": 0.035447849845569014,
+   "formula_share_press_pooled": 0.07801853171774768
+  },
+  "tv_only_all_types": {
+   "formula_share_tv_all20": 0.9532233307751344,
+   "formula_share_cornell": 0.0463161933998465,
+   "formula_share_press_pooled": 0.09038372985418267
+  },
+  "shared_all_occurrences": {
+   "formula_share_tv_all20": 0.9907264852496527,
+   "formula_share_cornell": 0.6544553403611996,
+   "formula_share_press_pooled": 0.6297286916727957
+  },
+  "shared_all_types": {
+   "formula_share_tv_all20": 0.9735309278350516,
+   "formula_share_cornell": 0.5266443298969072,
+   "formula_share_press_pooled": 0.4839896907216495
+  },
+  "tv_only_top300_occurrences": {
+   "formula_share_tv_all20": 0.9995505617977528,
+   "formula_share_cornell": 0.02674573449854349,
+   "formula_share_press_pooled": 0.07235122763212651
+  },
+  "tv_only_top300_types": {
+   "formula_share_tv_all20": 0.9993666666666666,
+   "formula_share_cornell": 0.024233333333333336,
+   "formula_share_press_pooled": 0.06970000000000001
+  }
+ },
+ "name_name_bigram": {
+  "tv_all20": {
+   "bigrams": 289,
+   "per_100k_tokens": 239.47233224507383
+  },
+  "cornell": {
+   "bigrams": 117,
+   "per_100k_tokens": 65.44722268837053
+  },
+  "press_pooled": {
+   "bigrams": 317,
+   "per_100k_tokens": 5.831911076786032
+  }
+ },
+ "seeds": {
+  "samples": "[SEED, 118, r]",
+  "bootstrap over strings": "[SEED, 119]"
+ },
+ "runtime_s": 37.7,
+ "runtime_scans_s": 20.2
+}

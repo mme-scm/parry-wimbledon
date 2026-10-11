@@ -1,0 +1,38 @@
+A calibration OTHER 0.293 0.047 0.034 0.062
+A calibration SCORE+STAT+OFFICIAL 0.228 0.377 0.341 0.414
+A calibration SHOT+JUDGE 0.461 0.541 0.504 0.579
+A inversion OTHER 0.293 0.321 0.162 0.621
+A inversion SCORE+STAT+OFFICIAL 0.228 0.261 0.129 0.354
+A inversion SHOT+JUDGE 0.461 0.386 0.139 0.521
+B calibration OTHER 0.293 0.047 0.031 0.065
+B calibration SCORE+STAT+OFFICIAL 0.228 0.391 0.352 0.431
+B calibration SHOT+JUDGE 0.461 0.525 0.481 0.567
+B inversion OTHER 0.293 0.479 0.156 0.616
+B inversion SCORE+STAT+OFFICIAL 0.228 0.26 0.153 0.375
+B inversion SHOT+JUDGE 0.461 0.247 0.079 0.536
+{
+ "references_A_commentary_only_context": {
+  "n": 65,
+  "kappa": 0.3536931818181818,
+  "ci_lo": 0.21529700045933853,
+  "ci_hi": 0.48805059825410285
+ },
+ "references_A_commentary_only_span": {
+  "n": 65,
+  "kappa": 0.3432448036951501,
+  "ci_lo": 0.1893385732671447,
+  "ci_hi": 0.4797178192098601
+ },
+ "references_B_commentary_only_context": {
+  "n": 69,
+  "kappa": 0.38767748478701824,
+  "ci_lo": 0.2496058275375421,
+  "ci_hi": 0.518626380382818
+ },
+ "references_B_commentary_only_span": {
+  "n": 69,
+  "kappa": 0.36438075742067555,
+  "ci_lo": 0.21104700253976272,
+  "ci_hi": 0.5089030357607846
+ }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Phase 2b (analysis/parry/plan.md, including addendum 1): reruns every number in analysis/parry/report.md (about 75 min on 4 idle CPUs;
+# Phase 2b (analysis/parry/plan.md, including addenda 1 and 2): reruns every number in analysis/parry/report.md (about 75 min on 4 idle CPUs;
 # p01 ~17 min, p05 ~16 min, p08 ~15 min). Needs corpus/transcripts/*.jsonl and corpus/transcripts/samples/parry_sample_300.jsonl (gitignored;
 # rebuilt by corpus/scripts/build_corpus.sh and analysis/parry/sample.py), corpus/raw/cornell_tennis/extracted/transcripts_matchinfo.json
 # (press answers) and the Sackmann slam match files.
@@ -32,6 +32,10 @@ step 8 $D/p09_h2_observed.py $D/results/log_p09.txt               # M1/M2: H2 on
 step 9 $D/calibrate_chance.py $D/results/log_calibrate_chance.txt # M3/M4: calibration at chance level; slot classifier in context mode
 step 9 $D/p10_h4_robust.py $D/results/log_p10.txt                 # M5: H4a/H4b robustness and verdict rule; H5 on all 20 streams
 step 9 $D/p11_e1_loso.py $D/results/log_p11.txt                   # minor: E1 with leave-one-stream-out inventory; E2 per-slot sums
+# ---- POST HOC, plan addendum 2 (after review/critic_parry_v2.md); p13 and p14 read p08's outputs, p14 also the coder files
+step 9 $D/p13_rate_ratio.py $D/results/log_p13.txt                # N1: rates of the TV-only strings at matched sample size (~1 min)
+step 9 $D/p14_slot_adjust.py $D/results/log_p14.txt               # N2 + minor 3: confusion-corrected slot composition; reference kappa CIs
+step 9 $D/p15_sameslam.py $D/results/log_p15.txt                  # minor 7: same-slam / same-player sensitivity (~2 min)
 step 10 $D/p07_figures.py $D/results/log_p07.txt                  # figures from results/
 step 11 $D/p12_rerun_check.py $D/results/log_p12.txt              # pre-registered outputs vs commit 476a088
 step 11 $D/make_report.py $D/results/log_report.txt               # report.md from results/

@@ -1,0 +1,309 @@
+{
+ "I_small": 30000,
+ "I_finals": 54000,
+ "R": 5,
+ "B": 10000,
+ "sources": [
+  "a_other19",
+  "b_other_slam",
+  "c_no_shared_player",
+  "d_both",
+  "e_random_control",
+  "f_cornell",
+  "g_press"
+ ],
+ "pools": {
+  "2019 WIM M F Federer-Djokovic": {
+   "streams": [
+    19,
+    16,
+    14,
+    12
+   ],
+   "tokens": [
+    110891,
+    97258,
+    73429,
+    67012
+   ]
+  },
+  "2023 WIM M F Alcaraz-Djokovic": {
+   "streams": [
+    19,
+    16,
+    12,
+    10
+   ],
+   "tokens": [
+    113466,
+    97258,
+    61113,
+    54696
+   ]
+  },
+  "2019 AO W F Osaka-Kvitova": {
+   "streams": [
+    19,
+    14,
+    18,
+    14
+   ],
+   "tokens": [
+    114155,
+    74634,
+    110879,
+    74634
+   ]
+  },
+  "2020 AO M F Djokovic-Thiem": {
+   "streams": [
+    19,
+    14,
+    14,
+    9
+   ],
+   "tokens": [
+    112311,
+    74634,
+    73429,
+    35752
+   ]
+  },
+  "2020 RG W F Swiatek-Kenin": {
+   "streams": [
+    19,
+    15,
+    16,
+    14
+   ],
+   "tokens": [
+    119085,
+    97034,
+    110325,
+    94442
+   ]
+  },
+  "2021 AO W F Osaka-Brady": {
+   "streams": [
+    19,
+    14,
+    18,
+    14
+   ],
+   "tokens": [
+    117406,
+    74634,
+    110879,
+    74634
+   ]
+  },
+  "2021 RG M F Tsitsipas-Djokovic": {
+   "streams": [
+    19,
+    15,
+    14,
+    11
+   ],
+   "tokens": [
+    112845,
+    97034,
+    73429,
+    65664
+   ]
+  },
+  "2021 USO W F Raducanu-Fernandez": {
+   "streams": [
+    19,
+    15,
+    19,
+    15
+   ],
+   "tokens": [
+    117184,
+    93120,
+    117184,
+    93120
+   ]
+  },
+  "2022 AO M F Nadal-Medvedev": {
+   "streams": [
+    19,
+    14,
+    16,
+    12
+   ],
+   "tokens": [
+    109177,
+    74634,
+    85883,
+    60596
+   ]
+  },
+  "2022 RG M QF Djokovic-Nadal": {
+   "streams": [
+    19,
+    15,
+    13,
+    10
+   ],
+   "tokens": [
+    112636,
+    97034,
+    61924,
+    54159
+   ]
+  },
+  "2022 USO M F Ruud-Alcaraz": {
+   "streams": [
+    19,
+    15,
+    17,
+    14
+   ],
+   "tokens": [
+    114451,
+    93120,
+    101150,
+    85904
+   ]
+  },
+  "2023 RG W F Swiatek-Muchova": {
+   "streams": [
+    19,
+    15,
+    16,
+    14
+   ],
+   "tokens": [
+    116882,
+    97034,
+    110325,
+    94442
+   ]
+  },
+  "2023 USO M F Djokovic-Medvedev": {
+   "streams": [
+    19,
+    15,
+    12,
+    8
+   ],
+   "tokens": [
+    114690,
+    93120,
+    52668,
+    31098
+   ]
+  },
+  "2024 AO M F Sinner-Medvedev": {
+   "streams": [
+    19,
+    14,
+    14,
+    11
+   ],
+   "tokens": [
+    111426,
+    74634,
+    74975,
+    56801
+   ]
+  },
+  "2024 RG W F Swiatek-Paolini": {
+   "streams": [
+    19,
+    15,
+    15,
+    13
+   ],
+   "tokens": [
+    118314,
+    97034,
+    106500,
+    90617
+   ]
+  },
+  "2024 WIM W F Paolini-Krejcikova": {
+   "streams": [
+    19,
+    16,
+    18,
+    15
+   ],
+   "tokens": [
+    116857,
+    97258,
+    114489,
+    94890
+   ]
+  },
+  "2024 USO M F Fritz-Sinner": {
+   "streams": [
+    19,
+    15,
+    16,
+    13
+   ],
+   "tokens": [
+    114926,
+    93120,
+    92472,
+    76751
+   ]
+  },
+  "2025 AO M SF Sinner-Shelton": {
+   "streams": [
+    19,
+    14,
+    16,
+    12
+   ],
+   "tokens": [
+    113569,
+    74634,
+    92472,
+    62793
+   ]
+  },
+  "2025 WIM W F Anisimova-Swiatek": {
+   "streams": [
+    19,
+    16,
+    16,
+    13
+   ],
+   "tokens": [
+    118090,
+    97258,
+    110325,
+    89493
+   ]
+  },
+  "2025 USO M F Sinner-Alcaraz": {
+   "streams": [
+    19,
+    15,
+    14,
+    12
+   ],
+   "tokens": [
+    114597,
+    93120,
+    79025,
+    69535
+   ]
+  }
+ },
+ "pools_order": [
+  "other 19",
+  "different slam",
+  "no shared player",
+  "both"
+ ],
+ "seeds": {
+  "all20": "[SEED, 122, target index, r]",
+  "finals": "[SEED, 123, target index, r]",
+  "bootstrap": "[SEED, 124]"
+ },
+ "runtime_s": 75.6
+}

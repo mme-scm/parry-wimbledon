@@ -1,0 +1,39 @@
+{
+ "utterances": 300,
+ "spans": {
+  "A": 1249,
+  "B": 1010
+ },
+ "confusion_check": "equal to calibration_slot_context_confusion.csv",
+ "B": 2000,
+ "seeds": {
+  "composition bootstrap": "[SEED, 120]",
+  "reference kappa bootstrap": "[SEED, 121]"
+ },
+ "reference_kappa": {
+  "references_A_commentary_only_context": {
+   "n": 65,
+   "kappa": 0.3536931818181818,
+   "ci_lo": 0.21529700045933853,
+   "ci_hi": 0.48805059825410285
+  },
+  "references_A_commentary_only_span": {
+   "n": 65,
+   "kappa": 0.3432448036951501,
+   "ci_lo": 0.1893385732671447,
+   "ci_hi": 0.4797178192098601
+  },
+  "references_B_commentary_only_context": {
+   "n": 69,
+   "kappa": 0.38767748478701824,
+   "ci_lo": 0.2496058275375421,
+   "ci_hi": 0.518626380382818
+  },
+  "references_B_commentary_only_span": {
+   "n": 69,
+   "kappa": 0.36438075742067555,
+   "ci_lo": 0.21104700253976272,
+   "ci_hi": 0.5089030357607846
+  }
+ }
+}

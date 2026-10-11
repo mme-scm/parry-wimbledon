@@ -1,0 +1,121 @@
+design,I,measure,statistic,kind,target,estimate,ci_lo,ci_hi,n_targets,targets_positive
+all20,30000,obs_n2,coverage: a_other19,coverage,,0.435698,0.422037,0.448479,20,
+all20,30000,obs_n2,coverage: b_other_slam,coverage,,0.429104,0.415475,0.441974,20,
+all20,30000,obs_n2,coverage: c_no_shared_player,coverage,,0.430322,0.417391,0.442612,20,
+all20,30000,obs_n2,coverage: d_both,coverage,,0.425194,0.411502,0.437784,20,
+all20,30000,obs_n2,coverage: e_random_control,coverage,,0.433897,0.420848,0.446245,20,
+all20,30000,obs_n2,coverage: f_cornell,coverage,,0.324077,0.308867,0.339139,20,
+all20,30000,obs_n2,coverage: g_press,coverage,,0.315567,0.309406,0.321876,20,
+all20,30000,obs_n2,a_other19 minus f_cornell,difference,,0.11162,0.105168,0.117699,20,20
+all20,30000,obs_n2,a_other19 minus g_press,difference,,0.120131,0.108481,0.13111,20,20
+all20,30000,obs_n2,d_both minus f_cornell,difference,,0.101117,0.0960833,0.106294,20,20
+all20,30000,obs_n2,d_both minus g_press,difference,,0.109627,0.0979532,0.120626,20,20
+all20,30000,obs_n2,e_random_control minus f_cornell,difference,,0.10982,0.103583,0.115674,20,20
+all20,30000,obs_n2,e_random_control minus g_press,difference,,0.11833,0.106788,0.129306,20,20
+all20,30000,obs_n2,share of the a - f_cornell gap removed by b_other_slam,share,,0.0590691,0.0358318,0.0821578,20,
+all20,30000,obs_n2,share of the a - g_press gap removed by b_other_slam,share,,0.0548845,0.0327176,0.0774033,20,
+all20,30000,obs_n2,share of the a - f_cornell gap removed by c_no_shared_player,share,,0.048159,0.0272161,0.0706166,20,
+all20,30000,obs_n2,share of the a - g_press gap removed by c_no_shared_player,share,,0.0447473,0.0266328,0.0632853,20,
+all20,30000,obs_n2,share of the a - f_cornell gap removed by d_both,share,,0.0941004,0.0719781,0.113162,20,
+all20,30000,obs_n2,share of the a - g_press gap removed by d_both,share,,0.0874341,0.0643381,0.110032,20,
+all20,30000,obs_n2,share of the a - f_cornell gap removed by e_random_control,share,,0.0161308,-0.00216187,0.0341344,20,
+all20,30000,obs_n2,share of the a - g_press gap removed by e_random_control,share,,0.0149881,-0.00211484,0.0321613,20,
+all20,30000,obs_n2,share of the a - f_cornell gap removed by d beyond the random control,share,,0.0779696,0.0546018,0.098693,20,
+all20,30000,obs_n2,share of the a - g_press gap removed by d beyond the random control,share,,0.072446,0.0489821,0.0943148,20,
+all20,30000,obs_n3,coverage: a_other19,coverage,,0.165939,0.158725,0.172935,20,
+all20,30000,obs_n3,coverage: b_other_slam,coverage,,0.160181,0.153658,0.165736,20,
+all20,30000,obs_n3,coverage: c_no_shared_player,coverage,,0.162876,0.155853,0.169639,20,
+all20,30000,obs_n3,coverage: d_both,coverage,,0.157452,0.150875,0.163691,20,
+all20,30000,obs_n3,coverage: e_random_control,coverage,,0.166049,0.158453,0.173492,20,
+all20,30000,obs_n3,coverage: f_cornell,coverage,,0.108417,0.100852,0.116155,20,
+all20,30000,obs_n3,coverage: g_press,coverage,,0.102607,0.0976604,0.107433,20,
+all20,30000,obs_n3,a_other19 minus f_cornell,difference,,0.0575229,0.0518757,0.0629151,20,20
+all20,30000,obs_n3,a_other19 minus g_press,difference,,0.0633327,0.0571732,0.0690856,20,20
+all20,30000,obs_n3,d_both minus f_cornell,difference,,0.0490354,0.0447271,0.0531658,20,20
+all20,30000,obs_n3,d_both minus g_press,difference,,0.0548452,0.0490238,0.0602469,20,20
+all20,30000,obs_n3,e_random_control minus f_cornell,difference,,0.0576327,0.0525102,0.0625906,20,20
+all20,30000,obs_n3,e_random_control minus g_press,difference,,0.0634425,0.0565946,0.069834,20,20
+all20,30000,obs_n3,share of the a - f_cornell gap removed by b_other_slam,share,,0.1001,0.0581975,0.141452,20,
+all20,30000,obs_n3,share of the a - g_press gap removed by b_other_slam,share,,0.0909171,0.0514382,0.131307,20,
+all20,30000,obs_n3,share of the a - f_cornell gap removed by c_no_shared_player,share,,0.0532478,0.0363346,0.0719512,20,
+all20,30000,obs_n3,share of the a - g_press gap removed by c_no_shared_player,share,,0.0483631,0.0334518,0.065318,20,
+all20,30000,obs_n3,share of the a - f_cornell gap removed by d_both,share,,0.14755,0.0966629,0.196967,20,
+all20,30000,obs_n3,share of the a - g_press gap removed by d_both,share,,0.134015,0.084259,0.182095,20,
+all20,30000,obs_n3,share of the a - f_cornell gap removed by e_random_control,share,,-0.00190914,-0.022331,0.0166773,20,
+all20,30000,obs_n3,share of the a - g_press gap removed by e_random_control,share,,-0.00173401,-0.0187482,0.0170055,20,
+all20,30000,obs_n3,share of the a - f_cornell gap removed by d beyond the random control,share,,0.149459,0.101209,0.199361,20,
+all20,30000,obs_n3,share of the a - g_press gap removed by d beyond the random control,share,,0.135749,0.0921688,0.179115,20,
+finals,54000,obs_n2,coverage: a_other19,coverage,,0.536647,,,2,
+finals,54000,obs_n2,coverage: b_other_slam,coverage,,0.53262,,,2,
+finals,54000,obs_n2,coverage: c_no_shared_player,coverage,,0.529643,,,2,
+finals,54000,obs_n2,coverage: d_both,coverage,,0.524211,,,2,
+finals,54000,obs_n2,coverage: e_random_control,coverage,,0.532578,,,2,
+finals,54000,obs_n2,coverage: f_cornell,coverage,,0.403349,,,2,
+finals,54000,obs_n2,coverage: g_press,coverage,,0.390866,,,2,
+finals,54000,obs_n2,a_other19 minus f_cornell,difference,,0.133297,,,2,2
+finals,54000,obs_n2,a_other19 minus g_press,difference,,0.145781,,,2,2
+finals,54000,obs_n2,d_both minus f_cornell,difference,,0.120862,,,2,2
+finals,54000,obs_n2,d_both minus g_press,difference,,0.133346,,,2,2
+finals,54000,obs_n2,e_random_control minus f_cornell,difference,,0.129228,,,2,2
+finals,54000,obs_n2,e_random_control minus g_press,difference,,0.141712,,,2,2
+finals,54000,obs_n2,share of the a - f_cornell gap removed by b_other_slam,share,,0.0302093,,,2,
+finals,54000,obs_n2,share of the a - g_press gap removed by b_other_slam,share,,0.0276224,,,2,
+finals,54000,obs_n2,share of the a - f_cornell gap removed by c_no_shared_player,share,,0.0525437,,,2,
+finals,54000,obs_n2,share of the a - g_press gap removed by c_no_shared_player,share,,0.0480442,,,2,
+finals,54000,obs_n2,share of the a - f_cornell gap removed by d_both,share,,0.0932908,,,2,
+finals,54000,obs_n2,share of the a - g_press gap removed by d_both,share,,0.085302,,,2,
+finals,54000,obs_n2,share of the a - f_cornell gap removed by e_random_control,share,,0.0305262,,,2,
+finals,54000,obs_n2,share of the a - g_press gap removed by e_random_control,share,,0.0279122,,,2,
+finals,54000,obs_n2,share of the a - f_cornell gap removed by d beyond the random control,share,,0.0627645,,,2,
+finals,54000,obs_n2,share of the a - g_press gap removed by d beyond the random control,share,,0.0573898,,,2,
+finals,54000,obs_n2,coverage: a_other19,per final,2019 WIM M F Federer-Djokovic,0.533327,,,1,
+finals,54000,obs_n2,coverage: b_other_slam,per final,2019 WIM M F Federer-Djokovic,0.527158,,,1,
+finals,54000,obs_n2,coverage: c_no_shared_player,per final,2019 WIM M F Federer-Djokovic,0.522173,,,1,
+finals,54000,obs_n2,coverage: d_both,per final,2019 WIM M F Federer-Djokovic,0.516965,,,1,
+finals,54000,obs_n2,coverage: e_random_control,per final,2019 WIM M F Federer-Djokovic,0.527627,,,1,
+finals,54000,obs_n2,coverage: f_cornell,per final,2019 WIM M F Federer-Djokovic,0.406006,,,1,
+finals,54000,obs_n2,coverage: g_press,per final,2019 WIM M F Federer-Djokovic,0.395506,,,1,
+finals,54000,obs_n2,coverage: a_other19,per final,2023 WIM M F Alcaraz-Djokovic,0.539967,,,1,
+finals,54000,obs_n2,coverage: b_other_slam,per final,2023 WIM M F Alcaraz-Djokovic,0.538082,,,1,
+finals,54000,obs_n2,coverage: c_no_shared_player,per final,2023 WIM M F Alcaraz-Djokovic,0.537112,,,1,
+finals,54000,obs_n2,coverage: d_both,per final,2023 WIM M F Alcaraz-Djokovic,0.531458,,,1,
+finals,54000,obs_n2,coverage: e_random_control,per final,2023 WIM M F Alcaraz-Djokovic,0.537528,,,1,
+finals,54000,obs_n2,coverage: f_cornell,per final,2023 WIM M F Alcaraz-Djokovic,0.400693,,,1,
+finals,54000,obs_n2,coverage: g_press,per final,2023 WIM M F Alcaraz-Djokovic,0.386225,,,1,
+finals,54000,obs_n3,coverage: a_other19,coverage,,0.238807,,,2,
+finals,54000,obs_n3,coverage: b_other_slam,coverage,,0.232497,,,2,
+finals,54000,obs_n3,coverage: c_no_shared_player,coverage,,0.229376,,,2,
+finals,54000,obs_n3,coverage: d_both,coverage,,0.223192,,,2,
+finals,54000,obs_n3,coverage: e_random_control,coverage,,0.2321,,,2,
+finals,54000,obs_n3,coverage: f_cornell,coverage,,0.147753,,,2,
+finals,54000,obs_n3,coverage: g_press,coverage,,0.135795,,,2,
+finals,54000,obs_n3,a_other19 minus f_cornell,difference,,0.0910541,,,2,2
+finals,54000,obs_n3,a_other19 minus g_press,difference,,0.103012,,,2,2
+finals,54000,obs_n3,d_both minus f_cornell,difference,,0.0754386,,,2,2
+finals,54000,obs_n3,d_both minus g_press,difference,,0.0873969,,,2,2
+finals,54000,obs_n3,e_random_control minus f_cornell,difference,,0.0843469,,,2,2
+finals,54000,obs_n3,e_random_control minus g_press,difference,,0.0963053,,,2,2
+finals,54000,obs_n3,share of the a - f_cornell gap removed by b_other_slam,share,,0.0692973,,,2,
+finals,54000,obs_n3,share of the a - g_press gap removed by b_other_slam,share,,0.0612528,,,2,
+finals,54000,obs_n3,share of the a - f_cornell gap removed by c_no_shared_player,share,,0.103581,,,2,
+finals,54000,obs_n3,share of the a - g_press gap removed by c_no_shared_player,share,,0.091557,,,2,
+finals,54000,obs_n3,share of the a - f_cornell gap removed by d_both,share,,0.171497,,,2,
+finals,54000,obs_n3,share of the a - g_press gap removed by d_both,share,,0.151589,,,2,
+finals,54000,obs_n3,share of the a - f_cornell gap removed by e_random_control,share,,0.0736611,,,2,
+finals,54000,obs_n3,share of the a - g_press gap removed by e_random_control,share,,0.0651101,,,2,
+finals,54000,obs_n3,share of the a - f_cornell gap removed by d beyond the random control,share,,0.0978362,,,2,
+finals,54000,obs_n3,share of the a - g_press gap removed by d beyond the random control,share,,0.0864787,,,2,
+finals,54000,obs_n3,coverage: a_other19,per final,2019 WIM M F Federer-Djokovic,0.233296,,,1,
+finals,54000,obs_n3,coverage: b_other_slam,per final,2019 WIM M F Federer-Djokovic,0.226718,,,1,
+finals,54000,obs_n3,coverage: c_no_shared_player,per final,2019 WIM M F Federer-Djokovic,0.220059,,,1,
+finals,54000,obs_n3,coverage: d_both,per final,2019 WIM M F Federer-Djokovic,0.216505,,,1,
+finals,54000,obs_n3,coverage: e_random_control,per final,2019 WIM M F Federer-Djokovic,0.228169,,,1,
+finals,54000,obs_n3,coverage: f_cornell,per final,2019 WIM M F Federer-Djokovic,0.147973,,,1,
+finals,54000,obs_n3,coverage: g_press,per final,2019 WIM M F Federer-Djokovic,0.138413,,,1,
+finals,54000,obs_n3,coverage: a_other19,per final,2023 WIM M F Alcaraz-Djokovic,0.244318,,,1,
+finals,54000,obs_n3,coverage: b_other_slam,per final,2023 WIM M F Alcaraz-Djokovic,0.238276,,,1,
+finals,54000,obs_n3,coverage: c_no_shared_player,per final,2023 WIM M F Alcaraz-Djokovic,0.238692,,,1,
+finals,54000,obs_n3,coverage: d_both,per final,2023 WIM M F Alcaraz-Djokovic,0.229878,,,1,
+finals,54000,obs_n3,coverage: e_random_control,per final,2023 WIM M F Alcaraz-Djokovic,0.236031,,,1,
+finals,54000,obs_n3,coverage: f_cornell,per final,2023 WIM M F Alcaraz-Djokovic,0.147533,,,1,
+finals,54000,obs_n3,coverage: g_press,per final,2023 WIM M F Alcaraz-Djokovic,0.133176,,,1,
