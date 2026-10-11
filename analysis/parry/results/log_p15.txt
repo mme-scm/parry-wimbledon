@@ -44,4 +44,4 @@ finals share of the a - f_cornell gap removed by e_random_control 0.0737 nan nan
 finals share of the a - g_press gap removed by e_random_control 0.0651 nan nan
 finals share of the a - f_cornell gap removed by d beyond the random control 0.0978 nan nan
 finals share of the a - g_press gap removed by d beyond the random control 0.0865 nan nan
-done 75.6 s
+done 81.2 s

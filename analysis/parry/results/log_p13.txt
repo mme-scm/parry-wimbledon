@@ -1,4 +1,4 @@
-strings 4151 loaded 3.6 s
+strings 4151 loaded 3.9 s
 tv_only_all matched cornell 5.73 4.14 8.54 0.699 0.164
 tv_only_all matched press_pooled 16.29 6.23 42.85 0.865 0.164
 tv_only_all matched max 8.36 4.44 26.01 0.777 0.164
@@ -17,4 +17,4 @@ tv_only_top300 matched max 15.35 8.67 38.03 0.825 0.161
 tv_only_top300 whole cornell 10.37 8.89 13.33 0.729 0.132
 tv_only_top300 whole press_pooled 25.74 11.26 73.7 0.9 0.132
 tv_only_top300 whole max 14.81 8.89 45.04 0.825 0.132
-done 37.7 s
+done 38.3 s

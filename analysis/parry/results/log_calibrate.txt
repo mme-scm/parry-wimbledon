@@ -1,0 +1,42 @@
+{
+ "agreement": {
+  "primary_HIGH_MEDIUM": {
+   "token_kappa": 0.7740985815419683,
+   "token_kappa_ci": [
+    0.7536555402877905,
+    0.795789160871341
+   ],
+   "positive_token_share_A": 0.2563017246825447,
+   "positive_token_share_B": 0.218333438625308,
+   "span_F1_exact": 0.7101063829787234,
+   "span_F1_exact_ci": [
+    0.6854883033233523,
+    0.7355727292506987
+   ],
+   "span_F1_overlap": 0.8439716312056738,
+   "span_F1_overlap_ci": [
+    0.827064054366686,
+    0.8610217207036144
+   ],
+   "spans_A": 1248,
+   "spans_B": 1008,
+   "matched_spans": 952,
+   "slot_agreement": 0.8781512605042017,
+   "slot_kappa": 0.846674182638106,
+   "type_agreement": 0.9758403361344538,
+   "type_kappa": 0.9468517889217922
+  }
+ },
+ "classifier": {
+  "A": {
+   "spans": 1249,
+   "agreement": 0.5788630904723779,
+   "kappa": 0.48974002895471014
+  },
+  "B": {
+   "spans": 1010,
+   "agreement": 0.5732673267326732,
+   "kappa": 0.48370254928611917
+  }
+ }
+}

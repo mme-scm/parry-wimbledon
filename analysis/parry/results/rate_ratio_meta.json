@@ -78,6 +78,6 @@
   "samples": "[SEED, 118, r]",
   "bootstrap over strings": "[SEED, 119]"
  },
- "runtime_s": 37.7,
- "runtime_scans_s": 20.2
+ "runtime_s": 38.3,
+ "runtime_scans_s": 20.9
 }
