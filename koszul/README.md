@@ -95,6 +95,42 @@ The same term explains a caveat about the definition. Replace (η₁, η₂) by 
 
 The prime 5 is not covered by this argument, because √5 is not a unit there. That H has no 5-torsion is shown only by the computation: the ungraded F₅ dimensions equal the rational ranks.
 
+## What a good 3-cycle looks like
+
+This holds over Z[φ]; `eigencycles.py` checks every claim in this section.
+
+**The degenerate member of the pencil.** In each 4-block, the form η₂ − φ̄η₁ is degenerate. Its block-b part factors as
+
+  (η₂ − φ̄η₁)|_b = ℓx_b · ℓy_b,  where ℓx_b = e_{4b−3} + φe_{4b−2} and ℓy_b = e_{4b−1} − φ̄e_{4b}.
+
+**The cycle.** Pick one of ℓx_b, ℓy_b in each block, and put c = ℓ₁ℓ₂ℓ₃ and z = (c, φ̄c). This is a cycle, because a₁η₂ − a₂η₁ = c(η₂ − φ̄η₁) = 0. More generally, if c(η₂ − μη₁) = 0, then
+
+  f₂(c, μc) = (μ² − μ)·c·γ₂(η₁)  exactly in Λ.
+
+For μ = φ̄ the coefficient μ² − μ is 1, so f₂(z) = c·γ₂(η₁). In the split coordinates c is a coordinate-Lagrangian volume in V_φ, and f₂(z) = [c] ⊗ [γ₂ω̄] ≠ 0.
+
+**Which blocks.** The 8 choices of (ℓ₁, ℓ₂, ℓ₃) are the 8 blocks δ ∈ {±1}³. Each block contributes z and its Galois conjugate.
+
+**Integral basis.** Write ℓx₁ℓx₂ℓx₃ = c₀ + φc₁. Then (c₀, c₀ − c₁) and (c₁, −c₀) form a Z-basis of H₁ in block (+1, +1, +1). These are the cycles listed in the report, up to a unimodular change of basis.
+
+**Bad cycles.** c = ℓx₁(p₂ − p₃) with p_b = ℓx_bℓy_b gives a cycle with f₂ = 0, because c ≡ ℓx₁·ω mod 2. Cycles of this kind make up the 6 blocks δ = ±ε_b.
+
+**A formula over Z.** On all of H₁³, f₂[a] = [a₁γ₂(η₁)].
+
+## Which integral lift
+
+Over GF(2) the signs in η₂ are invisible. The forms as written, with all coefficients +1, give B = [[0,1],[1,1]] in every block (t² − t − 1, Z[φ]).
+
+- **ζ₃ lift**, `lifts/zeta3.json`. Take η₂ = Σ_b (e_{4b−3}e_{4b−1} − e_{4b−2}e_{4b−1} − e_{4b−2}e_{4b}), so every block has t² + t + 1. This gives the same H₀ and H₁ as abelian groups, and the same f₂: image (Z/2)¹⁶ in degree 3, and the certificate verifies. The reason is that the argument above only uses Z₂[φ] = Z₂[ζ₃] = W(F₄), a unit difference of eigenvalues, and μ² − μ odd.
+- **Mixed lift**, `lifts/mixed_fib_zeta3.json`. Take block 1 Fibonacci and blocks 2–3 ζ₃. The GF(2) forms are identical, but over Z the answer is different:
+  - H₁³ = 0;
+  - Z/4 summands appear;
+  - **f₂ = 0 over Z in every degree**, while f₂ over F₂ still has rank 16. The F₂ classes are then all Tor classes.
+
+  The cause is that φ and ζ₃ agree mod 2 but not mod 4. No μ is an eigenvalue of every block, so the eigen-cycles (c, μc) above do not exist.
+
+So "the same forms over Z" needs a choice of signs. The literal forms give f₂ ≠ 0. By the argument above, so does any block-diagonal lift in which η₁⁻¹η₂ has the same characteristic polynomial in all three blocks; this was computed for t² − t − 1 and t² + t + 1. A lift whose blocks have different characteristic polynomials can lose it.
+
 ## Method
 
 1. **Grading.** `koszul.weight_lattice` computes a Z-basis of the characters χ: Zⁿ → Z that are constant on the monomials of η₁ and η₂. Every matrix in the problem is block diagonal for the induced weight grading. `Pair.mult` raises an error if a product leaves its block. For these forms the lattice has rank 4 (over Q it is spanned by the degree and δ₁, δ₂, δ₃), and the largest block of Λᵏ has 88 monomials.

@@ -116,6 +116,31 @@ class TestMainAndSplitPair(unittest.TestCase):
         self.assertEqual(sorted(q for s in img(main, 3) for q in s[1]), [2] * 16)
 
 
+class TestLiftsAndEigencycles(unittest.TestCase):
+    def comp(self, name):
+        with open(os.path.join(ROOT, "lifts", name)) as fh:
+            cfg = json.load(fh)
+        return Computation(Pair(12, parse(cfg["eta1"]), parse(cfg["eta2"])))
+
+    def image(self, C, k):
+        return sorted(q for *_, s in f2_image(C, k) for q in s[1]) + [0] * sum(s[0] for *_, s in f2_image(C, k))
+
+    def test_zeta3_lift_same_answer(self):
+        C = self.comp("zeta3.json")
+        self.assertEqual([k for k in range(9) if self.image(C, k)], [3])
+        self.assertEqual(self.image(C, 3), [2] * 16)
+
+    def test_mixed_lift_f2_zero_over_Z(self):
+        C = self.comp("mixed_fib_zeta3.json")
+        self.assertEqual(C.summary(C.H1[3]), (0, []))
+        self.assertTrue(any(q == 4 for q in C.summary(C.H0[5])[1]))
+        self.assertEqual([k for k in range(9) if self.image(C, k)], [])
+
+    def test_eigencycles(self):
+        res = subprocess.run([sys.executable, os.path.join(ROOT, "eigencycles.py")], capture_output=True, text=True, cwd=ROOT)
+        self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+
+
 class TestSymmetry(unittest.TestCase):
     def test_block_swap_preserves_forms(self):
         # e1 -> e4, e2 -> e3, e3 -> -e2, e4 -> -e1 (and the same on the other 4-blocks) fixes η_1 and η_2
