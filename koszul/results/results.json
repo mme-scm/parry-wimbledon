@@ -1,0 +1,1547 @@
+{
+ "n": 12,
+ "eta1": "e1 e4 + e2 e3 + e5 e8 + e6 e7 + e9 e12 + e10 e11",
+ "eta2": "e1 e3 + e2 e3 + e2 e4 + e5 e7 + e6 e7 + e6 e8 + e9 e11 + e10 e11 + e10 e12",
+ "gamma2_eta1": "e1 e2 e3 e4 + e1 e4 e5 e8 + e1 e4 e6 e7 + e1 e4 e9 e12 + e1 e4 e10 e11 + e2 e3 e5 e8 + e2 e3 e6 e7 + e2 e3 e9 e12 + e2 e3 e10 e11 + e5 e6 e7 e8 + e5 e8 e9 e12 + e5 e8 e10 e11 + e6 e7 e9 e12 + e6 e7 e10 e11 + e9 e10 e11 e12",
+ "gamma2_eta2": "- e1 e2 e3 e4 + e1 e3 e5 e7 + e1 e3 e6 e7 + e1 e3 e6 e8 + e1 e3 e9 e11 + e1 e3 e10 e11 + e1 e3 e10 e12 + e2 e3 e5 e7 + e2 e3 e6 e7 + e2 e3 e6 e8 + e2 e3 e9 e11 + e2 e3 e10 e11 + e2 e3 e10 e12 + e2 e4 e5 e7 + e2 e4 e6 e7 + e2 e4 e6 e8 + e2 e4 e9 e11 + e2 e4 e10 e11 + e2 e4 e10 e12 - e5 e6 e7 e8 + e5 e7 e9 e11 + e5 e7 e10 e11 + e5 e7 e10 e12 + e6 e7 e9 e11 + e6 e7 e10 e11 + e6 e7 e10 e12 + e6 e8 e9 e11 + e6 e8 e10 e11 + e6 e8 e10 e12 - e9 e10 e11 e12",
+ "weight_lattice": [
+  [
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1
+  ]
+ ],
+ "weight_of_eta": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "H0": {
+  "0": {
+   "free": 1,
+   "torsion": [],
+   "group": "Z",
+   "primary": {}
+  },
+  "1": {
+   "free": 12,
+   "torsion": [],
+   "group": "Z^12",
+   "primary": {}
+  },
+  "2": {
+   "free": 64,
+   "torsion": [],
+   "group": "Z^64",
+   "primary": {}
+  },
+  "3": {
+   "free": 196,
+   "torsion": [],
+   "group": "Z^196",
+   "primary": {}
+  },
+  "4": {
+   "free": 364,
+   "torsion": [
+    2,
+    2
+   ],
+   "group": "Z^364 ⊕ (Z/2)^2",
+   "primary": {
+    "2": 2
+   }
+  },
+  "5": {
+   "free": 392,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "Z^392 ⊕ (Z/2)^12",
+   "primary": {
+    "2": 12
+   }
+  },
+  "6": {
+   "free": 196,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "Z^196 ⊕ (Z/2)^28",
+   "primary": {
+    "2": 28
+   }
+  },
+  "7": {
+   "free": 0,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "(Z/2)^28",
+   "primary": {
+    "2": 28
+   }
+  },
+  "8": {
+   "free": 0,
+   "torsion": [
+    2
+   ],
+   "group": "(Z/2)",
+   "primary": {
+    "2": 1
+   }
+  },
+  "9": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "10": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "11": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "12": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  }
+ },
+ "H1": {
+  "0": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "1": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "2": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "3": {
+   "free": 28,
+   "torsion": [],
+   "group": "Z^28",
+   "primary": {}
+  },
+  "4": {
+   "free": 196,
+   "torsion": [],
+   "group": "Z^196",
+   "primary": {}
+  },
+  "5": {
+   "free": 572,
+   "torsion": [],
+   "group": "Z^572",
+   "primary": {}
+  },
+  "6": {
+   "free": 858,
+   "torsion": [
+    2
+   ],
+   "group": "Z^858 ⊕ (Z/2)",
+   "primary": {
+    "2": 1
+   }
+  },
+  "7": {
+   "free": 572,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "Z^572 ⊕ (Z/2)^28",
+   "primary": {
+    "2": 28
+   }
+  },
+  "8": {
+   "free": 196,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "Z^196 ⊕ (Z/2)^28",
+   "primary": {
+    "2": 28
+   }
+  },
+  "9": {
+   "free": 28,
+   "torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "group": "Z^28 ⊕ (Z/2)^12",
+   "primary": {
+    "2": 12
+   }
+  },
+  "10": {
+   "free": 0,
+   "torsion": [
+    2,
+    2
+   ],
+   "group": "(Z/2)^2",
+   "primary": {
+    "2": 2
+   }
+  },
+  "11": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  },
+  "12": {
+   "free": 0,
+   "torsion": [],
+   "group": "0",
+   "primary": {}
+  }
+ },
+ "f2": {
+  "0": {
+   "target_degree": 4,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "1": {
+   "target_degree": 5,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "2": {
+   "target_degree": 6,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "3": {
+   "target_degree": 7,
+   "image": "(Z/2)^16",
+   "image_free": 0,
+   "image_torsion": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  "4": {
+   "target_degree": 8,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "5": {
+   "target_degree": 9,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "6": {
+   "target_degree": 10,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "7": {
+   "target_degree": 11,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "8": {
+   "target_degree": 12,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "9": {
+   "target_degree": 13,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "10": {
+   "target_degree": 14,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "11": {
+   "target_degree": 15,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  },
+  "12": {
+   "target_degree": 16,
+   "image": "0",
+   "image_free": 0,
+   "image_torsion": []
+  }
+ },
+ "f2_blocks": [
+  {
+   "k": 3,
+   "block": "(+1, +1, +1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e5 e6 e7 e9",
+    "e1 e2 e3 e5 e6 e7 e10"
+   ],
+   "cycles": [
+    {
+     "a1": "- e1 e5 e9 - e1 e6 e10 - e2 e5 e10 - e2 e6 e9 - e2 e6 e10",
+     "a2": "- e1 e5 e9 + e1 e5 e10 + e1 e6 e9 + e2 e5 e9 + e2 e6 e10",
+     "f2": "- e1 e2 e3 e5 e6 e7 e9 + e1 e2 e3 e5 e6 e8 e10 - e1 e2 e3 e5 e9 e10 e11 + e1 e2 e3 e6 e9 e10 e12 + e1 e2 e4 e5 e6 e7 e10 - e1 e2 e4 e5 e6 e8 e9 - e1 e2 e4 e5 e6 e8 e10 - e1 e2 e4 e5 e9 e10 e12 + e1 e2 e4 e6 e9 e10 e11 - e1 e2 e4 e6 e9 e10 e12 - e1 e5 e6 e7 e9 e10 e11 - e1 e5 e6 e8 e9 e10 e12 + e2 e5 e6 e7 e9 e10 e12 + e2 e5 e6 e8 e9 e10 e11 - e2 e5 e6 e8 e9 e10 e12",
+     "f2_class": "[e1 e2 e3 e5 e6 e7 e9] + [e1 e2 e3 e5 e6 e7 e10]"
+    },
+    {
+     "a1": "e1 e5 e9 - e1 e5 e10 - e1 e6 e9 - e2 e5 e9 - e2 e6 e10",
+     "a2": "2 e1 e5 e9 - e1 e5 e10 - e1 e6 e9 + e1 e6 e10 - e2 e5 e9 + e2 e5 e10 + e2 e6 e9",
+     "f2": "e1 e2 e3 e5 e6 e7 e9 - e1 e2 e3 e5 e6 e7 e10 + e1 e2 e3 e5 e6 e8 e9 + e1 e2 e3 e5 e9 e10 e11 + e1 e2 e3 e5 e9 e10 e12 - e1 e2 e3 e6 e9 e10 e11 + e1 e2 e4 e5 e6 e7 e9 - e1 e2 e4 e5 e6 e8 e10 + e1 e2 e4 e5 e9 e10 e11 - e1 e2 e4 e6 e9 e10 e12 + e1 e5 e6 e7 e9 e10 e11 + e1 e5 e6 e7 e9 e10 e12 + e1 e5 e6 e8 e9 e10 e11 - e2 e5 e6 e7 e9 e10 e11 - e2 e5 e6 e8 e9 e10 e12",
+     "f2_class": "[e1 e2 e3 e5 e6 e7 e10]"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e5 e6 e7 e9 + e1 e2 e3 e5 e6 e8 e10 + e1 e2 e3 e5 e9 e10 e11 + e1 e2 e3 e6 e9 e10 e12 + e1 e2 e4 e5 e6 e7 e10 + e1 e2 e4 e5 e6 e8 e9 + e1 e2 e4 e5 e6 e8 e10 + e1 e2 e4 e5 e9 e10 e12 + e1 e2 e4 e6 e9 e10 e11 + e1 e2 e4 e6 e9 e10 e12 + e1 e5 e6 e7 e9 e10 e11 + e1 e5 e6 e8 e9 e10 e12 + e2 e5 e6 e7 e9 e10 e12 + e2 e5 e6 e8 e9 e10 e11 + e2 e5 e6 e8 e9 e10 e12",
+    "e1 e2 e3 e5 e6 e7 e10 + e1 e2 e3 e5 e6 e8 e9 + e1 e2 e3 e5 e6 e8 e10 + e1 e2 e3 e5 e9 e10 e12 + e1 e2 e3 e6 e9 e10 e11 + e1 e2 e3 e6 e9 e10 e12 + e1 e2 e4 e5 e6 e7 e9 + e1 e2 e4 e5 e6 e7 e10 + e1 e2 e4 e5 e6 e8 e9 + e1 e2 e4 e5 e9 e10 e11 + e1 e2 e4 e5 e9 e10 e12 + e1 e2 e4 e6 e9 e10 e11 + e1 e5 e6 e7 e9 e10 e12 + e1 e5 e6 e8 e9 e10 e11 + e1 e5 e6 e8 e9 e10 e12 + e2 e5 e6 e7 e9 e10 e11 + e2 e5 e6 e7 e9 e10 e12 + e2 e5 e6 e8 e9 e10 e11"
+   ],
+   "matrix_mod2": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(+1, +1, -1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e5 e6 e7 e11",
+    "e1 e2 e3 e5 e6 e7 e12"
+   ],
+   "cycles": [
+    {
+     "a1": "- e1 e5 e12 - e1 e6 e11 - e2 e5 e11 - e2 e6 e11 - e2 e6 e12",
+     "a2": "e1 e5 e11 - e1 e5 e12 + e1 e6 e12 + e2 e5 e12 + e2 e6 e11",
+     "f2": "- e1 e2 e3 e5 e6 e7 e12 + e1 e2 e3 e5 e6 e8 e11 - e1 e2 e3 e5 e10 e11 e12 + e1 e2 e3 e6 e9 e11 e12 + e1 e2 e4 e5 e6 e7 e11 - e1 e2 e4 e5 e6 e8 e11 - e1 e2 e4 e5 e6 e8 e12 - e1 e2 e4 e5 e9 e11 e12 - e1 e2 e4 e6 e9 e11 e12 + e1 e2 e4 e6 e10 e11 e12 - e1 e5 e6 e7 e10 e11 e12 - e1 e5 e6 e8 e9 e11 e12 + e2 e5 e6 e7 e9 e11 e12 - e2 e5 e6 e8 e9 e11 e12 + e2 e5 e6 e8 e10 e11 e12",
+     "f2_class": "[e1 e2 e3 e5 e6 e7 e11] + [e1 e2 e3 e5 e6 e7 e12]"
+    },
+    {
+     "a1": "- e1 e5 e11 + e1 e5 e12 - e1 e6 e12 - e2 e5 e12 - e2 e6 e11",
+     "a2": "- e1 e5 e11 + 2 e1 e5 e12 + e1 e6 e11 - e1 e6 e12 + e2 e5 e11 - e2 e5 e12 + e2 e6 e12",
+     "f2": "- e1 e2 e3 e5 e6 e7 e11 + e1 e2 e3 e5 e6 e7 e12 + e1 e2 e3 e5 e6 e8 e12 + e1 e2 e3 e5 e9 e11 e12 + e1 e2 e3 e5 e10 e11 e12 - e1 e2 e3 e6 e10 e11 e12 + e1 e2 e4 e5 e6 e7 e12 - e1 e2 e4 e5 e6 e8 e11 + e1 e2 e4 e5 e10 e11 e12 - e1 e2 e4 e6 e9 e11 e12 + e1 e5 e6 e7 e9 e11 e12 + e1 e5 e6 e7 e10 e11 e12 + e1 e5 e6 e8 e10 e11 e12 - e2 e5 e6 e7 e10 e11 e12 - e2 e5 e6 e8 e9 e11 e12",
+     "f2_class": "[e1 e2 e3 e5 e6 e7 e11]"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e5 e6 e7 e11 + e1 e2 e3 e5 e6 e8 e11 + e1 e2 e3 e5 e6 e8 e12 + e1 e2 e3 e5 e9 e11 e12 + e1 e2 e3 e6 e9 e11 e12 + e1 e2 e3 e6 e10 e11 e12 + e1 e2 e4 e5 e6 e7 e11 + e1 e2 e4 e5 e6 e7 e12 + e1 e2 e4 e5 e6 e8 e12 + e1 e2 e4 e5 e9 e11 e12 + e1 e2 e4 e5 e10 e11 e12 + e1 e2 e4 e6 e10 e11 e12 + e1 e5 e6 e7 e9 e11 e12 + e1 e5 e6 e8 e9 e11 e12 + e1 e5 e6 e8 e10 e11 e12 + e2 e5 e6 e7 e9 e11 e12 + e2 e5 e6 e7 e10 e11 e12 + e2 e5 e6 e8 e10 e11 e12",
+    "e1 e2 e3 e5 e6 e7 e12 + e1 e2 e3 e5 e6 e8 e11 + e1 e2 e3 e5 e10 e11 e12 + e1 e2 e3 e6 e9 e11 e12 + e1 e2 e4 e5 e6 e7 e11 + e1 e2 e4 e5 e6 e8 e11 + e1 e2 e4 e5 e6 e8 e12 + e1 e2 e4 e5 e9 e11 e12 + e1 e2 e4 e6 e9 e11 e12 + e1 e2 e4 e6 e10 e11 e12 + e1 e5 e6 e7 e10 e11 e12 + e1 e5 e6 e8 e9 e11 e12 + e2 e5 e6 e7 e9 e11 e12 + e2 e5 e6 e8 e9 e11 e12 + e2 e5 e6 e8 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(+1, -1, +1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e5 e7 e8 e9",
+    "e1 e2 e3 e5 e7 e8 e10"
+   ],
+   "cycles": [
+    {
+     "a1": "- e1 e7 e10 - e1 e8 e9 - e2 e7 e9 - e2 e7 e10 - e2 e8 e10",
+     "a2": "e1 e7 e9 - e1 e8 e9 + e1 e8 e10 + e2 e7 e10 + e2 e8 e9",
+     "f2": "e1 e2 e3 e5 e7 e8 e10 - e1 e2 e3 e6 e7 e8 e9 + e1 e2 e3 e7 e9 e10 e12 - e1 e2 e3 e8 e9 e10 e11 - e1 e2 e4 e5 e7 e8 e9 - e1 e2 e4 e5 e7 e8 e10 + e1 e2 e4 e6 e7 e8 e10 + e1 e2 e4 e7 e9 e10 e11 - e1 e2 e4 e7 e9 e10 e12 - e1 e2 e4 e8 e9 e10 e12 - e1 e5 e7 e8 e9 e10 e12 - e1 e6 e7 e8 e9 e10 e11 + e2 e5 e7 e8 e9 e10 e11 - e2 e5 e7 e8 e9 e10 e12 + e2 e6 e7 e8 e9 e10 e12",
+     "f2_class": "[e1 e2 e3 e5 e7 e8 e10]"
+    },
+    {
+     "a1": "- e1 e7 e9 - e1 e7 e10 - e1 e8 e10 - e2 e7 e9 - 2 e2 e7 e10 - e2 e8 e9 - e2 e8 e10",
+     "a2": "e1 e7 e10 + e1 e8 e9 + e2 e7 e9 + e2 e7 e10 + e2 e8 e10",
+     "f2": "e1 e2 e3 e5 e7 e8 e9 + e1 e2 e3 e5 e7 e8 e10 - e1 e2 e3 e6 e7 e8 e10 - e1 e2 e3 e7 e9 e10 e11 + e1 e2 e3 e7 e9 e10 e12 + e1 e2 e3 e8 e9 e10 e12 - e1 e2 e4 e5 e7 e8 e9 - 2 e1 e2 e4 e5 e7 e8 e10 + e1 e2 e4 e6 e7 e8 e9 + e1 e2 e4 e6 e7 e8 e10 + e1 e2 e4 e7 e9 e10 e11 - 2 e1 e2 e4 e7 e9 e10 e12 + e1 e2 e4 e8 e9 e10 e11 - e1 e2 e4 e8 e9 e10 e12 + e1 e5 e7 e8 e9 e10 e11 - e1 e5 e7 e8 e9 e10 e12 + e1 e6 e7 e8 e9 e10 e12 + e2 e5 e7 e8 e9 e10 e11 - 2 e2 e5 e7 e8 e9 e10 e12 - e2 e6 e7 e8 e9 e10 e11 + e2 e6 e7 e8 e9 e10 e12",
+     "f2_class": "[e1 e2 e3 e5 e7 e8 e9] + [e1 e2 e3 e5 e7 e8 e10]"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e5 e7 e8 e9 + e1 e2 e3 e6 e7 e8 e9 + e1 e2 e3 e6 e7 e8 e10 + e1 e2 e3 e7 e9 e10 e11 + e1 e2 e3 e8 e9 e10 e11 + e1 e2 e3 e8 e9 e10 e12 + e1 e2 e4 e5 e7 e8 e10 + e1 e2 e4 e6 e7 e8 e9 + e1 e2 e4 e7 e9 e10 e12 + e1 e2 e4 e8 e9 e10 e11 + e1 e5 e7 e8 e9 e10 e11 + e1 e6 e7 e8 e9 e10 e11 + e1 e6 e7 e8 e9 e10 e12 + e2 e5 e7 e8 e9 e10 e12 + e2 e6 e7 e8 e9 e10 e11",
+    "e1 e2 e3 e5 e7 e8 e10 + e1 e2 e3 e6 e7 e8 e9 + e1 e2 e3 e7 e9 e10 e12 + e1 e2 e3 e8 e9 e10 e11 + e1 e2 e4 e5 e7 e8 e9 + e1 e2 e4 e5 e7 e8 e10 + e1 e2 e4 e6 e7 e8 e10 + e1 e2 e4 e7 e9 e10 e11 + e1 e2 e4 e7 e9 e10 e12 + e1 e2 e4 e8 e9 e10 e12 + e1 e5 e7 e8 e9 e10 e12 + e1 e6 e7 e8 e9 e10 e11 + e2 e5 e7 e8 e9 e10 e11 + e2 e5 e7 e8 e9 e10 e12 + e2 e6 e7 e8 e9 e10 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(+1, -1, -1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e5 e7 e8 e11",
+    "e1 e2 e3 e5 e7 e8 e12"
+   ],
+   "cycles": [
+    {
+     "a1": "- e1 e7 e11 - e1 e8 e12 - e2 e7 e11 - e2 e7 e12 - e2 e8 e11",
+     "a2": "e1 e7 e12 + e1 e8 e11 - e1 e8 e12 + e2 e7 e11 + e2 e8 e12",
+     "f2": "e1 e2 e3 e5 e7 e8 e11 - e1 e2 e3 e6 e7 e8 e12 + e1 e2 e3 e7 e9 e11 e12 - e1 e2 e3 e8 e10 e11 e12 - e1 e2 e4 e5 e7 e8 e11 - e1 e2 e4 e5 e7 e8 e12 + e1 e2 e4 e6 e7 e8 e11 - e1 e2 e4 e7 e9 e11 e12 + e1 e2 e4 e7 e10 e11 e12 - e1 e2 e4 e8 e9 e11 e12 - e1 e5 e7 e8 e9 e11 e12 - e1 e6 e7 e8 e10 e11 e12 - e2 e5 e7 e8 e9 e11 e12 + e2 e5 e7 e8 e10 e11 e12 + e2 e6 e7 e8 e9 e11 e12",
+     "f2_class": "[e1 e2 e3 e5 e7 e8 e11]"
+    },
+    {
+     "a1": "- e1 e7 e11 - e1 e7 e12 - e1 e8 e11 - 2 e2 e7 e11 - e2 e7 e12 - e2 e8 e11 - e2 e8 e12",
+     "a2": "e1 e7 e11 + e1 e8 e12 + e2 e7 e11 + e2 e7 e12 + e2 e8 e11",
+     "f2": "e1 e2 e3 e5 e7 e8 e11 + e1 e2 e3 e5 e7 e8 e12 - e1 e2 e3 e6 e7 e8 e11 + e1 e2 e3 e7 e9 e11 e12 - e1 e2 e3 e7 e10 e11 e12 + e1 e2 e3 e8 e9 e11 e12 - 2 e1 e2 e4 e5 e7 e8 e11 - e1 e2 e4 e5 e7 e8 e12 + e1 e2 e4 e6 e7 e8 e11 + e1 e2 e4 e6 e7 e8 e12 - 2 e1 e2 e4 e7 e9 e11 e12 + e1 e2 e4 e7 e10 e11 e12 - e1 e2 e4 e8 e9 e11 e12 + e1 e2 e4 e8 e10 e11 e12 - e1 e5 e7 e8 e9 e11 e12 + e1 e5 e7 e8 e10 e11 e12 + e1 e6 e7 e8 e9 e11 e12 - 2 e2 e5 e7 e8 e9 e11 e12 + e2 e5 e7 e8 e10 e11 e12 + e2 e6 e7 e8 e9 e11 e12 - e2 e6 e7 e8 e10 e11 e12",
+     "f2_class": "[e1 e2 e3 e5 e7 e8 e11] + [e1 e2 e3 e5 e7 e8 e12]"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e5 e7 e8 e11 + e1 e2 e3 e6 e7 e8 e12 + e1 e2 e3 e7 e9 e11 e12 + e1 e2 e3 e8 e10 e11 e12 + e1 e2 e4 e5 e7 e8 e11 + e1 e2 e4 e5 e7 e8 e12 + e1 e2 e4 e6 e7 e8 e11 + e1 e2 e4 e7 e9 e11 e12 + e1 e2 e4 e7 e10 e11 e12 + e1 e2 e4 e8 e9 e11 e12 + e1 e5 e7 e8 e9 e11 e12 + e1 e6 e7 e8 e10 e11 e12 + e2 e5 e7 e8 e9 e11 e12 + e2 e5 e7 e8 e10 e11 e12 + e2 e6 e7 e8 e9 e11 e12",
+    "e1 e2 e3 e5 e7 e8 e12 + e1 e2 e3 e6 e7 e8 e11 + e1 e2 e3 e6 e7 e8 e12 + e1 e2 e3 e7 e10 e11 e12 + e1 e2 e3 e8 e9 e11 e12 + e1 e2 e3 e8 e10 e11 e12 + e1 e2 e4 e5 e7 e8 e11 + e1 e2 e4 e6 e7 e8 e12 + e1 e2 e4 e7 e9 e11 e12 + e1 e2 e4 e8 e10 e11 e12 + e1 e5 e7 e8 e10 e11 e12 + e1 e6 e7 e8 e9 e11 e12 + e1 e6 e7 e8 e10 e11 e12 + e2 e5 e7 e8 e9 e11 e12 + e2 e6 e7 e8 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(-1, +1, +1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e3 e4 e5 e6 e7 e9",
+    "e1 e3 e4 e5 e6 e7 e10"
+   ],
+   "cycles": [
+    {
+     "a1": "- e3 e5 e10 - e3 e6 e9 - e3 e6 e10 - e4 e5 e9 - e4 e6 e10",
+     "a2": "e3 e5 e9 + e3 e6 e10 - e4 e5 e9 + e4 e5 e10 + e4 e6 e9",
+     "f2": "e1 e3 e4 e5 e6 e7 e10 - e1 e3 e4 e5 e6 e8 e9 - e1 e3 e4 e5 e6 e8 e10 - e1 e3 e4 e5 e9 e10 e12 + e1 e3 e4 e6 e9 e10 e11 - e1 e3 e4 e6 e9 e10 e12 - e2 e3 e4 e5 e6 e7 e9 + e2 e3 e4 e5 e6 e8 e10 - e2 e3 e4 e5 e9 e10 e11 + e2 e3 e4 e6 e9 e10 e12 + e3 e5 e6 e7 e9 e10 e12 + e3 e5 e6 e8 e9 e10 e11 - e3 e5 e6 e8 e9 e10 e12 - e4 e5 e6 e7 e9 e10 e11 - e4 e5 e6 e8 e9 e10 e12",
+     "f2_class": "[e1 e3 e4 e5 e6 e7 e10]"
+    },
+    {
+     "a1": "- e3 e5 e9 - e3 e5 e10 - e3 e6 e9 - 2 e3 e6 e10 - e4 e5 e10 - e4 e6 e9 - e4 e6 e10",
+     "a2": "e3 e5 e10 + e3 e6 e9 + e3 e6 e10 + e4 e5 e9 + e4 e6 e10",
+     "f2": "e1 e3 e4 e5 e6 e7 e9 + e1 e3 e4 e5 e6 e7 e10 - e1 e3 e4 e5 e6 e8 e9 - 2 e1 e3 e4 e5 e6 e8 e10 + e1 e3 e4 e5 e9 e10 e11 - e1 e3 e4 e5 e9 e10 e12 + e1 e3 e4 e6 e9 e10 e11 - 2 e1 e3 e4 e6 e9 e10 e12 - e2 e3 e4 e5 e6 e7 e10 + e2 e3 e4 e5 e6 e8 e9 + e2 e3 e4 e5 e6 e8 e10 + e2 e3 e4 e5 e9 e10 e12 - e2 e3 e4 e6 e9 e10 e11 + e2 e3 e4 e6 e9 e10 e12 - e3 e5 e6 e7 e9 e10 e11 + e3 e5 e6 e7 e9 e10 e12 + e3 e5 e6 e8 e9 e10 e11 - 2 e3 e5 e6 e8 e9 e10 e12 + e4 e5 e6 e7 e9 e10 e12 + e4 e5 e6 e8 e9 e10 e11 - e4 e5 e6 e8 e9 e10 e12",
+     "f2_class": "[e1 e3 e4 e5 e6 e7 e9] + [e1 e3 e4 e5 e6 e7 e10]"
+    }
+   ],
+   "functionals": [
+    "e1 e3 e4 e5 e6 e7 e9 + e1 e3 e4 e5 e6 e8 e10 + e1 e3 e4 e5 e9 e10 e11 + e1 e3 e4 e6 e9 e10 e12 + e2 e3 e4 e5 e6 e7 e9 + e2 e3 e4 e5 e6 e7 e10 + e2 e3 e4 e5 e6 e8 e9 + e2 e3 e4 e5 e9 e10 e11 + e2 e3 e4 e5 e9 e10 e12 + e2 e3 e4 e6 e9 e10 e11 + e3 e5 e6 e7 e9 e10 e11 + e3 e5 e6 e8 e9 e10 e12 + e4 e5 e6 e7 e9 e10 e11 + e4 e5 e6 e7 e9 e10 e12 + e4 e5 e6 e8 e9 e10 e11",
+    "e1 e3 e4 e5 e6 e7 e10 + e1 e3 e4 e5 e6 e8 e9 + e1 e3 e4 e5 e6 e8 e10 + e1 e3 e4 e5 e9 e10 e12 + e1 e3 e4 e6 e9 e10 e11 + e1 e3 e4 e6 e9 e10 e12 + e2 e3 e4 e5 e6 e7 e9 + e2 e3 e4 e5 e6 e8 e10 + e2 e3 e4 e5 e9 e10 e11 + e2 e3 e4 e6 e9 e10 e12 + e3 e5 e6 e7 e9 e10 e12 + e3 e5 e6 e8 e9 e10 e11 + e3 e5 e6 e8 e9 e10 e12 + e4 e5 e6 e7 e9 e10 e11 + e4 e5 e6 e8 e9 e10 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(-1, +1, -1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e3 e4 e5 e6 e7 e11",
+    "e1 e3 e4 e5 e6 e7 e12"
+   ],
+   "cycles": [
+    {
+     "a1": "- e3 e5 e11 - e3 e6 e11 - e3 e6 e12 - e4 e5 e12 - e4 e6 e11",
+     "a2": "e3 e5 e12 + e3 e6 e11 + e4 e5 e11 - e4 e5 e12 + e4 e6 e12",
+     "f2": "e1 e3 e4 e5 e6 e7 e11 - e1 e3 e4 e5 e6 e8 e11 - e1 e3 e4 e5 e6 e8 e12 - e1 e3 e4 e5 e9 e11 e12 - e1 e3 e4 e6 e9 e11 e12 + e1 e3 e4 e6 e10 e11 e12 - e2 e3 e4 e5 e6 e7 e12 + e2 e3 e4 e5 e6 e8 e11 - e2 e3 e4 e5 e10 e11 e12 + e2 e3 e4 e6 e9 e11 e12 + e3 e5 e6 e7 e9 e11 e12 - e3 e5 e6 e8 e9 e11 e12 + e3 e5 e6 e8 e10 e11 e12 - e4 e5 e6 e7 e10 e11 e12 - e4 e5 e6 e8 e9 e11 e12",
+     "f2_class": "[e1 e3 e4 e5 e6 e7 e11]"
+    },
+    {
+     "a1": "- e3 e5 e11 - e3 e5 e12 - 2 e3 e6 e11 - e3 e6 e12 - e4 e5 e11 - e4 e6 e11 - e4 e6 e12",
+     "a2": "e3 e5 e11 + e3 e6 e11 + e3 e6 e12 + e4 e5 e12 + e4 e6 e11",
+     "f2": "e1 e3 e4 e5 e6 e7 e11 + e1 e3 e4 e5 e6 e7 e12 - 2 e1 e3 e4 e5 e6 e8 e11 - e1 e3 e4 e5 e6 e8 e12 - e1 e3 e4 e5 e9 e11 e12 + e1 e3 e4 e5 e10 e11 e12 - 2 e1 e3 e4 e6 e9 e11 e12 + e1 e3 e4 e6 e10 e11 e12 - e2 e3 e4 e5 e6 e7 e11 + e2 e3 e4 e5 e6 e8 e11 + e2 e3 e4 e5 e6 e8 e12 + e2 e3 e4 e5 e9 e11 e12 + e2 e3 e4 e6 e9 e11 e12 - e2 e3 e4 e6 e10 e11 e12 + e3 e5 e6 e7 e9 e11 e12 - e3 e5 e6 e7 e10 e11 e12 - 2 e3 e5 e6 e8 e9 e11 e12 + e3 e5 e6 e8 e10 e11 e12 + e4 e5 e6 e7 e9 e11 e12 - e4 e5 e6 e8 e9 e11 e12 + e4 e5 e6 e8 e10 e11 e12",
+     "f2_class": "[e1 e3 e4 e5 e6 e7 e11] + [e1 e3 e4 e5 e6 e7 e12]"
+    }
+   ],
+   "functionals": [
+    "e1 e3 e4 e5 e6 e7 e11 + e1 e3 e4 e5 e6 e8 e11 + e1 e3 e4 e5 e6 e8 e12 + e1 e3 e4 e5 e9 e11 e12 + e1 e3 e4 e6 e9 e11 e12 + e1 e3 e4 e6 e10 e11 e12 + e2 e3 e4 e5 e6 e7 e12 + e2 e3 e4 e5 e6 e8 e11 + e2 e3 e4 e5 e10 e11 e12 + e2 e3 e4 e6 e9 e11 e12 + e3 e5 e6 e7 e9 e11 e12 + e3 e5 e6 e8 e9 e11 e12 + e3 e5 e6 e8 e10 e11 e12 + e4 e5 e6 e7 e10 e11 e12 + e4 e5 e6 e8 e9 e11 e12",
+    "e1 e3 e4 e5 e6 e7 e12 + e1 e3 e4 e5 e6 e8 e11 + e1 e3 e4 e5 e10 e11 e12 + e1 e3 e4 e6 e9 e11 e12 + e2 e3 e4 e5 e6 e7 e11 + e2 e3 e4 e5 e6 e7 e12 + e2 e3 e4 e5 e6 e8 e12 + e2 e3 e4 e5 e9 e11 e12 + e2 e3 e4 e5 e10 e11 e12 + e2 e3 e4 e6 e10 e11 e12 + e3 e5 e6 e7 e10 e11 e12 + e3 e5 e6 e8 e9 e11 e12 + e4 e5 e6 e7 e9 e11 e12 + e4 e5 e6 e7 e10 e11 e12 + e4 e5 e6 e8 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(-1, -1, +1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e3 e4 e5 e7 e8 e9",
+    "e1 e3 e4 e5 e7 e8 e10"
+   ],
+   "cycles": [
+    {
+     "a1": "- e3 e7 e9 - e3 e7 e10 - e3 e8 e10 - e4 e7 e10 - e4 e8 e9",
+     "a2": "e3 e7 e10 + e3 e8 e9 + e4 e7 e9 - e4 e8 e9 + e4 e8 e10",
+     "f2": "- e1 e3 e4 e5 e7 e8 e9 - e1 e3 e4 e5 e7 e8 e10 + e1 e3 e4 e6 e7 e8 e10 + e1 e3 e4 e7 e9 e10 e11 - e1 e3 e4 e7 e9 e10 e12 - e1 e3 e4 e8 e9 e10 e12 + e2 e3 e4 e5 e7 e8 e10 - e2 e3 e4 e6 e7 e8 e9 + e2 e3 e4 e7 e9 e10 e12 - e2 e3 e4 e8 e9 e10 e11 + e3 e5 e7 e8 e9 e10 e11 - e3 e5 e7 e8 e9 e10 e12 + e3 e6 e7 e8 e9 e10 e12 - e4 e5 e7 e8 e9 e10 e12 - e4 e6 e7 e8 e9 e10 e11",
+     "f2_class": "[e1 e3 e4 e5 e7 e8 e9]"
+    },
+    {
+     "a1": "- e3 e7 e9 - 2 e3 e7 e10 - e3 e8 e9 - e3 e8 e10 - e4 e7 e9 - e4 e7 e10 - e4 e8 e10",
+     "a2": "e3 e7 e9 + e3 e7 e10 + e3 e8 e10 + e4 e7 e10 + e4 e8 e9",
+     "f2": "- e1 e3 e4 e5 e7 e8 e9 - 2 e1 e3 e4 e5 e7 e8 e10 + e1 e3 e4 e6 e7 e8 e9 + e1 e3 e4 e6 e7 e8 e10 + e1 e3 e4 e7 e9 e10 e11 - 2 e1 e3 e4 e7 e9 e10 e12 + e1 e3 e4 e8 e9 e10 e11 - e1 e3 e4 e8 e9 e10 e12 + e2 e3 e4 e5 e7 e8 e9 + e2 e3 e4 e5 e7 e8 e10 - e2 e3 e4 e6 e7 e8 e10 - e2 e3 e4 e7 e9 e10 e11 + e2 e3 e4 e7 e9 e10 e12 + e2 e3 e4 e8 e9 e10 e12 + e3 e5 e7 e8 e9 e10 e11 - 2 e3 e5 e7 e8 e9 e10 e12 - e3 e6 e7 e8 e9 e10 e11 + e3 e6 e7 e8 e9 e10 e12 + e4 e5 e7 e8 e9 e10 e11 - e4 e5 e7 e8 e9 e10 e12 + e4 e6 e7 e8 e9 e10 e12",
+     "f2_class": "[e1 e3 e4 e5 e7 e8 e10]"
+    }
+   ],
+   "functionals": [
+    "e1 e3 e4 e5 e7 e8 e9 + e1 e3 e4 e6 e7 e8 e9 + e1 e3 e4 e6 e7 e8 e10 + e1 e3 e4 e7 e9 e10 e11 + e1 e3 e4 e8 e9 e10 e11 + e1 e3 e4 e8 e9 e10 e12 + e2 e3 e4 e5 e7 e8 e9 + e2 e3 e4 e5 e7 e8 e10 + e2 e3 e4 e6 e7 e8 e10 + e2 e3 e4 e7 e9 e10 e11 + e2 e3 e4 e7 e9 e10 e12 + e2 e3 e4 e8 e9 e10 e12 + e3 e5 e7 e8 e9 e10 e11 + e3 e6 e7 e8 e9 e10 e11 + e3 e6 e7 e8 e9 e10 e12 + e4 e5 e7 e8 e9 e10 e11 + e4 e5 e7 e8 e9 e10 e12 + e4 e6 e7 e8 e9 e10 e12",
+    "e1 e3 e4 e5 e7 e8 e10 + e1 e3 e4 e6 e7 e8 e9 + e1 e3 e4 e7 e9 e10 e12 + e1 e3 e4 e8 e9 e10 e11 + e2 e3 e4 e5 e7 e8 e9 + e2 e3 e4 e6 e7 e8 e9 + e2 e3 e4 e6 e7 e8 e10 + e2 e3 e4 e7 e9 e10 e11 + e2 e3 e4 e8 e9 e10 e11 + e2 e3 e4 e8 e9 e10 e12 + e3 e5 e7 e8 e9 e10 e12 + e3 e6 e7 e8 e9 e10 e11 + e4 e5 e7 e8 e9 e10 e11 + e4 e6 e7 e8 e9 e10 e11 + e4 e6 e7 e8 e9 e10 e12"
+   ],
+   "matrix_mod2": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(-1, -1, -1)",
+   "dim_block": 8,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e3 e4 e5 e7 e8 e11",
+    "e1 e3 e4 e5 e7 e8 e12"
+   ],
+   "cycles": [
+    {
+     "a1": "e3 e7 e11 + e3 e7 e12 + e3 e8 e11 + e4 e7 e11 + e4 e8 e12",
+     "a2": "- e3 e7 e11 - e3 e8 e12 - e4 e7 e12 - e4 e8 e11 + e4 e8 e12",
+     "f2": "e1 e3 e4 e5 e7 e8 e11 + e1 e3 e4 e5 e7 e8 e12 - e1 e3 e4 e6 e7 e8 e11 + e1 e3 e4 e7 e9 e11 e12 - e1 e3 e4 e7 e10 e11 e12 + e1 e3 e4 e8 e9 e11 e12 - e2 e3 e4 e5 e7 e8 e11 + e2 e3 e4 e6 e7 e8 e12 - e2 e3 e4 e7 e9 e11 e12 + e2 e3 e4 e8 e10 e11 e12 + e3 e5 e7 e8 e9 e11 e12 - e3 e5 e7 e8 e10 e11 e12 - e3 e6 e7 e8 e9 e11 e12 + e4 e5 e7 e8 e9 e11 e12 + e4 e6 e7 e8 e10 e11 e12",
+     "f2_class": "[e1 e3 e4 e5 e7 e8 e12]"
+    },
+    {
+     "a1": "- 2 e3 e7 e11 - e3 e7 e12 - e3 e8 e11 - e3 e8 e12 - e4 e7 e11 - e4 e7 e12 - e4 e8 e11",
+     "a2": "e3 e7 e11 + e3 e7 e12 + e3 e8 e11 + e4 e7 e11 + e4 e8 e12",
+     "f2": "- 2 e1 e3 e4 e5 e7 e8 e11 - e1 e3 e4 e5 e7 e8 e12 + e1 e3 e4 e6 e7 e8 e11 + e1 e3 e4 e6 e7 e8 e12 - 2 e1 e3 e4 e7 e9 e11 e12 + e1 e3 e4 e7 e10 e11 e12 - e1 e3 e4 e8 e9 e11 e12 + e1 e3 e4 e8 e10 e11 e12 + e2 e3 e4 e5 e7 e8 e11 + e2 e3 e4 e5 e7 e8 e12 - e2 e3 e4 e6 e7 e8 e11 + e2 e3 e4 e7 e9 e11 e12 - e2 e3 e4 e7 e10 e11 e12 + e2 e3 e4 e8 e9 e11 e12 - 2 e3 e5 e7 e8 e9 e11 e12 + e3 e5 e7 e8 e10 e11 e12 + e3 e6 e7 e8 e9 e11 e12 - e3 e6 e7 e8 e10 e11 e12 - e4 e5 e7 e8 e9 e11 e12 + e4 e5 e7 e8 e10 e11 e12 + e4 e6 e7 e8 e9 e11 e12",
+     "f2_class": "[e1 e3 e4 e5 e7 e8 e11]"
+    }
+   ],
+   "functionals": [
+    "e1 e3 e4 e5 e7 e8 e11 + e1 e3 e4 e6 e7 e8 e12 + e1 e3 e4 e7 e9 e11 e12 + e1 e3 e4 e8 e10 e11 e12 + e2 e3 e4 e5 e7 e8 e12 + e2 e3 e4 e6 e7 e8 e11 + e2 e3 e4 e6 e7 e8 e12 + e2 e3 e4 e7 e10 e11 e12 + e2 e3 e4 e8 e9 e11 e12 + e2 e3 e4 e8 e10 e11 e12 + e3 e5 e7 e8 e9 e11 e12 + e3 e6 e7 e8 e10 e11 e12 + e4 e5 e7 e8 e10 e11 e12 + e4 e6 e7 e8 e9 e11 e12 + e4 e6 e7 e8 e10 e11 e12",
+    "e1 e3 e4 e5 e7 e8 e12 + e1 e3 e4 e6 e7 e8 e11 + e1 e3 e4 e6 e7 e8 e12 + e1 e3 e4 e7 e10 e11 e12 + e1 e3 e4 e8 e9 e11 e12 + e1 e3 e4 e8 e10 e11 e12 + e2 e3 e4 e5 e7 e8 e11 + e2 e3 e4 e5 e7 e8 e12 + e2 e3 e4 e6 e7 e8 e11 + e2 e3 e4 e7 e9 e11 e12 + e2 e3 e4 e7 e10 e11 e12 + e2 e3 e4 e8 e9 e11 e12 + e3 e5 e7 e8 e10 e11 e12 + e3 e6 e7 e8 e9 e11 e12 + e3 e6 e7 e8 e10 e11 e12 + e4 e5 e7 e8 e9 e11 e12 + e4 e5 e7 e8 e10 e11 e12 + e4 e6 e7 e8 e9 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "k": 3,
+   "block": "(+1, +0, +0)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e5 e6 e7 e8",
+    "e1 e2 e4 e5 e6 e7 e8"
+   ],
+   "cycles": [
+    {
+     "a1": "e1 e5 e8 + e1 e6 e7 - e1 e9 e12 - e1 e10 e11 + e2 e5 e7 + e2 e6 e7 + e2 e6 e8 - e2 e9 e11 - e2 e10 e11 - e2 e10 e12",
+     "a2": "- e1 e5 e7 + e1 e5 e8 - e1 e6 e8 + e1 e9 e11 - e1 e9 e12 + e1 e10 e12 - e2 e5 e8 - e2 e6 e7 + e2 e9 e12 + e2 e10 e11",
+     "f2": "2 e1 e2 e3 e5 e6 e7 e8 - 2 e1 e2 e3 e9 e10 e11 e12 - e1 e2 e4 e5 e6 e7 e8 - e1 e2 e4 e5 e7 e9 e12 - e1 e2 e4 e5 e7 e10 e11 + e1 e2 e4 e5 e8 e9 e11 + e1 e2 e4 e5 e8 e10 e11 + e1 e2 e4 e5 e8 e10 e12 + e1 e2 e4 e6 e7 e9 e11 - e1 e2 e4 e6 e7 e9 e12 + e1 e2 e4 e6 e7 e10 e12 - e1 e2 e4 e6 e8 e9 e12 - e1 e2 e4 e6 e8 e10 e11 + e1 e2 e4 e9 e10 e11 e12 + e1 e5 e6 e7 e8 e9 e12 + e1 e5 e6 e7 e8 e10 e11 - e1 e5 e8 e9 e10 e11 e12 - e1 e6 e7 e9 e10 e11 e12 - e2 e5 e6 e7 e8 e9 e11 + e2 e5 e6 e7 e8 e9 e12 - e2 e5 e6 e7 e8 e10 e12 + e2 e5 e7 e9 e10 e11 e12 - e2 e5 e8 e9 e10 e11 e12 + e2 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- e1 e5 e7 - e1 e6 e7 - e1 e6 e8 + e1 e9 e11 + e1 e10 e11 + e1 e10 e12 - e2 e5 e7 - e2 e5 e8 - 2 e2 e6 e7 - e2 e6 e8 + e2 e9 e11 + e2 e9 e12 + 2 e2 e10 e11 + e2 e10 e12",
+     "a2": "e1 e5 e8 + e1 e6 e7 - e1 e9 e12 - e1 e10 e11 + e2 e5 e7 + e2 e6 e7 + e2 e6 e8 - e2 e9 e11 - e2 e10 e11 - e2 e10 e12",
+     "f2": "- e1 e2 e3 e5 e6 e7 e8 - e1 e2 e3 e5 e7 e9 e12 - e1 e2 e3 e5 e7 e10 e11 + e1 e2 e3 e5 e8 e9 e11 + e1 e2 e3 e5 e8 e10 e11 + e1 e2 e3 e5 e8 e10 e12 + e1 e2 e3 e6 e7 e9 e11 - e1 e2 e3 e6 e7 e9 e12 + e1 e2 e3 e6 e7 e10 e12 - e1 e2 e3 e6 e8 e9 e12 - e1 e2 e3 e6 e8 e10 e11 + e1 e2 e3 e9 e10 e11 e12 + 3 e1 e2 e4 e5 e6 e7 e8 + e1 e2 e4 e5 e7 e9 e12 + e1 e2 e4 e5 e7 e10 e11 - e1 e2 e4 e5 e8 e9 e11 - e1 e2 e4 e5 e8 e10 e11 - e1 e2 e4 e5 e8 e10 e12 - e1 e2 e4 e6 e7 e9 e11 + e1 e2 e4 e6 e7 e9 e12 - e1 e2 e4 e6 e7 e10 e12 + e1 e2 e4 e6 e8 e9 e12 + e1 e2 e4 e6 e8 e10 e11 - 3 e1 e2 e4 e9 e10 e11 e12 + e1 e5 e6 e7 e8 e9 e11 - e1 e5 e6 e7 e8 e9 e12 + e1 e5 e6 e7 e8 e10 e12 - e1 e5 e7 e9 e10 e11 e12 + e1 e5 e8 e9 e10 e11 e12 - e1 e6 e8 e9 e10 e11 e12 + e2 e5 e6 e7 e8 e9 e11 - 2 e2 e5 e6 e7 e8 e9 e12 - e2 e5 e6 e7 e8 e10 e11 + e2 e5 e6 e7 e8 e10 e12 - e2 e5 e7 e9 e10 e11 e12 + 2 e2 e5 e8 e9 e10 e11 e12 + e2 e6 e7 e9 e10 e11 e12 - e2 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e5 e6 e7 e8 + e1 e2 e3 e5 e7 e9 e12 + e1 e2 e3 e5 e7 e10 e11 + e1 e2 e3 e5 e8 e9 e11 + e1 e2 e3 e5 e8 e10 e11 + e1 e2 e3 e5 e8 e10 e12 + e1 e2 e3 e6 e7 e9 e11 + e1 e2 e3 e6 e7 e9 e12 + e1 e2 e3 e6 e7 e10 e12 + e1 e2 e3 e6 e8 e9 e12 + e1 e2 e3 e6 e8 e10 e11 + e1 e2 e3 e9 e10 e11 e12 + e1 e5 e6 e7 e8 e9 e11 + e1 e5 e6 e7 e8 e10 e11 + e1 e5 e6 e7 e8 e10 e12 + e1 e5 e7 e9 e10 e11 e12 + e1 e6 e7 e9 e10 e11 e12 + e1 e6 e8 e9 e10 e11 e12 + e2 e5 e6 e7 e8 e9 e12 + e2 e5 e6 e7 e8 e10 e11 + e2 e5 e8 e9 e10 e11 e12 + e2 e6 e7 e9 e10 e11 e12",
+    "e1 e2 e4 e5 e6 e7 e8 + e1 e2 e4 e5 e7 e9 e12 + e1 e2 e4 e5 e7 e10 e11 + e1 e2 e4 e5 e8 e9 e11 + e1 e2 e4 e5 e8 e10 e11 + e1 e2 e4 e5 e8 e10 e12 + e1 e2 e4 e6 e7 e9 e11 + e1 e2 e4 e6 e7 e9 e12 + e1 e2 e4 e6 e7 e10 e12 + e1 e2 e4 e6 e8 e9 e12 + e1 e2 e4 e6 e8 e10 e11 + e1 e2 e4 e9 e10 e11 e12 + e1 e5 e6 e7 e8 e9 e12 + e1 e5 e6 e7 e8 e10 e11 + e1 e5 e8 e9 e10 e11 e12 + e1 e6 e7 e9 e10 e11 e12 + e2 e5 e6 e7 e8 e9 e11 + e2 e5 e6 e7 e8 e9 e12 + e2 e5 e6 e7 e8 e10 e12 + e2 e5 e7 e9 e10 e11 e12 + e2 e5 e8 e9 e10 e11 e12 + e2 e6 e8 e9 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 3,
+   "block": "(+0, +1, +0)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e4 e5 e6 e7",
+    "e1 e2 e3 e4 e5 e6 e8"
+   ],
+   "cycles": [
+    {
+     "a1": "e1 e3 e6 + e1 e4 e5 + e2 e3 e5 + e2 e3 e6 + e2 e4 e6 - e5 e9 e12 - e5 e10 e11 - e6 e9 e11 - e6 e10 e11 - e6 e10 e12",
+     "a2": "- e1 e3 e5 + e1 e4 e5 - e1 e4 e6 - e2 e3 e6 - e2 e4 e5 + e5 e9 e11 - e5 e9 e12 + e5 e10 e12 + e6 e9 e12 + e6 e10 e11",
+     "f2": "2 e1 e2 e3 e4 e5 e6 e7 - e1 e2 e3 e4 e5 e6 e8 + e1 e2 e3 e4 e5 e9 e12 + e1 e2 e3 e4 e5 e10 e11 - e1 e2 e3 e4 e6 e9 e11 + e1 e2 e3 e4 e6 e9 e12 - e1 e2 e3 e4 e6 e10 e12 - e1 e3 e5 e6 e8 e9 e12 - e1 e3 e5 e6 e8 e10 e11 + e1 e3 e6 e9 e10 e11 e12 + e1 e4 e5 e6 e8 e9 e11 + e1 e4 e5 e6 e8 e10 e11 + e1 e4 e5 e6 e8 e10 e12 - e1 e4 e5 e9 e10 e11 e12 - e1 e4 e6 e9 e10 e11 e12 + e2 e3 e5 e6 e8 e9 e11 - e2 e3 e5 e6 e8 e9 e12 + e2 e3 e5 e6 e8 e10 e12 - e2 e3 e5 e9 e10 e11 e12 - e2 e4 e5 e6 e8 e9 e12 - e2 e4 e5 e6 e8 e10 e11 + e2 e4 e6 e9 e10 e11 e12 - 2 e5 e6 e7 e9 e10 e11 e12 + e5 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e3 e5 + e1 e3 e6 + e1 e4 e6 + e2 e3 e5 + 2 e2 e3 e6 + e2 e4 e5 + e2 e4 e6 - e5 e9 e11 - e5 e10 e11 - e5 e10 e12 - e6 e9 e11 - e6 e9 e12 - 2 e6 e10 e11 - e6 e10 e12",
+     "a2": "- e1 e3 e6 - e1 e4 e5 - e2 e3 e5 - e2 e3 e6 - e2 e4 e6 + e5 e9 e12 + e5 e10 e11 + e6 e9 e11 + e6 e10 e11 + e6 e10 e12",
+     "f2": "e1 e2 e3 e4 e5 e6 e7 - 3 e1 e2 e3 e4 e5 e6 e8 - e1 e2 e3 e4 e5 e9 e11 + e1 e2 e3 e4 e5 e9 e12 - e1 e2 e3 e4 e5 e10 e12 - e1 e2 e3 e4 e6 e9 e11 + 2 e1 e2 e3 e4 e6 e9 e12 + e1 e2 e3 e4 e6 e10 e11 - e1 e2 e3 e4 e6 e10 e12 + e1 e3 e5 e6 e7 e9 e12 + e1 e3 e5 e6 e7 e10 e11 - e1 e3 e5 e6 e8 e9 e12 - e1 e3 e5 e6 e8 e10 e11 + e1 e3 e5 e9 e10 e11 e12 + e1 e3 e6 e9 e10 e11 e12 - e1 e4 e5 e6 e7 e9 e11 - e1 e4 e5 e6 e7 e10 e11 - e1 e4 e5 e6 e7 e10 e12 + e1 e4 e5 e6 e8 e9 e11 + e1 e4 e5 e6 e8 e10 e11 + e1 e4 e5 e6 e8 e10 e12 - e1 e4 e5 e9 e10 e11 e12 - 2 e1 e4 e6 e9 e10 e11 e12 - e2 e3 e5 e6 e7 e9 e11 + e2 e3 e5 e6 e7 e9 e12 - e2 e3 e5 e6 e7 e10 e12 + e2 e3 e5 e6 e8 e9 e11 - e2 e3 e5 e6 e8 e9 e12 + e2 e3 e5 e6 e8 e10 e12 - e2 e3 e6 e9 e10 e11 e12 + e2 e4 e5 e6 e7 e9 e12 + e2 e4 e5 e6 e7 e10 e11 - e2 e4 e5 e6 e8 e9 e12 - e2 e4 e5 e6 e8 e10 e11 + e2 e4 e5 e9 e10 e11 e12 + e2 e4 e6 e9 e10 e11 e12 - e5 e6 e7 e9 e10 e11 e12 + 3 e5 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e4 e5 e6 e7 + e1 e2 e3 e4 e5 e9 e11 + e1 e2 e3 e4 e5 e10 e11 + e1 e2 e3 e4 e5 e10 e12 + e1 e2 e3 e4 e6 e9 e12 + e1 e2 e3 e4 e6 e10 e11 + e1 e3 e5 e6 e7 e9 e12 + e1 e3 e5 e6 e7 e10 e11 + e1 e3 e5 e9 e10 e11 e12 + e1 e4 e5 e6 e7 e9 e11 + e1 e4 e5 e6 e7 e10 e11 + e1 e4 e5 e6 e7 e10 e12 + e1 e4 e6 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e9 e11 + e2 e3 e5 e6 e7 e9 e12 + e2 e3 e5 e6 e7 e10 e12 + e2 e3 e5 e9 e10 e11 e12 + e2 e3 e6 e9 e10 e11 e12 + e2 e4 e5 e6 e7 e9 e12 + e2 e4 e5 e6 e7 e10 e11 + e2 e4 e5 e9 e10 e11 e12 + e5 e6 e7 e9 e10 e11 e12",
+    "e1 e2 e3 e4 e5 e6 e8 + e1 e2 e3 e4 e5 e9 e12 + e1 e2 e3 e4 e5 e10 e11 + e1 e2 e3 e4 e6 e9 e11 + e1 e2 e3 e4 e6 e9 e12 + e1 e2 e3 e4 e6 e10 e12 + e1 e3 e5 e6 e8 e9 e12 + e1 e3 e5 e6 e8 e10 e11 + e1 e3 e6 e9 e10 e11 e12 + e1 e4 e5 e6 e8 e9 e11 + e1 e4 e5 e6 e8 e10 e11 + e1 e4 e5 e6 e8 e10 e12 + e1 e4 e5 e9 e10 e11 e12 + e1 e4 e6 e9 e10 e11 e12 + e2 e3 e5 e6 e8 e9 e11 + e2 e3 e5 e6 e8 e9 e12 + e2 e3 e5 e6 e8 e10 e12 + e2 e3 e5 e9 e10 e11 e12 + e2 e4 e5 e6 e8 e9 e12 + e2 e4 e5 e6 e8 e10 e11 + e2 e4 e6 e9 e10 e11 e12 + e5 e6 e8 e9 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 3,
+   "block": "(+0, +0, +1)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e4 e5 e7 e9",
+    "e1 e2 e3 e4 e5 e7 e10"
+   ],
+   "cycles": [
+    {
+     "a1": "e1 e3 e10 + e1 e4 e9 + e2 e3 e9 + e2 e3 e10 + e2 e4 e10 - e5 e7 e10 - e5 e8 e9 - e6 e7 e9 - e6 e7 e10 - e6 e8 e10",
+     "a2": "- e1 e3 e9 + e1 e4 e9 - e1 e4 e10 - e2 e3 e10 - e2 e4 e9 + e5 e7 e9 - e5 e8 e9 + e5 e8 e10 + e6 e7 e10 + e6 e8 e9",
+     "f2": "- e1 e2 e3 e4 e5 e7 e10 + e1 e2 e3 e4 e5 e8 e9 + e1 e2 e3 e4 e5 e8 e10 + e1 e2 e3 e4 e6 e7 e9 - e1 e2 e3 e4 e6 e8 e10 + 2 e1 e2 e3 e4 e9 e10 e11 - e1 e2 e3 e4 e9 e10 e12 + e1 e3 e5 e6 e7 e8 e10 - e1 e3 e5 e8 e9 e10 e12 - e1 e3 e6 e7 e9 e10 e12 - e1 e4 e5 e6 e7 e8 e9 - e1 e4 e5 e6 e7 e8 e10 + e1 e4 e5 e7 e9 e10 e12 + e1 e4 e6 e7 e9 e10 e12 + e1 e4 e6 e8 e9 e10 e12 - e2 e3 e5 e6 e7 e8 e9 + e2 e3 e5 e7 e9 e10 e12 - e2 e3 e5 e8 e9 e10 e12 + e2 e3 e6 e8 e9 e10 e12 + e2 e4 e5 e6 e7 e8 e10 - e2 e4 e5 e8 e9 e10 e12 - e2 e4 e6 e7 e9 e10 e12 - 2 e5 e6 e7 e8 e9 e10 e11 + e5 e6 e7 e8 e9 e10 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e3 e9 + e1 e3 e10 + e1 e4 e10 + e2 e3 e9 + 2 e2 e3 e10 + e2 e4 e9 + e2 e4 e10 - e5 e7 e9 - e5 e7 e10 - e5 e8 e10 - e6 e7 e9 - 2 e6 e7 e10 - e6 e8 e9 - e6 e8 e10",
+     "a2": "- e1 e3 e10 - e1 e4 e9 - e2 e3 e9 - e2 e3 e10 - e2 e4 e10 + e5 e7 e10 + e5 e8 e9 + e6 e7 e9 + e6 e7 e10 + e6 e8 e10",
+     "f2": "- e1 e2 e3 e4 e5 e7 e9 - e1 e2 e3 e4 e5 e7 e10 + e1 e2 e3 e4 e5 e8 e9 + 2 e1 e2 e3 e4 e5 e8 e10 + e1 e2 e3 e4 e6 e7 e10 - e1 e2 e3 e4 e6 e8 e9 - e1 e2 e3 e4 e6 e8 e10 + e1 e2 e3 e4 e9 e10 e11 - 3 e1 e2 e3 e4 e9 e10 e12 + e1 e3 e5 e6 e7 e8 e9 + e1 e3 e5 e6 e7 e8 e10 + e1 e3 e5 e8 e9 e10 e11 - e1 e3 e5 e8 e9 e10 e12 + e1 e3 e6 e7 e9 e10 e11 - e1 e3 e6 e7 e9 e10 e12 - e1 e4 e5 e6 e7 e8 e9 - 2 e1 e4 e5 e6 e7 e8 e10 - e1 e4 e5 e7 e9 e10 e11 + e1 e4 e5 e7 e9 e10 e12 - e1 e4 e6 e7 e9 e10 e11 + e1 e4 e6 e7 e9 e10 e12 - e1 e4 e6 e8 e9 e10 e11 + e1 e4 e6 e8 e9 e10 e12 - e2 e3 e5 e6 e7 e8 e10 - e2 e3 e5 e7 e9 e10 e11 + e2 e3 e5 e7 e9 e10 e12 + e2 e3 e5 e8 e9 e10 e11 - e2 e3 e5 e8 e9 e10 e12 - e2 e3 e6 e8 e9 e10 e11 + e2 e3 e6 e8 e9 e10 e12 + e2 e4 e5 e6 e7 e8 e9 + e2 e4 e5 e6 e7 e8 e10 + e2 e4 e5 e8 e9 e10 e11 - e2 e4 e5 e8 e9 e10 e12 + e2 e4 e6 e7 e9 e10 e11 - e2 e4 e6 e7 e9 e10 e12 - e5 e6 e7 e8 e9 e10 e11 + 3 e5 e6 e7 e8 e9 e10 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e4 e5 e7 e9 + e1 e2 e3 e4 e5 e8 e10 + e1 e2 e3 e4 e6 e7 e9 + e1 e2 e3 e4 e6 e7 e10 + e1 e2 e3 e4 e6 e8 e9 + e1 e2 e3 e4 e9 e10 e11 + e1 e3 e5 e6 e7 e8 e9 + e1 e3 e5 e8 e9 e10 e11 + e1 e3 e6 e7 e9 e10 e11 + e1 e4 e5 e6 e7 e8 e10 + e1 e4 e5 e7 e9 e10 e11 + e1 e4 e6 e7 e9 e10 e11 + e1 e4 e6 e8 e9 e10 e11 + e2 e3 e5 e6 e7 e8 e9 + e2 e3 e5 e6 e7 e8 e10 + e2 e3 e5 e7 e9 e10 e11 + e2 e3 e5 e8 e9 e10 e11 + e2 e3 e6 e8 e9 e10 e11 + e2 e4 e5 e6 e7 e8 e9 + e2 e4 e5 e8 e9 e10 e11 + e2 e4 e6 e7 e9 e10 e11 + e5 e6 e7 e8 e9 e10 e11",
+    "e1 e2 e3 e4 e5 e7 e10 + e1 e2 e3 e4 e5 e8 e9 + e1 e2 e3 e4 e5 e8 e10 + e1 e2 e3 e4 e6 e7 e9 + e1 e2 e3 e4 e6 e8 e10 + e1 e2 e3 e4 e9 e10 e12 + e1 e3 e5 e6 e7 e8 e10 + e1 e3 e5 e8 e9 e10 e12 + e1 e3 e6 e7 e9 e10 e12 + e1 e4 e5 e6 e7 e8 e9 + e1 e4 e5 e6 e7 e8 e10 + e1 e4 e5 e7 e9 e10 e12 + e1 e4 e6 e7 e9 e10 e12 + e1 e4 e6 e8 e9 e10 e12 + e2 e3 e5 e6 e7 e8 e9 + e2 e3 e5 e7 e9 e10 e12 + e2 e3 e5 e8 e9 e10 e12 + e2 e3 e6 e8 e9 e10 e12 + e2 e4 e5 e6 e7 e8 e10 + e2 e4 e5 e8 e9 e10 e12 + e2 e4 e6 e7 e9 e10 e12 + e5 e6 e7 e8 e9 e10 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 3,
+   "block": "(+0, +0, -1)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e4 e5 e7 e11",
+    "e1 e2 e3 e4 e5 e7 e12"
+   ],
+   "cycles": [
+    {
+     "a1": "e1 e3 e11 + e1 e4 e12 + e2 e3 e11 + e2 e3 e12 + e2 e4 e11 - e5 e7 e11 - e5 e8 e12 - e6 e7 e11 - e6 e7 e12 - e6 e8 e11",
+     "a2": "- e1 e3 e12 - e1 e4 e11 + e1 e4 e12 - e2 e3 e11 - e2 e4 e12 + e5 e7 e12 + e5 e8 e11 - e5 e8 e12 + e6 e7 e11 + e6 e8 e12",
+     "f2": "- e1 e2 e3 e4 e5 e7 e11 + e1 e2 e3 e4 e5 e8 e11 + e1 e2 e3 e4 e5 e8 e12 + e1 e2 e3 e4 e6 e7 e12 - e1 e2 e3 e4 e6 e8 e11 - e1 e2 e3 e4 e9 e11 e12 + 2 e1 e2 e3 e4 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e11 - e1 e3 e5 e8 e9 e11 e12 - e1 e3 e6 e7 e9 e11 e12 - e1 e4 e5 e6 e7 e8 e11 - e1 e4 e5 e6 e7 e8 e12 + e1 e4 e5 e7 e9 e11 e12 + e1 e4 e6 e7 e9 e11 e12 + e1 e4 e6 e8 e9 e11 e12 - e2 e3 e5 e6 e7 e8 e12 + e2 e3 e5 e7 e9 e11 e12 - e2 e3 e5 e8 e9 e11 e12 + e2 e3 e6 e8 e9 e11 e12 + e2 e4 e5 e6 e7 e8 e11 - e2 e4 e5 e8 e9 e11 e12 - e2 e4 e6 e7 e9 e11 e12 + e5 e6 e7 e8 e9 e11 e12 - 2 e5 e6 e7 e8 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e3 e11 + e1 e3 e12 + e1 e4 e11 + 2 e2 e3 e11 + e2 e3 e12 + e2 e4 e11 + e2 e4 e12 - e5 e7 e11 - e5 e7 e12 - e5 e8 e11 - 2 e6 e7 e11 - e6 e7 e12 - e6 e8 e11 - e6 e8 e12",
+     "a2": "- e1 e3 e11 - e1 e4 e12 - e2 e3 e11 - e2 e3 e12 - e2 e4 e11 + e5 e7 e11 + e5 e8 e12 + e6 e7 e11 + e6 e7 e12 + e6 e8 e11",
+     "f2": "- e1 e2 e3 e4 e5 e7 e11 - e1 e2 e3 e4 e5 e7 e12 + 2 e1 e2 e3 e4 e5 e8 e11 + e1 e2 e3 e4 e5 e8 e12 + e1 e2 e3 e4 e6 e7 e11 - e1 e2 e3 e4 e6 e8 e11 - e1 e2 e3 e4 e6 e8 e12 - 3 e1 e2 e3 e4 e9 e11 e12 + e1 e2 e3 e4 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e11 + e1 e3 e5 e6 e7 e8 e12 - e1 e3 e5 e8 e9 e11 e12 + e1 e3 e5 e8 e10 e11 e12 - e1 e3 e6 e7 e9 e11 e12 + e1 e3 e6 e7 e10 e11 e12 - 2 e1 e4 e5 e6 e7 e8 e11 - e1 e4 e5 e6 e7 e8 e12 + e1 e4 e5 e7 e9 e11 e12 - e1 e4 e5 e7 e10 e11 e12 + e1 e4 e6 e7 e9 e11 e12 - e1 e4 e6 e7 e10 e11 e12 + e1 e4 e6 e8 e9 e11 e12 - e1 e4 e6 e8 e10 e11 e12 - e2 e3 e5 e6 e7 e8 e11 + e2 e3 e5 e7 e9 e11 e12 - e2 e3 e5 e7 e10 e11 e12 - e2 e3 e5 e8 e9 e11 e12 + e2 e3 e5 e8 e10 e11 e12 + e2 e3 e6 e8 e9 e11 e12 - e2 e3 e6 e8 e10 e11 e12 + e2 e4 e5 e6 e7 e8 e11 + e2 e4 e5 e6 e7 e8 e12 - e2 e4 e5 e8 e9 e11 e12 + e2 e4 e5 e8 e10 e11 e12 - e2 e4 e6 e7 e9 e11 e12 + e2 e4 e6 e7 e10 e11 e12 + 3 e5 e6 e7 e8 e9 e11 e12 - e5 e6 e7 e8 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e4 e5 e7 e11 + e1 e2 e3 e4 e5 e8 e11 + e1 e2 e3 e4 e5 e8 e12 + e1 e2 e3 e4 e6 e7 e12 + e1 e2 e3 e4 e6 e8 e11 + e1 e2 e3 e4 e9 e11 e12 + e1 e3 e5 e6 e7 e8 e11 + e1 e3 e5 e8 e9 e11 e12 + e1 e3 e6 e7 e9 e11 e12 + e1 e4 e5 e6 e7 e8 e11 + e1 e4 e5 e6 e7 e8 e12 + e1 e4 e5 e7 e9 e11 e12 + e1 e4 e6 e7 e9 e11 e12 + e1 e4 e6 e8 e9 e11 e12 + e2 e3 e5 e6 e7 e8 e12 + e2 e3 e5 e7 e9 e11 e12 + e2 e3 e5 e8 e9 e11 e12 + e2 e3 e6 e8 e9 e11 e12 + e2 e4 e5 e6 e7 e8 e11 + e2 e4 e5 e8 e9 e11 e12 + e2 e4 e6 e7 e9 e11 e12 + e5 e6 e7 e8 e9 e11 e12",
+    "e1 e2 e3 e4 e5 e7 e12 + e1 e2 e3 e4 e5 e8 e11 + e1 e2 e3 e4 e6 e7 e11 + e1 e2 e3 e4 e6 e7 e12 + e1 e2 e3 e4 e6 e8 e12 + e1 e2 e3 e4 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e12 + e1 e3 e5 e8 e10 e11 e12 + e1 e3 e6 e7 e10 e11 e12 + e1 e4 e5 e6 e7 e8 e11 + e1 e4 e5 e7 e10 e11 e12 + e1 e4 e6 e7 e10 e11 e12 + e1 e4 e6 e8 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e11 + e2 e3 e5 e6 e7 e8 e12 + e2 e3 e5 e7 e10 e11 e12 + e2 e3 e5 e8 e10 e11 e12 + e2 e3 e6 e8 e10 e11 e12 + e2 e4 e5 e6 e7 e8 e12 + e2 e4 e5 e8 e10 e11 e12 + e2 e4 e6 e7 e10 e11 e12 + e5 e6 e7 e8 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 3,
+   "block": "(+0, -1, +0)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e2 e3 e4 e5 e7 e8",
+    "e1 e2 e3 e4 e6 e7 e8"
+   ],
+   "cycles": [
+    {
+     "a1": "- e1 e3 e7 - e1 e4 e8 - e2 e3 e7 - e2 e3 e8 - e2 e4 e7 + e7 e9 e11 + e7 e10 e11 + e7 e10 e12 + e8 e9 e12 + e8 e10 e11",
+     "a2": "e1 e3 e8 + e1 e4 e7 - e1 e4 e8 + e2 e3 e7 + e2 e4 e8 - e7 e9 e12 - e7 e10 e11 - e8 e9 e11 + e8 e9 e12 - e8 e10 e12",
+     "f2": "e1 e2 e3 e4 e5 e7 e8 - 2 e1 e2 e3 e4 e6 e7 e8 + e1 e2 e3 e4 e7 e9 e11 - e1 e2 e3 e4 e7 e9 e12 + e1 e2 e3 e4 e7 e10 e12 - e1 e2 e3 e4 e8 e9 e12 - e1 e2 e3 e4 e8 e10 e11 + e1 e3 e5 e7 e8 e9 e12 + e1 e3 e5 e7 e8 e10 e11 - e1 e3 e7 e9 e10 e11 e12 - e1 e4 e5 e7 e8 e9 e11 - e1 e4 e5 e7 e8 e10 e11 - e1 e4 e5 e7 e8 e10 e12 + e1 e4 e7 e9 e10 e11 e12 + e1 e4 e8 e9 e10 e11 e12 - e2 e3 e5 e7 e8 e9 e11 + e2 e3 e5 e7 e8 e9 e12 - e2 e3 e5 e7 e8 e10 e12 + e2 e3 e8 e9 e10 e11 e12 + e2 e4 e5 e7 e8 e9 e12 + e2 e4 e5 e7 e8 e10 e11 - e2 e4 e7 e9 e10 e11 e12 - e5 e7 e8 e9 e10 e11 e12 + 2 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e3 e7 + e1 e3 e8 + e1 e4 e7 + 2 e2 e3 e7 + e2 e3 e8 + e2 e4 e7 + e2 e4 e8 - e7 e9 e11 - e7 e9 e12 - 2 e7 e10 e11 - e7 e10 e12 - e8 e9 e11 - e8 e10 e11 - e8 e10 e12",
+     "a2": "- e1 e3 e7 - e1 e4 e8 - e2 e3 e7 - e2 e3 e8 - e2 e4 e7 + e7 e9 e11 + e7 e10 e11 + e7 e10 e12 + e8 e9 e12 + e8 e10 e11",
+     "f2": "- 3 e1 e2 e3 e4 e5 e7 e8 + e1 e2 e3 e4 e6 e7 e8 - e1 e2 e3 e4 e7 e9 e11 + 2 e1 e2 e3 e4 e7 e9 e12 + e1 e2 e3 e4 e7 e10 e11 - e1 e2 e3 e4 e7 e10 e12 - e1 e2 e3 e4 e8 e9 e11 + e1 e2 e3 e4 e8 e9 e12 - e1 e2 e3 e4 e8 e10 e12 - e1 e3 e5 e7 e8 e9 e12 - e1 e3 e5 e7 e8 e10 e11 + e1 e3 e6 e7 e8 e9 e12 + e1 e3 e6 e7 e8 e10 e11 + e1 e3 e7 e9 e10 e11 e12 + e1 e3 e8 e9 e10 e11 e12 + e1 e4 e5 e7 e8 e9 e11 + e1 e4 e5 e7 e8 e10 e11 + e1 e4 e5 e7 e8 e10 e12 - e1 e4 e6 e7 e8 e9 e11 - e1 e4 e6 e7 e8 e10 e11 - e1 e4 e6 e7 e8 e10 e12 - 2 e1 e4 e7 e9 e10 e11 e12 - e1 e4 e8 e9 e10 e11 e12 + e2 e3 e5 e7 e8 e9 e11 - e2 e3 e5 e7 e8 e9 e12 + e2 e3 e5 e7 e8 e10 e12 - e2 e3 e6 e7 e8 e9 e11 + e2 e3 e6 e7 e8 e9 e12 - e2 e3 e6 e7 e8 e10 e12 - e2 e3 e7 e9 e10 e11 e12 - e2 e4 e5 e7 e8 e9 e12 - e2 e4 e5 e7 e8 e10 e11 + e2 e4 e6 e7 e8 e9 e12 + e2 e4 e6 e7 e8 e10 e11 + e2 e4 e7 e9 e10 e11 e12 + e2 e4 e8 e9 e10 e11 e12 + 3 e5 e7 e8 e9 e10 e11 e12 - e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e4 e5 e7 e8 + e1 e2 e3 e4 e7 e9 e11 + e1 e2 e3 e4 e7 e9 e12 + e1 e2 e3 e4 e7 e10 e12 + e1 e2 e3 e4 e8 e9 e12 + e1 e2 e3 e4 e8 e10 e11 + e1 e3 e5 e7 e8 e9 e12 + e1 e3 e5 e7 e8 e10 e11 + e1 e3 e7 e9 e10 e11 e12 + e1 e4 e5 e7 e8 e9 e11 + e1 e4 e5 e7 e8 e10 e11 + e1 e4 e5 e7 e8 e10 e12 + e1 e4 e7 e9 e10 e11 e12 + e1 e4 e8 e9 e10 e11 e12 + e2 e3 e5 e7 e8 e9 e11 + e2 e3 e5 e7 e8 e9 e12 + e2 e3 e5 e7 e8 e10 e12 + e2 e3 e8 e9 e10 e11 e12 + e2 e4 e5 e7 e8 e9 e12 + e2 e4 e5 e7 e8 e10 e11 + e2 e4 e7 e9 e10 e11 e12 + e5 e7 e8 e9 e10 e11 e12",
+    "e1 e2 e3 e4 e6 e7 e8 + e1 e2 e3 e4 e7 e9 e12 + e1 e2 e3 e4 e7 e10 e11 + e1 e2 e3 e4 e8 e9 e11 + e1 e2 e3 e4 e8 e10 e11 + e1 e2 e3 e4 e8 e10 e12 + e1 e3 e6 e7 e8 e9 e12 + e1 e3 e6 e7 e8 e10 e11 + e1 e3 e8 e9 e10 e11 e12 + e1 e4 e6 e7 e8 e9 e11 + e1 e4 e6 e7 e8 e10 e11 + e1 e4 e6 e7 e8 e10 e12 + e1 e4 e7 e9 e10 e11 e12 + e2 e3 e6 e7 e8 e9 e11 + e2 e3 e6 e7 e8 e9 e12 + e2 e3 e6 e7 e8 e10 e12 + e2 e3 e7 e9 e10 e11 e12 + e2 e3 e8 e9 e10 e11 e12 + e2 e4 e6 e7 e8 e9 e12 + e2 e4 e6 e7 e8 e10 e11 + e2 e4 e8 e9 e10 e11 e12 + e6 e7 e8 e9 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 3,
+   "block": "(-1, +0, +0)",
+   "dim_block": 18,
+   "H1_block": "Z^2",
+   "H0_target_block": "(Z/2)^2",
+   "H0_generators": [
+    "e1 e3 e4 e5 e6 e7 e8",
+    "e2 e3 e4 e5 e6 e7 e8"
+   ],
+   "cycles": [
+    {
+     "a1": "- e3 e5 e7 - e3 e6 e7 - e3 e6 e8 + e3 e9 e11 + e3 e10 e11 + e3 e10 e12 - e4 e5 e8 - e4 e6 e7 + e4 e9 e12 + e4 e10 e11",
+     "a2": "e3 e5 e8 + e3 e6 e7 - e3 e9 e12 - e3 e10 e11 + e4 e5 e7 - e4 e5 e8 + e4 e6 e8 - e4 e9 e11 + e4 e9 e12 - e4 e10 e12",
+     "f2": "e1 e3 e4 e5 e6 e7 e8 + e1 e3 e4 e5 e7 e9 e12 + e1 e3 e4 e5 e7 e10 e11 - e1 e3 e4 e5 e8 e9 e11 - e1 e3 e4 e5 e8 e10 e11 - e1 e3 e4 e5 e8 e10 e12 - e1 e3 e4 e6 e7 e9 e11 + e1 e3 e4 e6 e7 e9 e12 - e1 e3 e4 e6 e7 e10 e12 + e1 e3 e4 e6 e8 e9 e12 + e1 e3 e4 e6 e8 e10 e11 - e1 e3 e4 e9 e10 e11 e12 - 2 e2 e3 e4 e5 e6 e7 e8 + 2 e2 e3 e4 e9 e10 e11 e12 + e3 e5 e6 e7 e8 e9 e11 - e3 e5 e6 e7 e8 e9 e12 + e3 e5 e6 e7 e8 e10 e12 - e3 e5 e7 e9 e10 e11 e12 + e3 e5 e8 e9 e10 e11 e12 - e3 e6 e8 e9 e10 e11 e12 - e4 e5 e6 e7 e8 e9 e12 - e4 e5 e6 e7 e8 e10 e11 + e4 e5 e8 e9 e10 e11 e12 + e4 e6 e7 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e3 e5 e7 + e3 e5 e8 + 2 e3 e6 e7 + e3 e6 e8 - e3 e9 e11 - e3 e9 e12 - 2 e3 e10 e11 - e3 e10 e12 + e4 e5 e7 + e4 e6 e7 + e4 e6 e8 - e4 e9 e11 - e4 e10 e11 - e4 e10 e12",
+     "a2": "- e3 e5 e7 - e3 e6 e7 - e3 e6 e8 + e3 e9 e11 + e3 e10 e11 + e3 e10 e12 - e4 e5 e8 - e4 e6 e7 + e4 e9 e12 + e4 e10 e11",
+     "f2": "- 3 e1 e3 e4 e5 e6 e7 e8 - e1 e3 e4 e5 e7 e9 e12 - e1 e3 e4 e5 e7 e10 e11 + e1 e3 e4 e5 e8 e9 e11 + e1 e3 e4 e5 e8 e10 e11 + e1 e3 e4 e5 e8 e10 e12 + e1 e3 e4 e6 e7 e9 e11 - e1 e3 e4 e6 e7 e9 e12 + e1 e3 e4 e6 e7 e10 e12 - e1 e3 e4 e6 e8 e9 e12 - e1 e3 e4 e6 e8 e10 e11 + 3 e1 e3 e4 e9 e10 e11 e12 + e2 e3 e4 e5 e6 e7 e8 + e2 e3 e4 e5 e7 e9 e12 + e2 e3 e4 e5 e7 e10 e11 - e2 e3 e4 e5 e8 e9 e11 - e2 e3 e4 e5 e8 e10 e11 - e2 e3 e4 e5 e8 e10 e12 - e2 e3 e4 e6 e7 e9 e11 + e2 e3 e4 e6 e7 e9 e12 - e2 e3 e4 e6 e7 e10 e12 + e2 e3 e4 e6 e8 e9 e12 + e2 e3 e4 e6 e8 e10 e11 - e2 e3 e4 e9 e10 e11 e12 - e3 e5 e6 e7 e8 e9 e11 + 2 e3 e5 e6 e7 e8 e9 e12 + e3 e5 e6 e7 e8 e10 e11 - e3 e5 e6 e7 e8 e10 e12 + e3 e5 e7 e9 e10 e11 e12 - 2 e3 e5 e8 e9 e10 e11 e12 - e3 e6 e7 e9 e10 e11 e12 + e3 e6 e8 e9 e10 e11 e12 - e4 e5 e6 e7 e8 e9 e11 + e4 e5 e6 e7 e8 e9 e12 - e4 e5 e6 e7 e8 e10 e12 + e4 e5 e7 e9 e10 e11 e12 - e4 e5 e8 e9 e10 e11 e12 + e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e3 e4 e5 e6 e7 e8 + e1 e3 e4 e5 e7 e9 e12 + e1 e3 e4 e5 e7 e10 e11 + e1 e3 e4 e5 e8 e9 e11 + e1 e3 e4 e5 e8 e10 e11 + e1 e3 e4 e5 e8 e10 e12 + e1 e3 e4 e6 e7 e9 e11 + e1 e3 e4 e6 e7 e9 e12 + e1 e3 e4 e6 e7 e10 e12 + e1 e3 e4 e6 e8 e9 e12 + e1 e3 e4 e6 e8 e10 e11 + e1 e3 e4 e9 e10 e11 e12 + e3 e5 e6 e7 e8 e9 e11 + e3 e5 e6 e7 e8 e9 e12 + e3 e5 e6 e7 e8 e10 e12 + e3 e5 e7 e9 e10 e11 e12 + e3 e5 e8 e9 e10 e11 e12 + e3 e6 e8 e9 e10 e11 e12 + e4 e5 e6 e7 e8 e9 e12 + e4 e5 e6 e7 e8 e10 e11 + e4 e5 e8 e9 e10 e11 e12 + e4 e6 e7 e9 e10 e11 e12",
+    "e2 e3 e4 e5 e6 e7 e8 + e2 e3 e4 e5 e7 e9 e12 + e2 e3 e4 e5 e7 e10 e11 + e2 e3 e4 e5 e8 e9 e11 + e2 e3 e4 e5 e8 e10 e11 + e2 e3 e4 e5 e8 e10 e12 + e2 e3 e4 e6 e7 e9 e11 + e2 e3 e4 e6 e7 e9 e12 + e2 e3 e4 e6 e7 e10 e12 + e2 e3 e4 e6 e8 e9 e12 + e2 e3 e4 e6 e8 e10 e11 + e2 e3 e4 e9 e10 e11 e12 + e3 e5 e6 e7 e8 e9 e12 + e3 e5 e6 e7 e8 e10 e11 + e3 e5 e8 e9 e10 e11 e12 + e3 e6 e7 e9 e10 e11 e12 + e4 e5 e6 e7 e8 e9 e11 + e4 e5 e6 e7 e8 e10 e11 + e4 e5 e6 e7 e8 e10 e12 + e4 e5 e7 e9 e10 e11 e12 + e4 e6 e7 e9 e10 e11 e12 + e4 e6 e8 e9 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  },
+  {
+   "k": 4,
+   "block": "(+0, +0, +0)",
+   "dim_block": 51,
+   "H1_block": "Z^16",
+   "H0_target_block": "(Z/2)",
+   "H0_generators": [
+    "e1 e2 e3 e4 e5 e6 e7 e8"
+   ],
+   "cycles": [
+    {
+     "a1": "- 4 e1 e2 e3 e4 - e1 e3 e5 e7 + 14 e1 e3 e5 e8 + 3 e1 e3 e6 e7 + 11 e1 e3 e6 e8 + e1 e3 e9 e11 - 2 e1 e3 e9 e12 - 7 e1 e3 e10 e11 + e1 e3 e10 e12 + 10 e1 e4 e6 e7 - 10 e1 e4 e9 e12 - 10 e1 e4 e10 e11 + 12 e2 e3 e6 e8 - 6 e2 e3 e10 e11 + 5 e2 e4 e5 e7 - 5 e2 e4 e6 e7 + 17 e2 e4 e6 e8 - 5 e2 e4 e9 e11 - 11 e2 e4 e10 e11 - 5 e2 e4 e10 e12 - 2 e5 e6 e7 e8 + 2 e5 e7 e9 e12 + 8 e5 e7 e10 e11 - 20 e5 e8 e9 e11 - 10 e5 e8 e9 e12 - 18 e5 e8 e10 e11 - 10 e6 e7 e9 e11 + 2 e6 e7 e9 e12 + 10 e6 e7 e10 e11 + 10 e6 e7 e10 e12 - 12 e6 e8 e9 e11 - 22 e6 e8 e9 e12 - 28 e6 e8 e10 e11 - 12 e6 e8 e10 e12 - 2 e9 e10 e11 e12",
+     "a2": "4 e1 e2 e3 e4 - 4 e1 e3 e5 e8 + 6 e1 e3 e6 e7 - 24 e1 e3 e6 e8 - 6 e1 e3 e9 e11 - 6 e1 e3 e9 e12 + 14 e1 e3 e10 e12 - 10 e1 e4 e5 e7 - 10 e1 e4 e6 e8 + 10 e1 e4 e9 e11 - 10 e1 e4 e9 e12 + 2 e2 e3 e5 e7 - 18 e2 e3 e5 e8 + 4 e2 e3 e6 e7 - 22 e2 e3 e6 e8 - 10 e2 e3 e9 e11 - 2 e2 e3 e9 e12 + 2 e2 e4 e5 e7 - 18 e2 e4 e5 e8 - 6 e2 e4 e6 e7 - 22 e2 e4 e6 e8 - 20 e2 e4 e9 e11 + 8 e2 e4 e9 e12 - 10 e5 e8 e9 e11 + 10 e5 e8 e9 e12 + 10 e6 e7 e10 e12",
+     "f2": "34 e1 e2 e3 e4 e5 e6 e7 e8 - 4 e1 e2 e3 e4 e5 e7 e9 e11 - 2 e1 e2 e3 e4 e5 e7 e9 e12 - 4 e1 e2 e3 e4 e5 e7 e10 e12 + 16 e1 e2 e3 e4 e5 e8 e9 e11 + 26 e1 e2 e3 e4 e5 e8 e9 e12 + 18 e1 e2 e3 e4 e5 e8 e10 e11 - 14 e1 e2 e3 e4 e5 e8 e10 e12 + 22 e1 e2 e3 e4 e6 e7 e9 e11 - 6 e1 e2 e3 e4 e6 e7 e9 e12 - 2 e1 e2 e3 e4 e6 e7 e10 e11 - 8 e1 e2 e3 e4 e6 e7 e10 e12 - 16 e1 e2 e3 e4 e6 e8 e9 e11 + 46 e1 e2 e3 e4 e6 e8 e9 e12 + 36 e1 e2 e3 e4 e6 e8 e10 e11 - 16 e1 e2 e3 e4 e6 e8 e10 e12 - 2 e1 e2 e3 e4 e9 e10 e11 e12 - e1 e3 e5 e6 e7 e8 e9 e11 + 16 e1 e3 e5 e6 e7 e8 e9 e12 + 9 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e6 e7 e8 e10 e12 - 3 e1 e3 e5 e7 e9 e10 e11 e12 + 6 e1 e3 e5 e8 e9 e10 e11 e12 - 7 e1 e3 e6 e7 e9 e10 e11 e12 + 9 e1 e3 e6 e8 e9 e10 e11 e12 + 10 e1 e4 e5 e6 e7 e8 e9 e12 + 10 e1 e4 e5 e6 e7 e8 e10 e11 - 10 e1 e4 e5 e6 e7 e8 e10 e12 - 10 e1 e4 e6 e7 e9 e10 e11 e12 - 2 e2 e3 e5 e6 e7 e8 e9 e11 + 16 e2 e3 e5 e6 e7 e8 e9 e12 + 8 e2 e3 e5 e6 e7 e8 e10 e11 - 12 e2 e3 e5 e6 e7 e8 e10 e12 - 2 e2 e3 e5 e7 e9 e10 e11 e12 + 20 e2 e3 e5 e8 e9 e10 e11 e12 - 2 e2 e3 e6 e7 e9 e10 e11 e12 + 10 e2 e3 e6 e8 e9 e10 e11 e12 - 7 e2 e4 e5 e6 e7 e8 e9 e11 + 26 e2 e4 e5 e6 e7 e8 e9 e12 + 13 e2 e4 e5 e6 e7 e8 e10 e11 - 7 e2 e4 e5 e6 e7 e8 e10 e12 + 3 e2 e4 e5 e7 e9 e10 e11 e12 + 20 e2 e4 e5 e8 e9 e10 e11 e12 + 13 e2 e4 e6 e7 e9 e10 e11 e12 + 15 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- 3 e1 e2 e3 e4 + 10 e1 e3 e5 e8 + 3 e1 e3 e6 e7 + 9 e1 e3 e6 e8 - 3 e1 e3 e9 e12 - 7 e1 e3 e10 e11 + 7 e1 e4 e6 e7 - 7 e1 e4 e9 e12 - 7 e1 e4 e10 e11 + 9 e2 e3 e6 e8 - 4 e2 e3 e10 e11 + 3 e2 e4 e5 e7 - 4 e2 e4 e6 e7 + 12 e2 e4 e6 e8 - 3 e2 e4 e9 e11 + e2 e4 e9 e12 - 6 e2 e4 e10 e11 - 3 e2 e4 e10 e12 - 2 e5 e6 e7 e8 + 3 e5 e7 e9 e12 + 7 e5 e7 e10 e11 - 14 e5 e8 e9 e11 - 7 e5 e8 e9 e12 - 13 e5 e8 e10 e11 - 7 e6 e7 e9 e11 + e6 e7 e9 e12 + 6 e6 e7 e10 e11 + 7 e6 e7 e10 e12 - 9 e6 e8 e9 e11 - 17 e6 e8 e9 e12 - 22 e6 e8 e10 e11 - 9 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "3 e1 e2 e3 e4 - 3 e1 e3 e5 e8 + 2 e1 e3 e6 e7 - 20 e1 e3 e6 e8 - 4 e1 e3 e9 e11 - 4 e1 e3 e9 e12 + 10 e1 e3 e10 e12 - 8 e1 e4 e5 e7 - 7 e1 e4 e6 e8 + 7 e1 e4 e9 e11 - 7 e1 e4 e9 e12 + 2 e2 e3 e5 e7 - 13 e2 e3 e5 e8 + 2 e2 e3 e6 e7 - 17 e2 e3 e6 e8 - 7 e2 e3 e9 e11 - e2 e3 e9 e12 + 4 e2 e4 e5 e7 - 13 e2 e4 e5 e8 - 4 e2 e4 e6 e7 - 16 e2 e4 e6 e8 - 14 e2 e4 e9 e11 + 6 e2 e4 e9 e12 + e5 e7 e9 e12 + e5 e7 e10 e11 - 7 e5 e8 e9 e11 + 7 e5 e8 e9 e12 + 7 e6 e7 e10 e12",
+     "f2": "27 e1 e2 e3 e4 e5 e6 e7 e8 - 3 e1 e2 e3 e4 e5 e7 e9 e11 - 3 e1 e2 e3 e4 e5 e7 e9 e12 - 2 e1 e2 e3 e4 e5 e7 e10 e11 - 3 e1 e2 e3 e4 e5 e7 e10 e12 + 11 e1 e2 e3 e4 e5 e8 e9 e11 + 18 e1 e2 e3 e4 e5 e8 e9 e12 + 13 e1 e2 e3 e4 e5 e8 e10 e11 - 10 e1 e2 e3 e4 e5 e8 e10 e12 + 15 e1 e2 e3 e4 e6 e7 e9 e11 - 3 e1 e2 e3 e4 e6 e7 e9 e12 - 6 e1 e2 e3 e4 e6 e7 e10 e12 - 12 e1 e2 e3 e4 e6 e8 e9 e11 + 36 e1 e2 e3 e4 e6 e8 e9 e12 + 28 e1 e2 e3 e4 e6 e8 e10 e11 - 12 e1 e2 e3 e4 e6 e8 e10 e12 - 2 e1 e2 e3 e4 e9 e10 e11 e12 - 2 e1 e3 e5 e6 e7 e8 e9 e11 + 15 e1 e3 e5 e6 e7 e8 e9 e12 + 9 e1 e3 e5 e6 e7 e8 e10 e11 - 2 e1 e3 e5 e6 e7 e8 e10 e12 - e1 e3 e5 e7 e9 e10 e11 e12 + 4 e1 e3 e5 e8 e9 e10 e11 e12 - 4 e1 e3 e6 e7 e9 e10 e11 e12 + 8 e1 e3 e6 e8 e9 e10 e11 e12 + 7 e1 e4 e5 e6 e7 e8 e9 e12 + 7 e1 e4 e5 e6 e7 e8 e10 e11 - 7 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e7 e9 e10 e11 e12 - 7 e1 e4 e6 e7 e9 e10 e11 e12 - 2 e2 e3 e5 e6 e7 e8 e9 e11 + 12 e2 e3 e5 e6 e7 e8 e9 e12 + 6 e2 e3 e5 e6 e7 e8 e10 e11 - 9 e2 e3 e5 e6 e7 e8 e10 e12 - 2 e2 e3 e5 e7 e9 e10 e11 e12 + 14 e2 e3 e5 e8 e9 e10 e11 e12 - e2 e3 e6 e7 e9 e10 e11 e12 + 8 e2 e3 e6 e8 e9 e10 e11 e12 - 5 e2 e4 e5 e6 e7 e8 e9 e11 + 17 e2 e4 e5 e6 e7 e8 e9 e12 + 8 e2 e4 e5 e6 e7 e8 e10 e11 - 5 e2 e4 e5 e6 e7 e8 e10 e12 + 2 e2 e4 e5 e7 e9 e10 e11 e12 + 14 e2 e4 e5 e8 e9 e10 e11 e12 + 9 e2 e4 e6 e7 e9 e10 e11 e12 + 11 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- 2 e1 e2 e3 e4 + 5 e1 e3 e5 e8 + 6 e1 e3 e6 e8 - e1 e3 e9 e11 - e1 e3 e9 e12 - 5 e1 e3 e10 e11 + e1 e4 e5 e7 + 6 e1 e4 e6 e7 - 6 e1 e4 e9 e12 - 6 e1 e4 e10 e11 + 5 e2 e3 e6 e8 - 3 e2 e3 e10 e11 + e2 e3 e10 e12 + 2 e2 e4 e5 e7 - 3 e2 e4 e6 e7 + 8 e2 e4 e6 e8 - 3 e2 e4 e9 e11 - 6 e2 e4 e10 e11 - 2 e2 e4 e10 e12 + e5 e7 e9 e11 + e5 e7 e9 e12 + 5 e5 e7 e10 e11 - 10 e5 e8 e9 e11 - 4 e5 e8 e9 e12 - 8 e5 e8 e10 e11 - 4 e6 e7 e9 e11 + 2 e6 e7 e9 e12 + 7 e6 e7 e10 e11 + 5 e6 e7 e10 e12 - 5 e6 e8 e9 e11 - 10 e6 e8 e9 e12 - 12 e6 e8 e10 e11 - 6 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "3 e1 e2 e3 e4 - 3 e1 e3 e5 e8 + 2 e1 e3 e6 e7 - 11 e1 e3 e6 e8 - 5 e1 e3 e9 e11 - e1 e3 e9 e12 + 5 e1 e3 e10 e12 - 5 e1 e4 e5 e7 - 6 e1 e4 e6 e8 + 6 e1 e4 e9 e11 - 6 e1 e4 e9 e12 + 2 e2 e3 e5 e7 - 8 e2 e3 e5 e8 + 4 e2 e3 e6 e7 - 10 e2 e3 e6 e8 - 4 e2 e3 e9 e11 - 2 e2 e3 e9 e12 + e2 e4 e5 e7 - 8 e2 e4 e5 e8 - 2 e2 e4 e6 e7 - 10 e2 e4 e6 e8 - 10 e2 e4 e9 e11 + 4 e2 e4 e9 e12 - e5 e6 e7 e8 + e5 e7 e9 e11 - e5 e7 e9 e12 + e5 e7 e10 e12 - 6 e5 e8 e9 e11 + 6 e5 e8 e9 e12 + 6 e6 e7 e10 e12",
+     "f2": "14 e1 e2 e3 e4 e5 e6 e7 e8 - e1 e2 e3 e4 e5 e7 e9 e11 - 2 e1 e2 e3 e4 e5 e7 e9 e12 - 2 e1 e2 e3 e4 e5 e7 e10 e12 + 9 e1 e2 e3 e4 e5 e8 e9 e11 + 11 e1 e2 e3 e4 e5 e8 e9 e12 + 8 e1 e2 e3 e4 e5 e8 e10 e11 - 5 e1 e2 e3 e4 e5 e8 e10 e12 + 13 e1 e2 e3 e4 e6 e7 e9 e11 - 6 e1 e2 e3 e4 e6 e7 e9 e12 - 2 e1 e2 e3 e4 e6 e7 e10 e11 - 2 e1 e2 e3 e4 e6 e7 e10 e12 - 7 e1 e2 e3 e4 e6 e8 e9 e11 + 21 e1 e2 e3 e4 e6 e8 e9 e12 + 17 e1 e2 e3 e4 e6 e8 e10 e11 - 8 e1 e2 e3 e4 e6 e8 e10 e12 - 3 e1 e2 e3 e4 e9 e10 e11 e12 - e1 e3 e5 e6 e7 e8 e9 e11 + 8 e1 e3 e5 e6 e7 e8 e9 e12 + 4 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e7 e9 e10 e11 e12 + 5 e1 e3 e5 e8 e9 e10 e11 e12 - e1 e3 e6 e7 e9 e10 e11 e12 + 5 e1 e3 e6 e8 e9 e10 e11 e12 - e1 e4 e5 e6 e7 e8 e9 e11 + 7 e1 e4 e5 e6 e7 e8 e9 e12 + 6 e1 e4 e5 e6 e7 e8 e10 e11 - 7 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e7 e9 e10 e11 e12 - 6 e1 e4 e6 e7 e9 e10 e11 e12 - e2 e3 e5 e6 e7 e8 e9 e11 + 6 e2 e3 e5 e6 e7 e8 e9 e12 + 2 e2 e3 e5 e6 e7 e8 e10 e11 - 6 e2 e3 e5 e6 e7 e8 e10 e12 - 3 e2 e3 e5 e7 e9 e10 e11 e12 + 10 e2 e3 e5 e8 e9 e10 e11 e12 - 3 e2 e3 e6 e7 e9 e10 e11 e12 + 4 e2 e3 e6 e8 e9 e10 e11 e12 - 3 e2 e4 e5 e6 e7 e8 e9 e11 + 11 e2 e4 e5 e6 e7 e8 e9 e12 + 5 e2 e4 e5 e6 e7 e8 e10 e11 - 2 e2 e4 e5 e6 e7 e8 e10 e12 + e2 e4 e5 e7 e9 e10 e11 e12 + 10 e2 e4 e5 e8 e9 e10 e11 e12 + 6 e2 e4 e6 e7 e9 e10 e11 e12 + 7 e2 e4 e6 e8 e9 e10 e11 e12 + e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e2 e3 e4 - 3 e1 e3 e5 e8 - e1 e3 e6 e7 - 4 e1 e3 e6 e8 + e1 e3 e9 e12 + 3 e1 e3 e10 e11 - 2 e1 e4 e6 e7 + 2 e1 e4 e9 e12 + 2 e1 e4 e10 e11 - 4 e2 e3 e6 e8 + 2 e2 e3 e10 e11 - e2 e4 e5 e8 + e2 e4 e6 e7 - 4 e2 e4 e6 e8 - e2 e4 e9 e12 + e2 e4 e10 e11 + e5 e6 e7 e8 - e5 e7 e9 e12 - 3 e5 e7 e10 e11 + 5 e5 e8 e9 e11 + 4 e5 e8 e9 e12 + 5 e5 e8 e10 e11 + e5 e8 e10 e12 + 3 e6 e7 e9 e11 + e6 e7 e9 e12 - 2 e6 e7 e10 e11 - e6 e7 e10 e12 + 4 e6 e8 e9 e11 + 7 e6 e8 e9 e12 + 9 e6 e8 e10 e11 + 4 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- e1 e2 e3 e4 + 2 e1 e3 e5 e8 + 8 e1 e3 e6 e8 + 2 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 2 e1 e3 e10 e12 + 2 e1 e4 e5 e7 + 2 e1 e4 e6 e8 - 2 e1 e4 e9 e11 + 2 e1 e4 e9 e12 - e2 e3 e5 e7 + 5 e2 e3 e5 e8 + 7 e2 e3 e6 e8 + 3 e2 e3 e9 e11 + e2 e3 e9 e12 + e2 e3 e10 e12 - 2 e2 e4 e5 e7 + 4 e2 e4 e5 e8 + 6 e2 e4 e6 e8 + 4 e2 e4 e9 e11 + 2 e5 e8 e9 e11 - 2 e5 e8 e9 e12 - 2 e6 e7 e10 e12",
+     "f2": "- 10 e1 e2 e3 e4 e5 e6 e7 e8 + e1 e2 e3 e4 e5 e7 e9 e11 + 2 e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 + e1 e2 e3 e4 e5 e7 e10 e12 - 4 e1 e2 e3 e4 e5 e8 e9 e11 - 9 e1 e2 e3 e4 e5 e8 e9 e12 - 5 e1 e2 e3 e4 e5 e8 e10 e11 + 2 e1 e2 e3 e4 e5 e8 e10 e12 - 5 e1 e2 e3 e4 e6 e7 e9 e11 - e1 e2 e3 e4 e6 e7 e9 e12 + e1 e2 e3 e4 e6 e7 e10 e12 + 5 e1 e2 e3 e4 e6 e8 e9 e11 - 14 e1 e2 e3 e4 e6 e8 e9 e12 - 11 e1 e2 e3 e4 e6 e8 e10 e11 + 5 e1 e2 e3 e4 e6 e8 e10 e12 - 2 e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e11 - 7 e1 e3 e5 e6 e7 e8 e9 e12 - 4 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 3 e1 e3 e5 e8 e9 e10 e11 e12 - 3 e1 e3 e6 e8 e9 e10 e11 e12 - 2 e1 e4 e5 e6 e7 e8 e9 e12 - 2 e1 e4 e5 e6 e7 e8 e10 e11 + 2 e1 e4 e5 e6 e7 e8 e10 e12 + 2 e1 e4 e6 e7 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 6 e2 e3 e5 e6 e7 e8 e9 e12 - 3 e2 e3 e5 e6 e7 e8 e10 e11 + 3 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 6 e2 e3 e5 e8 e9 e10 e11 e12 - e2 e3 e6 e7 e9 e10 e11 e12 - 3 e2 e3 e6 e8 e9 e10 e11 e12 + e2 e4 e5 e6 e7 e8 e9 e11 - 5 e2 e4 e5 e6 e7 e8 e9 e12 - 2 e2 e4 e5 e6 e7 e8 e10 e11 + e2 e4 e5 e6 e7 e8 e10 e12 + e2 e4 e5 e7 e9 e10 e11 e12 - 5 e2 e4 e5 e8 e9 e10 e11 e12 - 2 e2 e4 e6 e7 e9 e10 e11 e12 - 3 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "3 e1 e2 e3 e4 - 8 e1 e3 e5 e8 - e1 e3 e6 e7 - 9 e1 e3 e6 e8 + e1 e3 e9 e11 + 2 e1 e3 e9 e12 + 7 e1 e3 e10 e11 - 8 e1 e4 e6 e7 + 8 e1 e4 e9 e12 + 8 e1 e4 e10 e11 + e2 e3 e5 e7 - 8 e2 e3 e6 e8 + 4 e2 e3 e10 e11 - e2 e3 e10 e12 - 3 e2 e4 e5 e7 + 4 e2 e4 e6 e7 - 12 e2 e4 e6 e8 + 4 e2 e4 e9 e11 + 8 e2 e4 e10 e11 + 3 e2 e4 e10 e12 + e5 e6 e7 e8 - e5 e7 e9 e11 - 2 e5 e7 e9 e12 - 7 e5 e7 e10 e11 + 14 e5 e8 e9 e11 + 6 e5 e8 e9 e12 + 12 e5 e8 e10 e11 + 6 e6 e7 e9 e11 - 2 e6 e7 e9 e12 - 8 e6 e7 e10 e11 - 7 e6 e7 e10 e12 + 8 e6 e8 e9 e11 + 16 e6 e8 e9 e12 + 20 e6 e8 e10 e11 + 9 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- 4 e1 e2 e3 e4 + 4 e1 e3 e5 e8 - 2 e1 e3 e6 e7 + 18 e1 e3 e6 e8 + 6 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 8 e1 e3 e10 e12 + 8 e1 e4 e5 e7 + 8 e1 e4 e6 e8 - 8 e1 e4 e9 e11 + 8 e1 e4 e9 e12 - 2 e2 e3 e5 e7 + 12 e2 e3 e5 e8 - 4 e2 e3 e6 e7 + 16 e2 e3 e6 e8 + 6 e2 e3 e9 e11 + 2 e2 e3 e9 e12 - 2 e2 e4 e5 e7 + 12 e2 e4 e5 e8 + 4 e2 e4 e6 e7 + 16 e2 e4 e6 e8 + 14 e2 e4 e9 e11 - 6 e2 e4 e9 e12 + 8 e5 e8 e9 e11 - 8 e5 e8 e9 e12 - 8 e6 e7 e10 e12",
+     "f2": "- 24 e1 e2 e3 e4 e5 e6 e7 e8 + 2 e1 e2 e3 e4 e5 e7 e9 e11 + 2 e1 e2 e3 e4 e5 e7 e9 e12 + 3 e1 e2 e3 e4 e5 e7 e10 e12 - 12 e1 e2 e3 e4 e5 e8 e9 e11 - 16 e1 e2 e3 e4 e5 e8 e9 e12 - 12 e1 e2 e3 e4 e5 e8 e10 e11 + 8 e1 e2 e3 e4 e5 e8 e10 e12 - 17 e1 e2 e3 e4 e6 e7 e9 e11 + 6 e1 e2 e3 e4 e6 e7 e9 e12 + e1 e2 e3 e4 e6 e7 e10 e11 + 4 e1 e2 e3 e4 e6 e7 e10 e12 + 11 e1 e2 e3 e4 e6 e8 e9 e11 - 34 e1 e2 e3 e4 e6 e8 e9 e12 - 27 e1 e2 e3 e4 e6 e8 e10 e11 + 12 e1 e2 e3 e4 e6 e8 e10 e12 + 4 e1 e2 e3 e4 e9 e10 e11 e12 + 2 e1 e3 e5 e6 e7 e8 e9 e11 - 14 e1 e3 e5 e6 e7 e8 e9 e12 - 8 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 6 e1 e3 e5 e8 e9 e10 e11 e12 + 2 e1 e3 e6 e7 e9 e10 e11 e12 - 8 e1 e3 e6 e8 e9 e10 e11 e12 - 8 e1 e4 e5 e6 e7 e8 e9 e12 - 8 e1 e4 e5 e6 e7 e8 e10 e11 + 8 e1 e4 e5 e6 e7 e8 e10 e12 + 8 e1 e4 e6 e7 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 10 e2 e3 e5 e6 e7 e8 e9 e12 - 5 e2 e3 e5 e6 e7 e8 e10 e11 + 8 e2 e3 e5 e6 e7 e8 e10 e12 + 2 e2 e3 e5 e7 e9 e10 e11 e12 - 14 e2 e3 e5 e8 e9 e10 e11 e12 + 3 e2 e3 e6 e7 e9 e10 e11 e12 - 7 e2 e3 e6 e8 e9 e10 e11 e12 + 5 e2 e4 e5 e6 e7 e8 e9 e11 - 18 e2 e4 e5 e6 e7 e8 e9 e12 - 9 e2 e4 e5 e6 e7 e8 e10 e11 + 4 e2 e4 e5 e6 e7 e8 e10 e12 - 2 e2 e4 e5 e7 e9 e10 e11 e12 - 14 e2 e4 e5 e8 e9 e10 e11 e12 - 9 e2 e4 e6 e7 e9 e10 e11 e12 - 11 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "e1 e2 e3 e4 - 4 e1 e3 e5 e8 - e1 e3 e6 e7 - 4 e1 e3 e6 e8 + e1 e3 e9 e12 + 3 e1 e3 e10 e11 - 3 e1 e4 e6 e7 + 3 e1 e4 e9 e12 + 3 e1 e4 e10 e11 - 4 e2 e3 e6 e8 + 2 e2 e3 e10 e11 - e2 e4 e5 e7 + 2 e2 e4 e6 e7 - 5 e2 e4 e6 e8 + e2 e4 e9 e11 - e2 e4 e9 e12 + 2 e2 e4 e10 e11 + e2 e4 e10 e12 + e5 e6 e7 e8 - e5 e7 e9 e12 - 3 e5 e7 e10 e11 + 6 e5 e8 e9 e11 + 5 e5 e8 e9 e12 + 7 e5 e8 e10 e11 + 3 e6 e7 e9 e11 - e6 e7 e9 e12 - 4 e6 e7 e10 e11 - 3 e6 e7 e10 e12 + 4 e6 e8 e9 e11 + 7 e6 e8 e9 e12 + 9 e6 e8 e10 e11 + 4 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- e1 e2 e3 e4 + 3 e1 e3 e5 e8 - 2 e1 e3 e6 e7 + 8 e1 e3 e6 e8 + 2 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 4 e1 e3 e10 e12 + 3 e1 e4 e5 e7 - e1 e4 e5 e8 + 3 e1 e4 e6 e8 - 3 e1 e4 e9 e11 + 3 e1 e4 e9 e12 - e2 e3 e5 e7 + 6 e2 e3 e5 e8 - 2 e2 e3 e6 e7 + 7 e2 e3 e6 e8 + 3 e2 e3 e9 e11 + e2 e3 e9 e12 - 2 e2 e4 e5 e7 + 7 e2 e4 e5 e8 + 6 e2 e4 e6 e8 + 6 e2 e4 e9 e11 - 2 e2 e4 e9 e12 + e5 e6 e7 e8 + 3 e5 e8 e9 e11 - 2 e5 e8 e9 e12 + e5 e8 e10 e11 - 3 e6 e7 e10 e12",
+     "f2": "- 11 e1 e2 e3 e4 e5 e6 e7 e8 + e1 e2 e3 e4 e5 e7 e9 e11 + 2 e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 + e1 e2 e3 e4 e5 e7 e10 e12 - 5 e1 e2 e3 e4 e5 e8 e9 e11 - 11 e1 e2 e3 e4 e5 e8 e9 e12 - 8 e1 e2 e3 e4 e5 e8 e10 e11 + 4 e1 e2 e3 e4 e5 e8 e10 e12 - 7 e1 e2 e3 e4 e6 e7 e9 e11 + 3 e1 e2 e3 e4 e6 e7 e9 e12 + 2 e1 e2 e3 e4 e6 e7 e10 e11 + 2 e1 e2 e3 e4 e6 e7 e10 e12 + 5 e1 e2 e3 e4 e6 e8 e9 e11 - 14 e1 e2 e3 e4 e6 e8 e9 e12 - 11 e1 e2 e3 e4 e6 e8 e10 e11 + 5 e1 e2 e3 e4 e6 e8 e10 e12 + e1 e3 e5 e6 e7 e8 e9 e11 - 5 e1 e3 e5 e6 e7 e8 e9 e12 - 2 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 2 e1 e3 e5 e8 e9 e10 e11 e12 + 2 e1 e3 e6 e7 e9 e10 e11 e12 - 3 e1 e3 e6 e8 e9 e10 e11 e12 - 4 e1 e4 e5 e6 e7 e8 e9 e12 - 4 e1 e4 e5 e6 e7 e8 e10 e11 + 3 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e8 e9 e10 e11 e12 + 3 e1 e4 e6 e7 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 5 e2 e3 e5 e6 e7 e8 e9 e12 - 2 e2 e3 e5 e6 e7 e8 e10 e11 + 4 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 7 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 - 3 e2 e3 e6 e8 e9 e10 e11 e12 + 2 e2 e4 e5 e6 e7 e8 e9 e11 - 5 e2 e4 e5 e6 e7 e8 e9 e12 - e2 e4 e5 e6 e7 e8 e10 e11 + 2 e2 e4 e5 e6 e7 e8 e10 e12 - 6 e2 e4 e5 e8 e9 e10 e11 e12 - 3 e2 e4 e6 e7 e9 e10 e11 e12 - 4 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- e1 e2 e3 e4 + 2 e1 e3 e5 e8 + e1 e3 e6 e7 + 3 e1 e3 e6 e8 - e1 e3 e9 e12 - 3 e1 e3 e10 e11 + e1 e4 e5 e8 + 2 e1 e4 e6 e7 - 2 e1 e4 e9 e12 - 2 e1 e4 e10 e11 + 3 e2 e3 e6 e8 - 2 e2 e3 e10 e11 - e2 e4 e6 e7 + 3 e2 e4 e6 e8 + e2 e4 e9 e12 - e2 e4 e10 e11 + e5 e7 e9 e12 + 3 e5 e7 e10 e11 - 4 e5 e8 e9 e11 - 3 e5 e8 e9 e12 - 3 e5 e8 e10 e11 - 3 e6 e7 e9 e11 - e6 e7 e9 e12 + 2 e6 e7 e10 e11 + e6 e7 e10 e12 - 3 e6 e8 e9 e11 - 5 e6 e8 e9 e12 - 6 e6 e8 e10 e11 - 3 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "e1 e2 e3 e4 - e1 e3 e5 e8 - 6 e1 e3 e6 e8 - 2 e1 e3 e9 e11 - 2 e1 e3 e9 e12 + 2 e1 e3 e10 e12 - 2 e1 e4 e5 e7 + e1 e4 e5 e8 - 2 e1 e4 e6 e8 + 2 e1 e4 e9 e11 - 2 e1 e4 e9 e12 + e2 e3 e5 e7 - 3 e2 e3 e5 e8 - 5 e2 e3 e6 e8 - 3 e2 e3 e9 e11 - e2 e3 e9 e12 - e2 e3 e10 e12 + 2 e2 e4 e5 e7 - 3 e2 e4 e5 e8 - 4 e2 e4 e6 e8 - 4 e2 e4 e9 e11 - e5 e8 e9 e11 + e5 e8 e9 e12 + e5 e8 e10 e12 + 2 e6 e7 e10 e12",
+     "f2": "7 e1 e2 e3 e4 e5 e6 e7 e8 - e1 e2 e3 e4 e5 e7 e9 e11 - 2 e1 e2 e3 e4 e5 e7 e9 e12 - e1 e2 e3 e4 e5 e7 e10 e11 - e1 e2 e3 e4 e5 e7 e10 e12 + 5 e1 e2 e3 e4 e5 e8 e9 e11 + 6 e1 e2 e3 e4 e5 e8 e9 e12 + 3 e1 e2 e3 e4 e5 e8 e10 e11 - e1 e2 e3 e4 e5 e8 e10 e12 + 5 e1 e2 e3 e4 e6 e7 e9 e11 + e1 e2 e3 e4 e6 e7 e9 e12 - e1 e2 e3 e4 e6 e7 e10 e12 - 4 e1 e2 e3 e4 e6 e8 e9 e11 + 10 e1 e2 e3 e4 e6 e8 e9 e12 + 8 e1 e2 e3 e4 e6 e8 e10 e11 - 4 e1 e2 e3 e4 e6 e8 e10 e12 + 2 e1 e2 e3 e4 e9 e10 e11 e12 + 5 e1 e3 e5 e6 e7 e8 e9 e12 + 3 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e7 e9 e10 e11 e12 + 2 e1 e3 e5 e8 e9 e10 e11 e12 + 2 e1 e3 e6 e8 e9 e10 e11 e12 + 2 e1 e4 e5 e6 e7 e8 e9 e12 + 2 e1 e4 e5 e6 e7 e8 e10 e11 - 2 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e8 e9 e10 e11 e12 - 2 e1 e4 e6 e7 e9 e10 e11 e12 + 4 e2 e3 e5 e6 e7 e8 e9 e12 + 2 e2 e3 e5 e6 e7 e8 e10 e11 - 2 e2 e3 e5 e6 e7 e8 e10 e12 - e2 e3 e5 e7 e9 e10 e11 e12 + 4 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 + 2 e2 e3 e6 e8 e9 e10 e11 e12 + 3 e2 e4 e5 e6 e7 e8 e9 e12 + e2 e4 e5 e6 e7 e8 e10 e11 - e2 e4 e5 e7 e9 e10 e11 e12 + 4 e2 e4 e5 e8 e9 e10 e11 e12 + 2 e2 e4 e6 e7 e9 e10 e11 e12 + 2 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- e1 e2 e3 e4 + 2 e1 e3 e5 e8 + e1 e3 e6 e8 - e1 e3 e10 e11 + 2 e1 e4 e6 e7 - 2 e1 e4 e9 e12 - 2 e1 e4 e10 e11 + e2 e3 e6 e8 - e2 e3 e10 e11 + e2 e4 e5 e7 - e2 e4 e6 e7 + 2 e2 e4 e6 e8 - e2 e4 e9 e11 - 2 e2 e4 e10 e11 - e2 e4 e10 e12 + e5 e6 e7 e8 + e5 e7 e10 e11 - 2 e5 e8 e9 e11 - 2 e5 e8 e10 e11 + 2 e6 e7 e9 e12 + 3 e6 e7 e10 e11 + 2 e6 e7 e10 e12 - e6 e8 e9 e11 - 2 e6 e8 e9 e12 - 2 e6 e8 e10 e11 - e6 e8 e10 e12",
+     "a2": "2 e1 e3 e6 e7 - 2 e1 e3 e6 e8 + 2 e1 e3 e10 e12 - 2 e1 e4 e5 e7 - 2 e1 e4 e6 e8 + e1 e4 e9 e11 - 2 e1 e4 e9 e12 - 2 e2 e3 e5 e8 + 2 e2 e3 e6 e7 - 2 e2 e3 e6 e8 - e2 e3 e9 e11 - 2 e2 e4 e5 e8 - 2 e2 e4 e6 e8 - 2 e2 e4 e9 e11 + 2 e2 e4 e9 e12 - e5 e8 e9 e11 + 2 e5 e8 e9 e12 + e6 e7 e9 e11 + 2 e6 e7 e10 e12",
+     "f2": "2 e1 e2 e3 e4 e5 e6 e7 e8 - e1 e2 e3 e4 e5 e7 e9 e11 - e1 e2 e3 e4 e5 e7 e10 e12 + e1 e2 e3 e4 e5 e8 e9 e11 + 2 e1 e2 e3 e4 e5 e8 e9 e12 + 2 e1 e2 e3 e4 e5 e8 e10 e11 - 2 e1 e2 e3 e4 e5 e8 e10 e12 + 2 e1 e2 e3 e4 e6 e7 e9 e11 - 4 e1 e2 e3 e4 e6 e7 e9 e12 - 2 e1 e2 e3 e4 e6 e7 e10 e11 - e1 e2 e3 e4 e6 e7 e10 e12 - 2 e1 e2 e3 e4 e6 e8 e9 e11 + 4 e1 e2 e3 e4 e6 e8 e9 e12 + 3 e1 e2 e3 e4 e6 e8 e10 e11 - 2 e1 e2 e3 e4 e6 e8 e10 e12 - e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e11 + e1 e3 e5 e6 e7 e8 e10 e12 - 2 e1 e3 e6 e7 e9 e10 e11 e12 + e1 e3 e6 e8 e9 e10 e11 e12 - e1 e4 e5 e6 e7 e8 e9 e11 + 2 e1 e4 e5 e6 e7 e8 e9 e12 + 2 e1 e4 e5 e6 e7 e8 e10 e11 - 2 e1 e4 e5 e6 e7 e8 e10 e12 - 2 e1 e4 e6 e7 e9 e10 e11 e12 - e2 e3 e5 e6 e7 e8 e10 e12 + 2 e2 e3 e5 e8 e9 e10 e11 e12 - 2 e2 e3 e6 e7 e9 e10 e11 e12 + e2 e3 e6 e8 e9 e10 e11 e12 + 2 e2 e4 e5 e6 e7 e8 e9 e12 + e2 e4 e5 e6 e7 e8 e10 e11 + e2 e4 e5 e7 e9 e10 e11 e12 + 2 e2 e4 e5 e8 e9 e10 e11 e12 + e2 e4 e6 e7 e9 e10 e11 e12 + 2 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- 2 e1 e3 e5 e8 - 2 e1 e3 e6 e8 + e1 e3 e9 e12 + 2 e1 e3 e10 e11 - 2 e1 e4 e6 e7 + e1 e4 e9 e12 + e1 e4 e10 e11 - 2 e2 e3 e6 e8 + e2 e3 e10 e11 + 2 e2 e4 e6 e7 - 2 e2 e4 e6 e8 - e2 e4 e9 e12 - e5 e7 e9 e12 - 2 e5 e7 e10 e11 + 4 e5 e8 e9 e11 + 3 e5 e8 e9 e12 + 3 e5 e8 e10 e11 + 2 e6 e7 e9 e11 - 3 e6 e7 e10 e11 - 2 e6 e7 e10 e12 + 2 e6 e8 e9 e11 + 3 e6 e8 e9 e12 + 4 e6 e8 e10 e11 + 2 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- e1 e2 e3 e4 + e1 e3 e5 e8 - e1 e3 e6 e7 + 4 e1 e3 e6 e8 + 2 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 2 e1 e3 e10 e12 + e1 e4 e5 e7 - e1 e4 e6 e7 + e1 e4 e6 e8 - 2 e1 e4 e9 e11 + e1 e4 e9 e12 - e2 e3 e5 e7 + 3 e2 e3 e5 e8 - 2 e2 e3 e6 e7 + 3 e2 e3 e6 e8 + 2 e2 e3 e9 e11 + e2 e3 e9 e12 - 2 e2 e4 e5 e7 + 3 e2 e4 e5 e8 - e2 e4 e6 e7 + 2 e2 e4 e6 e8 + 4 e2 e4 e9 e11 + e5 e6 e7 e8 + 2 e5 e8 e9 e11 - e5 e8 e9 e12 + e6 e7 e9 e12 - 2 e6 e7 e10 e12",
+     "f2": "- 2 e1 e2 e3 e4 e5 e6 e7 e8 + 2 e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 - 4 e1 e2 e3 e4 e5 e8 e9 e11 - 6 e1 e2 e3 e4 e5 e8 e9 e12 - 3 e1 e2 e3 e4 e5 e8 e10 e11 + 2 e1 e2 e3 e4 e5 e8 e10 e12 - 6 e1 e2 e3 e4 e6 e7 e9 e11 + 2 e1 e2 e3 e4 e6 e7 e9 e12 + 2 e1 e2 e3 e4 e6 e7 e10 e11 + 2 e1 e2 e3 e4 e6 e8 e9 e11 - 6 e1 e2 e3 e4 e6 e8 e9 e12 - 5 e1 e2 e3 e4 e6 e8 e10 e11 + 2 e1 e2 e3 e4 e6 e8 e10 e12 - e1 e2 e3 e4 e9 e10 e11 e12 - 2 e1 e3 e5 e6 e7 e8 e9 e12 - e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e7 e9 e10 e11 e12 - 2 e1 e3 e5 e8 e9 e10 e11 e12 + e1 e3 e6 e7 e9 e10 e11 e12 - e1 e3 e6 e8 e9 e10 e11 e12 - 2 e1 e4 e5 e6 e7 e8 e9 e12 - e1 e4 e5 e6 e7 e8 e10 e11 + 2 e1 e4 e5 e6 e7 e8 e10 e12 + 2 e1 e4 e6 e7 e9 e10 e11 e12 - 2 e2 e3 e5 e6 e7 e8 e9 e12 + 2 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 4 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 - e2 e3 e6 e8 e9 e10 e11 e12 + e2 e4 e5 e6 e7 e8 e10 e11 + e2 e4 e5 e7 e9 e10 e11 e12 - 4 e2 e4 e5 e8 e9 e10 e11 e12 - e2 e4 e6 e7 e9 e10 e11 e12 - e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "2 e1 e2 e3 e4 - 6 e1 e3 e5 e8 - 2 e1 e3 e6 e7 - 5 e1 e3 e6 e8 + e1 e3 e9 e12 + 4 e1 e3 e10 e11 - 4 e1 e4 e6 e7 + 5 e1 e4 e9 e12 + 5 e1 e4 e10 e11 - 5 e2 e3 e6 e8 + 3 e2 e3 e10 e11 - 2 e2 e4 e5 e7 + 2 e2 e4 e6 e7 - 7 e2 e4 e6 e8 + 2 e2 e4 e9 e11 - e2 e4 e9 e12 + 4 e2 e4 e10 e11 + 2 e2 e4 e10 e12 + e5 e6 e7 e8 - e5 e7 e9 e12 - 4 e5 e7 e10 e11 + 8 e5 e8 e9 e11 + 3 e5 e8 e9 e12 + 7 e5 e8 e10 e11 + 4 e6 e7 e9 e11 - 3 e6 e7 e10 e11 - 4 e6 e7 e10 e12 + 5 e6 e8 e9 e11 + 9 e6 e8 e9 e12 + 11 e6 e8 e10 e11 + 5 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- e1 e2 e3 e4 + e1 e3 e5 e8 - e1 e3 e6 e7 + 10 e1 e3 e6 e8 + 2 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 6 e1 e3 e10 e12 + 5 e1 e4 e5 e7 + 5 e1 e4 e6 e8 - 4 e1 e4 e9 e11 + 5 e1 e4 e9 e12 - e2 e3 e5 e7 + 7 e2 e3 e5 e8 - e2 e3 e6 e7 + 9 e2 e3 e6 e8 + 4 e2 e3 e9 e11 + e2 e3 e9 e12 - 2 e2 e4 e5 e7 + 7 e2 e4 e5 e8 + 3 e2 e4 e6 e7 + 8 e2 e4 e6 e8 + 8 e2 e4 e9 e11 - 4 e2 e4 e9 e12 + 4 e5 e8 e9 e11 - 5 e5 e8 e9 e12 + e6 e7 e10 e11 - 4 e6 e7 e10 e12",
+     "f2": "- 16 e1 e2 e3 e4 e5 e6 e7 e8 + 2 e1 e2 e3 e4 e5 e7 e9 e11 + 2 e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 + 2 e1 e2 e3 e4 e5 e7 e10 e12 - 6 e1 e2 e3 e4 e5 e8 e9 e11 - 10 e1 e2 e3 e4 e5 e8 e9 e12 - 7 e1 e2 e3 e4 e5 e8 e10 e11 + 6 e1 e2 e3 e4 e5 e8 e10 e12 - 8 e1 e2 e3 e4 e6 e7 e9 e11 + e1 e2 e3 e4 e6 e7 e9 e12 - e1 e2 e3 e4 e6 e7 e10 e11 + 4 e1 e2 e3 e4 e6 e7 e10 e12 + 7 e1 e2 e3 e4 e6 e8 e9 e11 - 18 e1 e2 e3 e4 e6 e8 e9 e12 - 14 e1 e2 e3 e4 e6 e8 e10 e11 + 7 e1 e2 e3 e4 e6 e8 e10 e12 + e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e11 - 8 e1 e3 e5 e6 e7 e8 e9 e12 - 4 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 2 e1 e3 e5 e8 e9 e10 e11 e12 + 3 e1 e3 e6 e7 e9 e10 e11 e12 - 4 e1 e3 e6 e8 e9 e10 e11 e12 - 5 e1 e4 e5 e6 e7 e8 e9 e12 - 6 e1 e4 e5 e6 e7 e8 e10 e11 + 4 e1 e4 e5 e6 e7 e8 e10 e12 + 3 e1 e4 e6 e7 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 7 e2 e3 e5 e6 e7 e8 e9 e12 - 4 e2 e3 e5 e6 e7 e8 e10 e11 + 5 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 8 e2 e3 e5 e8 e9 e10 e11 e12 - 4 e2 e3 e6 e8 e9 e10 e11 e12 + 3 e2 e4 e5 e6 e7 e8 e9 e11 - 10 e2 e4 e5 e6 e7 e8 e9 e12 - 4 e2 e4 e5 e6 e7 e8 e10 e11 + 3 e2 e4 e5 e6 e7 e8 e10 e12 - e2 e4 e5 e7 e9 e10 e11 e12 - 8 e2 e4 e5 e8 e9 e10 e11 e12 - 5 e2 e4 e6 e7 e9 e10 e11 e12 - 6 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "3 e1 e2 e3 e4 - 6 e1 e3 e5 e8 - e1 e3 e6 e7 - 6 e1 e3 e6 e8 + e1 e3 e9 e12 + 4 e1 e3 e10 e11 - 5 e1 e4 e6 e7 + 7 e1 e4 e9 e12 + 7 e1 e4 e10 e11 - 6 e2 e3 e6 e8 + 3 e2 e3 e10 e11 - 3 e2 e4 e5 e7 + 2 e2 e4 e6 e7 - 9 e2 e4 e6 e8 + 3 e2 e4 e9 e11 + e2 e4 e9 e12 + 7 e2 e4 e10 e11 + 3 e2 e4 e10 e12 + e5 e6 e7 e8 - e5 e7 e9 e12 - 4 e5 e7 e10 e11 + 10 e5 e8 e9 e11 + 5 e5 e8 e9 e12 + 9 e5 e8 e10 e11 + 5 e6 e7 e9 e11 - e6 e7 e9 e12 - 5 e6 e7 e10 e11 - 5 e6 e7 e10 e12 + 6 e6 e8 e9 e11 + 11 e6 e8 e9 e12 + 14 e6 e8 e10 e11 + 6 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- 2 e1 e2 e3 e4 + 3 e1 e3 e5 e8 - 2 e1 e3 e6 e7 + 12 e1 e3 e6 e8 + 4 e1 e3 e9 e11 + 2 e1 e3 e9 e12 - 6 e1 e3 e10 e12 + 7 e1 e4 e5 e7 - e1 e4 e5 e8 + e1 e4 e6 e7 + 7 e1 e4 e6 e8 - 5 e1 e4 e9 e11 + 6 e1 e4 e9 e12 + e1 e4 e10 e11 - e2 e3 e5 e7 + 9 e2 e3 e5 e8 - 2 e2 e3 e6 e7 + 11 e2 e3 e6 e8 + 5 e2 e3 e9 e11 + e2 e3 e9 e12 + 9 e2 e4 e5 e8 + 4 e2 e4 e6 e7 + 12 e2 e4 e6 e8 + 10 e2 e4 e9 e11 - 4 e2 e4 e9 e12 + 5 e5 e8 e9 e11 - 5 e5 e8 e9 e12 - 5 e6 e7 e10 e12",
+     "f2": "- 21 e1 e2 e3 e4 e5 e6 e7 e8 + 3 e1 e2 e3 e4 e5 e7 e9 e11 + 3 e1 e2 e3 e4 e5 e7 e10 e12 - 9 e1 e2 e3 e4 e5 e8 e9 e11 - 13 e1 e2 e3 e4 e5 e8 e9 e12 - 10 e1 e2 e3 e4 e5 e8 e10 e11 + 6 e1 e2 e3 e4 e5 e8 e10 e12 - 11 e1 e2 e3 e4 e6 e7 e9 e11 + 2 e1 e2 e3 e4 e6 e7 e9 e12 + 4 e1 e2 e3 e4 e6 e7 e10 e12 + 9 e1 e2 e3 e4 e6 e8 e9 e11 - 24 e1 e2 e3 e4 e6 e8 e9 e12 - 18 e1 e2 e3 e4 e6 e8 e10 e11 + 9 e1 e2 e3 e4 e6 e8 e10 e12 + e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e11 - 9 e1 e3 e5 e6 e7 e8 e9 e12 - 5 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 4 e1 e3 e5 e8 e9 e10 e11 e12 + 2 e1 e3 e6 e7 e9 e10 e11 e12 - 5 e1 e3 e6 e8 e9 e10 e11 e12 - 8 e1 e4 e5 e6 e7 e8 e9 e12 - 8 e1 e4 e5 e6 e7 e8 e10 e11 + 5 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e8 e9 e10 e11 e12 + 4 e1 e4 e6 e7 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 8 e2 e3 e5 e6 e7 e8 e9 e12 - 4 e2 e3 e5 e6 e7 e8 e10 e11 + 6 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 10 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 - 5 e2 e3 e6 e8 e9 e10 e11 e12 + 4 e2 e4 e5 e6 e7 e8 e9 e11 - 15 e2 e4 e5 e6 e7 e8 e9 e12 - 8 e2 e4 e5 e6 e7 e8 e10 e11 + 4 e2 e4 e5 e6 e7 e8 e10 e12 - 2 e2 e4 e5 e7 e9 e10 e11 e12 - 10 e2 e4 e5 e8 e9 e10 e11 e12 - 7 e2 e4 e6 e7 e9 e10 e11 e12 - 8 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- e1 e2 e3 e4 - e1 e3 e5 e7 + 6 e1 e3 e5 e8 + 3 e1 e3 e6 e7 + 4 e1 e3 e6 e8 + e1 e3 e9 e11 - 2 e1 e3 e9 e12 - 3 e1 e3 e10 e11 + 2 e1 e4 e6 e7 - 2 e1 e4 e9 e12 - 2 e1 e4 e10 e11 + 5 e2 e3 e6 e8 - 2 e2 e3 e10 e11 - e2 e3 e10 e12 - 2 e2 e4 e6 e7 + 5 e2 e4 e6 e8 + 2 e2 e4 e9 e12 - e2 e4 e10 e12 - e5 e6 e7 e8 + 2 e5 e7 e9 e12 + 4 e5 e7 e10 e11 + e5 e7 e10 e12 - 6 e5 e8 e9 e11 - 4 e5 e8 e9 e12 - 6 e5 e8 e10 e11 - 4 e6 e7 e9 e11 + 2 e6 e7 e10 e11 + 3 e6 e7 e10 e12 - 5 e6 e8 e9 e11 - 8 e6 e8 e9 e12 - 11 e6 e8 e10 e11 - 4 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "2 e1 e3 e6 e7 - 10 e1 e3 e6 e8 - 4 e1 e3 e9 e12 + 6 e1 e3 e10 e12 - 2 e1 e4 e5 e7 - 2 e1 e4 e6 e8 + 2 e1 e4 e9 e11 - 2 e1 e4 e9 e12 + 2 e2 e3 e5 e7 - 6 e2 e3 e5 e8 - 8 e2 e3 e6 e8 - 4 e2 e3 e9 e11 + 4 e2 e4 e5 e7 - 6 e2 e4 e5 e8 - 6 e2 e4 e6 e8 - 6 e2 e4 e9 e11 + 2 e2 e4 e9 e12 - 2 e5 e8 e9 e11 + 2 e5 e8 e9 e12 + 2 e6 e7 e10 e12",
+     "f2": "10 e1 e2 e3 e4 e5 e6 e7 e8 - e1 e2 e3 e4 e5 e7 e9 e11 - 4 e1 e2 e3 e4 e5 e7 e9 e12 - 3 e1 e2 e3 e4 e5 e7 e10 e11 + 4 e1 e2 e3 e4 e5 e8 e9 e11 + 10 e1 e2 e3 e4 e5 e8 e9 e12 + 6 e1 e2 e3 e4 e5 e8 e10 e11 - 6 e1 e2 e3 e4 e5 e8 e10 e12 + 5 e1 e2 e3 e4 e6 e7 e9 e11 - e1 e2 e3 e4 e6 e7 e10 e11 - 4 e1 e2 e3 e4 e6 e7 e10 e12 - 6 e1 e2 e3 e4 e6 e8 e9 e11 + 16 e1 e2 e3 e4 e6 e8 e9 e12 + 12 e1 e2 e3 e4 e6 e8 e10 e11 - 5 e1 e2 e3 e4 e6 e8 e10 e12 + 2 e1 e2 e3 e4 e9 e10 e11 e12 + 6 e1 e3 e5 e6 e7 e8 e9 e12 + 4 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e6 e7 e8 e10 e12 - 2 e1 e3 e5 e7 e9 e10 e11 e12 - 4 e1 e3 e6 e7 e9 e10 e11 e12 + 3 e1 e3 e6 e8 e9 e10 e11 e12 + 2 e1 e4 e5 e6 e7 e8 e9 e12 + 2 e1 e4 e5 e6 e7 e8 e10 e11 - 2 e1 e4 e5 e6 e7 e8 e10 e12 - 2 e1 e4 e6 e7 e9 e10 e11 e12 - e2 e3 e5 e6 e7 e8 e9 e11 + 6 e2 e3 e5 e6 e7 e8 e9 e12 + 3 e2 e3 e5 e6 e7 e8 e10 e11 - 4 e2 e3 e5 e6 e7 e8 e10 e12 - e2 e3 e5 e7 e9 e10 e11 e12 + 6 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 + 4 e2 e3 e6 e8 e9 e10 e11 e12 - e2 e4 e5 e6 e7 e8 e9 e11 + 4 e2 e4 e5 e6 e7 e8 e9 e12 + e2 e4 e5 e6 e7 e8 e10 e11 - 2 e2 e4 e5 e6 e7 e8 e10 e12 - e2 e4 e5 e7 e9 e10 e11 e12 + 6 e2 e4 e5 e8 e9 e10 e11 e12 + 3 e2 e4 e6 e7 e9 e10 e11 e12 + 4 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- e1 e2 e3 e4 + 2 e1 e3 e5 e8 + 3 e1 e3 e6 e8 - e1 e3 e9 e12 - 2 e1 e3 e10 e11 + 2 e1 e4 e6 e7 - e1 e4 e9 e12 - 2 e1 e4 e10 e11 + 3 e2 e3 e6 e8 - 2 e2 e3 e10 e11 + e2 e4 e5 e7 - e2 e4 e6 e7 + 4 e2 e4 e6 e8 - e2 e4 e9 e11 - e2 e4 e9 e12 - 3 e2 e4 e10 e11 - e2 e4 e10 e12 - e5 e6 e7 e8 + e5 e7 e9 e12 + 2 e5 e7 e10 e11 - 4 e5 e8 e9 e11 - 3 e5 e8 e9 e12 - 4 e5 e8 e10 e11 - 2 e6 e7 e9 e11 + 2 e6 e7 e10 e11 + 2 e6 e7 e10 e12 - 3 e6 e8 e9 e11 - 5 e6 e8 e9 e12 - 7 e6 e8 e10 e11 - 3 e6 e8 e10 e12",
+     "a2": "2 e1 e2 e3 e4 - 2 e1 e3 e5 e8 - 6 e1 e3 e6 e8 - 2 e1 e3 e9 e11 - e1 e3 e9 e12 + 2 e1 e3 e10 e12 - 2 e1 e4 e5 e7 - 2 e1 e4 e6 e8 + 2 e1 e4 e9 e11 - e1 e4 e9 e12 - 4 e2 e3 e5 e8 - 6 e2 e3 e6 e8 - 2 e2 e3 e9 e11 - 4 e2 e4 e5 e8 - 2 e2 e4 e6 e7 - 6 e2 e4 e6 e8 - 4 e2 e4 e9 e11 + e2 e4 e9 e12 + e5 e7 e9 e12 - 2 e5 e8 e9 e11 + e5 e8 e9 e12 + 2 e6 e7 e10 e12 + e6 e8 e9 e12",
+     "f2": "10 e1 e2 e3 e4 e5 e6 e7 e8 - e1 e2 e3 e4 e5 e7 e9 e11 + e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 - e1 e2 e3 e4 e5 e7 e10 e12 + 4 e1 e2 e3 e4 e5 e8 e9 e11 + 5 e1 e2 e3 e4 e5 e8 e9 e12 + 4 e1 e2 e3 e4 e5 e8 e10 e11 - 2 e1 e2 e3 e4 e5 e8 e10 e12 + 5 e1 e2 e3 e4 e6 e7 e9 e11 + e1 e2 e3 e4 e6 e7 e10 e11 - e1 e2 e3 e4 e6 e7 e10 e12 - 4 e1 e2 e3 e4 e6 e8 e9 e11 + 13 e1 e2 e3 e4 e6 e8 e9 e12 + 10 e1 e2 e3 e4 e6 e8 e10 e11 - 4 e1 e2 e3 e4 e6 e8 e10 e12 - e1 e2 e3 e4 e9 e10 e11 e12 - e1 e3 e5 e6 e7 e8 e9 e11 + 5 e1 e3 e5 e6 e7 e8 e9 e12 + 3 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e6 e7 e8 e10 e12 + 2 e1 e3 e5 e8 e9 e10 e11 e12 + 3 e1 e3 e6 e8 e9 e10 e11 e12 + e1 e4 e5 e6 e7 e8 e9 e12 + 2 e1 e4 e5 e6 e7 e8 e10 e11 - 2 e1 e4 e5 e6 e7 e8 e10 e12 - 2 e1 e4 e6 e7 e9 e10 e11 e12 - e2 e3 e5 e6 e7 e8 e9 e11 + 4 e2 e3 e5 e6 e7 e8 e9 e12 + 3 e2 e3 e5 e6 e7 e8 e10 e11 - 3 e2 e3 e5 e6 e7 e8 e10 e12 + 4 e2 e3 e5 e8 e9 e10 e11 e12 + 3 e2 e3 e6 e8 e9 e10 e11 e12 - 2 e2 e4 e5 e6 e7 e8 e9 e11 + 7 e2 e4 e5 e6 e7 e8 e9 e12 + 4 e2 e4 e5 e6 e7 e8 e10 e11 - 2 e2 e4 e5 e6 e7 e8 e10 e12 + e2 e4 e5 e7 e9 e10 e11 e12 + 4 e2 e4 e5 e8 e9 e10 e11 e12 + 3 e2 e4 e6 e7 e9 e10 e11 e12 + 4 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "2 e1 e2 e3 e4 - 6 e1 e3 e5 e8 - e1 e3 e6 e7 - 6 e1 e3 e6 e8 + 2 e1 e3 e9 e12 + 5 e1 e3 e10 e11 - 5 e1 e4 e6 e7 + 4 e1 e4 e9 e12 + 5 e1 e4 e10 e11 - 6 e2 e3 e6 e8 + 4 e2 e3 e10 e11 - 2 e2 e4 e5 e7 + 3 e2 e4 e6 e7 - 8 e2 e4 e6 e8 + 2 e2 e4 e9 e11 + 5 e2 e4 e10 e11 + 2 e2 e4 e10 e12 + e5 e6 e7 e8 - 2 e5 e7 e9 e12 - 5 e5 e7 e10 e11 + 10 e5 e8 e9 e11 + 6 e5 e8 e9 e12 + 9 e5 e8 e10 e11 + 5 e6 e7 e9 e11 - e6 e7 e9 e12 - 6 e6 e7 e10 e11 - 5 e6 e7 e10 e12 + 6 e6 e8 e9 e11 + 12 e6 e8 e9 e12 + 15 e6 e8 e10 e11 + 6 e6 e8 e10 e12 + e9 e10 e11 e12",
+     "a2": "- 3 e1 e2 e3 e4 + 3 e1 e3 e5 e8 - 2 e1 e3 e6 e7 + 14 e1 e3 e6 e8 + 4 e1 e3 e9 e11 + 3 e1 e3 e9 e12 - 6 e1 e3 e10 e12 + 5 e1 e4 e5 e7 + 4 e1 e4 e6 e8 - 5 e1 e4 e9 e11 + 4 e1 e4 e9 e12 - e2 e3 e5 e7 + 9 e2 e3 e5 e8 - 2 e2 e3 e6 e7 + 12 e2 e3 e6 e8 + 5 e2 e3 e9 e11 + e2 e3 e9 e12 - 2 e2 e4 e5 e7 + 9 e2 e4 e5 e8 + 2 e2 e4 e6 e7 + 12 e2 e4 e6 e8 + 10 e2 e4 e9 e11 - 3 e2 e4 e9 e12 - e5 e7 e9 e12 + 5 e5 e8 e9 e11 - 4 e5 e8 e9 e12 - 5 e6 e7 e10 e12 + e6 e8 e10 e11",
+     "f2": "- 17 e1 e2 e3 e4 e5 e6 e7 e8 + 2 e1 e2 e3 e4 e5 e7 e9 e11 + e1 e2 e3 e4 e5 e7 e9 e12 + 2 e1 e2 e3 e4 e5 e7 e10 e12 - 9 e1 e2 e3 e4 e5 e8 e9 e11 - 13 e1 e2 e3 e4 e5 e8 e9 e12 - 9 e1 e2 e3 e4 e5 e8 e10 e11 + 6 e1 e2 e3 e4 e5 e8 e10 e12 - 12 e1 e2 e3 e4 e6 e7 e9 e11 + 3 e1 e2 e3 e4 e6 e7 e9 e12 + e1 e2 e3 e4 e6 e7 e10 e11 + 3 e1 e2 e3 e4 e6 e7 e10 e12 + 8 e1 e2 e3 e4 e6 e8 e9 e11 - 26 e1 e2 e3 e4 e6 e8 e9 e12 - 21 e1 e2 e3 e4 e6 e8 e10 e11 + 8 e1 e2 e3 e4 e6 e8 e10 e12 + e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e11 - 10 e1 e3 e5 e6 e7 e8 e9 e12 - 6 e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e6 e7 e8 e10 e12 + e1 e3 e5 e7 e9 e10 e11 e12 - 4 e1 e3 e5 e8 e9 e10 e11 e12 + 2 e1 e3 e6 e7 e9 e10 e11 e12 - 5 e1 e3 e6 e8 e9 e10 e11 e12 - 4 e1 e4 e5 e6 e7 e8 e9 e12 - 5 e1 e4 e5 e6 e7 e8 e10 e11 + 5 e1 e4 e5 e6 e7 e8 e10 e12 + 5 e1 e4 e6 e7 e9 e10 e11 e12 - e1 e4 e6 e8 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 - 8 e2 e3 e5 e6 e7 e8 e9 e12 - 5 e2 e3 e5 e6 e7 e8 e10 e11 + 6 e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 - 10 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 - 6 e2 e3 e6 e8 e9 e10 e11 e12 + 3 e2 e4 e5 e6 e7 e8 e9 e11 - 12 e2 e4 e5 e6 e7 e8 e9 e12 - 6 e2 e4 e5 e6 e7 e8 e10 e11 + 3 e2 e4 e5 e6 e7 e8 e10 e12 - e2 e4 e5 e7 e9 e10 e11 e12 - 10 e2 e4 e5 e8 e9 e10 e11 e12 - 6 e2 e4 e6 e7 e9 e10 e11 e12 - 7 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- 2 e1 e2 e3 e4 + 4 e1 e3 e5 e8 + e1 e3 e6 e7 + 4 e1 e3 e6 e8 + e1 e3 e9 e11 - e1 e3 e9 e12 - 3 e1 e3 e10 e11 + 3 e1 e4 e6 e7 + e1 e4 e6 e8 - e1 e4 e9 e11 - 3 e1 e4 e9 e12 - 4 e1 e4 e10 e11 + 5 e2 e3 e6 e8 - 3 e2 e3 e10 e11 + 2 e2 e4 e5 e7 - e2 e4 e6 e7 + 6 e2 e4 e6 e8 - e2 e4 e9 e11 - e2 e4 e9 e12 - 5 e2 e4 e10 e11 - 2 e2 e4 e10 e12 - e5 e6 e7 e8 - e5 e7 e9 e11 + e5 e7 e9 e12 + 3 e5 e7 e10 e11 - 7 e5 e8 e9 e11 - 5 e5 e8 e9 e12 - 6 e5 e8 e10 e11 - 5 e6 e7 e9 e11 - e6 e7 e9 e12 + 3 e6 e7 e10 e11 + 3 e6 e7 e10 e12 - 5 e6 e8 e9 e11 - 8 e6 e8 e9 e12 - 10 e6 e8 e10 e11 - 4 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "2 e1 e2 e3 e4 - 2 e1 e3 e5 e8 + e1 e3 e6 e7 - 9 e1 e3 e6 e8 - 3 e1 e3 e9 e11 - 3 e1 e3 e9 e12 + 4 e1 e3 e10 e12 - 4 e1 e4 e5 e7 - e1 e4 e6 e7 - 3 e1 e4 e6 e8 + 2 e1 e4 e9 e11 - 2 e1 e4 e9 e12 - 6 e2 e3 e5 e8 - 8 e2 e3 e6 e8 - 5 e2 e3 e9 e11 - e2 e3 e9 e12 - 6 e2 e4 e5 e8 - 3 e2 e4 e6 e7 - 9 e2 e4 e6 e8 - 7 e2 e4 e9 e11 + e2 e4 e9 e12 - e5 e7 e9 e11 + e5 e7 e9 e12 - 2 e5 e8 e9 e11 + 2 e5 e8 e9 e12 + 3 e6 e7 e10 e12 + e6 e8 e10 e12",
+     "f2": "15 e1 e2 e3 e4 e5 e6 e7 e8 - 3 e1 e2 e3 e4 e5 e7 e9 e11 + e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 - 2 e1 e2 e3 e4 e5 e7 e10 e12 + 8 e1 e2 e3 e4 e5 e8 e9 e11 + 10 e1 e2 e3 e4 e5 e8 e9 e12 + 6 e1 e2 e3 e4 e5 e8 e10 e11 - 4 e1 e2 e3 e4 e5 e8 e10 e12 + 8 e1 e2 e3 e4 e6 e7 e9 e11 + 2 e1 e2 e3 e4 e6 e7 e9 e12 + e1 e2 e3 e4 e6 e7 e10 e11 - 3 e1 e2 e3 e4 e6 e7 e10 e12 - 7 e1 e2 e3 e4 e6 e8 e9 e11 + 18 e1 e2 e3 e4 e6 e8 e9 e12 + 14 e1 e2 e3 e4 e6 e8 e10 e11 - 6 e1 e2 e3 e4 e6 e8 e10 e12 + 2 e1 e2 e3 e4 e9 e10 e11 e12 + 7 e1 e3 e5 e6 e7 e8 e9 e12 + 4 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e6 e7 e8 e10 e12 - e1 e3 e5 e7 e9 e10 e11 e12 + 3 e1 e3 e5 e8 e9 e10 e11 e12 - e1 e3 e6 e7 e9 e10 e11 e12 + 3 e1 e3 e6 e8 e9 e10 e11 e12 + 4 e1 e4 e5 e6 e7 e8 e9 e12 + 4 e1 e4 e5 e6 e7 e8 e10 e11 - 4 e1 e4 e5 e6 e7 e8 e10 e12 + e1 e4 e5 e7 e9 e10 e11 e12 - 2 e1 e4 e6 e7 e9 e10 e11 e12 + 7 e2 e3 e5 e6 e7 e8 e9 e12 + 4 e2 e3 e5 e6 e7 e8 e10 e11 - 5 e2 e3 e5 e6 e7 e8 e10 e12 + 7 e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e7 e9 e10 e11 e12 + 3 e2 e3 e6 e8 e9 e10 e11 e12 - 2 e2 e4 e5 e6 e7 e8 e9 e11 + 11 e2 e4 e5 e6 e7 e8 e9 e12 + 6 e2 e4 e5 e6 e7 e8 e10 e11 - 3 e2 e4 e5 e6 e7 e8 e10 e12 + e2 e4 e5 e7 e9 e10 e11 e12 + 7 e2 e4 e5 e8 e9 e10 e11 e12 + 5 e2 e4 e6 e7 e9 e10 e11 e12 + 5 e2 e4 e6 e8 e9 e10 e11 e12 - e5 e6 e7 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    },
+    {
+     "a1": "- 2 e1 e2 e3 e4 + 6 e1 e3 e5 e8 + 6 e1 e3 e6 e8 - e1 e3 e9 e12 - 5 e1 e3 e10 e11 + 6 e1 e4 e6 e7 - 5 e1 e4 e9 e12 - 5 e1 e4 e10 e11 + 6 e2 e3 e6 e8 - 4 e2 e3 e10 e11 + 2 e2 e4 e5 e7 - 4 e2 e4 e6 e7 + 8 e2 e4 e6 e8 - 2 e2 e4 e9 e11 + e2 e4 e9 e12 - 5 e2 e4 e10 e11 - 2 e2 e4 e10 e12 + e5 e7 e9 e12 + 5 e5 e7 e10 e11 - 12 e5 e8 e9 e11 - 5 e5 e8 e9 e12 - 9 e5 e8 e10 e11 - 6 e6 e7 e9 e11 + 2 e6 e7 e9 e12 + 8 e6 e7 e10 e11 + 6 e6 e7 e10 e12 - 6 e6 e8 e9 e11 - 11 e6 e8 e9 e12 - 13 e6 e8 e10 e11 - 6 e6 e8 e10 e12 - e9 e10 e11 e12",
+     "a2": "3 e1 e2 e3 e4 - 3 e1 e3 e5 e8 + 3 e1 e3 e6 e7 - 12 e1 e3 e6 e8 - 6 e1 e3 e9 e11 - 2 e1 e3 e9 e12 + 6 e1 e3 e10 e12 - 5 e1 e4 e5 e7 + e1 e4 e6 e7 - 5 e1 e4 e6 e8 + 6 e1 e4 e9 e11 - 6 e1 e4 e9 e12 + e2 e3 e5 e7 - 9 e2 e3 e5 e8 + 4 e2 e3 e6 e7 - 11 e2 e3 e6 e8 - 6 e2 e3 e9 e11 - 2 e2 e3 e9 e12 + 2 e2 e4 e5 e7 - 9 e2 e4 e5 e8 - e2 e4 e6 e7 - 10 e2 e4 e6 e8 - 12 e2 e4 e9 e11 + 4 e2 e4 e9 e12 - e5 e6 e7 e8 - 6 e5 e8 e9 e11 + 6 e5 e8 e9 e12 + 6 e6 e7 e10 e12 + e9 e10 e11 e12",
+     "f2": "14 e1 e2 e3 e4 e5 e6 e7 e8 - 2 e1 e2 e3 e4 e5 e7 e9 e11 - 2 e1 e2 e3 e4 e5 e7 e9 e12 - 2 e1 e2 e3 e4 e5 e7 e10 e12 + 12 e1 e2 e3 e4 e5 e8 e9 e11 + 13 e1 e2 e3 e4 e5 e8 e9 e12 + 9 e1 e2 e3 e4 e5 e8 e10 e11 - 6 e1 e2 e3 e4 e5 e8 e10 e12 + 16 e1 e2 e3 e4 e6 e7 e9 e11 - 7 e1 e2 e3 e4 e6 e7 e9 e12 - 3 e1 e2 e3 e4 e6 e7 e10 e11 - 2 e1 e2 e3 e4 e6 e7 e10 e12 - 8 e1 e2 e3 e4 e6 e8 e9 e11 + 22 e1 e2 e3 e4 e6 e8 e9 e12 + 18 e1 e2 e3 e4 e6 e8 e10 e11 - 8 e1 e2 e3 e4 e6 e8 e10 e12 - 2 e1 e2 e3 e4 e9 e10 e11 e12 + 8 e1 e3 e5 e6 e7 e8 e9 e12 + 4 e1 e3 e5 e6 e7 e8 e10 e11 - e1 e3 e5 e7 e9 e10 e11 e12 + 6 e1 e3 e5 e8 e9 e10 e11 e12 - e1 e3 e6 e7 e9 e10 e11 e12 + 5 e1 e3 e6 e8 e9 e10 e11 e12 + 5 e1 e4 e5 e6 e7 e8 e9 e12 + 5 e1 e4 e5 e6 e7 e8 e10 e11 - 6 e1 e4 e5 e6 e7 e8 e10 e12 - e1 e4 e5 e8 e9 e10 e11 e12 - 7 e1 e4 e6 e7 e9 e10 e11 e12 + 7 e2 e3 e5 e6 e7 e8 e9 e12 + 3 e2 e3 e5 e6 e7 e8 e10 e11 - 6 e2 e3 e5 e6 e7 e8 e10 e12 - e2 e3 e5 e7 e9 e10 e11 e12 + 11 e2 e3 e5 e8 e9 e10 e11 e12 - 2 e2 e3 e6 e7 e9 e10 e11 e12 + 5 e2 e3 e6 e8 e9 e10 e11 e12 - 2 e2 e4 e5 e6 e7 e8 e9 e11 + 10 e2 e4 e5 e6 e7 e8 e9 e12 + 4 e2 e4 e5 e6 e7 e8 e10 e11 - 2 e2 e4 e5 e6 e7 e8 e10 e12 + e2 e4 e5 e7 e9 e10 e11 e12 + 12 e2 e4 e5 e8 e9 e10 e11 e12 + 7 e2 e4 e6 e7 e9 e10 e11 e12 + 7 e2 e4 e6 e8 e9 e10 e11 e12",
+     "f2_class": "0"
+    }
+   ],
+   "functionals": [
+    "e1 e2 e3 e4 e5 e6 e7 e8 + e1 e2 e3 e4 e5 e7 e9 e12 + e1 e2 e3 e4 e5 e7 e10 e11 + e1 e2 e3 e4 e5 e8 e9 e11 + e1 e2 e3 e4 e5 e8 e10 e11 + e1 e2 e3 e4 e5 e8 e10 e12 + e1 e2 e3 e4 e6 e7 e9 e11 + e1 e2 e3 e4 e6 e7 e9 e12 + e1 e2 e3 e4 e6 e7 e10 e12 + e1 e2 e3 e4 e6 e8 e9 e12 + e1 e2 e3 e4 e6 e8 e10 e11 + e1 e2 e3 e4 e9 e10 e11 e12 + e1 e3 e5 e6 e7 e8 e9 e12 + e1 e3 e5 e6 e7 e8 e10 e11 + e1 e3 e5 e8 e9 e10 e11 e12 + e1 e3 e6 e7 e9 e10 e11 e12 + e1 e4 e5 e6 e7 e8 e9 e11 + e1 e4 e5 e6 e7 e8 e10 e11 + e1 e4 e5 e6 e7 e8 e10 e12 + e1 e4 e5 e7 e9 e10 e11 e12 + e1 e4 e6 e7 e9 e10 e11 e12 + e1 e4 e6 e8 e9 e10 e11 e12 + e2 e3 e5 e6 e7 e8 e9 e11 + e2 e3 e5 e6 e7 e8 e9 e12 + e2 e3 e5 e6 e7 e8 e10 e12 + e2 e3 e5 e7 e9 e10 e11 e12 + e2 e3 e5 e8 e9 e10 e11 e12 + e2 e3 e6 e8 e9 e10 e11 e12 + e2 e4 e5 e6 e7 e8 e9 e12 + e2 e4 e5 e6 e7 e8 e10 e11 + e2 e4 e5 e8 e9 e10 e11 e12 + e2 e4 e6 e7 e9 e10 e11 e12 + e5 e6 e7 e8 e9 e10 e11 e12"
+   ],
+   "matrix_mod2": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "rank": 0
+  }
+ ],
+ "fp": {
+  "2": {
+   "H0": [
+    1,
+    12,
+    64,
+    196,
+    366,
+    404,
+    224,
+    28,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "H1": [
+    0,
+    0,
+    2,
+    40,
+    224,
+    600,
+    860,
+    600,
+    224,
+    40,
+    2,
+    0,
+    0
+   ],
+   "uct_H0": [
+    1,
+    12,
+    64,
+    196,
+    366,
+    404,
+    224,
+    28,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "uct_H1": [
+    0,
+    0,
+    2,
+    40,
+    224,
+    600,
+    860,
+    600,
+    224,
+    40,
+    2,
+    0,
+    0
+   ],
+   "agree": true,
+   "f2_rank": [
+    0,
+    0,
+    0,
+    16,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "uct_H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "uct_H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "agree": true
+  },
+  "5": {
+   "H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "uct_H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "uct_H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "agree": true
+  },
+  "7": {
+   "H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "uct_H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "uct_H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "agree": true
+  },
+  "11": {
+   "H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "uct_H0": [
+    1,
+    12,
+    64,
+    196,
+    364,
+    392,
+    196,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "uct_H1": [
+    0,
+    0,
+    0,
+    28,
+    196,
+    572,
+    858,
+    572,
+    196,
+    28,
+    0,
+    0,
+    0
+   ],
+   "agree": true
+  }
+ },
+ "flint": {
+  "block_mismatches": [],
+  "f2_image_log2_order": {
+   "3": 16,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0
+  },
+  "f2_image_odd_part": {
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1
+  }
+ },
+ "check_seconds": 17.3,
+ "main_seconds": 2.2
+}
